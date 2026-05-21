@@ -8,7 +8,7 @@ category: Envejecimiento
 tags:
   - ley de janet
   - envejecimiento
-summary: ¿Te acuerdas de los veranos de la infancia? Aquellos tres meses de vacaciones escolares parecían una era geológica completa. Daba tiempo a aburrirse, a aprender a montar en bicicleta, a olvidar lo aprendido en el colegio y a sentir que el regreso a las aulas pertenecía a un futuro increíblemente lejano. En cambio, si ya has soplado unas cuantas velas en tu tarta de cumpleaños, es muy probable que sientas que la vida se ha metido en una autopista sin frenos. La Navidad llega cada vez más rápido, los años se evaporan y los meses parecen semanas. El reloj de tu muñeca y el calendario de la pared dicen que un año sigue teniendo exactamente 365 días, 5 horas, 48 minutos y 45 segundos. La física del tiempo no ha cambiado. Entonces, ¿por qué nuestra mente insiste en que el tiempo se está acelerando? La respuesta no es solo psicológica; también se puede meter dentro de una elegante ecuación matemática.
+summary: ¿Te acuerdas de los veranos de la infancia? Aquellos tres meses parecían una era geológica. En cambio, con los años, la vida parece entrar en una autopista sin frenos: la Navidad llega antes, los meses parecen semanas y los años se evaporan. El calendario sigue diciendo que un año tiene 365 días, 5 horas, 48 minutos y 45 segundos. La física del tiempo no ha cambiado. Entonces, ¿por qué nuestra mente insiste en que el tiempo se acelera? La respuesta no es solo psicológica; también cabe dentro de una elegante ecuación matemática.
 image: images/janet.jpg
 ---
 
@@ -31,8 +31,7 @@ $$T(t) = \alpha \ln\left(\frac{t}{3}\right).$$
 
 ¡La percepción del tiempo es logarítmica! Si recuerdas cómo es la curva de un logaritmo, empieza subiendo de forma muy empinada y luego se aplana, avanzando de manera sumamente lenta. Eso es exactamente lo que le ocurre a nuestra vida sentida: acumulamos minutos psicológicos cada vez más despacio.
 
-[Gráfica del logaritmo, "log.jpg"]
-
+![Gráfica del logaritmo](images/janet.jpg)
 ---
 
 ## El gran cálculo: ¿A qué edad se agota la "mitad" de nuestra vida?
