@@ -1,5 +1,5 @@
 ---
-title: El misterio del tiempo acelerado: ¿Por qué la vida "vuela" a medida que envejecemos?
+title: 'El misterio del tiempo acelerado: ¿Por qué la vida "vuela" a medida que envejecemos?'
 author: Gabriel Sánchez Pérez
 date: 2026-05-21
 layout: articles
@@ -9,7 +9,7 @@ tags:
   - ley de janet
   - envejecimiento
 summary: ¿Te acuerdas de los veranos de la infancia? Aquellos tres meses de vacaciones escolares parecían una era geológica completa. Daba tiempo a aburrirse, a aprender a montar en bicicleta, a olvidar lo aprendido en el colegio y a sentir que el regreso a las aulas pertenecía a un futuro increíblemente lejano. En cambio, si ya has soplado unas cuantas velas en tu tarta de cumpleaños, es muy probable que sientas que la vida se ha metido en una autopista sin frenos. La Navidad llega cada vez más rápido, los años se evaporan y los meses parecen semanas. El reloj de tu muñeca y el calendario de la pared dicen que un año sigue teniendo exactamente 365 días, 5 horas, 48 minutos y 45 segundos. La física del tiempo no ha cambiado. Entonces, ¿por qué nuestra mente insiste en que el tiempo se está acelerando? La respuesta no es solo psicológica; también se puede meter dentro de una elegante ecuación matemática.
-
+image: images/janet.jpg
 ---
 
 [TOC]
