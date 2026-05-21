@@ -3000,10 +3000,11 @@ footer a,
     flex-direction: column;
     align-items: flex-start;
   }
-
-  .nn-footer-contact {
-    justify-content: flex-start;
-  }
+  
+.nn-footer-contact {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 }
 
 @media (max-width: 520px) {
