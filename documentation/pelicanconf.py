@@ -136,7 +136,7 @@ X_USERNAME = "napkiinnotes"
 X_PROFILE_URL = "https://twitter.com/napkiinnotes"
 TWITTER_USERNAME = "napkiinnotes"
 FEATURED_IMAGE = SITEURL + "/theme/images/nn_logo.png"
-
+CONTACT_EMAIL = "napkiin.notes@proton.me"
 # Legal
 SITE_LICENSE = """Contenido publicado bajo licencia <a rel="license nofollow noopener noreferrer"
     href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
