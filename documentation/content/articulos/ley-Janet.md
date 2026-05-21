@@ -8,7 +8,7 @@ category: Envejecimiento
 tags:
   - ley de janet
   - envejecimiento
-summary: ¿Te acuerdas de los veranos de la infancia? Aquellos tres meses parecían una era geológica. En cambio, con los años, la vida parece entrar en una autopista sin frenos: la Navidad llega antes, los meses parecen semanas y los años se evaporan. El calendario sigue diciendo que un año tiene 365 días, 5 horas, 48 minutos y 45 segundos. La física del tiempo no ha cambiado. Entonces, ¿por qué nuestra mente insiste en que el tiempo se acelera? La respuesta no es solo psicológica; también cabe dentro de una elegante ecuación matemática.
+summary: '¿Te acuerdas de los veranos de la infancia? Aquellos tres meses parecían una era geológica. En cambio, con los años, la vida parece entrar en una autopista sin frenos: la Navidad llega antes, los meses parecen semanas y los años se evaporan. El calendario sigue diciendo que un año tiene 365 días, 5 horas, 48 minutos y 45 segundos. La física del tiempo no ha cambiado. Entonces, ¿por qué nuestra mente insiste en que el tiempo se acelera? La respuesta no es solo psicológica; también cabe dentro de una elegante ecuación matemática.'
 image: images/janet.jpg
 ---
 
