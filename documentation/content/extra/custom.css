@@ -3016,17 +3016,37 @@ footer a,
 
   .nn-footer-contact__link {
     box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 22px minmax(0, 1fr);
+    grid-template-areas:
+      "icon label"
+      "icon value";
+    column-gap: 10px;
+    row-gap: 2px;
     width: 100%;
     max-width: 100%;
     min-width: 0;
     justify-content: flex-start;
+    align-items: center;
     white-space: normal;
-    overflow-wrap: anywhere;
-    word-break: break-word;
+  }
+
+  .nn-footer-contact__icon {
+    grid-area: icon;
+    align-self: center;
+  }
+
+  .nn-footer-contact__link span:not(.nn-footer-contact__icon) {
+    grid-area: label;
+    min-width: 0;
+    line-height: 1.15;
   }
 
   .nn-footer-contact__link strong {
+    grid-area: value;
     min-width: 0;
+    max-width: 100%;
+    line-height: 1.15;
     overflow-wrap: anywhere;
     word-break: break-word;
   }
