@@ -6,25 +6,16 @@ layout: articles
 status: .... <!-- (published si ya está listo)-->
 category: .... <!-- (si ya existe una en https://david-figuer.github.io/napkinnotes/explorar esa sino una nueva, en mayúscula la primera letra)-->
 tags:  <!-- (si ya existe una en https://david-figuer.github.io/napkinnotes/explorar esa sino una nueva, en minúscula la primera letra)-->
-  - ....
-  - ....
-  - ....
-summary: ....  <!--  (una frase, es la que aparece en la tarjeta de artículo)-->
-image: images/___.png <!-- (el nombre que le pongais a la imagen que me mandáis)-->
+tags:
+  - bla
+  - blabla
+  - bli bli
+  - ninni
+summary: <!--1-2-3 frases corta que aparece en la terjeta del artículo -->
+image: images/nombre_de_la_imagen_que_me_mandeis.png
 ---
 
 [TOC]
-
-## Resumen
-
-.... <!--(el resumen bueno)-->
-
-<!-- Fin de resumen-->
----
-
-
-
-
 
 
 
@@ -36,25 +27,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### Sub-Sección
 
-
 <!--preguntas con recuadro bonito -->
 > **¿Cuánta el gramo quillo?**
 <!--preguntas con recuadro bonito -->
 
+
 Fórmulas:
 <!--(en  entorno $$ $$, todo es como latex): -->
-
 $$
-A = 2\pi \int_1^{\infty} \frac{1}{x} \sqrt{1 + \left(\frac{1}{x^2}\right)^2} \, dx
+\rho c_p \frac{\partial T}{\partial t} = k \nabla^2 T + Q_{\text{abs}}
 $$
-
 <!--(en linea de texto):  -->
-
 bla bla bla \(J\) lari lari lari
+
+c<sub>p</sub> <!-- subindice fuera de entorno $$ $$ -->
 
 
 <!-- (en linea de texto, también vale si sabéis markdomn como se hacen cosas): -->
  Negrita y cursiva: **una paradoja**.  *una paradoja*.
+
+
 
 
 <!--Un itemize de latex va así:-->
@@ -64,12 +56,16 @@ Lpresentan:
 - abc cba caracola
 - Maka make maki
 
-
 <!-- Fin de Seccion-->
 ---
 
 
+## Otra seccion
 
+<!-- Fin de Seccion-->
+---
+## Conclusiones
 
+Frases finales
 
-
+---
