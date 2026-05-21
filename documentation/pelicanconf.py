@@ -79,7 +79,7 @@ SOCIAL = (
     ("X", "https://twitter.com/napkiinnotes", "Napkin Notes en X"),
 )
 # Elegant theme
-STATIC_PATHS = ["theme/images", "images", "extra", "extra/_redirects", "code"]
+STATIC_PATHS = ["theme/images", "images", "extra", "extra/_redirects", "code", "articulos/template_articulos"]
 
 #metadata de netlify
 """EXTRA_PATH_METADATA = {
