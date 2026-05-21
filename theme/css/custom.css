@@ -2935,7 +2935,7 @@ footer a,
 }
 
 
-/* FOOTER X A LA DERECHA */
+/* FOOTER CONTACTO */
 
 .nn-footer-inner {
   display: flex;
@@ -2956,14 +2956,17 @@ footer a,
   color: var(--muted);
 }
 
-.nn-footer-x {
+.nn-footer-contact {
   flex: 0 0 auto;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 0;
 }
 
-.nn-footer-x a {
+.nn-footer-contact__link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -2975,17 +2978,20 @@ footer a,
   font-weight: 700;
   text-decoration: none !important;
   white-space: nowrap;
-  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
 }
 
-.nn-footer-x a:hover {
+.nn-footer-contact__link:hover {
   transform: translateY(-1px);
   border-color: rgba(196, 154, 102, 0.55);
   background: #f8ecdf;
   color: var(--richcarmine);
 }
 
-.nn-footer-x__icon {
+.nn-footer-contact__icon {
   font-size: 1rem;
   line-height: 1;
 }
@@ -2996,8 +3002,21 @@ footer a,
     align-items: flex-start;
   }
 
-  .nn-footer-x {
+  .nn-footer-contact {
     justify-content: flex-start;
+  }
+}
+
+@media (max-width: 520px) {
+  .nn-footer-contact {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nn-footer-contact__link {
+    max-width: 100%;
+    white-space: normal;
   }
 }
 
