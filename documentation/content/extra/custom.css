@@ -3825,3 +3825,46 @@ footer a,
     border-radius: 20px !important;
   }
 }
+
+/* =========================
+   TEMPLATE DOWNLOAD CARD
+========================= */
+
+.nn-template-card {
+  margin-top: 24px;
+}
+
+.nn-sidebar-card--template {
+  background: linear-gradient(180deg, #fffdfa 0%, #fdf4ea 100%);
+}
+
+.nn-template-card__text {
+  margin: 0 0 16px;
+  color: var(--muted);
+  text-align: justify;
+  line-height: 1.65;
+}
+
+.nn-template-card__button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+.nn-template-card__button::before {
+  content: "↓";
+  margin-right: 8px;
+  font-weight: 800;
+}
+
+@media (max-width: 980px) {
+  .nn-template-card__button {
+    width: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .nn-template-card__button {
+    width: 100%;
+  }
+}

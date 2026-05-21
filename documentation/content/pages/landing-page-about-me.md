@@ -48,3 +48,22 @@ y terminan, inevitablemente, en una servilleta.
 <button id="open-participa-modal" class="cta-button">
   ¿Quieres participar?
 </button>
+
+<!--Boton de descarga aqui por facilidad pero luego lo podemos cambiar al html-->
+
+<div class="nn-sidebar-card nn-sidebar-card--template nn-template-card">
+  <h3>Plantilla para artículos</h3>
+
+  <p class="nn-template-card__text">
+    Descarga la plantilla base para preparar tu artículo de Napkin Notes.
+    Incluye la estructura recomendada, metadatos y formato inicial.
+  </p>
+
+  <a
+    class="nn-home-sidebar__button nn-template-card__button"
+    href="/articulos/template_articulos/template.zip"
+    download
+  >
+    Descargar plantilla
+  </a>
+</div>
