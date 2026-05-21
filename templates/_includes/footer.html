@@ -18,11 +18,10 @@
             {% if AMAZON_ONELINK or AMAZON_BESTAZON %}
             <span class="site-name">{{ SITENAME }}</span> is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
             {% endif %}
+
             {% if AMAZON_ONELINK %}
-            <div id="amzn-assoc-ad-{{ AMAZON_ONELINK }}">
-            </div>
-            <script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId={{ AMAZON_ONELINK }}">
-            </script>
+            <div id="amzn-assoc-ad-{{ AMAZON_ONELINK }}"></div>
+            <script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId={{ AMAZON_ONELINK }}"></script>
             {% endif %}
 
             <div class="web-developers">
@@ -35,7 +34,7 @@
                 {% if HOSTED_ON and HOSTED_ON.name %}
                 · Alojado en
                 {% if HOSTED_ON.url %}
-                <a href={{ HOSTED_ON.url }} target="_blank" rel="nofollow noopener noreferrer">
+                <a href="{{ HOSTED_ON.url }}" target="_blank" rel="nofollow noopener noreferrer">
                     {{ HOSTED_ON.name }}
                 </a>
                 {% else %}
@@ -44,26 +43,29 @@
                 {% endif %}
             </div>
         </div>
-<div class="nn-footer-contact">
-    {% if X_PROFILE_URL %}
-    <a class="nn-footer-contact__link"
-       href="{{ X_PROFILE_URL }}"
-       target="_blank"
-       rel="me noopener noreferrer"
-       aria-label="Seguir a Napkin Notes en X">
-        <span class="nn-footer-contact__icon">𝕏</span>
-        <span>Síguenos en X</span>
-        <strong>@{{ X_USERNAME }}</strong>
-    </a>
-    {% endif %}
 
-    <a class="nn-footer-contact__link"
-       href="mailto:napkinnotes@gmail.com"
-       aria-label="Enviar correo a Napkin Notes">
-        <span class="nn-footer-contact__icon">✉</span>
-        <span>Contacto</span>
-        <strong>napkinnotes@gmail.com</strong>
-    </a>
-</div>
+        <div class="nn-footer-contact">
+            {% if X_PROFILE_URL %}
+            <a class="nn-footer-contact__link"
+               href="{{ X_PROFILE_URL }}"
+               target="_blank"
+               rel="me noopener noreferrer"
+               aria-label="Seguir a Napkin Notes en X">
+                <span class="nn-footer-contact__icon">𝕏</span>
+                <span>Síguenos en X</span>
+                <strong>@{{ X_USERNAME }}</strong>
+            </a>
+            {% endif %}
+
+            {% if CONTACT_EMAIL %}
+            <a class="nn-footer-contact__link"
+               href="mailto:{{ CONTACT_EMAIL }}"
+               aria-label="Enviar correo a Napkin Notes">
+                <span class="nn-footer-contact__icon">✉</span>
+                <span>Contacto</span>
+                <strong>{{ CONTACT_EMAIL }}</strong>
+            </a>
+            {% endif %}
+        </div>
     </div>
 </footer>
