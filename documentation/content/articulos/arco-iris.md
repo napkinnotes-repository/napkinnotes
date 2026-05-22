@@ -128,7 +128,7 @@ creando distintos arcoíris.
 
 Así que la próxima vez que veas uno, recuerda:
 
-No está solo en el cielo.
+No es sólo un arcoíris en el cielo,
 
 Es un mensaje personal del universo, dibujado usando tu posición, tu ángulo, tu momento.
 
