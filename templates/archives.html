@@ -71,12 +71,16 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
         {% endif %}
       {% endif %}
 
-      <article class="article-card">
-        {% if image_url %}
-          <div class="card-media" style="background-image: url('{{ image_url }}');"></div>
-        {% else %}
-          <div class="card-media"></div>
-        {% endif %}
+<article class="article-card">
+  <a class="card-media-link"
+     href="{{ SITEURL }}/{{ article.url }}"
+     aria-label="Leer {{ article.title }}">
+    {% if image_url %}
+      <div class="card-media" style="background-image: url('{{ image_url }}');"></div>
+    {% else %}
+      <div class="card-media"></div>
+    {% endif %}
+  </a>
 
         <div class="card-body">
           <h3 class="card-title">
