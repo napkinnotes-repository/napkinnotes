@@ -3,7 +3,7 @@ title: ¿Cuál es la distancia promedio entre dos personas en Facebook?
 author: Duvier Suárez Fontanella
 date: 2026-04-15
 layout: articles
-status: published
+status: draft
 category: Ciencia de Datos
 tags:
   - redes sociales
