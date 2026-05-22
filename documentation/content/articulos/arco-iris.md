@@ -1,5 +1,5 @@
 ---
-title: ¡Tu arcoíris es solo tuyo!  
+title: ¡Tu arcoíris es sólo tuyo!  
 author: Ruchika 
 date: 2026-05-21
 layout: articles
@@ -34,7 +34,7 @@ Suena poético, casi filosófico, pero en realidad es física, siendo discretame
 
 Imagina esto.
 
-Acaba de llover. El aire huele fresco, de ese tipo que te hace respirar hondo sin ningún motivo. Te giras, y ahí está: un arcoíris. Sonríes. Alguien que está de pie a solo unos pasos de ti también ve uno.
+Acaba de llover. El aire huele fresco, de ese tipo que te hace respirar hondo sin ningún motivo. Te giras, y ahí está: un arcoíris. Sonríes. Alguien que está de pie a sólo unos pasos de ti también ve uno.
 
 Mismo cielo. Misma lluvia. Mismo Sol.
 
@@ -43,7 +43,7 @@ Pero no el mismo arcoíris.
 ⸻
 
 Ahora, todos crecimos con una pregunta clásica:
-“¿Por qué solo vemos medio arcoíris?”
+“¿Por qué sólo vemos medio arcoíris?”
 
 Es una pregunta justa. Realmente parece como si alguien hubiera cortado un círculo perfecto por la mitad y lo hubiera colgado en el cielo.
 
@@ -90,7 +90,7 @@ Estás de pie, quieto. La pantalla de lluvia está frente a ti. El ángulo es fi
 
 Entonces, ¿qué forma puede aparecer bajo estas condiciones?
 
-Solo una respuesta sobrevive:
+Sólo una respuesta sobrevive:
 
 Un círculo.
 
@@ -100,7 +100,7 @@ En silencio. Inevitablemente.
 
 ⸻
 
-“Pero espera”, dices, “entonces ¿por qué solo veo la mitad?”
+“Pero espera”, dices, “entonces ¿por qué sólo veo la mitad?”
 
 Porque la Tierra se interpone.
 
@@ -110,7 +110,7 @@ Los pilotos lo ven más a menudo y, sinceramente, deberían presumir más de ell
 
 
 ---
-## Tu arcoíris es solo tuyo
+## Tu arcoíris es sólo tuyo
 
 Y ahora, el giro final.
 
