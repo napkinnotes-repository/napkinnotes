@@ -63,7 +63,8 @@ Buena suposición. Pero piénsalo.
 
 Esa explicación se siente… incompleta.
 
-⸻
+---
+
 
 ## El ángulo secreto de la luz
 
@@ -107,8 +108,8 @@ Si estuvieras flotando en el cielo —digamos, en un avión— podrías ver el a
 
 Los pilotos lo ven más a menudo y, sinceramente, deberían presumir más de ello.
 
-⸻
 
+---
 ## Tu arcoíris es solo tuyo
 
 Y ahora, el giro final.
