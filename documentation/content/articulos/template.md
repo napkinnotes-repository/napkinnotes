@@ -1,17 +1,17 @@
 ---
-title: ....  <!-- (vuestro título)-->
-author: .... <!-- (mismo nombre que el que me mandaste para la tarjeta de autor que está automatizado a cogerlo de ahí)-->
-date: .... <!-- (formato 2026-03-15)-->
+title: aaa  <!-- (vuestro título)-->
+author: aaa <!-- (mismo nombre que el que me mandaste para la tarjeta de autor que está automatizado a cogerlo de ahí)-->
+date: 2026-03-15 <!-- (formato 2026-03-15)-->
 layout: articles
-status: .... <!-- (published si ya está listo)-->
-category: .... <!-- (si ya existe una en https://napkinnotes.es/explorar esa sino una nueva, en mayúscula la primera letra)-->
+status: published <!-- (published si ya está listo)-->
+category: aaa <!-- (si ya existe una en https://napkinnotes.es/explorar esa sino una nueva, en mayúscula la primera letra)-->
 tags:  <!-- (si ya existe una en https://napkinnotes.es/explorar esa sino una nueva, en minúscula la primera letra)-->
   - bla
   - blabla
   - bli bli
   - ninni
-summary: <!--1-2-3 frases corta que aparece en la terjeta del artículo -->
-image: images/nombre_de_la_imagen_que_me_mandeis.png
+summary:aaaaa   <!--1-2-3 frases corta que aparece en la terjeta del artículo -->
+image: images/nombre_de_la_imagen.png
 ---
 
 [TOC]
