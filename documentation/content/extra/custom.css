@@ -1136,6 +1136,42 @@ footer a,
   overflow: visible;
 }
 
+
+.nn-article-figure {
+  margin: 26px auto;
+  text-align: center;
+}
+
+.nn-article-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 18px;
+}
+
+.nn-article-figure figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.nn-article-figure--medium {
+  max-width: 760px;
+}
+
+.nn-article-figure--small {
+  max-width: 560px;
+}
+
+@media (max-width: 700px) {
+  .nn-article-figure--medium,
+  .nn-article-figure--small {
+    max-width: 100%;
+  }
+}
 /* TOC REAL GENERADO DENTRO DEL CONTENIDO */
 
 .nn-article-content > .toc {
@@ -3231,6 +3267,7 @@ footer a,
     grid-template-columns: 1fr;
   }
 }
+
 
 
 /* Evita solapes cuando el ancla apunta a una categoría */
