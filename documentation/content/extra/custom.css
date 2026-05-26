@@ -1139,12 +1139,22 @@ footer a,
 }
 
 @media (max-width: 640px) {
-  .nn-article-content .MathJax_Display,
-  .nn-article-content mjx-container[display="true"] {
-    font-size: 88% !important;
+  .nn-article-content .MathJax_Display {
     max-width: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+
+  .nn-article-content mjx-container[display="true"] {
+    max-width: 100%;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+    font-size: 88% !important;
+  }
+
+  .nn-article-content mjx-container[display="true"] > svg {
+    max-width: 100%;
+    height: auto;
   }
 }
 .nn-article-figure {
