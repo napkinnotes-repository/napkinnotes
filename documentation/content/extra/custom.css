@@ -1127,34 +1127,23 @@ footer a,
   margin: 30px 0;
 }
 
-.nn-article-content .MathJax_Display {
+.nn-article-content .MathJax_Display,
+.nn-article-content mjx-container[display="true"],
+.nn-article-content .math {
+  max-width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
 }
 
-.nn-article-content .math {
-  max-width: 100%;
-  overflow-x: visible;
-  overflow-y: visible;
-}
-
 @media (max-width: 640px) {
-  .nn-article-content .MathJax_Display {
+  .nn-article-content .MathJax_Display,
+  .nn-article-content mjx-container[display="true"],
+  .nn-article-content .math {
+    display: block;
     max-width: 100%;
-    overflow-x: visible;
-    overflow-y: visible;
-  }
-
-  .nn-article-content mjx-container[display="true"] {
-    max-width: 100%;
-    overflow-x: visible !important;
-    overflow-y: visible !important;
-    font-size: 88% !important;
-  }
-
-  .nn-article-content mjx-container[display="true"] > svg {
-    max-width: 100%;
-    height: auto;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    font-size: 100% !important;
   }
 }
 .nn-article-figure {
