@@ -8,23 +8,16 @@ Template: about_us
 
   <h2>¿Qué son las Napkin Notes?</h2>
 
-  <p class="nn-about-lead">Las grandes ideas rara vez nacen limpias.</p>
-
-  <p>A veces empiezan como una frase en una servilleta, una flecha mal dibujada, una cuenta hecha deprisa o una pregunta que alguien lanza en mitad de una conversación. Eso es una <em>Napkin Note</em>: una idea en estado salvaje, todavía sin domesticar.</p>
-
-  <p>En Napkin Notes nos interesan esas ideas precisamente antes de que se vuelvan serias. Antes del paper, antes del informe, antes de la presentación con tipografía elegante. Nos interesa el momento en el que alguien dice: “espera, ¿y si…?”.</p>
+  <p>En Napkin Notes pretendemos abordar cada pregunta con la naturalidad y la despreocupación de la ciencia que se hace porque se disfruta, sin los límites impuestos por los artículos, los informes, y las presentaciones grandiosas con tipografía elegante. Nos interesa especialmente ese momento en el que alguien lanza un por qué y las ideas comienzan a fluir entre la intuición, la creatividad y el rigor hasta encontrar la respuesta..</p>
 </div>
 
-Para nosotros, estas notas sirven para:
+Nuestras notas sirven principalmente para:
 
-- Probar hipótesis sin convertirlo todo en una reunión.
 - Guardar conversaciones que podrían desaparecer.
-- Convertir intuiciones en artículos, tickets, experimentos o nuevas preguntas.
+- Convertir intuiciones en cálculos, experimentos o nuevas preguntas.
 - Construir un archivo colectivo de curiosidad.
-- Preservar, aunque sea en miniatura, una parte del conocimiento que vamos dejando por el camino.
 
-No pretendemos guardar todo el conocimiento de la humanidad.  
-Solo una pequeña parte.  
-La que quepa en una servilleta.
+No pretendemos guardar todo el conocimiento de la humanidad, solo aquellas partes que quepan en una servilleta.
 
 Sí, somos así de nerds.
+
