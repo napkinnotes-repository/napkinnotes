@@ -24,7 +24,7 @@ Resulta que allá por 1691 los matemáticos Gottfried Leibniz, Christiaan Huygen
 
 
 ### La ecuación de la catenaria
-Si queremos deducir la ecuación diferencial de la catenaria, simplemente tenemos que aplicar el equilibrio de fuerzas a una porción infinitesimal de una cadena o cuerda \( [s, s + \Delta s ]\). Dicho elemento está sometido a tres fuerzas: su peso y las tensiones con las que la cadena tira de sus extremos. Explícitamente:
+Si queremos deducir la ecuación diferencial de la catenaria, simplemente tenemos que aplicar el equilibrio de fuerzas a una porción infinitesimal de una cadena o cuerda $ [s, s + \Delta s ]$. Dicho elemento está sometido a tres fuerzas: su peso y las tensiones con las que la cadena tira de sus extremos. Explícitamente:
 $$
 T(s+\Delta s)\text{cos} \alpha(s+\Delta s) - T(s)\text{cos} \alpha(s)=0,
 $$
@@ -53,7 +53,7 @@ En la solución anterior hemos agrupado las constantes \(a\equiv \frac{T_H}{\rho
 
 
 <!-- AQUÍ INSERTAR FIGURA GRÁFICAS-->
-![Tres catenarias y una parábola.](imagen/geogebra-export.png)
+![Tres catenarias y una parábola.](images/geogebra-export.png)
 
 ## El arco catenario es tu mejor amigo
 
@@ -63,19 +63,19 @@ Si trazamos el recorrido que hacen las fuerzas dentro de un arco de piedra, vere
 
 Esto ya lo descubrió el pobre Robert Hooke en el siglo XVII (digo pobre porque no se le hizo mucho caso), y se ha utilizado en numerosas ocasiones a lo largo de la historia.
 <!-- AQUÍ INSERTAR FIGURA ESTRUCTURA-->
-![Estudio de equilibrio basado en la curva catenaria de G. Poleni, 1748.](imagen/figura_estudio.png)
+![Estudio de equilibrio basado en la curva catenaria de G. Poleni, 1748.](images/figura_estudio.png)
 
 <!-- Fin de Seccion-->
 
 ## Qué tienen en común Gaudí, una liana y el cable del tendido eléctrico
 Ahora que sabes que son las catenarias y los arcos catenarios, no vas a dejar de verlos en todos lados. Por ejemplo, podemos encontrar catenarias en la naturaleza, como en las lianas y en las telas de araña, y también en los cables del tendido eléctrico, en la línea de cercanías Madrid-Aranjuez …
 <!-- AQUÍ INSERTAR FIGURAS CATENARIAS-->
-![Catenarias en la naturaleza.](imagen/naturaleza.webp)
-![Situaciones cotidianas en las que encontramos catenarias.](imagen/mascatenarias.webp)
+![Catenarias en la naturaleza.](images/naturaleza.webp)
+![Situaciones cotidianas en las que encontramos catenarias.](images/mascatenarias.webp)
 
 Los arcos catenarios han sido utilizados intuitivamente desde la antigüedad. Los encontramos en los iglúes, catedrales, bóvedas del antiguo Egipto… Mirad cómo en este monumento persa de muchísimos años de antigüedad, ¡prácticamente sólo permanece en pie el arco catenario!
 <!-- AQUÍ INSERTAR FIGURA IGLU Y ARCO IRAK Y GAUDÍ-->
-![Un iglú, el Taq-i Kisra y la Casa Milà.](imagen/iguGaudi.webp)
+![Un iglú, el Taq-i Kisra y la Casa Milà.](images/iguGaudi.webp)
 
 Tenemos también numerosos ejemplos del uso del arco catenario en la arquitectura moderna, pero el mayor fan de este arco era el arquitecto Gaudí. Éste diseñaba sus edificios mediante maquetas colgantes hechas por hilos y pesos, que después daba la vuelta para diseñar sus edificios. Así, encontramos muchísimos arcos catenarios en la obra de Gaudí: en la Casa Milà, La Sagrada Familia, la Casa Batlló … 
 
