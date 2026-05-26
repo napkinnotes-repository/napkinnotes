@@ -63,8 +63,10 @@ Si trazamos el recorrido que hacen las fuerzas dentro de un arco de piedra, vere
 
 Esto ya lo descubrió el pobre Robert Hooke en el siglo XVII (digo pobre porque no se le hizo mucho caso), y se ha utilizado en numerosas ocasiones a lo largo de la historia.
 <!-- AQUÍ INSERTAR FIGURA ESTRUCTURA-->
-![Estudio de equilibrio basado en la curva catenaria de G. Poleni, 1748.](images/figura_estudio.png)
-
+<figure class="nn-article-figure nn-article-figure--medium">
+  <img src="{static}/images/figura_estudio.png" alt="Estudio de equilibrio basado en la curva catenaria de G. Poleni, 1748">
+  <figcaption>Estudio de equilibrio basado en la curva catenaria de G. Poleni, 1748.</figcaption>
+</figure>
 <!-- Fin de Seccion-->
 
 ## Qué tienen en común Gaudí, una liana y el cable del tendido eléctrico
@@ -84,8 +86,10 @@ Ahora que sabes que son las catenarias y los arcos catenarios, no vas a dejar de
 
 Los arcos catenarios han sido utilizados intuitivamente desde la antigüedad. Los encontramos en los iglúes, catedrales, bóvedas del antiguo Egipto… Mirad cómo en este monumento persa de muchísimos años de antigüedad, ¡prácticamente sólo permanece en pie el arco catenario!
 <!-- AQUÍ INSERTAR FIGURA IGLU Y ARCO IRAK Y GAUDÍ-->
-![Un iglú, el Taq-i Kisra y la Casa Milà.](images/iguGaudi.webp)
-
+<figure class="nn-article-figure nn-article-figure--small">
+  <img src="{static}/images/iguGaudi.webp" alt="Un iglú, el Taq-i Kisra y la Casa Milà">
+  <figcaption>Un iglú, el Taq-i Kisra y la Casa Milà.</figcaption>
+</figure>
 Tenemos también numerosos ejemplos del uso del arco catenario en la arquitectura moderna, pero el mayor fan de este arco era el arquitecto Gaudí. Éste diseñaba sus edificios mediante maquetas colgantes hechas por hilos y pesos, que después daba la vuelta para diseñar sus edificios. Así, encontramos muchísimos arcos catenarios en la obra de Gaudí: en la Casa Milà, La Sagrada Familia, la Casa Batlló … 
 
 Os invito a que investigueis sobre el proceso de creación de Gaudí y más ejemplos del uso del arco catenario. Por ahora, podemos sentirnos satisfechos de haber resuelto el problema del arco óptimo. Nuestra iglesia no se caerá encima de nuestras cabezas. Ahora os planteo la siguiente pregunta: ¿Cuál es la geometría óptima para un arco que además de su propio peso sostiene un peso uniforme? Sabremos la respuesta en la próxima servilleta.
