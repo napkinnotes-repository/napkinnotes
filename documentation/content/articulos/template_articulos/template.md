@@ -37,7 +37,9 @@ $$
 \rho c_p \frac{\partial T}{\partial t} = k \nabla^2 T + Q_{\text{abs}}
 $$
 <!--(en linea de texto):  -->
-bla bla bla \(J\) lari lari lari
+Se puede ahora usar $ \alpha $ como en latex 
+
+obsoleto: bla bla bla \(J\) lari lari lari
 <!-- subindice fuera de entorno matam -->
 c<sub>p</sub> 
 
