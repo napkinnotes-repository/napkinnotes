@@ -70,8 +70,17 @@ Esto ya lo descubrió el pobre Robert Hooke en el siglo XVII (digo pobre porque 
 ## Qué tienen en común Gaudí, una liana y el cable del tendido eléctrico
 Ahora que sabes que son las catenarias y los arcos catenarios, no vas a dejar de verlos en todos lados. Por ejemplo, podemos encontrar catenarias en la naturaleza, como en las lianas y en las telas de araña, y también en los cables del tendido eléctrico, en la línea de cercanías Madrid-Aranjuez …
 <!-- AQUÍ INSERTAR FIGURAS CATENARIAS-->
-![Catenarias en la naturaleza.](images/naturaleza.webp)
-![Situaciones cotidianas en las que encontramos catenarias.](images/mascatenarias.webp)
+<div class="nn-two-images">
+  <figure>
+    <img src="{static}/images/naturaleza.webp" alt="Catenarias en la naturaleza">
+    <figcaption>Catenarias en la naturaleza.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{static}/images/mascatenarias.webp" alt="Situaciones cotidianas en las que encontramos catenarias">
+    <figcaption>Situaciones cotidianas en las que encontramos catenarias.</figcaption>
+  </figure>
+</div>
 
 Los arcos catenarios han sido utilizados intuitivamente desde la antigüedad. Los encontramos en los iglúes, catedrales, bóvedas del antiguo Egipto… Mirad cómo en este monumento persa de muchísimos años de antigüedad, ¡prácticamente sólo permanece en pie el arco catenario!
 <!-- AQUÍ INSERTAR FIGURA IGLU Y ARCO IRAK Y GAUDÍ-->
