@@ -43,7 +43,7 @@ d \text{tan}\alpha(s)=\frac{\rho g}{T_H} ds.
 $$
 Recordando la relación de la tangente $\text{tan}\alpha = \frac{dy}{dx}$ y la longitud de arco $ds=\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx$, obtenemos la ecuación diferencial de la catenaria:
 $$
-\frac{dy}{dx}=\frac{\rgho g}{T_H}\int^x_{x_0}\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx,
+\frac{dy}{dx}=\frac{\rho g}{T_H}\int^x_{x_0}\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx,
 $$
 cuya solución viene dada por
 $$
