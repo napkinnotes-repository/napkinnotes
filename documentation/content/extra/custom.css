@@ -1127,22 +1127,44 @@ footer a,
   margin: 30px 0;
 }
 
+/* Fórmulas de bloque: $$ ... $$ */
+
 .nn-article-content .MathJax_Display,
-.nn-article-content mjx-container[display="true"],
-.nn-article-content .math {
+.nn-article-content mjx-container[display="true"] {
+  display: block;
   max-width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
 }
 
+/* Fórmulas inline: $ ... $ */
+
+.nn-article-content .math,
+.nn-article-content mjx-container:not([display="true"]) {
+  display: inline;
+  max-width: none;
+  overflow: visible;
+  vertical-align: baseline;
+}
+
+/* Móvil: solo las fórmulas de bloque pueden tener scroll */
+
 @media (max-width: 640px) {
   .nn-article-content .MathJax_Display,
-  .nn-article-content mjx-container[display="true"],
-  .nn-article-content .math {
+  .nn-article-content mjx-container[display="true"] {
     display: block;
     max-width: 100%;
     overflow-x: auto !important;
     overflow-y: hidden !important;
+    font-size: 100% !important;
+  }
+
+  .nn-article-content .math,
+  .nn-article-content mjx-container:not([display="true"]) {
+    display: inline !important;
+    max-width: none;
+    overflow: visible !important;
+    vertical-align: baseline;
     font-size: 100% !important;
   }
 }
