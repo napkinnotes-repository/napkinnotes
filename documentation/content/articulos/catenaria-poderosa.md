@@ -53,8 +53,10 @@ En la solución anterior hemos agrupado las constantes $a\equiv \frac{T_H}{\rho 
 
 
 <!-- AQUÍ INSERTAR FIGURA GRÁFICAS-->
-![Tres catenarias y una parábola.](images/geogebra-export.png)
-
+<figure class="nn-article-figure nn-article-figure--desktop-small">
+  <img src="{static}/images/geogebra-export.png" alt="Tres catenarias y una parábola">
+  <figcaption>Tres catenarias y una parábola.</figcaption>
+</figure>
 ## El arco catenario es tu mejor amigo
 
 Bueno vale, todo esto está muy bien. Pero, ¿qué tiene que ver la catenaria con mi problema del arco? Pues resulta que si tomas una catenaria y la colocas boca abajo, formas un arco llamado arco catenario. Y, ¿a que no sabes qué? Es la curva que describe la geometría óptima de un arco que soporta su propio peso. 
@@ -63,7 +65,7 @@ Si trazamos el recorrido que hacen las fuerzas dentro de un arco de piedra, vere
 
 Esto ya lo descubrió el pobre Robert Hooke en el siglo XVII (digo pobre porque no se le hizo mucho caso), y se ha utilizado en numerosas ocasiones a lo largo de la historia.
 <!-- AQUÍ INSERTAR FIGURA ESTRUCTURA-->
-<figure class="nn-article-figure nn-article-figure--medium">
+<figure class="nn-article-figure nn-article-figure--desktop-small">
   <img src="{static}/images/figura_estudio.png" alt="Estudio de equilibrio basado en la curva catenaria de G. Poleni, 1748">
   <figcaption>Estudio de equilibrio basado en la curva catenaria de G. Poleni, 1748.</figcaption>
 </figure>
