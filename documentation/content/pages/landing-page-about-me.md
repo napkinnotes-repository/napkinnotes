@@ -9,40 +9,20 @@ subtitle: Matemáticas rápidas y ciencia cotidiana
 ---
 
 
-Napkin Notes es un pequeño blog–revista nacido de un grupo de amigos
-curiosos, fans profesionales de las preguntas improbables y expertos en
-cálculos relámpago ejecutados en la superficie altamente tecnológica de…
-una servilleta. Nuestro propósito es simple: pasarla bien mientras
-descubrimos cómo las matemáticas, la física y el espíritu **Fermi**
-pueden iluminar esos misterios cotidianos que nunca nos atrevimos a
-googlear.
+Napkin Notes es una pequeña revista nacida de un grupo de amigos curiosos, fans profesionales de las preguntas improbables y expertos en cálculos relámpago ejecutados lo mismo en una computadora que en una servilleta. Nuestro propósito es simple: pasarla bien mientras descubrimos cómo las matemáticas y la física nos revelan esos misterios cotidianos que nunca nos atrevimos a googlear.
 
-No aspiramos a la exactitud quirúrgica; apuntamos a algo mucho mejor:
-creatividad despreocupada, intuición sin pedir permiso y un toque de
-humor que no requiere exámenes de ingreso. Cada artículo funciona como
-un experimento mental minimalista: estimar cuántos pasos damos al año,
-calcular la energía escondida detrás de un café matutino o desenterrar
-curiosidades cósmicas que nos hacen dudar de todo… menos de seguir
-leyendo.
+Cada artículo funciona como una explicación o experimento mental minimalista: estimar cuántos pasos damos al año, calcular la energía escondida detrás de un café matutino o desenterrar verdades cósmicas que nos hacen dudar de todo menos de seguir leyendo.
+
 
 ## ¿Qué Hace Especial a Napkin Notes?
 
-Lo que hace especial este proyecto es su espíritu relajadamente
-científico. Aquí jugamos con los números, lanzamos preguntas del tipo
-“¿y si…?” y celebramos tanto el proceso como el resultado. Napkin Notes
-quiere ser ese rincón donde la curiosidad casual se transforma en ciencia
-accesible, divertida y sin solemnidades innecesarias.
-
-Además, apostamos por un espacio limpio y sin ruido visual: nada de
-distracciones, solo preguntas ingeniosas, ideas claras y conclusiones
-que cualquiera pueda comprender sin abrir un libro de texto.
+Su espíritu relajadamente científico: Napkin Notes es ese rincón donde la curiosidad casual se transforma en ciencia accesible, divertida y sin solemnidades innecesarias.
 
 ## ¿Quieres Contribuir?
 
-Si la curiosidad es tu combustible o tienes una pregunta tipo Fermi que
-lleva días golpeando la puerta de tu cerebro, este es tu sitio. Napkin
-Notes crece gracias a esas ideas que nacen en conversaciones entre amigos
-y terminan, inevitablemente, en una servilleta.
+Si la curiosidad es tu combustible o las preguntas sobre la naturaleza de las cosas suelen golpear con frecuencia a la puerta de tu cerebro, este es tu sitio: puedes dejarnos tu pregunta o sugerirnos un tema. 
+Si en cambio eres de esos científicos que disfrutan traduciendo al lenguaje mundano las respuestas que encuentra, descarga nuestra plantilla y envíanos tu artículo; con mucho gusto valoraremos su publicación. 
+
 
 <!--
 
