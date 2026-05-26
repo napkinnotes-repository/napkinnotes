@@ -38,9 +38,10 @@ $$
 $$
 <!--(en linea de texto):  -->
 bla bla bla \(J\) lari lari lari
+<!-- subindice fuera de entorno matam -->
+c<sub>p</sub> 
 
-c<sub>p</sub> <!-- subindice fuera de entorno $$ $$ -->
-
+FCVDFFXX
 
 <!-- (en linea de texto, también vale si sabéis markdomn como se hacen cosas): -->
  Negrita y cursiva: **una paradoja**.  *una paradoja*.
