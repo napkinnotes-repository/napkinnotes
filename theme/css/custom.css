@@ -1175,13 +1175,19 @@ footer a,
 .nn-article-figure--small {
   max-width: 560px;
 }
+.nn-article-figure--desktop-small {
+  max-width: 620px;
+}
 
 @media (max-width: 700px) {
   .nn-article-figure--medium,
-  .nn-article-figure--small {
+  .nn-article-figure--small,
+  .nn-article-figure--desktop-small {
     max-width: 100%;
   }
 }
+
+
 /* TOC REAL GENERADO DENTRO DEL CONTENIDO */
 
 .nn-article-content > .toc {
