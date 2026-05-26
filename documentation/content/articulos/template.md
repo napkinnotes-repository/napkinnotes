@@ -1,17 +1,16 @@
 ---
-title: aaa  <!-- (vuestro título)-->
-author: aaa <!-- (mismo nombre que el que me mandaste para la tarjeta de autor que está automatizado a cogerlo de ahí)-->
-date: 2026-03-15 <!-- (formato 2026-03-15)-->
+title: aaa # vuestro título
+author: aaa # mismo nombre que en la tarjeta de autor
+date: 2026-03-15 # formato YYYY-MM-DD
 layout: articles
-status: published <!-- (published si ya está listo)-->
-category: aaa <!-- (si ya existe una en https://napkinnotes.es/explorar esa sino una nueva, en mayúscula la primera letra)-->
-tags:  <!-- (si ya existe una en https://napkinnotes.es/explorar esa sino una nueva, en minúscula la primera letra)-->
+status: published # published si ya está listo
+category: aaa # categoría con mayúscula inicial
+tags: # tags con minúscula inicial
   - bla
   - blabla
   - bli bli
-  - ninni
-summary:aaaaa   <!--1-2-3 frases corta que aparece en la terjeta del artículo -->
-image: images/nombre_de_la_imagen.png
+summary: aaaaa # 1-2 frases cortas para la tarjeta del artículo
+image: images/nombre_de_la_imagen.png # imagen principal del artículo
 ---
 
 [TOC]
