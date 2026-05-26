@@ -45,9 +45,6 @@ c<sub>p</sub> <!-- subindice fuera de entorno $$ $$ -->
 <!-- (en linea de texto, también vale si sabéis markdomn como se hacen cosas): -->
  Negrita y cursiva: **una paradoja**.  *una paradoja*.
 
-
-
-
 <!--Un itemize de latex va así:-->
 Lpresentan:
 
@@ -60,6 +57,9 @@ Lpresentan:
 
 
 ## Otra seccion
+<!--Una imagen va asi-->
+![Descripción de la imagen](images/nombre_de_la_imagen.png)
+
 
 <!-- Fin de Seccion-->
 ---
