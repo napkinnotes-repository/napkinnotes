@@ -1133,10 +1133,20 @@ footer a,
 }
 
 .nn-article-content .math {
-  overflow: visible;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
-
+@media (max-width: 640px) {
+  .nn-article-content .MathJax_Display,
+  .nn-article-content mjx-container[display="true"] {
+    font-size: 88% !important;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
 .nn-article-figure {
   margin: 26px auto;
   text-align: center;
