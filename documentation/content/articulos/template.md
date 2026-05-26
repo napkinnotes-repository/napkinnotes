@@ -3,6 +3,7 @@ title: aaa # vuestro título
 author: aaa # mismo nombre que en la tarjeta de autor
 date: 2026-03-15 # formato YYYY-MM-DD
 layout: articles
+slug: prueba-articulo
 status: hidden # published si ya está listo
 category: aaa # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
