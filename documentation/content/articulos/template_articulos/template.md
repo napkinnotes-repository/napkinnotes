@@ -57,9 +57,13 @@ Lpresentan:
 
 
 ## Otra seccion
+
+
+
 <!--Una imagen va asi-->
 ![Descripción de la imagen](images/nombre_de_la_imagen.png)
-
+<!-- Opcional: pie de foto -->
+*Figura 1. Breve explicación de la imagen.*
 
 <!-- Fin de Seccion-->
 ---
