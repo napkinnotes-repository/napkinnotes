@@ -31,17 +31,17 @@ $$
 $$
 T(s+\Delta s)\text{sen} \alpha(s+\Delta s) - T(s)\text{sen} \alpha(s)=\rho g \Delta s,
 $$
-donde \(\alpha\) es el ángulo formado por la catenaria y el eje horizontal, \(T\) es el módulo de la fuerza de tensión en cada punto y \(\rho\) es el peso por unidad de longitud. 
+donde $\alpha$ es el ángulo formado por la catenaria y el eje horizontal, $T$ es el módulo de la fuerza de tensión en cada punto y $\rho$ es el peso por unidad de longitud. 
 
-Si hacemos tender \(\Delta s \to 0\), obtenemos que
+Si hacemos tender $\Delta s \to 0$, obtenemos que
 $$
 \frac{d (T \text{cos} \alpha)}{ds}=0, \qquad \frac{d (T \text{sen} \alpha)}{ds}=\rho g.
 $$
-La primera de las condiciones nos dice que la tensión horizontal es constante \(T_H\equiv T\text{cos}\alpha = cte\). Sustituyendo esta expresión en la segunda condición, obtenemos la ecuación para el ángulo que forma la catenaria y la horizontal:
+La primera de las condiciones nos dice que la tensión horizontal es constante $T_H\equiv T\text{cos}\alpha = cte$. Sustituyendo esta expresión en la segunda condición, obtenemos la ecuación para el ángulo que forma la catenaria y la horizontal:
 $$
 d \text{tan}\alpha(s)=\frac{\rho g}{T_H} ds.
 $$
-Recordando la relación de la tangente \(\text{tan}\alpha = \frac{dy}{dx}\) y la longitud de arco \(ds=\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx\), obtenemos la ecuación diferencial de la catenaria:
+Recordando la relación de la tangente $\text{tan}\alpha = \frac{dy}{dx}$ y la longitud de arco $ds=\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx$, obtenemos la ecuación diferencial de la catenaria:
 $$
 \frac{dy}{dx}=\frac{\rgho g}{T_H}\int^x_{x_0}\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx,
 $$
@@ -49,7 +49,7 @@ cuya solución viene dada por
 $$
 y=a\text{cosh}\left(\frac{x}{a}\right).
 $$
-En la solución anterior hemos agrupado las constantes \(a\equiv \frac{T_H}{\rho g}\) y establecido como punto de referencia \(\left(0,a\right)\). En la siguiente figura he representado tres diferentes catenarias y una parábola, para que podáis ver la diferencia entre estas curvas.
+En la solución anterior hemos agrupado las constantes $a\equiv \frac{T_H}{\rho g}$ y establecido como punto de referencia $\left(0,a\right)$. En la siguiente figura he representado tres diferentes catenarias y una parábola, para que podáis ver la diferencia entre estas curvas.
 
 
 <!-- AQUÍ INSERTAR FIGURA GRÁFICAS-->
