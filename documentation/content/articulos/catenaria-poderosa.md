@@ -26,10 +26,10 @@ Resulta que allá por 1691 los matemáticos Gottfried Leibniz, Christiaan Huygen
 ### La ecuación de la catenaria
 Si queremos deducir la ecuación diferencial de la catenaria, simplemente tenemos que aplicar el equilibrio de fuerzas a una porción infinitesimal de una cadena o cuerda $ [s, s + \Delta s ]$. Dicho elemento está sometido a tres fuerzas: su peso y las tensiones con las que la cadena tira de sus extremos. Explícitamente:
 $$
-T(s+\Delta s)\text{cos} \alpha(s+\Delta s) - T(s)\text{cos} \alpha(s)=0,
-$$
-$$
-T(s+\Delta s)\text{sen} \alpha(s+\Delta s) - T(s)\text{sen} \alpha(s)=\rho g \Delta s,
+\begin{aligned}
+T(s+\Delta s)\cos \alpha(s+\Delta s) - T(s)\cos \alpha(s) &= 0, \\
+T(s+\Delta s)\sin \alpha(s+\Delta s) - T(s)\sin \alpha(s) &= \rho g \Delta s.
+\end{aligned}
 $$
 donde $\alpha$ es el ángulo formado por la catenaria y el eje horizontal, $T$ es el módulo de la fuerza de tensión en cada punto y $\rho$ es el peso por unidad de longitud. 
 
