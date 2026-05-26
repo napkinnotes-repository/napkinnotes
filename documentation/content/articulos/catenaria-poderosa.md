@@ -10,7 +10,7 @@ tags:
   - física
   - geometría
 summary: "Una cadena suspendida, una iglesia románica y la arquitectura de Gaudí comparten una misma curva: la catenaria. En esta servilleta exploramos por qué esta forma es la aliada perfecta de los arcos que quieren sostenerse sin venirse abajo."
-image: images/nombre_de_la_imagen.png
+image: images/figura_estudio.png.png
 ---
 
 [TOC]
