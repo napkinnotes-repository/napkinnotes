@@ -17,8 +17,8 @@
 &lt;/p&gt;
 &lt;div class="math"&gt;$$
 \begin{aligned}
-T(s+\Delta s)\cos \alpha(s+\Delta s) - T(s)\cos \alpha(s) &amp;amp;= 0, \\
-T(s+\Delta s)\sin \alpha(s+\Delta s) - T(s)\sin \alpha(s) &amp;amp;= \rho g \Delta s.
+T(s+\Delta s)\cos \alpha(s+\Delta s) - T(s)\cos \alpha(s) &amp;amp;= 0 \;, \\
+T(s+\Delta s)\sin \alpha(s+\Delta s) - T(s)\sin \alpha(s) &amp;amp;= \rho g \Delta s \;,
 \end{aligned}
 $$&lt;/div&gt;
 &lt;p&gt;
@@ -26,25 +26,25 @@ donde &lt;span class="math"&gt;\(\alpha\)&lt;/span&gt; es el ángulo formado por
 &lt;p&gt;Si hacemos&amp;nbsp;tender &lt;span class="math"&gt;\(\Delta s \to 0\)&lt;/span&gt;, obtenemos&amp;nbsp;que
 &lt;/p&gt;
 &lt;div class="math"&gt;$$
-\frac{d (T \text{cos} \alpha)}{ds}=0, \qquad \frac{d (T \text{sen} \alpha)}{ds}=\rho g.
+\frac{d (T \text{cos} \alpha)}{ds}=0, \qquad \frac{d (T \text{sen} \alpha)}{ds}=\rho g \;.
 $$&lt;/div&gt;
 &lt;p&gt;
 La primera de las condiciones nos dice que la tensión horizontal es&amp;nbsp;constante &lt;span class="math"&gt;\(T_H\equiv T\text{cos}\alpha = cte\)&lt;/span&gt;. Sustituyendo esta expresión en la segunda condición, obtenemos la ecuación para el ángulo que forma la catenaria y la&amp;nbsp;horizontal:
 &lt;/p&gt;
 &lt;div class="math"&gt;$$
-d \text{tan}\alpha(s)=\frac{\rho g}{T_H} ds.
+d \text{tan}\alpha(s)=\frac{\rho g}{T_H} ds \;.
 $$&lt;/div&gt;
 &lt;p&gt;
 Recordando la relación de la&amp;nbsp;tangente &lt;span class="math"&gt;\(\text{tan}\alpha = \frac{dy}{dx}\)&lt;/span&gt; y la longitud de&amp;nbsp;arco &lt;span class="math"&gt;\(ds=\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx\)&lt;/span&gt;, obtenemos la ecuación diferencial de la&amp;nbsp;catenaria:
 &lt;/p&gt;
 &lt;div class="math"&gt;$$
-\frac{dy}{dx}=\frac{\rho g}{T_H}\int^x_{x_0}\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx,
+\frac{dy}{dx}=\frac{\rho g}{T_H}\int^x_{x_0}\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx \;,
 $$&lt;/div&gt;
 &lt;p&gt;
 cuya solución viene dada&amp;nbsp;por
 &lt;/p&gt;
 &lt;div class="math"&gt;$$
-y=a\text{cosh}\left(\frac{x}{a}\right).
+y=a\text{cosh}\left(\frac{x}{a}\right) \;.
 $$&lt;/div&gt;
 &lt;p&gt;
 En la solución anterior hemos agrupado las&amp;nbsp;constantes &lt;span class="math"&gt;\(a\equiv \frac{T_H}{\rho g}\)&lt;/span&gt; y establecido como punto de&amp;nbsp;referencia &lt;span class="math"&gt;\(\left(0,a\right)\)&lt;/span&gt;. En la siguiente figura he representado tres diferentes catenarias y una parábola, para que podáis ver la diferencia entre estas&amp;nbsp;curvas.&lt;/p&gt;
