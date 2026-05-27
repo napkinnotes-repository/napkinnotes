@@ -13,6 +13,31 @@
         </div>
     </header>
 
+    <section class="nn-about-metrics">
+        <div class="nn-about-metrics__intro">
+            <p>
+                Napkin Notes reúne a investigadores, editores y colaboradores que convierten preguntas curiosas en piezas breves de ciencia, matemáticas y pensamiento crítico.
+            </p>
+        </div>
+
+        <div class="nn-about-metrics__grid" aria-label="Métricas de Napkin Notes">
+            <div class="nn-about-metric">
+                <strong>{{ AUTHORS|length }}</strong>
+                <span>autores</span>
+            </div>
+
+            <div class="nn-about-metric">
+                <strong>{{ articles|length }}</strong>
+                <span>artículos</span>
+            </div>
+
+            <div class="nn-about-metric">
+                <strong>{{ categories|length }}</strong>
+                <span>categorías</span>
+            </div>
+        </div>
+    </section>
+
     <section class="nn-squad-grid">
         {% for author_name, author_data in AUTHORS.items() %}
         <article class="nn-player-card nn-player-card--expand">
