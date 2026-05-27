@@ -3828,8 +3828,15 @@ a.nn-squad-hero__metric {
 
 @media (max-width: 640px) {
   .nn-player-card__links {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .nn-player-card__links .nn-player-card__link {
+    flex: 0 1 auto;
+    white-space: nowrap;
   }
 }
 
