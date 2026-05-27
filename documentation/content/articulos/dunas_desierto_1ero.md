@@ -47,9 +47,9 @@ La arena debe tener la movilidad suficiente para ser arrastrada por el
 viento. Si los granos de arena son demasiado pequeños ($<$ 0.050 mm),
 están cohesionados entre ellos y resisten bien la erosión por parte del
 viento. Al ir creciendo dichos granos, también lo hace la velocidad del
-viento $v\_0$ necesaria para crear un flujo de arena suficiente para
+viento $v_0$ necesaria para crear un flujo de arena suficiente para
 formar la duna, porque los granos ofrecen más resistencia al aire por su
-tamaño. De esta forma, aparece un mínimo en la curva de $v\_0$ frente al
+tamaño. De esta forma, aparece un mínimo en la curva de $v_0$ frente al
 tamaño del grano de arena. En el caso de granos de arena formados por
 materiales de tipo cuarzo, el tamaño ideal para la formación de dunas es
 alrededor de 0.2 mm \[1].
@@ -91,14 +91,14 @@ $$
 
 
 En esta expresión $v$ es la velocidad del viento, y $t$ es el tiempo
-durante el que el viento está soplando por encima del límite $v\_0$. Al
+durante el que el viento está soplando por encima del límite $v_0$. Al
 combinar esta información con la direccionalidad de este, se pueden
 obtener para distintos lugares del mundo cuál es el potencial para la
 formación de dunas, y crear mapas de DP por todo el globo \[3]. De
 forma clásica, se considera que un DP por debajo de 200 indica una
 energía "dunal" baja y, por el contrario, a partir de 400 es favorable a
 la formación de dunas. ¿Unidades de la expresión? Os vais a reír: $v$ y
-$v\_0$ van en nudos, y $t$ va en porcentaje, por lo que hay que elegir
+$v_0$ van en nudos, y $t$ va en porcentaje, por lo que hay que elegir
 una ventana temporal para promediar. Lo sentimos, no se aceptan hojas de
 reclamaciones por la elección de unidades.
 
