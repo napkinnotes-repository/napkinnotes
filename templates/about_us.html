@@ -13,22 +13,26 @@
             </p>
         </div>
 
-        <div class="nn-squad-hero__metrics" aria-label="Métricas de Napkin Notes">
-            <div class="nn-squad-hero__metric">
-                <strong>{{ AUTHORS|length }}</strong>
-                <span>autores</span>
-            </div>
+<div class="nn-squad-hero__metrics" aria-label="Métricas de Napkin Notes">
+    <div class="nn-squad-hero__metric">
+        <strong>{{ AUTHORS|length }}</strong>
+        <span>autores</span>
+    </div>
 
-            <div class="nn-squad-hero__metric">
-                <strong>{{ articles|length }}</strong>
-                <span>artículos</span>
-            </div>
+    <a class="nn-squad-hero__metric nn-squad-hero__metric--link"
+       href="{{ SITEURL }}/{{ ARCHIVES_URL }}"
+       aria-label="Ver todos los artículos">
+        <strong>{{ articles|length }}</strong>
+        <span>artículos</span>
+    </a>
 
-            <div class="nn-squad-hero__metric">
-                <strong>{{ categories|length }}</strong>
-                <span>categorías</span>
-            </div>
-        </div>
+    <a class="nn-squad-hero__metric nn-squad-hero__metric--link"
+       href="{{ SITEURL }}/{{ EXPLORAR_URL }}"
+       aria-label="Explorar categorías y tags">
+        <strong>{{ categories|length }}</strong>
+        <span>categorías</span>
+    </a>
+</div>
     </div>
 </header>
 
