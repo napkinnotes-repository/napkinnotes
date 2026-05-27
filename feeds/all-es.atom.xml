@@ -446,60 +446,58 @@ $$&lt;/div&gt;
 &lt;/script&gt;</content><category term="Matemáticas"/><category term="infinito"/><category term="cálculo"/><category term="paradojas"/></entry><entry><title>¿Por qué las palomitas revientan en el microondas?</title><link href="https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas" rel="alternate"/><published>2026-04-01T00:00:00+02:00</published><updated>2026-04-01T00:00:00+02:00</updated><author><name>Duvier Suárez Fontanella</name></author><id>tag:napkinnotes.es,2026-04-01:/por-que-las-palomitas-revientan-en-el-microondas</id><summary type="html">&lt;p&gt;¿Alguna vez te has preguntado por qué explotan las palomitas, de dónde sale su forma y por qué saben tan bien? Ponte cómodo, vamos a mirar la ciencia que se esconde dentro de un grano de&amp;nbsp;maíz.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#estructura-del-grano"&gt;Estructura del&amp;nbsp;grano&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#interaccion-con-el-microondas"&gt;Interacción con el&amp;nbsp;microondas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#presurizacion-interna"&gt;Presurización&amp;nbsp;interna&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-efecto-del-microondas"&gt;El efecto del&amp;nbsp;microondas&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#explosion-y-expansion-adiabatica"&gt;Explosión y expansión&amp;nbsp;adiabática&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#energia-total-liberada"&gt;Energía total&amp;nbsp;liberada&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#factores-que-impiden-el-estallido"&gt;Factores que impiden el&amp;nbsp;estallido&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#eficiencia-termodinamica-aproximada"&gt;Eficiencia termodinámica&amp;nbsp;aproximada&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#conclusiones"&gt;Conclusiones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lo-que-aprendemos-de-las-palomitas"&gt;Lo que aprendemos de las&amp;nbsp;palomitas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h2 id="estructura-del-grano"&gt;Estructura del grano&lt;a class="headerlink" href="#estructura-del-grano" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Empecemos por el protoganista de este fenómeno: el grano de maíz (&lt;em&gt;Zea mays everta&lt;/em&gt;). Cada uno de estos puede ser dividido en tres partes principales: (1) El endospermo, que contiene almidón y un poco de agua (w ≈ 13–15 % de su masa). (2) El pericarpio, una cáscara muy dura e impermeable. (3) El germen, no no ese tipo de germen, es simplemente la parte viva de la semilla. El secreto está en esa pequeña cantidad de agua atrapada dentro. Cuando se calienta, genera vapor y presión hasta que la cáscara no puede resistir más y explota. Buenos si querias la version corta dejalo aqui, pero si sigues curioso dejame&amp;nbsp;continuar.&lt;/p&gt;
+&lt;p&gt;Empecemos por el protoganista de este fenómeno: el grano de maíz (&lt;em&gt;Zea mays everta&lt;/em&gt;). Cada uno de ellos puede ser dividido en tres partes principales: El &lt;strong&gt;endospermo&lt;/strong&gt;, que contiene almidón y un poco de agua (apriximadamente entre un 13 y 15 % de su masa); el &lt;strong&gt;pericarpio&lt;/strong&gt;, una cáscara muy dura e impermeable; y el &lt;strong&gt;germen&lt;/strong&gt; &amp;#8212;-no, no ese tipo de germen peligroso para la salud en el que estás pensando, en este caso es simplemente la parte viva de la semilla&amp;#8212;-. El secreto de las palomitas está en esa pequeña cantidad de agua atrapada dentro del grano. Cuando se calienta, genera vapor y presión hasta que la cáscara no puede resistir más y&amp;nbsp;explota. &lt;/p&gt;
+&lt;p&gt;Sí querías la versión corta puedes parar aquí, pero si sigues curioso y deseas enterarte de todos los detalles, déjame explicártelos en las próximas&amp;nbsp;secciones.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;h2 id="interaccion-con-el-microondas"&gt;Interacción con el microondas&lt;a class="headerlink" href="#interaccion-con-el-microondas" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="el-efecto-del-microondas"&gt;El efecto del microondas&lt;a class="headerlink" href="#el-efecto-del-microondas" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;El horno microondas opera típicamente a una frecuencia de 2.45 GHz, correspondiente a una longitud de onda de 12.2 cm.&lt;br /&gt;
-Esta radiación electromagnética interactúa con los dipolos eléctricos del agua mediante el proceso de &lt;em&gt;calentamiento dieléctrico&lt;/em&gt;.&lt;br /&gt;
-Las moléculas de agua rotan en fase con el campo alterno, generando disipación térmica a escala&amp;nbsp;molecular.&lt;/p&gt;
-&lt;p&gt;El flujo de calor neto puede describirse de forma simplificada mediante la ecuación de difusión del&amp;nbsp;calor:&lt;/p&gt;
-&lt;div class="math"&gt;$$
+Esta radiación electromagnética interactúa con los dipolos eléctricos del agua mediante el proceso de &lt;em&gt;calentamiento dieléctrico&lt;/em&gt;. Las moléculas de agua rotan en fase con el campo alterno, generando disipación térmica a escala&amp;nbsp;molecular.&lt;/p&gt;
+&lt;!--El flujo de calor neto puede describirse de forma simplificada mediante la ecuación de difusión del calor:
+
+$$
 \rho c_p \frac{\partial T}{\partial t} = k \nabla^2 T + Q_{\text{abs}}
-$$&lt;/div&gt;
-&lt;p&gt;donde ρ es la densidad, c&lt;sub&gt;p&lt;/sub&gt; el calor específico, k la conductividad térmica y Q&lt;sub&gt;abs&lt;/sub&gt; la potencia volumétrica absorbida del campo&amp;nbsp;electromagnético.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id="presurizacion-interna"&gt;Presurización interna&lt;a class="headerlink" href="#presurizacion-interna" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Al subir la temperatura, el agua dentro del grano se convierte en vapor y aumenta la presión interna como estudiante de doctorado a final de su etapa (comentario inecesario quizas pero al fin y al cabo este blog cumple tambien la funcion  entretenerme).
-En Cualquier caso, esa presión depende de la temperatura según la ecuación de Clausius–Clapeyron (si lo se complicado de pronunciar sobre todo el señor&amp;nbsp;Clapeyron):&lt;/p&gt;
+$$
+
+donde ρ es la densidad, c&lt;sub&gt;p&lt;/sub&gt; el calor específico, k la conductividad térmica y Q&lt;sub&gt;abs&lt;/sub&gt; la potencia volumétrica absorbida del campo electromagnético.--&gt;
+
+&lt;p&gt;Al subir la temperatura, el agua dentro del grano se convierte en vapor y la presión interna aumenta como en estudiante de doctorado a puntode entregar la tesis (comentario inecesario quizás, pero, al fin y al cabo, escribir para esta página cumple también la función de entretenerme). En cualquier caso, la presión interna del grano depende de la temperatura según la ecuación de&amp;nbsp;Clausius–Clapeyron:&lt;/p&gt;
 &lt;div class="math"&gt;$$
-\frac{dP_v}{dT} = \frac{L P_v}{R T^2}
+\frac{dP_v}{dT} = \frac{L P_v}{R T^2},
 $$&lt;/div&gt;
 &lt;p&gt;cuya integración da lugar&amp;nbsp;a:&lt;/p&gt;
 &lt;div class="math"&gt;$$
-\ln \left( \frac{P_v}{P_0} \right) = - \frac{L}{R} \left( \frac{1}{T} - \frac{1}{T_0} \right)
+\ln \left( \frac{P_v}{P_0} \right) = - \frac{L}{R} \left( \frac{1}{T} - \frac{1}{T_0} \right),
 $$&lt;/div&gt;
-&lt;p&gt;donde L = 2.26×10&lt;sup&gt;6&lt;/sup&gt; J/kg es el calor latente de vaporización del agua y R = 8.31 J/mol·K la constante de los gases ideales. Sustituyendo T&lt;sub&gt;0&lt;/sub&gt; = 373 K, P&lt;sub&gt;0&lt;/sub&gt; = 1 atm y T = 453 K (≈ 180 °C), se&amp;nbsp;obtiene:&lt;/p&gt;
+&lt;p&gt;donde L = 2.26×10&lt;sup&gt;6&lt;/sup&gt; J/kg es el calor latente de vaporización del agua y R = 8.31 J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno de 453 K (≈ 180 °C) y  T&lt;sub&gt;0&lt;/sub&gt; = 373 K, P&lt;sub&gt;0&lt;/sub&gt; = 1 atm, se&amp;nbsp;obtiene:&lt;/p&gt;
 &lt;div class="math"&gt;$$
 P_v(453~\text{K}) \approx 9~\text{atm}
 $$&lt;/div&gt;
-&lt;p&gt;valor que coincide con la presión crítica de ruptura observada experimentalmente para el&amp;nbsp;pericarpio. &lt;/p&gt;
+&lt;p&gt;que coincide con la presión crítica de ruptura observada experimentalmente para el pericarpio (P&lt;sub&gt;rupt&lt;/sub&gt; ≈ 9–10&amp;nbsp;atm). &lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id="explosion-y-expansion-adiabatica"&gt;Explosión y expansión adiabática&lt;a class="headerlink" href="#explosion-y-expansion-adiabatica" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Una vez que la presión interna excede la resistencia del pericarpio (P&lt;sub&gt;rupt&lt;/sub&gt; ≈ 9–10 atm), se produce una fractura súbita.&lt;br /&gt;
-El vapor se expande rápidamente, realizando trabajo sobre el almidón circundante y provocando una expansión casi adiabática del&amp;nbsp;gas.&lt;/p&gt;
+&lt;p&gt;Una vez que la presión interna excede la resistencia del pericarpio (P&lt;sub&gt;rupt&lt;/sub&gt; ≈ 9–10 atm), se produce una fractura súbita. El vapor se expande rápidamente, realizando trabajo sobre el almidón circundante y provocando una expansión casi adiabática del&amp;nbsp;gas. &lt;/p&gt;
 &lt;p&gt;Si suponemos una expansión adiabática reversible para el vapor de&amp;nbsp;agua:&lt;/p&gt;
 &lt;div class="math"&gt;$$
-P V^{\gamma} = \text{constante}
+P V^{\gamma} = \text{constante},
 $$&lt;/div&gt;
-&lt;p&gt;donde γ = c&lt;sub&gt;p&lt;/sub&gt;/c&lt;sub&gt;v&lt;/sub&gt; ≈ 1.33 para el vapor, el trabajo realizado por el gas durante la expansión&amp;nbsp;es:&lt;/p&gt;
+&lt;p&gt;donde γ ≈ 1.33 para el vapor de agua, y, en consecuencia, el trabajo realizado por el gas durante la expansión&amp;nbsp;es:&lt;/p&gt;
 &lt;div class="math"&gt;$$
-W = \frac{P_i V_i - P_f V_f}{\gamma - 1}
+W = \frac{P_i V_i - P_f V_f}{\gamma - 1}.
 $$&lt;/div&gt;
 &lt;p&gt;Tomando P&lt;sub&gt;i&lt;/sub&gt; = 9 atm, P&lt;sub&gt;f&lt;/sub&gt; = 1 atm y considerando que el volumen final del gas es unas V&lt;sub&gt;f&lt;/sub&gt;/V&lt;sub&gt;i&lt;/sub&gt; ≈ 10 veces mayor, se obtiene un trabajo del orden&amp;nbsp;de:&lt;/p&gt;
 &lt;div class="math"&gt;$$
-W \sim 10^{-3}~\text{J}
+W \sim 10^{-3}~\text{J}.
 $$&lt;/div&gt;
-&lt;p&gt;A pesar de parecer pequeño, este trabajo se distribuye en escalas microscópicas, generando velocidades de expansión del orden de varios metros por segundo, suficientes para inflar el almidón y solidificarlo instantáneamente por&amp;nbsp;enfriamiento.&lt;/p&gt;
+&lt;p&gt;A pesar de parecer pequeño, este trabajo genera en las moléculas dentro del grano velocidades de expansión del orden de varios metros por segundo, suficientes para inflar el almidón y solidificarlo instantáneamente por&amp;nbsp;enfriamiento.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id="energia-total-liberada"&gt;Energía total liberada&lt;a class="headerlink" href="#energia-total-liberada" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;El contenido energético total asociado al cambio de fase del agua en un solo grano&amp;nbsp;es:&lt;/p&gt;
@@ -508,14 +506,14 @@ E = m L
 $$&lt;/div&gt;
 &lt;p&gt;donde m es la masa de agua. Si m ≈ 10&lt;sup&gt;-5&lt;/sup&gt; kg ,&amp;nbsp;entonces:&lt;/p&gt;
 &lt;div class="math"&gt;$$
-E = 2.26 \times 10^{6} \times 10^{-5} = 22.6~\text{J}
+E = 2.26 \times 10^{6} \times 10^{-5} = 22.6~\text{J}.
 $$&lt;/div&gt;
-&lt;p&gt;Solo una pequeña fracción de esta energía se convierte en trabajo mecánico y sonido; el resto se disipa en forma de calor y energía interna del&amp;nbsp;vapor.&lt;/p&gt;
+&lt;p&gt;De esta energía, una pequeña fracción se convierte en trabajo mecánico y sonido; el resto se disipa en forma de&amp;nbsp;calor.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id="factores-que-impiden-el-estallido"&gt;Factores que impiden el estallido&lt;a class="headerlink" href="#factores-que-impiden-el-estallido" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Los granos que no revientan (&lt;em&gt;“old maids”&lt;/em&gt;)&amp;nbsp;presentan:&lt;/p&gt;
+&lt;p&gt;Por nuestra experiencia, sabemos que siempre hay un par de granitos que no revientan (&lt;em&gt;“old maids”&lt;/em&gt;). Esto peude deberse a una o varias de las siguientes&amp;nbsp;causas:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Bajo contenido de humedad w &amp;lt; 10%, insuficiente para generar la presión&amp;nbsp;crítica.  &lt;/li&gt;
+&lt;li&gt;Bajo contenido de humedad en el grano (menos que el 10%), insuficiente para generar la presión&amp;nbsp;crítica.  &lt;/li&gt;
 &lt;li&gt;Fisuras microscópicas en el pericarpio, que permiten la fuga de vapor antes de alcanzar P&lt;sub&gt;rupt&lt;/sub&gt;.  &lt;/li&gt;
 &lt;li&gt;Distribución térmica no uniforme, que evita una presurización&amp;nbsp;homogénea.&lt;/li&gt;
 &lt;/ul&gt;
@@ -523,12 +521,12 @@ $$&lt;/div&gt;
 &lt;h2 id="eficiencia-termodinamica-aproximada"&gt;Eficiencia termodinámica aproximada&lt;a class="headerlink" href="#eficiencia-termodinamica-aproximada" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Si un horno microondas de potencia P = 800 W opera durante t = 120&amp;nbsp;s:&lt;/p&gt;
 &lt;div class="math"&gt;$$
-E_{\text{in}} = P t = 9.6 \times 10^{4}~\text{J}
+E_{\text{in}} = P t = 9.6 \times 10^{4}~\text{J}.
 $$&lt;/div&gt;
 &lt;p&gt;Una bolsa de 100 g contiene aproximadamente N = 3000 granos.&lt;br /&gt;
 Si cada uno libera ≈ 20 J en el proceso de&amp;nbsp;vaporización:&lt;/p&gt;
 &lt;div class="math"&gt;$$
-E_{\text{total}} = N \times 20~\text{J} = 6.0 \times 10^{4}~\text{J}
+E_{\text{total}} = N \times 20~\text{J} = 6.0 \times 10^{4}~\text{J}.
 $$&lt;/div&gt;
 &lt;p&gt;Por tanto, la eficiencia energética del proceso&amp;nbsp;es:&lt;/p&gt;
 &lt;div class="math"&gt;$$
@@ -536,10 +534,8 @@ $$&lt;/div&gt;
 $$&lt;/div&gt;
 &lt;p&gt;es decir, un rendimiento del 60 %, notablemente alto para un proceso de cocción doméstico basado en calentamiento&amp;nbsp;dieléctrico.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;h2 id="conclusiones"&gt;Conclusiones&lt;a class="headerlink" href="#conclusiones" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;El estallido de las palomitas es un ejemplo fascinante de cómo principios de la física macroscópica —transferencia de calor, termodinámica de fases, elasticidad de materiales y dinámica de gases— se manifiestan en un fenómeno cotidiano.&lt;br /&gt;
-Cada grano actúa como una &lt;em&gt;microcápsula de presión&lt;/em&gt; donde el agua, confinada, pasa de líquido a vapor hasta romper la envoltura.&lt;br /&gt;
-El resultado visible —la expansión blanca del almidón— es consecuencia directa de un proceso adiabático impulsado por energía térmica&amp;nbsp;electromagnética.&lt;/p&gt;
+&lt;h2 id="lo-que-aprendemos-de-las-palomitas"&gt;Lo que aprendemos de las palomitas&lt;a class="headerlink" href="#lo-que-aprendemos-de-las-palomitas" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El estallido de las palomitas es un ejemplo fascinante de cómo principios de la física macroscópica &amp;#8212;-transferencia de calor, termodinámica del cambio de fases, elasticidad de materiales y dinámica de gases&amp;#8212;- se manifiestan en un fenómeno tan delicioso como cotidiano. Cada grano actúa como una &lt;em&gt;microcápsula de presión&lt;/em&gt; donde el agua, confinada, pasa de líquido a vapor hasta romper la envoltura, produciendo ese modesto sonido (&lt;em&gt;pop&lt;/em&gt;) en el que convergen varias ramas de la&amp;nbsp;física.  &lt;/p&gt;
 &lt;hr /&gt;
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
