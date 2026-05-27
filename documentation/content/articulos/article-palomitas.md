@@ -50,19 +50,19 @@ $$
 \ln \left( \frac{P_v}{P_0} \right) = - \frac{L}{R} \left( \frac{1}{T} - \frac{1}{T_0} \right),
 $$
 
-donde $L = 2.26×1010^{6}$ J/kg es el calor latente de vaporización del agua y $R = 8.31$ J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno de $453$ K ($≈ 180$ °C) y  $T_0 = 373$ K, $P<sub>0</sub> = 1$ atm, se obtiene:
+donde $L = 2.26×10^{6}$ J/kg es el calor latente de vaporización del agua y $R = 8.31$ J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno de $453$ K ($≈ 180$ °C) y  $T_0 = 373$ K, $P_0 = 1$ atm, se obtiene:
 
 $$
 P_v(453~\text{K}) \approx 9~\text{atm}
 $$
 
-que coincide con la presión crítica de ruptura observada experimentalmente para el pericarpio ($P<sub>rupt</sub> ≈ 9–10$ atm). 
+que coincide con la presión crítica de ruptura observada experimentalmente para el pericarpio ($P_{rupt} ≈ 9–10$ atm). 
 
 ---
 
 ## Explosión y expansión adiabática
 
-Una vez que la presión interna excede la resistencia del pericarpio ($P<sub>rupt</sub> ≈ 9–10$ atm), se produce una fractura súbita. El vapor se expande rápidamente, realizando trabajo sobre el almidón circundante y provocando una expansión casi adiabática del gas. 
+Una vez que la presión interna excede la resistencia del pericarpio ($P_{rupt} ≈ 9–10$ atm), se produce una fractura súbita. El vapor se expande rápidamente, realizando trabajo sobre el almidón circundante y provocando una expansión casi adiabática del gas. 
 
 Si suponemos una expansión adiabática reversible para el vapor de agua:
 
@@ -76,7 +76,7 @@ $$
 W = \frac{P_i V_i - P_f V_f}{\gamma - 1}.
 $$
 
-Tomando $P<sub>i</sub> = 9$ atm, $P<sub>f</sub> = 1$ atm y considerando que el volumen final del gas es unas $V<sub>f</sub>/V<sub>i</sub> ≈ 10$ veces mayor, se obtiene un trabajo del orden de:
+Tomando $P_i = 9$ atm, $P_f = 1$ atm y considerando que el volumen final del gas es unas $V_f/V_i ≈ 10$ veces mayor, se obtiene un trabajo del orden de:
 
 $$
 W \sim 10^{-3}~\text{J}.
@@ -93,7 +93,7 @@ $$
 E = m L
 $$
 
-donde $m$ es la masa de agua. Si $m ≈ 10<sup>-5</sup>$ kg , entonces:
+donde $m$ es la masa de agua. Si $m ≈ 10^{-5}$ kg , entonces:
 
 $$
 E = 2.26 \times 10^{6} \times 10^{-5} = 22.6~\text{J}.
@@ -108,7 +108,7 @@ De esta energía, una pequeña fracción se convierte en trabajo mecánico y son
 Por nuestra experiencia, sabemos que siempre hay un par de granitos que no revientan (*“old maids”*). Esto peude deberse a una o varias de las siguientes causas:
 
 - Bajo contenido de humedad en el grano (menos de un 10%), insuficiente para generar la presión crítica.  
-- Fisuras microscópicas en el pericarpio, que permiten la fuga de vapor antes de alcanzar P<sub>rupt</sub>.  
+- Fisuras microscópicas en el pericarpio, que permiten la fuga de vapor antes de alcanzar $P_{rupt}$.  
 - Distribución térmica no uniforme que evita una presurización homogénea.
 
 ---
