@@ -9,8 +9,7 @@ tags:
   - infinito
   - cálculo
   - paradojas
-summary: Un hombre trajeado aparece en tu taller con una trompeta de vidrio transparente que se estrecha sin terminar nunca y una condición, su superficie debe verse completamente roja...
-Lo que parece un encargo extraño acaba revelando una lección sobre el infinito.
+summary: Un hombre trajeado aparece en tu taller con una trompeta de vidrio transparente que se estrecha sin terminar nunca y una condición, su superficie debe verse completamente roja... Lo que parece un encargo extraño acaba revelando una lección sobre el infinito.
 image: images/cuerno.png
 ---
 
