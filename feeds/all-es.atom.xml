@@ -475,7 +475,7 @@ $$&lt;/div&gt;
 &lt;div class="math"&gt;$$
 \ln \left( \frac{P_v}{P_0} \right) = - \frac{L}{R} \left( \frac{1}{T} - \frac{1}{T_0} \right),
 $$&lt;/div&gt;
-&lt;p&gt;donde &lt;span class="math"&gt;\(L = 2.26×10&amp;lt;sup&amp;gt;6&amp;lt;/sup&amp;gt;\)&lt;/span&gt; J/kg es el calor latente de vaporización del agua&amp;nbsp;y &lt;span class="math"&gt;\(R = 8.31\)&lt;/span&gt; J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno&amp;nbsp;de &lt;span class="math"&gt;\(453\)&lt;/span&gt; K&amp;nbsp;(&lt;span class="math"&gt;\(≈ 180\)&lt;/span&gt; °C)&amp;nbsp;y  &lt;span class="math"&gt;\(T&amp;lt;sub&amp;gt;0&amp;lt;/sub&amp;gt; = 373\)&lt;/span&gt; K, &lt;span class="math"&gt;\(P&amp;lt;sub&amp;gt;0&amp;lt;/sub&amp;gt; = 1\)&lt;/span&gt; atm, se&amp;nbsp;obtiene:&lt;/p&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(L = 2.26×1010^{6}\)&lt;/span&gt; J/kg es el calor latente de vaporización del agua&amp;nbsp;y &lt;span class="math"&gt;\(R = 8.31\)&lt;/span&gt; J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno&amp;nbsp;de &lt;span class="math"&gt;\(453\)&lt;/span&gt; K&amp;nbsp;(&lt;span class="math"&gt;\(≈ 180\)&lt;/span&gt; °C)&amp;nbsp;y  &lt;span class="math"&gt;\(T_0 = 373\)&lt;/span&gt; K, &lt;span class="math"&gt;\(P&amp;lt;sub&amp;gt;0&amp;lt;/sub&amp;gt; = 1\)&lt;/span&gt; atm, se&amp;nbsp;obtiene:&lt;/p&gt;
 &lt;div class="math"&gt;$$
 P_v(453~\text{K}) \approx 9~\text{atm}
 $$&lt;/div&gt;
