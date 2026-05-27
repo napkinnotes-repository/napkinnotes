@@ -20,16 +20,15 @@ image: images/palomitas.png
 
 ## Estructura del grano
 
-Empecemos por el protoganista de este fenómeno: el grano de maíz (*Zea mays everta*). Cada uno de ellos puede ser dividido en tres partes principales: El **endospermo**, que contiene almidón y un poco de agua (apriximadamente entre un 13 y 15 % de su masa); el **pericarpio**, una cáscara muy dura e impermeable; y el **germen** ---no, no ese tipo de germen peligroso para la salud en el que estás pensando, en este caso es simplemente la parte viva de la semilla---. El secreto de las palomitas está en esa pequeña cantidad de agua atrapada dentro del grano. Cuando se calienta, genera vapor y presión hasta que la cáscara no puede resistir más y explota. 
+Empecemos por el protoganista de este fenómeno: el grano de maíz (*Zea mays everta*). Cada uno de ellos puede ser dividido en tres partes principales: El **endospermo**, que contiene almidón y un poco de agua (apriximadamente entre un 13 y 15 % de su masa); el **pericarpio**, una cáscara muy dura e impermeable; y el **germen** --no, no ese tipo de germen peligroso para la salud en el que estás pensando, en este caso es simplemente la parte viva de la semilla. El secreto de las palomitas está en esa pequeña cantidad de agua atrapada dentro del grano. Cuando se calienta, genera vapor y presión hasta que la cáscara no puede resistir más y explota. 
 
-Sí querías la versión corta puedes parar aquí, pero si sigues curioso y deseas enterarte de todos los detalles, déjame explicártelos en las próximas secciones.
+Si querías la versión corta puedes parar aquí, pero si sigues curioso y deseas enterarte de todos los detalles, déjame explicártelos en las próximas secciones.
 
 ---
 
 ## El efecto del microondas
 
- El horno microondas opera típicamente a una frecuencia de 2.45 GHz, correspondiente a una longitud de onda de 12.2 cm.  
-Esta radiación electromagnética interactúa con los dipolos eléctricos del agua mediante el proceso de *calentamiento dieléctrico*. Las moléculas de agua rotan en fase con el campo alterno, generando disipación térmica a escala molecular.
+El horno microondas opera típicamente a una frecuencia de 2.45 GHz, correspondiente a una longitud de onda de 12.2 cm. Esta radiación electromagnética interactúa con los dipolos eléctricos del agua mediante el proceso de *calentamiento dieléctrico*. Las moléculas de agua rotan en fase con el campo alterno, generando disipación térmica a escala molecular.
 
 <!--El flujo de calor neto puede describirse de forma simplificada mediante la ecuación de difusión del calor:
 
@@ -51,19 +50,19 @@ $$
 \ln \left( \frac{P_v}{P_0} \right) = - \frac{L}{R} \left( \frac{1}{T} - \frac{1}{T_0} \right),
 $$
 
-donde L = 2.26×10<sup>6</sup> J/kg es el calor latente de vaporización del agua y R = 8.31 J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno de 453 K (≈ 180 °C) y  T<sub>0</sub> = 373 K, P<sub>0</sub> = 1 atm, se obtiene:
+donde $L = 2.26×10<sup>6</sup>$ J/kg es el calor latente de vaporización del agua y $R = 8.31$ J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno de $453$ K ($≈ 180$ °C) y  $T<sub>0</sub> = 373$ K, $P<sub>0</sub> = 1$ atm, se obtiene:
 
 $$
 P_v(453~\text{K}) \approx 9~\text{atm}
 $$
 
-que coincide con la presión crítica de ruptura observada experimentalmente para el pericarpio (P<sub>rupt</sub> ≈ 9–10 atm). 
+que coincide con la presión crítica de ruptura observada experimentalmente para el pericarpio ($P<sub>rupt</sub> ≈ 9–10$ atm). 
 
 ---
 
 ## Explosión y expansión adiabática
 
-Una vez que la presión interna excede la resistencia del pericarpio (P<sub>rupt</sub> ≈ 9–10 atm), se produce una fractura súbita. El vapor se expande rápidamente, realizando trabajo sobre el almidón circundante y provocando una expansión casi adiabática del gas. 
+Una vez que la presión interna excede la resistencia del pericarpio ($P<sub>rupt</sub> ≈ 9–10$ atm), se produce una fractura súbita. El vapor se expande rápidamente, realizando trabajo sobre el almidón circundante y provocando una expansión casi adiabática del gas. 
 
 Si suponemos una expansión adiabática reversible para el vapor de agua:
 
@@ -71,13 +70,13 @@ $$
 P V^{\gamma} = \text{constante},
 $$
 
-donde γ ≈ 1.33 para el vapor de agua, y, en consecuencia, el trabajo realizado por el gas durante la expansión es:
+donde $γ ≈ 1.33$ para el vapor de agua, y, en consecuencia, el trabajo realizado por el gas durante la expansión es:
 
 $$
 W = \frac{P_i V_i - P_f V_f}{\gamma - 1}.
 $$
 
-Tomando P<sub>i</sub> = 9 atm, P<sub>f</sub> = 1 atm y considerando que el volumen final del gas es unas V<sub>f</sub>/V<sub>i</sub> ≈ 10 veces mayor, se obtiene un trabajo del orden de:
+Tomando $P<sub>i</sub> = 9$ atm, $P<sub>f</sub> = 1$ atm y considerando que el volumen final del gas es unas $V<sub>f</sub>/V<sub>i</sub> ≈ 10$ veces mayor, se obtiene un trabajo del orden de:
 
 $$
 W \sim 10^{-3}~\text{J}.
@@ -94,7 +93,7 @@ $$
 E = m L
 $$
 
-donde m es la masa de agua. Si m ≈ 10<sup>-5</sup> kg , entonces:
+donde $m$ es la masa de agua. Si $m ≈ 10<sup>-5</sup>$ kg , entonces:
 
 $$
 E = 2.26 \times 10^{6} \times 10^{-5} = 22.6~\text{J}.
@@ -108,22 +107,22 @@ De esta energía, una pequeña fracción se convierte en trabajo mecánico y son
 
 Por nuestra experiencia, sabemos que siempre hay un par de granitos que no revientan (*“old maids”*). Esto peude deberse a una o varias de las siguientes causas:
 
-- Bajo contenido de humedad en el grano (menos que el 10%), insuficiente para generar la presión crítica.  
+- Bajo contenido de humedad en el grano (menos de un 10%), insuficiente para generar la presión crítica.  
 - Fisuras microscópicas en el pericarpio, que permiten la fuga de vapor antes de alcanzar P<sub>rupt</sub>.  
-- Distribución térmica no uniforme, que evita una presurización homogénea.
+- Distribución térmica no uniforme que evita una presurización homogénea.
 
 ---
 
 ## Eficiencia termodinámica aproximada
 
-Si un horno microondas de potencia P = 800 W opera durante t = 120 s:
+Si un horno microondas de potencia $P = 800$ W opera durante $t = 120$ s:
 
 $$
 E_{\text{in}} = P t = 9.6 \times 10^{4}~\text{J}.
 $$
 
-Una bolsa de 100 g contiene aproximadamente N = 3000 granos.  
-Si cada uno libera ≈ 20 J en el proceso de vaporización:
+Una bolsa de $100$ g contiene aproximadamente $N = 3000$ granos.  
+Si cada uno libera $≈ 20$ J en el proceso de vaporización:
 
 $$
 E_{\text{total}} = N \times 20~\text{J} = 6.0 \times 10^{4}~\text{J}.
@@ -135,13 +134,13 @@ $$
 \eta = \frac{E_{\text{total}}}{E_{\text{in}}} \approx 0.6
 $$
 
-es decir, un rendimiento del 60 %, notablemente alto para un proceso de cocción doméstico basado en calentamiento dieléctrico.
+es decir, un rendimiento del 60%, notablemente alto para un proceso de cocción doméstico basado en calentamiento dieléctrico.
 
 ---
 
 ## Lo que aprendemos de las palomitas
 
-El estallido de las palomitas es un ejemplo fascinante de cómo principios de la física macroscópica ---transferencia de calor, termodinámica del cambio de fases, elasticidad de materiales y dinámica de gases--- se manifiestan en un fenómeno tan delicioso como cotidiano. Cada grano actúa como una *microcápsula de presión* donde el agua, confinada, pasa de líquido a vapor hasta romper la envoltura, produciendo ese modesto sonido (*pop*) en el que convergen varias ramas de la física.  
+El estallido de las palomitas es un ejemplo fascinante de cómo principios de la física macroscópica --transferencia de calor, termodinámica del cambio de fases, elasticidad de materiales y dinámica de gases-- se manifiestan en un fenómeno tan delicioso como cotidiano. Cada grano actúa como una *microcápsula de presión* donde el agua, confinada, pasa de líquido a vapor hasta romper la envoltura, produciendo ese modesto sonido (*pop*) en el que convergen varias ramas de la física.  
 
 ---
 
