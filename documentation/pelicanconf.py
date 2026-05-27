@@ -201,7 +201,7 @@ AUTHORS = {
         "role": "Colaboradora",
         "blurb": "María es estudiante de doctorado en cosmología, y le apasiona intentar desentrañar los misterios del cosmos y de la vida en general. Su trabajo consiste en estudiar los ingredientes fundamentales que conforman el universo, y de qué manera interactúan para dar lugar a las formaciones de galaxias que observamos hoy en día. Sus textos aspiran a arrojar un poco de luz sobre ese sector todavía oscuro del universo, despertando la curiosidad y el pensamiento crítico en quienes se acercan a explorarlo.",
         "avatar": "images/maria.jpeg",
-        "articles_url": "autor/maria-perez-vicente",       
+        "articles_url": "autor/maria-perez-garrote",       
     },
      "Ruchika": {
         "url": "https://produccioncientifica.usal.es/investigadores/1999168/detalle",
@@ -219,7 +219,117 @@ AUTHORS = {
     },
 }
 
+# Orden automático de autores por número de artículos publicados.
+# Duvier queda fijo primero. El resto se ordena por artículos publicados
+# dentro de su grupo visual.
 
+AUTHOR_TOP_FIXED = [
+    "Duvier Suárez Fontanella",
+]
+
+AUTHOR_TOP_DYNAMIC = [
+    "Gretel Quintero Angulo",
+    "David Figueruelo Hernán",
+    "Gabriel Sánchez Pérez",
+]
+
+AUTHOR_BOTTOM_DYNAMIC = [
+    "Paz Albares Vicente",
+    "María Pérez Garrote",
+    "Ruchika",
+    "David Barba González",
+]
+
+
+def _clean_metadata_value(value):
+    value = value.strip()
+
+    # Quita comentarios YAML simples: value # comentario
+    if " #" in value:
+        value = value.split(" #", 1)[0].strip()
+
+    return value.strip('"').strip("'")
+
+
+def _read_md_metadata(filepath):
+    metadata = {}
+
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except UnicodeDecodeError:
+        return metadata
+
+    if not lines or lines[0].strip() != "---":
+        return metadata
+
+    for line in lines[1:]:
+        if line.strip() == "---":
+            break
+
+        if ":" not in line:
+            continue
+
+        key, value = line.split(":", 1)
+        key = key.strip().lower()
+
+        if key in ("author", "status"):
+            metadata[key] = _clean_metadata_value(value)
+
+    return metadata
+
+
+def _count_published_articles_by_author():
+    counts = {author_name: 0 for author_name in AUTHORS.keys()}
+    content_root = os.path.join(os.path.dirname(__file__), PATH)
+
+    for root, dirs, files in os.walk(content_root):
+        # No contar plantillas ni ejemplos
+        if "template_articulos" in root:
+            continue
+
+        for filename in files:
+            if not filename.endswith(".md"):
+                continue
+
+            filepath = os.path.join(root, filename)
+            metadata = _read_md_metadata(filepath)
+
+            author = metadata.get("author", "")
+            status = metadata.get("status", "published").lower()
+
+            # Solo cuentan los publicados. Los hidden/draft no cuentan.
+            if status != "published":
+                continue
+
+            if author in counts:
+                counts[author] += 1
+
+    return counts
+
+
+def _sort_author_group_by_count(author_names, counts):
+    original_position = {name: index for index, name in enumerate(author_names)}
+
+    return sorted(
+        author_names,
+        key=lambda name: (-counts.get(name, 0), original_position[name])
+    )
+
+
+_AUTHOR_ARTICLE_COUNTS = _count_published_articles_by_author()
+
+_ORDERED_AUTHOR_NAMES = (
+    AUTHOR_TOP_FIXED
+    + _sort_author_group_by_count(AUTHOR_TOP_DYNAMIC, _AUTHOR_ARTICLE_COUNTS)
+    + _sort_author_group_by_count(AUTHOR_BOTTOM_DYNAMIC, _AUTHOR_ARTICLE_COUNTS)
+)
+
+AUTHORS = {
+    author_name: AUTHORS[author_name]
+    for author_name in _ORDERED_AUTHOR_NAMES
+    if author_name in AUTHORS
+}
 
 
 COMMENTS_INTRO = "Comentarios"
