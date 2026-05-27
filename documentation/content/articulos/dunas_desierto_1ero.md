@@ -3,7 +3,7 @@ title: "Dunas y desiertos: primera parte"
 author: David Barba González
 date: 2026-06-15 
 layout: articles
-slug: prueba-articulo
+slug: dunas_desierto_1ero
 status: hidden
 category: Geofrafía 
 tags:
