@@ -11,7 +11,7 @@ tags:
   - dunas
   - viento
   - arena
-summary: Vamos a hacer la receta para crear una duna en un desierto. Bueno, o mejor solo entendemos la receta
+summary: Vamos a hacer la receta para crear una duna en un desierto. Bueno, o mejor solo entendemos la receta.
 image: images/wadi_rum.jpeg 
 ---
 
@@ -29,22 +29,22 @@ un desierto de arena: dunas.
 
 
 
-Debido a que no hago más que ver desiertos, he decidido leer aprender
-sobre las dunas, y escribir una serie de artículos sobre las mismas. Me
-surgieron las siguientes preguntas: ¿cómo se forman las dunas?, ¿de qué
+Debido a que no hago más que ver desiertos, he decidido aprender
+sobre las dunas y escribir una serie de artículos sobre las mismas. Me
+surgieron las siguientes preguntas: ¿cómo se forman?, ¿de qué
 depende su tamaño, su dirección, su altura? A partir de ahí he entrado
-en un *rabbit hole* de proporciones astronómicas, en el que me vais a
+en un *rabbit hole* de proporciones astronómicas en el que me vais a
 acompañar. Sin embargo, en esta era del *reel*, no os voy a desvelar
 todos los secretos de las dunas en este primer artículo, sino que solo
-haré una introducción sobre cuales son los ingredientes necesarios para
-formar una duna. Apuntad la receta: arena, viento y un obstáculo.
+haré una introducción sobre cuáles son los ingredientes necesarios para
+formar una. Apuntad la receta: arena, viento y un obstáculo.
 
 
 
 # Arena
 
 La arena debe tener la movilidad suficiente para ser arrastrada por el
-viento. Si los granos de arena son demasiado pequeños ($<$ 0.050 mm),
+viento. Si los granos son demasiado pequeños ($<$ 0.050 mm),
 están cohesionados entre ellos y resisten bien la erosión por parte del
 viento. Al ir creciendo dichos granos, también lo hace la velocidad del
 viento $v_0$ necesaria para crear un flujo de arena suficiente para
@@ -56,13 +56,13 @@ alrededor de 0.2 mm \[1].
 
 
 
-También debe haber suficiente arena, como para que esta se pueda
+También debe haber suficiente arena como para que esta se pueda
 acumular en las dunas. La cantidad de arena se mide usando el llamado
 grosor de arena equivalente, definido como el grosor que tendría la
 arena si extendiésemos completamente las dunas sobre todo el territorio
 analizado. En los sistemas de dunas en los que se ha medido el EST
 (*equivalent sand thickness*), como Great Sandy o Great Victoria en
-Australia, arrojan valores de entre 1 y 5 m, como cantidad mínima de
+Australia, se obtienen valores de entre 1 y 5 m como cantidad mínima de
 arena que necesitamos para formar nuestras dunas \[2].
 
 
@@ -71,7 +71,7 @@ arena que necesitamos para formar nuestras dunas \[2].
 
 Ya hemos mencionado el viento, que debe ser no solo lo suficientemente
 fuerte como para mover la arena, sino también para evitar el crecimiento
-de vegetación sobre la duna. Si las plantas enraízan en la arena, la
+de vegetación sobre la duna. Si las plantas enraizan en la arena, la
 estabilizan y por tanto la formación de dunas es más difícil y las que
 se forman son más pequeñas. Otra característica del viento que debemos
 tener en cuenta es la dirección y la variabilidad de esta a lo largo del
@@ -105,10 +105,9 @@ reclamaciones por la elección de unidades.
 
 
 Un par de ejemplos. En primer lugar, el desierto de Rub'al Khali
-
 entre Omán y Arabia Saudí tiene un DP
 de en torno a 600, uno de los sistemas de dunas más fuertes y móviles
-del mundo. Y el desierto del Sáhara con una altísima variabilidad de
+del mundo. Y el desierto del Sáhara, con una altísima variabilidad, de
 entre 200 y 600.
 
 
