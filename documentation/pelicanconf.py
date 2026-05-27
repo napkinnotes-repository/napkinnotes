@@ -221,7 +221,8 @@ AUTHORS = {
 
 # Orden automático de autores por número de artículos publicados.
 # Duvier queda fijo primero. El resto se ordena por artículos publicados
-# dentro de su grupo visual.
+# dentro de su grupo visual. Para mismo número de artículos se usa el orden
+# predefinido que teniamos antes.
 
 AUTHOR_TOP_FIXED = [
     "Duvier Suárez Fontanella",
