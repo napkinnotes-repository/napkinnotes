@@ -103,4 +103,4 @@ Tu intuición te decía que si algo es infinito, todo en él debía serlo. El cu
 
 El infinito no contradice la lógica. Solo contradice nuestras expectativas.  
 
-Y ahora, cada vez que sostienes un pincel, sabes que incluso aquello que parece perfectamente manejable puede ocultar una estructura que desborda el sentido común. Un día más en Tivoli.
+Y ahora, cada vez que sostienes un pincel, sabes que incluso aquello que parece perfectamente manejable puede ocultar una estructura que desborda el sentido común. Un día más en Tívoli.
