@@ -5,14 +5,14 @@ date: 2026-06-15
 layout: articles
 slug: dunas_desierto_1ero
 status: hidden
-category: Geofrafía 
+category: Geografía 
 tags:
   - desierto
   - dunas
   - viento
   - arena
 summary: Vamos a hacer la receta para crear una duna en un desierto. Bueno, o mejor solo entendemos la receta
-image: images/wadi_rum.jpeg #
+image: images/wadi_rum.jpeg 
 ---
 
 [TOC]
