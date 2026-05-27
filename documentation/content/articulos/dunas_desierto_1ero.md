@@ -84,7 +84,9 @@ denominada *drift potential* o DP, definido como
 
 
 
-$$DP = \\frac{v^2\\left(v-v\_0\\right)}{100}t.$$
+$$
+DP = \frac{v^2\left(v-v\_0\right)}{100}t.
+$$
 
 
 
