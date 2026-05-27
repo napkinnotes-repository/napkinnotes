@@ -30,11 +30,10 @@ Explora todas las categorías y tags de Napkin Notes en una sola página.
             <ul class="nn-explore-list">
                 {% for category, articles in categories|sort %}
                 <li class="nn-explore-list__item nn-explore-preview">
-                    <a class="nn-explore-preview__head"
-                       href="{{ SITEURL }}/{{ CATEGORIES_URL }}#{{ category.slug }}-ref">
+                    <button class="nn-explore-preview__head" type="button">
                         <span class="nn-explore-list__name">{{ category }}</span>
                         <span class="nn-explore-list__count">{{ articles|count }}</span>
-                    </a>
+                    </button>
 
                     <div class="nn-explore-preview__panel">
                         <div class="nn-explore-preview__panel-inner">
@@ -59,11 +58,10 @@ Explora todas las categorías y tags de Napkin Notes en una sola página.
             <ul class="nn-explore-list">
                 {% for tag, articles in tags|sort %}
                 <li class="nn-explore-list__item nn-explore-preview">
-                    <a class="nn-explore-preview__head"
-                       href="{{ SITEURL }}/{{ TAGS_URL }}#{{ tag.slug }}-ref">
+                    <button class="nn-explore-preview__head" type="button">
                         <span class="nn-explore-list__name">{{ tag }}</span>
                         <span class="nn-explore-list__count">{{ articles|count }}</span>
-                    </a>
+                    </button>
 
                     <div class="nn-explore-preview__panel">
                         <div class="nn-explore-preview__panel-inner">
