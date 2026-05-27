@@ -50,7 +50,7 @@ $$
 \ln \left( \frac{P_v}{P_0} \right) = - \frac{L}{R} \left( \frac{1}{T} - \frac{1}{T_0} \right),
 $$
 
-donde $L = 2.26×10<sup>6</sup>$ J/kg es el calor latente de vaporización del agua y $R = 8.31$ J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno de $453$ K ($≈ 180$ °C) y  $T<sub>0</sub> = 373$ K, $P<sub>0</sub> = 1$ atm, se obtiene:
+donde $L = 2.26×1010^{6}$ J/kg es el calor latente de vaporización del agua y $R = 8.31$ J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno de $453$ K ($≈ 180$ °C) y  $T_0 = 373$ K, $P<sub>0</sub> = 1$ atm, se obtiene:
 
 $$
 P_v(453~\text{K}) \approx 9~\text{atm}
