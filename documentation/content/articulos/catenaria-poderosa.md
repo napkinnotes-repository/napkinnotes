@@ -26,27 +26,27 @@ Resulta que allá por 1691 los matemáticos Gottfried Leibniz, Christiaan Huygen
 Si queremos deducir la ecuación diferencial de la catenaria, simplemente tenemos que aplicar el equilibrio de fuerzas a una porción infinitesimal de una cadena o cuerda $ [s, s + \Delta s ]$. Dicho elemento está sometido a tres fuerzas: su peso y las tensiones con las que la cadena tira de sus extremos. Explícitamente:
 $$
 \begin{aligned}
-T(s+\Delta s)\cos \alpha(s+\Delta s) - T(s)\cos \alpha(s) &= 0, \\
-T(s+\Delta s)\sin \alpha(s+\Delta s) - T(s)\sin \alpha(s) &= \rho g \Delta s.
+T(s+\Delta s)\cos \alpha(s+\Delta s) - T(s)\cos \alpha(s) &= 0 \;, \\
+T(s+\Delta s)\sin \alpha(s+\Delta s) - T(s)\sin \alpha(s) &= \rho g \Delta s \;,
 \end{aligned}
 $$
 donde $\alpha$ es el ángulo formado por la catenaria y el eje horizontal, $T$ es el módulo de la fuerza de tensión en cada punto y $\rho$ es el peso por unidad de longitud. 
 
 Si hacemos tender $\Delta s \to 0$, obtenemos que
 $$
-\frac{d (T \text{cos} \alpha)}{ds}=0, \qquad \frac{d (T \text{sen} \alpha)}{ds}=\rho g.
+\frac{d (T \text{cos} \alpha)}{ds}=0, \qquad \frac{d (T \text{sen} \alpha)}{ds}=\rho g \;.
 $$
 La primera de las condiciones nos dice que la tensión horizontal es constante $T_H\equiv T\text{cos}\alpha = cte$. Sustituyendo esta expresión en la segunda condición, obtenemos la ecuación para el ángulo que forma la catenaria y la horizontal:
 $$
-d \text{tan}\alpha(s)=\frac{\rho g}{T_H} ds.
+d \text{tan}\alpha(s)=\frac{\rho g}{T_H} ds \;.
 $$
 Recordando la relación de la tangente $\text{tan}\alpha = \frac{dy}{dx}$ y la longitud de arco $ds=\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx$, obtenemos la ecuación diferencial de la catenaria:
 $$
-\frac{dy}{dx}=\frac{\rho g}{T_H}\int^x_{x_0}\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx,
+\frac{dy}{dx}=\frac{\rho g}{T_H}\int^x_{x_0}\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx \;,
 $$
 cuya solución viene dada por
 $$
-y=a\text{cosh}\left(\frac{x}{a}\right).
+y=a\text{cosh}\left(\frac{x}{a}\right) \;.
 $$
 En la solución anterior hemos agrupado las constantes $a\equiv \frac{T_H}{\rho g}$ y establecido como punto de referencia $\left(0,a\right)$. En la siguiente figura he representado tres diferentes catenarias y una parábola, para que podáis ver la diferencia entre estas curvas.
 
