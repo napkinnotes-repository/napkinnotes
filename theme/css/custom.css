@@ -1392,16 +1392,33 @@ footer a,
   z-index: 1;
 }
 
+.nn-squad-hero__inner--with-metrics {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 28px;
+  align-items: center;
+}
+
+.nn-squad-hero__content,
+.nn-squad-hero__metrics {
+  position: relative;
+  z-index: 1;
+}
+
 .nn-squad-hero__metrics {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 96px);
   gap: 10px;
   align-items: stretch;
 }
 
 .nn-squad-hero__metric {
-  min-width: 86px;
-  padding: 12px 14px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  align-items: center;
+  justify-items: center;
+  min-height: 82px;
+  padding: 12px 10px;
   border: 1px solid rgba(196, 154, 102, 0.32);
   border-radius: 18px;
   background: rgba(255, 253, 249, 0.08);
@@ -1410,22 +1427,27 @@ footer a,
 }
 
 .nn-squad-hero__metric strong {
-  display: block;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  min-height: 38px;
   color: var(--satinsheengold);
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(1.8rem, 2.6vw, 2.35rem);
-  line-height: 1;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 0.9;
 }
 
 .nn-squad-hero__metric span {
   display: block;
-  margin-top: 5px;
+  margin-top: 8px;
   color: rgba(196, 154, 102, 0.9);
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.1em;
-  line-height: 1.2;
+  line-height: 1;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 @media (max-width: 900px) {
@@ -1439,30 +1461,31 @@ footer a,
   }
 
   .nn-squad-hero__metric {
-    min-width: 0;
+    min-height: 78px;
   }
 }
 
 @media (max-width: 520px) {
   .nn-squad-hero__metrics {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
   }
 
   .nn-squad-hero__metric {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 14px;
-    padding: 11px 14px;
-    text-align: left;
+    min-height: 68px;
+    padding: 10px 6px;
+    border-radius: 14px;
   }
 
   .nn-squad-hero__metric strong {
-    font-size: 1.9rem;
+    min-height: 30px;
+    font-size: 1.8rem;
   }
 
   .nn-squad-hero__metric span {
-    margin-top: 0;
+    margin-top: 6px;
+    font-size: 0.58rem;
+    letter-spacing: 0.07em;
   }
 }
 
