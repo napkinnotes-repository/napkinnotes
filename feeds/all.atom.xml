@@ -475,14 +475,14 @@ $$&lt;/div&gt;
 &lt;div class="math"&gt;$$
 \ln \left( \frac{P_v}{P_0} \right) = - \frac{L}{R} \left( \frac{1}{T} - \frac{1}{T_0} \right),
 $$&lt;/div&gt;
-&lt;p&gt;donde &lt;span class="math"&gt;\(L = 2.26×1010^{6}\)&lt;/span&gt; J/kg es el calor latente de vaporización del agua&amp;nbsp;y &lt;span class="math"&gt;\(R = 8.31\)&lt;/span&gt; J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno&amp;nbsp;de &lt;span class="math"&gt;\(453\)&lt;/span&gt; K&amp;nbsp;(&lt;span class="math"&gt;\(≈ 180\)&lt;/span&gt; °C)&amp;nbsp;y  &lt;span class="math"&gt;\(T_0 = 373\)&lt;/span&gt; K, &lt;span class="math"&gt;\(P&amp;lt;sub&amp;gt;0&amp;lt;/sub&amp;gt; = 1\)&lt;/span&gt; atm, se&amp;nbsp;obtiene:&lt;/p&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(L = 2.26×10^{6}\)&lt;/span&gt; J/kg es el calor latente de vaporización del agua&amp;nbsp;y &lt;span class="math"&gt;\(R = 8.31\)&lt;/span&gt; J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno&amp;nbsp;de &lt;span class="math"&gt;\(453\)&lt;/span&gt; K&amp;nbsp;(&lt;span class="math"&gt;\(≈ 180\)&lt;/span&gt; °C)&amp;nbsp;y  &lt;span class="math"&gt;\(T_0 = 373\)&lt;/span&gt; K, &lt;span class="math"&gt;\(P_0 = 1\)&lt;/span&gt; atm, se&amp;nbsp;obtiene:&lt;/p&gt;
 &lt;div class="math"&gt;$$
 P_v(453~\text{K}) \approx 9~\text{atm}
 $$&lt;/div&gt;
-&lt;p&gt;que coincide con la presión crítica de ruptura observada experimentalmente para el pericarpio&amp;nbsp;(&lt;span class="math"&gt;\(P&amp;lt;sub&amp;gt;rupt&amp;lt;/sub&amp;gt; ≈ 9–10\)&lt;/span&gt; atm). &lt;/p&gt;
+&lt;p&gt;que coincide con la presión crítica de ruptura observada experimentalmente para el pericarpio&amp;nbsp;(&lt;span class="math"&gt;\(P_{rupt} ≈ 9–10\)&lt;/span&gt; atm). &lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id="explosion-y-expansion-adiabatica"&gt;Explosión y expansión adiabática&lt;a class="headerlink" href="#explosion-y-expansion-adiabatica" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Una vez que la presión interna excede la resistencia del pericarpio&amp;nbsp;(&lt;span class="math"&gt;\(P&amp;lt;sub&amp;gt;rupt&amp;lt;/sub&amp;gt; ≈ 9–10\)&lt;/span&gt; atm), se produce una fractura súbita. El vapor se expande rápidamente, realizando trabajo sobre el almidón circundante y provocando una expansión casi adiabática del&amp;nbsp;gas. &lt;/p&gt;
+&lt;p&gt;Una vez que la presión interna excede la resistencia del pericarpio&amp;nbsp;(&lt;span class="math"&gt;\(P_{rupt} ≈ 9–10\)&lt;/span&gt; atm), se produce una fractura súbita. El vapor se expande rápidamente, realizando trabajo sobre el almidón circundante y provocando una expansión casi adiabática del&amp;nbsp;gas. &lt;/p&gt;
 &lt;p&gt;Si suponemos una expansión adiabática reversible para el vapor de&amp;nbsp;agua:&lt;/p&gt;
 &lt;div class="math"&gt;$$
 P V^{\gamma} = \text{constante},
@@ -491,7 +491,7 @@ $$&lt;/div&gt;
 &lt;div class="math"&gt;$$
 W = \frac{P_i V_i - P_f V_f}{\gamma - 1}.
 $$&lt;/div&gt;
-&lt;p&gt;Tomando &lt;span class="math"&gt;\(P&amp;lt;sub&amp;gt;i&amp;lt;/sub&amp;gt; = 9\)&lt;/span&gt; atm, &lt;span class="math"&gt;\(P&amp;lt;sub&amp;gt;f&amp;lt;/sub&amp;gt; = 1\)&lt;/span&gt; atm y considerando que el volumen final del gas es&amp;nbsp;unas &lt;span class="math"&gt;\(V&amp;lt;sub&amp;gt;f&amp;lt;/sub&amp;gt;/V&amp;lt;sub&amp;gt;i&amp;lt;/sub&amp;gt; ≈ 10\)&lt;/span&gt; veces mayor, se obtiene un trabajo del orden&amp;nbsp;de:&lt;/p&gt;
+&lt;p&gt;Tomando &lt;span class="math"&gt;\(P_i = 9\)&lt;/span&gt; atm, &lt;span class="math"&gt;\(P_f = 1\)&lt;/span&gt; atm y considerando que el volumen final del gas es&amp;nbsp;unas &lt;span class="math"&gt;\(V_f/V_i ≈ 10\)&lt;/span&gt; veces mayor, se obtiene un trabajo del orden&amp;nbsp;de:&lt;/p&gt;
 &lt;div class="math"&gt;$$
 W \sim 10^{-3}~\text{J}.
 $$&lt;/div&gt;
@@ -502,7 +502,7 @@ $$&lt;/div&gt;
 &lt;div class="math"&gt;$$
 E = m L
 $$&lt;/div&gt;
-&lt;p&gt;donde &lt;span class="math"&gt;\(m\)&lt;/span&gt; es la masa de agua.&amp;nbsp;Si &lt;span class="math"&gt;\(m ≈ 10&amp;lt;sup&amp;gt;-5&amp;lt;/sup&amp;gt;\)&lt;/span&gt; kg ,&amp;nbsp;entonces:&lt;/p&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(m\)&lt;/span&gt; es la masa de agua.&amp;nbsp;Si &lt;span class="math"&gt;\(m ≈ 10^{-5}\)&lt;/span&gt; kg ,&amp;nbsp;entonces:&lt;/p&gt;
 &lt;div class="math"&gt;$$
 E = 2.26 \times 10^{6} \times 10^{-5} = 22.6~\text{J}.
 $$&lt;/div&gt;
@@ -512,7 +512,7 @@ $$&lt;/div&gt;
 &lt;p&gt;Por nuestra experiencia, sabemos que siempre hay un par de granitos que no revientan (&lt;em&gt;“old maids”&lt;/em&gt;). Esto peude deberse a una o varias de las siguientes&amp;nbsp;causas:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Bajo contenido de humedad en el grano (menos de un 10%), insuficiente para generar la presión&amp;nbsp;crítica.  &lt;/li&gt;
-&lt;li&gt;Fisuras microscópicas en el pericarpio, que permiten la fuga de vapor antes de alcanzar P&lt;sub&gt;rupt&lt;/sub&gt;.  &lt;/li&gt;
+&lt;li&gt;Fisuras microscópicas en el pericarpio, que permiten la fuga de vapor antes de&amp;nbsp;alcanzar &lt;span class="math"&gt;\(P_{rupt}\)&lt;/span&gt;.  &lt;/li&gt;
 &lt;li&gt;Distribución térmica no uniforme que evita una presurización&amp;nbsp;homogénea.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
