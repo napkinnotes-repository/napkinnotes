@@ -3,8 +3,7 @@ title:  El poder de la catenaria
 author:  María Pérez Garrote
 date:  2026-05-26
 layout: articles
-status: hidden
-slug: el-poder-de-la-catenaria
+status: published
 category: Arquitectura 
 tags: 
   - física
