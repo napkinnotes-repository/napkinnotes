@@ -1146,7 +1146,17 @@ footer a,
   overflow: visible;
   vertical-align: baseline;
 }
+/* MÓVIL: evitar que títulos largos de artículos se salgan del recuadro */
 
+@media (max-width: 640px) {
+  .nn-article-hero__title {
+    overflow-wrap: anywhere;
+    word-break: normal;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    line-height: 1.02;
+  }
+}
 /* Móvil: solo las fórmulas de bloque pueden tener scroll */
 
 @media (max-width: 640px) {
