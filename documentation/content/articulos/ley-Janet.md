@@ -18,25 +18,26 @@ image: images/janet.jpg
 
 ## El modelo matemático: La Ley de Paul Janet
 
-Para entender este fenómeno, tenemos que diferenciar dos variables: el tiempo físico ($t$), que es la edad cronológica que dicta tu DNI, y el tiempo percibido ($T$), que es el total de "tiempo psicológico" que sientes que has acumulado en tu vida.
+Para entender este fenómeno tenemos que diferenciar dos variables: el tiempo físico ($t$), que es la edad cronológica que dicta tu DNI, y el tiempo percibido ($T$), que es el total de "tiempo psicológico" que sientes que has acumulado en tu vida.
 
-En el siglo XIX, un filósofo francés llamado Paul Janet propuso una teoría brillante en su sencillez: nuestra percepción del tiempo es relativa al tiempo que ya hemos vivido. Para un niño de 5 años, un año representa una quinta parte (el 20%) de toda su existencia. Para un adulto de 50 años, ese mismo año es apenas una cincuentava parte (el 2%) de su vida. Es lógico que el niño sienta ese año como algo inmenso, mientras que para el adulto sea un parpadeo.
+En el siglo XIX, un filósofo francés llamado Paul Janet propuso una teoría brillante en su sencillez: nuestra percepción del tiempo es relativa al tiempo que ya hemos vivido. Para un niño de 5 años, un año representa una quinta parte (el 20%) de toda su existencia. Para un adulto de 50 años, ese mismo año es apenas una cincuentava parte (el 2%) de su vida. Es lógico que el niño sienta ese año como algo inmenso, mientras que para el adulto es un parpadeo.
 
 Si traducimos la intuición de Janet al lenguaje del cálculo diferencial, podemos modelar el ritmo al que experimentamos el tiempo ($dT/dt$) como algo inversamente proporcional a nuestra edad ($t$). La ecuación queda así:
 
 $$\frac{dT}{dt} = \frac{\alpha}{t},$$
 
 donde $\alpha$ es una constante de proporcionalidad que depende de cada individuo. Si resolvemos esta ecuación diferencial mediante integración, buscando calcular el tiempo sentido ($T$) desde el momento en que empezamos a formar recuerdos conscientes (fijemos de forma realista los $t_0 = 3$ años de edad) hasta nuestra edad actual $t$, obtenemos el siguiente resultado:
+
 $$T(t) = \alpha \ln\left(\frac{t}{3}\right).$$
 
-¡La percepción del tiempo es logarítmica! Si recuerdas cómo es la curva de un logaritmo, empieza subiendo de forma muy empinada y luego se aplana, avanzando de manera sumamente lenta. Eso es exactamente lo que le ocurre a nuestra vida sentida: acumulamos minutos psicológicos cada vez más despacio.
+¡La percepción del tiempo es logarítmica! Si recuerdas cómo es la curva de un logaritmo sabrás que empieza subiendo de forma muy empinada y luego se aplana, avanzando de manera sumamente lenta. Eso es exactamente lo que le ocurre a nuestra vida sentida: acumulamos minutos psicológicos cada vez más despacio.
 
 ![Gráfica del logaritmo](images/janet.jpg)
 ---
 
 ## El gran cálculo: ¿A qué edad se agota la "mitad" de nuestra vida?
 
-Imaginemos que la esperanza de vida media es de $L = 80$ años. Si el tiempo psicológico fuera lineal, la mitad de tu vida la alcanzarías a los 40 años. Pero como nuestro cerebro calcula el tiempo con la ley logarítmica de Janet, la pregunta cambia por completo: ¿A qué edad física ($t_{mitad}$) habremos gastado ya el 50% de todo nuestro tiempo percibido?
+Imaginemos que la esperanza de vida media es de $L = 80$ años. Si el tiempo psicológico fuera lineal, la mitad de tu vida la alcanzarías a los 40 años. Pero si nuestro cerebro calculara el tiempo con la ley logarítmica de Janet, la pregunta cambia por completo: ¿A qué edad física ($t_{mitad}$) habremos gastado ya el 50% de todo nuestro tiempo percibido?
 
 Para resolverlo, planteamos que el tiempo sentido a esa edad intermedia debe ser igual a la mitad del tiempo sentido al llegar a los 80 años:
 
@@ -48,7 +49,7 @@ $$\alpha \ln\left(\frac{t_{mitad}}{3}\right) = \frac{1}{2} \alpha \ln\left(\frac
 
 Podemos simplificar la constante $\alpha$ en ambos lados y aplicar las propiedades de los logaritmos (pasar el $1/2$ como raíz cuadrada del argumento):
 
-$$\ln\left(\frac{t_{mitad}}{3}\right) = \ln\left(\sqrt{\frac{80}{3}}\right)$$
+$$\ln\left(\frac{t_{mitad}}{3}\right) = \ln\left(\sqrt{\frac{80}{3}}\right).$$
 
 Eliminando los logaritmos, nos queda una ecuación sorprendentemente limpia:
 
@@ -60,11 +61,11 @@ El resultado es demoledor. Si el modelo de Janet es correcto, a los 15 años y m
 
 ## La redención: Cómo reconciliar el tiempo sentido con el real
 
-A la luz del modelo logarítmico de Janet, el panorama parece desolador: si la infancia consume la mitad de nuestra experiencia consciente, la adultez no es más que una dolorosa aceleración hacia el final. Sin embargo, la propia matemática que nos condena nos ofrece una vía de escape. La clave está en esa pequeña letra griega que dejamos aparcada antes: la constante de intensidad cognitiva, $\alpha$.
+A la luz del modelo logarítmico de Janet, el panorama parece desolador: si la infancia consume la mitad de nuestra experiencia consciente, la adultez no es más que una dolorosa aceleración hacia el final. Sin embargo, la propia matemática que nos condena nos ofrece una vía de escape. La clave está en esa pequeña letra griega que dejamos aparcada antes: la constante de intensidad cognitiva $\alpha$.
 
-Hasta ahora hemos asumido que $\alpha$ es una constante fija. Pero, ¿qué pasaría si pudiéramos intervenir sobre ella? Lo ideal sería conseguir que nuestra percepción del tiempo ($T$) volviera a ser lineal respecto al tiempo real ($t$). Es decir, que un año a los 60 años se sintiera exactamente tan largo y pleno como un año a los 6 años.
+Hasta ahora hemos asumido que $\alpha$ es un valor fijo. Pero, ¿qué pasaría si pudiéramos intervenir sobre ella? Lo ideal sería conseguir que nuestra percepción del tiempo ($T$) volviera a ser lineal respecto al tiempo real ($t$). Es decir, que un año a los 60 años se sintiera exactamente tan largo y pleno como un año a los 6 años.
 
-Para que $T \sim t$, necesitamos que el ritmo al que experimentamos la vida sea constante. Si planteamos que $\alpha$ no es un número fijo, sino que tiene un comportamiento lineal con la edad (es decir, $\alpha(t) = k \cdot t$, donde $k$ es un factor de esfuerzo consciente), ocurre una magia matemática impecable en nuestra ecuación original:
+Para que $T \sim t$ necesitamos que el ritmo al que experimentamos la vida sea constante. Si planteamos que $\alpha$ no es un número fijo, sino que tiene un comportamiento lineal con la edad (es decir, $\alpha(t) = k \cdot t$, donde $k$ es un factor de esfuerzo consciente), ocurre una magia matemática impecable en nuestra ecuación original:
 
 $$\frac{dT}{dt} = \frac{\alpha(t)}{t} \implies \frac{dT}{dt} = \frac{k \cdot t}{t}.$$
 
