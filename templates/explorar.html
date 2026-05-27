@@ -11,29 +11,40 @@ Explora todas las categorías y tags de Napkin Notes en una sola página.
 {% block content %}
 <section class="nn-explore-page">
     <header class="nn-squad-hero nn-explore-hero">
-    <div class="nn-squad-hero__inner">
-        <div class="nn-kicker">Navegación temática</div>
-        <h1 class="nn-squad-hero__title">Explorar</h1>
-        <p class="nn-squad-hero__subtitle">
-            Recorre todos los contenidos de Napkin Notes por categorías y por tags desde una sola página.
-        </p>
-    </div>
-</header>
+        <div class="nn-squad-hero__inner">
+            <div class="nn-kicker">Navegación temática</div>
+            <h1 class="nn-squad-hero__title">Explorar</h1>
+            <p class="nn-squad-hero__subtitle">
+                Recorre todos los contenidos de Napkin Notes por categorías y por tags desde una sola página.
+            </p>
+        </div>
+    </header>
 
     <div class="nn-explore-grid">
         <section class="nn-explore-card">
-          <div class="nn-explore-card__header">
-            <h2>Categorías</h2>
-            <p>Grandes rutas para explorar por temas principales.</p>
-          </div>
+            <div class="nn-explore-card__header">
+                <h2>Categorías</h2>
+                <p>Grandes rutas para explorar por temas principales.</p>
+            </div>
 
             <ul class="nn-explore-list">
                 {% for category, articles in categories|sort %}
-                <li class="nn-explore-list__item">
-                    <a href="{{ SITEURL }}/{{ CATEGORIES_URL }}#{{ category.slug }}-ref">
+                <li class="nn-explore-list__item nn-explore-preview">
+                    <a class="nn-explore-preview__head"
+                       href="{{ SITEURL }}/{{ CATEGORIES_URL }}#{{ category.slug }}-ref">
                         <span class="nn-explore-list__name">{{ category }}</span>
                         <span class="nn-explore-list__count">{{ articles|count }}</span>
                     </a>
+
+                    <div class="nn-explore-preview__panel">
+                        <div class="nn-explore-preview__panel-inner">
+                            {% for article in articles|sort(reverse=true, attribute='date') %}
+                            <a class="nn-explore-preview__article" href="{{ SITEURL }}/{{ article.url }}">
+                                {{ article.title }}
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
                 </li>
                 {% endfor %}
             </ul>
@@ -47,11 +58,22 @@ Explora todas las categorías y tags de Napkin Notes en una sola página.
 
             <ul class="nn-explore-list">
                 {% for tag, articles in tags|sort %}
-                <li class="nn-explore-list__item">
-                    <a href="{{ SITEURL }}/{{ TAGS_URL }}#{{ tag.slug }}-ref">
+                <li class="nn-explore-list__item nn-explore-preview">
+                    <a class="nn-explore-preview__head"
+                       href="{{ SITEURL }}/{{ TAGS_URL }}#{{ tag.slug }}-ref">
                         <span class="nn-explore-list__name">{{ tag }}</span>
                         <span class="nn-explore-list__count">{{ articles|count }}</span>
                     </a>
+
+                    <div class="nn-explore-preview__panel">
+                        <div class="nn-explore-preview__panel-inner">
+                            {% for article in articles|sort(reverse=true, attribute='date') %}
+                            <a class="nn-explore-preview__article" href="{{ SITEURL }}/{{ article.url }}">
+                                {{ article.title }}
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
                 </li>
                 {% endfor %}
             </ul>
