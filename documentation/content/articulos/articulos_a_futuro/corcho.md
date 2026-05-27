@@ -28,27 +28,25 @@ $$
 P_0 \sim 6\,\text{atm}.
 $$
 
-La presión relevante para empujar el corcho es la diferencia entre la presión interna y la atmosférica. Por tanto, si la botella está a unas 6 atm absolutas, la sobrepresión efectiva es aproximadamente
+La magnitud relevante a la hora de expulsar el corcho es la diferencia entre la presión interna y la atmosférica. Por tanto, si la botella está a unas 6 atm absolutas, la sobrepresión efectiva es aproximadamente:
 
 $$
 \Delta P \sim 5\,\text{atm} \approx 5\times10^5\,\text{Pa}.
 $$
 
-Si se usa directamente una presión manométrica cercana a 6 bar, el resultado cambia poco para una estimación de orden de magnitud. En ambos casos estamos hablando de una fuerza considerable aplicada sobre un área muy pequeña.
-
-Podemos estimar esa fuerza mediante
+Si se usa directamente una presión manométrica cercana a 6 bar, el resultado cambia poco para una estimación de orden de magnitud. En ambos casos estamos hablando de una fuerza considerable aplicada sobre un área muy pequeña. Podemos estimar esa fuerza mediante:
 
 $$
 F = \Delta P\,A,
 $$
 
-donde el área efectiva del cuello de la botella es
+donde el área efectiva del cuello de la botella es:
 
 $$
 A = \pi r^2,
 $$
 
-con un radio típico
+con un radio típico:
 
 $$
 r \approx 9\times10^{-3}\,\text{m}.
@@ -78,15 +76,13 @@ $$
 F \sim 130\text{–}150\,\text{N}.
 $$
 
-Esto equivale aproximadamente al peso de una masa de **13–15 kg** concentrado sobre un área comparable al cuello de la botella. Es decir: no es exactamente un misil, pero tampoco es una sugerencia amable.
-
-Y sí: todo eso está intentando expulsar el corcho hacia tu lámpara del salón.
+Esto equivale aproximadamente al peso de una masa de **13–15 kg** concentrado sobre un área comparable al cuello de la botella. Es decir, no es exactamente un misil, pero tampoco es una sugerencia amable. Y sí, todo eso está intentando expulsar el corcho hacia tu lámpara del salón.
 
 ---
 
 ## El corcho como proyectil educado, pero proyectil
 
-Mientras el bozal metálico está puesto, el corcho permanece confinado. El sistema parece en equilibrio, pero no porque falte energía: simplemente la jaula metálica y la fricción están ganando la discusión.
+Mientras el bozal metálico está puesto, el corcho permanece confinado. El sistema parece en equilibrio, pero no porque falte energía, simplemente la jaula metálica y la fricción están ganando la discusión.
 
 Cuando se retira el bozal y se empieza a girar el corcho, la situación cambia. La fricción estática deja de sostener el sistema y el gas comprimido encuentra por fin una salida. El CO₂, que hasta entonces se comportaba con cierta compostura, decide recordar que la termodinámica también tiene carácter.
 
@@ -96,7 +92,7 @@ $$
 P\,V^\gamma = \text{constante},
 $$
 
-donde $\gamma$ es el índice adiabático efectivo del gas. Para el CO₂, un valor típico cerca de temperatura ambiente es aproximadamente
+donde $\gamma$ es el índice adiabático efectivo del gas. Para el CO₂ a la temperatura ambiente:
 
 $$
 \gamma \approx 1.3.
@@ -104,7 +100,7 @@ $$
 
 La aproximación adiabática tiene sentido porque el proceso ocurre en escalas de tiempo muy cortas. El gas se expande mucho más rápido de lo que puede intercambiar calor de forma eficiente con el entorno.
 
-Durante los primeros milímetros de movimiento, la presión no cae instantáneamente a la atmosférica. Por eso podemos hacer una estimación muy simple del trabajo inicial:
+Durante los primeros milímetros de movimiento, la presión no cae instantáneamente a la atmosférica. Por eso podemos hacer una estimación muy simple del trabajo inicial como:
 
 $$
 W \approx F_0\,\Delta x.
@@ -116,37 +112,37 @@ $$
 \Delta x \approx 0.02\,\text{m}.
 $$
 
-Con una fuerza inicial de orden
+Con una fuerza inicial del orden de:
 
 $$
 F_0 \sim 130\text{–}150\,\text{N},
 $$
 
-obtenemos
+obtenemos:
 
 $$
 W \sim 2.6\text{–}3.0\,\text{J}.
 $$
 
-Si una fracción significativa de esa energía se convierte en energía cinética del corcho, podemos escribir
+Si una fracción significativa de esa energía se convierte en energía cinética del corcho, podemos escribir:
 
 $$
 \frac{1}{2}mv^2 \approx W.
 $$
 
-Para un corcho típico de masa
+Para un corcho típico de masa:
 
 $$
 m \approx 7\times10^{-3}\,\text{kg},
 $$
 
-la velocidad estimada sería
+la velocidad estimada sería:
 
 $$
 v \approx \sqrt{\frac{2W}{m}}.
 $$
 
-Con $W \sim 3\,\text{J}$,
+Con $W \sim 3\,\text{J}$ y:
 
 $$
 v \approx \sqrt{\frac{6}{0.007}} \approx 29\,\text{m/s}.
@@ -158,33 +154,31 @@ $$
 v \approx 100\,\text{km/h}.
 $$
 
-Ahora bien: esta es una estimación idealizada. En una botella real hay pérdidas, fricción, deformación del corcho, rotación, disipación y una transferencia de energía que no es perfectamente eficiente. Por eso una velocidad más prudente para el corcho está en el rango
+Ahora bien, esta es una estimación idealizada. En una botella real hay pérdidas, fricción, deformación del corcho, rotación, disipación y una transferencia de energía que no es perfectamente eficiente. Por eso una velocidad más prudente para el corcho está en el rango:
 
 $$
 10\,\text{m/s} \lesssim v \lesssim 30\,\text{m/s}.
 $$
 
-En condiciones especialmente desfavorables —botella caliente, agitada o mal manipulada—, el corcho puede acercarse a la parte alta de ese rango. Suficiente para ser gracioso en un cálculo, pero bastante poco gracioso si la trayectoria termina en un ojo.
+En condiciones especialmente desfavorables —botella caliente, agitada o mal manipulada—, el corcho puede acercarse a la parte alta de ese rango. Suficiente para ser gracioso en un cálculo, pero bastante dañino si la trayectoria termina en un ojo.
 
 ---
 
 ## El gas sí se toma en serio lo de ser supersónico
 
-El corcho puede salir rápido, pero normalmente no alcanza velocidades supersónicas. El gas, en cambio, juega en otra liga.
-
-Cuando la presión interna es suficientemente alta, el CO₂ sale por el cuello de la botella mediante una expansión muy rápida. En estas condiciones puede aparecer **flujo ahogado**, es decir, un régimen en el que la velocidad del gas en la garganta alcanza la velocidad local del sonido:
+El corcho puede salir rápido, pero normalmente no alcanza velocidades supersónicas. El gas, en cambio, juega en otra liga. Cuando la presión interna es suficientemente alta, el CO₂ sale por el cuello de la botella mediante una expansión muy rápida. En estas condiciones puede aparecer **flujo ahogado**, es decir, un régimen en el que la velocidad del gas en la garganta alcanza la velocidad local del sonido:
 
 $$
 v_{\text{gas}} \approx c_s.
 $$
 
-Para CO₂, la velocidad del sonido depende de la temperatura. A temperatura ambiente se puede estimar como
+Para CO₂, la velocidad del sonido depende de la temperatura. A temperatura ambiente se puede estimar como:
 
 $$
 c_s \sim 260\,\text{m/s}.
 $$
 
-Durante el descorche, sin embargo, el gas se enfría bruscamente al expandirse. En el chorro frío que sale de la botella, la velocidad del sonido puede estar más cerca de
+Durante el descorche, sin embargo, el gas se enfría bruscamente al expandirse. En el chorro frío que sale de la botella, la velocidad del sonido puede estar más cerca de:
 
 $$
 c_s \sim 230\text{–}240\,\text{m/s}.
@@ -192,17 +186,17 @@ $$
 
 Esto importa porque la expansión puede generar estructuras típicas de flujos supersónicos, como ondas de choque y discos de Mach. Dicho en lenguaje menos técnico: el corcho hace *pop*, pero el CO₂ intenta hacer una maqueta barata de una tobera de cohete.
 
-Así que la frase correcta es:
+<!--Así que la frase correcta es:
 
 **El corcho no suele ser supersónico; el gas que lo acompaña sí puede serlo.**
 
-Y esa distinción es importante. Mezclar la velocidad del corcho con la velocidad del chorro de gas es como confundir una piedra lanzada con el escape de un motor: ambos salen del mismo drama, pero no con la misma dinámica.
+Y esa distinción es importante. Mezclar la velocidad del corcho con la velocidad del chorro de gas es como confundir una piedra lanzada con el escape de un motor: ambos salen del mismo drama, pero no con la misma dinámica.-->
 
 ---
 
 ## La botella como una cámara de expansión en miniatura
 
-Podemos refinar un poco el modelo. A medida que el corcho avanza una distancia $x$, el volumen disponible para el gas aumenta. Si el área efectiva del cuello es $A$, el volumen pasa aproximadamente de $V_0$ a
+Pero aún podemos refinar un poco más el modelo. A medida que el corcho avanza una distancia $x$, el volumen disponible para el gas aumenta. Si el área efectiva del cuello es $A$, el volumen pasa aproximadamente de $V_0$ a:
 
 $$
 V(x) = V_0 + A x.
@@ -217,7 +211,7 @@ P(x) = P_0
 \right)^\gamma.
 $$
 
-La fuerza sobre el corcho será entonces
+La fuerza sobre el corcho será entonces:
 
 $$
 F(x) = P(x)\,A.
@@ -233,9 +227,7 @@ v =
 }.
 $$
 
-Este modelo ya muestra algo importante: la fuerza no permanece constante durante todo el movimiento. La presión cae a medida que el gas se expande, de modo que el corcho recibe un impulso fuerte al comienzo y luego una contribución decreciente.
-
-Por eso el cálculo simple con
+Este modelo ya incorpora algo importante: la fuerza no permanece constante durante todo el movimiento. La presión cae a medida que el gas se expande, de modo que el corcho recibe un impulso fuerte al comienzo y luego una contribución decreciente. Por eso el cálculo simple con:
 
 $$
 W \approx F_0\,\Delta x
@@ -243,7 +235,7 @@ $$
 
 sirve como estimación inicial, pero no debe interpretarse como una descripción exacta de todo el proceso.
 
-En la práctica, para condiciones normales de apertura, una estimación razonable para el corcho es
+En la práctica, para condiciones normales de apertura, una estimación razonable para el corcho es:
 
 $$
 v \sim 10\text{–}30\,\text{m/s}.
@@ -255,15 +247,13 @@ $$
 v \sim 30\,\text{m/s}
 $$
 
-ya corresponden a un descorche bastante energético. Por encima de eso entramos en escenarios más extremos, asociados a botellas calientes, agitadas o manipuladas sin demasiado cariño por la conservación del momento lineal.
+ya corresponden a un descorche bastante energético. Por encima de eso entramos en escenarios más extremos, asociados a botellas calientes, agitadas o manipuladas sin demasiado cariño.
 
 ---
 
 ## Temperatura: el verdadero villano elegante
 
-La temperatura importa muchísimo.
-
-A mayor temperatura, menor solubilidad del CO₂ en el líquido y mayor presión en el espacio de gas bajo el corcho. En términos prácticos:
+Como en todo problema termodinámico, aquí la temperatura importa muchísimo. A mayor temperatura, menor solubilidad del CO₂ en el líquido y mayor presión en el espacio de gas bajo el corcho. En términos prácticos:
 
 $$
 T \uparrow
@@ -277,7 +267,7 @@ $$
 
 Una botella fría tiende a ser más dócil. Una botella caliente es una negociación con un sistema presurizado que tiene muy poco interés en tus planes de Nochevieja.
 
-También influyen otros factores:
+No obstante, en laa velocidades de salida de chorro y corcho influyen también otros factores:
 
 - la rugosidad del corcho,  
 - su deformación dentro del cuello,  
@@ -287,15 +277,15 @@ También influyen otros factores:
 - si la botella ha sido agitada,  
 - la geometría exacta del cuello.  
 
-La fricción merece una mención especial. Antes de moverse, el corcho debe vencer una resistencia inicial. Si esa resistencia es grande, el sistema puede acumular más presión efectiva antes del despegue. Cuando finalmente cede, la liberación puede ser más brusca.
+La fricción merece una mención especial. Antes de moverse, el corcho debe vencer una resistencia inicial. Si esa resistencia es grande, el sistema puede acumular más presión efectiva antes del despegue. Por eso, cuando finalmente cede, la liberación puede ser más brusca.
 
-En otras palabras: cada botella tiene su personalidad. Algunas son discretas. Otras parecen haber leído demasiado sobre propulsión.
+En otras palabras: cada botella tiene su personalidad. Algunas son discretas; otras parecen haber leído demasiado sobre propulsión.
 
 ---
 
 ## Qué puede salir mal, además de la dignidad
 
-Un corcho a decenas de metros por segundo tiene energía suficiente para causar lesiones. La energía cinética típica puede estimarse como
+Un corcho a decenas de metros por segundo tiene energía suficiente para causar lesiones. Su energía cinética típica puede estimarse como:
 
 $$
 E_k = \frac{1}{2}mv^2.
@@ -313,9 +303,7 @@ $$
 E_k \approx 3.2\,\text{J}.
 $$
 
-No parece mucho si uno lo compara con escalas macroscópicas, pero concentrado en un impacto pequeño puede ser suficiente para producir hematomas, cortes o lesiones oculares. El ojo humano, lamentablemente, no está optimizado para recibir proyectiles festivos.
-
-Por eso el consejo físico y socialmente responsable es simple:
+No parece mucho si uno lo compara con escalas macroscópicas, pero concentrado en un impacto pequeño puede ser suficiente para producir hematomas, cortes o lesiones oculares. El ojo humano, lamentablemente, no está optimizado para recibir proyectiles festivos. Por eso el consejo físico y socialmente responsable es simple:
 
 **Nunca apuntes la botella hacia una persona, un animal, una ventana o un televisor que te haya costado dinero.**
 
@@ -323,9 +311,9 @@ La forma segura de abrir una botella no consiste en “dejar volar” el corcho,
 
 Menos cañón napoleónico, más mecánica de fluidos civilizada.
 
----
+<!-----
 
-## Entonces, ¿qué tan rápido sale?
+## Pero al final, ¿qué tan rápido sale?
 
 Una respuesta razonable es:
 
@@ -333,13 +321,13 @@ $$
 v_{\text{corcho}} \sim 10\text{–}30\,\text{m/s},
 $$
 
-es decir, aproximadamente
+es decir, aproximadamente:
 
 $$
 35\text{–}110\,\text{km/h}.
 $$
 
-El extremo superior corresponde a situaciones energéticas, no al descorche tranquilo de una botella bien enfriada. Para una apertura controlada, la velocidad puede ser mucho menor, porque precisamente se evita que el corcho salga disparado.
+El extremo superior corresponde a situaciones altamente energéticas, no al descorche tranquilo de una botella bien enfriada. En una apertura controlada, la velocidad suele ser mucho menor, porque precisamente se evita que el corcho salga disparado.
 
 El gas, en cambio, puede alcanzar velocidades cercanas o superiores a la velocidad local del sonido:
 
@@ -352,7 +340,7 @@ Así que el descorche de champán combina dos fenómenos distintos:
 - un **corcho acelerado** por presión interna,  
 - un **chorro de CO₂** que puede entrar en régimen sónico o supersónico.  
 
-La próxima vez que brindes, recuerda: no estás simplemente abriendo una botella. Estás liberando un sistema presurizado, resolviendo una miniatura de dinámica de gases y asistiendo al lanzamiento de un microproyectil carbónico cortesía de la fermentación.
+La próxima vez que brindes, recuerda: no estás simplemente abriendo una botella. Estás liberando un sistema presurizado, resolviendo una miniatura de dinámica de gases y asistiendo al lanzamiento de un microproyectil carbónico cortesía de la fermentación.-->
 
 Salud, pero con la botella apuntando en la dirección correcta.
 
