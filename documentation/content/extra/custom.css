@@ -4409,35 +4409,47 @@ a.nn-squad-hero__metric {
     object-fit: contain;
   }
 }
+
 /* =========================
-   SIDEBAR MINI AUTHOR CAROUSEL
+   ABOUT PLUMES CAROUSEL
 ========================= */
 
-.nn-sidebar-card--mini-carousel {
-  overflow: hidden;
-  padding-bottom: 22px;
+.nn-about-mobile-plumes {
+  display: block;
+  clear: both;
+  max-width: 460px;
+  margin: 28px auto 34px;
+  padding: 18px 16px 16px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
   background: linear-gradient(180deg, #fffdfa 0%, #fdf4ea 100%);
+  box-shadow: 0 12px 30px rgba(20, 10, 10, 0.08);
 }
 
-.nn-sidebar-card--mini-carousel .nn-kicker {
-  display: block;
+.nn-about-mobile-plumes__title {
   margin-bottom: 10px;
+  color: var(--satinsheengold);
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.13em;
+  line-height: 1.2;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* Caja del carrusel */
 
 .nn-mini-author-carousel {
   display: grid;
-  grid-template-columns: 32px minmax(0, 1fr) 32px;
+  grid-template-columns: 34px minmax(0, 1fr) 34px;
   align-items: center;
-  gap: 6px;
-  min-height: 150px;
+  gap: 8px;
+  min-height: 170px;
 }
 
 .nn-mini-author-carousel__items {
   position: relative;
-  min-height: 150px;
+  min-height: 170px;
   overflow: hidden;
 }
 
@@ -4450,11 +4462,11 @@ a.nn-squad-hero__metric {
   display: grid;
   justify-items: center;
   gap: 8px;
-  width: 122px;
-  padding: 10px 8px 11px;
+  width: 128px;
+  padding: 11px 9px 12px;
   border: 1px solid var(--line);
   border-radius: 18px;
-  background: rgba(255, 253, 249, 0.92);
+  background: rgba(255, 253, 249, 0.94);
   color: var(--richcarmine);
   text-align: center;
   text-decoration: none !important;
@@ -4474,7 +4486,7 @@ a.nn-squad-hero__metric {
 
 .nn-mini-author-carousel__item.is-active {
   z-index: 3;
-  width: 138px;
+  width: 148px;
   opacity: 1;
   pointer-events: auto;
   transform: translate(-50%, -50%) scale(1);
@@ -4487,7 +4499,7 @@ a.nn-squad-hero__metric {
   z-index: 2;
   opacity: 0.32;
   pointer-events: auto;
-  transform: translate(calc(-50% - 82px), -50%) scale(0.54);
+  transform: translate(calc(-50% - 98px), -50%) scale(0.55);
 }
 
 /* Autor lateral derecho */
@@ -4496,7 +4508,7 @@ a.nn-squad-hero__metric {
   z-index: 2;
   opacity: 0.32;
   pointer-events: auto;
-  transform: translate(calc(-50% + 82px), -50%) scale(0.54);
+  transform: translate(calc(-50% + 98px), -50%) scale(0.55);
 }
 
 .nn-mini-author-carousel__item:hover {
@@ -4509,8 +4521,8 @@ a.nn-squad-hero__metric {
 
 .nn-mini-author-carousel__image {
   display: block;
-  width: 88px;
-  height: 88px;
+  width: 94px;
+  height: 94px;
   border: 2px solid rgba(196, 154, 102, 0.46);
   border-radius: 999px;
   background: #fbf5ee;
@@ -4519,8 +4531,8 @@ a.nn-squad-hero__metric {
 }
 
 .nn-mini-author-carousel__item.is-active .nn-mini-author-carousel__image {
-  width: 96px;
-  height: 96px;
+  width: 104px;
+  height: 104px;
 }
 
 /* Nombre */
@@ -4529,12 +4541,12 @@ a.nn-squad-hero__metric {
   display: block;
   max-width: 100%;
   color: var(--richcarmine);
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 850;
   line-height: 1.08;
 }
 
-/* Ya no usamos rol ni enlace de equipo */
+/* No usamos rol ni enlace de equipo */
 
 .nn-mini-author-carousel__role,
 .nn-mini-author-carousel__team-link {
@@ -4549,8 +4561,8 @@ a.nn-squad-hero__metric {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
+  width: 31px;
+  height: 31px;
   padding: 0;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -4569,9 +4581,14 @@ a.nn-squad-hero__metric {
   transform: translateY(-1px);
 }
 
-/* Tablet */
+/* Tablet y móvil */
 
 @media (max-width: 980px) {
+  .nn-about-mobile-plumes {
+    max-width: 430px;
+    margin: 24px auto 30px;
+  }
+
   .nn-mini-author-carousel {
     min-height: 160px;
   }
@@ -4581,37 +4598,38 @@ a.nn-squad-hero__metric {
   }
 
   .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 105px), -50%) scale(0.58);
+    transform: translate(calc(-50% - 94px), -50%) scale(0.55);
   }
 
   .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 105px), -50%) scale(0.58);
+    transform: translate(calc(-50% + 94px), -50%) scale(0.55);
   }
 }
 
-/* Móvil */
-
 @media (max-width: 640px) {
-  .nn-sidebar-card--mini-carousel {
-    padding-bottom: 20px;
+  .nn-about-mobile-plumes {
+    max-width: none;
+    margin: 22px 0 28px;
+    padding: 15px 12px 14px;
+    border-radius: 18px;
   }
 
   .nn-mini-author-carousel {
     grid-template-columns: 30px minmax(0, 1fr) 30px;
-    min-height: 148px;
+    min-height: 150px;
   }
 
   .nn-mini-author-carousel__items {
-    min-height: 148px;
+    min-height: 150px;
   }
 
   .nn-mini-author-carousel__item {
-    width: 120px;
+    width: 118px;
     padding: 10px 8px;
   }
 
   .nn-mini-author-carousel__item.is-active {
-    width: 134px;
+    width: 132px;
   }
 
   .nn-mini-author-carousel__image {
@@ -4625,15 +4643,15 @@ a.nn-squad-hero__metric {
   }
 
   .nn-mini-author-carousel__name {
-    font-size: 0.75rem;
+    font-size: 0.74rem;
   }
 
   .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 92px), -50%) scale(0.55);
+    transform: translate(calc(-50% - 86px), -50%) scale(0.54);
   }
 
   .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 92px), -50%) scale(0.55);
+    transform: translate(calc(-50% + 86px), -50%) scale(0.54);
   }
 
   .nn-mini-author-carousel__control {
