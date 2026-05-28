@@ -4413,17 +4413,16 @@ a.nn-squad-hero__metric {
 /* =========================
    ABOUT PLUMES CAROUSEL
 ========================= */
-
 .nn-about-mobile-plumes {
   display: block;
   clear: both;
   max-width: 460px;
-  margin: 28px auto 34px;
-  padding: 18px 16px 16px;
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  background: linear-gradient(180deg, #fffdfa 0%, #fdf4ea 100%);
-  box-shadow: 0 12px 30px rgba(20, 10, 10, 0.08);
+  margin: 22px auto 30px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .nn-about-mobile-plumes__title {
@@ -4607,12 +4606,11 @@ a.nn-squad-hero__metric {
 }
 
 @media (max-width: 640px) {
-  .nn-about-mobile-plumes {
-    max-width: none;
-    margin: 22px 0 28px;
-    padding: 15px 12px 14px;
-    border-radius: 18px;
-  }
+.nn-about-mobile-plumes {
+  max-width: none;
+  margin: 22px 0 28px;
+  padding: 0;
+}
 
   .nn-mini-author-carousel {
     grid-template-columns: 30px minmax(0, 1fr) 30px;
