@@ -172,7 +172,7 @@ AUTHORS = {
     "Gretel Quintero Angulo": {
         "url": "https://www.linkedin.com/in/gretel-quintero-angulo/?originalSubdomain=de",
         "role": "Editora",
-        "blurb": "Gretel es científica de formación, escritora por placer y feminista por necesidad. Observa el mundo con la precisión de quien ha sido educada en el método científico y la sensibilidad de quien encuentra en la escritura una forma de interpretar lo cotidiano. Su trabajo combina pensamiento crítico y voz propia, explorando las estructuras —visibles e invisibles— que moldean nuestras vidas.",
+        "blurb": "Gretel observa el mundo con la precisión de quien ha sido educada en el método científico y la sensibilidad de quien encuentra en la escritura una forma de interpretar lo cotidiano. Es doctora en física, pero su curiosidad no se restringe a la ciencia: aspira a un conocimiento más amplio, construido desde la complementariedad y las relaciones entre distintas ramas del saber, donde las disciplinas no se excluyen, sino que se iluminan entre sí. Su trabajo combina pensamiento crítico y voz propia, explorando las estructuras —visibles e invisibles— que moldean nuestras vidas.",
         "avatar": "images/gretel.png",
         "articles_url": "autor/gretel-quintero-angulo",
     },
