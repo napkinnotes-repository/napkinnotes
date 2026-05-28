@@ -4367,7 +4367,7 @@ a.nn-squad-hero__metric {
 /* Portada: igualar altura de cards en Artículos recientes */
 
 .nn-section-card--articles .nn-article-card {
-  min-height: 285px;
+  min-height: 230px;
 }
 
 .nn-section-card--articles .nn-article-card__body {
