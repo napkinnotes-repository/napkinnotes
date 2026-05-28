@@ -65,8 +65,6 @@
             {% endif %}
         </p>
 
-        
-
         <div class="nn-hero__actions">
             <a class="nn-button nn-button--primary" href="#about-project">Conoce más</a>
             <a class="nn-button nn-button--ghost" href="{{ SITEURL }}/{{ ARCHIVES_URL }}">Ver artículos</a>
@@ -84,8 +82,8 @@
                 <h2>{{ landing_page.page.title }}</h2>
             </div>
             <div class="nn-richtext nn-about-project__content">
-                  <img class="nn-about-project__logo" src="{{ SITEURL }}/images/Logo.jpg" alt="Logo de Napkin Notes">
-                  {{ landing_page.page.content }}
+                <img class="nn-about-project__logo" src="{{ SITEURL }}/images/Logo.jpg" alt="Logo de Napkin Notes">
+                {{ landing_page.page.content }}
             </div>
         </section>
         {% endif %}
@@ -103,7 +101,12 @@
             <div class="nn-article-list">
                 {% for article in articles %}
                     {% if loop.index0 < RECENT_ARTICLES_COUNT %}
-                    <article class="nn-article-card nn-article-card--{{ article.category.slug }}">
+                    <article
+                        class="nn-article-card nn-article-card--{{ article.category.slug }}"
+                        data-href="{{ SITEURL }}/{{ article.url }}"
+                        role="link"
+                        tabindex="0"
+                    >
                         {% if article.image %}
                         <a class="nn-article-card__image-link" href="{{ SITEURL }}/{{ article.url }}">
                             <img class="nn-article-card__image" src="{{ SITEURL }}/{{ article.image }}" alt="{{ article.title }}">
@@ -140,43 +143,45 @@
     <aside class="nn-home-sidebar">
 
         {% if articles %}
-<section class="nn-sidebar-card nn-sidebar-card--featured">
-    <span class="nn-kicker">Último</span>
+        <section class="nn-sidebar-card nn-sidebar-card--featured">
+            <span class="nn-kicker">Último</span>
 
-    <div class="nn-sidebar-featured">
-        <a class="nn-sidebar-featured__title" href="{{ SITEURL }}/{{ articles[0].url }}">
-            {{ articles[0].title }}
-        </a>
+            <div class="nn-sidebar-featured">
+                <a class="nn-sidebar-featured__title" href="{{ SITEURL }}/{{ articles[0].url }}">
+                    {{ articles[0].title }}
+                </a>
 
-        <div class="nn-sidebar-featured__meta">
-            <span>{{ articles[0].locale_date }}</span>
-            {% if articles[0].category %}
-            <span>•</span>
-            <span>{{ articles[0].category }}</span>
-            {% endif %}
-        </div>
+                <div class="nn-sidebar-featured__meta">
+                    <span>{{ articles[0].locale_date }}</span>
+                    {% if articles[0].category %}
+                    <span>•</span>
+                    <span>{{ articles[0].category }}</span>
+                    {% endif %}
+                </div>
 
-        {% if articles[0].subtitle %}
-        <p class="nn-sidebar-featured__text">{{ articles[0].subtitle }}</p>
-        {% elif articles[0].summary %}
-        <p class="nn-sidebar-featured__text">{{ articles[0].summary|striptags|truncate(140) }}</p>
+                {% if articles[0].subtitle %}
+                <p class="nn-sidebar-featured__text">{{ articles[0].subtitle }}</p>
+                {% elif articles[0].summary %}
+                <p class="nn-sidebar-featured__text">{{ articles[0].summary|striptags|truncate(140) }}</p>
+                {% endif %}
+
+                <a class="nn-button nn-button--ghost nn-sidebar-featured__button nn-home-sidebar__button" href="{{ SITEURL }}/{{ articles[0].url }}">
+                    Leer ahora
+                </a>
+            </div>
+        </section>
         {% endif %}
 
-        <a class="nn-button nn-button--ghost nn-sidebar-featured__button nn-home-sidebar__button" href="{{ SITEURL }}/{{ articles[0].url }}">
-            Leer ahora
-        </a>
-    </div>
-</section>
-{% endif %}
-{% if articles %}
-<section class="nn-sidebar-card nn-reveal">
-    <span class="nn-kicker">Descubre</span>
-    <p>¿Te apetece una pregunta inesperada? Abre un artículo al azar y déjate sorprender.</p>
-    <a id="random-article-link" class="nn-button nn-button--ghost nn-home-sidebar__button" href="{{ SITEURL }}/{{ articles[0].url }}">
-        Sorpréndeme
-    </a>
-</section>
-{% endif %}
+        {% if articles %}
+        <section class="nn-sidebar-card nn-reveal">
+            <span class="nn-kicker">Descubre</span>
+            <p>¿Te apetece una pregunta inesperada? Abre un artículo al azar y déjate sorprender.</p>
+            <a id="random-article-link" class="nn-button nn-button--ghost nn-home-sidebar__button" href="{{ SITEURL }}/{{ articles[0].url }}">
+                Sorpréndeme
+            </a>
+        </section>
+        {% endif %}
+
         <section class="nn-sidebar-card nn-reveal">
             <span class="nn-kicker">Participa</span>
             <p>¿Tienes una pregunta tipo Fermi o quieres que hagamos un artículo sobre algún tema curioso?</p>
@@ -184,11 +189,11 @@
                 Pregúntanos
             </button>
         </section>
+
         <section class="nn-sidebar-card nn-sidebar-card--flash nn-reveal">
             <span class="nn-kicker">Dato relámpago</span>
             <p id="nn-random-fact" class="nn-random-fact"></p>
         </section>
-        
 
     </aside>
 </section>
@@ -330,13 +335,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const elements = document.querySelectorAll(".nn-reveal");
+    const elements = document.querySelectorAll(".nn-reveal");
 
-  elements.forEach((el) => {
-    el.classList.add("nn-reveal--visible");
-  });
+    elements.forEach((el) => {
+        el.classList.add("nn-reveal--visible");
+    });
 });
 </script>
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
     const randomLink = document.getElementById("random-article-link");
@@ -405,6 +411,35 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const randomFact = facts[Math.floor(Math.random() * facts.length)];
     factEl.textContent = randomFact;
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll(".nn-article-card[data-href]");
+
+    cards.forEach(function (card) {
+        card.addEventListener("click", function (event) {
+            if (event.target.closest("a, button")) {
+                return;
+            }
+
+            window.location.href = card.dataset.href;
+        });
+
+        card.addEventListener("keydown", function (event) {
+            if (event.key !== "Enter" && event.key !== " ") {
+                return;
+            }
+
+            if (event.target.closest("a, button")) {
+                return;
+            }
+
+            event.preventDefault();
+            window.location.href = card.dataset.href;
+        });
+    });
 });
 </script>
 {% endblock content %}
