@@ -4270,6 +4270,8 @@ a.nn-squad-hero__metric {
     width: auto;
   }
 }
+
+
 /* Referencias de artículos */
 
 .nn-references {
@@ -4292,4 +4294,13 @@ a.nn-squad-hero__metric {
 
 .nn-references a {
   overflow-wrap: anywhere;
+}
+
+/* Citas en línea no elevadas */
+
+.nn-cite {
+  vertical-align: baseline;
+  font-size: inherit;
+  font-weight: 700;
+  white-space: nowrap;
 }
