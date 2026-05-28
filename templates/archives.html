@@ -82,23 +82,34 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
     {% endif %}
   </a>
 
-        <div class="card-body">
-          <h3 class="card-title">
-            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-          </h3>
+<a class="article-card-link"
+   href="{{ SITEURL }}/{{ article.url }}"
+   aria-label="Leer {{ article.title }}">
+  <article class="article-card">
+    {% if image_url %}
+      <div class="card-media" style="background-image: url('{{ image_url }}');"></div>
+    {% else %}
+      <div class="card-media"></div>
+    {% endif %}
 
-          <div class="card-meta">
-            {% if article.category %}{{ article.category }} • {% endif %}
-            <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
-          </div>
+    <div class="card-body">
+      <h3 class="card-title">
+        {{ article.title }}
+      </h3>
 
-          {% if article.summary %}
-            <div class="card-excerpt">{{ article.summary }}</div>
-          {% else %}
-            <div class="card-excerpt">{{ article.content | striptags | truncate(160, True, '...') }}</div>
-          {% endif %}
-        </div>
-      </article>
+      <div class="card-meta">
+        {% if article.category %}{{ article.category }} • {% endif %}
+        <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+      </div>
+
+      {% if article.summary %}
+        <div class="card-excerpt">{{ article.summary }}</div>
+      {% else %}
+        <div class="card-excerpt">{{ article.content | striptags | truncate(160, True, '...') }}</div>
+      {% endif %}
+    </div>
+  </article>
+</a>
     {% endfor %}
   </div>
   {% else %}
