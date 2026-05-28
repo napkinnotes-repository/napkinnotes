@@ -189,6 +189,7 @@ AUTHORS = {
         "role": "Editor, Responsable de Redes Sociales",
         "blurb": "Gabriel es doctor en física teórica, un explorador obsesionado con la arquitectura matemática que sostiene el tejido del universo. En sus textos, se propone un desafío constante: traducir la complejidad de la física y la geometría a un lenguaje accesible, sin sacrificar ni un ápice de elegancia ni de rigor. Su enfoque busca desentrañar cómo las leyes fundamentales dan forma a nuestra realidad, convirtiendo abstracciones matemáticas en puentes hacia una comprensión profunda de la naturaleza.",
         "avatar": "images/gabriel.jpeg",
+        "caricature": "images/gabriel_caricatura.png",
         "articles_url": "autor/gabriel-sanchez-perez",       
     },
     "Paz Albares Vicente": {
@@ -204,6 +205,7 @@ AUTHORS = {
         "role": "Colaboradora",
         "blurb": "María es estudiante de doctorado en cosmología, y le apasiona intentar desentrañar los misterios del cosmos y de la vida en general. Su trabajo consiste en estudiar los ingredientes fundamentales que conforman el universo, y de qué manera interactúan para dar lugar a las formaciones de galaxias que observamos hoy en día. Sus textos aspiran a arrojar un poco de luz sobre ese sector todavía oscuro del universo, despertando la curiosidad y el pensamiento crítico en quienes se acercan a explorarlo.",
         "avatar": "images/maria.jpeg",
+        "caricature": "images/maria_caricatura.png",
         "articles_url": "autor/maria-perez-garrote",       
     },
      "Ruchika": {
@@ -218,6 +220,7 @@ AUTHORS = {
         "role": "Colaborador",
         "blurb": "David es doctor en astrofísica, y actualmente trabaja como investigador postdoctoral en la Universidad Hebrea de Jerusalén. Es experto en metalurgia galáctica, es decir, en las propiedades de los sólidos y líquidos más densos y poderosos del universo, que se encuentran en los corazones de estrellas muertas. Su trabajo de investigación intenta entender cómo podemos aprender más de estos materiales a través de observaciones astronómicas, tanto a través de la luz como de otros mensajeros, como neutrinos u ondas gravitacionales.",
         "avatar": "images/barba.jpeg",
+        "caricature": "images/barba_caricatura.png",
         "articles_url": "autor/david-barba-gonzalez",       
     },
 }
