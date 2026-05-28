@@ -4684,3 +4684,35 @@ a.nn-squad-hero__metric {
     font-size: 1.35rem;
   }
 }
+/* FIX móvil: que no se corten las caricaturas laterales del carrusel */
+
+.nn-about-mobile-plumes {
+  overflow: visible;
+}
+
+.nn-about-mobile-plumes .nn-mini-author-carousel {
+  overflow: visible;
+}
+
+.nn-about-mobile-plumes .nn-mini-author-carousel__items {
+  overflow: visible;
+}
+
+@media (max-width: 640px) {
+  .nn-about-mobile-plumes {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel {
+    grid-template-columns: 26px minmax(0, 1fr) 26px;
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
+    transform: translate(calc(-50% - 72px), -50%) scale(0.5);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
+    transform: translate(calc(-50% + 72px), -50%) scale(0.5);
+  }
+}
