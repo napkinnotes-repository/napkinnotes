@@ -4409,3 +4409,252 @@ a.nn-squad-hero__metric {
     object-fit: contain;
   }
 }
+/* =========================
+   HOME AUTHOR CAROUSEL
+========================= */
+
+.nn-author-carousel {
+  position: relative;
+  isolation: isolate;
+  margin: 0 0 30px;
+  padding: 24px 28px 28px;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  background: rgba(255, 253, 249, 0.92);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.nn-author-carousel::before {
+  content: "";
+  position: absolute;
+  inset: -60px;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(196, 154, 102, 0.14), transparent 32%),
+    radial-gradient(circle at 85% 75%, rgba(149, 11, 14, 0.08), transparent 34%);
+}
+
+.nn-author-carousel__header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.nn-author-carousel__header h2 {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 2.55rem);
+}
+
+.nn-author-carousel__stage {
+  position: relative;
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+  align-items: center;
+  gap: 12px;
+  min-height: 240px;
+}
+
+.nn-author-carousel__items {
+  position: relative;
+  min-height: 240px;
+  overflow: hidden;
+}
+
+/* Todas las tarjetas parten ocultas */
+.nn-author-carousel__item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  width: 150px;
+  padding: 16px 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: linear-gradient(180deg, #fffdfa 0%, #fff8f1 100%);
+  color: var(--richcarmine);
+  text-align: center;
+  text-decoration: none !important;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0 10px 24px rgba(20, 10, 10, 0.07);
+  transform: translate(-50%, -50%) scale(0.78);
+  transition:
+    opacity 0.28s ease,
+    transform 0.28s ease,
+    box-shadow 0.28s ease,
+    border-color 0.28s ease,
+    background 0.28s ease;
+}
+
+/* Autor central */
+.nn-author-carousel__item.is-active {
+  z-index: 3;
+  width: 190px;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+  box-shadow: 0 18px 42px rgba(20, 10, 10, 0.14);
+}
+
+/* Autor izquierdo */
+.nn-author-carousel__item.is-prev {
+  z-index: 2;
+  opacity: 0.72;
+  pointer-events: auto;
+  transform: translate(calc(-50% - 220px), -50%) scale(0.78);
+}
+
+/* Autor derecho */
+.nn-author-carousel__item.is-next {
+  z-index: 2;
+  opacity: 0.72;
+  pointer-events: auto;
+  transform: translate(calc(-50% + 220px), -50%) scale(0.78);
+}
+
+.nn-author-carousel__item:hover {
+  border-color: rgba(196, 154, 102, 0.55);
+  background: var(--satinsheengold);
+  color: var(--richcarmine);
+}
+
+.nn-author-carousel__image {
+  display: block;
+  width: 104px;
+  height: 104px;
+  border: 2px solid rgba(196, 154, 102, 0.46);
+  border-radius: 999px;
+  background: #fbf5ee;
+  object-fit: cover;
+  box-shadow: 0 8px 18px rgba(20, 10, 10, 0.10);
+}
+
+.nn-author-carousel__item.is-active .nn-author-carousel__image {
+  width: 126px;
+  height: 126px;
+}
+
+.nn-author-carousel__name {
+  display: block;
+  max-width: 100%;
+  color: var(--richcarmine);
+  font-size: 0.92rem;
+  font-weight: 850;
+  line-height: 1.12;
+}
+
+.nn-author-carousel__role {
+  display: block;
+  max-width: 100%;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.nn-author-carousel__item:hover .nn-author-carousel__role {
+  color: var(--richcarmine);
+}
+
+/* Flechas */
+.nn-author-carousel__control {
+  position: relative;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fbf5ee;
+  color: var(--richcarmine);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(20, 10, 10, 0.06);
+}
+
+.nn-author-carousel__control:hover {
+  background: var(--satinsheengold);
+  color: var(--richcarmine);
+  transform: translateY(-1px);
+}
+
+/* Móvil */
+@media (max-width: 760px) {
+  .nn-author-carousel {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .nn-author-carousel__header {
+    display: block;
+  }
+
+  .nn-author-carousel__header h2 {
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+  }
+
+  .nn-author-carousel__stage {
+    grid-template-columns: 38px minmax(0, 1fr) 38px;
+    gap: 8px;
+    min-height: 220px;
+  }
+
+  .nn-author-carousel__items {
+    min-height: 220px;
+  }
+
+  .nn-author-carousel__item {
+    width: 126px;
+    padding: 13px 9px;
+  }
+
+  .nn-author-carousel__item.is-active {
+    width: 150px;
+  }
+
+  .nn-author-carousel__item.is-prev {
+    transform: translate(calc(-50% - 130px), -50%) scale(0.72);
+  }
+
+  .nn-author-carousel__item.is-next {
+    transform: translate(calc(-50% + 130px), -50%) scale(0.72);
+  }
+
+  .nn-author-carousel__image {
+    width: 84px;
+    height: 84px;
+  }
+
+  .nn-author-carousel__item.is-active .nn-author-carousel__image {
+    width: 98px;
+    height: 98px;
+  }
+
+  .nn-author-carousel__name {
+    font-size: 0.78rem;
+  }
+
+  .nn-author-carousel__role {
+    font-size: 0.62rem;
+  }
+
+  .nn-author-carousel__control {
+    width: 36px;
+    height: 36px;
+    font-size: 1.7rem;
+  }
+}
