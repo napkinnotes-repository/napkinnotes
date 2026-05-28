@@ -52,7 +52,7 @@ formar la duna, porque los granos ofrecen más resistencia al aire por su
 tamaño. De esta forma, aparece un mínimo en la curva de $v_0$ frente al
 tamaño del grano de arena. En el caso de granos de arena formados por
 materiales de tipo cuarzo, el tamaño ideal para la formación de dunas es
-alrededor de 0.2 mm <sup><a href="#ref-1">[1]</a></sup>.
+alrededor de 0.2 mm <a class="nn-cite" href="#ref-1">[1]</a>.
 
 
 
@@ -63,7 +63,7 @@ arena si extendiésemos completamente las dunas sobre todo el territorio
 analizado. En los sistemas de dunas en los que se ha medido el EST
 (*equivalent sand thickness*), como Great Sandy o Great Victoria en
 Australia, se obtienen valores de entre 1 y 5 m como cantidad mínima de
-arena que necesitamos para formar nuestras dunas <sup><a href="#ref-2">[2]</a></sup>.
+arena que necesitamos para formar nuestras dunas <a class="nn-cite" href="#ref-2">[2]</a>.
 
 
 
@@ -94,7 +94,7 @@ En esta expresión $v$ es la velocidad del viento, y $t$ es el tiempo
 durante el que el viento está soplando por encima del límite $v_0$. Al
 combinar esta información con la direccionalidad de este, se pueden
 obtener para distintos lugares del mundo cuál es el potencial para la
-formación de dunas, y crear mapas de DP por todo el globo <sup><a href="#ref-3">[3]</a></sup>. De
+formación de dunas, y crear mapas de DP por todo el globo <a class="nn-cite" href="#ref-3">[3]</a>. De
 forma clásica, se considera que un DP por debajo de 200 indica una
 energía "dunal" baja y, por el contrario, a partir de 400 es favorable a
 la formación de dunas. ¿Unidades de la expresión? Os vais a reír: $v$ y
