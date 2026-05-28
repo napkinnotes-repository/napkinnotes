@@ -4233,17 +4233,18 @@ a.nn-squad-hero__metric {
   min-height: 40px;
   padding: 9px 15px;
   border-radius: 999px;
+  font-family: "Inter", sans-serif;
   font-size: 0.92rem;
   font-weight: 700;
   line-height: 1;
   white-space: nowrap;
+  text-decoration: none !important;
 }
 
 .nn-about-actions .cta-button--template {
   border: 1px solid var(--line);
   background: #fbf5ee;
   color: var(--richcarmine) !important;
-  text-decoration: none !important;
 }
 
 .nn-about-actions .cta-button--template::before {
@@ -4253,6 +4254,7 @@ a.nn-squad-hero__metric {
   font-weight: 800;
   line-height: 1;
 }
+
 .nn-about-actions .cta-button--template:hover {
   border-color: rgba(196, 154, 102, 0.55);
   background: #f8ecdf;
