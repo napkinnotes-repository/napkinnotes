@@ -52,7 +52,7 @@ formar la duna, porque los granos ofrecen más resistencia al aire por su
 tamaño. De esta forma, aparece un mínimo en la curva de $v_0$ frente al
 tamaño del grano de arena. En el caso de granos de arena formados por
 materiales de tipo cuarzo, el tamaño ideal para la formación de dunas es
-alrededor de 0.2 mm \[1].
+alrededor de 0.2 mm <sup><a href="#ref-1">[1]</a></sup>.
 
 
 
@@ -63,7 +63,7 @@ arena si extendiésemos completamente las dunas sobre todo el territorio
 analizado. En los sistemas de dunas en los que se ha medido el EST
 (*equivalent sand thickness*), como Great Sandy o Great Victoria en
 Australia, se obtienen valores de entre 1 y 5 m como cantidad mínima de
-arena que necesitamos para formar nuestras dunas \[2].
+arena que necesitamos para formar nuestras dunas <sup><a href="#ref-2">[2]</a></sup>.
 
 
 
@@ -94,7 +94,7 @@ En esta expresión $v$ es la velocidad del viento, y $t$ es el tiempo
 durante el que el viento está soplando por encima del límite $v_0$. Al
 combinar esta información con la direccionalidad de este, se pueden
 obtener para distintos lugares del mundo cuál es el potencial para la
-formación de dunas, y crear mapas de DP por todo el globo \[3]. De
+formación de dunas, y crear mapas de DP por todo el globo <sup><a href="#ref-3">[3]</a></sup>. De
 forma clásica, se considera que un DP por debajo de 200 indica una
 energía "dunal" baja y, por el contrario, a partir de 400 es favorable a
 la formación de dunas. ¿Unidades de la expresión? Os vais a reír: $v$ y
@@ -150,3 +150,24 @@ Esta complejidad, veremos en futuros artículos si seguís la serie,
 afecta a la morfología y clasificación de las dunas, y produce efectos
 muy interesantes como el de las dunas nómadas. Hasta entonces, salgamos
 del agujero en la duna, al menos por un tiempo.
+
+---
+
+## Referencias
+
+<ol class="nn-references">
+  <li id="ref-1">
+    Tsoar, H. (2001). Types of Aeolian Sand Dunes and Their Formation. In: Balmforth, N.J., Provenzale, A. (eds) <em>Geomorphological Fluid Mechanics</em>. Lecture Notes in Physics, vol. 582. Springer, Berlin, Heidelberg.
+    <a href="https://doi.org/10.1007/3-540-45670-8_17" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/3-540-45670-8_17</a>
+  </li>
+
+  <li id="ref-2">
+    Wasson, R., & Hyde, R. (1983). Factors determining desert dune type. <em>Nature</em>, 304, 337–339.
+    <a href="https://doi.org/10.1038/304337a0" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/304337a0</a>
+  </li>
+
+  <li id="ref-3">
+    Yizhaq, H., Xu, Z., & Ashkenazy, Y. (2020). The effect of wind speed averaging time on the calculation of sand drift potential: New scaling laws. <em>Earth and Planetary Science Letters</em>, 544, 116373.
+    <a href="https://doi.org/10.1016/j.epsl.2020.116373" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.epsl.2020.116373</a>
+  </li>
+</ol>
