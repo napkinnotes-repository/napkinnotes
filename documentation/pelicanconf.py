@@ -206,7 +206,7 @@ AUTHORS = {
         "blurb": "María es estudiante de doctorado en cosmología, y le apasiona intentar desentrañar los misterios del cosmos y de la vida en general. Su trabajo consiste en estudiar los ingredientes fundamentales que conforman el universo, y de qué manera interactúan para dar lugar a las formaciones de galaxias que observamos hoy en día. Sus textos aspiran a arrojar un poco de luz sobre ese sector todavía oscuro del universo, despertando la curiosidad y el pensamiento crítico en quienes se acercan a explorarlo.",
         "avatar": "images/maria.jpeg",
         "caricature": "images/maria_caricatura.png",
-        "articles_url": "autor/maria-perez-garrote",       
+        "articles_url": "autor/maria-perez-garrote",        
     },
      "Ruchika": {
         "url": "https://produccioncientifica.usal.es/investigadores/1999168/detalle",
