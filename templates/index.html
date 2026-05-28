@@ -129,6 +129,20 @@
                             <div class="nn-article-card__summary">{{ article.summary }}</div>
                             {% endif %}
                         </div>
+
+                        <a class="nn-article-card__overlay-link"
+                           href="{{ SITEURL }}/{{ article.url }}"
+                           aria-label="Leer {{ article.title }}"></a>
+                    </article>
+
+                            {% if article.subtitle %}
+                            <p class="nn-article-card__subtitle">{{ article.subtitle }}</p>
+                            {% endif %}
+
+                            {% if RECENT_ARTICLE_SUMMARY and article.summary %}
+                            <div class="nn-article-card__summary">{{ article.summary }}</div>
+                            {% endif %}
+                        </div>
                     </article>
                     {% endif %}
                 {% endfor %}
