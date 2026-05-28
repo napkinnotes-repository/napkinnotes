@@ -1,4 +1,71 @@
-## Otra seccion
+---
+title: aaa # vuestro título
+author: aaa # mismo nombre que en la tarjeta de autor
+date: 2026-03-15 # formato YYYY-MM-DD
+layout: articles
+slug: prueba-articulo
+status: hidden # published si ya está listo
+category: aaa # categoría con mayúscula inicial
+tags: # tags con minúscula inicial
+  - bla
+  - blabla
+  - bli bli
+summary: aaaaa # 1-2 frases cortas para la tarjeta del artículo
+image: images/nombre_de_la_imagen.png # imagen principal del artículo
+---
+
+[TOC]
+
+
+
+## Sección
+
+<!-- Texto normal -->
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+### Sub-Sección
+
+<!-- Preguntas con recuadro bonito -->
+> **¿Cuánta el gramo quillo?**
+<!-- Fin pregunta con recuadro bonito -->
+
+
+Fórmulas:
+
+<!-- Fórmula en bloque: en entorno $$ $$, todo es como LaTeX -->
+$$
+\rho c_p \frac{\partial T}{\partial t} = k \nabla^2 T + Q_{\text{abs}}
+$$
+
+<!-- Fórmula en línea de texto -->
+Se puede usar $ \alpha $ como en LaTeX.
+
+<!-- Obsoleto: mejor no usar \( ... \) -->
+obsoleto: bla bla bla \(J\) lari lari lari
+
+<!-- Subíndice fuera de entorno matemático -->
+c<sub>p</sub>
+
+<!-- Negrita y cursiva -->
+Negrita y cursiva: **una paradoja**. *una paradoja*.
+
+<!-- Lista -->
+Presentan:
+
+- nanani nanana nanano.  
+- abc cba caracola
+- Maka make maki
+
+<!-- Citas dentro del texto -->
+El texto que queréis referenciar va así <a class="nn-cite" href="#ref-1">[1]</a>.
+Otra cita distinta iría así <a class="nn-cite" href="#ref-2">[2]</a>.
+
+<!-- Fin de Sección -->
+---
+
+
+## Otra sección
 
 Texto antes de la imagen.
 
@@ -10,18 +77,16 @@ Texto antes de la imagen.
 
 Texto tras la imagen.
 
-<!-- Citas dentro del texto -->
-El texto que queréis referenciar va así <a class="nn-cite" href="#ref-1">[1]</a>.
-Otra cita distinta iría así <a class="nn-cite" href="#ref-2">[2]</a>.
-
-<!-- Fin de Seccion -->
+<!-- Fin de Sección -->
 ---
+
 
 ## Conclusiones
 
 Frases finales
 
 ---
+
 
 ## Referencias
 
