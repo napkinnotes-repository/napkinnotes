@@ -103,7 +103,7 @@
       <h1 class="nn-author-hero__title">David Barba González</h1>
 
       <div class="nn-author-hero__subtitle">
-        David es doctor en astrofísica, y actualmente trabaja como investigador postdoctoral en la Universidad Hebrea de Jerusalén. Es experto en metalurgia galáctica, es decir, en las propiedades de los sólidos y líquidos más densos y poderosos del universo, que se encuentran en los corazones de estrellas muertas. Su trabajo de investigación intenta entender cómo podemos aprender más de estos materiales a través de observaciones astronómicas, tanto a través de la luz como de otros mensajeros, como neutrinos u ondas gravitacionales.      
+        David es doctor en astrofísica, y actualmente trabaja como investigador postdoctoral en la Universidad Hebrea de Jerusalén. Es experto en metalurgia galáctica, es decir, en las propiedades de los sólidos y líquidos más densos y poderosos del universo, que se encuentran en los corazones de estrellas muertas. Su trabajo de investigación intenta entender cómo podemos aprender más de estos materiales a través de observaciones astronómicas, tanto a través de la luz como de otros mensajeros, como neutrinos u ondas gravitacionales.
       </div>
     </div>
 
@@ -117,12 +117,20 @@
 
 
 
-    <article class="article-card">
-  <a class="card-media-link"
-     href="https://napkinnotes.es/dunas-y-desiertos-primera-parte"
-     aria-label="Leer Dunas y desiertos: primera&nbsp;parte">
-      <div class="card-media" style="background-image: url('https://napkinnotes.es/images/wadi_rum.jpeg');"></div>
-  </a>
+      <article
+        class="article-card"
+        data-href="https://napkinnotes.es/dunas-y-desiertos-primera-parte"
+        role="link"
+        tabindex="0"
+        aria-label="Leer Dunas y desiertos: primera&nbsp;parte"
+      >
+        <a
+          class="card-media-link"
+          href="https://napkinnotes.es/dunas-y-desiertos-primera-parte"
+          aria-label="Leer Dunas y desiertos: primera&nbsp;parte"
+        >
+            <div class="card-media" style="background-image: url('https://napkinnotes.es/images/wadi_rum.jpeg');"></div>
+        </a>
 
         <div class="card-body">
           <h3 class="card-title">
@@ -138,6 +146,35 @@ Geografía •             <time datetime="2026-05-28T00:00:00+02:00">28 de May 
       </article>
   </div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".article-card[data-href]");
+
+  cards.forEach(function (card) {
+    card.addEventListener("click", function (event) {
+      if (event.target.closest("a, button")) {
+        return;
+      }
+
+      window.location.href = card.dataset.href;
+    });
+
+    card.addEventListener("keydown", function (event) {
+      if (event.key !== "Enter" && event.key !== " ") {
+        return;
+      }
+
+      if (event.target.closest("a, button")) {
+        return;
+      }
+
+      event.preventDefault();
+      window.location.href = card.dataset.href;
+    });
+  });
+});
+</script>
                 </div>
             </main>
         </div>

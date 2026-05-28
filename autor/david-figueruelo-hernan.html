@@ -103,7 +103,7 @@
       <h1 class="nn-author-hero__title">David Figueruelo Hernán</h1>
 
       <div class="nn-author-hero__subtitle">
-        Doctor en cosmología que busca comprender el universo y el rol de la materia y energía oscuras en él. Interesado las ecuaciones y las preguntas fundamentales: qué significa entender en física y qué es  <strong>verdad</strong> al observar solo una fracción mínima del cosmos. Trabaja interpretando las pistas que el universo nos deja en forma de datos, intentando averiguar qué historias encajan con ellas y cuáles no. Financiación: Personal investigador doctor de la UPV/EHU (2024).      
+        Doctor en cosmología que busca comprender el universo y el rol de la materia y energía oscuras en él. Interesado las ecuaciones y las preguntas fundamentales: qué significa entender en física y qué es  <strong>verdad</strong> al observar solo una fracción mínima del cosmos. Trabaja interpretando las pistas que el universo nos deja en forma de datos, intentando averiguar qué historias encajan con ellas y cuáles no. Financiación: Personal investigador doctor de la UPV/EHU (2024).
       </div>
     </div>
 
@@ -117,12 +117,20 @@
 
 
 
-    <article class="article-card">
-  <a class="card-media-link"
-     href="https://napkinnotes.es/el-pintor-y-la-trompeta"
-     aria-label="Leer El pintor y la&nbsp;trompeta">
-      <div class="card-media" style="background-image: url('https://napkinnotes.es/images/cuerno.png');"></div>
-  </a>
+      <article
+        class="article-card"
+        data-href="https://napkinnotes.es/el-pintor-y-la-trompeta"
+        role="link"
+        tabindex="0"
+        aria-label="Leer El pintor y la&nbsp;trompeta"
+      >
+        <a
+          class="card-media-link"
+          href="https://napkinnotes.es/el-pintor-y-la-trompeta"
+          aria-label="Leer El pintor y la&nbsp;trompeta"
+        >
+            <div class="card-media" style="background-image: url('https://napkinnotes.es/images/cuerno.png');"></div>
+        </a>
 
         <div class="card-body">
           <h3 class="card-title">
@@ -138,6 +146,35 @@ Matemáticas •             <time datetime="2026-04-15T00:00:00+02:00">15 de Ap
       </article>
   </div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".article-card[data-href]");
+
+  cards.forEach(function (card) {
+    card.addEventListener("click", function (event) {
+      if (event.target.closest("a, button")) {
+        return;
+      }
+
+      window.location.href = card.dataset.href;
+    });
+
+    card.addEventListener("keydown", function (event) {
+      if (event.key !== "Enter" && event.key !== " ") {
+        return;
+      }
+
+      if (event.target.closest("a, button")) {
+        return;
+      }
+
+      event.preventDefault();
+      window.location.href = card.dataset.href;
+    });
+  });
+});
+</script>
                 </div>
             </main>
         </div>

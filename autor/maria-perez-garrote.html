@@ -103,7 +103,7 @@
       <h1 class="nn-author-hero__title">María Pérez Garrote</h1>
 
       <div class="nn-author-hero__subtitle">
-        María es estudiante de doctorado en cosmología, y le apasiona intentar desentrañar los misterios del cosmos y de la vida en general. Su trabajo consiste en estudiar los ingredientes fundamentales que conforman el universo, y de qué manera interactúan para dar lugar a las formaciones de galaxias que observamos hoy en día. Sus textos aspiran a arrojar un poco de luz sobre ese sector todavía oscuro del universo, despertando la curiosidad y el pensamiento crítico en quienes se acercan a explorarlo.      
+        María es estudiante de doctorado en cosmología, y le apasiona intentar desentrañar los misterios del cosmos y de la vida en general. Su trabajo consiste en estudiar los ingredientes fundamentales que conforman el universo, y de qué manera interactúan para dar lugar a las formaciones de galaxias que observamos hoy en día. Sus textos aspiran a arrojar un poco de luz sobre ese sector todavía oscuro del universo, despertando la curiosidad y el pensamiento crítico en quienes se acercan a explorarlo.
       </div>
     </div>
 
@@ -117,12 +117,20 @@
 
 
 
-    <article class="article-card">
-  <a class="card-media-link"
-     href="https://napkinnotes.es/el-poder-de-la-catenaria"
-     aria-label="Leer El poder de la&nbsp;catenaria">
-      <div class="card-media" style="background-image: url('https://napkinnotes.es/images/figura_estudio.png');"></div>
-  </a>
+      <article
+        class="article-card"
+        data-href="https://napkinnotes.es/el-poder-de-la-catenaria"
+        role="link"
+        tabindex="0"
+        aria-label="Leer El poder de la&nbsp;catenaria"
+      >
+        <a
+          class="card-media-link"
+          href="https://napkinnotes.es/el-poder-de-la-catenaria"
+          aria-label="Leer El poder de la&nbsp;catenaria"
+        >
+            <div class="card-media" style="background-image: url('https://napkinnotes.es/images/figura_estudio.png');"></div>
+        </a>
 
         <div class="card-body">
           <h3 class="card-title">
@@ -138,6 +146,35 @@ Arquitectura •             <time datetime="2026-05-26T00:00:00+02:00">26 de Ma
       </article>
   </div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".article-card[data-href]");
+
+  cards.forEach(function (card) {
+    card.addEventListener("click", function (event) {
+      if (event.target.closest("a, button")) {
+        return;
+      }
+
+      window.location.href = card.dataset.href;
+    });
+
+    card.addEventListener("keydown", function (event) {
+      if (event.key !== "Enter" && event.key !== " ") {
+        return;
+      }
+
+      if (event.target.closest("a, button")) {
+        return;
+      }
+
+      event.preventDefault();
+      window.location.href = card.dataset.href;
+    });
+  });
+});
+</script>
                 </div>
             </main>
         </div>

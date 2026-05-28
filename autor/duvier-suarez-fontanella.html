@@ -103,7 +103,7 @@
       <h1 class="nn-author-hero__title">Duvier Suárez Fontanella</h1>
 
       <div class="nn-author-hero__subtitle">
-        Físico teórico y curioso incorregible, dedicado a rastrear las leyes secretas que gobiernan tanto al cosmos como a los detalles más triviales de la vida diaria. Sus textos buscan lo mismo que la antigua Fundación: preservar el conocimiento, iluminar lo oculto y demostrar que incluso en una servilleta puede comenzar una nueva era científica.      
+        Físico teórico y curioso incorregible, dedicado a rastrear las leyes secretas que gobiernan tanto al cosmos como a los detalles más triviales de la vida diaria. Sus textos buscan lo mismo que la antigua Fundación: preservar el conocimiento, iluminar lo oculto y demostrar que incluso en una servilleta puede comenzar una nueva era científica.
       </div>
     </div>
 
@@ -117,12 +117,20 @@
 
 
 
-    <article class="article-card">
-  <a class="card-media-link"
-     href="https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas"
-     aria-label="Leer ¿Por qué las palomitas revientan en el&nbsp;microondas?">
-      <div class="card-media" style="background-image: url('https://napkinnotes.es/images/palomitas.png');"></div>
-  </a>
+      <article
+        class="article-card"
+        data-href="https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas"
+        role="link"
+        tabindex="0"
+        aria-label="Leer ¿Por qué las palomitas revientan en el&nbsp;microondas?"
+      >
+        <a
+          class="card-media-link"
+          href="https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas"
+          aria-label="Leer ¿Por qué las palomitas revientan en el&nbsp;microondas?"
+        >
+            <div class="card-media" style="background-image: url('https://napkinnotes.es/images/palomitas.png');"></div>
+        </a>
 
         <div class="card-body">
           <h3 class="card-title">
@@ -138,6 +146,35 @@ Termodinámica •             <time datetime="2026-04-01T00:00:00+02:00">01 de 
       </article>
   </div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".article-card[data-href]");
+
+  cards.forEach(function (card) {
+    card.addEventListener("click", function (event) {
+      if (event.target.closest("a, button")) {
+        return;
+      }
+
+      window.location.href = card.dataset.href;
+    });
+
+    card.addEventListener("keydown", function (event) {
+      if (event.key !== "Enter" && event.key !== " ") {
+        return;
+      }
+
+      if (event.target.closest("a, button")) {
+        return;
+      }
+
+      event.preventDefault();
+      window.location.href = card.dataset.href;
+    });
+  });
+});
+</script>
                 </div>
             </main>
         </div>
