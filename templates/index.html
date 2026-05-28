@@ -31,7 +31,7 @@
 
 {% block content %}
 {% from '_includes/_defaults.html' import LANDING_PAGE_TITLE, FEATURED_IMAGE, SITE_DESCRIPTION with context %}
-{% from '_includes/_defaults.html' import RECENT_ARTICLES_COUNT, ARCHIVES_URL, CATEGORIES_URL, TAGS_URL, RECENT_ARTICLE_SUMMARY, NOSOTROS_URL with context %}
+{% from '_includes/_defaults.html' import RECENT_ARTICLES_COUNT, ARCHIVES_URL, CATEGORIES_URL, TAGS_URL, RECENT_ARTICLE_SUMMARY with context %}
 
 {% set landing_page = namespace(page=false) %}
 {% for p in hidden_pages if p.slug == "landing-page-about-hidden" %}
@@ -141,40 +141,6 @@
     </main>
 
     <aside class="nn-home-sidebar">
-
-        <section class="nn-sidebar-card nn-sidebar-card--mini-carousel nn-reveal" aria-label="Las plumas de Napkin Notes">
-            <span class="nn-kicker">Las plumas de Napkin Notes</span>
-
-            <div class="nn-mini-author-carousel" data-author-carousel>
-                <button class="nn-mini-author-carousel__control nn-author-carousel__control--prev" type="button" aria-label="Autor anterior">
-                    ‹
-                </button>
-
-                <div class="nn-mini-author-carousel__items">
-                    {% for author_name, author_data in AUTHORS.items() %}
-                        {% if author_name in ["Duvier Suárez Fontanella", "David Figueruelo Hernán"] %}
-                        <a
-                            class="nn-mini-author-carousel__item"
-                            href="{{ SITEURL }}/{{ author_data.articles_url }}"
-                            data-carousel-item
-                        >
-                            {% if author_data.caricature is defined and author_data.caricature %}
-                            <img class="nn-mini-author-carousel__image" src="{{ SITEURL }}/{{ author_data.caricature }}" alt="{{ author_name }}">
-                            {% elif author_data.avatar is defined and author_data.avatar %}
-                            <img class="nn-mini-author-carousel__image" src="{{ SITEURL }}/{{ author_data.avatar }}" alt="{{ author_name }}">
-                            {% endif %}
-
-                            <span class="nn-mini-author-carousel__name">{{ author_name }}</span>
-                        </a>
-                        {% endif %}
-                    {% endfor %}
-                </div>
-
-                <button class="nn-mini-author-carousel__control nn-author-carousel__control--next" type="button" aria-label="Autor siguiente">
-                    ›
-                </button>
-            </div>
-        </section>
 
         {% if articles %}
         <section class="nn-sidebar-card nn-sidebar-card--featured">
@@ -479,62 +445,63 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    const carousel = document.querySelector("[data-author-carousel]");
-    if (!carousel) return;
+    const carousels = document.querySelectorAll("[data-author-carousel]");
 
-    const items = Array.from(carousel.querySelectorAll("[data-carousel-item]"));
-    const prevButton = carousel.querySelector(".nn-author-carousel__control--prev");
-    const nextButton = carousel.querySelector(".nn-author-carousel__control--next");
+    carousels.forEach(function (carousel) {
+        const items = Array.from(carousel.querySelectorAll("[data-carousel-item]"));
+        const prevButton = carousel.querySelector(".nn-author-carousel__control--prev");
+        const nextButton = carousel.querySelector(".nn-author-carousel__control--next");
 
-    if (!items.length) return;
+        if (!items.length) return;
 
-    let activeIndex = Math.floor(Math.random() * items.length);
+        let activeIndex = Math.floor(Math.random() * items.length);
 
-    function renderCarousel() {
-        items.forEach(function (item) {
-            item.classList.remove("is-active", "is-prev", "is-next");
-        });
+        function renderCarousel() {
+            items.forEach(function (item) {
+                item.classList.remove("is-active", "is-prev", "is-next");
+            });
 
-        const total = items.length;
+            const total = items.length;
 
-        if (total === 1) {
-            items[0].classList.add("is-active");
-            return;
-        }
+            if (total === 1) {
+                items[0].classList.add("is-active");
+                return;
+            }
 
-        const prevIndex = (activeIndex - 1 + total) % total;
-        const nextIndex = (activeIndex + 1) % total;
+            const prevIndex = (activeIndex - 1 + total) % total;
+            const nextIndex = (activeIndex + 1) % total;
 
-        items[activeIndex].classList.add("is-active");
+            items[activeIndex].classList.add("is-active");
 
-        if (total === 2) {
+            if (total === 2) {
+                items[nextIndex].classList.add("is-next");
+                return;
+            }
+
+            items[prevIndex].classList.add("is-prev");
             items[nextIndex].classList.add("is-next");
-            return;
         }
 
-        items[prevIndex].classList.add("is-prev");
-        items[nextIndex].classList.add("is-next");
-    }
+        function goPrev() {
+            activeIndex = (activeIndex - 1 + items.length) % items.length;
+            renderCarousel();
+        }
 
-    function goPrev() {
-        activeIndex = (activeIndex - 1 + items.length) % items.length;
+        function goNext() {
+            activeIndex = (activeIndex + 1) % items.length;
+            renderCarousel();
+        }
+
+        if (prevButton) {
+            prevButton.addEventListener("click", goPrev);
+        }
+
+        if (nextButton) {
+            nextButton.addEventListener("click", goNext);
+        }
+
         renderCarousel();
-    }
-
-    function goNext() {
-        activeIndex = (activeIndex + 1) % items.length;
-        renderCarousel();
-    }
-
-    if (prevButton) {
-        prevButton.addEventListener("click", goPrev);
-    }
-
-    if (nextButton) {
-        nextButton.addEventListener("click", goNext);
-    }
-
-    renderCarousel();
+    });
 });
 </script>
 {% endblock content %}
