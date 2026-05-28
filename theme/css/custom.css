@@ -4415,28 +4415,33 @@ a.nn-squad-hero__metric {
 
 .nn-sidebar-card--mini-carousel {
   overflow: hidden;
+  padding-bottom: 22px;
   background: linear-gradient(180deg, #fffdfa 0%, #fdf4ea 100%);
 }
 
-.nn-sidebar-card--mini-carousel h3 {
-  margin: 0 0 14px;
-  font-size: 1.85rem;
-  line-height: 1.05;
+.nn-sidebar-card--mini-carousel .nn-kicker {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
 }
+
+/* Caja del carrusel */
 
 .nn-mini-author-carousel {
   display: grid;
-  grid-template-columns: 34px minmax(0, 1fr) 34px;
+  grid-template-columns: 32px minmax(0, 1fr) 32px;
   align-items: center;
-  gap: 8px;
-  min-height: 190px;
+  gap: 6px;
+  min-height: 150px;
 }
 
 .nn-mini-author-carousel__items {
   position: relative;
-  min-height: 190px;
+  min-height: 150px;
   overflow: hidden;
 }
+
+/* Tarjeta base */
 
 .nn-mini-author-carousel__item {
   position: absolute;
@@ -4444,19 +4449,19 @@ a.nn-squad-hero__metric {
   left: 50%;
   display: grid;
   justify-items: center;
-  gap: 7px;
-  width: 138px;
-  padding: 12px 10px;
+  gap: 8px;
+  width: 122px;
+  padding: 10px 8px 11px;
   border: 1px solid var(--line);
   border-radius: 18px;
-  background: rgba(255, 253, 249, 0.9);
+  background: rgba(255, 253, 249, 0.92);
   color: var(--richcarmine);
   text-align: center;
   text-decoration: none !important;
   opacity: 0;
   pointer-events: none;
-  box-shadow: 0 8px 20px rgba(20, 10, 10, 0.06);
-  transform: translate(-50%, -50%) scale(0.76);
+  box-shadow: 0 8px 18px rgba(20, 10, 10, 0.06);
+  transform: translate(-50%, -50%) scale(0.7);
   transition:
     opacity 0.24s ease,
     transform 0.24s ease,
@@ -4465,26 +4470,33 @@ a.nn-squad-hero__metric {
     box-shadow 0.24s ease;
 }
 
+/* Autor principal */
+
 .nn-mini-author-carousel__item.is-active {
   z-index: 3;
+  width: 138px;
   opacity: 1;
   pointer-events: auto;
   transform: translate(-50%, -50%) scale(1);
   box-shadow: 0 14px 30px rgba(20, 10, 10, 0.12);
 }
 
+/* Autor lateral izquierdo */
+
 .nn-mini-author-carousel__item.is-prev {
   z-index: 2;
-  opacity: 0.42;
+  opacity: 0.32;
   pointer-events: auto;
-  transform: translate(calc(-50% - 94px), -50%) scale(0.62);
+  transform: translate(calc(-50% - 82px), -50%) scale(0.54);
 }
+
+/* Autor lateral derecho */
 
 .nn-mini-author-carousel__item.is-next {
   z-index: 2;
-  opacity: 0.42;
+  opacity: 0.32;
   pointer-events: auto;
-  transform: translate(calc(-50% + 94px), -50%) scale(0.62);
+  transform: translate(calc(-50% + 82px), -50%) scale(0.54);
 }
 
 .nn-mini-author-carousel__item:hover {
@@ -4493,39 +4505,43 @@ a.nn-squad-hero__metric {
   color: var(--richcarmine);
 }
 
+/* Imagen como pieza central */
+
 .nn-mini-author-carousel__image {
   display: block;
-  width: 82px;
-  height: 82px;
-  border: 2px solid rgba(196, 154, 102, 0.44);
+  width: 88px;
+  height: 88px;
+  border: 2px solid rgba(196, 154, 102, 0.46);
   border-radius: 999px;
   background: #fbf5ee;
   object-fit: cover;
-  box-shadow: 0 8px 16px rgba(20, 10, 10, 0.08);
+  box-shadow: 0 8px 16px rgba(20, 10, 10, 0.10);
 }
+
+.nn-mini-author-carousel__item.is-active .nn-mini-author-carousel__image {
+  width: 96px;
+  height: 96px;
+}
+
+/* Nombre */
 
 .nn-mini-author-carousel__name {
   display: block;
+  max-width: 100%;
   color: var(--richcarmine);
   font-size: 0.78rem;
   font-weight: 850;
-  line-height: 1.1;
+  line-height: 1.08;
 }
 
-.nn-mini-author-carousel__role {
-  display: block;
-  max-width: 100%;
-  color: var(--muted);
-  font-size: 0.58rem;
-  font-weight: 750;
-  line-height: 1.15;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+/* Ya no usamos rol ni enlace de equipo */
+
+.nn-mini-author-carousel__role,
+.nn-mini-author-carousel__team-link {
+  display: none;
 }
 
-.nn-mini-author-carousel__item:hover .nn-mini-author-carousel__role {
-  color: var(--richcarmine);
-}
+/* Flechas */
 
 .nn-mini-author-carousel__control {
   position: relative;
@@ -4533,14 +4549,14 @@ a.nn-squad-hero__metric {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   padding: 0;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: #fbf5ee;
   color: var(--richcarmine);
-  font-size: 1.55rem;
+  font-size: 1.45rem;
   font-weight: 700;
   line-height: 1;
   cursor: pointer;
@@ -4553,60 +4569,76 @@ a.nn-squad-hero__metric {
   transform: translateY(-1px);
 }
 
-.nn-mini-author-carousel__team-link {
-  display: inline-flex;
-  margin-top: 8px;
-  color: var(--richcarmine);
-  font-weight: 800;
-  font-size: 0.92rem;
-}
-
-.nn-mini-author-carousel__team-link:hover {
-  color: var(--satinsheengold);
-}
+/* Tablet */
 
 @media (max-width: 980px) {
   .nn-mini-author-carousel {
-    min-height: 180px;
+    min-height: 160px;
   }
 
   .nn-mini-author-carousel__items {
-    min-height: 180px;
+    min-height: 160px;
   }
 
   .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 120px), -50%) scale(0.66);
+    transform: translate(calc(-50% - 105px), -50%) scale(0.58);
   }
 
   .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 120px), -50%) scale(0.66);
+    transform: translate(calc(-50% + 105px), -50%) scale(0.58);
   }
 }
 
+/* Móvil */
+
 @media (max-width: 640px) {
+  .nn-sidebar-card--mini-carousel {
+    padding-bottom: 20px;
+  }
+
   .nn-mini-author-carousel {
-    grid-template-columns: 32px minmax(0, 1fr) 32px;
-    min-height: 175px;
+    grid-template-columns: 30px minmax(0, 1fr) 30px;
+    min-height: 148px;
   }
 
   .nn-mini-author-carousel__items {
-    min-height: 175px;
+    min-height: 148px;
   }
 
   .nn-mini-author-carousel__item {
-    width: 130px;
+    width: 120px;
+    padding: 10px 8px;
+  }
+
+  .nn-mini-author-carousel__item.is-active {
+    width: 134px;
   }
 
   .nn-mini-author-carousel__image {
-    width: 76px;
-    height: 76px;
+    width: 82px;
+    height: 82px;
+  }
+
+  .nn-mini-author-carousel__item.is-active .nn-mini-author-carousel__image {
+    width: 90px;
+    height: 90px;
+  }
+
+  .nn-mini-author-carousel__name {
+    font-size: 0.75rem;
   }
 
   .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 105px), -50%) scale(0.62);
+    transform: translate(calc(-50% - 92px), -50%) scale(0.55);
   }
 
   .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 105px), -50%) scale(0.62);
+    transform: translate(calc(-50% + 92px), -50%) scale(0.55);
+  }
+
+  .nn-mini-author-carousel__control {
+    width: 28px;
+    height: 28px;
+    font-size: 1.35rem;
   }
 }
