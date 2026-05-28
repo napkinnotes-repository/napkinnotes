@@ -128,6 +128,50 @@ Napkin Notes        </h1>
     </div>
 </section>
 
+<section class="nn-author-carousel nn-reveal" aria-label="Las plumas de Napkin Notes">
+    <div class="nn-author-carousel__header">
+        <div>
+            <span class="nn-kicker">Equipo</span>
+            <h2>Las plumas de Napkin Notes</h2>
+        </div>
+
+        <a class="nn-inline-link" href="https://napkinnotes.es/">Ver equipo</a>
+    </div>
+
+    <div class="nn-author-carousel__stage" data-author-carousel>
+        <button class="nn-author-carousel__control nn-author-carousel__control--prev" type="button" aria-label="Autor anterior">
+            ‹
+        </button>
+
+        <div class="nn-author-carousel__items">
+                <a
+                    class="nn-author-carousel__item"
+                    href="https://napkinnotes.es/autor/duvier-suarez-fontanella"
+                    data-carousel-item
+                >
+                    <img class="nn-author-carousel__image" src="https://napkinnotes.es/images/duvier_caricatura.png" alt="Duvier Suárez Fontanella">
+
+                    <span class="nn-author-carousel__name">Duvier Suárez Fontanella</span>
+                    <span class="nn-author-carousel__role">Creador, Desarrollador Web</span>
+                </a>
+                <a
+                    class="nn-author-carousel__item"
+                    href="https://napkinnotes.es/autor/david-figueruelo-hernan"
+                    data-carousel-item
+                >
+                    <img class="nn-author-carousel__image" src="https://napkinnotes.es/images/david_caricatura.png" alt="David Figueruelo Hernán">
+
+                    <span class="nn-author-carousel__name">David Figueruelo Hernán</span>
+                    <span class="nn-author-carousel__role">Editor, Desarrollador Web</span>
+                </a>
+        </div>
+
+        <button class="nn-author-carousel__control nn-author-carousel__control--next" type="button" aria-label="Autor siguiente">
+            ›
+        </button>
+    </div>
+</section>
+
 <section class="nn-home-grid">
     <main class="nn-home-main">
 
@@ -614,6 +658,67 @@ document.addEventListener("DOMContentLoaded", function () {
             window.location.href = card.dataset.href;
         });
     });
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const carousel = document.querySelector("[data-author-carousel]");
+    if (!carousel) return;
+
+    const items = Array.from(carousel.querySelectorAll("[data-carousel-item]"));
+    const prevButton = carousel.querySelector(".nn-author-carousel__control--prev");
+    const nextButton = carousel.querySelector(".nn-author-carousel__control--next");
+
+    if (!items.length) return;
+
+    let activeIndex = 0;
+
+    function renderCarousel() {
+        items.forEach(function (item) {
+            item.classList.remove("is-active", "is-prev", "is-next");
+        });
+
+        const total = items.length;
+
+        if (total === 1) {
+            items[0].classList.add("is-active");
+            return;
+        }
+
+        const prevIndex = (activeIndex - 1 + total) % total;
+        const nextIndex = (activeIndex + 1) % total;
+
+        items[activeIndex].classList.add("is-active");
+
+        if (total === 2) {
+            items[nextIndex].classList.add("is-next");
+            return;
+        }
+
+        items[prevIndex].classList.add("is-prev");
+        items[nextIndex].classList.add("is-next");
+    }
+
+    function goPrev() {
+        activeIndex = (activeIndex - 1 + items.length) % items.length;
+        renderCarousel();
+    }
+
+    function goNext() {
+        activeIndex = (activeIndex + 1) % items.length;
+        renderCarousel();
+    }
+
+    if (prevButton) {
+        prevButton.addEventListener("click", goPrev);
+    }
+
+    if (nextButton) {
+        nextButton.addEventListener("click", goNext);
+    }
+
+    renderCarousel();
 });
 </script>
                 </div>
