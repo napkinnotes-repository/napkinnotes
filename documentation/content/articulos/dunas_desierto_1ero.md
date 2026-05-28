@@ -153,7 +153,7 @@ del agujero en la duna, al menos por un tiempo.
 
 ---
 
-## Referencias
+# Referencias
 
 <ol class="nn-references">
   <li id="ref-1">
