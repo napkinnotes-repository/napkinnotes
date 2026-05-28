@@ -14,39 +14,7 @@ Napkin Notes es una pequeña revista nacida de un grupo de amigos curiosos, fans
 Cada artículo funciona como una explicación o experimento mental minimalista: estimar cuántos pasos damos al año, calcular la energía escondida detrás de un café matutino o desenterrar verdades cósmicas que nos hacen dudar de todo menos de seguir leyendo.
 
 
-<div class="nn-about-mobile-plumes" aria-label="Las plumas de Napkin Notes">
-  <div class="nn-about-mobile-plumes__title">Las plumas de Napkin Notes</div>
-
-  <div class="nn-mini-author-carousel" data-author-carousel>
-    <button class="nn-mini-author-carousel__control nn-author-carousel__control--prev" type="button" aria-label="Autor anterior">
-      ‹
-    </button>
-
-    <div class="nn-mini-author-carousel__items">
-      <a
-        class="nn-mini-author-carousel__item"
-        href="/autor/duvier-suarez-fontanella"
-        data-carousel-item
-      >
-        <img class="nn-mini-author-carousel__image" src="/images/duvier_caricatura.png" alt="Duvier Suárez Fontanella">
-        <span class="nn-mini-author-carousel__name">Duvier Suárez Fontanella</span>
-      </a>
-
-      <a
-        class="nn-mini-author-carousel__item"
-        href="/autor/david-figueruelo-hernan"
-        data-carousel-item
-      >
-        <img class="nn-mini-author-carousel__image" src="/images/david_caricatura.png" alt="David Figueruelo Hernán">
-        <span class="nn-mini-author-carousel__name">David Figueruelo Hernán</span>
-      </a>
-    </div>
-
-    <button class="nn-mini-author-carousel__control nn-author-carousel__control--next" type="button" aria-label="Autor siguiente">
-      ›
-    </button>
-  </div>
-</div>
+<!-- NN_PLUMES -->
 
 
 ## ¿Qué Hace Especial a Napkin Notes?
