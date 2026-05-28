@@ -487,7 +487,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         function renderCarousel() {
             items.forEach(function (item) {
-                item.classList.remove("is-active", "is-prev", "is-next");
+                item.classList.remove("is-active", "is-prev", "is-next", "is-prev-2", "is-next-2");
             });
 
             const total = items.length;
@@ -509,6 +509,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
             items[prevIndex].classList.add("is-prev");
             items[nextIndex].classList.add("is-next");
+
+            if (total >= 5) {
+                const prev2Index = (activeIndex - 2 + total) % total;
+                const next2Index = (activeIndex + 2) % total;
+
+                items[prev2Index].classList.add("is-prev-2");
+                items[next2Index].classList.add("is-next-2");
+            }
         }
 
         function goPrev() {
