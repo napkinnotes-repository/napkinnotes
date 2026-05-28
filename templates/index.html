@@ -81,9 +81,46 @@
                 <span class="nn-kicker">Proyecto</span>
                 <h2>{{ landing_page.page.title }}</h2>
             </div>
+
             <div class="nn-richtext nn-about-project__content">
                 <img class="nn-about-project__logo" src="{{ SITEURL }}/images/Logo.jpg" alt="Logo de Napkin Notes">
-                {{ landing_page.page.content }}
+
+                {% set about_parts = landing_page.page.content.split('<!-- NN_PLUMES -->') %}
+
+                {{ about_parts[0] }}
+
+                {% if about_parts|length > 1 %}
+                <div class="nn-about-mobile-plumes" aria-label="Las plumas de Napkin Notes">
+                    <div class="nn-about-mobile-plumes__title">Las plumas de Napkin Notes</div>
+
+                    <div class="nn-mini-author-carousel" data-author-carousel>
+                        <button class="nn-mini-author-carousel__control nn-author-carousel__control--prev" type="button" aria-label="Autor anterior">
+                            ‹
+                        </button>
+
+                        <div class="nn-mini-author-carousel__items">
+                            {% for author_name, author_data in AUTHORS.items() %}
+                                {% if author_data.caricature is defined and author_data.caricature %}
+                                <a
+                                    class="nn-mini-author-carousel__item"
+                                    href="{{ SITEURL }}/{{ author_data.articles_url }}"
+                                    data-carousel-item
+                                >
+                                    <img class="nn-mini-author-carousel__image" src="{{ SITEURL }}/{{ author_data.caricature }}" alt="{{ author_name }}">
+                                    <span class="nn-mini-author-carousel__name">{{ author_name }}</span>
+                                </a>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+
+                        <button class="nn-mini-author-carousel__control nn-author-carousel__control--next" type="button" aria-label="Autor siguiente">
+                            ›
+                        </button>
+                    </div>
+                </div>
+
+                {{ about_parts[1] }}
+                {% endif %}
             </div>
         </section>
         {% endif %}
