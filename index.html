@@ -363,41 +363,6 @@ Boton de descarga aqui por facilidad pero luego lo podemos cambiar al html-->
 
     <aside class="nn-home-sidebar">
 
-        <section class="nn-sidebar-card nn-sidebar-card--mini-carousel nn-reveal" aria-label="Las plumas de Napkin Notes">
-            <span class="nn-kicker">Las plumas de Napkin Notes</span>
-
-            <div class="nn-mini-author-carousel" data-author-carousel>
-                <button class="nn-mini-author-carousel__control nn-author-carousel__control--prev" type="button" aria-label="Autor anterior">
-                    ‹
-                </button>
-
-                <div class="nn-mini-author-carousel__items">
-                        <a
-                            class="nn-mini-author-carousel__item"
-                            href="https://napkinnotes.es/autor/duvier-suarez-fontanella"
-                            data-carousel-item
-                        >
-                            <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/duvier_caricatura.png" alt="Duvier Suárez Fontanella">
-
-                            <span class="nn-mini-author-carousel__name">Duvier Suárez Fontanella</span>
-                        </a>
-                        <a
-                            class="nn-mini-author-carousel__item"
-                            href="https://napkinnotes.es/autor/david-figueruelo-hernan"
-                            data-carousel-item
-                        >
-                            <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/david_caricatura.png" alt="David Figueruelo Hernán">
-
-                            <span class="nn-mini-author-carousel__name">David Figueruelo Hernán</span>
-                        </a>
-                </div>
-
-                <button class="nn-mini-author-carousel__control nn-author-carousel__control--next" type="button" aria-label="Autor siguiente">
-                    ›
-                </button>
-            </div>
-        </section>
-
         <section class="nn-sidebar-card nn-sidebar-card--featured">
             <span class="nn-kicker">Último</span>
 
@@ -688,62 +653,63 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    const carousel = document.querySelector("[data-author-carousel]");
-    if (!carousel) return;
+    const carousels = document.querySelectorAll("[data-author-carousel]");
 
-    const items = Array.from(carousel.querySelectorAll("[data-carousel-item]"));
-    const prevButton = carousel.querySelector(".nn-author-carousel__control--prev");
-    const nextButton = carousel.querySelector(".nn-author-carousel__control--next");
+    carousels.forEach(function (carousel) {
+        const items = Array.from(carousel.querySelectorAll("[data-carousel-item]"));
+        const prevButton = carousel.querySelector(".nn-author-carousel__control--prev");
+        const nextButton = carousel.querySelector(".nn-author-carousel__control--next");
 
-    if (!items.length) return;
+        if (!items.length) return;
 
-    let activeIndex = Math.floor(Math.random() * items.length);
+        let activeIndex = Math.floor(Math.random() * items.length);
 
-    function renderCarousel() {
-        items.forEach(function (item) {
-            item.classList.remove("is-active", "is-prev", "is-next");
-        });
+        function renderCarousel() {
+            items.forEach(function (item) {
+                item.classList.remove("is-active", "is-prev", "is-next");
+            });
 
-        const total = items.length;
+            const total = items.length;
 
-        if (total === 1) {
-            items[0].classList.add("is-active");
-            return;
-        }
+            if (total === 1) {
+                items[0].classList.add("is-active");
+                return;
+            }
 
-        const prevIndex = (activeIndex - 1 + total) % total;
-        const nextIndex = (activeIndex + 1) % total;
+            const prevIndex = (activeIndex - 1 + total) % total;
+            const nextIndex = (activeIndex + 1) % total;
 
-        items[activeIndex].classList.add("is-active");
+            items[activeIndex].classList.add("is-active");
 
-        if (total === 2) {
+            if (total === 2) {
+                items[nextIndex].classList.add("is-next");
+                return;
+            }
+
+            items[prevIndex].classList.add("is-prev");
             items[nextIndex].classList.add("is-next");
-            return;
         }
 
-        items[prevIndex].classList.add("is-prev");
-        items[nextIndex].classList.add("is-next");
-    }
+        function goPrev() {
+            activeIndex = (activeIndex - 1 + items.length) % items.length;
+            renderCarousel();
+        }
 
-    function goPrev() {
-        activeIndex = (activeIndex - 1 + items.length) % items.length;
+        function goNext() {
+            activeIndex = (activeIndex + 1) % items.length;
+            renderCarousel();
+        }
+
+        if (prevButton) {
+            prevButton.addEventListener("click", goPrev);
+        }
+
+        if (nextButton) {
+            nextButton.addEventListener("click", goNext);
+        }
+
         renderCarousel();
-    }
-
-    function goNext() {
-        activeIndex = (activeIndex + 1) % items.length;
-        renderCarousel();
-    }
-
-    if (prevButton) {
-        prevButton.addEventListener("click", goPrev);
-    }
-
-    if (nextButton) {
-        nextButton.addEventListener("click", goNext);
-    }
-
-    renderCarousel();
+    });
 });
 </script>
                 </div>
