@@ -38,10 +38,10 @@ Boton de descarga aqui por facilidad pero luego lo podemos cambiar al html-->
   </button>
 
   <a
-    class="cta-button cta-button--template"
-    href="/articulos/template_articulos/template.zip"
-    download
-  >
-    Descargar plantilla
-  </a>
+  class="cta-button--template"
+  href="/articulos/template_articulos/template.zip"
+  download
+>
+  Descargar plantilla
+</a>
 </div>
