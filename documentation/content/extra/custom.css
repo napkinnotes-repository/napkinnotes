@@ -4307,3 +4307,18 @@ a.nn-squad-hero__metric {
   font-weight: 700;
   white-space: nowrap;
 }
+/* FIX: botón Descargar plantilla más compacto en portada */
+
+.nn-about-actions a.cta-button--template {
+  min-height: 36px !important;
+  padding: 7px 12px !important;
+  font-size: 0.84rem !important;
+  line-height: 1 !important;
+  border-radius: 999px !important;
+}
+
+.nn-about-actions a.cta-button--template::before {
+  margin-right: 5px !important;
+  font-size: 0.82rem !important;
+  line-height: 1 !important;
+}
