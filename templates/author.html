@@ -22,7 +22,7 @@ Artículos escritos por {{ author }} en {{ SITENAME|striptags|e }}.
 
       {% if author_data and author_data.blurb %}
       <div class="nn-author-hero__subtitle">
-        {{ author_data.blurb|safe }}      
+        {{ author_data.blurb|safe }}
       </div>
       {% else %}
       <p class="nn-author-hero__subtitle">
@@ -73,16 +73,24 @@ Artículos escritos por {{ author }} en {{ SITENAME|striptags|e }}.
         {% endif %}
       {% endif %}
 
-    <article class="article-card">
-  <a class="card-media-link"
-     href="{{ SITEURL }}/{{ article.url }}"
-     aria-label="Leer {{ article.title }}">
-    {% if image_url %}
-      <div class="card-media" style="background-image: url('{{ image_url }}');"></div>
-    {% else %}
-      <div class="card-media"></div>
-    {% endif %}
-  </a>
+      <article
+        class="article-card"
+        data-href="{{ SITEURL }}/{{ article.url }}"
+        role="link"
+        tabindex="0"
+        aria-label="Leer {{ article.title }}"
+      >
+        <a
+          class="card-media-link"
+          href="{{ SITEURL }}/{{ article.url }}"
+          aria-label="Leer {{ article.title }}"
+        >
+          {% if image_url %}
+            <div class="card-media" style="background-image: url('{{ image_url }}');"></div>
+          {% else %}
+            <div class="card-media"></div>
+          {% endif %}
+        </a>
 
         <div class="card-body">
           <h3 class="card-title">
@@ -107,4 +115,33 @@ Artículos escritos por {{ author }} en {{ SITENAME|striptags|e }}.
     <p>No hay artículos para mostrar.</p>
   {% endif %}
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".article-card[data-href]");
+
+  cards.forEach(function (card) {
+    card.addEventListener("click", function (event) {
+      if (event.target.closest("a, button")) {
+        return;
+      }
+
+      window.location.href = card.dataset.href;
+    });
+
+    card.addEventListener("keydown", function (event) {
+      if (event.key !== "Enter" && event.key !== " ") {
+        return;
+      }
+
+      if (event.target.closest("a, button")) {
+        return;
+      }
+
+      event.preventDefault();
+      window.location.href = card.dataset.href;
+    });
+  });
+});
+</script>
 {% endblock content %}
