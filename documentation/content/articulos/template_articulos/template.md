@@ -70,6 +70,10 @@ Texto antes de la imagen.
 Texto tras la imagen.
 
 
+<!-- Citas dentro del texto (ver final del template)-->
+El texto que queréis referenciar va así <sup><a href="#ref-1">[1]</a></sup>.
+Otra cita distinta iría así <sup><a href="#ref-2">[2]</a></sup>.
+
 <!-- Fin de Seccion-->
 ---
 ## Conclusiones
@@ -77,3 +81,20 @@ Texto tras la imagen.
 Frases finales
 
 ---
+
+
+
+<!--Y al final, después de conclusiones, dejaría este bloque plantilla:-->
+## Referencias
+
+<ol class="nn-references">
+  <li id="ref-1">
+    Autor, A. (Año). Título del artículo. <em>Revista o libro</em>.
+    <a href="https://doi.org/..." target="_blank" rel="noopener noreferrer">https://doi.org/...</a>
+  </li>
+
+  <li id="ref-2">
+    Autor, B. (Año). Otro título. <em>Revista o libro</em>.
+    <a href="https://doi.org/..." target="_blank" rel="noopener noreferrer">https://doi.org/...</a>
+  </li>
+</ol>
