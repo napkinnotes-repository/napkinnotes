@@ -3994,7 +3994,9 @@ a.nn-squad-hero__metric {
   box-shadow: 0 12px 34px rgba(16,16,16,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
-
+.article-card[data-href] {
+  cursor: pointer;
+}
 /* Enlace invisible: hace clicable toda la card de Artículos sin romper el grid */
 
 .article-card__overlay-link {
