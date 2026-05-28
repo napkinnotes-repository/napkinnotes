@@ -10,21 +10,13 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
 
 {% block meta_tags_in_head %}
 {{ super() }}
-{% from '_includes/_defaults.html' import FEATURED_IMAGE, ARCHIVES_URL with context %}
-<meta property="og:title" content="Artículos · {{ SITENAME|striptags|e }}"/>
-<meta name="twitter:title" content="Artículos · {{ SITENAME|striptags|e }}">
-<meta property="og:url" content="{{ SITEURL }}/{{ ARCHIVES_URL }}" />
-<meta property="og:description" content="Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico." />
-<meta name="twitter:description" content="Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico.">
-<meta property="og:site_name" content="{{ SITENAME|striptags|e }}" />
-<meta property="og:article:author" content="{{ AUTHOR }}" />
-{% if FEATURED_IMAGE %}
-<meta property="og:image" content="{{ FEATURED_IMAGE }}" />
-<meta name="twitter:image" content="{{ FEATURED_IMAGE }}" >
+{% from '_includes/_defaults.html' import FEATURED_IMAGE, ARCHIVES_URL with context %} <meta property="og:title" content="Artículos · {{ SITENAME|striptags|e }}"/> <meta name="twitter:title" content="Artículos · {{ SITENAME|striptags|e }}"> <meta property="og:url" content="{{ SITEURL }}/{{ ARCHIVES_URL }}" /> <meta property="og:description" content="Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico." /> <meta name="twitter:description" content="Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico."> <meta property="og:site_name" content="{{ SITENAME|striptags|e }}" /> <meta property="og:article:author" content="{{ AUTHOR }}" />
+{% if FEATURED_IMAGE %} <meta property="og:image" content="{{ FEATURED_IMAGE }}" /> <meta name="twitter:image" content="{{ FEATURED_IMAGE }}" >
 {% endif %}
 {% endblock meta_tags_in_head %}
 
 {% block content %}
+
 <div class="container-archives">
 
   <section class="nn-archives-hero">
@@ -37,64 +29,56 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
     </div>
   </section>
 
-  {% if dates %}
+{% if dates %}
+
   <div class="articles-grid">
     {% for article in dates %}
       {% set image_url = '' %}
 
-      {% if article.featured_image is defined and article.featured_image %}
-        {% set image_url = article.featured_image %}
+```
+  {% if article.featured_image is defined and article.featured_image %}
+    {% set image_url = article.featured_image %}
 
-      {% elif article.image is defined and article.image %}
-        {% if article.image.startswith('http') %}
-          {% set image_url = article.image %}
+  {% elif article.image is defined and article.image %}
+    {% if article.image.startswith('http') %}
+      {% set image_url = article.image %}
+    {% else %}
+      {% set image_url = SITEURL ~ '/' ~ article.image %}
+    {% endif %}
+
+  {% elif article.metadata is defined and article.metadata %}
+    {% if article.metadata.image is defined and article.metadata.image %}
+      {% if article.metadata.image.startswith('http') %}
+        {% set image_url = article.metadata.image %}
+      {% else %}
+        {% set image_url = SITEURL ~ '/' ~ article.metadata.image %}
+      {% endif %}
+    {% elif article.metadata.get and article.metadata.get('image') %}
+      {% set meta_img = article.metadata.get('image') %}
+      {% if meta_img %}
+        {% if meta_img.startswith('http') %}
+          {% set image_url = meta_img %}
         {% else %}
-          {% set image_url = SITEURL ~ '/' ~ article.image %}
-        {% endif %}
-
-      {% elif article.metadata is defined and article.metadata %}
-        {% if article.metadata.image is defined and article.metadata.image %}
-          {% if article.metadata.image.startswith('http') %}
-            {% set image_url = article.metadata.image %}
-          {% else %}
-            {% set image_url = SITEURL ~ '/' ~ article.metadata.image %}
-          {% endif %}
-        {% elif article.metadata.get and article.metadata.get('image') %}
-          {% set meta_img = article.metadata.get('image') %}
-          {% if meta_img %}
-            {% if meta_img.startswith('http') %}
-              {% set image_url = meta_img %}
-            {% else %}
-              {% set image_url = SITEURL ~ '/' ~ meta_img %}
-            {% endif %}
-          {% endif %}
+          {% set image_url = SITEURL ~ '/' ~ meta_img %}
         {% endif %}
       {% endif %}
-
-<article class="article-card">
-  <a class="card-media-link"
-     href="{{ SITEURL }}/{{ article.url }}"
-     aria-label="Leer {{ article.title }}">
-    {% if image_url %}
-      <div class="card-media" style="background-image: url('{{ image_url }}');"></div>
-    {% else %}
-      <div class="card-media"></div>
     {% endif %}
-  </a>
+  {% endif %}
 
-<a class="article-card-link"
-   href="{{ SITEURL }}/{{ article.url }}"
-   aria-label="Leer {{ article.title }}">
   <article class="article-card">
-    {% if image_url %}
-      <div class="card-media" style="background-image: url('{{ image_url }}');"></div>
-    {% else %}
-      <div class="card-media"></div>
-    {% endif %}
+    <a class="card-media-link"
+       href="{{ SITEURL }}/{{ article.url }}"
+       aria-label="Leer {{ article.title }}">
+      {% if image_url %}
+        <div class="card-media" style="background-image: url('{{ image_url }}');"></div>
+      {% else %}
+        <div class="card-media"></div>
+      {% endif %}
+    </a>
 
     <div class="card-body">
       <h3 class="card-title">
-        {{ article.title }}
+        <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
       </h3>
 
       <div class="card-meta">
@@ -109,8 +93,9 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
       {% endif %}
     </div>
   </article>
-</a>
-    {% endfor %}
+{% endfor %}
+```
+
   </div>
   {% else %}
     <p>No hay entradas para mostrar.</p>
