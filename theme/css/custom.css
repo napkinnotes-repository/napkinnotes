@@ -4364,3 +4364,32 @@ a.nn-squad-hero__metric {
   color: var(--richcarmine) !important;
   transform: translateY(-1px);
 }
+/* Portada: igualar altura de cards en Artículos recientes */
+
+.nn-section-card--articles .nn-article-card {
+  min-height: 285px;
+}
+
+.nn-section-card--articles .nn-article-card__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.nn-section-card--articles .nn-article-card__summary {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.nn-section-card--articles .nn-article-card__subtitle {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+@media (max-width: 640px) {
+  .nn-section-card--articles .nn-article-card {
+    min-height: 0;
+  }
+}
