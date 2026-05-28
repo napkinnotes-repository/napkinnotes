@@ -144,9 +144,8 @@
 
 <aside class="nn-home-sidebar">
 
-        <section class="nn-sidebar-card nn-sidebar-card--mini-carousel nn-reveal" aria-label="Las plumas de Napkin Notes">
-            <span class="nn-kicker">Equipo</span>
-            <h3>Las plumas de Napkin Notes</h3>
+<section class="nn-sidebar-card nn-sidebar-card--mini-carousel nn-reveal" aria-label="Las plumas de Napkin Notes">
+    <span class="nn-kicker">Las plumas de Napkin Notes</span>
 
             <div class="nn-mini-author-carousel" data-author-carousel>
                 <button class="nn-mini-author-carousel__control nn-author-carousel__control--prev" type="button" aria-label="Autor anterior">
@@ -168,7 +167,6 @@
                             {% endif %}
 
                             <span class="nn-mini-author-carousel__name">{{ author_name }}</span>
-                            <span class="nn-mini-author-carousel__role">{{ author_data.role }}</span>
                         </a>
                         {% endif %}
                     {% endfor %}
@@ -179,9 +177,7 @@
                 </button>
             </div>
 
-            <a class="nn-mini-author-carousel__team-link" href="{{ SITEURL }}/{{ NOSOTROS_URL }}">
-                Ver equipo
-            </a>
+
         </section>
 
         {% if articles %}
@@ -497,7 +493,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!items.length) return;
 
-    let activeIndex = 0;
+    let activeIndex = Math.floor(Math.random() * items.length);
 
     function renderCarousel() {
         items.forEach(function (item) {
