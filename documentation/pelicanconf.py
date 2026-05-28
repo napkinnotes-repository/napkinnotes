@@ -166,6 +166,7 @@ AUTHORS = {
         "role": "Creador, Desarrollador Web",
         "blurb": "Físico teórico y curioso incorregible, dedicado a rastrear las leyes secretas que gobiernan tanto al cosmos como a los detalles más triviales de la vida diaria. Sus textos buscan lo mismo que la antigua Fundación: preservar el conocimiento, iluminar lo oculto y demostrar que incluso en una servilleta puede comenzar una nueva era científica.",
         "avatar": "images/duvier.png",
+        "caricature": "images/duvier_caricatura.png",
         "articles_url": "autor/duvier-suarez-fontanella",
     },
     "Gretel Quintero Angulo": {
@@ -180,7 +181,8 @@ AUTHORS = {
         "role": "Editor, Desarrollador Web",
         "blurb": "Doctor en cosmología que busca comprender el universo y el rol de la materia y energía oscuras en él. Interesado las ecuaciones y las preguntas fundamentales: qué significa entender en física y qué es  <strong>verdad</strong> al observar solo una fracción mínima del cosmos. Trabaja interpretando las pistas que el universo nos deja en forma de datos, intentando averiguar qué historias encajan con ellas y cuáles no. Financiación: Personal investigador doctor de la UPV/EHU (2024).",
         "avatar": "images/david.jpg",
-         "articles_url": "autor/david-figueruelo-hernan",       
+        "caricature": "images/david_caricatura.png",
+        "articles_url": "autor/david-figueruelo-hernan",       
     },
     "Gabriel Sánchez Pérez": {
         "url": "https://www.linkedin.com/in/gasape21/",
