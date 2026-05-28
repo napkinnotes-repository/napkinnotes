@@ -3984,6 +3984,7 @@ a.nn-squad-hero__metric {
 }
 
 .article-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -3992,6 +3993,29 @@ a.nn-squad-hero__metric {
   background: linear-gradient(180deg, #fffdfa 0%, #fff8f1 100%);
   box-shadow: 0 12px 34px rgba(16,16,16,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+/* Enlace invisible: hace clicable toda la card de Artículos sin romper el grid */
+
+.article-card__overlay-link {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: block;
+  border-radius: 18px;
+  text-decoration: none !important;
+}
+
+.article-card .card-media-link,
+.article-card .card-title a {
+  position: relative;
+  z-index: 3;
+}
+
+.article-card .card-meta,
+.article-card .card-excerpt {
+  position: relative;
+  z-index: 1;
 }
 
 .article-card:hover {
