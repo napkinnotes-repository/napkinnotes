@@ -98,6 +98,10 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
             <div class="card-excerpt">{{ article.content | striptags | truncate(160, True, '...') }}</div>
           {% endif %}
         </div>
+
+        <a class="article-card__overlay-link"
+           href="{{ SITEURL }}/{{ article.url }}"
+           aria-label="Leer {{ article.title }}"></a>
       </article>
     {% endfor %}
   </div>
