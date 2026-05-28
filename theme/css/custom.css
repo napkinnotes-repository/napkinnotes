@@ -4282,9 +4282,9 @@ a.nn-squad-hero__metric {
 }
 
 .nn-about-actions .cta-button--question {
-  border: 1px solid rgba(149, 11, 14, 0.16);
-  background: var(--satinsheengold);
-  color: var(--richcarmine) !important;
+  border: none;
+  background: var(--richcarmine);
+  color: #fff !important;
 }
 
 .nn-about-actions .cta-button:hover,
@@ -4300,8 +4300,8 @@ a.nn-squad-hero__metric {
 }
 
 .nn-about-actions .cta-button--question:hover {
-  background: var(--satinsheengold);
-  color: var(--richcarmine) !important;
+  background: var(--richcarmine);
+  color: #fff !important;
   opacity: 0.92;
 }
 
