@@ -884,36 +884,7 @@ footer a,
 .nn-article-card--dinamica-de-fluidos {
   border-top-color: #4d7a6d;
 }
-/* Portada: toda la card de artículos recientes clicable */
 
-.nn-article-card {
-  position: relative;
-}
-
-.nn-article-card__overlay-link {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  display: block;
-  border-radius: 20px;
-  text-decoration: none !important;
-}
-
-/* Mantiene imagen, título y categoría por encima del overlay */
-.nn-article-card__image-link,
-.nn-article-card__title a,
-.nn-article-card__meta a {
-  position: relative;
-  z-index: 3;
-}
-
-/* El resto del contenido queda debajo del overlay y no bloquea el click */
-.nn-article-card__body,
-.nn-article-card__subtitle,
-.nn-article-card__summary {
-  position: relative;
-  z-index: 1;
-}
 /* =========================
    SMALL LISTS / CLOUDS
 ========================= */
