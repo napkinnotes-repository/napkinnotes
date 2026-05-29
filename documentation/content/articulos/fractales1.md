@@ -118,7 +118,7 @@ Calculemos ahora su dimensión de similaridad, con la noción que introdujimos a
 
   <figure>
     <img src="images/sierpinski3.png" alt="Triángulo de Sierpinski reescalado">
-    <figcaption>Tres copias del triangulo de sierpinski original.</figcaption>
+    <figcaption>Tres copias del triangulo de Sierpinski original.</figcaption>
   </figure>
 </div>
 
