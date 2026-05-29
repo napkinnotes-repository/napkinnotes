@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="https://napkinnotes.es/theme/css/elegant.prod.9e9d5ce754.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://napkinnotes.es/theme/css/custom.css" media="screen">
+
+
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+        <meta name="author" content="Paz Albares Vicente" />
+
+        <meta name="description" content="Una línea tiene dimensión 1. Un cuadrado, dimensión 2. Y un cubo, dimensión 3. Todo parece bastante claro y sencillo. Pero, ¿y si te dijera que existen objetos demasiado rugosos para ser líneas y demasiado vacíos para rellenar un plano? ¿Cuál sería ahora su dimensión? ¿Seguro que las dimensiones son siempre números enteros? ¡Bienvenido al extraño mundo de los fractales!
+" />
+
+        <meta name="twitter:creator" content="@napkiinnotes">
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="matemáticas, fractales, Matemáticas, " />
+
+<meta property="og:title" content="La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales? "/>
+<meta property="og:url" content="https://napkinnotes.es/rebelion-fractales-1-dimensiones-decimales" />
+<meta property="og:description" content="Una línea tiene dimensión 1. Un cuadrado, dimensión 2. Y un cubo, dimensión 3. Todo parece bastante claro y sencillo. Pero, ¿y si te dijera que existen objetos demasiado rugosos para ser líneas y demasiado vacíos para rellenar un plano? ¿Cuál sería ahora su dimensión? ¿Seguro que las dimensiones son siempre números enteros? ¡Bienvenido al extraño mundo de los fractales!" />
+<meta property="og:site_name" content="Napkin Notes" />
+<meta property="og:article:author" content="Paz Albares Vicente" />
+<meta property="og:article:published_time" content="2026-05-29T00:00:00+02:00" />
+<meta name="twitter:title" content="La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales? ">
+<meta name="twitter:description" content="Una línea tiene dimensión 1. Un cuadrado, dimensión 2. Y un cubo, dimensión 3. Todo parece bastante claro y sencillo. Pero, ¿y si te dijera que existen objetos demasiado rugosos para ser líneas y demasiado vacíos para rellenar un plano? ¿Cuál sería ahora su dimensión? ¿Seguro que las dimensiones son siempre números enteros? ¡Bienvenido al extraño mundo de los fractales!">
+<meta property="og:image" content="https://napkinnotes.es/theme/images/nn_logo.png" />
+<meta name="twitter:image" content="https://napkinnotes.es/theme/images/nn_logo.png" >
+
+
+        <title>La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales?  · Napkin Notes
+</title>
+<link rel="shortcut icon" href="https://napkinnotes.es/images/Logo.jpg" type="image/jpeg" />
+<link rel="icon" href="https://napkinnotes.es/images/Logo.jpg" type="image/jpeg" />
+<link rel="apple-touch-icon" href="https://napkinnotes.es/images/Logo.jpg" type="image/jpeg" />
+        <link href="https://napkinnotes.es/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Napkin Notes - Full Atom Feed" />
+
+
+
+
+    </head>
+   
+    <body>
+        <div class="site-shell">
+            <header class="site-header">
+                <div class="site-header__inner">
+                    <a class="site-brand" href="https://napkinnotes.es">
+                             <img class="site-brand__logo" src="https://napkinnotes.es/images/Logo.jpg" alt="Logo de Napkin Notes">
+                             <span class="site-brand__name">Napkin Notes</span>
+                    </a>
+
+                   <nav class="site-nav">
+
+                       
+    <ul class="site-nav__list">
+        <li >
+            <a href="https://napkinnotes.es">Portada</a>
+        </li>
+
+
+        <li >
+            <a href="https://napkinnotes.es/archives">Artículos</a>
+        </li>
+        <li >
+            <a href="https://napkinnotes.es/explorar">Explorar</a>
+        </li>
+        <li >
+            <a href="https://napkinnotes.es/about">Nosotros</a>
+        </li>
+
+            <li>
+                <a class="site-nav__x"
+                   href="https://twitter.com/napkiinnotes"
+                   target="_blank"
+                   rel="me noopener noreferrer"
+                   aria-label="Seguir a Napkin Notes en X">
+                    𝕏
+                </a>
+            </li>
+    </ul>
+</nav>
+
+                    <div class="site-search-row">
+    <form class="site-search" action="https://napkinnotes.es/search" onsubmit="return validateForm(this.elements['q'].value);">
+        <input type="text" placeholder="Buscar" name="q" id="tipue_search_input">
+    </form>
+
+    <a class="site-mobile-x"
+       href="https://twitter.com/napkiinnotes"
+       target="_blank"
+       rel="me noopener noreferrer"
+       aria-label="Seguir a Napkin Notes en X">
+        𝕏
+    </a>
+</div>
+                </div>
+            </header>
+
+            <main class="site-main">
+                <div class="site-main__inner">
+<article itemscope class="nn-article-page">
+<div class="nn-article-hero">
+    <div class="nn-article-hero__inner">
+        <div class="nn-article-hero__meta">
+            <span class="nn-article-hero__category">Matemáticas</span>
+            <span class="nn-article-hero__dot">•</span>
+            <time itemprop="dateCreated" datetime="2026-05-29T00:00:00+02:00">29 de May de 2026</time>
+           
+        </div>
+
+        <div class="nn-article-hero__heading">
+            <div class="nn-article-hero__title-wrap">
+                <h1 class="nn-article-hero__title">
+                    <a href="https://napkinnotes.es/rebelion-fractales-1-dimensiones-decimales">La rebelión de los fractales I: ¿Y si las dimensiones tuvieran&nbsp;decimales?</a>
+                </h1>
+            </div>
+
+        </div>
+
+        <p class="nn-article-hero__summary"><p>Una línea tiene dimensión 1. Un cuadrado, dimensión 2. Y un cubo, dimensión 3. Todo parece bastante claro y sencillo. Pero, ¿y si te dijera que existen objetos demasiado rugosos para ser líneas y demasiado vacíos para rellenar un plano? ¿Cuál sería ahora su dimensión? ¿Seguro que las dimensiones son siempre números enteros? ¡Bienvenido al extraño mundo de los&nbsp;fractales!</p></p>
+
+        <figure class="nn-article-hero__figure">
+            <img class="nn-article-hero__image" src="https://napkinnotes.es/images/mandelbrot_set.png" alt="La rebelión de los fractales I: ¿Y si las dimensiones tuvieran&nbsp;decimales?">
+        </figure>
+    </div>
+</div>
+
+<div class="nn-article-layout nn-article-layout--no-toc">
+    <div class="nn-article-main">
+        <div class="nn-article-content">
+            
+            <div class="toc">
+<ul>
+<li><a href="#la-dimension-es-una-idea-razonable">La dimensión es una idea&nbsp;razonable</a></li>
+<li><a href="#el-arte-de-fotocopiar-y-cambiar-de-escala">El arte de fotocopiar y cambiar de&nbsp;escala</a></li>
+<li><a href="#quiza-la-dimension-no-tiene-por-que-ser-entera">Quizá la dimensión no tiene por qué ser&nbsp;entera</a></li>
+<li><a href="#fractales-en-nuestro-dia-a-dia">Fractales en nuestro día a&nbsp;día</a></li>
+<li><a href="#referencias">Referencias</a></li>
+</ul>
+</div>
+<h2 id="la-dimension-es-una-idea-razonable">La dimensión es una idea razonable<a class="headerlink" href="#la-dimension-es-una-idea-razonable" title="Permanent link"> </a></h2>
+<p>La intuición funciona bastante bien. Podemos imaginar la dimensión de un objeto como el número de direcciones independientes en las que podríamos movernos sobre&nbsp;él:</p>
+<ul>
+<li>En un punto, no hay movimiento posible, estamos &#8220;atrapados&#8221; y obligados a quedarnos sobre él. Por tanto, se dice que el punto tiene dimensión&nbsp;0. </li>
+<li>Si dibujamos una línea recta, solo podemos movernos a lo largo de ella, hacia delante o hacia atrás, pero siempre en la propia línea, no hay más direcciones disponibles. Entonces, se dice que la línea tiene dimensión&nbsp;1.</li>
+<li>En una hoja de papel, podríamos movernos a lo largo de dos direcciones, el largo y el ancho, y por tanto su dimensión es&nbsp;2.</li>
+<li>En una habitación completa, no solo sobre sus paredes, podríamos movernos a lo largo de tres direcciones independientes: largo, ancho y alto. En ese caso, el espacio tiene dimensión&nbsp;3.</li>
+</ul>
+<p>Lo que describimos aquí es, en esencia, la motivación de la definición matemática de <strong>dimensión topológica</strong>. Esta forma de medir siempre nos va a devolver números enteros, y funciona a la perfección para las figuras de la geometría clásica. Pero no es la única forma que los matemáticos han encontrado para determinar la dimensión de un&nbsp;objeto. </p>
+<h2 id="el-arte-de-fotocopiar-y-cambiar-de-escala">El arte de fotocopiar y cambiar de escala<a class="headerlink" href="#el-arte-de-fotocopiar-y-cambiar-de-escala" title="Permanent link"> </a></h2>
+<p>Intuitivamente, un objeto de mayor dimensión tiende a ocupar el espacio de una forma más intensa que uno de dimensión menor. Para simplificar la discusión, vamos a considerar <strong>objetos autosimilares</strong>, que son aquellos formados por copias idénticas de sí mismos a escalas más pequeñas. En este contexto, resulta natural estudiar cómo cambia el objeto cuando modificamos su tamaño. La pregunta es: ¿cuántas copias del objeto original son necesarias para reconstruir una versión reescalada del&nbsp;mismo?</p>
+<p>Supongamos que duplicamos el tamaño de los objetos que ya conocemos, es decir, usamos un factor de&nbsp;escala <span class="math">\(S=2\)</span>.</p>
+<p>Si duplicamos el tamaño de un segmento,&nbsp;necesitamos <span class="math">\(N = 2\)</span> copias del segmento original para construir el nuevo&nbsp;segmento.</p>
+<div class="nn-two-images">
+  <figure>
+    <img src="images/linea1.png" alt="Segmento original">
+    <figcaption>Segmento original.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/linea2.png" alt="Segmento duplicado">
+    <figcaption>Segmento duplicado.</figcaption>
+  </figure>
+</div>
+
+<p>donde se&nbsp;verifica</p>
+<div class="math">$$
+2 = 2^1.
+$$</div>
+<p>Si duplicamos los lados de un cuadrado, su área se multiplica por 4, y&nbsp;necesitaríamos <span class="math">\(N = 4\)</span> copias del cuadrado original para reconstruir el cuadrado reescalado, cumpliéndose&nbsp;que <span class="math">\(4 = 2^2\)</span>.</p>
+<div class="nn-two-images">
+  <figure>
+    <img src="images/cuadrado1.png" alt="Cuadrado original">
+    <figcaption>Cuadrado original.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/cuadrado2.png" alt="Cuadrado duplicado">
+    <figcaption>Cuadrado duplicado.</figcaption>
+  </figure>
+</div>
+
+<p>Análogamente, si duplicamos los lados de un cubo,&nbsp;necesitamos <span class="math">\(N = 8\)</span> cubos originales para formar el nuevo cubo, tal&nbsp;que <span class="math">\(8 = 2^3\)</span>.</p>
+<div class="nn-two-images">
+  <figure>
+    <img src="images/cubo1.png" alt="Cubo original">
+    <figcaption>Cubo original.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/cubo2.png" alt="Cubo duplicado">
+    <figcaption>Cubo duplicado.</figcaption>
+  </figure>
+</div>
+
+<p>Aquí parece esconderse un patrón. De manera general, para objetos autosimilares, la dimensión de <strong>similaridad</strong> <span class="math">\(d\)</span> es el número que&nbsp;verifica</p>
+<div class="math">$$
+N=S^d,\qquad S&gt;1,
+$$</div>
+<p>donde <span class="math">\(S\)</span> es el factor de escala&nbsp;y <span class="math">\(N\)</span> es el número de copias que necesitamos para reconstruir el objeto reescalado. Podemos&nbsp;despejar <span class="math">\(d\)</span> tomando logaritmos en la expresión anterior,&nbsp;obteniendo</p>
+<div class="math">$$
+d=\frac{\ln N}{\ln S},\qquad S&gt;1.
+$$</div>
+<h2 id="quiza-la-dimension-no-tiene-por-que-ser-entera">Quizá la dimensión no tiene por qué ser entera<a class="headerlink" href="#quiza-la-dimension-no-tiene-por-que-ser-entera" title="Permanent link"> </a></h2>
+<p>Para los casos de un segmento, un cuadrado y un cubo, el valor&nbsp;de <span class="math">\(d\)</span> obtenido según la fórmula anterior coincide con su dimensión topológica,&nbsp;obteniendo <span class="math">\(d=1,2,3\)</span>, respectivamente. Sin embargo, si miramos la fórmula con atención, nos damos cuenta de&nbsp;que <span class="math">\(d\)</span> está definida como un cociente de logaritmos, lo que matemáticamente significa que&nbsp;¡<span class="math">\(d\)</span> puede ser cualquier número real positivo! ¿Qué sentido tiene esto? ¿Debe ser la dimensión siempre un número&nbsp;entero?</p>
+<p>Veámoslo con un ejemplo un poco más exótico. Imagina un triángulo equilátero en el plano. Ahora, imagina que lo divides en cuatro triángulos iguales y eliminas el triángulo invertido del centro, dejando tres triángulos más pequeños. ¿Fácil, verdad? ¿Pero qué sucede si volvemos a repetir el proceso sobre los tres triángulos restantes? Cada triángulo se divide en cuatro y le quitamos el triángulo central. ¿Y si volvemos a repetir el proceso sobre los triángulos resultantes? Una vez, otra vez, y otra&#8230; así infinitas veces. Acabamos de construir el famoso <strong>triángulo de Sierpinski</strong>:</p>
+<figure class="nn-article-figure nn-article-figure--medium">
+  <img src="images/sierpinski.png" alt="Triángulo de Sierpinski">
+  <figcaption>Triángulo de Sierpinski.</figcaption>
+</figure>
+
+<p>¿Qué hemos obtenido? El resultado es una figura que está contenida en el plano, formada con infinitos triángulos y a su vez con infinitos agujeros. Si vive en el plano, ¿&#8221;debería&#8221; ser bidimensional? Pero al mismo tiempo estamos quitando área constantemente, y si continuamos infinitamente, el área total termina siendo cero. Es un objeto del plano, necesitamos dos ejes para representarlo&#8230; pero sin área, ¿qué es realmente este&nbsp;objeto?</p>
+<p>Las matemáticas nos dicen que su dimensión topológica es 1. Esto puede entenderse intuitivamente ya que, debido a su estructura autosimilar con huecos a todas las escalas, se comporta más como una red de segmentos conectados que como una superficie. Pero, por alguna razón, el triángulo de Sierpinski parece algo más que una&nbsp;línea&#8230; </p>
+<p>Calculemos ahora su dimensión de similaridad, con la noción que introdujimos&nbsp;antes. </p>
+<div class="nn-two-images">
+  <figure>
+    <img src="images/sierpinski2.png" alt="Triángulo de Sierpinski original">
+    <figcaption>Triángulo de Sierpinski original.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/sierpinski3.png" alt="Triángulo de Sierpinski reescalado">
+    <figcaption>Triángulo de Sierpinski reescalado.</figcaption>
+  </figure>
+</div>
+
+<p>Si duplicamos el tamaño del triángulo de Sierpinski&nbsp;(<span class="math">\(S = 2\)</span>), solo&nbsp;necesitamos <span class="math">\(N=3\)</span> copias del triángulo original para reconstruir el nuevo, lo que proporciona una dimensión&nbsp;de </p>
+<div class="math">$$
+d=\frac{\ln 3}{\ln 2}\approx 1.58496...
+$$</div>
+<p>¿Qué está pasando? La dimensión no&nbsp;es <span class="math">\(1\)</span> ni <span class="math">\(2\)</span>, ¡es un número con&nbsp;decimales, <span class="math">\(1.58\)</span>! El objeto se ha vuelto demasiado rugoso para ser una línea, pero está demasiado vacío para rellenar un plano. Es, en cierto sentido, un objeto que vive entre dos dimensiones, un híbrido geométrico, un triángulo con dimensión fraccionaria. ¿Pero cómo es esto posible? Esta fascinante paradoja geométrica fue la que impulsó al matemático Benoît Mandelbrot a desarrollar una nueva disciplina: la <strong>geometría fractal</strong> <sup class="nn-cite"><a href="#ref-1">[1]</a></sup>.</p>
+<p>Analicemos otro ejemplo bastante conocido. Partimos de un segmento, que dividimos en tres partes iguales y en el que sustituimos el tercio central por dos lados de un triángulo equilátero. Si repetimos esta operación infinitamente en cada segmento resultante, obtenemos la <strong>curva de Koch</strong>. Al unir tres de estas curvas, obtenemos una figura cerrada que se asemeja a un copo de nieve: es el <strong>copo de nieve de Koch</strong>.</p>
+<div class="nn-two-images">
+  <figure>
+    <img src="images/koch1.png" alt="Primeras iteraciones de la curva de Koch">
+    <figcaption>Primeras iteraciones de la curva de Koch.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/koch2.png" alt="Copo de nieve de Koch">
+    <figcaption>Copo de nieve de Koch.</figcaption>
+  </figure>
+</div>
+
+<p>Este objeto encierra un área finita, pero posee un perímetro irregular infinito; es decir, podrías pintar su interior, pero no dibujar su borde. Se anima al lector a comprobar que la dimensión de la curva de Koch y, por tanto, del copo de nieve&nbsp;es <span class="math">\(d=\frac{\ln 4}{\ln 3}\approx 1.26\)</span> <sup class="nn-cite"><a href="#ref-3">[3]</a></sup>.</p>
+<h2 id="fractales-en-nuestro-dia-a-dia">Fractales en nuestro día a día<a class="headerlink" href="#fractales-en-nuestro-dia-a-dia" title="Permanent link"> </a></h2>
+<p>El truco de contar &#8220;copias&#8221; funciona bien para estructuras autosimilares, pero no todos los conjuntos pueden describirse como combinación de partes idénticas a sí mismos. Para generalizar esta idea, se introduce la <strong>dimensión de Hausdorff</strong>, que esencialmente estudia cómo los objetos <em>llenan</em> el espacio. Cuando la dimensión de Hausdorff de un objeto es mayor que su dimensión topológica, entre otras propiedades, hablamos de un <strong>fractal</strong> <sup class="nn-cite"><a href="#ref-1">[1]</a></sup>. </p>
+<p>Si observamos atentamente, vemos que el mundo real es profundamente fractal. La naturaleza parece tener una obsesión con ellos: desde las ramas de los árboles, en diversos tipos de plantas y alimentos, los bronquios de tus pulmones, los rayos, los ríos, pompas de jabón&#8230; incluso hasta algunas formaciones galácticas muestran patrones fractales&nbsp;aproximados. </p>
+<div class="nn-two-images">
+  <figure>
+    <img src="images/trees.png" alt="Ramas de un árbol con estructura fractal">
+    <figcaption>
+      Ramas de los árboles. Fuente:
+      <a href="https://commons.wikimedia.org/wiki/File:Fractals_of_Nature.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/brocoli.png" alt="Brócoli romanesco con patrón fractal">
+    <figcaption>
+      Brócoli romanesco. Imagen: Kent Wang,
+      <a href="https://commons.wikimedia.org/wiki/File:Romanesco_broccoli.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
+      licencia <span class="caps">CC</span> <span class="caps">BY</span>-<span class="caps">SA</span> 2.0.
+    </figcaption>
+  </figure>
+</div>
+
+<div class="nn-two-images">
+  <figure>
+    <img src="images/aloe.png" alt="Aloe espiral visto desde arriba">
+    <figcaption>
+      Planta de aloe vera. Imagen: Sam,
+      <a href="https://commons.wikimedia.org/wiki/File:Spiral_Aloe_from_above.JPG" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
+      licencia <span class="caps">CC</span> <span class="caps">BY</span>-<span class="caps">SA</span> 4.0.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/cosmicweb.png" alt="Visualización de la red cósmica">
+    <figcaption>
+      Red cósmica. Imagen: Volker Springel / Max Planck Institute for Astrophysics,
+      <a href="https://commons.wikimedia.org/wiki/File:Cosmic_web.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
+      licencia <span class="caps">CC</span> <span class="caps">BY</span>-<span class="caps">SA</span> 4.0.
+    </figcaption>
+  </figure>
+</div>
+
+<p><em>Fractales en la naturaleza: ramas de los árboles, brócoli romanesco, planta de aloe vera y red&nbsp;cósmica.</em></p>
+<p>Vivimos rodeados de formas complejas que desafían las dimensiones clásicas y esquivan la geometría euclídea. La próxima vez que mires a tu alrededor, recuerda que la dimensión no solo no tiene por qué ser un número entero, sino que el universo parece decantarse por esos espacios&nbsp;intermedios. </p>
+<p>¿Te gustaría saber más sobre fractales y dónde aparecen? Espera a la segunda entrega de esta&nbsp;servilleta.</p>
+<h2 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link"> </a></h2>
+<ol class="nn-references">
+  <li id="ref-1">
+    <span class="caps">B. B.</span> Mandelbrot (1982). <em>The Fractal Geometry of Nature</em>. <span class="caps">W. H.</span> Freeman and Company, New&nbsp;York.
+  </li>
+
+  <li id="ref-2">
+    3Blue1Brown. (2017). Fractals are typically not self-similar. <em>YouTube</em>.
+    <a href="https://www.youtube.com/watch?v=gB9n2gHsHN4" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=gB9n2gHsHN4</a>
+  </li>
+
+  <li id="ref-3">
+    Mates Mike. (2022). DIMENSIÓN <span class="caps">FRACTAL</span>: El Copo de Nieve de Koch. <em>YouTube</em>.
+    <a href="https://www.youtube.com/watch?v=eKY_1j9VrEA" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=eKY_1j9VrEA</a>
+  </li>
+</ol>
+
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+
+             
+
+
+<div class="applause_button">
+    <applause-button url=https://napkinnotes.es/rebelion-fractales-1-dimensiones-decimales> </applause-button>
+</div>
+
+ 
+            
+            
+<div class="nn-author-box">
+    <div class="nn-author-box__avatar">
+        <img src="https://napkinnotes.es/images/paz.jpg" alt="Paz Albares Vicente">
+    </div>
+
+    <div class="nn-author-box__content">
+        <div class="nn-author-box__label">Autor</div>
+        <h3 class="nn-author-box__name">Paz Albares Vicente</h3>
+
+        <p class="nn-author-box__bio">Paz es doctora en Física, especializada en Física Matemática, exploradora de ecuaciones no lineales y de los patrones que de ellas emergen donde menos se esperan. Modeliza fenómenos complejos e intenta descubrir y entender qué estructuras se esconden detrás, combinando la física con herramientas y el lenguaje de las matemáticas. De mente curiosa, está convencida de que tan importante es hacerse preguntas como buscar sus respuestas. Y a veces, todo comienza con una idea escrita en la cara de una servilleta.</p>
+
+        <div class="nn-author-box__links">
+            <a class="nn-author-box__link" href="https://portalcientifico.upm.es/es/ipublic/researcher/338845" target="_blank" rel="noopener noreferrer">
+                Ver perfil
+            </a>
+
+            <a class="nn-author-box__link" href="https://napkinnotes.es/autor/paz-albares-vicente">
+                Ver artículos
+            </a>
+        </div>
+    </div>
+</div>
+
+            
+<section class="nn-comments">
+    <h2 class="nn-comments__title">Comentarios</h2>
+
+
+    <div class="nn-comments__form-block">
+        <h2 class="nn-comments__form-title">Enviar un comentario</h2>
+
+        <p class="nn-comments__intro">
+            ¿Qué te ha parecido? Escríbenos tu comentario y lo revisaremos antes de publicarlo.
+        </p>
+
+        <div class="nn-comments__box">
+            <form
+                class="nn-comment-form"
+                id="nn-comment-form"
+                action="https://formspree.io/f/mkokjgka"
+                method="POST">
+
+                <input type="hidden" name="_subject" value="Nuevo comentario en Napkin Notes">
+                <input type="hidden" name="articulo" value="La rebelión de los fractales I: ¿Y si las dimensiones tuvieran&nbsp;decimales?">
+                <input type="hidden" name="article_key" value="rebelion-fractales-1-dimensiones-decimales">
+                <input type="hidden" name="url_articulo" value="https://napkinnotes.es/rebelion-fractales-1-dimensiones-decimales">
+
+                <div class="nn-comment-form__row">
+                    <label for="comment-name">Nombre</label>
+                    <input id="comment-name" type="text" name="nombre" required>
+                </div>
+
+                <div class="nn-comment-form__row">
+                    <label for="comment-email">Email (opcional)</label>
+                    <input id="comment-email" type="email" name="email">
+                </div>
+
+                <div class="nn-comment-form__row">
+                    <label for="comment-text">Comentario</label>
+                    <textarea id="comment-text" name="comentario" rows="6" required></textarea>
+                </div>
+
+                <p id="nn-comment-form-status" class="nn-comment-form__status"></p>
+
+                <button class="nn-home-sidebar__button" type="submit">Enviar comentario</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+            <hr/>
+         </div>
+    </div>
+</div>
+
+   <aside id="article-sidebar" class="nn-article-sidebar">
+        <div class="nn-sticky-card">
+
+<div class="nn-article-meta-card">
+    <div class="nn-article-meta-card__section">
+        <div class="nn-article-meta-card__eyebrow">Ficha del artículo</div>
+
+        <div class="nn-article-meta-row">
+            <span class="nn-article-meta-row__label">Publicado</span>
+            <time class="nn-article-meta-row__value" itemprop="dateCreated" datetime="2026-05-29T00:00:00+02:00">
+                29 de May de 2026
+            </time>
+        </div>
+
+        <div class="nn-article-meta-row nn-article-meta-row--stack">
+            <span class="nn-article-meta-row__label">Categoría</span>
+            <div class="nn-article-meta-badges">
+                <a class="nn-article-meta-badge nn-article-meta-badge--category"
+                   href="https://napkinnotes.es/categories#matematicas-ref">
+                    Matemáticas
+                </a>
+            </div>
+        </div>
+
+        <div class="nn-article-meta-row nn-article-meta-row--stack">
+            <span class="nn-article-meta-row__label">Tags</span>
+            <div class="nn-article-meta-tags">
+                <a class="nn-article-meta-tag"
+                   href="https://napkinnotes.es/tags#fractales-ref">
+                    fractales
+                </a>
+                <a class="nn-article-meta-tag"
+                   href="https://napkinnotes.es/tags#matematicas-ref">
+                    matemáticas
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="nn-article-meta-card__section nn-article-meta-card__section--share">
+        <div class="nn-article-meta-card__eyebrow">¿Te ha gustado este artículo?</div>
+        <p class="nn-article-meta-card__share-text">Compártelo</p>
+
+       <div class="nn-share-actions">
+    <a class="nn-share-actions__button"
+       href="https://twitter.com/intent/tweet?url=https%3A//napkinnotes.es/rebelion-fractales-1-dimensiones-decimales&text=La%20rebeli%C3%B3n%20de%20los%20fractales%20I%3A%20%C2%BFY%20si%20las%20dimensiones%20tuvieran%C2%A0decimales%3F"
+       target="_blank"
+       rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+            <path fill="currentColor" d="M18.244 2H21l-6.56 7.498L22.16 22h-6.05l-4.738-6.197L5.95 22H3.192l7.017-8.018L2 2h6.203l4.283 5.658L18.244 2Zm-1.06 18.174h1.527L7.378 3.73H5.74l11.443 16.444Z"/>
+        </svg>
+        <span>X</span>
+    </a>
+
+    <a class="nn-share-actions__button"
+       href="https://www.facebook.com/sharer/sharer.php?u=https%3A//napkinnotes.es/rebelion-fractales-1-dimensiones-decimales"
+       target="_blank"
+       rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+            <path fill="currentColor" d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6h1.7V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.4V11H8v3h2.6v8h2.9Z"/>
+        </svg>
+        <span>Facebook</span>
+    </a>
+
+    <a class="nn-share-actions__button"
+       href="https://api.whatsapp.com/send?text=La%20rebeli%C3%B3n%20de%20los%20fractales%20I%3A%20%C2%BFY%20si%20las%20dimensiones%20tuvieran%26nbsp%3Bdecimales%3F%20https%3A//napkinnotes.es/rebelion-fractales-1-dimensiones-decimales"
+       target="_blank"
+       rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+            <path fill="currentColor" d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.16 1.6 5.98L0 24l6.28-1.65a11.84 11.84 0 0 0 5.78 1.47h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.17-3.45-8.44ZM12.07 21.8h-.01a9.86 9.86 0 0 1-5.02-1.37l-.36-.21-3.73.98 1-3.63-.23-.37a9.82 9.82 0 0 1-1.5-5.28c0-5.45 4.43-9.88 9.88-9.88 2.64 0 5.12 1.03 6.98 2.9a9.8 9.8 0 0 1 2.88 6.98c0 5.45-4.43 9.88-9.88 9.88Zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.46-.15-.66.15-.2.3-.76.97-.93 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.46-2.4-1.47a9.03 9.03 0 0 1-1.67-2.07c-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.66-1.6-.9-2.19-.24-.58-.48-.5-.66-.5h-.56c-.2 0-.5.08-.76.38-.27.3-1.02 1-1.02 2.44 0 1.43 1.05 2.82 1.2 3.02.15.2 2.06 3.15 5 4.42.7.3 1.24.48 1.67.61.7.22 1.33.19 1.83.12.56-.08 1.76-.72 2-1.42.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.56-.35Z"/>
+        </svg>
+        <span>WhatsApp</span>
+    </a>
+
+    <button class="nn-share-actions__button nn-share-actions__button--copy"
+            type="button"
+            data-copy-url="https://napkinnotes.es/rebelion-fractales-1-dimensiones-decimales">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+            <path fill="currentColor" d="M16 1H6a2 2 0 0 0-2 2v12h2V3h10V1Zm3 4H10a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H10V7h9v14Z"/>
+        </svg>
+        <span>Copiar enlace</span>
+    </button>
+</div>
+    </div>
+</div>
+        </div>
+    </aside>
+</div>
+</article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>                </div>
+            </main>
+        </div>
+
+<footer>
+    <div class="nn-footer-inner">
+        <div class="nn-footer-copy">
+            <div>
+                Contenido publicado bajo licencia <a rel="license nofollow noopener noreferrer"
+    href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+    Creative Commons Atribución 4.0 Internacional</a>.
+            </div>
+
+
+
+
+            <div class="web-developers">
+                Web creada y desarrollada por <strong>David Figueruelo Hernán</strong> y <strong>Duvier Suarez Fontanella</strong>
+            </div>
+
+            <div id="fpowered">
+                Funciona con <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>
+                · Tema <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>
+            </div>
+        </div>
+
+        <div class="nn-footer-contact">
+            <a class="nn-footer-contact__link"
+               href="https://twitter.com/napkiinnotes"
+               target="_blank"
+               rel="me noopener noreferrer"
+               aria-label="Seguir a Napkin Notes en X">
+                <span class="nn-footer-contact__icon">𝕏</span>
+                <span>Síguenos en X</span>
+                <strong>@napkiinnotes</strong>
+            </a>
+
+            <a class="nn-footer-contact__link"
+               href="mailto:napkiin.notes@proton.me"
+               aria-label="Enviar correo a Napkin Notes">
+                <span class="nn-footer-contact__icon">✉</span>
+                <span>Contacto</span>
+                <strong>napkiin.notes@proton.me</strong>
+            </a>
+        </div>
+    </div>
+</footer>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="https://napkinnotes.es/theme/js/elegant.prod.9e9d5ce754.js"></script>
+<script>
+    function validateForm(query)
+    {
+        return (query.length > 0);
+    }
+</script>
+<script>
+    let bgShift = 0;
+
+    window.addEventListener("scroll", () => {
+      bgShift = Math.min(window.scrollY * 0.08, 60);
+      document.documentElement.style.setProperty('--bg-shift', bgShift + 'px');
+    });
+</script>
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("nn-comment-form");
+    const status = document.getElementById("nn-comment-form-status");
+    if (!form || !status) return;
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+
+        const data = new FormData(form);
+        status.textContent = "Enviando...";
+
+        try {
+            const response = await fetch(form.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    "Accept": "application/json"
+                }
+            });
+
+            if (response.ok) {
+                status.textContent = "Comentario enviado. Lo revisaremos antes de publicarlo.";
+                form.reset();
+            } else {
+                const result = await response.json();
+                if (result && result.errors) {
+                    status.textContent = result.errors.map(error => error.message).join(", ");
+                } else {
+                    status.textContent = "No se pudo enviar el comentario.";
+                }
+            }
+        } catch (error) {
+            status.textContent = "No se pudo enviar el comentario.";
+        }
+    }
+
+    form.addEventListener("submit", handleSubmit);
+});
+</script>
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toc = document.querySelector(".nn-article-content > .toc");
+        if (!toc) return;
+
+        const tocLinks = Array.from(toc.querySelectorAll("a[href^='#']"));
+        if (!tocLinks.length) return;
+
+        const headings = tocLinks
+            .map(link => {
+                const id = decodeURIComponent(link.getAttribute("href").slice(1));
+                const target = document.getElementById(id);
+                return target ? { link, target } : null;
+            })
+            .filter(Boolean);
+
+        if (!headings.length) return;
+
+        function setActive(id) {
+           tocLinks.forEach(link => link.classList.remove("is-active"));
+
+           if (window.innerWidth <= 980) return;
+
+           const activeLink = toc.querySelector(`a[href="#${CSS.escape(id)}"]`);
+           if (activeLink) activeLink.classList.add("is-active");
+        }
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                const visible = entries
+                    .filter(entry => entry.isIntersecting)
+                    .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+
+                if (visible.length) {
+                    setActive(visible[0].target.id);
+                }
+            },
+            {
+                rootMargin: "-18% 0px -62% 0px",
+                threshold: [0.15, 0.35, 0.6]
+            }
+        );
+
+        headings.forEach(({ target }) => observer.observe(target));
+
+        tocLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                tocLinks.forEach(item => item.classList.remove("is-active"));
+                link.classList.add("is-active");
+            });
+        });
+
+        setActive(headings[0].target.id);
+    });
+    </script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const copyButton = document.querySelector(".nn-share-actions__button--copy");
+        if (!copyButton) return;
+
+        copyButton.addEventListener("click", async function () {
+            const url = copyButton.getAttribute("data-copy-url");
+            const originalText = copyButton.textContent;
+
+            try {
+                await navigator.clipboard.writeText(url);
+                copyButton.textContent = "Copiado";
+                setTimeout(() => {
+                    copyButton.textContent = originalText;
+                }, 1600);
+            } catch (error) {
+                copyButton.textContent = "No se pudo copiar";
+                setTimeout(() => {
+                    copyButton.textContent = originalText;
+                }, 1600);
+            }
+        });
+    });
+    </script>
+
+
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e8c5c528a6c9464ab6b495a375bc1c70"}'>
+</script><!-- End Cloudflare Web Analytics -->
+
+    </body>
+</html>
