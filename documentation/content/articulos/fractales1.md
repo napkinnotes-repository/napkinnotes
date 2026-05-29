@@ -3,8 +3,7 @@ title: "La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimal
 author: Paz Albares Vicente # mismo nombre que en la tarjeta de autor
 date: 2026-05-29 # formato YYYY-MM-DD
 layout: articles
-slug: fractales-dimensiones-decimales
-status: hidden # published si ya está listo
+status: published # published si ya está listo
 category: Matemáticas # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
   - matemáticas
