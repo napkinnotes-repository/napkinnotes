@@ -126,7 +126,7 @@ Si duplicamos el tamaño del triángulo de Sierpinski ($S = 2$), sólo necesitam
 $$
 d=\frac{\ln 3}{\ln 2}\approx 1.58496...
 $$
-¿Qué está pasando? La dimensión no es $1$ ni $2$, ¡es un número con decimales, $1.58$!  El objeto se ha vuelto demasiado rugoso para ser una línea, pero está demasiado vacío para rellenar un plano. Es un objeto que simplemente vive entre las dos dimensiones, un híbrido geométrico, un triángulo con dimensión fraccionaria. ¿Pero cómo es esto posible? Esta fascinante paradoja geométrica fue la que impulsó al matemático Benoît Mandelbrot a desarrollar una nueva disciplina: la **geometría fractal** <sup class="nn-cite"><a href="#ref-1">[1]</a></sup>.
+¿Qué está pasando? La dimensión no es $1$ ni $2$, ¡es un número con decimales, $1.58$!  El objeto se ha vuelto demasiado rugoso para ser una línea, pero está demasiado vacío para rellenar un plano. Es un objeto que simplemente vive entre las dos dimensiones, un híbrido geométrico, un triángulo con dimensión fraccionaria. ¿Pero cómo es esto posible? Esta fascinante paradoja geométrica fue la que impulsó al matemático Benoît Mandelbrot a desarrollar una nueva disciplina: la **geometría fractal**.
 
 Analicemos otro ejemplo bastante conocido. Partimos de un segmento, que dividimos en tres partes iguales y en el que sustituimos el tercio central por dos lados de un triángulo equilátero. Si repetimos esta operación infinitamente en cada segmento resultante, obtenemos la **curva de Koch**. Al unir tres de estas curvas, obtenemos una figura cerrada que se asemeja a un copo de nieve, es el **copo de nieve de Koch**.
 
@@ -142,11 +142,11 @@ Analicemos otro ejemplo bastante conocido. Partimos de un segmento, que dividimo
   </figure>
 </div>
 
-Este objeto encierra un área finita, pero posee un perímetro irregular infinito; es decir, podrías pintar su interior, pero no dibujar su borde. Se anima al lector a comprobar que la dimensión de la curva de Koch (y, por tanto, del copo de nieve) es $d=\frac{\ln 4}{\ln 3}\approx 1.26$ <sup class="nn-cite"><a href="#ref-3">[3]</a></sup>.
+Este objeto encierra un área finita, pero posee un perímetro irregular infinito; es decir, podrías pintar su interior, pero no dibujar su borde. Se anima al lector a comprobar que la dimensión de la curva de Koch (y, por tanto, del copo de nieve) es $d=\frac{\ln 4}{\ln 3}\approx 1.26$.
 
 ## Fractales en nuestro día a día
 
-El truco de contar "copias" funciona bien para estructuras autosimilares, pero no todos los conjuntos pueden describirse como combinación de partes idénticas a sí mismos. Para generalizar esta idea, se introduce la **dimensión de Hausdorff**, que esencialmente estudia cómo los objetos *llenan* el espacio. Cuando la dimensión de Hausdorff de un objeto es mayor que su dimensión topológica (entre otras propiedades), hablamos de un **fractal** <sup class="nn-cite"><a href="#ref-1">[1]</a></sup>. 
+El truco de contar "copias" funciona bien para estructuras autosimilares, pero no todos los conjuntos pueden describirse como combinación de partes idénticas a sí mismos. Para generalizar esta idea, se introduce la **dimensión de Hausdorff**, que esencialmente estudia cómo los objetos *llenan* el espacio. Cuando la dimensión de Hausdorff de un objeto es mayor que su dimensión topológica (entre otras propiedades), hablamos de un **fractal**. 
 
 Si observamos atentamente, vemos que el mundo real es profundamente fractal. La naturaleza parece tener una obsesión con ellos: desde las ramas de los árboles, en diversos tipos de plantas y alimentos, los bronquios de tus pulmones, los rayos, los ríos, pompas de jabón... incluso hasta algunas formaciones galácticas muestran patrones fractales aproximados. 
 
