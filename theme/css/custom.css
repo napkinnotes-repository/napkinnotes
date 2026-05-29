@@ -4574,8 +4574,6 @@ a.nn-squad-hero__metric {
 
 /* Desktop: [60%] [70%] [80%] [100%] [80%] [70%] [60%] */
 
-/* Desktop: [60%] [70%] [80%] [100%] [80%] [70%] [60%] */
-
 @media (min-width: 981px) {
   .nn-about-mobile-plumes {
     width: 100%;
@@ -4600,7 +4598,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
-    left: 37%;
+    left: 41%;
     z-index: 6;
     opacity: 0.78;
     pointer-events: auto;
@@ -4608,7 +4606,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
-    left: 63%;
+    left: 59%;
     z-index: 6;
     opacity: 0.78;
     pointer-events: auto;
@@ -4616,7 +4614,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-2 {
-    left: 25%;
+    left: 32%;
     z-index: 5;
     opacity: 0.48;
     pointer-events: auto;
@@ -4624,7 +4622,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-2 {
-    left: 75%;
+    left: 68%;
     z-index: 5;
     opacity: 0.48;
     pointer-events: auto;
@@ -4632,7 +4630,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-3 {
-    left: 14%;
+    left: 24%;
     z-index: 4;
     opacity: 0.26;
     pointer-events: auto;
@@ -4640,7 +4638,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-3 {
-    left: 86%;
+    left: 76%;
     z-index: 4;
     opacity: 0.26;
     pointer-events: auto;
