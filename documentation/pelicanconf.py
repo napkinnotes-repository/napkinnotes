@@ -174,6 +174,7 @@ AUTHORS = {
         "role": "Editora",
         "blurb": "Gretel observa el mundo con la precisión de quien ha sido educada en el método científico y la sensibilidad de quien encuentra en la escritura una forma de interpretar lo cotidiano. Es doctora en física, pero su curiosidad no se restringe a la ciencia: aspira a un conocimiento más amplio, construido desde la complementariedad y las relaciones entre distintas ramas del saber, donde las disciplinas no se excluyen, sino que se iluminan entre sí. Su trabajo combina pensamiento crítico y voz propia, explorando las estructuras —visibles e invisibles— que moldean nuestras vidas.",
         "avatar": "images/gretel.png",
+        "caricature": "images/gretel_caricatura.png",
         "articles_url": "autor/gretel-quintero-angulo",
     },
     "David Figueruelo Hernán": {
@@ -213,6 +214,7 @@ AUTHORS = {
         "role": "Colaboradora",
         "blurb": "La Dra. Ruchika es investigadora postdoctoral en la Universidad de Salamanca, tras haber trabajado en la Universidad La Sapienza de Roma y en el IIT Bombay. Le fascinan las grandes preguntas sobre el universo y estudia cómo las galaxias se alejan, se agrupan y forman la estructura cósmica a gran escala. Su investigación conecta la observación del cielo con la física fundamental, explorando dos de los grandes misterios actuales: la materia oscura y la energía oscura. Lo que más la entusiasma es descubrir qué son realmente estos ingredientes invisibles del cosmos y distinguir las señales verdaderamente nuevas de los efectos producidos por errores de medición.",  
         "avatar": "images/Ruchika.jpeg",
+        "caricature": "images/ruchika_caricatura.png",
         "articles_url": "autor/ruchika",       
     },
       "David Barba González": {
