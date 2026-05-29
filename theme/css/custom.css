@@ -4438,23 +4438,27 @@ a.nn-squad-hero__metric {
   }
 }
 
+
 /* =========================
    ABOUT PLUMES CAROUSEL
 ========================= */
+
 .nn-about-mobile-plumes {
   display: block;
   clear: both;
-  max-width: 460px;
-  margin: 22px auto 30px;
+  width: 100%;
+  max-width: 100%;
+  margin: 18px auto 10px;
   padding: 0;
   border: 0;
   border-radius: 0;
   background: transparent;
   box-shadow: none;
+  overflow: visible;
 }
 
 .nn-about-mobile-plumes__title {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   color: var(--satinsheengold);
   font-size: 0.78rem;
   font-weight: 850;
@@ -4464,23 +4468,20 @@ a.nn-squad-hero__metric {
   text-transform: uppercase;
 }
 
-/* Caja del carrusel */
-
 .nn-mini-author-carousel {
   display: grid;
   grid-template-columns: 34px minmax(0, 1fr) 34px;
   align-items: center;
   gap: 8px;
   min-height: 170px;
+  overflow: visible;
 }
 
 .nn-mini-author-carousel__items {
   position: relative;
   min-height: 170px;
-  overflow: hidden;
+  overflow: visible;
 }
-
-/* Tarjeta base */
 
 .nn-mini-author-carousel__item {
   position: absolute;
@@ -4489,7 +4490,7 @@ a.nn-squad-hero__metric {
   display: grid;
   justify-items: center;
   gap: 8px;
-  width: 128px;
+  width: 148px;
   padding: 11px 9px 12px;
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -4509,42 +4510,11 @@ a.nn-squad-hero__metric {
     box-shadow 0.24s ease;
 }
 
-/* Autor principal */
-
-.nn-mini-author-carousel__item.is-active {
-  z-index: 3;
-  width: 148px;
-  opacity: 1;
-  pointer-events: auto;
-  transform: translate(-50%, -50%) scale(1);
-  box-shadow: 0 14px 30px rgba(20, 10, 10, 0.12);
-}
-
-/* Autor lateral izquierdo */
-
-.nn-mini-author-carousel__item.is-prev {
-  z-index: 2;
-  opacity: 0.32;
-  pointer-events: auto;
-  transform: translate(calc(-50% - 98px), -50%) scale(0.55);
-}
-
-/* Autor lateral derecho */
-
-.nn-mini-author-carousel__item.is-next {
-  z-index: 2;
-  opacity: 0.32;
-  pointer-events: auto;
-  transform: translate(calc(-50% + 98px), -50%) scale(0.55);
-}
-
 .nn-mini-author-carousel__item:hover {
   border-color: rgba(196, 154, 102, 0.55);
   background: var(--satinsheengold);
   color: var(--richcarmine);
 }
-
-/* Imagen como pieza central */
 
 .nn-mini-author-carousel__image {
   display: block;
@@ -4562,8 +4532,6 @@ a.nn-squad-hero__metric {
   height: 104px;
 }
 
-/* Nombre */
-
 .nn-mini-author-carousel__name {
   display: block;
   max-width: 100%;
@@ -4573,18 +4541,14 @@ a.nn-squad-hero__metric {
   line-height: 1.08;
 }
 
-/* No usamos rol ni enlace de equipo */
-
 .nn-mini-author-carousel__role,
 .nn-mini-author-carousel__team-link {
   display: none;
 }
 
-/* Flechas */
-
 .nn-mini-author-carousel__control {
   position: relative;
-  z-index: 5;
+  z-index: 10;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -4608,40 +4572,141 @@ a.nn-squad-hero__metric {
   transform: translateY(-1px);
 }
 
-/* Tablet y móvil */
+/* Desktop: [60%] [70%] [80%] [100%] [80%] [70%] [60%] */
+
+@media (min-width: 981px) {
+  .nn-about-mobile-plumes {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel {
+    min-height: 170px;
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__items {
+    min-height: 170px;
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-active {
+    left: 50%;
+    z-index: 7;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 14px 30px rgba(20, 10, 10, 0.12);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
+    left: 34%;
+    z-index: 6;
+    opacity: 0.78;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(0.80);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
+    left: 66%;
+    z-index: 6;
+    opacity: 0.78;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(0.80);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-2 {
+    left: 20%;
+    z-index: 5;
+    opacity: 0.48;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(0.70);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-2 {
+    left: 80%;
+    z-index: 5;
+    opacity: 0.48;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(0.70);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-3 {
+    left: 7%;
+    z-index: 4;
+    opacity: 0.26;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(0.60);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-3 {
+    left: 93%;
+    z-index: 4;
+    opacity: 0.26;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(0.60);
+  }
+}
+
+/* Tablet: solo 3 visibles */
 
 @media (max-width: 980px) {
   .nn-about-mobile-plumes {
     max-width: 430px;
-    margin: 24px auto 30px;
+    margin: 20px auto 12px;
+    overflow: visible;
   }
 
   .nn-mini-author-carousel {
     min-height: 160px;
+    overflow: visible;
   }
 
   .nn-mini-author-carousel__items {
     min-height: 160px;
+    overflow: visible;
+  }
+
+  .nn-mini-author-carousel__item.is-prev-2,
+  .nn-mini-author-carousel__item.is-next-2,
+  .nn-mini-author-carousel__item.is-prev-3,
+  .nn-mini-author-carousel__item.is-next-3 {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .nn-mini-author-carousel__item.is-active {
+    z-index: 7;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
   }
 
   .nn-mini-author-carousel__item.is-prev {
+    z-index: 6;
+    opacity: 0.42;
+    pointer-events: auto;
     transform: translate(calc(-50% - 94px), -50%) scale(0.55);
   }
 
   .nn-mini-author-carousel__item.is-next {
+    z-index: 6;
+    opacity: 0.42;
+    pointer-events: auto;
     transform: translate(calc(-50% + 94px), -50%) scale(0.55);
   }
 }
 
+/* Móvil: solo 3 visibles, sin recorte */
+
 @media (max-width: 640px) {
-.nn-about-mobile-plumes {
-  max-width: none;
-  margin: 22px 0 28px;
-  padding: 0;
-}
+  .nn-about-mobile-plumes {
+    max-width: none;
+    margin: 18px 0 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
 
   .nn-mini-author-carousel {
-    grid-template-columns: 30px minmax(0, 1fr) 30px;
+    grid-template-columns: 26px minmax(0, 1fr) 26px;
     min-height: 150px;
   }
 
@@ -4673,11 +4738,11 @@ a.nn-squad-hero__metric {
   }
 
   .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 86px), -50%) scale(0.54);
+    transform: translate(calc(-50% - 72px), -50%) scale(0.5);
   }
 
   .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 86px), -50%) scale(0.54);
+    transform: translate(calc(-50% + 72px), -50%) scale(0.5);
   }
 
   .nn-mini-author-carousel__control {
@@ -4686,144 +4751,15 @@ a.nn-squad-hero__metric {
     font-size: 1.35rem;
   }
 }
-/* FIX móvil: que no se corten las caricaturas laterales del carrusel */
-
-.nn-about-mobile-plumes {
-  overflow: visible;
-}
-
-.nn-about-mobile-plumes .nn-mini-author-carousel {
-  overflow: visible;
-}
-
-.nn-about-mobile-plumes .nn-mini-author-carousel__items {
-  overflow: visible;
-}
-
-@media (max-width: 640px) {
-  .nn-about-mobile-plumes {
-    padding-left: 4px;
-    padding-right: 4px;
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel {
-    grid-template-columns: 26px minmax(0, 1fr) 26px;
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 72px), -50%) scale(0.5);
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 72px), -50%) scale(0.5);
-  }
-}
-/* =========================
-   PLUMES CAROUSEL: 7 WEB / 3 MOBILE
-========================= */
-
-/* Más ancho en web para que entren 7 posiciones */
-
-.nn-about-mobile-plumes {
-  max-width: 760px;
-}
-
-/* Tercera caricatura a la izquierda */
-
-.nn-mini-author-carousel__item.is-prev-3 {
-  z-index: 0;
-  opacity: 0.10;
-  pointer-events: auto;
-  transform: translate(calc(-50% - 270px), -50%) scale(0.34);
-}
-
-/* Tercera caricatura a la derecha */
-
-.nn-mini-author-carousel__item.is-next-3 {
-  z-index: 0;
-  opacity: 0.10;
-  pointer-events: auto;
-  transform: translate(calc(-50% + 270px), -50%) scale(0.34);
-}
-
-/* Reajuste suave de las otras posiciones para dejar sitio */
-
-.nn-mini-author-carousel__item.is-prev-2 {
-  transform: translate(calc(-50% - 190px), -50%) scale(0.42);
-}
-
-.nn-mini-author-carousel__item.is-next-2 {
-  transform: translate(calc(-50% + 190px), -50%) scale(0.42);
-}
-
-.nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
-  transform: translate(calc(-50% - 108px), -50%) scale(0.58);
-}
-
-.nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
-  transform: translate(calc(-50% + 108px), -50%) scale(0.58);
-}
-
-/* En tablet y móvil se ocultan las posiciones extra: quedan 3 visibles */
-
-@media (max-width: 980px) {
-  .nn-about-mobile-plumes {
-    max-width: 430px;
-  }
-
-  .nn-mini-author-carousel__item.is-prev-2,
-  .nn-mini-author-carousel__item.is-next-2,
-  .nn-mini-author-carousel__item.is-prev-3,
-  .nn-mini-author-carousel__item.is-next-3 {
-    opacity: 0;
-    pointer-events: none;
-  }
-}
-
-/* Ajuste vertical del carrusel de plumas dentro de Acerca del Proyecto */
-
-.nn-about-mobile-plumes {
-  margin-top: 18px;
-  margin-bottom: 10px;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.nn-about-mobile-plumes__title {
-  margin-bottom: 6px;
-}
-
-.nn-about-mobile-plumes .nn-mini-author-carousel {
-  min-height: 170px;
-}
-
-.nn-about-mobile-plumes .nn-mini-author-carousel__items {
-  min-height: 170px;
-}
 
 .nn-about-mobile-plumes + h2,
 .nn-about-mobile-plumes + h3 {
-  margin-top: 24px;
+  margin-top: 18px;
 }
-/* Móvil: solo 3 visibles */
 
-@media (max-width: 640px) {
-  .nn-mini-author-carousel__item.is-prev-2,
-  .nn-mini-author-carousel__item.is-next-2,
-  .nn-mini-author-carousel__item.is-prev-3,
-  .nn-mini-author-carousel__item.is-next-3 {
-    opacity: 0;
-    pointer-events: none;
-  }
 
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 72px), -50%) scale(0.5);
-  }
 
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 72px), -50%) scale(0.5);
-  }
-}
+
 /* =========================
    TWO IMAGES: centered images + aligned captions
 ========================= */
