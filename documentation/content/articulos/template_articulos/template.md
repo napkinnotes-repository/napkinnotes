@@ -50,7 +50,7 @@ c<sub>p</sub>
 <!-- Negrita y cursiva -->
 Negrita y cursiva: **una paradoja**. *una paradoja*.
 
-<!-- Lista -->
+<!-- Lista (el espacio entre : y los - es necesario, también con la siguiente linea y el ultimo - tenedlo en cuenta-->
 Presentan:
 
 - nanani nanana nanano.  
