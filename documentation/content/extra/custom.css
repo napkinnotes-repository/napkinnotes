@@ -4783,34 +4783,46 @@ a.nn-squad-hero__metric {
 
 @media (min-width: 981px) {
   .nn-about-mobile-plumes {
-    max-width: 680px;
+    max-width: 780px;
   }
 
-  /* Laterales inmediatas: un poco más separadas de la principal */
+  /* Laterales inmediatas: grandes, cerca pero sin tapar, poco difuminadas */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 310px), -50%) scale(0.56);
+    z-index: 3;
+    opacity: 0.72;
+    transform: translate(calc(-50% - 165px), -50%) scale(0.68);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 310px), -50%) scale(0.56);
+    z-index: 3;
+    opacity: 0.72;
+    transform: translate(calc(-50% + 165px), -50%) scale(0.68);
   }
 
-  /* Segundas laterales */
+  /* Segundas laterales: tamaño parecido al anterior de las contiguas */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-2 {
-    transform: translate(calc(-50% - 190px), -50%) scale(0.43);
+    z-index: 2;
+    opacity: 0.38;
+    transform: translate(calc(-50% - 245px), -50%) scale(0.56);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-2 {
-    transform: translate(calc(-50% + 190px), -50%) scale(0.43);
+    z-index: 2;
+    opacity: 0.38;
+    transform: translate(calc(-50% + 245px), -50%) scale(0.56);
   }
 
-  /* Extremas */
+  /* Extremas: muy difuminadas, pero visibles */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-3 {
-    transform: translate(calc(-50% - 242px), -50%) scale(0.34);
+    z-index: 1;
+    opacity: 0.18;
+    transform: translate(calc(-50% - 310px), -50%) scale(0.48);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-3 {
-    transform: translate(calc(-50% + 242px), -50%) scale(0.34);
+    z-index: 1;
+    opacity: 0.18;
+    transform: translate(calc(-50% + 310px), -50%) scale(0.48);
   }
 }
 
