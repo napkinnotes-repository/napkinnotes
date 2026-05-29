@@ -22,6 +22,7 @@ image: images/mandelbrot_set.png # imagen principal del artículo
 <!-- Texto normal -->
 
 La intuición funciona bastante bien. Podemos imaginar la dimensión de un objeto como el número de direcciones independientes en las que podríamos movernos sobre él:
+
 - En un punto, no hay movimiento posible, estamos "atrapados" y obligados a quedarnos sobre él. Por tanto, se dice que el punto tiene dimensión 0. 
 - Si dibujamos una línea recta, sólo podemos movernos a lo largo de ella, hacia delante o hacia atrás, pero siempre en la propia línea, no hay más direcciones disponibles. Entonces, se dice que la línea tiene dimensión 1.
 - En una hoja de papel, podríamos movernos a lo largo de dos direcciones (el largo y el ancho), y por tanto, su dimensión es 2.
