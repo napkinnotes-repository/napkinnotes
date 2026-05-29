@@ -4447,7 +4447,7 @@ a.nn-squad-hero__metric {
   display: block;
   clear: both;
   width: 100%;
-  max-width: 100%;
+  max-width: 620px;
   margin: 18px auto 10px;
   padding: 0;
   border: 0;
@@ -4469,19 +4469,20 @@ a.nn-squad-hero__metric {
 }
 
 .nn-mini-author-carousel {
-  display: grid;
-  grid-template-columns: 34px minmax(0, 1fr) 34px;
-  align-items: center;
-  gap: 8px;
+  position: relative;
+  display: block;
   min-height: 170px;
   overflow: visible;
 }
 
 .nn-mini-author-carousel__items {
   position: relative;
+  width: 100%;
   min-height: 170px;
   overflow: visible;
 }
+
+/* Tarjeta base */
 
 .nn-mini-author-carousel__item {
   position: absolute;
@@ -4490,7 +4491,7 @@ a.nn-squad-hero__metric {
   display: grid;
   justify-items: center;
   gap: 8px;
-  width: 148px;
+  width: 118px;
   padding: 11px 9px 12px;
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -4505,6 +4506,7 @@ a.nn-squad-hero__metric {
   transition:
     opacity 0.24s ease,
     transform 0.24s ease,
+    left 0.24s ease,
     border-color 0.24s ease,
     background 0.24s ease,
     box-shadow 0.24s ease;
@@ -4546,9 +4548,12 @@ a.nn-squad-hero__metric {
   display: none;
 }
 
+/* Flechas */
+
 .nn-mini-author-carousel__control {
-  position: relative;
-  z-index: 10;
+  position: absolute;
+  top: 50%;
+  z-index: 30;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -4564,37 +4569,31 @@ a.nn-squad-hero__metric {
   line-height: 1;
   cursor: pointer;
   box-shadow: 0 6px 14px rgba(20, 10, 10, 0.05);
+  transform: translateY(-50%);
 }
 
 .nn-mini-author-carousel__control:hover {
   background: var(--satinsheengold);
   color: var(--richcarmine);
-  transform: translateY(-1px);
+  transform: translateY(-50%);
 }
 
 /* Desktop: [60%] [70%] [80%] [100%] [80%] [70%] [60%] */
 
 @media (min-width: 981px) {
   .nn-about-mobile-plumes {
-    width: 100%;
-    max-width: 560px;
+    max-width: 620px;
   }
 
-  .nn-about-mobile-plumes .nn-mini-author-carousel {
-    min-height: 170px;
-  }
-
+  .nn-about-mobile-plumes .nn-mini-author-carousel,
   .nn-about-mobile-plumes .nn-mini-author-carousel__items {
     min-height: 170px;
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item {
-    width: 118px;
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-active {
     left: 50%;
     z-index: 7;
+    width: 132px;
     opacity: 1;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
@@ -4602,7 +4601,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
-    left: 43%;
+    left: 39%;
     z-index: 6;
     opacity: 0.78;
     pointer-events: auto;
@@ -4610,7 +4609,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
-    left: 57%;
+    left: 61%;
     z-index: 6;
     opacity: 0.78;
     pointer-events: auto;
@@ -4618,7 +4617,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-2 {
-    left: 36%;
+    left: 29%;
     z-index: 5;
     opacity: 0.48;
     pointer-events: auto;
@@ -4626,7 +4625,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-2 {
-    left: 64%;
+    left: 71%;
     z-index: 5;
     opacity: 0.48;
     pointer-events: auto;
@@ -4634,7 +4633,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-3 {
-    left: 30%;
+    left: 20%;
     z-index: 4;
     opacity: 0.26;
     pointer-events: auto;
@@ -4642,30 +4641,33 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-3 {
-    left: 70%;
+    left: 80%;
     z-index: 4;
     opacity: 0.26;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(0.60);
   }
+
+  .nn-about-mobile-plumes .nn-author-carousel__control--prev {
+    left: 7%;
+  }
+
+  .nn-about-mobile-plumes .nn-author-carousel__control--next {
+    right: 7%;
+  }
 }
+
 /* Tablet: solo 3 visibles */
 
 @media (max-width: 980px) {
   .nn-about-mobile-plumes {
     max-width: 430px;
     margin: 20px auto 12px;
-    overflow: visible;
   }
 
-  .nn-mini-author-carousel {
-    min-height: 160px;
-    overflow: visible;
-  }
-
+  .nn-mini-author-carousel,
   .nn-mini-author-carousel__items {
     min-height: 160px;
-    overflow: visible;
   }
 
   .nn-mini-author-carousel__item.is-prev-2,
@@ -4677,24 +4679,36 @@ a.nn-squad-hero__metric {
   }
 
   .nn-mini-author-carousel__item.is-active {
+    left: 50%;
     z-index: 7;
+    width: 132px;
     opacity: 1;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
   }
 
   .nn-mini-author-carousel__item.is-prev {
+    left: 31%;
     z-index: 6;
     opacity: 0.42;
     pointer-events: auto;
-    transform: translate(calc(-50% - 94px), -50%) scale(0.55);
+    transform: translate(-50%, -50%) scale(0.55);
   }
 
   .nn-mini-author-carousel__item.is-next {
+    left: 69%;
     z-index: 6;
     opacity: 0.42;
     pointer-events: auto;
-    transform: translate(calc(-50% + 94px), -50%) scale(0.55);
+    transform: translate(-50%, -50%) scale(0.55);
+  }
+
+  .nn-author-carousel__control--prev {
+    left: 0;
+  }
+
+  .nn-author-carousel__control--next {
+    right: 0;
   }
 }
 
@@ -4708,11 +4722,7 @@ a.nn-squad-hero__metric {
     padding-right: 4px;
   }
 
-  .nn-mini-author-carousel {
-    grid-template-columns: 26px minmax(0, 1fr) 26px;
-    min-height: 150px;
-  }
-
+  .nn-mini-author-carousel,
   .nn-mini-author-carousel__items {
     min-height: 150px;
   }
@@ -4741,11 +4751,13 @@ a.nn-squad-hero__metric {
   }
 
   .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 72px), -50%) scale(0.5);
+    left: 28%;
+    transform: translate(-50%, -50%) scale(0.50);
   }
 
   .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 72px), -50%) scale(0.5);
+    left: 72%;
+    transform: translate(-50%, -50%) scale(0.50);
   }
 
   .nn-mini-author-carousel__control {
@@ -4753,14 +4765,20 @@ a.nn-squad-hero__metric {
     height: 28px;
     font-size: 1.35rem;
   }
+
+  .nn-author-carousel__control--prev {
+    left: 0;
+  }
+
+  .nn-author-carousel__control--next {
+    right: 0;
+  }
 }
 
 .nn-about-mobile-plumes + h2,
 .nn-about-mobile-plumes + h3 {
   margin-top: 18px;
 }
-
-
 
 
 /* =========================
@@ -4807,36 +4825,4 @@ a.nn-squad-hero__metric {
 }
 
 
-/* Flechas colocadas junto a las tarjetas extremas del 60% */
 
-@media (min-width: 981px) {
-  .nn-about-mobile-plumes .nn-mini-author-carousel {
-    position: relative !important;
-    display: block !important;
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__items {
-    width: 100% !important;
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__control {
-    position: absolute !important;
-    top: 50% !important;
-    z-index: 30 !important;
-    transform: translateY(-50%) !important;
-  }
-
-  .nn-about-mobile-plumes .nn-author-carousel__control--prev {
-    left: calc(30% - 56px) !important;
-    right: auto !important;
-  }
-
-  .nn-about-mobile-plumes .nn-author-carousel__control--next {
-    left: calc(70% + 56px) !important;
-    right: auto !important;
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__control:hover {
-    transform: translateY(-50%) !important;
-  }
-}
