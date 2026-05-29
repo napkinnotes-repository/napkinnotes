@@ -4780,7 +4780,7 @@ a.nn-squad-hero__metric {
   }
 }
 
-/* Ajuste desktop: carrusel ancho con espacio entre tarjetas */
+/* Ajuste desktop: carrusel ancho, sin cambiar el alto */
 
 @media (min-width: 981px) {
   .nn-about-mobile-plumes {
@@ -4790,12 +4790,12 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel {
-    min-height: 280px;
+    min-height: 190px;
     overflow: visible;
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__items {
-    min-height: 280px;
+    min-height: 190px;
     overflow: visible;
   }
 
@@ -4803,54 +4803,52 @@ a.nn-squad-hero__metric {
     width: 138px;
   }
 
-  /* Principal */
+  /* Principal: tamaño original */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-active {
     z-index: 7;
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
 
-  /* Laterales inmediatas: caja de 138px x 0.82 = 113px.
-     Separación centro-centro: 250px => sobra bastante espacio. */
+  /* Contiguas: 80% de la central, separadas */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
     z-index: 6;
-    opacity: 0.82;
-    transform: translate(calc(-50% - 250px), -50%) scale(0.82);
+    opacity: 0.78;
+    transform: translate(calc(-50% - 210px), -50%) scale(0.80);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
     z-index: 6;
-    opacity: 0.82;
-    transform: translate(calc(-50% + 250px), -50%) scale(0.82);
+    opacity: 0.78;
+    transform: translate(calc(-50% + 210px), -50%) scale(0.80);
   }
 
-  /* Segundas laterales */
+  /* Siguientes: 70% de la central, más separadas */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-2 {
     z-index: 5;
-    opacity: 0.56;
-    transform: translate(calc(-50% - 460px), -50%) scale(0.66);
+    opacity: 0.48;
+    transform: translate(calc(-50% - 395px), -50%) scale(0.70);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-2 {
     z-index: 5;
-    opacity: 0.56;
-    transform: translate(calc(-50% + 460px), -50%) scale(0.66);
+    opacity: 0.48;
+    transform: translate(calc(-50% + 395px), -50%) scale(0.70);
   }
 
-  /* Extremas */
+  /* Extremas: 60% de la central */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-3 {
     z-index: 4;
-    opacity: 0.34;
-    transform: translate(calc(-50% - 640px), -50%) scale(0.54);
+    opacity: 0.26;
+    transform: translate(calc(-50% - 555px), -50%) scale(0.60);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-3 {
     z-index: 4;
-    opacity: 0.34;
-    transform: translate(calc(-50% + 640px), -50%) scale(0.54);
+    opacity: 0.26;
+    transform: translate(calc(-50% + 555px), -50%) scale(0.60);
   }
 }
-
 
 /* Móvil: solo 3 visibles */
 
