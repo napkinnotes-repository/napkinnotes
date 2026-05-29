@@ -153,7 +153,7 @@ Si observamos atentamente, vemos que el mundo real es profundamente fractal. La 
 <figure class="nn-article-figure">
   <div class="nn-two-images">
     <figure>
-      <img src="images/trees.png" alt="Ramas de un árbol con estructura fractal">
+      <img src="images/trees.jpg" alt="Ramas de un árbol con estructura fractal">
       <figcaption>
         Ramas de los árboles. Fuente:
         <a href="https://commons.wikimedia.org/wiki/File:Fractals_of_Nature.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.
@@ -161,7 +161,7 @@ Si observamos atentamente, vemos que el mundo real es profundamente fractal. La 
     </figure>
 
     <figure>
-      <img src="images/brocoli.png" alt="Brócoli romanesco con patrón fractal">
+      <img src="images/brocoli.jpg" alt="Brócoli romanesco con patrón fractal">
       <figcaption>
         Brócoli romanesco. Imagen: Kent Wang,
         <a href="https://commons.wikimedia.org/wiki/File:Romanesco_broccoli.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
@@ -172,7 +172,7 @@ Si observamos atentamente, vemos que el mundo real es profundamente fractal. La 
 
   <div class="nn-two-images">
     <figure>
-      <img src="images/aloe.png" alt="Aloe espiral visto desde arriba">
+      <img src="images/aloe.jpg" alt="Aloe espiral visto desde arriba">
       <figcaption>
         Planta de aloe vera. Imagen: Sam,
         <a href="https://commons.wikimedia.org/wiki/File:Spiral_Aloe_from_above.JPG" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
@@ -181,7 +181,7 @@ Si observamos atentamente, vemos que el mundo real es profundamente fractal. La 
     </figure>
 
     <figure>
-      <img src="images/cosmicweb.png" alt="Visualización de la red cósmica">
+      <img src="images/cosmicweb.jpg" alt="Visualización de la red cósmica">
       <figcaption>
         Red cósmica. Imagen: Volker Springel / Max Planck Institute for Astrophysics,
         <a href="https://commons.wikimedia.org/wiki/File:Cosmic_web.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
