@@ -698,40 +698,55 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let activeIndex = Math.floor(Math.random() * items.length);
 
-        function renderCarousel() {
-            items.forEach(function (item) {
-                item.classList.remove("is-active", "is-prev", "is-next", "is-prev-2", "is-next-2");
-            });
+function renderCarousel() {
+    items.forEach(function (item) {
+        item.classList.remove(
+            "is-active",
+            "is-prev",
+            "is-next",
+            "is-prev-2",
+            "is-next-2",
+            "is-prev-3",
+            "is-next-3"
+        );
+    });
 
-            const total = items.length;
+    const total = items.length;
 
-            if (total === 1) {
-                items[0].classList.add("is-active");
-                return;
-            }
+    if (total === 1) {
+        items[0].classList.add("is-active");
+        return;
+    }
 
-            const prevIndex = (activeIndex - 1 + total) % total;
-            const nextIndex = (activeIndex + 1) % total;
+    const prevIndex = (activeIndex - 1 + total) % total;
+    const nextIndex = (activeIndex + 1) % total;
 
-            items[activeIndex].classList.add("is-active");
+    items[activeIndex].classList.add("is-active");
 
-            if (total === 2) {
-                items[nextIndex].classList.add("is-next");
-                return;
-            }
+    if (total === 2) {
+        items[nextIndex].classList.add("is-next");
+        return;
+    }
 
-            items[prevIndex].classList.add("is-prev");
-            items[nextIndex].classList.add("is-next");
+    items[prevIndex].classList.add("is-prev");
+    items[nextIndex].classList.add("is-next");
 
-            if (total >= 5) {
-                const prev2Index = (activeIndex - 2 + total) % total;
-                const next2Index = (activeIndex + 2) % total;
+    if (total >= 5) {
+        const prev2Index = (activeIndex - 2 + total) % total;
+        const next2Index = (activeIndex + 2) % total;
 
-                items[prev2Index].classList.add("is-prev-2");
-                items[next2Index].classList.add("is-next-2");
-            }
-        }
+        items[prev2Index].classList.add("is-prev-2");
+        items[next2Index].classList.add("is-next-2");
+    }
 
+    if (total >= 7) {
+        const prev3Index = (activeIndex - 3 + total) % total;
+        const next3Index = (activeIndex + 3) % total;
+
+        items[prev3Index].classList.add("is-prev-3");
+        items[next3Index].classList.add("is-next-3");
+    }
+}
         function goPrev() {
             activeIndex = (activeIndex - 1 + items.length) % items.length;
             renderCarousel();
