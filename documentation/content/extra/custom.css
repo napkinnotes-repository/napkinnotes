@@ -4781,51 +4781,52 @@ a.nn-squad-hero__metric {
 }
 /* Ajuste desktop: carrusel de caricaturas equilibrado */
 
+/* Ajuste desktop: carrusel de caricaturas equilibrado y más ancho */
+
 @media (min-width: 981px) {
   .nn-about-mobile-plumes {
-    max-width: 780px;
+    max-width: 920px;
   }
 
-  /* Laterales inmediatas: grandes, cerca pero sin tapar, poco difuminadas */
+  /* Laterales inmediatas: más grandes, poco difuminadas */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
     z-index: 3;
     opacity: 0.72;
-    transform: translate(calc(-50% - 165px), -50%) scale(0.68);
+    transform: translate(calc(-50% - 205px), -50%) scale(0.85);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
     z-index: 3;
     opacity: 0.72;
-    transform: translate(calc(-50% + 165px), -50%) scale(0.68);
+    transform: translate(calc(-50% + 205px), -50%) scale(0.85);
   }
 
-  /* Segundas laterales: tamaño parecido al anterior de las contiguas */
+  /* Segundas laterales */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-2 {
     z-index: 2;
     opacity: 0.38;
-    transform: translate(calc(-50% - 245px), -50%) scale(0.56);
+    transform: translate(calc(-50% - 330px), -50%) scale(0.70);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-2 {
     z-index: 2;
     opacity: 0.38;
-    transform: translate(calc(-50% + 245px), -50%) scale(0.56);
+    transform: translate(calc(-50% + 330px), -50%) scale(0.70);
   }
 
-  /* Extremas: muy difuminadas, pero visibles */
+  /* Extremas */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-3 {
     z-index: 1;
     opacity: 0.18;
-    transform: translate(calc(-50% - 310px), -50%) scale(0.48);
+    transform: translate(calc(-50% - 430px), -50%) scale(0.60);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-3 {
     z-index: 1;
     opacity: 0.18;
-    transform: translate(calc(-50% + 310px), -50%) scale(0.48);
+    transform: translate(calc(-50% + 430px), -50%) scale(0.60);
   }
 }
-
 /* Móvil: solo 3 visibles */
 
 @media (max-width: 640px) {
