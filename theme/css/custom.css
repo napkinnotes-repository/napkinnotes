@@ -4797,3 +4797,45 @@ a.nn-squad-hero__metric {
     transform: translate(calc(-50% + 72px), -50%) scale(0.5);
   }
 }
+/* =========================
+   TWO IMAGES: centered images + aligned captions
+========================= */
+
+.nn-two-images--aligned {
+  align-items: stretch;
+}
+
+.nn-two-images--aligned figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 100%;
+}
+
+.nn-two-images--aligned img {
+  display: block;
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+}
+
+.nn-two-images--aligned figcaption {
+  margin-top: 10px;
+  min-height: 2.8em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .nn-two-images--aligned img {
+    height: auto;
+    max-height: 260px;
+  }
+
+  .nn-two-images--aligned figcaption {
+    min-height: 0;
+  }
+}
