@@ -4805,64 +4805,38 @@ a.nn-squad-hero__metric {
     min-height: 0;
   }
 }
-/* Ajuste desktop: separar las caricaturas laterales inmediatas */
 
-@media (min-width: 981px) {
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 118px), -50%) scale(0.56);
-  }
 
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 118px), -50%) scale(0.56);
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-2 {
-    transform: translate(calc(-50% - 178px), -50%) scale(0.43);
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-2 {
-    transform: translate(calc(-50% + 178px), -50%) scale(0.43);
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-3 {
-    transform: translate(calc(-50% - 230px), -50%) scale(0.34);
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-3 {
-    transform: translate(calc(-50% + 230px), -50%) scale(0.34);
-  }
-}
-/* Flechas del carrusel en los extremos del bloque */
-
-.nn-about-mobile-plumes .nn-mini-author-carousel {
-  position: relative;
-}
+/* Flechas colocadas junto a las tarjetas extremas del 60% */
 
 @media (min-width: 981px) {
   .nn-about-mobile-plumes .nn-mini-author-carousel {
-    display: block;
+    position: relative !important;
+    display: block !important;
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__items {
-    width: 100%;
+    width: 100% !important;
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__control {
-    position: absolute;
-    top: 50%;
-    z-index: 20;
-    transform: translateY(-50%);
+    position: absolute !important;
+    top: 50% !important;
+    z-index: 30 !important;
+    transform: translateY(-50%) !important;
   }
 
   .nn-about-mobile-plumes .nn-author-carousel__control--prev {
-    left: 0;
+    left: calc(30% - 56px) !important;
+    right: auto !important;
   }
 
   .nn-about-mobile-plumes .nn-author-carousel__control--next {
-    right: 0;
+    left: calc(70% + 56px) !important;
+    right: auto !important;
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__control:hover {
-    transform: translateY(-50%);
+    transform: translateY(-50%) !important;
   }
 }
