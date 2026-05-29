@@ -4788,11 +4788,11 @@ a.nn-squad-hero__metric {
 
   /* Laterales inmediatas: un poco más separadas de la principal */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 150px), -50%) scale(0.56);
+    transform: translate(calc(-50% - 170px), -50%) scale(0.56);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 150px), -50%) scale(0.56);
+    transform: translate(calc(-50% + 170px), -50%) scale(0.56);
   }
 
   /* Segundas laterales */
