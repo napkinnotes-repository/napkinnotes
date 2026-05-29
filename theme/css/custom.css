@@ -4714,19 +4714,19 @@ a.nn-squad-hero__metric {
   }
 }
 
-/* Móvil: solo 3 visibles, sin recorte */
+/* Móvil: 3 visibles, contiguas más presentes */
 
 @media (max-width: 640px) {
   .nn-about-mobile-plumes {
     max-width: none;
-    margin: 18px 0 10px;
-    padding-left: 4px;
-    padding-right: 4px;
+    margin: 18px -6px 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .nn-mini-author-carousel,
   .nn-mini-author-carousel__items {
-    min-height: 150px;
+    min-height: 159px;
   }
 
   .nn-mini-author-carousel__item {
@@ -4753,13 +4753,15 @@ a.nn-squad-hero__metric {
   }
 
   .nn-mini-author-carousel__item.is-prev {
-    left: 28%;
-    transform: translate(-50%, -50%) scale(0.50);
+    left: 23%;
+    opacity: 0.58;
+    transform: translate(-50%, -50%) scale(0.60);
   }
 
   .nn-mini-author-carousel__item.is-next {
-    left: 72%;
-    transform: translate(-50%, -50%) scale(0.50);
+    left: 77%;
+    opacity: 0.58;
+    transform: translate(-50%, -50%) scale(0.60);
   }
 
   .nn-mini-author-carousel__control {
@@ -4769,17 +4771,12 @@ a.nn-squad-hero__metric {
   }
 
   .nn-author-carousel__control--prev {
-    left: 0;
+    left: 2px;
   }
 
   .nn-author-carousel__control--next {
-    right: 0;
+    right: 2px;
   }
-}
-
-.nn-about-mobile-plumes + h2,
-.nn-about-mobile-plumes + h3 {
-  margin-top: 10px;
 }
 
 /* =========================
