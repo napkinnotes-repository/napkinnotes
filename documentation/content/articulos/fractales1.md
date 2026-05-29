@@ -1,15 +1,15 @@
 ---
-title: La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales? # vuestro título
+title: "La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales?" # vuestro título
 author: Paz Albares Vicente # mismo nombre que en la tarjeta de autor
-date: 2026-05-28 # formato YYYY-MM-DD
+date: 2026-05-29 # formato YYYY-MM-DD
 layout: articles
-slug: prueba-articulo
+slug: fractales-dimensiones-decimales
 status: hidden # published si ya está listo
 category: Matemáticas # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
   - matemáticas
   - fractales
-summary: Una línea tiene dimensión 1. Un cuadrado, dimensión 2. Y un cubo, dimensión 3. Todo parece bastante claro y sencillo. Pero, ¿y si te dijera que existen objetos demasiado rugosos para ser líneas y demasiado vacíos para rellenar un plano? ¿Cuál sería ahora su dimensión? ¿Seguro que las dimensiones son siempre números enteros? ¡Bienvenido al extraño mundo de los fractales! # 1-2 frases cortas para la tarjeta del artículo
+summary: Una línea tiene dimensión 1. Un cuadrado, dimensión 2. Y un cubo, dimensión 3. Todo parece bastante claro y sencillo. Pero, ¿y si te dijera que existen objetos demasiado rugosos para ser líneas y demasiado vacíos para rellenar un plano? ¿Cuál sería ahora su dimensión? ¿Seguro que las dimensiones son siempre números enteros? ¡Bienvenido al extraño mundo de los fractales! # 1-2 frases cortas para la tarjeta del artículo.
 image: images/mandelbrot_set.png # imagen principal del artículo
 ---
 
