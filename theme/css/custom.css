@@ -4779,7 +4779,37 @@ a.nn-squad-hero__metric {
     pointer-events: none;
   }
 }
+/* Ajuste desktop: caricaturas extremas más cerca de la central */
 
+@media (min-width: 981px) {
+  .nn-about-mobile-plumes {
+    max-width: 680px;
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
+    transform: translate(calc(-50% - 95px), -50%) scale(0.60);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
+    transform: translate(calc(-50% + 95px), -50%) scale(0.60);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-2 {
+    transform: translate(calc(-50% - 165px), -50%) scale(0.45);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-2 {
+    transform: translate(calc(-50% + 165px), -50%) scale(0.45);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-3 {
+    transform: translate(calc(-50% - 225px), -50%) scale(0.35);
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-3 {
+    transform: translate(calc(-50% + 225px), -50%) scale(0.35);
+  }
+}
 @media (max-width: 640px) {
   .nn-mini-author-carousel__item.is-prev-2,
   .nn-mini-author-carousel__item.is-next-2,
