@@ -26,7 +26,7 @@
 <meta name="keywords" content="matemáticas, fractales, Matemáticas, " />
 
 <meta property="og:title" content="La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales? "/>
-<meta property="og:url" content="https://napkinnotes.es/rebelion-fractales-1-dimensiones-decimales" />
+<meta property="og:url" content="https://napkinnotes.es/fractales-dimensiones-decimales" />
 <meta property="og:description" content="Una línea tiene dimensión 1. Un cuadrado, dimensión 2. Y un cubo, dimensión 3. Todo parece bastante claro y sencillo. Pero, ¿y si te dijera que existen objetos demasiado rugosos para ser líneas y demasiado vacíos para rellenar un plano? ¿Cuál sería ahora su dimensión? ¿Seguro que las dimensiones son siempre números enteros? ¡Bienvenido al extraño mundo de los fractales!" />
 <meta property="og:site_name" content="Napkin Notes" />
 <meta property="og:article:author" content="Paz Albares Vicente" />
@@ -120,7 +120,7 @@
         <div class="nn-article-hero__heading">
             <div class="nn-article-hero__title-wrap">
                 <h1 class="nn-article-hero__title">
-                    <a href="https://napkinnotes.es/rebelion-fractales-1-dimensiones-decimales">La rebelión de los fractales I: ¿Y si las dimensiones tuvieran&nbsp;decimales?</a>
+                    <a href="https://napkinnotes.es/fractales-dimensiones-decimales">La rebelión de los fractales I: ¿Y si las dimensiones tuvieran&nbsp;decimales?</a>
                 </h1>
             </div>
 
@@ -148,18 +148,20 @@
 </ul>
 </div>
 <h2 id="la-dimension-es-una-idea-razonable">La dimensión es una idea razonable<a class="headerlink" href="#la-dimension-es-una-idea-razonable" title="Permanent link"> </a></h2>
-<p>La intuición funciona bastante bien. Podemos imaginar la dimensión de un objeto como el número de direcciones independientes en las que podríamos movernos sobre&nbsp;él:</p>
-<ul>
-<li>En un punto, no hay movimiento posible, estamos &#8220;atrapados&#8221; y obligados a quedarnos sobre él. Por tanto, se dice que el punto tiene dimensión&nbsp;0. </li>
-<li>Si dibujamos una línea recta, solo podemos movernos a lo largo de ella, hacia delante o hacia atrás, pero siempre en la propia línea, no hay más direcciones disponibles. Entonces, se dice que la línea tiene dimensión&nbsp;1.</li>
-<li>En una hoja de papel, podríamos movernos a lo largo de dos direcciones, el largo y el ancho, y por tanto su dimensión es&nbsp;2.</li>
-<li>En una habitación completa, no solo sobre sus paredes, podríamos movernos a lo largo de tres direcciones independientes: largo, ancho y alto. En ese caso, el espacio tiene dimensión&nbsp;3.</li>
-</ul>
+<!-- Texto normal -->
+
+<p>La intuición funciona bastante bien. Podemos imaginar la dimensión de un objeto como el número de direcciones independientes en las que podríamos movernos sobre él:
+- En un punto, no hay movimiento posible, estamos &#8220;atrapados&#8221; y obligados a quedarnos sobre él. Por tanto, se dice que el punto tiene dimensión 0. 
+- Si dibujamos una línea recta, sólo podemos movernos a lo largo de ella, hacia delante o hacia atrás, pero siempre en la propia línea, no hay más direcciones disponibles. Entonces, se dice que la línea tiene dimensión 1.
+- En una hoja de papel, podríamos movernos a lo largo de dos direcciones (el largo y el ancho), y por tanto, su dimensión es 2.
+- Si pudiéramos caminar por las paredes de nuestra casa, tendríamos tres opciones independientes de movimiento (largo, ancho y alto). En ese caso, su dimensión es&nbsp;3.</p>
 <p>Lo que describimos aquí es, en esencia, la motivación de la definición matemática de <strong>dimensión topológica</strong>. Esta forma de medir siempre nos va a devolver números enteros, y funciona a la perfección para las figuras de la geometría clásica. Pero no es la única forma que los matemáticos han encontrado para determinar la dimensión de un&nbsp;objeto. </p>
 <h2 id="el-arte-de-fotocopiar-y-cambiar-de-escala">El arte de fotocopiar y cambiar de escala<a class="headerlink" href="#el-arte-de-fotocopiar-y-cambiar-de-escala" title="Permanent link"> </a></h2>
-<p>Intuitivamente, un objeto de mayor dimensión tiende a ocupar el espacio de una forma más intensa que uno de dimensión menor. Para simplificar la discusión, vamos a considerar <strong>objetos autosimilares</strong>, que son aquellos formados por copias idénticas de sí mismos a escalas más pequeñas. En este contexto, resulta natural estudiar cómo cambia el objeto cuando modificamos su tamaño. La pregunta es: ¿cuántas copias del objeto original son necesarias para reconstruir una versión reescalada del&nbsp;mismo?</p>
-<p>Supongamos que duplicamos el tamaño de los objetos que ya conocemos, es decir, usamos un factor de&nbsp;escala <span class="math">\(S=2\)</span>.</p>
-<p>Si duplicamos el tamaño de un segmento,&nbsp;necesitamos <span class="math">\(N = 2\)</span> copias del segmento original para construir el nuevo&nbsp;segmento.</p>
+<p>Intuitivamente, un objeto de mayor dimensión &#8220;ocupará <em>más</em>&#8221; el espacio que uno de dimensión menor. Para simplificar la discusión, vamos a considerar <strong>objetos autosimilares</strong>, que son aquellos formados por copias idénticas de sí mismos a escalas más pequeñas. En este contexto, resulta natural estudiar cómo cambia el objeto cuando modificamos su tamaño. La pregunta es: ¿cuántas copias del objeto original son necesarias para reconstruir una versión reescalada del&nbsp;mismo?</p>
+<p>Supongamos que duplicamos el tamaño de los objetos que ya conocemos (factor de&nbsp;escala <span class="math">\(S=2\)</span>):</p>
+<ul>
+<li>Si duplicamos el tamaño de un segmento,&nbsp;necesitamos <span class="math">\(N = 2\)</span> copias del segmento original para construir el nuevo&nbsp;segmento,</li>
+</ul>
 <div class="nn-two-images">
   <figure>
     <img src="images/linea1.png" alt="Segmento original">
@@ -172,11 +174,14 @@
   </figure>
 </div>
 
-<p>donde se&nbsp;verifica</p>
+<p>donde se&nbsp;verifica
+</p>
 <div class="math">$$
 2 = 2^1.
 $$</div>
-<p>Si duplicamos los lados de un cuadrado, su área se multiplica por 4, y&nbsp;necesitaríamos <span class="math">\(N = 4\)</span> copias del cuadrado original para reconstruir el cuadrado reescalado, cumpliéndose&nbsp;que <span class="math">\(4 = 2^2\)</span>.</p>
+<ul>
+<li>Si duplicamos los lados de un cuadrado, su área se multiplica por 4, y&nbsp;necesitaríamos <span class="math">\(N = 4\)</span> copias del cuadrado original para reconstruir el cuadrado reescalado, cumpliéndose&nbsp;que <span class="math">\(4 = 2^2\)</span>.</li>
+</ul>
 <div class="nn-two-images">
   <figure>
     <img src="images/cuadrado1.png" alt="Cuadrado original">
@@ -189,7 +194,9 @@ $$</div>
   </figure>
 </div>
 
-<p>Análogamente, si duplicamos los lados de un cubo,&nbsp;necesitamos <span class="math">\(N = 8\)</span> cubos originales para formar el nuevo cubo, tal&nbsp;que <span class="math">\(8 = 2^3\)</span>.</p>
+<ul>
+<li>Análogamente, si duplicamos los lados de un cubo,&nbsp;necesitamos <span class="math">\(N = 8\)</span> cubos originales para formar el nuevo cubo, tal&nbsp;que <span class="math">\(8 = 2^3\)</span>.</li>
+</ul>
 <div class="nn-two-images">
   <figure>
     <img src="images/cubo1.png" alt="Cubo original">
@@ -202,11 +209,14 @@ $$</div>
   </figure>
 </div>
 
-<p>Aquí parece esconderse un patrón. De manera general, para objetos autosimilares, la dimensión de <strong>similaridad</strong> <span class="math">\(d\)</span> es el número que&nbsp;verifica</p>
+<p>Aquí parece esconderse un patrón. De manera general, para objetos autosimilares, la dimensión (de <strong>similaridad</strong>) <span class="math">\(d\)</span> es el número que&nbsp;verifica
+</p>
 <div class="math">$$
 N=S^d,\qquad S&gt;1,
 $$</div>
-<p>donde <span class="math">\(S\)</span> es el factor de escala&nbsp;y <span class="math">\(N\)</span> es el número de copias que necesitamos para reconstruir el objeto reescalado. Podemos&nbsp;despejar <span class="math">\(d\)</span> tomando logaritmos en la expresión anterior,&nbsp;obteniendo</p>
+<p>
+donde <span class="math">\(S\)</span> es el factor de escala&nbsp;y <span class="math">\(N\)</span> es el número de copias que necesitamos para reconstruir el objeto reescalado. Podemos&nbsp;despejar <span class="math">\(d\)</span> tomando logaritmos en la expresión anterior,&nbsp;obteniendo
+</p>
 <div class="math">$$
 d=\frac{\ln N}{\ln S},\qquad S&gt;1.
 $$</div>
@@ -218,7 +228,7 @@ $$</div>
   <figcaption>Triángulo de Sierpinski.</figcaption>
 </figure>
 
-<p>¿Qué hemos obtenido? El resultado es una figura que está contenida en el plano, formada con infinitos triángulos y a su vez con infinitos agujeros. Si vive en el plano, ¿&#8221;debería&#8221; ser bidimensional? Pero al mismo tiempo estamos quitando área constantemente, y si continuamos infinitamente, el área total termina siendo cero. Es un objeto del plano, necesitamos dos ejes para representarlo&#8230; pero sin área, ¿qué es realmente este&nbsp;objeto?</p>
+<p>¿Qué hemos obtenido? El resultado es una figura que está contenida en el plano, formada con infinitos triángulos y a su vez con infinitos agujeros. Si vive en el plano, ¿&#8221;debería&#8221; ser bidimensional? Pero al mismo tiempo estamos quitando área constantemente, y si continuamos infinitamente, el área total termina siendo cero. Es un objeto del plano (necesitamos dos ejes para representarlo)&#8230; pero sin área, ¿qué es realmente este&nbsp;objeto?</p>
 <p>Las matemáticas nos dicen que su dimensión topológica es 1. Esto puede entenderse intuitivamente ya que, debido a su estructura autosimilar con huecos a todas las escalas, se comporta más como una red de segmentos conectados que como una superficie. Pero, por alguna razón, el triángulo de Sierpinski parece algo más que una&nbsp;línea&#8230; </p>
 <p>Calculemos ahora su dimensión de similaridad, con la noción que introdujimos&nbsp;antes. </p>
 <div class="nn-two-images">
@@ -233,12 +243,14 @@ $$</div>
   </figure>
 </div>
 
-<p>Si duplicamos el tamaño del triángulo de Sierpinski&nbsp;(<span class="math">\(S = 2\)</span>), solo&nbsp;necesitamos <span class="math">\(N=3\)</span> copias del triángulo original para reconstruir el nuevo, lo que proporciona una dimensión&nbsp;de </p>
+<p>Si duplicamos el tamaño del triángulo de Sierpinski&nbsp;(<span class="math">\(S = 2\)</span>), sólo&nbsp;necesitamos <span class="math">\(N=3\)</span> copias del triángulo original para reconstruir el nuevo, lo que proporciona una dimensión&nbsp;de 
+</p>
 <div class="math">$$
 d=\frac{\ln 3}{\ln 2}\approx 1.58496...
 $$</div>
-<p>¿Qué está pasando? La dimensión no&nbsp;es <span class="math">\(1\)</span> ni <span class="math">\(2\)</span>, ¡es un número con&nbsp;decimales, <span class="math">\(1.58\)</span>! El objeto se ha vuelto demasiado rugoso para ser una línea, pero está demasiado vacío para rellenar un plano. Es, en cierto sentido, un objeto que vive entre dos dimensiones, un híbrido geométrico, un triángulo con dimensión fraccionaria. ¿Pero cómo es esto posible? Esta fascinante paradoja geométrica fue la que impulsó al matemático Benoît Mandelbrot a desarrollar una nueva disciplina: la <strong>geometría fractal</strong> <sup class="nn-cite"><a href="#ref-1">[1]</a></sup>.</p>
-<p>Analicemos otro ejemplo bastante conocido. Partimos de un segmento, que dividimos en tres partes iguales y en el que sustituimos el tercio central por dos lados de un triángulo equilátero. Si repetimos esta operación infinitamente en cada segmento resultante, obtenemos la <strong>curva de Koch</strong>. Al unir tres de estas curvas, obtenemos una figura cerrada que se asemeja a un copo de nieve: es el <strong>copo de nieve de Koch</strong>.</p>
+<p>
+¿Qué está pasando? La dimensión no&nbsp;es <span class="math">\(1\)</span> ni <span class="math">\(2\)</span>, ¡es un número con&nbsp;decimales, <span class="math">\(1.58\)</span>!  El objeto se ha vuelto demasiado rugoso para ser una línea, pero está demasiado vacío para rellenar un plano. Es un objeto que simplemente vive entre las dos dimensiones, un híbrido geométrico, un triángulo con dimensión fraccionaria. ¿Pero cómo es esto posible? Esta fascinante paradoja geométrica fue la que impulsó al matemático Benoît Mandelbrot a desarrollar una nueva disciplina: la <strong>geometría fractal</strong> <sup class="nn-cite"><a href="#ref-1">[1]</a></sup>.</p>
+<p>Analicemos otro ejemplo bastante conocido. Partimos de un segmento, que dividimos en tres partes iguales y en el que sustituimos el tercio central por dos lados de un triángulo equilátero. Si repetimos esta operación infinitamente en cada segmento resultante, obtenemos la <strong>curva de Koch</strong>. Al unir tres de estas curvas, obtenemos una figura cerrada que se asemeja a un copo de nieve, es el <strong>copo de nieve de Koch</strong>.</p>
 <div class="nn-two-images">
   <figure>
     <img src="images/koch1.png" alt="Primeras iteraciones de la curva de Koch">
@@ -251,9 +263,9 @@ $$</div>
   </figure>
 </div>
 
-<p>Este objeto encierra un área finita, pero posee un perímetro irregular infinito; es decir, podrías pintar su interior, pero no dibujar su borde. Se anima al lector a comprobar que la dimensión de la curva de Koch y, por tanto, del copo de nieve&nbsp;es <span class="math">\(d=\frac{\ln 4}{\ln 3}\approx 1.26\)</span> <sup class="nn-cite"><a href="#ref-3">[3]</a></sup>.</p>
+<p>Este objeto encierra un área finita, pero posee un perímetro irregular infinito; es decir, podrías pintar su interior, pero no dibujar su borde. Se anima al lector a comprobar que la dimensión de la curva de Koch (y, por tanto, del copo de nieve)&nbsp;es <span class="math">\(d=\frac{\ln 4}{\ln 3}\approx 1.26\)</span> <sup class="nn-cite"><a href="#ref-3">[3]</a></sup>.</p>
 <h2 id="fractales-en-nuestro-dia-a-dia">Fractales en nuestro día a día<a class="headerlink" href="#fractales-en-nuestro-dia-a-dia" title="Permanent link"> </a></h2>
-<p>El truco de contar &#8220;copias&#8221; funciona bien para estructuras autosimilares, pero no todos los conjuntos pueden describirse como combinación de partes idénticas a sí mismos. Para generalizar esta idea, se introduce la <strong>dimensión de Hausdorff</strong>, que esencialmente estudia cómo los objetos <em>llenan</em> el espacio. Cuando la dimensión de Hausdorff de un objeto es mayor que su dimensión topológica, entre otras propiedades, hablamos de un <strong>fractal</strong> <sup class="nn-cite"><a href="#ref-1">[1]</a></sup>. </p>
+<p>El truco de contar &#8220;copias&#8221; funciona bien para estructuras autosimilares, pero no todos los conjuntos pueden describirse como combinación de partes idénticas a sí mismos. Para generalizar esta idea, se introduce la <strong>dimensión de Hausdorff</strong>, que esencialmente estudia cómo los objetos <em>llenan</em> el espacio. Cuando la dimensión de Hausdorff de un objeto es mayor que su dimensión topológica (entre otras propiedades), hablamos de un <strong>fractal</strong> <sup class="nn-cite"><a href="#ref-1">[1]</a></sup>. </p>
 <p>Si observamos atentamente, vemos que el mundo real es profundamente fractal. La naturaleza parece tener una obsesión con ellos: desde las ramas de los árboles, en diversos tipos de plantas y alimentos, los bronquios de tus pulmones, los rayos, los ríos, pompas de jabón&#8230; incluso hasta algunas formaciones galácticas muestran patrones fractales&nbsp;aproximados. </p>
 <div class="nn-two-images">
   <figure>
@@ -294,13 +306,13 @@ $$</div>
   </figure>
 </div>
 
-<p><em>Fractales en la naturaleza: ramas de los árboles, brócoli romanesco, planta de aloe vera y red&nbsp;cósmica.</em></p>
-<p>Vivimos rodeados de formas complejas que desafían las dimensiones clásicas y esquivan la geometría euclídea. La próxima vez que mires a tu alrededor, recuerda que la dimensión no solo no tiene por qué ser un número entero, sino que el universo parece decantarse por esos espacios&nbsp;intermedios. </p>
+<p><em>Fractales en la naturaleza: ramas de los árboles, brócoli romanesco, planta de aloe vera, red&nbsp;cósmica.</em></p>
+<p>Vivimos rodeados de formas complejas que desafían las dimensiones clásicas y esquivan la geometría euclídea. La próxima vez que mires a tu alrededor, recuerda que la dimensión no sólo no es un número entero, sino que el universo parece decantarse por esos espacios&nbsp;intermedios. </p>
 <p>¿Te gustaría saber más sobre fractales y dónde aparecen? Espera a la segunda entrega de esta&nbsp;servilleta.</p>
 <h2 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link"> </a></h2>
 <ol class="nn-references">
   <li id="ref-1">
-    <span class="caps">B. B.</span> Mandelbrot (1982). <em>The Fractal Geometry of Nature</em>. <span class="caps">W. H.</span> Freeman and Company, New&nbsp;York.
+    <span class="caps">B. B.</span> Mandelbrot (1982). The Fractal Geometry of Nature. <em><span class="caps">W. H.</span> Freeman and Company, New York</em>.
   </li>
 
   <li id="ref-2">
@@ -381,7 +393,7 @@ $$</div>
 
 
 <div class="applause_button">
-    <applause-button url=https://napkinnotes.es/rebelion-fractales-1-dimensiones-decimales> </applause-button>
+    <applause-button url=https://napkinnotes.es/fractales-dimensiones-decimales> </applause-button>
 </div>
 
  
@@ -431,8 +443,8 @@ $$</div>
 
                 <input type="hidden" name="_subject" value="Nuevo comentario en Napkin Notes">
                 <input type="hidden" name="articulo" value="La rebelión de los fractales I: ¿Y si las dimensiones tuvieran&nbsp;decimales?">
-                <input type="hidden" name="article_key" value="rebelion-fractales-1-dimensiones-decimales">
-                <input type="hidden" name="url_articulo" value="https://napkinnotes.es/rebelion-fractales-1-dimensiones-decimales">
+                <input type="hidden" name="article_key" value="fractales-dimensiones-decimales">
+                <input type="hidden" name="url_articulo" value="https://napkinnotes.es/fractales-dimensiones-decimales">
 
                 <div class="nn-comment-form__row">
                     <label for="comment-name">Nombre</label>
@@ -509,7 +521,7 @@ $$</div>
 
        <div class="nn-share-actions">
     <a class="nn-share-actions__button"
-       href="https://twitter.com/intent/tweet?url=https%3A//napkinnotes.es/rebelion-fractales-1-dimensiones-decimales&text=La%20rebeli%C3%B3n%20de%20los%20fractales%20I%3A%20%C2%BFY%20si%20las%20dimensiones%20tuvieran%C2%A0decimales%3F"
+       href="https://twitter.com/intent/tweet?url=https%3A//napkinnotes.es/fractales-dimensiones-decimales&text=La%20rebeli%C3%B3n%20de%20los%20fractales%20I%3A%20%C2%BFY%20si%20las%20dimensiones%20tuvieran%C2%A0decimales%3F"
        target="_blank"
        rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
@@ -519,7 +531,7 @@ $$</div>
     </a>
 
     <a class="nn-share-actions__button"
-       href="https://www.facebook.com/sharer/sharer.php?u=https%3A//napkinnotes.es/rebelion-fractales-1-dimensiones-decimales"
+       href="https://www.facebook.com/sharer/sharer.php?u=https%3A//napkinnotes.es/fractales-dimensiones-decimales"
        target="_blank"
        rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
@@ -529,7 +541,7 @@ $$</div>
     </a>
 
     <a class="nn-share-actions__button"
-       href="https://api.whatsapp.com/send?text=La%20rebeli%C3%B3n%20de%20los%20fractales%20I%3A%20%C2%BFY%20si%20las%20dimensiones%20tuvieran%26nbsp%3Bdecimales%3F%20https%3A//napkinnotes.es/rebelion-fractales-1-dimensiones-decimales"
+       href="https://api.whatsapp.com/send?text=La%20rebeli%C3%B3n%20de%20los%20fractales%20I%3A%20%C2%BFY%20si%20las%20dimensiones%20tuvieran%26nbsp%3Bdecimales%3F%20https%3A//napkinnotes.es/fractales-dimensiones-decimales"
        target="_blank"
        rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
@@ -540,7 +552,7 @@ $$</div>
 
     <button class="nn-share-actions__button nn-share-actions__button--copy"
             type="button"
-            data-copy-url="https://napkinnotes.es/rebelion-fractales-1-dimensiones-decimales">
+            data-copy-url="https://napkinnotes.es/fractales-dimensiones-decimales">
         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
             <path fill="currentColor" d="M16 1H6a2 2 0 0 0-2 2v12h2V3h10V1Zm3 4H10a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H10V7h9v14Z"/>
         </svg>
