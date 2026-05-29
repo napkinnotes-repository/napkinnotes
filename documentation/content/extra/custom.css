@@ -4577,7 +4577,7 @@ a.nn-squad-hero__metric {
 @media (min-width: 981px) {
   .nn-about-mobile-plumes {
     width: 100%;
-    max-width: 760px;
+    max-width: 560px;
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel {
@@ -4586,6 +4586,10 @@ a.nn-squad-hero__metric {
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__items {
     min-height: 170px;
+  }
+
+  .nn-about-mobile-plumes .nn-mini-author-carousel__item {
+    width: 118px;
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-active {
@@ -4598,7 +4602,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
-    left: 41%;
+    left: 43%;
     z-index: 6;
     opacity: 0.78;
     pointer-events: auto;
@@ -4606,7 +4610,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
-    left: 59%;
+    left: 57%;
     z-index: 6;
     opacity: 0.78;
     pointer-events: auto;
@@ -4614,7 +4618,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-2 {
-    left: 32%;
+    left: 36%;
     z-index: 5;
     opacity: 0.48;
     pointer-events: auto;
@@ -4622,7 +4626,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-2 {
-    left: 68%;
+    left: 64%;
     z-index: 5;
     opacity: 0.48;
     pointer-events: auto;
@@ -4630,7 +4634,7 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-3 {
-    left: 24%;
+    left: 30%;
     z-index: 4;
     opacity: 0.26;
     pointer-events: auto;
@@ -4638,14 +4642,13 @@ a.nn-squad-hero__metric {
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-3 {
-    left: 76%;
+    left: 70%;
     z-index: 4;
     opacity: 0.26;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(0.60);
   }
 }
-
 /* Tablet: solo 3 visibles */
 
 @media (max-width: 980px) {
