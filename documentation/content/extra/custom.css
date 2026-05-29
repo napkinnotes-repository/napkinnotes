@@ -4780,76 +4780,31 @@ a.nn-squad-hero__metric {
   }
 }
 
-/* Ajuste desktop: carrusel ancho, sin cambiar el alto */
+/* Ajuste vertical del carrusel de plumas dentro de Acerca del Proyecto */
 
-@media (min-width: 981px) {
-  .nn-about-mobile-plumes {
-    width: 100%;
-    max-width: 100%;
-    overflow: visible;
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel {
-    min-height: 190px;
-    overflow: visible;
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__items {
-    min-height: 190px;
-    overflow: visible;
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item {
-    width: 138px;
-  }
-
-  /* Principal: tamaño original */
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-active {
-    z-index: 7;
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-
-  /* Contiguas: 80% de la central, separadas */
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
-    z-index: 6;
-    opacity: 0.78;
-    transform: translate(calc(-50% - 210px), -50%) scale(0.80);
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
-    z-index: 6;
-    opacity: 0.78;
-    transform: translate(calc(-50% + 210px), -50%) scale(0.80);
-  }
-
-  /* Siguientes: 70% de la central, más separadas */
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-2 {
-    z-index: 5;
-    opacity: 0.48;
-    transform: translate(calc(-50% - 395px), -50%) scale(0.70);
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-2 {
-    z-index: 5;
-    opacity: 0.48;
-    transform: translate(calc(-50% + 395px), -50%) scale(0.70);
-  }
-
-  /* Extremas: 60% de la central */
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-3 {
-    z-index: 4;
-    opacity: 0.26;
-    transform: translate(calc(-50% - 555px), -50%) scale(0.60);
-  }
-
-  .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-3 {
-    z-index: 4;
-    opacity: 0.26;
-    transform: translate(calc(-50% + 555px), -50%) scale(0.60);
-  }
+.nn-about-mobile-plumes {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
+.nn-about-mobile-plumes__title {
+  margin-bottom: 6px;
+}
+
+.nn-about-mobile-plumes .nn-mini-author-carousel {
+  min-height: 170px;
+}
+
+.nn-about-mobile-plumes .nn-mini-author-carousel__items {
+  min-height: 170px;
+}
+
+.nn-about-mobile-plumes + h2,
+.nn-about-mobile-plumes + h3 {
+  margin-top: 24px;
+}
 /* Móvil: solo 3 visibles */
 
 @media (max-width: 640px) {
