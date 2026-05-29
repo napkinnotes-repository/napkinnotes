@@ -1,5 +1,257 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-05-28T00:00:00+02:00</updated><entry><title>Dunas y desiertos: primera parte</title><link href="https://napkinnotes.es/dunas-y-desiertos-primera-parte" rel="alternate"/><published>2026-05-28T00:00:00+02:00</published><updated>2026-05-28T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-05-28:/dunas-y-desiertos-primera-parte</id><summary type="html">&lt;p&gt;Vamos a hacer la receta para crear una duna en un desierto. Bueno, o mejor solo entendemos la&amp;nbsp;receta.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-05-29T00:00:00+02:00</updated><entry><title>La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales?</title><link href="https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales" rel="alternate"/><published>2026-05-29T00:00:00+02:00</published><updated>2026-05-29T00:00:00+02:00</updated><author><name>Paz Albares Vicente</name></author><id>tag:napkinnotes.es,2026-05-29:/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales</id><summary type="html">&lt;p&gt;Una línea tiene dimensión 1. Un cuadrado, dimensión 2. Y un cubo, dimensión 3. Todo parece bastante claro y sencillo. Pero, ¿y si te dijera que existen objetos demasiado rugosos para ser líneas y demasiado vacíos para rellenar un plano? ¿Cuál sería ahora su dimensión? ¿Seguro que las dimensiones son siempre números enteros? ¡Bienvenido al extraño mundo de los&amp;nbsp;fractales!&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#la-dimension-es-una-idea-razonable"&gt;La dimensión es una idea&amp;nbsp;razonable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-arte-de-fotocopiar-y-cambiar-de-escala"&gt;El arte de fotocopiar y cambiar de&amp;nbsp;escala&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#quiza-la-dimension-no-tiene-por-que-ser-entera"&gt;Quizá la dimensión no tiene por qué ser&amp;nbsp;entera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#fractales-en-nuestro-dia-a-dia"&gt;Fractales en nuestro día a&amp;nbsp;día&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="la-dimension-es-una-idea-razonable"&gt;La dimensión es una idea razonable&lt;a class="headerlink" href="#la-dimension-es-una-idea-razonable" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;!-- Texto normal --&gt;
+
+&lt;p&gt;La intuición funciona bastante bien. Podemos imaginar la dimensión de un objeto como el número de direcciones independientes en las que podríamos movernos sobre&amp;nbsp;él:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En un punto, no hay movimiento posible, estamos &amp;#8220;atrapados&amp;#8221; y obligados a quedarnos sobre él. Por tanto, se dice que el punto tiene dimensión&amp;nbsp;0. &lt;/li&gt;
+&lt;li&gt;Si dibujamos una línea recta, sólo podemos movernos a lo largo de ella, hacia delante o hacia atrás, pero siempre en la propia línea, no hay más direcciones disponibles. Entonces, se dice que la línea tiene dimensión&amp;nbsp;1.&lt;/li&gt;
+&lt;li&gt;En una hoja de papel, podríamos movernos a lo largo de dos direcciones (el largo y el ancho), y por tanto, su dimensión es&amp;nbsp;2.&lt;/li&gt;
+&lt;li&gt;Si pudiéramos caminar por las paredes de nuestra casa, tendríamos tres opciones independientes de movimiento (largo, ancho y alto). En ese caso, su dimensión es&amp;nbsp;3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lo que describimos aquí es, en esencia, la motivación de la definición matemática de &lt;strong&gt;dimensión topológica&lt;/strong&gt;. Esta forma de medir siempre nos va a devolver números enteros, y funciona a la perfección para las figuras de la geometría clásica. Pero no es la única forma que los matemáticos han encontrado para determinar la dimensión de un&amp;nbsp;objeto. &lt;/p&gt;
+&lt;h2 id="el-arte-de-fotocopiar-y-cambiar-de-escala"&gt;El arte de fotocopiar y cambiar de escala&lt;a class="headerlink" href="#el-arte-de-fotocopiar-y-cambiar-de-escala" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Intuitivamente, un objeto de mayor dimensión &amp;#8220;ocupará &lt;em&gt;más&lt;/em&gt;&amp;#8221; el espacio que uno de dimensión menor. Para simplificar la discusión, vamos a considerar &lt;strong&gt;objetos autosimilares&lt;/strong&gt;, que son aquellos formados por copias idénticas de sí mismos a escalas más pequeñas. En este contexto, resulta natural estudiar cómo cambia el objeto cuando modificamos su tamaño. La pregunta es: ¿cuántas copias del objeto original son necesarias para reconstruir una versión reescalada del&amp;nbsp;mismo?&lt;/p&gt;
+&lt;p&gt;Supongamos que duplicamos el tamaño de los objetos que ya conocemos (factor de&amp;nbsp;escala &lt;span class="math"&gt;\(S=2\)&lt;/span&gt;):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;si duplicamos el tamaño de un segmento de&amp;nbsp;longitud &lt;span class="math"&gt;\(\ell\)&lt;/span&gt;,&amp;nbsp;necesitamos &lt;span class="math"&gt;\(N = 2\)&lt;/span&gt; copias del segmento original para construir el nuevo&amp;nbsp;segmento,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="nn-two-images"&gt;
+  &lt;figure&gt;
+    &lt;img src="images/linea1.png" alt="Segmento original"&gt;
+    &lt;figcaption&gt;Segmento duplicado.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure&gt;
+    &lt;img src="images/linea2.png" alt="Segmento duplicado"&gt;
+    &lt;figcaption&gt;Dos copias del segmento original.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;donde se&amp;nbsp;verifica
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+2 = 2^1.
+$$&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Si duplicamos los lados de un cuadrado, su área se multiplica por 4, y&amp;nbsp;necesitaríamos &lt;span class="math"&gt;\(N = 4\)&lt;/span&gt; copias del cuadrado original para reconstruir el cuadrado reescalado, cumpliéndose&amp;nbsp;que &lt;span class="math"&gt;\(4 = 2^2\)&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="nn-two-images nn-two-images--aligned"&gt;
+  &lt;figure&gt;
+    &lt;img src="images/cuadrado1.png" alt="Cuadrado original"&gt;
+    &lt;figcaption&gt;Cuadrado duplicado.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure&gt;
+    &lt;img src="images/cuadrado2.png" alt="Cuadrado duplicado"&gt;
+    &lt;figcaption&gt;Cuatro copias del cuadrado original.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Análogamente, si duplicamos los lados de un cubo,&amp;nbsp;necesitamos &lt;span class="math"&gt;\(N = 8\)&lt;/span&gt; cubos originales para formar el nuevo cubo, tal&amp;nbsp;que &lt;span class="math"&gt;\(8 = 2^3\)&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="nn-two-images nn-two-images--aligned"&gt;
+  &lt;figure&gt;
+    &lt;img src="images/cubo1.png" alt="Cubo original"&gt;
+    &lt;figcaption&gt;Cubo duplicado.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure&gt;
+    &lt;img src="images/cubo2.png" alt="Cubo duplicado"&gt;
+    &lt;figcaption&gt;Ocho copias del cubo original.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Aquí parece esconderse un patrón. De manera general, para objetos autosimilares, la dimensión (de &lt;strong&gt;similaridad&lt;/strong&gt;) &lt;span class="math"&gt;\(d\)&lt;/span&gt; es el número que&amp;nbsp;verifica
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+N=S^d,\qquad S&amp;gt;1,
+$$&lt;/div&gt;
+&lt;p&gt;
+donde &lt;span class="math"&gt;\(S\)&lt;/span&gt; es el factor de escala&amp;nbsp;y &lt;span class="math"&gt;\(N\)&lt;/span&gt; es el número de copias que necesitamos para reconstruir el objeto reescalado. Podemos&amp;nbsp;despejar &lt;span class="math"&gt;\(d\)&lt;/span&gt; tomando logaritmos en la expresión anterior,&amp;nbsp;obteniendo
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+d=\frac{\ln N}{\ln S},\qquad S&amp;gt;1.
+$$&lt;/div&gt;
+&lt;h2 id="quiza-la-dimension-no-tiene-por-que-ser-entera"&gt;Quizá la dimensión no tiene por qué ser entera&lt;a class="headerlink" href="#quiza-la-dimension-no-tiene-por-que-ser-entera" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Para los casos de un segmento, un cuadrado y un cubo, el valor&amp;nbsp;de &lt;span class="math"&gt;\(d\)&lt;/span&gt; obtenido según la fórmula anterior coincide con su dimensión topológica,&amp;nbsp;obteniendo &lt;span class="math"&gt;\(d=1,2,3\)&lt;/span&gt;, respectivamente. Sin embargo, si miramos la fórmula con atención, nos damos cuenta de&amp;nbsp;que &lt;span class="math"&gt;\(d\)&lt;/span&gt; está definida como un cociente de logaritmos, lo que matemáticamente significa que&amp;nbsp;¡&lt;span class="math"&gt;\(d\)&lt;/span&gt; puede ser cualquier número real positivo! ¿Qué sentido tiene esto? ¿Debe ser la dimensión siempre un número&amp;nbsp;entero?&lt;/p&gt;
+&lt;p&gt;Veámoslo con un ejemplo un poco más exótico. Imagina un triángulo equilátero en el plano. Ahora, imagina que lo divides en cuatro triángulos iguales y eliminas el triángulo invertido del centro, dejando tres triángulos más pequeños. ¿Fácil, verdad? ¿Pero qué sucede si volvemos a repetir el proceso sobre los tres triángulos restantes? Cada triángulo se divide en cuatro y le quitamos el triángulo central. ¿Y si volvemos a repetir el proceso sobre los triángulos resultantes? Una vez, otra vez, y otra&amp;#8230; así infinitas veces. Acabamos de construir el famoso &lt;strong&gt;triángulo de Sierpinski&lt;/strong&gt;:&lt;/p&gt;
+&lt;figure class="nn-article-figure nn-article-figure--small"&gt;
+  &lt;img src="images/sierpinski.png" alt="Triángulo de Sierpinski"&gt;
+  &lt;figcaption&gt;Triángulo de Sierpinski.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;¿Qué hemos obtenido? El resultado es una figura que está contenida en el plano, formada con infinitos triángulos y a su vez con infinitos agujeros. Si vive en el plano, ¿&amp;#8221;debería&amp;#8221; ser bidimensional? Pero al mismo tiempo estamos quitando área constantemente, y si continuamos infinitamente, el área total termina siendo cero. Es un objeto del plano (necesitamos dos ejes para representarlo)&amp;#8230; pero sin área, ¿qué es realmente este&amp;nbsp;objeto?&lt;/p&gt;
+&lt;p&gt;Las matemáticas nos dicen que su dimensión topológica es 1. Esto puede entenderse intuitivamente ya que, debido a su estructura autosimilar con huecos a todas las escalas, se comporta más como una red de segmentos conectados que como una superficie. Pero, por alguna razón, el triángulo de Sierpinski parece algo más que una&amp;nbsp;línea&amp;#8230; &lt;/p&gt;
+&lt;p&gt;Calculemos ahora su dimensión de similaridad, con la noción que introdujimos&amp;nbsp;antes. &lt;/p&gt;
+&lt;div class="nn-two-images nn-two-images--aligned"&gt;
+  &lt;figure&gt;
+    &lt;img src="images/sierpinski2.png" alt="Triángulo de Sierpinski original"&gt;
+    &lt;figcaption&gt;Triángulo de Sierpinski reescalado.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure&gt;
+    &lt;img src="images/sierpinski3.png" alt="Triángulo de Sierpinski reescalado"&gt;
+    &lt;figcaption&gt;Tres copias del triangulo de Sierpinski original.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Si duplicamos el tamaño del triángulo de Sierpinski&amp;nbsp;(&lt;span class="math"&gt;\(S = 2\)&lt;/span&gt;), sólo&amp;nbsp;necesitamos &lt;span class="math"&gt;\(N=3\)&lt;/span&gt; copias del triángulo original para reconstruir el nuevo, lo que proporciona una dimensión&amp;nbsp;de 
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+d=\frac{\ln 3}{\ln 2}\approx 1.58496...
+$$&lt;/div&gt;
+&lt;p&gt;
+¿Qué está pasando? La dimensión no&amp;nbsp;es &lt;span class="math"&gt;\(1\)&lt;/span&gt; ni &lt;span class="math"&gt;\(2\)&lt;/span&gt;, ¡es un número con&amp;nbsp;decimales, &lt;span class="math"&gt;\(1.58\)&lt;/span&gt;!  El objeto se ha vuelto demasiado rugoso para ser una línea, pero está demasiado vacío para rellenar un plano. Es un objeto que simplemente vive entre las dos dimensiones, un híbrido geométrico, un triángulo con dimensión fraccionaria. ¿Pero cómo es esto posible? Esta fascinante paradoja geométrica fue la que impulsó al matemático Benoît Mandelbrot a desarrollar una nueva disciplina: la &lt;strong&gt;geometría fractal&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Analicemos otro ejemplo bastante conocido. Partimos de un segmento, que dividimos en tres partes iguales y en el que sustituimos el tercio central por dos lados de un triángulo equilátero. Si repetimos esta operación infinitamente en cada segmento resultante, obtenemos la &lt;strong&gt;curva de Koch&lt;/strong&gt;. Al unir tres de estas curvas, obtenemos una figura cerrada que se asemeja a un copo de nieve, es el &lt;strong&gt;copo de nieve de Koch&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class="nn-two-images nn-two-images--aligned"&gt;
+  &lt;figure&gt;
+    &lt;img src="images/koch1.png" alt="Primeras iteraciones de la curva de Koch"&gt;
+    &lt;figcaption&gt;La curva de Koch.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure&gt;
+    &lt;img src="images/koch2.png" alt="Copo de nieve de Koch"&gt;
+    &lt;figcaption&gt;Copo de nieve de Koch.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Este objeto encierra un área finita, pero posee un perímetro irregular infinito; es decir, podrías pintar su interior, pero no dibujar su borde. Se anima al lector a comprobar que la dimensión de la curva de Koch (y, por tanto, del copo de nieve)&amp;nbsp;es &lt;span class="math"&gt;\(d=\frac{\ln 4}{\ln 3}\approx 1.26\)&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id="fractales-en-nuestro-dia-a-dia"&gt;Fractales en nuestro día a día&lt;a class="headerlink" href="#fractales-en-nuestro-dia-a-dia" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El truco de contar &amp;#8220;copias&amp;#8221; funciona bien para estructuras autosimilares, pero no todos los conjuntos pueden describirse como combinación de partes idénticas a sí mismos. Para generalizar esta idea, se introduce la &lt;strong&gt;dimensión de Hausdorff&lt;/strong&gt;, que esencialmente estudia cómo los objetos &lt;em&gt;llenan&lt;/em&gt; el espacio. Cuando la dimensión de Hausdorff de un objeto es mayor que su dimensión topológica (entre otras propiedades), hablamos de un &lt;strong&gt;fractal&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;Si observamos atentamente, vemos que el mundo real es profundamente fractal. La naturaleza parece tener una obsesión con ellos: desde las ramas de los árboles, en diversos tipos de plantas y alimentos, los bronquios de tus pulmones, los rayos, los ríos, pompas de jabón&amp;#8230; incluso hasta algunas formaciones galácticas muestran patrones fractales&amp;nbsp;aproximados. &lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;div class="nn-two-images"&gt;
+    &lt;figure&gt;
+      &lt;img src="images/trees.jpg" alt="Ramas de un árbol con estructura fractal"&gt;
+      &lt;figcaption&gt;
+        Ramas de los árboles. Fuente:
+        &lt;a href="https://commons.wikimedia.org/wiki/File:Fractals_of_Nature.jpg" target="_blank" rel="noopener noreferrer"&gt;Wikimedia Commons&lt;/a&gt;.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+
+    &lt;figure&gt;
+      &lt;img src="images/brocoli.jpg" alt="Brócoli romanesco con patrón fractal"&gt;
+      &lt;figcaption&gt;
+        Brócoli romanesco. Imagen: Kent Wang,
+        &lt;a href="https://commons.wikimedia.org/wiki/File:Romanesco_broccoli.jpg" target="_blank" rel="noopener noreferrer"&gt;Wikimedia Commons&lt;/a&gt;,
+        licencia &lt;span class="caps"&gt;CC&lt;/span&gt; &lt;span class="caps"&gt;BY&lt;/span&gt;-&lt;span class="caps"&gt;SA&lt;/span&gt; 2.0.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+
+  &lt;div class="nn-two-images"&gt;
+    &lt;figure&gt;
+      &lt;img src="images/aloe.jpg" alt="Aloe espiral visto desde arriba"&gt;
+      &lt;figcaption&gt;
+        Planta de aloe vera. Imagen: Sam,
+        &lt;a href="https://commons.wikimedia.org/wiki/File:Spiral_Aloe_from_above.JPG" target="_blank" rel="noopener noreferrer"&gt;Wikimedia Commons&lt;/a&gt;,
+        licencia &lt;span class="caps"&gt;CC&lt;/span&gt; &lt;span class="caps"&gt;BY&lt;/span&gt;-&lt;span class="caps"&gt;SA&lt;/span&gt; 4.0.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+
+    &lt;figure&gt;
+      &lt;img src="images/cosmicweb.jpg" alt="Visualización de la red cósmica"&gt;
+      &lt;figcaption&gt;
+        Red cósmica. Imagen: Volker Springel / Max Planck Institute for Astrophysics,
+        &lt;a href="https://commons.wikimedia.org/wiki/File:Cosmic_web.jpg" target="_blank" rel="noopener noreferrer"&gt;Wikimedia Commons&lt;/a&gt;,
+        licencia &lt;span class="caps"&gt;CC&lt;/span&gt; &lt;span class="caps"&gt;BY&lt;/span&gt;-&lt;span class="caps"&gt;SA&lt;/span&gt; 4.0.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;  
+&lt;/figure&gt;
+
+&lt;p&gt;Vivimos rodeados de formas complejas que desafían las dimensiones clásicas y esquivan la geometría euclídea. La próxima vez que mires a tu alrededor, recuerda que la dimensión no sólo no es un número entero, sino que el universo parece decantarse por esos espacios&amp;nbsp;intermedios. &lt;/p&gt;
+&lt;p&gt;¿Te gustaría saber más sobre fractales y dónde aparecen? Espera a la segunda entrega de esta&amp;nbsp;servilleta.&lt;/p&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+  &lt;li id="ref-1"&gt;
+    &lt;span class="caps"&gt;B. B.&lt;/span&gt; Mandelbrot (1982). The Fractal Geometry of Nature. &lt;em&gt;&lt;span class="caps"&gt;W. H.&lt;/span&gt; Freeman and Company, New York&lt;/em&gt;.
+  &lt;/li&gt;
+
+  &lt;li id="ref-2"&gt;
+    3Blue1Brown. (2017). Fractals are typically not self-similar. &lt;em&gt;YouTube&lt;/em&gt;.
+    &lt;a href="https://www.youtube.com/watch?v=gB9n2gHsHN4" target="_blank" rel="noopener noreferrer"&gt;https://www.youtube.com/watch?v=gB9n2gHsHN4&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-3"&gt;
+    Mates Mike. (2022). DIMENSIÓN &lt;span class="caps"&gt;FRACTAL&lt;/span&gt;: El Copo de Nieve de Koch. &lt;em&gt;YouTube&lt;/em&gt;.
+    &lt;a href="https://www.youtube.com/watch?v=eKY_1j9VrEA" target="_blank" rel="noopener noreferrer"&gt;https://www.youtube.com/watch?v=eKY_1j9VrEA&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Matemáticas"/><category term="matemáticas"/><category term="fractales"/></entry><entry><title>Dunas y desiertos: primera parte</title><link href="https://napkinnotes.es/dunas-y-desiertos-primera-parte" rel="alternate"/><published>2026-05-28T00:00:00+02:00</published><updated>2026-05-28T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-05-28:/dunas-y-desiertos-primera-parte</id><summary type="html">&lt;p&gt;Vamos a hacer la receta para crear una duna en un desierto. Bueno, o mejor solo entendemos la&amp;nbsp;receta.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#arena"&gt;Arena&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#viento"&gt;Viento&lt;/a&gt;&lt;/li&gt;
