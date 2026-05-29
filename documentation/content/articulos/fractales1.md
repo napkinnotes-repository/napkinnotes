@@ -99,7 +99,7 @@ Para los casos de un segmento, un cuadrado y un cubo, el valor de $d$ obtenido s
 
 Veámoslo con un ejemplo un poco más exótico. Imagina un triángulo equilátero en el plano. Ahora, imagina que lo divides en cuatro triángulos iguales y eliminas el triángulo invertido del centro, dejando tres triángulos más pequeños. ¿Fácil, verdad? ¿Pero qué sucede si volvemos a repetir el proceso sobre los tres triángulos restantes? Cada triángulo se divide en cuatro y le quitamos el triángulo central. ¿Y si volvemos a repetir el proceso sobre los triángulos resultantes? Una vez, otra vez, y otra... así infinitas veces. Acabamos de construir el famoso **triángulo de Sierpinski**:
 
-<figure class="nn-article-figure nn-article-figure--medium">
+<figure class="nn-article-figure nn-article-figure--small">
   <img src="images/sierpinski.png" alt="Triángulo de Sierpinski">
   <figcaption>Triángulo de Sierpinski.</figcaption>
 </figure>
@@ -150,46 +150,50 @@ El truco de contar "copias" funciona bien para estructuras autosimilares, pero n
 
 Si observamos atentamente, vemos que el mundo real es profundamente fractal. La naturaleza parece tener una obsesión con ellos: desde las ramas de los árboles, en diversos tipos de plantas y alimentos, los bronquios de tus pulmones, los rayos, los ríos, pompas de jabón... incluso hasta algunas formaciones galácticas muestran patrones fractales aproximados. 
 
-<div class="nn-two-images">
-  <figure>
-    <img src="images/trees.png" alt="Ramas de un árbol con estructura fractal">
-    <figcaption>
-      Ramas de los árboles. Fuente:
-      <a href="https://commons.wikimedia.org/wiki/File:Fractals_of_Nature.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.
-    </figcaption>
-  </figure>
+<figure class="nn-article-figure">
+  <div class="nn-two-images">
+    <figure>
+      <img src="images/trees.png" alt="Ramas de un árbol con estructura fractal">
+      <figcaption>
+        Ramas de los árboles. Fuente:
+        <a href="https://commons.wikimedia.org/wiki/File:Fractals_of_Nature.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.
+      </figcaption>
+    </figure>
 
-  <figure>
-    <img src="images/brocoli.png" alt="Brócoli romanesco con patrón fractal">
-    <figcaption>
-      Brócoli romanesco. Imagen: Kent Wang,
-      <a href="https://commons.wikimedia.org/wiki/File:Romanesco_broccoli.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
-      licencia CC BY-SA 2.0.
-    </figcaption>
-  </figure>
-</div>
+    <figure>
+      <img src="images/brocoli.png" alt="Brócoli romanesco con patrón fractal">
+      <figcaption>
+        Brócoli romanesco. Imagen: Kent Wang,
+        <a href="https://commons.wikimedia.org/wiki/File:Romanesco_broccoli.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
+        licencia CC BY-SA 2.0.
+      </figcaption>
+    </figure>
+  </div>
 
-<div class="nn-two-images">
-  <figure>
-    <img src="images/aloe.png" alt="Aloe espiral visto desde arriba">
-    <figcaption>
-      Planta de aloe vera. Imagen: Sam,
-      <a href="https://commons.wikimedia.org/wiki/File:Spiral_Aloe_from_above.JPG" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
-      licencia CC BY-SA 4.0.
-    </figcaption>
-  </figure>
+  <div class="nn-two-images">
+    <figure>
+      <img src="images/aloe.png" alt="Aloe espiral visto desde arriba">
+      <figcaption>
+        Planta de aloe vera. Imagen: Sam,
+        <a href="https://commons.wikimedia.org/wiki/File:Spiral_Aloe_from_above.JPG" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
+        licencia CC BY-SA 4.0.
+      </figcaption>
+    </figure>
 
-  <figure>
-    <img src="images/cosmicweb.png" alt="Visualización de la red cósmica">
-    <figcaption>
-      Red cósmica. Imagen: Volker Springel / Max Planck Institute for Astrophysics,
-      <a href="https://commons.wikimedia.org/wiki/File:Cosmic_web.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
-      licencia CC BY-SA 4.0.
-    </figcaption>
-  </figure>
-</div>
+    <figure>
+      <img src="images/cosmicweb.png" alt="Visualización de la red cósmica">
+      <figcaption>
+        Red cósmica. Imagen: Volker Springel / Max Planck Institute for Astrophysics,
+        <a href="https://commons.wikimedia.org/wiki/File:Cosmic_web.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
+        licencia CC BY-SA 4.0.
+      </figcaption>
+    </figure>
+  </div>
 
-*Fractales en la naturaleza: ramas de los árboles, brócoli romanesco, planta de aloe vera, red cósmica.*
+  <figcaption>
+    Fractales en la naturaleza: ramas de los árboles, brócoli romanesco, planta de aloe vera y red cósmica.
+  </figcaption>
+</figure>
 
 Vivimos rodeados de formas complejas que desafían las dimensiones clásicas y esquivan la geometría euclídea. La próxima vez que mires a tu alrededor, recuerda que la dimensión no sólo no es un número entero, sino que el universo parece decantarse por esos espacios intermedios. 
 
