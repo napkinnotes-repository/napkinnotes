@@ -37,7 +37,7 @@ Intuitivamente, un objeto de mayor dimensión "ocupará *más*" el espacio que u
 
 Supongamos que duplicamos el tamaño de los objetos que ya conocemos (factor de escala $S=2$):
 
-- Si duplicamos el tamaño de un segmento, necesitamos $N = 2$ copias del segmento original para construir el nuevo segmento,
+- si duplicamos el tamaño de un segmento de longitud $\ell$, necesitamos $N = 2$ copias del segmento original para construir el nuevo segmento,
 
 <div class="nn-two-images">
   <figure>
@@ -47,7 +47,7 @@ Supongamos que duplicamos el tamaño de los objetos que ya conocemos (factor de 
 
   <figure>
     <img src="images/linea2.png" alt="Segmento duplicado">
-    <figcaption>Segmento original.</figcaption>
+    <figcaption>Dos copias del segmento original.</figcaption>
   </figure>
 </div>
 
@@ -66,7 +66,7 @@ $$
 
   <figure>
     <img src="images/cuadrado2.png" alt="Cuadrado duplicado">
-    <figcaption>Cuadrado original.</figcaption>
+    <figcaption>Cuatro copias del cuadrado original.</figcaption>
   </figure>
 </div>
 
@@ -80,7 +80,7 @@ $$
 
   <figure>
     <img src="images/cubo2.png" alt="Cubo duplicado">
-    <figcaption>Cubo original.</figcaption>
+    <figcaption>Ocho copias del cubo original.</figcaption>
   </figure>
 </div>
 
@@ -118,7 +118,7 @@ Calculemos ahora su dimensión de similaridad, con la noción que introdujimos a
 
   <figure>
     <img src="images/sierpinski3.png" alt="Triángulo de Sierpinski reescalado">
-    <figcaption>Triángulo de Sierpinski original.</figcaption>
+    <figcaption>Tres copias del triangulo de sierpinski original.</figcaption>
   </figure>
 </div>
 
