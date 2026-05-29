@@ -9,7 +9,7 @@ category: Matemáticas
 tags:
   - matemáticas
   - fractales
-summary: Una línea tiene dimensión 1, un cuadrado dimensión 2 y un cubo dimensión 3. Pero algunos objetos viven entre dimensiones: demasiado rugosos para ser líneas y demasiado vacíos para llenar un plano.
+summary: Una línea tiene dimensión 1. Un cuadrado, dimensión 2. Y un cubo, dimensión 3. Todo parece bastante claro y sencillo. Pero, ¿y si te dijera que existen objetos demasiado rugosos para ser líneas y demasiado vacíos para rellenar un plano? ¿Cuál sería ahora su dimensión? ¿Seguro que las dimensiones son siempre números enteros? ¡Bienvenido al extraño mundo de los fractales! # 1-2 frases cortas para la tarjeta del artículo.
 image: images/mandelbrot_set.png
 ---
 
