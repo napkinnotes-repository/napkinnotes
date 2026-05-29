@@ -42,12 +42,12 @@ Supongamos que duplicamos el tamaño de los objetos que ya conocemos (factor de 
 <div class="nn-two-images">
   <figure>
     <img src="images/linea1.png" alt="Segmento original">
-    <figcaption>Segmento original.</figcaption>
+    <figcaption>Segmento duplicado.</figcaption>
   </figure>
 
   <figure>
     <img src="images/linea2.png" alt="Segmento duplicado">
-    <figcaption>Segmento duplicado.</figcaption>
+    <figcaption>Segmento original.</figcaption>
   </figure>
 </div>
 
@@ -61,12 +61,12 @@ $$
 <div class="nn-two-images nn-two-images--aligned">
   <figure>
     <img src="images/cuadrado1.png" alt="Cuadrado original">
-    <figcaption>Cuadrado original.</figcaption>
+    <figcaption>Cuadrado duplicado.</figcaption>
   </figure>
 
   <figure>
     <img src="images/cuadrado2.png" alt="Cuadrado duplicado">
-    <figcaption>Cuadrado duplicado.</figcaption>
+    <figcaption>Cuadrado original.</figcaption>
   </figure>
 </div>
 
@@ -75,12 +75,12 @@ $$
 <div class="nn-two-images nn-two-images--aligned">
   <figure>
     <img src="images/cubo1.png" alt="Cubo original">
-    <figcaption>Cubo original.</figcaption>
+    <figcaption>Cubo duplicado.</figcaption>
   </figure>
 
   <figure>
     <img src="images/cubo2.png" alt="Cubo duplicado">
-    <figcaption>Cubo duplicado.</figcaption>
+    <figcaption>Cubo original.</figcaption>
   </figure>
 </div>
 
@@ -113,12 +113,12 @@ Calculemos ahora su dimensión de similaridad, con la noción que introdujimos a
 <div class="nn-two-images nn-two-images--aligned">
   <figure>
     <img src="images/sierpinski2.png" alt="Triángulo de Sierpinski original">
-    <figcaption>Triángulo de Sierpinski original.</figcaption>
+    <figcaption>Triángulo de Sierpinski reescalado.</figcaption>
   </figure>
 
   <figure>
     <img src="images/sierpinski3.png" alt="Triángulo de Sierpinski reescalado">
-    <figcaption>Triángulo de Sierpinski reescalado.</figcaption>
+    <figcaption>Triángulo de Sierpinski original.</figcaption>
   </figure>
 </div>
 
@@ -133,7 +133,7 @@ Analicemos otro ejemplo bastante conocido. Partimos de un segmento, que dividimo
 <div class="nn-two-images nn-two-images--aligned">
   <figure>
     <img src="images/koch1.png" alt="Primeras iteraciones de la curva de Koch">
-    <figcaption>Primeras iteraciones de la curva de Koch.</figcaption>
+    <figcaption>La curva de Koch.</figcaption>
   </figure>
 
   <figure>
