@@ -110,7 +110,7 @@ Las matemáticas nos dicen que su dimensión topológica es 1. Esto puede entend
 
 Calculemos ahora su dimensión de similaridad, con la noción que introdujimos antes. 
 
-<div class="nn-two-images">
+<div class="nn-two-images nn-two-images--aligned">
   <figure>
     <img src="images/sierpinski2.png" alt="Triángulo de Sierpinski original">
     <figcaption>Triángulo de Sierpinski original.</figcaption>
@@ -130,7 +130,7 @@ $$
 
 Analicemos otro ejemplo bastante conocido. Partimos de un segmento, que dividimos en tres partes iguales y en el que sustituimos el tercio central por dos lados de un triángulo equilátero. Si repetimos esta operación infinitamente en cada segmento resultante, obtenemos la **curva de Koch**. Al unir tres de estas curvas, obtenemos una figura cerrada que se asemeja a un copo de nieve, es el **copo de nieve de Koch**.
 
-<div class="nn-two-images">
+<div class="nn-two-images nn-two-images--aligned">
   <figure>
     <img src="images/koch1.png" alt="Primeras iteraciones de la curva de Koch">
     <figcaption>Primeras iteraciones de la curva de Koch.</figcaption>
@@ -188,11 +188,7 @@ Si observamos atentamente, vemos que el mundo real es profundamente fractal. La 
         licencia CC BY-SA 4.0.
       </figcaption>
     </figure>
-  </div>
-
-  <figcaption>
-    Fractales en la naturaleza: ramas de los árboles, brócoli romanesco, planta de aloe vera y red cósmica.
-  </figcaption>
+  </div>  
 </figure>
 
 Vivimos rodeados de formas complejas que desafían las dimensiones clásicas y esquivan la geometría euclídea. La próxima vez que mires a tu alrededor, recuerda que la dimensión no sólo no es un número entero, sino que el universo parece decantarse por esos espacios intermedios. 
