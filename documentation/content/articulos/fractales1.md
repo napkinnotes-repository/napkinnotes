@@ -58,7 +58,7 @@ $$
 
 - Si duplicamos los lados de un cuadrado, su área se multiplica por 4, y necesitaríamos $N = 4$ copias del cuadrado original para reconstruir el cuadrado reescalado, cumpliéndose que $4 = 2^2$.
 
-<div class="nn-two-images">
+<div class="nn-two-images nn-two-images--aligned">
   <figure>
     <img src="images/cuadrado1.png" alt="Cuadrado original">
     <figcaption>Cuadrado original.</figcaption>
@@ -72,7 +72,7 @@ $$
 
 - Análogamente, si duplicamos los lados de un cubo, necesitamos $N = 8$ cubos originales para formar el nuevo cubo, tal que $8 = 2^3$.
 
-<div class="nn-two-images">
+<div class="nn-two-images nn-two-images--aligned">
   <figure>
     <img src="images/cubo1.png" alt="Cubo original">
     <figcaption>Cubo original.</figcaption>
