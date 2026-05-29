@@ -4779,37 +4779,43 @@ a.nn-squad-hero__metric {
     pointer-events: none;
   }
 }
-/* Ajuste desktop: caricaturas extremas más cerca de la central */
+/* Ajuste desktop: carrusel de caricaturas equilibrado */
 
 @media (min-width: 981px) {
   .nn-about-mobile-plumes {
     max-width: 680px;
   }
 
+  /* Laterales inmediatas: un poco más separadas de la principal */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev {
-    transform: translate(calc(-50% - 95px), -50%) scale(0.60);
+    transform: translate(calc(-50% - 132px), -50%) scale(0.56);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next {
-    transform: translate(calc(-50% + 95px), -50%) scale(0.60);
+    transform: translate(calc(-50% + 132px), -50%) scale(0.56);
   }
 
+  /* Segundas laterales */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-2 {
-    transform: translate(calc(-50% - 165px), -50%) scale(0.45);
+    transform: translate(calc(-50% - 190px), -50%) scale(0.43);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-2 {
-    transform: translate(calc(-50% + 165px), -50%) scale(0.45);
+    transform: translate(calc(-50% + 190px), -50%) scale(0.43);
   }
 
+  /* Extremas */
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-prev-3 {
-    transform: translate(calc(-50% - 225px), -50%) scale(0.35);
+    transform: translate(calc(-50% - 242px), -50%) scale(0.34);
   }
 
   .nn-about-mobile-plumes .nn-mini-author-carousel__item.is-next-3 {
-    transform: translate(calc(-50% + 225px), -50%) scale(0.35);
+    transform: translate(calc(-50% + 242px), -50%) scale(0.34);
   }
 }
+
+/* Móvil: solo 3 visibles */
+
 @media (max-width: 640px) {
   .nn-mini-author-carousel__item.is-prev-2,
   .nn-mini-author-carousel__item.is-next-2,
