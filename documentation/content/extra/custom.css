@@ -4890,38 +4890,39 @@ a.nn-archives-hero__metric {
 
 @media (max-width: 520px) {
   .nn-archives-hero__inner--with-metrics {
-    grid-template-columns: minmax(0, 1fr) 72px;
-    gap: 10px;
+    grid-template-columns: minmax(0, 1fr) 58px;
+    gap: 8px;
     align-items: start;
   }
 
   .nn-archives-hero__metrics {
     grid-template-columns: 1fr;
-    gap: 5px;
-    width: 72px;
-    min-width: 72px;
+    gap: 4px;
+    width: 58px;
+    min-width: 58px;
+    margin-top: 50px;
   }
 
   .nn-archives-hero__metric {
     min-width: 0;
-    min-height: 40px;
-    padding: 5px 4px;
-    border-radius: 11px;
+    min-height: 31px;
+    padding: 3px 3px 4px;
+    border-radius: 9px;
   }
 
   .nn-archives-hero__metric strong {
     height: auto;
-    font-size: 1.18rem;
-    line-height: 1;
+    font-size: 0.98rem;
+    line-height: 0.95;
     transform: none;
   }
 
   .nn-archives-hero__metric span {
     max-width: 100%;
     min-width: 0;
-    margin-top: 2px;
-    font-size: 0.39rem;
-    letter-spacing: 0.025em;
+    margin-top: 1px;
+    font-size: 0.34rem;
+    letter-spacing: 0.015em;
     line-height: 1;
     white-space: normal;
     overflow-wrap: anywhere;
