@@ -25,8 +25,6 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
 {% endblock meta_tags_in_head %}
 
 {% block content %}
-{% from '_includes/_defaults.html' import ARCHIVES_URL, EXPLORAR_URL, NOSOTROS_URL with context %}
-
 <div class="container-archives">
 
   <section class="nn-archives-hero">
@@ -41,7 +39,7 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
 
       <div class="nn-archives-hero__metrics" aria-label="Métricas de Napkin Notes">
         <a class="nn-archives-hero__metric nn-archives-hero__metric--link"
-           href="{{ SITEURL }}/{{ NOSOTROS_URL }}"
+           href="{{ SITEURL }}/nosotros/"
            aria-label="Ver autores">
           <strong>{{ AUTHORS|length }}</strong>
           <span>autores</span>
@@ -53,7 +51,7 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
         </div>
 
         <a class="nn-archives-hero__metric nn-archives-hero__metric--link"
-           href="{{ SITEURL }}/{{ EXPLORAR_URL }}"
+           href="{{ SITEURL }}/explorar/"
            aria-label="Explorar categorías y tags">
           <strong>{{ categories|length }}</strong>
           <span>categorías</span>
