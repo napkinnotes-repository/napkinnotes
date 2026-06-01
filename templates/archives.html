@@ -89,7 +89,7 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
 
           <div class="card-meta">
             {% if article.category %}{{ article.category }} • {% endif %}
-            <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+            <time datetime="{{ article.date.isoformat() }}">{{ article.date|fecha_es }}</time>
           </div>
 
           {% if article.summary %}
