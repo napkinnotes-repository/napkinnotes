@@ -1,5 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-05-29T00:00:00+02:00</updated><entry><title>La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales?</title><link href="https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales" rel="alternate"/><published>2026-05-29T00:00:00+02:00</published><updated>2026-05-29T00:00:00+02:00</updated><author><name>Paz Albares Vicente</name></author><id>tag:napkinnotes.es,2026-05-29:/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales</id><summary type="html">&lt;p&gt;Una línea tiene dimensión 1. Un cuadrado, dimensión 2. Y un cubo, dimensión 3. Todo parece bastante claro y sencillo. Pero, ¿y si te dijera que existen objetos demasiado rugosos para ser líneas y demasiado vacíos para rellenar un plano? ¿Cuál sería ahora su dimensión? ¿Seguro que las dimensiones son siempre números enteros? ¡Bienvenido al extraño mundo de los&amp;nbsp;fractales!&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-06-04T00:00:00+02:00</updated><entry><title>El poder de la catenaria</title><link href="https://napkinnotes.es/el-poder-de-la-catenaria" rel="alternate"/><published>2026-06-04T00:00:00+02:00</published><updated>2026-06-04T00:00:00+02:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-06-04:/el-poder-de-la-catenaria</id><summary type="html">&lt;p&gt;Una cadena suspendida, una iglesia románica y la arquitectura de Gaudí comparten una misma curva: la catenaria. En esta servilleta exploramos por qué esta forma es la aliada perfecta de los arcos que quieren sostenerse sin venirse&amp;nbsp;abajo.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#el-problema-del-arco"&gt;El problema del arco&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#la-ecuacion-de-la-catenaria"&gt;La ecuación de la&amp;nbsp;catenaria&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-arco-catenario-es-tu-mejor-amigo"&gt;El arco catenario es tu mejor&amp;nbsp;amigo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#que-tienen-en-comun-gaudi-una-liana-y-el-cable-del-tendido-electrico"&gt;Qué tienen en común Gaudí, una liana y el cable del tendido&amp;nbsp;eléctrico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="el-problema-del-arco"&gt;El problema del arco&lt;a class="headerlink" href="#el-problema-del-arco" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Imagina que eres un arquitecto en el siglo X y has sido encargado de diseñar un arco para la bóveda de la iglesia de tu ciudad. Lo más probable es que la primera idea que se te venga a la cabeza sea un semicírculo. Pero como la vida es difícil en la era románica, se requiere que la estructura sea lo más eficiente posible para ahorrar piedra de la cantera. Por lo que te planteas la siguiente pregunta: ¿Cuál es la geometría óptima para un arco que sujeta únicamente su propio&amp;nbsp;peso?&lt;/p&gt;
+&lt;p&gt;Resulta que allá por 1691 los matemáticos Gottfried Leibniz, Christiaan Huygens y Johann Bernoulli dedujeron matemáticamente la ecuación que satisface una cadena o cuerda suspendida por ambos extremos en un campo gravitatorio uniforme. A esta curva ideal la llamaron &lt;em&gt;catenaria&lt;/em&gt;, palabra proveniente del latín &lt;em&gt;catenarius&lt;/em&gt;, ‘propio de la&amp;nbsp;cadena’. &lt;/p&gt;
+&lt;h3 id="la-ecuacion-de-la-catenaria"&gt;La ecuación de la catenaria&lt;a class="headerlink" href="#la-ecuacion-de-la-catenaria" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Si queremos deducir la ecuación diferencial de la catenaria, simplemente tenemos que aplicar el equilibrio de fuerzas a una porción infinitesimal de una&amp;nbsp;cuerda &lt;span class="math"&gt;\( [s, s + \Delta s ]\)&lt;/span&gt;. Dicho elemento está sometido a tres fuerzas: su peso y las tensiones con las que la cadena tira de sus extremos.&amp;nbsp;Explícitamente:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\begin{aligned}
+T(s+\Delta s)\cos \alpha(s+\Delta s) - T(s)\cos \alpha(s) &amp;amp;= 0 \;, \\
+T(s+\Delta s)\sin \alpha(s+\Delta s) - T(s)\sin \alpha(s) &amp;amp;= \rho g \Delta s \;,
+\end{aligned}
+$$&lt;/div&gt;
+&lt;p&gt;
+donde &lt;span class="math"&gt;\(\alpha\)&lt;/span&gt; es el ángulo formado por la catenaria y el eje&amp;nbsp;horizontal, &lt;span class="math"&gt;\(T\)&lt;/span&gt; es el módulo de la fuerza de tensión en cada punto&amp;nbsp;y &lt;span class="math"&gt;\(\rho\)&lt;/span&gt; es el peso por unidad de&amp;nbsp;longitud. &lt;/p&gt;
+&lt;p&gt;Si hacemos&amp;nbsp;tender &lt;span class="math"&gt;\(\Delta s \to 0\)&lt;/span&gt;, obtenemos&amp;nbsp;que
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\frac{d (T \text{cos} \alpha)}{ds}=0, \qquad \frac{d (T \text{sen} \alpha)}{ds}=\rho g \;.
+$$&lt;/div&gt;
+&lt;p&gt;
+La primera de las condiciones nos dice que la tensión horizontal es&amp;nbsp;constante &lt;span class="math"&gt;\(T_H\equiv T\text{cos}\alpha = cte\)&lt;/span&gt;. Sustituyendo esta expresión en la segunda condición, obtenemos la ecuación para el ángulo que forma la catenaria y la&amp;nbsp;horizontal:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+d \text{tan}\alpha(s)=\frac{\rho g}{T_H} ds \;.
+$$&lt;/div&gt;
+&lt;p&gt;
+Recordando la relación de la&amp;nbsp;tangente &lt;span class="math"&gt;\(\text{tan}\alpha = \frac{dy}{dx}\)&lt;/span&gt; y la longitud de&amp;nbsp;arco &lt;span class="math"&gt;\(ds=\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx\)&lt;/span&gt;, obtenemos la ecuación diferencial de la&amp;nbsp;catenaria:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\frac{dy}{dx}=\frac{\rho g}{T_H}\int^x_{x_0}\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx \;,
+$$&lt;/div&gt;
+&lt;p&gt;
+cuya solución viene dada&amp;nbsp;por
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+y=a\text{cosh}\left(\frac{x}{a}\right) \;.
+$$&lt;/div&gt;
+&lt;p&gt;
+En la solución anterior hemos agrupado las&amp;nbsp;constantes &lt;span class="math"&gt;\(a\equiv \frac{T_H}{\rho g}\)&lt;/span&gt; y establecido como punto de&amp;nbsp;referencia &lt;span class="math"&gt;\(\left(0,a\right)\)&lt;/span&gt;. En la siguiente figura he representado tres diferentes catenarias y una parábola (curva negra), para que podáis ver la diferencia entre estas&amp;nbsp;curvas.&lt;/p&gt;
+&lt;!-- AQUÍ INSERTAR FIGURA GRÁFICAS--&gt;
+&lt;figure class="nn-article-figure nn-article-figure--desktop-small"&gt;
+  &lt;img src="https://napkinnotes.es/images/geogebra-export.png" alt="Tres catenarias y una parábola"&gt;
+  &lt;figcaption&gt;Tres catenarias y una parábola.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id="el-arco-catenario-es-tu-mejor-amigo"&gt;El arco catenario es tu mejor amigo&lt;a class="headerlink" href="#el-arco-catenario-es-tu-mejor-amigo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Bueno vale, todo esto está muy bien. Pero, ¿qué tiene que ver la catenaria con mi problema del arco? Pues resulta que si tomas una catenaria y la colocas boca abajo, formas un arco llamado arco catenario. Y, ¿a que no sabes qué? Es la curva que describe la geometría óptima de un arco que soporta su propio&amp;nbsp;peso. &lt;/p&gt;
+&lt;p&gt;Si trazamos el recorrido que hacen las fuerzas dentro de un arco de piedra, veremos que la curva resultante es una catenaria invertida. Por tanto, podemos colocar nuestro material siguiendo esta forma sabiendo que no se caerá, empleando la cantidad óptima de piedra para tener un arco&amp;nbsp;estable.&lt;/p&gt;
+&lt;p&gt;Esto ya lo descubrió el pobre Robert Hooke en el siglo &lt;span class="caps"&gt;XVII&lt;/span&gt; (digo pobre porque no se le hizo mucho caso), y se ha utilizado en numerosas ocasiones a lo largo de la&amp;nbsp;historia.&lt;/p&gt;
+&lt;!-- AQUÍ INSERTAR FIGURA ESTRUCTURA--&gt;
+&lt;figure class="nn-article-figure nn-article-figure--desktop-small"&gt;
+  &lt;img src="https://napkinnotes.es/images/figura_estudio.png" alt="Estudio de equilibrio basado en la curva catenaria de G. Poleni, 1748"&gt;
+  &lt;figcaption&gt;Estudio de equilibrio basado en la curva catenaria de G. Poleni, 1748.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;!-- Fin de Seccion--&gt;
+
+&lt;h2 id="que-tienen-en-comun-gaudi-una-liana-y-el-cable-del-tendido-electrico"&gt;Qué tienen en común Gaudí, una liana y el cable del tendido eléctrico&lt;a class="headerlink" href="#que-tienen-en-comun-gaudi-una-liana-y-el-cable-del-tendido-electrico" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Ahora que sabes que son las catenarias y los arcos catenarios, no vas a dejar de verlos en todos lados. Por ejemplo, podemos encontrar catenarias en la naturaleza, como en las lianas y en las telas de araña, y también en los cables del tendido eléctrico, en la línea de cercanías Madrid-Aranjuez&amp;nbsp;…&lt;/p&gt;
+&lt;!-- AQUÍ INSERTAR FIGURAS CATENARIAS--&gt;
+&lt;div class="nn-two-images"&gt;
+  &lt;figure&gt;
+    &lt;img src="https://napkinnotes.es/images/naturaleza.webp" alt="Catenarias en la naturaleza"&gt;
+    &lt;figcaption&gt;Catenarias en la naturaleza.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure&gt;
+    &lt;img src="https://napkinnotes.es/images/mascatenarias.webp" alt="Situaciones cotidianas en las que encontramos catenarias"&gt;
+    &lt;figcaption&gt;Situaciones cotidianas en las que encontramos catenarias.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Los arcos catenarios han sido utilizados intuitivamente desde la antigüedad. Los encontramos en los iglúes, catedrales, bóvedas del antiguo Egipto… Mirad cómo en este monumento persa de muchísimos años de antigüedad, ¡prácticamente sólo permanece en pie el arco&amp;nbsp;catenario!&lt;/p&gt;
+&lt;!-- AQUÍ INSERTAR FIGURA IGLU Y ARCO IRAK Y GAUDÍ--&gt;
+&lt;figure class="nn-article-figure nn-article-figure--small"&gt;
+  &lt;img src="https://napkinnotes.es/images/iguGaudi.webp" alt="Un iglú, el Taq-i Kisra y la Casa Milà"&gt;
+  &lt;figcaption&gt;Un iglú, el Taq-i Kisra y la Casa Milà.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Tenemos también numerosos ejemplos del uso del arco catenario en la arquitectura moderna, pero el mayor fan de este arco era el arquitecto Gaudí. Éste diseñaba sus edificios mediante maquetas colgantes hechas por hilos y pesos a las que después daba la vuelta. Así, encontramos muchísimos arcos catenarios en la obra de Gaudí: en la Casa Milà, la Sagrada Familia, la Casa&amp;nbsp;Batlló… &lt;/p&gt;
+&lt;p&gt;Os invito a que investiguéis sobre el proceso de creación de Gaudí y busquéis más ejemplos del uso del arco catenario. Por ahora, podemos sentirnos satisfechos de haber resuelto el problema del arco óptimo. Nuestra iglesia no se caerá encima de nuestras cabezas. Y para finalizar os planteo la siguiente pregunta: ¿Cuál es la geometría óptima para un arco que además de su propio peso sostiene un peso uniforme? Sabremos la respuesta en la próxima&amp;nbsp;servilleta.&lt;/p&gt;
+&lt;!-- Fin de Seccion--&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Arquitectura"/><category term="física"/><category term="geometría"/></entry><entry><title>La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales?</title><link href="https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales" rel="alternate"/><published>2026-05-29T00:00:00+02:00</published><updated>2026-05-29T00:00:00+02:00</updated><author><name>Paz Albares Vicente</name></author><id>tag:napkinnotes.es,2026-05-29:/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales</id><summary type="html">&lt;p&gt;Una línea tiene dimensión 1. Un cuadrado, dimensión 2. Y un cubo, dimensión 3. Todo parece bastante claro y sencillo. Pero, ¿y si te dijera que existen objetos demasiado rugosos para ser líneas y demasiado vacíos para rellenar un plano? ¿Cuál sería ahora su dimensión? ¿Seguro que las dimensiones son siempre números enteros? ¡Bienvenido al extraño mundo de los&amp;nbsp;fractales!&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#la-dimension-es-una-idea-razonable"&gt;La dimensión es una idea&amp;nbsp;razonable&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#el-arte-de-fotocopiar-y-cambiar-de-escala"&gt;El arte de fotocopiar y cambiar de&amp;nbsp;escala&lt;/a&gt;&lt;/li&gt;
@@ -592,158 +743,7 @@ En silencio. Inevitablemente.
 &lt;hr /&gt;
 &lt;h2 id="tu-arcoiris-es-solo-tuyo"&gt;Tu arcoíris es sólo tuyo&lt;a class="headerlink" href="#tu-arcoiris-es-solo-tuyo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;¿Pero por qué decía yo al principio que cada persona ve su propio arcoíris? Porque ese ángulo de 42 grados se mide desde tus ojos. Muévete un poco hacia la izquierda, y tu arcoíris se desplaza. Alguien que está cerca tiene su propio cono de luz de 42 grados, recibiendo la luz que regresa un conjunto ligeramente distinto de gotas de lluvia. Así que aunque parezca que ambos observan el mismo arcoíris, en realidad estáis viendo la luz refractada por distintas colecciones de&amp;nbsp;gotas.&lt;/p&gt;
-&lt;p&gt;Así que la próxima vez que veas uno, recuerda que no es sólo un arcoíris en el cielo, es un mensaje personal del universo dibujado usando tu posición, tu ángulo, tu momento. Mismo Sol, misma lluvia; pero, ¿tu arcoíris?, completamente tuyo&amp;nbsp;🌈.&lt;/p&gt;</content><category term="Física cotidiana"/><category term="física"/><category term="óptica"/><category term="arcoíris"/></entry><entry><title>El poder de la catenaria</title><link href="https://napkinnotes.es/el-poder-de-la-catenaria" rel="alternate"/><published>2026-05-26T00:00:00+02:00</published><updated>2026-05-26T00:00:00+02:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-05-26:/el-poder-de-la-catenaria</id><summary type="html">&lt;p&gt;Una cadena suspendida, una iglesia románica y la arquitectura de Gaudí comparten una misma curva: la catenaria. En esta servilleta exploramos por qué esta forma es la aliada perfecta de los arcos que quieren sostenerse sin venirse&amp;nbsp;abajo.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#el-problema-del-arco"&gt;El problema del arco&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#la-ecuacion-de-la-catenaria"&gt;La ecuación de la&amp;nbsp;catenaria&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#el-arco-catenario-es-tu-mejor-amigo"&gt;El arco catenario es tu mejor&amp;nbsp;amigo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#que-tienen-en-comun-gaudi-una-liana-y-el-cable-del-tendido-electrico"&gt;Qué tienen en común Gaudí, una liana y el cable del tendido&amp;nbsp;eléctrico&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h2 id="el-problema-del-arco"&gt;El problema del arco&lt;a class="headerlink" href="#el-problema-del-arco" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Imagina que eres un arquitecto en el siglo X y has sido encargado de diseñar un arco para la bóveda de la iglesia de tu ciudad. Lo más probable es que la primera idea que se te venga a la cabeza sea un semicírculo. Pero como la vida es difícil en la era románica, se requiere que la estructura sea lo más eficiente posible para ahorrar piedra de la cantera. Por lo que te planteas la siguiente pregunta: ¿Cuál es la geometría óptima para un arco que sujeta únicamente su propio&amp;nbsp;peso?&lt;/p&gt;
-&lt;p&gt;Resulta que allá por 1691 los matemáticos Gottfried Leibniz, Christiaan Huygens y Johann Bernoulli dedujeron matemáticamente la ecuación que satisface una cadena o cuerda suspendida por ambos extremos en un campo gravitatorio uniforme. A esta curva ideal la llamaron &lt;em&gt;catenaria&lt;/em&gt;, palabra proveniente del latín &lt;em&gt;catenarius&lt;/em&gt;, ‘propio de la&amp;nbsp;cadena’. &lt;/p&gt;
-&lt;h3 id="la-ecuacion-de-la-catenaria"&gt;La ecuación de la catenaria&lt;a class="headerlink" href="#la-ecuacion-de-la-catenaria" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Si queremos deducir la ecuación diferencial de la catenaria, simplemente tenemos que aplicar el equilibrio de fuerzas a una porción infinitesimal de una&amp;nbsp;cuerda &lt;span class="math"&gt;\( [s, s + \Delta s ]\)&lt;/span&gt;. Dicho elemento está sometido a tres fuerzas: su peso y las tensiones con las que la cadena tira de sus extremos.&amp;nbsp;Explícitamente:
-&lt;/p&gt;
-&lt;div class="math"&gt;$$
-\begin{aligned}
-T(s+\Delta s)\cos \alpha(s+\Delta s) - T(s)\cos \alpha(s) &amp;amp;= 0 \;, \\
-T(s+\Delta s)\sin \alpha(s+\Delta s) - T(s)\sin \alpha(s) &amp;amp;= \rho g \Delta s \;,
-\end{aligned}
-$$&lt;/div&gt;
-&lt;p&gt;
-donde &lt;span class="math"&gt;\(\alpha\)&lt;/span&gt; es el ángulo formado por la catenaria y el eje&amp;nbsp;horizontal, &lt;span class="math"&gt;\(T\)&lt;/span&gt; es el módulo de la fuerza de tensión en cada punto&amp;nbsp;y &lt;span class="math"&gt;\(\rho\)&lt;/span&gt; es el peso por unidad de&amp;nbsp;longitud. &lt;/p&gt;
-&lt;p&gt;Si hacemos&amp;nbsp;tender &lt;span class="math"&gt;\(\Delta s \to 0\)&lt;/span&gt;, obtenemos&amp;nbsp;que
-&lt;/p&gt;
-&lt;div class="math"&gt;$$
-\frac{d (T \text{cos} \alpha)}{ds}=0, \qquad \frac{d (T \text{sen} \alpha)}{ds}=\rho g \;.
-$$&lt;/div&gt;
-&lt;p&gt;
-La primera de las condiciones nos dice que la tensión horizontal es&amp;nbsp;constante &lt;span class="math"&gt;\(T_H\equiv T\text{cos}\alpha = cte\)&lt;/span&gt;. Sustituyendo esta expresión en la segunda condición, obtenemos la ecuación para el ángulo que forma la catenaria y la&amp;nbsp;horizontal:
-&lt;/p&gt;
-&lt;div class="math"&gt;$$
-d \text{tan}\alpha(s)=\frac{\rho g}{T_H} ds \;.
-$$&lt;/div&gt;
-&lt;p&gt;
-Recordando la relación de la&amp;nbsp;tangente &lt;span class="math"&gt;\(\text{tan}\alpha = \frac{dy}{dx}\)&lt;/span&gt; y la longitud de&amp;nbsp;arco &lt;span class="math"&gt;\(ds=\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx\)&lt;/span&gt;, obtenemos la ecuación diferencial de la&amp;nbsp;catenaria:
-&lt;/p&gt;
-&lt;div class="math"&gt;$$
-\frac{dy}{dx}=\frac{\rho g}{T_H}\int^x_{x_0}\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx \;,
-$$&lt;/div&gt;
-&lt;p&gt;
-cuya solución viene dada&amp;nbsp;por
-&lt;/p&gt;
-&lt;div class="math"&gt;$$
-y=a\text{cosh}\left(\frac{x}{a}\right) \;.
-$$&lt;/div&gt;
-&lt;p&gt;
-En la solución anterior hemos agrupado las&amp;nbsp;constantes &lt;span class="math"&gt;\(a\equiv \frac{T_H}{\rho g}\)&lt;/span&gt; y establecido como punto de&amp;nbsp;referencia &lt;span class="math"&gt;\(\left(0,a\right)\)&lt;/span&gt;. En la siguiente figura he representado tres diferentes catenarias y una parábola (curva negra), para que podáis ver la diferencia entre estas&amp;nbsp;curvas.&lt;/p&gt;
-&lt;!-- AQUÍ INSERTAR FIGURA GRÁFICAS--&gt;
-&lt;figure class="nn-article-figure nn-article-figure--desktop-small"&gt;
-  &lt;img src="https://napkinnotes.es/images/geogebra-export.png" alt="Tres catenarias y una parábola"&gt;
-  &lt;figcaption&gt;Tres catenarias y una parábola.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2 id="el-arco-catenario-es-tu-mejor-amigo"&gt;El arco catenario es tu mejor amigo&lt;a class="headerlink" href="#el-arco-catenario-es-tu-mejor-amigo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Bueno vale, todo esto está muy bien. Pero, ¿qué tiene que ver la catenaria con mi problema del arco? Pues resulta que si tomas una catenaria y la colocas boca abajo, formas un arco llamado arco catenario. Y, ¿a que no sabes qué? Es la curva que describe la geometría óptima de un arco que soporta su propio&amp;nbsp;peso. &lt;/p&gt;
-&lt;p&gt;Si trazamos el recorrido que hacen las fuerzas dentro de un arco de piedra, veremos que la curva resultante es una catenaria invertida. Por tanto, podemos colocar nuestro material siguiendo esta forma sabiendo que no se caerá, empleando la cantidad óptima de piedra para tener un arco&amp;nbsp;estable.&lt;/p&gt;
-&lt;p&gt;Esto ya lo descubrió el pobre Robert Hooke en el siglo &lt;span class="caps"&gt;XVII&lt;/span&gt; (digo pobre porque no se le hizo mucho caso), y se ha utilizado en numerosas ocasiones a lo largo de la&amp;nbsp;historia.&lt;/p&gt;
-&lt;!-- AQUÍ INSERTAR FIGURA ESTRUCTURA--&gt;
-&lt;figure class="nn-article-figure nn-article-figure--desktop-small"&gt;
-  &lt;img src="https://napkinnotes.es/images/figura_estudio.png" alt="Estudio de equilibrio basado en la curva catenaria de G. Poleni, 1748"&gt;
-  &lt;figcaption&gt;Estudio de equilibrio basado en la curva catenaria de G. Poleni, 1748.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;!-- Fin de Seccion--&gt;
-
-&lt;h2 id="que-tienen-en-comun-gaudi-una-liana-y-el-cable-del-tendido-electrico"&gt;Qué tienen en común Gaudí, una liana y el cable del tendido eléctrico&lt;a class="headerlink" href="#que-tienen-en-comun-gaudi-una-liana-y-el-cable-del-tendido-electrico" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Ahora que sabes que son las catenarias y los arcos catenarios, no vas a dejar de verlos en todos lados. Por ejemplo, podemos encontrar catenarias en la naturaleza, como en las lianas y en las telas de araña, y también en los cables del tendido eléctrico, en la línea de cercanías Madrid-Aranjuez&amp;nbsp;…&lt;/p&gt;
-&lt;!-- AQUÍ INSERTAR FIGURAS CATENARIAS--&gt;
-&lt;div class="nn-two-images"&gt;
-  &lt;figure&gt;
-    &lt;img src="https://napkinnotes.es/images/naturaleza.webp" alt="Catenarias en la naturaleza"&gt;
-    &lt;figcaption&gt;Catenarias en la naturaleza.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-
-  &lt;figure&gt;
-    &lt;img src="https://napkinnotes.es/images/mascatenarias.webp" alt="Situaciones cotidianas en las que encontramos catenarias"&gt;
-    &lt;figcaption&gt;Situaciones cotidianas en las que encontramos catenarias.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Los arcos catenarios han sido utilizados intuitivamente desde la antigüedad. Los encontramos en los iglúes, catedrales, bóvedas del antiguo Egipto… Mirad cómo en este monumento persa de muchísimos años de antigüedad, ¡prácticamente sólo permanece en pie el arco&amp;nbsp;catenario!&lt;/p&gt;
-&lt;!-- AQUÍ INSERTAR FIGURA IGLU Y ARCO IRAK Y GAUDÍ--&gt;
-&lt;figure class="nn-article-figure nn-article-figure--small"&gt;
-  &lt;img src="https://napkinnotes.es/images/iguGaudi.webp" alt="Un iglú, el Taq-i Kisra y la Casa Milà"&gt;
-  &lt;figcaption&gt;Un iglú, el Taq-i Kisra y la Casa Milà.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Tenemos también numerosos ejemplos del uso del arco catenario en la arquitectura moderna, pero el mayor fan de este arco era el arquitecto Gaudí. Éste diseñaba sus edificios mediante maquetas colgantes hechas por hilos y pesos a las que después daba la vuelta. Así, encontramos muchísimos arcos catenarios en la obra de Gaudí: en la Casa Milà, la Sagrada Familia, la Casa&amp;nbsp;Batlló… &lt;/p&gt;
-&lt;p&gt;Os invito a que investiguéis sobre el proceso de creación de Gaudí y busquéis más ejemplos del uso del arco catenario. Por ahora, podemos sentirnos satisfechos de haber resuelto el problema del arco óptimo. Nuestra iglesia no se caerá encima de nuestras cabezas. Y para finalizar os planteo la siguiente pregunta: ¿Cuál es la geometría óptima para un arco que además de su propio peso sostiene un peso uniforme? Sabremos la respuesta en la próxima&amp;nbsp;servilleta.&lt;/p&gt;
-&lt;!-- Fin de Seccion--&gt;
-
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-
-    var configscript = document.createElement('script');
-    configscript.type = 'text/x-mathjax-config';
-    configscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        availableFonts: ['STIX', 'TeX']," +
-        "        preferredFont: 'STIX'," +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</content><category term="Arquitectura"/><category term="física"/><category term="geometría"/></entry><entry><title>El pintor y la trompeta</title><link href="https://napkinnotes.es/el-pintor-y-la-trompeta" rel="alternate"/><published>2026-05-21T00:00:00+02:00</published><updated>2026-05-21T00:00:00+02:00</updated><author><name>David Figueruelo Hernán</name></author><id>tag:napkinnotes.es,2026-05-21:/el-pintor-y-la-trompeta</id><summary type="html">&lt;p&gt;Un hombre trajeado aparece en tu taller con una trompeta de vidrio transparente que se estrecha sin terminar nunca y una condición, su superficie debe verse completamente roja&amp;#8230; Lo que parece un encargo extraño acaba revelando una lección sobre el&amp;nbsp;infinito.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Así que la próxima vez que veas uno, recuerda que no es sólo un arcoíris en el cielo, es un mensaje personal del universo dibujado usando tu posición, tu ángulo, tu momento. Mismo Sol, misma lluvia; pero, ¿tu arcoíris?, completamente tuyo&amp;nbsp;🌈.&lt;/p&gt;</content><category term="Física cotidiana"/><category term="física"/><category term="óptica"/><category term="arcoíris"/></entry><entry><title>El pintor y la trompeta</title><link href="https://napkinnotes.es/el-pintor-y-la-trompeta" rel="alternate"/><published>2026-05-21T00:00:00+02:00</published><updated>2026-05-21T00:00:00+02:00</updated><author><name>David Figueruelo Hernán</name></author><id>tag:napkinnotes.es,2026-05-21:/el-pintor-y-la-trompeta</id><summary type="html">&lt;p&gt;Un hombre trajeado aparece en tu taller con una trompeta de vidrio transparente que se estrecha sin terminar nunca y una condición, su superficie debe verse completamente roja&amp;#8230; Lo que parece un encargo extraño acaba revelando una lección sobre el&amp;nbsp;infinito.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#el-encargo"&gt;El&amp;nbsp;encargo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#matematicas-y-otras-preguntas"&gt;Matématicas y otras&amp;nbsp;preguntas&lt;/a&gt;&lt;/li&gt;
