@@ -1,7 +1,7 @@
 ---
 title: "La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales?" # vuestro título
 author: Paz Albares Vicente # mismo nombre que en la tarjeta de autor
-date: 2026-05-29 # formato YYYY-MM-DD
+date: 2026-06-04 # formato YYYY-MM-DD
 layout: articles
 status: published # published si ya está listo
 category: Matemáticas # categoría con mayúscula inicial
