@@ -1003,35 +1003,82 @@ footer a,
 .nn-article-sidebar .nn-sticky-card {
   position: static;
 }
-/* Contador compacto en banner de artículo */
+/* Contador en banner de artículo: mismo estilo que Nosotros, compacto en móvil */
 
 .nn-article-hero__inner--with-metrics {
+  position: relative;
+  overflow: hidden;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 26px;
-  align-items: start;
+  gap: 28px;
+  align-items: center;
+  padding: 24px 40px !important;
+  border-radius: 28px !important;
+  background:
+    linear-gradient(135deg, rgba(149, 11, 14, 0.96) 0%, rgba(97, 9, 11, 0.96) 100%) !important;
+  color: var(--satinsheengold) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+.nn-article-hero__inner--with-metrics::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at top right, rgba(196, 154, 102, 0.22), transparent 30%),
+    radial-gradient(circle at bottom left, rgba(255, 255, 255, 0.06), transparent 28%);
+}
+
+.nn-article-hero__content,
+.nn-article-hero__metrics {
+  position: relative;
+  z-index: 1;
 }
 
 .nn-article-hero__content {
   min-width: 0;
 }
 
+.nn-article-hero__inner--with-metrics .nn-article-hero__meta,
+.nn-article-hero__inner--with-metrics .nn-article-hero__category,
+.nn-article-hero__inner--with-metrics .nn-article-hero__dot,
+.nn-article-hero__inner--with-metrics time,
+.nn-article-hero__inner--with-metrics .nn-article-hero__title,
+.nn-article-hero__inner--with-metrics .nn-article-hero__title a,
+.nn-article-hero__inner--with-metrics .nn-article-hero__subtitle,
+.nn-article-hero__inner--with-metrics .nn-article-hero__summary {
+  color: var(--satinsheengold) !important;
+}
+
+.nn-article-hero__inner--with-metrics .nn-article-hero__meta,
+.nn-article-hero__inner--with-metrics .nn-article-hero__subtitle,
+.nn-article-hero__inner--with-metrics .nn-article-hero__summary {
+  color: rgba(196, 154, 102, 0.95) !important;
+}
+
+.nn-article-hero__inner--with-metrics .nn-article-hero__title {
+  margin: 0 0 10px;
+  font-size: clamp(2.5rem, 4.5vw, 3.9rem);
+  line-height: 1;
+}
+
 .nn-article-hero__metrics {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 9px;
-  width: 92px;
-  margin-top: 4px;
+  grid-template-columns: repeat(3, 96px);
+  gap: 10px;
+  align-items: stretch;
 }
 
 .nn-article-hero__metric {
   display: grid;
-  justify-items: center;
+  grid-template-rows: 1fr auto;
   align-items: center;
-  min-height: 68px;
-  padding: 9px 8px;
+  justify-items: center;
+  min-height: 82px;
+  padding: 12px 10px;
   border: 1px solid rgba(196, 154, 102, 0.32);
-  border-radius: 16px;
+  border-radius: 18px;
   background: rgba(255, 253, 249, 0.08);
   color: var(--satinsheengold);
   text-align: center;
@@ -1051,52 +1098,128 @@ footer a,
 }
 
 .nn-article-hero__metric strong {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 44px;
+  margin: 0;
   color: var(--satinsheengold);
   font-family: "Cormorant Garamond", serif;
-  font-size: 2rem;
+  font-size: 2.45rem;
   font-weight: 700;
   line-height: 1;
+  font-variant-numeric: lining-nums tabular-nums;
+  transform: translateY(1px);
 }
-@media (max-width: 760px) {
+
+.nn-article-hero__metric span {
+  display: block;
+  margin-top: 8px;
+  color: rgba(196, 154, 102, 0.9);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media (max-width: 980px) {
   .nn-article-hero__inner--with-metrics {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) auto;
     gap: 14px;
+    align-items: start;
+    padding: 20px 18px !important;
+    border-radius: 20px !important;
+  }
+
+  .nn-article-hero__inner--with-metrics .nn-article-hero__meta {
+    margin-bottom: 8px;
+    font-size: 0.78rem;
+    line-height: 1.25;
+  }
+
+  .nn-article-hero__inner--with-metrics .nn-article-hero__title {
+    margin-bottom: 8px;
+    font-size: clamp(1.55rem, 7.2vw, 2.15rem);
+    line-height: 1.03;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: manual;
+    -webkit-hyphens: manual;
+  }
+
+  .nn-article-hero__inner--with-metrics .nn-article-hero__subtitle,
+  .nn-article-hero__inner--with-metrics .nn-article-hero__summary {
+    max-width: none;
+    font-size: 0.88rem;
+    line-height: 1.35;
+    text-align: left;
+  }
+
+  .nn-article-hero__inner--with-metrics .nn-article-hero__figure {
+    margin-top: 14px;
   }
 
   .nn-article-hero__metrics {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 6px;
-    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    width: 58px;
+    min-width: 58px;
     margin-top: 0;
   }
 
   .nn-article-hero__metric {
-    min-height: 48px;
-    padding: 7px 5px;
-    border-radius: 13px;
+    min-height: 42px;
+    padding: 5px 3px;
+    border-radius: 12px;
   }
 
   .nn-article-hero__metric strong {
-    font-size: 1.45rem;
+    height: 18px;
+    font-size: 1.28rem;
+    line-height: 1;
   }
 
   .nn-article-hero__metric span {
+    max-width: 100%;
     margin-top: 3px;
-    font-size: 0.48rem;
-    letter-spacing: 0.04em;
+    font-size: 0.34rem;
+    letter-spacing: 0.025em;
+    line-height: 1.05;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 }
-.nn-article-hero__metric span {
-  display: block;
-  margin-top: 5px;
-  color: rgba(196, 154, 102, 0.9);
-  font-size: 0.58rem;
-  font-weight: 850;
-  letter-spacing: 0.08em;
-  line-height: 1;
-  text-transform: uppercase;
+
+@media (max-width: 420px) {
+  .nn-article-hero__inner--with-metrics {
+    gap: 10px;
+    padding: 18px 14px !important;
+  }
+
+  .nn-article-hero__metrics {
+    width: 52px;
+    min-width: 52px;
+  }
+
+  .nn-article-hero__metric {
+    min-height: 38px;
+    padding: 4px 2px;
+    border-radius: 10px;
+  }
+
+  .nn-article-hero__metric strong {
+    font-size: 1.12rem;
+  }
+
+  .nn-article-hero__metric span {
+    font-size: 0.31rem;
+    letter-spacing: 0.015em;
+  }
 }
+
 .nn-article-toc,
 .nn-article-sidebar,
 .nn-article-main {
@@ -4875,6 +4998,5 @@ a.nn-squad-hero__metric {
     min-height: 0;
   }
 }
-
 
 
