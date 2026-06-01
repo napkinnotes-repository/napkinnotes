@@ -4440,7 +4440,7 @@ a.nn-squad-hero__metric {
 
 
 /* =========================
-   ABOUT PLUMES CAROUSEL
+   ABOUT PLUMES / ARTICLES CAROUSEL
 ========================= */
 
 .nn-about-mobile-plumes {
@@ -4546,6 +4546,23 @@ a.nn-squad-hero__metric {
 .nn-mini-author-carousel__role,
 .nn-mini-author-carousel__team-link {
   display: none;
+}
+
+/* Ajustes específicos del carrusel de artículos */
+
+.nn-about-mobile-plumes--articles .nn-mini-author-carousel__image {
+  object-fit: cover;
+  background: #fbf5ee;
+}
+
+.nn-about-mobile-plumes--articles .nn-mini-author-carousel__name {
+  display: -webkit-box;
+  overflow: hidden;
+  max-width: 100%;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 0.72rem;
+  line-height: 1.08;
 }
 
 /* Flechas */
@@ -4752,6 +4769,11 @@ a.nn-squad-hero__metric {
     font-size: 0.74rem;
   }
 
+  .nn-about-mobile-plumes--articles .nn-mini-author-carousel__name {
+    font-size: 0.66rem;
+    -webkit-line-clamp: 3;
+  }
+
   .nn-mini-author-carousel__item.is-prev {
     left: 23%;
     opacity: 0.58;
@@ -4779,6 +4801,10 @@ a.nn-squad-hero__metric {
   }
 }
 
+.nn-about-mobile-plumes + h2,
+.nn-about-mobile-plumes + h3 {
+  margin-top: 12px;
+}
 /* =========================
    TWO IMAGES: centered images + aligned captions
 ========================= */
