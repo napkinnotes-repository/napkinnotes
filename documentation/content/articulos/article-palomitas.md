@@ -1,7 +1,7 @@
 ---
 title: ¿Por qué las palomitas revientan en el microondas?
 author: Duvier Suárez Fontanella
-date: 2026-04-01
+date: 2026-05-21
 layout: articles
 status: published
 category: Termodinámica
