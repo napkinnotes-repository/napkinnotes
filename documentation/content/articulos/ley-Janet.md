@@ -1,7 +1,7 @@
 ---
 title: 'El misterio del tiempo acelerado: ¿Por qué la vida "vuela" a medida que envejecemos?'
 author: Gabriel Sánchez Pérez
-date: 2026-05-21
+date: 2026-05-28
 layout: articles
 status: published
 category: Envejecimiento
