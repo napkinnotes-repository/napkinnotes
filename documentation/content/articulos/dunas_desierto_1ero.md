@@ -1,7 +1,7 @@
 ---
 title: "Dunas y desiertos: primera parte"
 author: David Barba González
-date: 2026-05-28 
+date: 2026-06-04 
 layout: articles
 status: published
 category: Geografía 
