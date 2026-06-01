@@ -99,7 +99,7 @@ Artículos escritos por {{ author }} en {{ SITENAME|striptags|e }}.
 
           <div class="card-meta">
             {% if article.category %}{{ article.category }} • {% endif %}
-            <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+            <time datetime="{{ article.date.isoformat() }}">{{ article.date|fecha_es }}</time>
           </div>
 
           {% if article.summary %}
