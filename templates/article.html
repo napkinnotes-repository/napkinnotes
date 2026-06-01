@@ -30,9 +30,11 @@
 
 {% block content %}
 <article itemscope class="nn-article-page">
+    {% from '_includes/_defaults.html' import ARCHIVES_URL, CATEGORIES_URL, NOSOTROS_URL with context %}
 <div class="nn-article-hero">
-    <div class="nn-article-hero__inner">
-        <div class="nn-article-hero__meta">
+    <div class="nn-article-hero__inner nn-article-hero__inner--with-metrics">
+        <div class="nn-article-hero__content">
+            <div class="nn-article-hero__meta">
             {% if article.category %}
             <span class="nn-article-hero__category">{{ article.category }}</span>
             {% endif %}
@@ -66,6 +68,24 @@
             <img class="nn-article-hero__image" src="{{ SITEURL }}/{{ article.image }}" alt="{{ article.title }}">
         </figure>
         {% endif %}
+        </div>
+
+        <div class="nn-article-hero__metrics" aria-label="Resumen del sitio">
+            <a class="nn-article-hero__metric" href="{{ SITEURL }}/{{ NOSOTROS_URL }}">
+                <strong>{{ AUTHORS|length }}</strong>
+                <span>Autores</span>
+            </a>
+
+            <a class="nn-article-hero__metric" href="{{ SITEURL }}/{{ ARCHIVES_URL }}">
+                <strong>{{ articles|length }}</strong>
+                <span>Artículos</span>
+            </a>
+
+            <a class="nn-article-hero__metric" href="{{ SITEURL }}/{{ CATEGORIES_URL }}">
+                <strong>{{ categories|length }}</strong>
+                <span>Categorías</span>
+            </a>
+        </div>
     </div>
 </div>
 
