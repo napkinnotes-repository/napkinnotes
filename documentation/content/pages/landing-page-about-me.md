@@ -21,6 +21,10 @@ Cada artículo funciona como una explicación o experimento mental minimalista: 
 
 Su espíritu relajadamente científico: Napkin Notes es ese rincón donde la curiosidad casual se transforma en ciencia accesible, divertida y sin solemnidades innecesarias.
 
+
+<!-- NN_RECENT_ARTICLES -->
+
+
 ## ¿Quieres Contribuir?
 
 Si la curiosidad es tu combustible o las preguntas sobre la naturaleza de las cosas suelen golpear con frecuencia a la puerta de tu cerebro, este es tu sitio: puedes dejarnos tu pregunta o sugerirnos un tema. 
