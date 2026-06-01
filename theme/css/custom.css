@@ -1003,7 +1003,100 @@ footer a,
 .nn-article-sidebar .nn-sticky-card {
   position: static;
 }
+/* Contador compacto en banner de artículo */
 
+.nn-article-hero__inner--with-metrics {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 26px;
+  align-items: start;
+}
+
+.nn-article-hero__content {
+  min-width: 0;
+}
+
+.nn-article-hero__metrics {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 9px;
+  width: 92px;
+  margin-top: 4px;
+}
+
+.nn-article-hero__metric {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  min-height: 68px;
+  padding: 9px 8px;
+  border: 1px solid rgba(196, 154, 102, 0.32);
+  border-radius: 16px;
+  background: rgba(255, 253, 249, 0.08);
+  color: var(--satinsheengold);
+  text-align: center;
+  text-decoration: none !important;
+  backdrop-filter: blur(4px);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.nn-article-hero__metric:hover {
+  transform: translateY(-2px);
+  border-color: rgba(196, 154, 102, 0.58);
+  background: rgba(255, 253, 249, 0.14);
+  color: var(--satinsheengold);
+}
+
+.nn-article-hero__metric strong {
+  display: block;
+  color: var(--satinsheengold);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+@media (max-width: 760px) {
+  .nn-article-hero__inner--with-metrics {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .nn-article-hero__metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .nn-article-hero__metric {
+    min-height: 48px;
+    padding: 7px 5px;
+    border-radius: 13px;
+  }
+
+  .nn-article-hero__metric strong {
+    font-size: 1.45rem;
+  }
+
+  .nn-article-hero__metric span {
+    margin-top: 3px;
+    font-size: 0.48rem;
+    letter-spacing: 0.04em;
+  }
+}
+.nn-article-hero__metric span {
+  display: block;
+  margin-top: 5px;
+  color: rgba(196, 154, 102, 0.9);
+  font-size: 0.58rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-transform: uppercase;
+}
 .nn-article-toc,
 .nn-article-sidebar,
 .nn-article-main {
