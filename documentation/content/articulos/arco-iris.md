@@ -1,7 +1,7 @@
 ---
 title: ¡Tu arcoíris es solo tuyo!  
 author: Ruchika 
-date: 2026-05-21
+date: 2026-05-28
 layout: articles
 status: published 
 category: Física cotidiana
