@@ -33,7 +33,7 @@
 {% from '_includes/_defaults.html' import ARCHIVES_URL, EXPLORAR_URL with context %}
 
 <div class="nn-article-hero">
-    <div class="nn-article-hero__inner nn-squad-hero__inner--with-metrics">
+    <div class="nn-article-hero__inner nn-article-hero__inner--with-metrics">
         <div class="nn-article-hero__content">
             <div class="nn-article-hero__meta">
                 {% if article.category %}
@@ -71,26 +71,26 @@
             {% endif %}
         </div>
 
-        <div class="nn-squad-hero__metrics" aria-label="Métricas de Napkin Notes">
-            <div class="nn-squad-hero__metric">
-                <strong>{{ AUTHORS|length }}</strong>
-                <span>autores</span>
-            </div>
+<div class="nn-article-hero__metrics" aria-label="Métricas de Napkin Notes">
+    <div class="nn-article-hero__metric">
+        <strong>{{ AUTHORS|length }}</strong>
+        <span>autores</span>
+    </div>
 
-            <a class="nn-squad-hero__metric nn-squad-hero__metric--link"
-               href="{{ SITEURL }}/{{ ARCHIVES_URL }}"
-               aria-label="Ver todos los artículos">
-                <strong>{{ articles|length }}</strong>
-                <span>artículos</span>
-            </a>
+    <a class="nn-article-hero__metric"
+       href="{{ SITEURL }}/{{ ARCHIVES_URL }}"
+       aria-label="Ver todos los artículos">
+        <strong>{{ articles|length }}</strong>
+        <span>artículos</span>
+    </a>
 
-            <a class="nn-squad-hero__metric nn-squad-hero__metric--link"
-               href="{{ SITEURL }}/{{ EXPLORAR_URL }}"
-               aria-label="Explorar categorías y tags">
-                <strong>{{ categories|length }}</strong>
-                <span>categorías</span>
-            </a>
-        </div>
+    <a class="nn-article-hero__metric"
+       href="{{ SITEURL }}/{{ EXPLORAR_URL }}"
+       aria-label="Explorar categorías y tags">
+        <strong>{{ categories|length }}</strong>
+        <span>categorías</span>
+    </a>
+</div>
     </div>
 </div>
 
@@ -174,7 +174,7 @@
                     <span class="nn-article-meta-row__label">Categoría</span>
                     <div class="nn-article-meta-badges">
                         <a class="nn-article-meta-badge nn-article-meta-badge--category"
-                           href="{{ SITEURL }}/{{ CATEGORIES_URL }}#{{ category.slug }}-ref">
+                           href="{{ SITEURL }}/{{ CATEGORIES_URL }}#{{ article.category.slug }}-ref"
                             {{ article.category }}
                         </a>
                     </div>
