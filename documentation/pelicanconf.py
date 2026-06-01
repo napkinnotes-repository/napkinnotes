@@ -24,6 +24,29 @@ LOCALE = (
     "es_ES",
     "Spanish_Spain.1252",
 )
+MESES_ES = {
+    1: "enero",
+    2: "febrero",
+    3: "marzo",
+    4: "abril",
+    5: "mayo",
+    6: "junio",
+    7: "julio",
+    8: "agosto",
+    9: "septiembre",
+    10: "octubre",
+    11: "noviembre",
+    12: "diciembre",
+}
+
+
+def fecha_es(date):
+    return f"{date.day} de {MESES_ES[date.month]} de {date.year}"
+
+
+JINJA_FILTERS = {
+    "fecha_es": fecha_es,
+}
 # Plugins and extensions
 MARKDOWN = {
     "extension_configs": {
