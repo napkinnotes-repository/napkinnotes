@@ -1,5 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-06-04T00:00:00+02:00</updated><entry><title>El poder de la catenaria</title><link href="https://napkinnotes.es/el-poder-de-la-catenaria" rel="alternate"/><published>2026-06-04T00:00:00+02:00</published><updated>2026-06-04T00:00:00+02:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-06-04:/el-poder-de-la-catenaria</id><summary type="html">&lt;p&gt;Una cadena suspendida, una iglesia románica y la arquitectura de Gaudí comparten una misma curva: la catenaria. En esta servilleta exploramos por qué esta forma es la aliada perfecta de los arcos que quieren sostenerse sin venirse&amp;nbsp;abajo.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-06-04T00:00:00+02:00</updated><entry><title>Dunas y desiertos: primera parte</title><link href="https://napkinnotes.es/dunas-y-desiertos-primera-parte" rel="alternate"/><published>2026-06-04T00:00:00+02:00</published><updated>2026-06-04T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-06-04:/dunas-y-desiertos-primera-parte</id><summary type="html">&lt;p&gt;Vamos a hacer la receta para crear una duna en un desierto. Bueno, o mejor solo entendemos la&amp;nbsp;receta.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#arena"&gt;Arena&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#viento"&gt;Viento&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#pausa"&gt;Pausa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#obstaculo"&gt;Obstáculo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Últimamente no hago más que ver desiertos. Estoy rodeado de ellos. A
+pesar de que parece un oxímoron, los desiertos tienen muchas cosas, y
+hacen surgir en ti muchos pensamientos y preguntas. Por supuesto, no voy
+aquí a ponerme a escribir sobre los sentimientos que provocan los
+desiertos sino sobre las preguntas que al poner los ojos en la arena
+aparecen en mi mente. Tienen que ver con lo más obvio que se observa en
+un desierto de arena:&amp;nbsp;dunas.&lt;/p&gt;
+&lt;p&gt;Debido a que no hago más que ver desiertos, he decidido aprender
+sobre las dunas y escribir una serie de artículos sobre las mismas. Me
+surgieron las siguientes preguntas: ¿cómo se forman?, ¿de qué
+depende su tamaño, su dirección, su altura? A partir de ahí he entrado
+en un &lt;em&gt;rabbit hole&lt;/em&gt; de proporciones astronómicas en el que me vais a
+acompañar. Sin embargo, en esta era del &lt;em&gt;reel&lt;/em&gt;, no os voy a desvelar
+todos los secretos de las dunas en este primer artículo, sino que solo
+haré una introducción sobre cuáles son los ingredientes necesarios para
+formar una. Apuntad la receta: arena, viento y un&amp;nbsp;obstáculo.&lt;/p&gt;
+&lt;h1 id="arena"&gt;Arena&lt;a class="headerlink" href="#arena" title="Permanent link"&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;La arena debe tener la movilidad suficiente para ser arrastrada por el
+viento. Si los granos son demasiado pequeños&amp;nbsp;(&lt;span class="math"&gt;\(&amp;lt;\)&lt;/span&gt; 0.050 mm),
+están cohesionados entre ellos y resisten bien la erosión por parte del
+viento. Al ir creciendo dichos granos, también lo hace la velocidad del&amp;nbsp;viento &lt;span class="math"&gt;\(v_0\)&lt;/span&gt; necesaria para crear un flujo de arena suficiente para
+formar la duna, porque los granos ofrecen más resistencia al aire por su
+tamaño. De esta forma, aparece un mínimo en la curva&amp;nbsp;de &lt;span class="math"&gt;\(v_0\)&lt;/span&gt; frente al
+tamaño del grano de arena. En el caso de granos de arena formados por
+materiales de tipo cuarzo, el tamaño ideal para la formación de dunas es
+alrededor de 0.2 mm &lt;a class="nn-cite" href="#ref-1"&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;También debe haber suficiente arena como para que esta se pueda
+acumular en las dunas. La cantidad de arena se mide usando el llamado
+grosor de arena equivalente, definido como el grosor que tendría la
+arena si extendiésemos completamente las dunas sobre todo el territorio
+analizado. En los sistemas de dunas en los que se ha medido el &lt;span class="caps"&gt;EST&lt;/span&gt;
+(&lt;em&gt;equivalent sand thickness&lt;/em&gt;), como Great Sandy o Great Victoria en
+Australia, se obtienen valores de entre 1 y 5 m como cantidad mínima de
+arena que necesitamos para formar nuestras dunas &lt;a class="nn-cite" href="#ref-2"&gt;[2]&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="viento"&gt;Viento&lt;a class="headerlink" href="#viento" title="Permanent link"&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Ya hemos mencionado el viento, que debe ser no solo lo suficientemente
+fuerte como para mover la arena, sino también para evitar el crecimiento
+de vegetación sobre la duna. Si las plantas enraizan en la arena, la
+estabilizan y por tanto la formación de dunas es más difícil y las que
+se forman son más pequeñas. Otra característica del viento que debemos
+tener en cuenta es la dirección y la variabilidad de esta a lo largo del
+año. Tanto el propio crecimiento de la duna como la desaparición de la
+vegetación son más efectivas cuando la dirección del viento es constante
+a lo largo del año. Por el contrario, no se formará duna alguna si la
+media del vector velocidad del viento en todo punto del suelo es nula a
+lo largo del año. Esto suele venir cuantificado en una cantidad
+denominada &lt;em&gt;drift potential&lt;/em&gt; o &lt;span class="caps"&gt;DP&lt;/span&gt;, definido&amp;nbsp;como&lt;/p&gt;
+&lt;div class="math"&gt;$$
+DP = \frac{v^2\left(v-v_0\right)}{100}t.
+$$&lt;/div&gt;
+&lt;p&gt;En esta&amp;nbsp;expresión &lt;span class="math"&gt;\(v\)&lt;/span&gt; es la velocidad del viento,&amp;nbsp;y &lt;span class="math"&gt;\(t\)&lt;/span&gt; es el tiempo
+durante el que el viento está soplando por encima del&amp;nbsp;límite &lt;span class="math"&gt;\(v_0\)&lt;/span&gt;. Al
+combinar esta información con la direccionalidad de este, se pueden
+obtener para distintos lugares del mundo cuál es el potencial para la
+formación de dunas, y crear mapas de &lt;span class="caps"&gt;DP&lt;/span&gt; por todo el globo &lt;a class="nn-cite" href="#ref-3"&gt;[3]&lt;/a&gt;. De
+forma clásica, se considera que un &lt;span class="caps"&gt;DP&lt;/span&gt; por debajo de 200 indica una
+energía &amp;#8220;dunal&amp;#8221; baja y, por el contrario, a partir de 400 es favorable a
+la formación de dunas. ¿Unidades de la expresión? Os vais a&amp;nbsp;reír: &lt;span class="math"&gt;\(v\)&lt;/span&gt; y
+&lt;span class="math"&gt;\(v_0\)&lt;/span&gt; van en nudos,&amp;nbsp;y &lt;span class="math"&gt;\(t\)&lt;/span&gt; va en porcentaje, por lo que hay que elegir
+una ventana temporal para promediar. Lo sentimos, no se aceptan hojas de
+reclamaciones por la elección de&amp;nbsp;unidades.&lt;/p&gt;
+&lt;p&gt;Un par de ejemplos. En primer lugar, el desierto de Rub&amp;#8217;al Khali
+entre Omán y Arabia Saudí tiene un &lt;span class="caps"&gt;DP&lt;/span&gt;
+de en torno a 600, uno de los sistemas de dunas más fuertes y móviles
+del mundo. Y el desierto del Sáhara, con una altísima variabilidad, de
+entre 200 y&amp;nbsp;600.&lt;/p&gt;
+&lt;h1 id="pausa"&gt;Pausa&lt;a class="headerlink" href="#pausa" title="Permanent link"&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Hago aquí una pausa exclusivamente para hacer notar que no vemos ya el
+cielo desde la profundidad del &lt;em&gt;rabbit hole&lt;/em&gt; en la que nos encontramos.
+Sigamos&amp;nbsp;bajando.&lt;/p&gt;
+&lt;h1 id="obstaculo"&gt;Obstáculo&lt;a class="headerlink" href="#obstaculo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;El viento más potente del mundo, soplando a la velocidad justa sobre la
+arena más móvil del mundo, no podría formar una duna si no pudiese
+acumular la arena sobre un obstáculo. Este obstáculo puede ser una roca,
+lo que ocurre típicamente en desiertos sin vegetación, o precisamente
+dicha vegetación en sistemas de dunas costeros como Doñana, en&amp;nbsp;España.&lt;/p&gt;
+&lt;p&gt;Un ejemplo muy interesante para entender la importancia de un obstáculo
+en la formación de dunas es el desierto de Wadi Rum, en Jordania. Es un
+desierto más bien rocoso, con apenas arena. Por tanto, no hay dunas como
+podéis ver en la foto que acompaña a este artículo. Sin embargo, otra de
+las características de Wadi Rum son sus formaciones rocosas, que también
+podéis ver en la foto y que actúan como un obstáculo &amp;#8220;supremo&amp;#8221;. Son
+estructuras muy altas, de decenas o incluso cientos de metros de altitud
+ganada de forma muy brusca. De esta forma, aparecen dunas, como desde la
+que está sacada la foto, al empujar el viento la poca arena disponible
+contra las formaciones&amp;nbsp;rocosas.&lt;/p&gt;
+&lt;p&gt;Vemos pues la importancia de los tres ingredientes de la receta, y
+empezamos a entender que el sistema sobre el que hemos empezado a pensar
+es uno muy complejo, con muchos factores que actúan simultáneamente.
+Esta complejidad, veremos en futuros artículos si seguís la serie,
+afecta a la morfología y clasificación de las dunas, y produce efectos
+muy interesantes como el de las dunas nómadas. Hasta entonces, salgamos
+del agujero en la duna, al menos por un&amp;nbsp;tiempo.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;ol class="nn-references"&gt;
+  &lt;li id="ref-1"&gt;
+    Tsoar, H. (2001). Types of Aeolian Sand Dunes and Their Formation. In: Balmforth, N.J., Provenzale, A. (eds) &lt;em&gt;Geomorphological Fluid Mechanics&lt;/em&gt;. Lecture Notes in Physics, vol. 582. Springer, Berlin, Heidelberg.
+    &lt;a href="https://doi.org/10.1007/3-540-45670-8_17" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1007/3-540-45670-8_17&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-2"&gt;
+    Wasson, R., &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Hyde, R. (1983). Factors determining desert dune type. &lt;em&gt;Nature&lt;/em&gt;, 304, 337–339.
+    &lt;a href="https://doi.org/10.1038/304337a0" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1038/304337a0&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-3"&gt;
+    Yizhaq, H., Xu, Z., &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Ashkenazy, Y. (2020). The effect of wind speed averaging time on the calculation of sand drift potential: New scaling laws. &lt;em&gt;Earth and Planetary Science Letters&lt;/em&gt;, 544, 116373.
+    &lt;a href="https://doi.org/10.1016/j.epsl.2020.116373" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1016/j.epsl.2020.116373&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Geografía"/><category term="desierto"/><category term="dunas"/><category term="viento"/><category term="arena"/></entry><entry><title>El poder de la catenaria</title><link href="https://napkinnotes.es/el-poder-de-la-catenaria" rel="alternate"/><published>2026-06-04T00:00:00+02:00</published><updated>2026-06-04T00:00:00+02:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-06-04:/el-poder-de-la-catenaria</id><summary type="html">&lt;p&gt;Una cadena suspendida, una iglesia románica y la arquitectura de Gaudí comparten una misma curva: la catenaria. En esta servilleta exploramos por qué esta forma es la aliada perfecta de los arcos que quieren sostenerse sin venirse&amp;nbsp;abajo.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#el-problema-del-arco"&gt;El problema del arco&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#la-ecuacion-de-la-catenaria"&gt;La ecuación de la&amp;nbsp;catenaria&lt;/a&gt;&lt;/li&gt;
@@ -402,189 +584,7 @@ $$&lt;/div&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="Matemáticas"/><category term="matemáticas"/><category term="fractales"/></entry><entry><title>Dunas y desiertos: primera parte</title><link href="https://napkinnotes.es/dunas-y-desiertos-primera-parte" rel="alternate"/><published>2026-05-28T00:00:00+02:00</published><updated>2026-05-28T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-05-28:/dunas-y-desiertos-primera-parte</id><summary type="html">&lt;p&gt;Vamos a hacer la receta para crear una duna en un desierto. Bueno, o mejor solo entendemos la&amp;nbsp;receta.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#arena"&gt;Arena&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#viento"&gt;Viento&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#pausa"&gt;Pausa&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#obstaculo"&gt;Obstáculo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;p&gt;Últimamente no hago más que ver desiertos. Estoy rodeado de ellos. A
-pesar de que parece un oxímoron, los desiertos tienen muchas cosas, y
-hacen surgir en ti muchos pensamientos y preguntas. Por supuesto, no voy
-aquí a ponerme a escribir sobre los sentimientos que provocan los
-desiertos sino sobre las preguntas que al poner los ojos en la arena
-aparecen en mi mente. Tienen que ver con lo más obvio que se observa en
-un desierto de arena:&amp;nbsp;dunas.&lt;/p&gt;
-&lt;p&gt;Debido a que no hago más que ver desiertos, he decidido aprender
-sobre las dunas y escribir una serie de artículos sobre las mismas. Me
-surgieron las siguientes preguntas: ¿cómo se forman?, ¿de qué
-depende su tamaño, su dirección, su altura? A partir de ahí he entrado
-en un &lt;em&gt;rabbit hole&lt;/em&gt; de proporciones astronómicas en el que me vais a
-acompañar. Sin embargo, en esta era del &lt;em&gt;reel&lt;/em&gt;, no os voy a desvelar
-todos los secretos de las dunas en este primer artículo, sino que solo
-haré una introducción sobre cuáles son los ingredientes necesarios para
-formar una. Apuntad la receta: arena, viento y un&amp;nbsp;obstáculo.&lt;/p&gt;
-&lt;h1 id="arena"&gt;Arena&lt;a class="headerlink" href="#arena" title="Permanent link"&gt; &lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;La arena debe tener la movilidad suficiente para ser arrastrada por el
-viento. Si los granos son demasiado pequeños&amp;nbsp;(&lt;span class="math"&gt;\(&amp;lt;\)&lt;/span&gt; 0.050 mm),
-están cohesionados entre ellos y resisten bien la erosión por parte del
-viento. Al ir creciendo dichos granos, también lo hace la velocidad del&amp;nbsp;viento &lt;span class="math"&gt;\(v_0\)&lt;/span&gt; necesaria para crear un flujo de arena suficiente para
-formar la duna, porque los granos ofrecen más resistencia al aire por su
-tamaño. De esta forma, aparece un mínimo en la curva&amp;nbsp;de &lt;span class="math"&gt;\(v_0\)&lt;/span&gt; frente al
-tamaño del grano de arena. En el caso de granos de arena formados por
-materiales de tipo cuarzo, el tamaño ideal para la formación de dunas es
-alrededor de 0.2 mm &lt;a class="nn-cite" href="#ref-1"&gt;[1]&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;También debe haber suficiente arena como para que esta se pueda
-acumular en las dunas. La cantidad de arena se mide usando el llamado
-grosor de arena equivalente, definido como el grosor que tendría la
-arena si extendiésemos completamente las dunas sobre todo el territorio
-analizado. En los sistemas de dunas en los que se ha medido el &lt;span class="caps"&gt;EST&lt;/span&gt;
-(&lt;em&gt;equivalent sand thickness&lt;/em&gt;), como Great Sandy o Great Victoria en
-Australia, se obtienen valores de entre 1 y 5 m como cantidad mínima de
-arena que necesitamos para formar nuestras dunas &lt;a class="nn-cite" href="#ref-2"&gt;[2]&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id="viento"&gt;Viento&lt;a class="headerlink" href="#viento" title="Permanent link"&gt; &lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Ya hemos mencionado el viento, que debe ser no solo lo suficientemente
-fuerte como para mover la arena, sino también para evitar el crecimiento
-de vegetación sobre la duna. Si las plantas enraizan en la arena, la
-estabilizan y por tanto la formación de dunas es más difícil y las que
-se forman son más pequeñas. Otra característica del viento que debemos
-tener en cuenta es la dirección y la variabilidad de esta a lo largo del
-año. Tanto el propio crecimiento de la duna como la desaparición de la
-vegetación son más efectivas cuando la dirección del viento es constante
-a lo largo del año. Por el contrario, no se formará duna alguna si la
-media del vector velocidad del viento en todo punto del suelo es nula a
-lo largo del año. Esto suele venir cuantificado en una cantidad
-denominada &lt;em&gt;drift potential&lt;/em&gt; o &lt;span class="caps"&gt;DP&lt;/span&gt;, definido&amp;nbsp;como&lt;/p&gt;
-&lt;div class="math"&gt;$$
-DP = \frac{v^2\left(v-v_0\right)}{100}t.
-$$&lt;/div&gt;
-&lt;p&gt;En esta&amp;nbsp;expresión &lt;span class="math"&gt;\(v\)&lt;/span&gt; es la velocidad del viento,&amp;nbsp;y &lt;span class="math"&gt;\(t\)&lt;/span&gt; es el tiempo
-durante el que el viento está soplando por encima del&amp;nbsp;límite &lt;span class="math"&gt;\(v_0\)&lt;/span&gt;. Al
-combinar esta información con la direccionalidad de este, se pueden
-obtener para distintos lugares del mundo cuál es el potencial para la
-formación de dunas, y crear mapas de &lt;span class="caps"&gt;DP&lt;/span&gt; por todo el globo &lt;a class="nn-cite" href="#ref-3"&gt;[3]&lt;/a&gt;. De
-forma clásica, se considera que un &lt;span class="caps"&gt;DP&lt;/span&gt; por debajo de 200 indica una
-energía &amp;#8220;dunal&amp;#8221; baja y, por el contrario, a partir de 400 es favorable a
-la formación de dunas. ¿Unidades de la expresión? Os vais a&amp;nbsp;reír: &lt;span class="math"&gt;\(v\)&lt;/span&gt; y
-&lt;span class="math"&gt;\(v_0\)&lt;/span&gt; van en nudos,&amp;nbsp;y &lt;span class="math"&gt;\(t\)&lt;/span&gt; va en porcentaje, por lo que hay que elegir
-una ventana temporal para promediar. Lo sentimos, no se aceptan hojas de
-reclamaciones por la elección de&amp;nbsp;unidades.&lt;/p&gt;
-&lt;p&gt;Un par de ejemplos. En primer lugar, el desierto de Rub&amp;#8217;al Khali
-entre Omán y Arabia Saudí tiene un &lt;span class="caps"&gt;DP&lt;/span&gt;
-de en torno a 600, uno de los sistemas de dunas más fuertes y móviles
-del mundo. Y el desierto del Sáhara, con una altísima variabilidad, de
-entre 200 y&amp;nbsp;600.&lt;/p&gt;
-&lt;h1 id="pausa"&gt;Pausa&lt;a class="headerlink" href="#pausa" title="Permanent link"&gt; &lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Hago aquí una pausa exclusivamente para hacer notar que no vemos ya el
-cielo desde la profundidad del &lt;em&gt;rabbit hole&lt;/em&gt; en la que nos encontramos.
-Sigamos&amp;nbsp;bajando.&lt;/p&gt;
-&lt;h1 id="obstaculo"&gt;Obstáculo&lt;a class="headerlink" href="#obstaculo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;El viento más potente del mundo, soplando a la velocidad justa sobre la
-arena más móvil del mundo, no podría formar una duna si no pudiese
-acumular la arena sobre un obstáculo. Este obstáculo puede ser una roca,
-lo que ocurre típicamente en desiertos sin vegetación, o precisamente
-dicha vegetación en sistemas de dunas costeros como Doñana, en&amp;nbsp;España.&lt;/p&gt;
-&lt;p&gt;Un ejemplo muy interesante para entender la importancia de un obstáculo
-en la formación de dunas es el desierto de Wadi Rum, en Jordania. Es un
-desierto más bien rocoso, con apenas arena. Por tanto, no hay dunas como
-podéis ver en la foto que acompaña a este artículo. Sin embargo, otra de
-las características de Wadi Rum son sus formaciones rocosas, que también
-podéis ver en la foto y que actúan como un obstáculo &amp;#8220;supremo&amp;#8221;. Son
-estructuras muy altas, de decenas o incluso cientos de metros de altitud
-ganada de forma muy brusca. De esta forma, aparecen dunas, como desde la
-que está sacada la foto, al empujar el viento la poca arena disponible
-contra las formaciones&amp;nbsp;rocosas.&lt;/p&gt;
-&lt;p&gt;Vemos pues la importancia de los tres ingredientes de la receta, y
-empezamos a entender que el sistema sobre el que hemos empezado a pensar
-es uno muy complejo, con muchos factores que actúan simultáneamente.
-Esta complejidad, veremos en futuros artículos si seguís la serie,
-afecta a la morfología y clasificación de las dunas, y produce efectos
-muy interesantes como el de las dunas nómadas. Hasta entonces, salgamos
-del agujero en la duna, al menos por un&amp;nbsp;tiempo.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h1 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h1&gt;
-&lt;ol class="nn-references"&gt;
-  &lt;li id="ref-1"&gt;
-    Tsoar, H. (2001). Types of Aeolian Sand Dunes and Their Formation. In: Balmforth, N.J., Provenzale, A. (eds) &lt;em&gt;Geomorphological Fluid Mechanics&lt;/em&gt;. Lecture Notes in Physics, vol. 582. Springer, Berlin, Heidelberg.
-    &lt;a href="https://doi.org/10.1007/3-540-45670-8_17" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1007/3-540-45670-8_17&lt;/a&gt;
-  &lt;/li&gt;
-
-  &lt;li id="ref-2"&gt;
-    Wasson, R., &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Hyde, R. (1983). Factors determining desert dune type. &lt;em&gt;Nature&lt;/em&gt;, 304, 337–339.
-    &lt;a href="https://doi.org/10.1038/304337a0" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1038/304337a0&lt;/a&gt;
-  &lt;/li&gt;
-
-  &lt;li id="ref-3"&gt;
-    Yizhaq, H., Xu, Z., &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Ashkenazy, Y. (2020). The effect of wind speed averaging time on the calculation of sand drift potential: New scaling laws. &lt;em&gt;Earth and Planetary Science Letters&lt;/em&gt;, 544, 116373.
-    &lt;a href="https://doi.org/10.1016/j.epsl.2020.116373" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1016/j.epsl.2020.116373&lt;/a&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-
-    var configscript = document.createElement('script');
-    configscript.type = 'text/x-mathjax-config';
-    configscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        availableFonts: ['STIX', 'TeX']," +
-        "        preferredFont: 'STIX'," +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</content><category term="Geografía"/><category term="desierto"/><category term="dunas"/><category term="viento"/><category term="arena"/></entry><entry><title>El misterio del tiempo acelerado: ¿Por qué la vida “vuela” a medida que envejecemos?</title><link href="https://napkinnotes.es/el-misterio-del-tiempo-acelerado-por-que-la-vida-vuela-a-medida-que-envejecemos" rel="alternate"/><published>2026-05-28T00:00:00+02:00</published><updated>2026-05-28T00:00:00+02:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-05-28:/el-misterio-del-tiempo-acelerado-por-que-la-vida-vuela-a-medida-que-envejecemos</id><summary type="html">&lt;p&gt;¿Te acuerdas de los veranos de la infancia? Parecían eternos. En cambio, con los años, la Navidad llega antes, los meses parecen semanas y los años se evaporan. La física del tiempo no ha cambiado. Entonces, ¿por qué nuestra mente insiste en que el tiempo se&amp;nbsp;acelera?&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;/script&gt;</content><category term="Matemáticas"/><category term="matemáticas"/><category term="fractales"/></entry><entry><title>El misterio del tiempo acelerado: ¿Por qué la vida “vuela” a medida que envejecemos?</title><link href="https://napkinnotes.es/el-misterio-del-tiempo-acelerado-por-que-la-vida-vuela-a-medida-que-envejecemos" rel="alternate"/><published>2026-05-28T00:00:00+02:00</published><updated>2026-05-28T00:00:00+02:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-05-28:/el-misterio-del-tiempo-acelerado-por-que-la-vida-vuela-a-medida-que-envejecemos</id><summary type="html">&lt;p&gt;¿Te acuerdas de los veranos de la infancia? Parecían eternos. En cambio, con los años, la Navidad llega antes, los meses parecen semanas y los años se evaporan. La física del tiempo no ha cambiado. Entonces, ¿por qué nuestra mente insiste en que el tiempo se&amp;nbsp;acelera?&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#el-modelo-matematico-la-ley-de-paul-janet"&gt;El modelo matemático: La Ley de Paul&amp;nbsp;Janet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#_1"&gt;&lt;/a&gt;&lt;/li&gt;
