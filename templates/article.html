@@ -38,7 +38,7 @@
             {% endif %}
             {% if article.date %}
             <span class="nn-article-hero__dot">•</span>
-            <time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+            <time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.date|fecha_es }}</time>
             {% endif %}           
         </div>
 
@@ -139,7 +139,7 @@
         <div class="nn-article-meta-row">
             <span class="nn-article-meta-row__label">Publicado</span>
             <time class="nn-article-meta-row__value" itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">
-                {{ article.locale_date }}
+                {{ article.date|fecha_es }}
             </time>
         </div>
         {% endif %}
