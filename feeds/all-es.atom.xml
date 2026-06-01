@@ -687,7 +687,161 @@ En la solución anterior hemos agrupado las&amp;nbsp;constantes &lt;span class="
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="Envejecimiento"/><category term="ley de janet"/><category term="envejecimiento"/></entry><entry><title>¡Tu arcoíris es solo tuyo!</title><link href="https://napkinnotes.es/tu-arcoiris-es-solo-tuyo" rel="alternate"/><published>2026-05-21T00:00:00+02:00</published><updated>2026-05-21T00:00:00+02:00</updated><author><name>Ruchika</name></author><id>tag:napkinnotes.es,2026-05-21:/tu-arcoiris-es-solo-tuyo</id><summary type="html">&lt;p&gt;Cada arcoíris es único porque depende del ángulo exacto desde el que lo observan tus&amp;nbsp;ojos.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;/script&gt;</content><category term="Envejecimiento"/><category term="ley de janet"/><category term="envejecimiento"/></entry><entry><title>¿Por qué las palomitas revientan en el microondas?</title><link href="https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas" rel="alternate"/><published>2026-05-21T00:00:00+02:00</published><updated>2026-05-21T00:00:00+02:00</updated><author><name>Duvier Suárez Fontanella</name></author><id>tag:napkinnotes.es,2026-05-21:/por-que-las-palomitas-revientan-en-el-microondas</id><summary type="html">&lt;p&gt;¿Alguna vez te has preguntado por qué explotan las palomitas, de dónde sale su forma y por qué saben tan bien? Ponte cómodo, vamos a mirar la ciencia que se esconde dentro de un grano de&amp;nbsp;maíz.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#estructura-del-grano"&gt;Estructura del&amp;nbsp;grano&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-efecto-del-microondas"&gt;El efecto del&amp;nbsp;microondas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#explosion-y-expansion-adiabatica"&gt;Explosión y expansión&amp;nbsp;adiabática&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#energia-total-liberada"&gt;Energía total&amp;nbsp;liberada&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#factores-que-impiden-el-estallido"&gt;Factores que impiden el&amp;nbsp;estallido&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#eficiencia-termodinamica-aproximada"&gt;Eficiencia termodinámica&amp;nbsp;aproximada&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lo-que-aprendemos-de-las-palomitas"&gt;Lo que aprendemos de las&amp;nbsp;palomitas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="estructura-del-grano"&gt;Estructura del grano&lt;a class="headerlink" href="#estructura-del-grano" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Empecemos por el protoganista de este fenómeno: el grano de maíz (&lt;em&gt;Zea mays everta&lt;/em&gt;). Cada uno de ellos puede ser dividido en tres partes principales: El &lt;strong&gt;endospermo&lt;/strong&gt;, que contiene almidón y un poco de agua (apriximadamente entre un 13 y 15 % de su masa); el &lt;strong&gt;pericarpio&lt;/strong&gt;, una cáscara muy dura e impermeable; y el &lt;strong&gt;germen&lt;/strong&gt; &amp;#8212;no, no ese tipo de germen peligroso para la salud en el que estás pensando, en este caso es simplemente la parte viva de la semilla. El secreto de las palomitas está en esa pequeña cantidad de agua atrapada dentro del grano. Cuando se calienta, genera vapor y presión hasta que la cáscara no puede resistir más y&amp;nbsp;explota. &lt;/p&gt;
+&lt;p&gt;Si querías la versión corta puedes parar aquí, pero si sigues curioso y deseas enterarte de todos los detalles, déjame explicártelos en las próximas&amp;nbsp;secciones.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="el-efecto-del-microondas"&gt;El efecto del microondas&lt;a class="headerlink" href="#el-efecto-del-microondas" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El horno microondas opera típicamente a una frecuencia de 2.45 GHz, correspondiente a una longitud de onda de 12.2 cm. Esta radiación electromagnética interactúa con los dipolos eléctricos del agua mediante el proceso de &lt;em&gt;calentamiento dieléctrico&lt;/em&gt;. Las moléculas de agua rotan en fase con el campo alterno, generando disipación térmica a escala&amp;nbsp;molecular.&lt;/p&gt;
+&lt;!--El flujo de calor neto puede describirse de forma simplificada mediante la ecuación de difusión del calor:
+
+$$
+\rho c_p \frac{\partial T}{\partial t} = k \nabla^2 T + Q_{\text{abs}}
+$$
+
+donde ρ es la densidad, c&lt;sub&gt;p&lt;/sub&gt; el calor específico, k la conductividad térmica y Q&lt;sub&gt;abs&lt;/sub&gt; la potencia volumétrica absorbida del campo electromagnético.--&gt;
+
+&lt;p&gt;Al subir la temperatura, el agua dentro del grano se convierte en vapor y la presión interna aumenta como en estudiante de doctorado a puntode entregar la tesis (comentario inecesario quizás, pero, al fin y al cabo, escribir para esta página cumple también la función de entretenerme). En cualquier caso, la presión interna del grano depende de la temperatura según la ecuación de&amp;nbsp;Clausius–Clapeyron:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\frac{dP_v}{dT} = \frac{L P_v}{R T^2},
+$$&lt;/div&gt;
+&lt;p&gt;cuya integración da lugar&amp;nbsp;a:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\ln \left( \frac{P_v}{P_0} \right) = - \frac{L}{R} \left( \frac{1}{T} - \frac{1}{T_0} \right),
+$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(L = 2.26×10^{6}\)&lt;/span&gt; J/kg es el calor latente de vaporización del agua&amp;nbsp;y &lt;span class="math"&gt;\(R = 8.31\)&lt;/span&gt; J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno&amp;nbsp;de &lt;span class="math"&gt;\(453\)&lt;/span&gt; K&amp;nbsp;(&lt;span class="math"&gt;\(≈ 180\)&lt;/span&gt; °C)&amp;nbsp;y  &lt;span class="math"&gt;\(T_0 = 373\)&lt;/span&gt; K, &lt;span class="math"&gt;\(P_0 = 1\)&lt;/span&gt; atm, se&amp;nbsp;obtiene:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+P_v(453~\text{K}) \approx 9~\text{atm}
+$$&lt;/div&gt;
+&lt;p&gt;que coincide con la presión crítica de ruptura observada experimentalmente para el pericarpio&amp;nbsp;(&lt;span class="math"&gt;\(P_{rupt} ≈ 9–10\)&lt;/span&gt; atm). &lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="explosion-y-expansion-adiabatica"&gt;Explosión y expansión adiabática&lt;a class="headerlink" href="#explosion-y-expansion-adiabatica" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Una vez que la presión interna excede la resistencia del pericarpio&amp;nbsp;(&lt;span class="math"&gt;\(P_{rupt} ≈ 9–10\)&lt;/span&gt; atm), se produce una fractura súbita. El vapor se expande rápidamente, realizando trabajo sobre el almidón circundante y provocando una expansión casi adiabática del&amp;nbsp;gas. &lt;/p&gt;
+&lt;p&gt;Si suponemos una expansión adiabática reversible para el vapor de&amp;nbsp;agua:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+P V^{\gamma} = \text{constante},
+$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(γ ≈ 1.33\)&lt;/span&gt; para el vapor de agua, y, en consecuencia, el trabajo realizado por el gas durante la expansión&amp;nbsp;es:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+W = \frac{P_i V_i - P_f V_f}{\gamma - 1}.
+$$&lt;/div&gt;
+&lt;p&gt;Tomando &lt;span class="math"&gt;\(P_i = 9\)&lt;/span&gt; atm, &lt;span class="math"&gt;\(P_f = 1\)&lt;/span&gt; atm y considerando que el volumen final del gas es&amp;nbsp;unas &lt;span class="math"&gt;\(V_f/V_i ≈ 10\)&lt;/span&gt; veces mayor, se obtiene un trabajo del orden&amp;nbsp;de:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+W \sim 10^{-3}~\text{J}.
+$$&lt;/div&gt;
+&lt;p&gt;A pesar de parecer pequeño, este trabajo genera en las moléculas dentro del grano velocidades de expansión del orden de varios metros por segundo, suficientes para inflar el almidón y solidificarlo instantáneamente por&amp;nbsp;enfriamiento.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="energia-total-liberada"&gt;Energía total liberada&lt;a class="headerlink" href="#energia-total-liberada" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El contenido energético total asociado al cambio de fase del agua en un solo grano&amp;nbsp;es:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E = m L
+$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(m\)&lt;/span&gt; es la masa de agua.&amp;nbsp;Si &lt;span class="math"&gt;\(m ≈ 10^{-5}\)&lt;/span&gt; kg ,&amp;nbsp;entonces:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E = 2.26 \times 10^{6} \times 10^{-5} = 22.6~\text{J}.
+$$&lt;/div&gt;
+&lt;p&gt;De esta energía, una pequeña fracción se convierte en trabajo mecánico y sonido; el resto se disipa en forma de&amp;nbsp;calor.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="factores-que-impiden-el-estallido"&gt;Factores que impiden el estallido&lt;a class="headerlink" href="#factores-que-impiden-el-estallido" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Por nuestra experiencia, sabemos que siempre hay un par de granitos que no revientan (&lt;em&gt;“old maids”&lt;/em&gt;). Esto peude deberse a una o varias de las siguientes&amp;nbsp;causas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bajo contenido de humedad en el grano (menos de un 10%), insuficiente para generar la presión&amp;nbsp;crítica.  &lt;/li&gt;
+&lt;li&gt;Fisuras microscópicas en el pericarpio, que permiten la fuga de vapor antes de&amp;nbsp;alcanzar &lt;span class="math"&gt;\(P_{rupt}\)&lt;/span&gt;.  &lt;/li&gt;
+&lt;li&gt;Distribución térmica no uniforme que evita una presurización&amp;nbsp;homogénea.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id="eficiencia-termodinamica-aproximada"&gt;Eficiencia termodinámica aproximada&lt;a class="headerlink" href="#eficiencia-termodinamica-aproximada" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Si un horno microondas de&amp;nbsp;potencia &lt;span class="math"&gt;\(P = 800\)&lt;/span&gt; W opera&amp;nbsp;durante &lt;span class="math"&gt;\(t = 120\)&lt;/span&gt; s:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E_{\text{in}} = P t = 9.6 \times 10^{4}~\text{J}.
+$$&lt;/div&gt;
+&lt;p&gt;Una bolsa&amp;nbsp;de &lt;span class="math"&gt;\(100\)&lt;/span&gt; g contiene&amp;nbsp;aproximadamente &lt;span class="math"&gt;\(N = 3000\)&lt;/span&gt; granos.&lt;br /&gt;
+Si cada uno&amp;nbsp;libera &lt;span class="math"&gt;\(≈ 20\)&lt;/span&gt; J en el proceso de&amp;nbsp;vaporización:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E_{\text{total}} = N \times 20~\text{J} = 6.0 \times 10^{4}~\text{J}.
+$$&lt;/div&gt;
+&lt;p&gt;Por tanto, la eficiencia energética del proceso&amp;nbsp;es:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\eta = \frac{E_{\text{total}}}{E_{\text{in}}} \approx 0.6
+$$&lt;/div&gt;
+&lt;p&gt;es decir, un rendimiento del 60%, notablemente alto para un proceso de cocción doméstico basado en calentamiento&amp;nbsp;dieléctrico.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="lo-que-aprendemos-de-las-palomitas"&gt;Lo que aprendemos de las palomitas&lt;a class="headerlink" href="#lo-que-aprendemos-de-las-palomitas" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El estallido de las palomitas es un ejemplo fascinante de cómo principios de la física macroscópica &amp;#8212;transferencia de calor, termodinámica del cambio de fases, elasticidad de materiales y dinámica de gases&amp;#8212; se manifiestan en un fenómeno tan delicioso como cotidiano. Cada grano actúa como una &lt;em&gt;microcápsula de presión&lt;/em&gt; donde el agua, confinada, pasa de líquido a vapor hasta romper la envoltura, produciendo ese modesto sonido (&lt;em&gt;pop&lt;/em&gt;) en el que convergen varias ramas de la&amp;nbsp;física.  &lt;/p&gt;
+&lt;hr /&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Termodinámica"/><category term="física"/><category term="termodinámica"/><category term="microondas"/><category term="alimentos"/></entry><entry><title>¡Tu arcoíris es solo tuyo!</title><link href="https://napkinnotes.es/tu-arcoiris-es-solo-tuyo" rel="alternate"/><published>2026-05-21T00:00:00+02:00</published><updated>2026-05-21T00:00:00+02:00</updated><author><name>Ruchika</name></author><id>tag:napkinnotes.es,2026-05-21:/tu-arcoiris-es-solo-tuyo</id><summary type="html">&lt;p&gt;Cada arcoíris es único porque depende del ángulo exacto desde el que lo observan tus&amp;nbsp;ojos.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#no-todos-vemos-el-mismo-arcoiris"&gt;No todos vemos el mismo&amp;nbsp;arcoíris&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#el-angulo-secreto-de-la-luz"&gt;El ángulo secreto de la&amp;nbsp;luz&lt;/a&gt;&lt;/li&gt;
@@ -862,158 +1016,4 @@ $$&lt;/div&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="Matemáticas"/><category term="infinito"/><category term="cálculo"/><category term="paradojas"/></entry><entry><title>¿Por qué las palomitas revientan en el microondas?</title><link href="https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas" rel="alternate"/><published>2026-04-01T00:00:00+02:00</published><updated>2026-04-01T00:00:00+02:00</updated><author><name>Duvier Suárez Fontanella</name></author><id>tag:napkinnotes.es,2026-04-01:/por-que-las-palomitas-revientan-en-el-microondas</id><summary type="html">&lt;p&gt;¿Alguna vez te has preguntado por qué explotan las palomitas, de dónde sale su forma y por qué saben tan bien? Ponte cómodo, vamos a mirar la ciencia que se esconde dentro de un grano de&amp;nbsp;maíz.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#estructura-del-grano"&gt;Estructura del&amp;nbsp;grano&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#el-efecto-del-microondas"&gt;El efecto del&amp;nbsp;microondas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#explosion-y-expansion-adiabatica"&gt;Explosión y expansión&amp;nbsp;adiabática&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#energia-total-liberada"&gt;Energía total&amp;nbsp;liberada&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#factores-que-impiden-el-estallido"&gt;Factores que impiden el&amp;nbsp;estallido&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#eficiencia-termodinamica-aproximada"&gt;Eficiencia termodinámica&amp;nbsp;aproximada&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#lo-que-aprendemos-de-las-palomitas"&gt;Lo que aprendemos de las&amp;nbsp;palomitas&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h2 id="estructura-del-grano"&gt;Estructura del grano&lt;a class="headerlink" href="#estructura-del-grano" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Empecemos por el protoganista de este fenómeno: el grano de maíz (&lt;em&gt;Zea mays everta&lt;/em&gt;). Cada uno de ellos puede ser dividido en tres partes principales: El &lt;strong&gt;endospermo&lt;/strong&gt;, que contiene almidón y un poco de agua (apriximadamente entre un 13 y 15 % de su masa); el &lt;strong&gt;pericarpio&lt;/strong&gt;, una cáscara muy dura e impermeable; y el &lt;strong&gt;germen&lt;/strong&gt; &amp;#8212;no, no ese tipo de germen peligroso para la salud en el que estás pensando, en este caso es simplemente la parte viva de la semilla. El secreto de las palomitas está en esa pequeña cantidad de agua atrapada dentro del grano. Cuando se calienta, genera vapor y presión hasta que la cáscara no puede resistir más y&amp;nbsp;explota. &lt;/p&gt;
-&lt;p&gt;Si querías la versión corta puedes parar aquí, pero si sigues curioso y deseas enterarte de todos los detalles, déjame explicártelos en las próximas&amp;nbsp;secciones.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id="el-efecto-del-microondas"&gt;El efecto del microondas&lt;a class="headerlink" href="#el-efecto-del-microondas" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;El horno microondas opera típicamente a una frecuencia de 2.45 GHz, correspondiente a una longitud de onda de 12.2 cm. Esta radiación electromagnética interactúa con los dipolos eléctricos del agua mediante el proceso de &lt;em&gt;calentamiento dieléctrico&lt;/em&gt;. Las moléculas de agua rotan en fase con el campo alterno, generando disipación térmica a escala&amp;nbsp;molecular.&lt;/p&gt;
-&lt;!--El flujo de calor neto puede describirse de forma simplificada mediante la ecuación de difusión del calor:
-
-$$
-\rho c_p \frac{\partial T}{\partial t} = k \nabla^2 T + Q_{\text{abs}}
-$$
-
-donde ρ es la densidad, c&lt;sub&gt;p&lt;/sub&gt; el calor específico, k la conductividad térmica y Q&lt;sub&gt;abs&lt;/sub&gt; la potencia volumétrica absorbida del campo electromagnético.--&gt;
-
-&lt;p&gt;Al subir la temperatura, el agua dentro del grano se convierte en vapor y la presión interna aumenta como en estudiante de doctorado a puntode entregar la tesis (comentario inecesario quizás, pero, al fin y al cabo, escribir para esta página cumple también la función de entretenerme). En cualquier caso, la presión interna del grano depende de la temperatura según la ecuación de&amp;nbsp;Clausius–Clapeyron:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-\frac{dP_v}{dT} = \frac{L P_v}{R T^2},
-$$&lt;/div&gt;
-&lt;p&gt;cuya integración da lugar&amp;nbsp;a:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-\ln \left( \frac{P_v}{P_0} \right) = - \frac{L}{R} \left( \frac{1}{T} - \frac{1}{T_0} \right),
-$$&lt;/div&gt;
-&lt;p&gt;donde &lt;span class="math"&gt;\(L = 2.26×10^{6}\)&lt;/span&gt; J/kg es el calor latente de vaporización del agua&amp;nbsp;y &lt;span class="math"&gt;\(R = 8.31\)&lt;/span&gt; J/mol·K la constante de los gases ideales. Calculando la presión dentro del grano para un valor típico de temperatura dentro del horno&amp;nbsp;de &lt;span class="math"&gt;\(453\)&lt;/span&gt; K&amp;nbsp;(&lt;span class="math"&gt;\(≈ 180\)&lt;/span&gt; °C)&amp;nbsp;y  &lt;span class="math"&gt;\(T_0 = 373\)&lt;/span&gt; K, &lt;span class="math"&gt;\(P_0 = 1\)&lt;/span&gt; atm, se&amp;nbsp;obtiene:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-P_v(453~\text{K}) \approx 9~\text{atm}
-$$&lt;/div&gt;
-&lt;p&gt;que coincide con la presión crítica de ruptura observada experimentalmente para el pericarpio&amp;nbsp;(&lt;span class="math"&gt;\(P_{rupt} ≈ 9–10\)&lt;/span&gt; atm). &lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id="explosion-y-expansion-adiabatica"&gt;Explosión y expansión adiabática&lt;a class="headerlink" href="#explosion-y-expansion-adiabatica" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Una vez que la presión interna excede la resistencia del pericarpio&amp;nbsp;(&lt;span class="math"&gt;\(P_{rupt} ≈ 9–10\)&lt;/span&gt; atm), se produce una fractura súbita. El vapor se expande rápidamente, realizando trabajo sobre el almidón circundante y provocando una expansión casi adiabática del&amp;nbsp;gas. &lt;/p&gt;
-&lt;p&gt;Si suponemos una expansión adiabática reversible para el vapor de&amp;nbsp;agua:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-P V^{\gamma} = \text{constante},
-$$&lt;/div&gt;
-&lt;p&gt;donde &lt;span class="math"&gt;\(γ ≈ 1.33\)&lt;/span&gt; para el vapor de agua, y, en consecuencia, el trabajo realizado por el gas durante la expansión&amp;nbsp;es:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-W = \frac{P_i V_i - P_f V_f}{\gamma - 1}.
-$$&lt;/div&gt;
-&lt;p&gt;Tomando &lt;span class="math"&gt;\(P_i = 9\)&lt;/span&gt; atm, &lt;span class="math"&gt;\(P_f = 1\)&lt;/span&gt; atm y considerando que el volumen final del gas es&amp;nbsp;unas &lt;span class="math"&gt;\(V_f/V_i ≈ 10\)&lt;/span&gt; veces mayor, se obtiene un trabajo del orden&amp;nbsp;de:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-W \sim 10^{-3}~\text{J}.
-$$&lt;/div&gt;
-&lt;p&gt;A pesar de parecer pequeño, este trabajo genera en las moléculas dentro del grano velocidades de expansión del orden de varios metros por segundo, suficientes para inflar el almidón y solidificarlo instantáneamente por&amp;nbsp;enfriamiento.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id="energia-total-liberada"&gt;Energía total liberada&lt;a class="headerlink" href="#energia-total-liberada" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;El contenido energético total asociado al cambio de fase del agua en un solo grano&amp;nbsp;es:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-E = m L
-$$&lt;/div&gt;
-&lt;p&gt;donde &lt;span class="math"&gt;\(m\)&lt;/span&gt; es la masa de agua.&amp;nbsp;Si &lt;span class="math"&gt;\(m ≈ 10^{-5}\)&lt;/span&gt; kg ,&amp;nbsp;entonces:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-E = 2.26 \times 10^{6} \times 10^{-5} = 22.6~\text{J}.
-$$&lt;/div&gt;
-&lt;p&gt;De esta energía, una pequeña fracción se convierte en trabajo mecánico y sonido; el resto se disipa en forma de&amp;nbsp;calor.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id="factores-que-impiden-el-estallido"&gt;Factores que impiden el estallido&lt;a class="headerlink" href="#factores-que-impiden-el-estallido" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Por nuestra experiencia, sabemos que siempre hay un par de granitos que no revientan (&lt;em&gt;“old maids”&lt;/em&gt;). Esto peude deberse a una o varias de las siguientes&amp;nbsp;causas:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Bajo contenido de humedad en el grano (menos de un 10%), insuficiente para generar la presión&amp;nbsp;crítica.  &lt;/li&gt;
-&lt;li&gt;Fisuras microscópicas en el pericarpio, que permiten la fuga de vapor antes de&amp;nbsp;alcanzar &lt;span class="math"&gt;\(P_{rupt}\)&lt;/span&gt;.  &lt;/li&gt;
-&lt;li&gt;Distribución térmica no uniforme que evita una presurización&amp;nbsp;homogénea.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2 id="eficiencia-termodinamica-aproximada"&gt;Eficiencia termodinámica aproximada&lt;a class="headerlink" href="#eficiencia-termodinamica-aproximada" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Si un horno microondas de&amp;nbsp;potencia &lt;span class="math"&gt;\(P = 800\)&lt;/span&gt; W opera&amp;nbsp;durante &lt;span class="math"&gt;\(t = 120\)&lt;/span&gt; s:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-E_{\text{in}} = P t = 9.6 \times 10^{4}~\text{J}.
-$$&lt;/div&gt;
-&lt;p&gt;Una bolsa&amp;nbsp;de &lt;span class="math"&gt;\(100\)&lt;/span&gt; g contiene&amp;nbsp;aproximadamente &lt;span class="math"&gt;\(N = 3000\)&lt;/span&gt; granos.&lt;br /&gt;
-Si cada uno&amp;nbsp;libera &lt;span class="math"&gt;\(≈ 20\)&lt;/span&gt; J en el proceso de&amp;nbsp;vaporización:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-E_{\text{total}} = N \times 20~\text{J} = 6.0 \times 10^{4}~\text{J}.
-$$&lt;/div&gt;
-&lt;p&gt;Por tanto, la eficiencia energética del proceso&amp;nbsp;es:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-\eta = \frac{E_{\text{total}}}{E_{\text{in}}} \approx 0.6
-$$&lt;/div&gt;
-&lt;p&gt;es decir, un rendimiento del 60%, notablemente alto para un proceso de cocción doméstico basado en calentamiento&amp;nbsp;dieléctrico.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id="lo-que-aprendemos-de-las-palomitas"&gt;Lo que aprendemos de las palomitas&lt;a class="headerlink" href="#lo-que-aprendemos-de-las-palomitas" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;El estallido de las palomitas es un ejemplo fascinante de cómo principios de la física macroscópica &amp;#8212;transferencia de calor, termodinámica del cambio de fases, elasticidad de materiales y dinámica de gases&amp;#8212; se manifiestan en un fenómeno tan delicioso como cotidiano. Cada grano actúa como una &lt;em&gt;microcápsula de presión&lt;/em&gt; donde el agua, confinada, pasa de líquido a vapor hasta romper la envoltura, produciendo ese modesto sonido (&lt;em&gt;pop&lt;/em&gt;) en el que convergen varias ramas de la&amp;nbsp;física.  &lt;/p&gt;
-&lt;hr /&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-
-    var configscript = document.createElement('script');
-    configscript.type = 'text/x-mathjax-config';
-    configscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        availableFonts: ['STIX', 'TeX']," +
-        "        preferredFont: 'STIX'," +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</content><category term="Termodinámica"/><category term="física"/><category term="termodinámica"/><category term="microondas"/><category term="alimentos"/></entry></feed>
+&lt;/script&gt;</content><category term="Matemáticas"/><category term="infinito"/><category term="cálculo"/><category term="paradojas"/></entry></feed>
