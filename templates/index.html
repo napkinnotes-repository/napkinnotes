@@ -175,56 +175,7 @@
         </section>
         {% endif %}
 
-        {% if articles %}
-        <section class="nn-section-card nn-section-card--articles">
-            <div class="nn-section-card__header nn-section-card__header--row">
-                <div>
-                    <span class="nn-kicker">Publicaciones</span>
-                    <h2>Artículos recientes</h2>
-                </div>
-                <a class="nn-inline-link" href="{{ SITEURL }}/{{ ARCHIVES_URL }}">Ver todos</a>
-            </div>
-
-            <div class="nn-article-list">
-                {% for article in articles %}
-                    {% if loop.index0 < RECENT_ARTICLES_COUNT %}
-                    <article
-                        class="nn-article-card nn-article-card--{{ article.category.slug }}"
-                        data-href="{{ SITEURL }}/{{ article.url }}"
-                        role="link"
-                        tabindex="0"
-                    >
-                        {% if article.image %}
-                        <a class="nn-article-card__image-link" href="{{ SITEURL }}/{{ article.url }}">
-                            <img class="nn-article-card__image" src="{{ SITEURL }}/{{ article.image }}" alt="{{ article.title }}">
-                        </a>
-                        {% endif %}
-
-                        <div class="nn-article-card__body">
-                            <div class="nn-article-card__meta">
-                                <a href="{{ SITEURL }}/{{ CATEGORIES_URL }}#{{ article.category.slug }}-ref">{{ article.category }}</a>
-                                •
-                                <time datetime="{{ article.date.isoformat() }}">{{ article.date|fecha_es }}</time>
-                            </div>
-
-                            <h3 class="nn-article-card__title">
-                                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-                            </h3>
-
-                            {% if article.subtitle %}
-                            <p class="nn-article-card__subtitle">{{ article.subtitle }}</p>
-                            {% endif %}
-
-                            {% if RECENT_ARTICLE_SUMMARY and article.summary %}
-                            <div class="nn-article-card__summary">{{ article.summary }}</div>
-                            {% endif %}
-                        </div>
-                    </article>
-                    {% endif %}
-                {% endfor %}
-            </div>
-        </section>
-        {% endif %}
+ 
     </main>
 
     <aside class="nn-home-sidebar">
