@@ -687,7 +687,126 @@ En la solución anterior hemos agrupado las&amp;nbsp;constantes &lt;span class="
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="Envejecimiento"/><category term="ley de janet"/><category term="envejecimiento"/></entry><entry><title>¿Por qué las palomitas revientan en el microondas?</title><link href="https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas" rel="alternate"/><published>2026-05-21T00:00:00+02:00</published><updated>2026-05-21T00:00:00+02:00</updated><author><name>Duvier Suárez Fontanella</name></author><id>tag:napkinnotes.es,2026-05-21:/por-que-las-palomitas-revientan-en-el-microondas</id><summary type="html">&lt;p&gt;¿Alguna vez te has preguntado por qué explotan las palomitas, de dónde sale su forma y por qué saben tan bien? Ponte cómodo, vamos a mirar la ciencia que se esconde dentro de un grano de&amp;nbsp;maíz.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;/script&gt;</content><category term="Envejecimiento"/><category term="ley de janet"/><category term="envejecimiento"/></entry><entry><title>El pintor y la trompeta</title><link href="https://napkinnotes.es/el-pintor-y-la-trompeta" rel="alternate"/><published>2026-05-21T00:00:00+02:00</published><updated>2026-05-21T00:00:00+02:00</updated><author><name>David Figueruelo Hernán</name></author><id>tag:napkinnotes.es,2026-05-21:/el-pintor-y-la-trompeta</id><summary type="html">&lt;p&gt;Un hombre trajeado aparece en tu taller con una trompeta de vidrio transparente que se estrecha sin terminar nunca y una condición, su superficie debe verse completamente roja&amp;#8230; Lo que parece un encargo extraño acaba revelando una lección sobre el&amp;nbsp;infinito.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#el-encargo"&gt;El&amp;nbsp;encargo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#matematicas-y-otras-preguntas"&gt;Matématicas y otras&amp;nbsp;preguntas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#un-trabajo-bien-hecho"&gt;Un trabajo bien&amp;nbsp;hecho&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="el-encargo"&gt;El encargo&lt;a class="headerlink" href="#el-encargo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Imagina que eres un humilde pintor en tu pequeño taller de Tívoli, donde las fachadas ocres retienen el calor del sol y la calle empedrada desciende lentamente hacia el murmullo constante del río Aniene. Tus días transcurren entre cal, pigmentos y madera antigua. Restauras frescos que el tiempo ha ido apagando, devuelves color a puertas vencidas por los inviernos, retocas santos desvaídos que observan en silencio desde capillas en penumbra. La vida es sencilla, previsible, hasta que una mañana la campanilla de la puerta rompe el aire con un timbre más seco de lo&amp;nbsp;habitual.  &lt;/p&gt;
+&lt;p&gt;En el umbral aparece un hombre trajeado, gafas oscuras pese a la sombra del taller, un maletín impecable en la mano. No sonríe. No se presenta. Solo examina el espacio como si evaluara algo invisible. Después, con un gesto medido, deposita sobre tu mesa el objeto de su&amp;nbsp;visita.  &lt;/p&gt;
+&lt;p&gt;Lo observas sin comprender del todo. Comienza ancho, casi familiar, pero pronto se afina mientras se extiende hacia la derecha, cada vez más delgado, cada vez más largo. La forma parece huir de sí misma, escapar en una dirección que no promete final alguno. Sigues su perfil con la vista esperando que termine en algún punto razonable, pero no hay borde, no hay límite. Solo una prolongación que parece negarse a&amp;nbsp;concluir.  &lt;/p&gt;
+&lt;p&gt;Antes de marcharse, el hombre pronuncia el nombre con una solemnidad que no admite preguntas: el cuerno de&amp;nbsp;Gabriel.  &lt;/p&gt;
+&lt;p&gt;Desde el punto de vista matemático, la forma no es caprichosa. Se obtiene al girar la curva y = 1/x para x ≥ 1 alrededor del eje horizontal. El resultado es un sólido de revolución que se extiende indefinidamente mientras su radio disminuye. Es infinito en longitud, pero cada vez más&amp;nbsp;fino.  &lt;/p&gt;
+&lt;p&gt;El encargo parece simple: la escultura, ahora trasparente, deberá verse completamente roja. Piensas en lo obvio. Bastará con calcular cuánta pintura necesitas para cubrirla por&amp;nbsp;fuera.  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;¿Cuánta pintura necesitas para pintar una trompeta&amp;nbsp;infinita?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Tu intuición responde con rapidez: infinita. Si el objeto no termina nunca, tampoco lo hará la superficie que debes cubrir. Pero aún tienes esperanza, pues sabes que las matemáticas no siempre obedecen al sentido&amp;nbsp;común.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="matematicas-y-otras-preguntas"&gt;Matématicas y otras preguntas&lt;a class="headerlink" href="#matematicas-y-otras-preguntas" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;¿Qué significa realmente pintar algo? Cuando pintas, cubres la superficie exterior con una capa de grosor positivo, por pequeña que sea. La cantidad de pintura necesaria es proporcional al área. A mayor superficie, mayor consumo. Hasta ahora, todo coincide con tu&amp;nbsp;experiencia.  &lt;/p&gt;
+&lt;p&gt;Pero esta trompeta no es una pared ni una estatua convencional. Es otra&amp;nbsp;cosa.  &lt;/p&gt;
+&lt;p&gt;En el caso del cuerno de Gabriel, el área viene dada por la fórmula de las superficies de&amp;nbsp;revolución:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+A = 2\pi \int_1^{\infty} \frac{1}{x} \sqrt{1 + \left(\frac{1}{x^2}\right)^2} \, dx
+$$&lt;/div&gt;
+&lt;p&gt;La expresión puede parecer abstracta, pero su significado es claro: estamos sumando infinitos fragmentos diminutos de superficie. Llamas a tu matemático de confianza y, tras unos minutos de silencio, te explica el resultado: esa integral diverge. Es la manera elegante que tienen los matemáticos de afirmar que el área es&amp;nbsp;infinita.  &lt;/p&gt;
+&lt;p&gt;Aunque el radio se haga cada vez más pequeño, la longitud infinita compensa esa reducción. La superficie nunca deja de acumularse. Siempre hay un nuevo tramo que&amp;nbsp;añadir.  &lt;/p&gt;
+&lt;p&gt;En términos prácticos eso significa que no existe una cantidad finita de pintura que permita cubrir completamente el exterior. Siempre quedará un segmento por pintar, por pequeño que&amp;nbsp;sea.  &lt;/p&gt;
+&lt;p&gt;Miras el objeto en tu taller. Está ahí, sólido, tangible, casi frágil. Pero si intentas pintarlo por fuera, jamás terminarás. Cada litro adicional solo retrasará lo&amp;nbsp;inevitable.  &lt;/p&gt;
+&lt;p&gt;Durante un momento el encargo parece imposible. Sin embargo, el hombre trajeado no especificó el método, solo el resultado. Quiere la trompeta roja. La escultura es completamente transparente. Desde fuera, nadie distinguiría si el color está en la superficie o en el&amp;nbsp;interior.  &lt;/p&gt;
+&lt;p&gt;Entonces surge una idea. En lugar de cubrir el exterior, decides llenar la trompeta de pintura roja y sellarla. A primera vista parece aún peor; si cubrir el área requiere pintura infinita, llenar el interior debería ser todavía más costoso. Pero ahora el problema ya no es el área, sino el&amp;nbsp;volumen.&lt;/p&gt;
+&lt;p&gt;El volumen del cuerno de Gabriel se calcula también con&amp;nbsp;integrales:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+V = \pi \int_1^{\infty} \left(\frac{1}{x}\right)^2 dx,
+$$&lt;/div&gt;
+&lt;p&gt;es&amp;nbsp;decir,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+V = \pi \int_1^{\infty} \frac{1}{x^2} dx.
+$$&lt;/div&gt;
+&lt;p&gt;A diferencia de la anterior, esta integral sí&amp;nbsp;converge:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\int_1^{\infty} \frac{1}{x^2} dx = 1.
+$$&lt;/div&gt;
+&lt;p&gt;Por&amp;nbsp;tanto,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+V = \pi.
+$$&lt;/div&gt;
+&lt;p&gt;La trompeta se extiende hasta el infinito, pero el volumen total contenido en su interior es finito. Exactamente π unidades cúbicas. Puedes llenarla completamente con una cantidad limitada de&amp;nbsp;pintura.  &lt;/p&gt;
+&lt;p&gt;Volumen finito. Área infinita. A esto se le puede llamar &lt;em&gt;una paradoja&lt;/em&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="un-trabajo-bien-hecho"&gt;Un trabajo bien hecho&lt;a class="headerlink" href="#un-trabajo-bien-hecho" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Has resuelto el encargo. Desde fuera, la pieza se ve roja, uniforme, impecable. El hombre trajeado regresa, asiente en silencio, paga y desaparece sin añadir una&amp;nbsp;palabra.  &lt;/p&gt;
+&lt;p&gt;Pero lo que te llevas no es solo el pago. Es la&amp;nbsp;lección.  &lt;/p&gt;
+&lt;p&gt;Un mismo objeto puede tener área superficial infinita y volumen finito porque ambas magnitudes miden propiedades distintas. El infinito no actúa igual sobre todas las&amp;nbsp;dimensiones.  &lt;/p&gt;
+&lt;p&gt;Tu intuición te decía que si algo es infinito, todo en él debía serlo. El cuerno de Gabriel demuestra que no. Superficie y volumen pueden separarse de manera radical cuando entra en juego el&amp;nbsp;infinito.  &lt;/p&gt;
+&lt;p&gt;El infinito no contradice la lógica. Solo contradice nuestras&amp;nbsp;expectativas.  &lt;/p&gt;
+&lt;p&gt;Y ahora, cada vez que sostienes un pincel, sabes que incluso aquello que parece perfectamente manejable puede ocultar una estructura que desborda el sentido común. Un día más en&amp;nbsp;Tívoli.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Matemáticas"/><category term="infinito"/><category term="cálculo"/><category term="paradojas"/></entry><entry><title>¿Por qué las palomitas revientan en el microondas?</title><link href="https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas" rel="alternate"/><published>2026-05-21T00:00:00+02:00</published><updated>2026-05-21T00:00:00+02:00</updated><author><name>Duvier Suárez Fontanella</name></author><id>tag:napkinnotes.es,2026-05-21:/por-que-las-palomitas-revientan-en-el-microondas</id><summary type="html">&lt;p&gt;¿Alguna vez te has preguntado por qué explotan las palomitas, de dónde sale su forma y por qué saben tan bien? Ponte cómodo, vamos a mirar la ciencia que se esconde dentro de un grano de&amp;nbsp;maíz.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#estructura-del-grano"&gt;Estructura del&amp;nbsp;grano&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#el-efecto-del-microondas"&gt;El efecto del&amp;nbsp;microondas&lt;/a&gt;&lt;/li&gt;
@@ -897,123 +1016,4 @@ En silencio. Inevitablemente.
 &lt;hr /&gt;
 &lt;h2 id="tu-arcoiris-es-solo-tuyo"&gt;Tu arcoíris es sólo tuyo&lt;a class="headerlink" href="#tu-arcoiris-es-solo-tuyo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;¿Pero por qué decía yo al principio que cada persona ve su propio arcoíris? Porque ese ángulo de 42 grados se mide desde tus ojos. Muévete un poco hacia la izquierda, y tu arcoíris se desplaza. Alguien que está cerca tiene su propio cono de luz de 42 grados, recibiendo la luz que regresa un conjunto ligeramente distinto de gotas de lluvia. Así que aunque parezca que ambos observan el mismo arcoíris, en realidad estáis viendo la luz refractada por distintas colecciones de&amp;nbsp;gotas.&lt;/p&gt;
-&lt;p&gt;Así que la próxima vez que veas uno, recuerda que no es sólo un arcoíris en el cielo, es un mensaje personal del universo dibujado usando tu posición, tu ángulo, tu momento. Mismo Sol, misma lluvia; pero, ¿tu arcoíris?, completamente tuyo&amp;nbsp;🌈.&lt;/p&gt;</content><category term="Física cotidiana"/><category term="física"/><category term="óptica"/><category term="arcoíris"/></entry><entry><title>El pintor y la trompeta</title><link href="https://napkinnotes.es/el-pintor-y-la-trompeta" rel="alternate"/><published>2026-04-15T00:00:00+02:00</published><updated>2026-04-15T00:00:00+02:00</updated><author><name>David Figueruelo Hernán</name></author><id>tag:napkinnotes.es,2026-04-15:/el-pintor-y-la-trompeta</id><summary type="html">&lt;p&gt;Un hombre trajeado aparece en tu taller con una trompeta de vidrio transparente que se estrecha sin terminar nunca y una condición, su superficie debe verse completamente roja&amp;#8230; Lo que parece un encargo extraño acaba revelando una lección sobre el&amp;nbsp;infinito.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#el-encargo"&gt;El&amp;nbsp;encargo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#matematicas-y-otras-preguntas"&gt;Matématicas y otras&amp;nbsp;preguntas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#un-trabajo-bien-hecho"&gt;Un trabajo bien&amp;nbsp;hecho&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h2 id="el-encargo"&gt;El encargo&lt;a class="headerlink" href="#el-encargo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Imagina que eres un humilde pintor en tu pequeño taller de Tívoli, donde las fachadas ocres retienen el calor del sol y la calle empedrada desciende lentamente hacia el murmullo constante del río Aniene. Tus días transcurren entre cal, pigmentos y madera antigua. Restauras frescos que el tiempo ha ido apagando, devuelves color a puertas vencidas por los inviernos, retocas santos desvaídos que observan en silencio desde capillas en penumbra. La vida es sencilla, previsible, hasta que una mañana la campanilla de la puerta rompe el aire con un timbre más seco de lo&amp;nbsp;habitual.  &lt;/p&gt;
-&lt;p&gt;En el umbral aparece un hombre trajeado, gafas oscuras pese a la sombra del taller, un maletín impecable en la mano. No sonríe. No se presenta. Solo examina el espacio como si evaluara algo invisible. Después, con un gesto medido, deposita sobre tu mesa el objeto de su&amp;nbsp;visita.  &lt;/p&gt;
-&lt;p&gt;Lo observas sin comprender del todo. Comienza ancho, casi familiar, pero pronto se afina mientras se extiende hacia la derecha, cada vez más delgado, cada vez más largo. La forma parece huir de sí misma, escapar en una dirección que no promete final alguno. Sigues su perfil con la vista esperando que termine en algún punto razonable, pero no hay borde, no hay límite. Solo una prolongación que parece negarse a&amp;nbsp;concluir.  &lt;/p&gt;
-&lt;p&gt;Antes de marcharse, el hombre pronuncia el nombre con una solemnidad que no admite preguntas: el cuerno de&amp;nbsp;Gabriel.  &lt;/p&gt;
-&lt;p&gt;Desde el punto de vista matemático, la forma no es caprichosa. Se obtiene al girar la curva y = 1/x para x ≥ 1 alrededor del eje horizontal. El resultado es un sólido de revolución que se extiende indefinidamente mientras su radio disminuye. Es infinito en longitud, pero cada vez más&amp;nbsp;fino.  &lt;/p&gt;
-&lt;p&gt;El encargo parece simple: la escultura, ahora trasparente, deberá verse completamente roja. Piensas en lo obvio. Bastará con calcular cuánta pintura necesitas para cubrirla por&amp;nbsp;fuera.  &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;¿Cuánta pintura necesitas para pintar una trompeta&amp;nbsp;infinita?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Tu intuición responde con rapidez: infinita. Si el objeto no termina nunca, tampoco lo hará la superficie que debes cubrir. Pero aún tienes esperanza, pues sabes que las matemáticas no siempre obedecen al sentido&amp;nbsp;común.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id="matematicas-y-otras-preguntas"&gt;Matématicas y otras preguntas&lt;a class="headerlink" href="#matematicas-y-otras-preguntas" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;¿Qué significa realmente pintar algo? Cuando pintas, cubres la superficie exterior con una capa de grosor positivo, por pequeña que sea. La cantidad de pintura necesaria es proporcional al área. A mayor superficie, mayor consumo. Hasta ahora, todo coincide con tu&amp;nbsp;experiencia.  &lt;/p&gt;
-&lt;p&gt;Pero esta trompeta no es una pared ni una estatua convencional. Es otra&amp;nbsp;cosa.  &lt;/p&gt;
-&lt;p&gt;En el caso del cuerno de Gabriel, el área viene dada por la fórmula de las superficies de&amp;nbsp;revolución:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-A = 2\pi \int_1^{\infty} \frac{1}{x} \sqrt{1 + \left(\frac{1}{x^2}\right)^2} \, dx
-$$&lt;/div&gt;
-&lt;p&gt;La expresión puede parecer abstracta, pero su significado es claro: estamos sumando infinitos fragmentos diminutos de superficie. Llamas a tu matemático de confianza y, tras unos minutos de silencio, te explica el resultado: esa integral diverge. Es la manera elegante que tienen los matemáticos de afirmar que el área es&amp;nbsp;infinita.  &lt;/p&gt;
-&lt;p&gt;Aunque el radio se haga cada vez más pequeño, la longitud infinita compensa esa reducción. La superficie nunca deja de acumularse. Siempre hay un nuevo tramo que&amp;nbsp;añadir.  &lt;/p&gt;
-&lt;p&gt;En términos prácticos eso significa que no existe una cantidad finita de pintura que permita cubrir completamente el exterior. Siempre quedará un segmento por pintar, por pequeño que&amp;nbsp;sea.  &lt;/p&gt;
-&lt;p&gt;Miras el objeto en tu taller. Está ahí, sólido, tangible, casi frágil. Pero si intentas pintarlo por fuera, jamás terminarás. Cada litro adicional solo retrasará lo&amp;nbsp;inevitable.  &lt;/p&gt;
-&lt;p&gt;Durante un momento el encargo parece imposible. Sin embargo, el hombre trajeado no especificó el método, solo el resultado. Quiere la trompeta roja. La escultura es completamente transparente. Desde fuera, nadie distinguiría si el color está en la superficie o en el&amp;nbsp;interior.  &lt;/p&gt;
-&lt;p&gt;Entonces surge una idea. En lugar de cubrir el exterior, decides llenar la trompeta de pintura roja y sellarla. A primera vista parece aún peor; si cubrir el área requiere pintura infinita, llenar el interior debería ser todavía más costoso. Pero ahora el problema ya no es el área, sino el&amp;nbsp;volumen.&lt;/p&gt;
-&lt;p&gt;El volumen del cuerno de Gabriel se calcula también con&amp;nbsp;integrales:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-V = \pi \int_1^{\infty} \left(\frac{1}{x}\right)^2 dx,
-$$&lt;/div&gt;
-&lt;p&gt;es&amp;nbsp;decir,&lt;/p&gt;
-&lt;div class="math"&gt;$$
-V = \pi \int_1^{\infty} \frac{1}{x^2} dx.
-$$&lt;/div&gt;
-&lt;p&gt;A diferencia de la anterior, esta integral sí&amp;nbsp;converge:&lt;/p&gt;
-&lt;div class="math"&gt;$$
-\int_1^{\infty} \frac{1}{x^2} dx = 1.
-$$&lt;/div&gt;
-&lt;p&gt;Por&amp;nbsp;tanto,&lt;/p&gt;
-&lt;div class="math"&gt;$$
-V = \pi.
-$$&lt;/div&gt;
-&lt;p&gt;La trompeta se extiende hasta el infinito, pero el volumen total contenido en su interior es finito. Exactamente π unidades cúbicas. Puedes llenarla completamente con una cantidad limitada de&amp;nbsp;pintura.  &lt;/p&gt;
-&lt;p&gt;Volumen finito. Área infinita. A esto se le puede llamar &lt;em&gt;una paradoja&lt;/em&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id="un-trabajo-bien-hecho"&gt;Un trabajo bien hecho&lt;a class="headerlink" href="#un-trabajo-bien-hecho" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Has resuelto el encargo. Desde fuera, la pieza se ve roja, uniforme, impecable. El hombre trajeado regresa, asiente en silencio, paga y desaparece sin añadir una&amp;nbsp;palabra.  &lt;/p&gt;
-&lt;p&gt;Pero lo que te llevas no es solo el pago. Es la&amp;nbsp;lección.  &lt;/p&gt;
-&lt;p&gt;Un mismo objeto puede tener área superficial infinita y volumen finito porque ambas magnitudes miden propiedades distintas. El infinito no actúa igual sobre todas las&amp;nbsp;dimensiones.  &lt;/p&gt;
-&lt;p&gt;Tu intuición te decía que si algo es infinito, todo en él debía serlo. El cuerno de Gabriel demuestra que no. Superficie y volumen pueden separarse de manera radical cuando entra en juego el&amp;nbsp;infinito.  &lt;/p&gt;
-&lt;p&gt;El infinito no contradice la lógica. Solo contradice nuestras&amp;nbsp;expectativas.  &lt;/p&gt;
-&lt;p&gt;Y ahora, cada vez que sostienes un pincel, sabes que incluso aquello que parece perfectamente manejable puede ocultar una estructura que desborda el sentido común. Un día más en&amp;nbsp;Tívoli.&lt;/p&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-
-    var configscript = document.createElement('script');
-    configscript.type = 'text/x-mathjax-config';
-    configscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        availableFonts: ['STIX', 'TeX']," +
-        "        preferredFont: 'STIX'," +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</content><category term="Matemáticas"/><category term="infinito"/><category term="cálculo"/><category term="paradojas"/></entry></feed>
+&lt;p&gt;Así que la próxima vez que veas uno, recuerda que no es sólo un arcoíris en el cielo, es un mensaje personal del universo dibujado usando tu posición, tu ángulo, tu momento. Mismo Sol, misma lluvia; pero, ¿tu arcoíris?, completamente tuyo&amp;nbsp;🌈.&lt;/p&gt;</content><category term="Física cotidiana"/><category term="física"/><category term="óptica"/><category term="arcoíris"/></entry></feed>
