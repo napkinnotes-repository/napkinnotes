@@ -25,15 +25,40 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
 {% endblock meta_tags_in_head %}
 
 {% block content %}
+{% from '_includes/_defaults.html' import ARCHIVES_URL, EXPLORAR_URL, NOSOTROS_URL with context %}
+
 <div class="container-archives">
 
   <section class="nn-archives-hero">
-    <div class="nn-archives-hero__inner">
-      <div class="nn-kicker">Archivo</div>
-      <h1 class="nn-archives-hero__title">Artículos</h1>
-      <p class="nn-archives-hero__subtitle">
-        Recorre todos los artículos de Napkin Notes en orden cronológico y encuentra preguntas improbables, cálculos rápidos y ciencia cotidiana.
-      </p>
+    <div class="nn-archives-hero__inner nn-archives-hero__inner--with-metrics">
+      <div class="nn-archives-hero__content">
+        <div class="nn-kicker">Archivo</div>
+        <h1 class="nn-archives-hero__title">Artículos</h1>
+        <p class="nn-archives-hero__subtitle">
+          Recorre todos los artículos de Napkin Notes en orden cronológico y encuentra preguntas improbables, cálculos rápidos y ciencia cotidiana.
+        </p>
+      </div>
+
+      <div class="nn-archives-hero__metrics" aria-label="Métricas de Napkin Notes">
+        <a class="nn-archives-hero__metric nn-archives-hero__metric--link"
+           href="{{ SITEURL }}/{{ NOSOTROS_URL }}"
+           aria-label="Ver autores">
+          <strong>{{ AUTHORS|length }}</strong>
+          <span>autores</span>
+        </a>
+
+        <div class="nn-archives-hero__metric" aria-label="Total de artículos">
+          <strong>{{ articles|length }}</strong>
+          <span>artículos</span>
+        </div>
+
+        <a class="nn-archives-hero__metric nn-archives-hero__metric--link"
+           href="{{ SITEURL }}/{{ EXPLORAR_URL }}"
+           aria-label="Explorar categorías y tags">
+          <strong>{{ categories|length }}</strong>
+          <span>categorías</span>
+        </a>
+      </div>
     </div>
   </section>
 
