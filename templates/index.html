@@ -151,7 +151,7 @@
                     <img class="nn-mini-author-carousel__image" src="{{ SITEURL }}/theme/images/nn_logo.png" alt="{{ article.title }}">
                     {% endif %}
 
-                    <span class="nn-mini-author-carousel__name">{{ article.title }}</span>
+                    <span class="nn-mini-author-carousel__name">{{ article.title.split(':')[0] }}</span>
                 </a>
                 {% endif %}
             {% endfor %}
