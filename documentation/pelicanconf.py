@@ -18,7 +18,12 @@ DATE_FORMATS = {
     "es": "%d de %B de %Y",
 }
 DEFAULT_LANG = "es"
-
+LOCALE = (
+    "es_ES.UTF-8",
+    "es_ES.utf8",
+    "es_ES",
+    "Spanish_Spain.1252",
+)
 # Plugins and extensions
 MARKDOWN = {
     "extension_configs": {
