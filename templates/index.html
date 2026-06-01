@@ -154,7 +154,7 @@
                             <div class="nn-article-card__meta">
                                 <a href="{{ SITEURL }}/{{ CATEGORIES_URL }}#{{ article.category.slug }}-ref">{{ article.category }}</a>
                                 •
-                                <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                                <time datetime="{{ article.date.isoformat() }}">{{ article.date|fecha_es }}</time>
                             </div>
 
                             <h3 class="nn-article-card__title">
