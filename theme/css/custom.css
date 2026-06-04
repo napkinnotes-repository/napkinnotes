@@ -4789,11 +4789,11 @@ a.nn-squad-hero__metric {
 
 /* =========================
    INSTAGRAM + X HEADER/FOOTER
+   Versión segura: no parte Napkin Notes y muestra Instagram en portada
 ========================= */
 
-.site-nav__instagram,
-.site-mobile-instagram {
-  display: none;
+.site-brand__name {
+  white-space: nowrap;
 }
 
 .site-social-svg,
@@ -4803,7 +4803,38 @@ a.nn-squad-hero__metric {
   height: 18px;
 }
 
+.site-nav__instagram,
+.site-mobile-instagram {
+  display: none;
+}
+
 @media (min-width: 981px) {
+  .site-header__inner {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 18px;
+  }
+
+  .site-brand {
+    min-width: max-content;
+  }
+
+  .site-nav {
+    min-width: 0;
+  }
+
+  .site-nav__list {
+    gap: 18px;
+  }
+
+  .site-nav__list li a {
+    font-size: 1.05rem;
+  }
+
+  .site-search input {
+    min-width: 210px;
+    width: 210px;
+  }
+
   .site-nav__instagram {
     display: inline-flex !important;
     align-items: center;
@@ -4831,13 +4862,48 @@ a.nn-squad-hero__metric {
   }
 }
 
+@media (min-width: 981px) and (max-width: 1120px) {
+  .site-brand__name {
+    font-size: 2.15rem !important;
+  }
+
+  .site-brand__logo {
+    width: 76px !important;
+    height: 76px !important;
+  }
+
+  .site-nav__list {
+    gap: 13px;
+  }
+
+  .site-nav__list li a {
+    font-size: 0.96rem;
+  }
+
+  .site-search input {
+    width: 170px;
+    min-width: 170px;
+  }
+}
+
 @media (max-width: 980px) {
-  .site-nav__instagram {
+  .site-nav__instagram,
+  .site-nav__x {
     display: none !important;
   }
 
-  .site-mobile-instagram {
-    display: inline-flex;
+  .site-search-row {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+
+  .site-mobile-instagram,
+  .site-mobile-x {
+    display: inline-flex !important;
     align-items: center;
     justify-content: center;
     width: 36px;
@@ -4850,13 +4916,21 @@ a.nn-squad-hero__metric {
     text-decoration: none !important;
   }
 
-  .site-mobile-instagram:hover {
+  .site-mobile-instagram:hover,
+  .site-mobile-x:hover {
     background: #f8ecdf;
     color: var(--richcarmine) !important;
   }
 
+  .site-search {
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+
   .site-search input {
-    width: min(210px, calc(100vw - 128px));
+    box-sizing: border-box;
+    width: min(210px, calc(100vw - 128px)) !important;
+    min-width: 0 !important;
   }
 }
 
