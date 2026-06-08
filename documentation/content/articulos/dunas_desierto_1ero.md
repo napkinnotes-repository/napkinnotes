@@ -12,6 +12,7 @@ tags:
   - arena
 summary: Vamos a hacer la receta para crear una duna en un desierto. Bueno, o mejor solo entendemos la receta.
 image: images/wadi_rum.jpeg 
+certificate: true
 ---
 
 [TOC]

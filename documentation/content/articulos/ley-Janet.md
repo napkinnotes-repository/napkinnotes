@@ -10,6 +10,7 @@ tags:
   - envejecimiento
 summary: '¿Te acuerdas de los veranos de la infancia? Parecían eternos. En cambio, con los años, la Navidad llega antes, los meses parecen semanas y los años se evaporan. La física del tiempo no ha cambiado. Entonces, ¿por qué nuestra mente insiste en que el tiempo se acelera?'
 image: images/janet.jpg
+certificate: true
 ---
 
 [TOC]
