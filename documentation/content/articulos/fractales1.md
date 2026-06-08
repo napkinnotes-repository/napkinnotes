@@ -19,7 +19,7 @@ certificate: true
 
 ## La dimensión es una idea razonable
 
-<!-- Texto normal con certificado-->
+<!-- Texto normal con certificado true-->
 
 La intuición funciona bastante bien. Podemos imaginar la dimensión de un objeto como el número de direcciones independientes en las que podríamos movernos sobre él:
 
