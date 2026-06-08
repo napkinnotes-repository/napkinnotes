@@ -141,7 +141,7 @@ es decir, un rendimiento del 60%, notablemente alto para un proceso de cocción 
 
 ## Lo que aprendemos de las palomitas
 
-El estallido de las palomitas es un ejemplo fascinante de cómo principios de la física macroscópica --transferencia de calor, termodinámica del cambio de fases, elasticidad de materiales y dinámica de gases- se manifiestan en un fenómeno tan delicioso como cotidiano. Cada grano actúa como una *microcápsula de presión* donde el agua, confinada, pasa de líquido a vapor hasta romper la envoltura, produciendo ese modesto sonido (*pop*) en el que convergen varias ramas de la física.  
+El estallido de las palomitas es un ejemplo fascinante de cómo principios de la física macroscópica --transferencia de calor, termodinámica del cambio de fases, elasticidad de materiales y dinámica de gases-- se manifiestan en un fenómeno tan delicioso como cotidiano. Cada grano actúa como una *microcápsula de presión* donde el agua, confinada, pasa de líquido a vapor hasta romper la envoltura, produciendo ese modesto sonido (*pop*) en el que convergen varias ramas de la física.  
 
 ---
 
