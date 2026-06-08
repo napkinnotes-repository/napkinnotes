@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Install Python
         uses: actions/setup-python@v5
@@ -20,7 +25,38 @@ jobs:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install pelican markdown smartypants typogrify pelican-render-math pelican-yaml-metadata
+          pip install reportlab==4.5.1 PyYAML==6.0.3
+
+      - name: Detect changed article files
+        id: changed_articles
+        shell: bash
+        run: |
+          CHANGED_FILES=$(git diff --name-only --diff-filter=AM HEAD^ HEAD -- 'documentation/content/articulos/*.md' | tr '\n' ' ')
+
+          echo "Changed article files:"
+          echo "$CHANGED_FILES"
+
+          echo "files=$CHANGED_FILES" >> "$GITHUB_OUTPUT"
+
+      - name: Generate certificates only for changed articles
+        if: steps.changed_articles.outputs.files != ''
+        run: |
+          python documentation/content/scripts/generate_certificates_from_articles.py ${{ steps.changed_articles.outputs.files }}
+
+      - name: Commit and push generated certificates
+        if: steps.changed_articles.outputs.files != ''
+        run: |
+          if [ -n "$(git status --porcelain documentation/content/certificados)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add documentation/content/certificados
+            git commit -m "Generate certificates [skip certificates]"
+            git push origin main
+          else
+            echo "No certificate changes to commit."
+          fi
 
       - name: Build site
         run: |
