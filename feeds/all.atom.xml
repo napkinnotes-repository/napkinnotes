@@ -342,7 +342,7 @@ En la solución anterior hemos agrupado las&amp;nbsp;constantes &lt;span class="
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h2 id="la-dimension-es-una-idea-razonable"&gt;La dimensión es una idea razonable&lt;a class="headerlink" href="#la-dimension-es-una-idea-razonable" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;!-- Texto normal --&gt;
+&lt;!-- Texto normal con certificado true--&gt;
 
 &lt;p&gt;La intuición funciona bastante bien. Podemos imaginar la dimensión de un objeto como el número de direcciones independientes en las que podríamos movernos sobre&amp;nbsp;él:&lt;/p&gt;
 &lt;ul&gt;
