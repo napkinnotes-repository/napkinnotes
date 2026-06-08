@@ -568,16 +568,31 @@ def resolve_article_paths(args: list[str]) -> list[Path]:
     if not args:
         raise ValueError(
             "No se recibieron artículos. Uso: "
-            "python scripts/generate_certificates_from_articles.py articulos/archivo.md"
+            "python documentation/content/scripts/generate_certificates_from_articles.py "
+            "documentation/content/articulos/archivo.md"
         )
 
     paths: list[Path] = []
 
-    for arg in args:
-        path = Path(arg)
+    # BASE_DIR = documentation/content
+    # repo_root = raíz real del repo
+    repo_root = BASE_DIR.parents[1]
 
-        if not path.is_absolute():
-            path = BASE_DIR / path
+    for arg in args:
+        raw_path = Path(arg)
+
+        if raw_path.is_absolute():
+            path = raw_path
+        else:
+            candidate_from_repo = repo_root / raw_path
+            candidate_from_content = BASE_DIR / raw_path
+
+            if candidate_from_repo.exists():
+                path = candidate_from_repo
+            elif candidate_from_content.exists():
+                path = candidate_from_content
+            else:
+                path = candidate_from_repo
 
         if not path.exists():
             raise FileNotFoundError(f"No existe el artículo: {path}")
