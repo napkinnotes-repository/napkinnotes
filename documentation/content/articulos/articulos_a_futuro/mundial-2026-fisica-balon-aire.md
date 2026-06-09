@@ -105,7 +105,7 @@ Así que el estadio donde la pelota “vuela más” no tiene por qué ser el es
 
 ## Un índice de "rareza" física
 
-Para ordenar las sedes podemos definir un índice comparativo de rareza física a lo Napkin Notes es decir sin mucho formalismo pero que nos permita tener una estimación de cuán raro será el bote o volar del balón respecto a la media de los estadios, llamémosle a este $R$ como no podía ser de otra manera, y combinará seis ingredientes: altitud, temperatura, humedad, viento, tipo de estadio y superficie.
+Para ordenar las sedes podemos definir un índice comparativo de rareza física a lo Napkin Notes, es decir sin mucho formalismo pero que nos permita tener una estimación de cuán raro será el bote o volar del balón respecto a la media de los estadios, llamémosle a este $R$ como no podía ser de otra manera, y combinará seis ingredientes: altitud, temperatura, humedad, viento, tipo de estadio y superficie.
 
 No es un modelo predictivo profesional. No dice dónde habrá más goles ni quién jugará mejor. Solo responde a una pregunta: **¿qué sedes se alejan más de un entorno medio para el balón?**
 
