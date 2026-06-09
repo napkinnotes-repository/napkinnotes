@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="https://napkinnotes.es/theme/css/elegant.prod.9e9d5ce754.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://napkinnotes.es/theme/css/custom.css" media="screen">
+
+
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+        <meta name="author" content="David Figueruelo Hernán" />
+
+        <meta name="description" content="En una tanda de penaltis, ganar el sorteo parece comprar una ventaja. Pero los Mundiales cuentan una historia bastante menos obediente.
+" />
+
+        <meta name="twitter:creator" content="@napkiinnotes">
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="fútbol, mundial 2026, penaltis, estadística, probabilidad, Matemáticas, " />
+
+<meta property="og:title" content="¿Una moneda al aire decide Mundiales? "/>
+<meta property="og:url" content="https://napkinnotes.es/la-moneda-que-no-queria-decidir-un-mundial" />
+<meta property="og:description" content="En una tanda de penaltis, ganar el sorteo parece comprar una ventaja. Pero los Mundiales cuentan una historia bastante menos obediente." />
+<meta property="og:site_name" content="Napkin Notes" />
+<meta property="og:article:author" content="David Figueruelo Hernán" />
+<meta property="og:article:published_time" content="2026-06-09T00:00:00+02:00" />
+<meta name="twitter:title" content="¿Una moneda al aire decide Mundiales? ">
+<meta name="twitter:description" content="En una tanda de penaltis, ganar el sorteo parece comprar una ventaja. Pero los Mundiales cuentan una historia bastante menos obediente.">
+<meta property="og:image" content="https://napkinnotes.es/theme/images/nn_logo.png" />
+<meta name="twitter:image" content="https://napkinnotes.es/theme/images/nn_logo.png" >
+
+
+        <title>¿Una moneda al aire decide Mundiales?  · Napkin Notes
+</title>
+<link rel="shortcut icon" href="https://napkinnotes.es/images/Logo.jpg" type="image/jpeg" />
+<link rel="icon" href="https://napkinnotes.es/images/Logo.jpg" type="image/jpeg" />
+<link rel="apple-touch-icon" href="https://napkinnotes.es/images/Logo.jpg" type="image/jpeg" />
+        <link href="https://napkinnotes.es/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Napkin Notes - Full Atom Feed" />
+
+
+
+
+    </head>
+   
+    <body>
+        <div class="site-shell">
+            <header class="site-header">
+                <div class="site-header__inner">
+                    <a class="site-brand" href="https://napkinnotes.es">
+                             <img class="site-brand__logo" src="https://napkinnotes.es/images/Logo.jpg" alt="Logo de Napkin Notes">
+                             <span class="site-brand__name">Napkin Notes</span>
+                    </a>
+
+                   <nav class="site-nav">
+
+                       
+    <ul class="site-nav__list">
+        <li >
+            <a href="https://napkinnotes.es">Portada</a>
+        </li>
+
+
+        <li >
+            <a href="https://napkinnotes.es/archives">Artículos</a>
+        </li>
+        <li >
+            <a href="https://napkinnotes.es/explorar">Explorar</a>
+        </li>
+        <li >
+            <a href="https://napkinnotes.es/about">Nosotros</a>
+        </li>
+
+
+        <li>
+            <a class="site-nav__instagram"
+               href="https://www.instagram.com/napk.innotes"
+               target="_blank"
+               rel="me noopener noreferrer"
+               aria-label="Seguir a Napkin Notes en Instagram">
+                <svg class="site-social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Zm0 2A3.76 3.76 0 0 0 4 7.75v8.5A3.76 3.76 0 0 0 7.75 20h8.5A3.76 3.76 0 0 0 20 16.25v-8.5A3.76 3.76 0 0 0 16.25 4h-8.5ZM12 7.35A4.65 4.65 0 1 1 7.35 12 4.65 4.65 0 0 1 12 7.35Zm0 2A2.65 2.65 0 1 0 14.65 12 2.65 2.65 0 0 0 12 9.35Zm5.1-2.7a1.1 1.1 0 1 1-1.1 1.1 1.1 1.1 0 0 1 1.1-1.1Z"/>
+                </svg>
+            </a>
+        </li>
+
+            <li>
+                <a class="site-nav__x"
+                   href="https://twitter.com/napkiinnotes"
+                   target="_blank"
+                   rel="me noopener noreferrer"
+                   aria-label="Seguir a Napkin Notes en X">
+                    𝕏
+                </a>
+            </li>
+    </ul>
+</nav>
+
+                    <div class="site-search-row">
+    <a class="site-mobile-instagram"
+       href="https://www.instagram.com/napk.innotes"
+       target="_blank"
+       rel="me noopener noreferrer"
+       aria-label="Seguir a Napkin Notes en Instagram">
+        <svg class="site-social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Zm0 2A3.76 3.76 0 0 0 4 7.75v8.5A3.76 3.76 0 0 0 7.75 20h8.5A3.76 3.76 0 0 0 20 16.25v-8.5A3.76 3.76 0 0 0 16.25 4h-8.5ZM12 7.35A4.65 4.65 0 1 1 7.35 12 4.65 4.65 0 0 1 12 7.35Zm0 2A2.65 2.65 0 1 0 14.65 12 2.65 2.65 0 0 0 12 9.35Zm5.1-2.7a1.1 1.1 0 1 1-1.1 1.1 1.1 1.1 0 0 1 1.1-1.1Z"/>
+            </svg>
+    </a>
+
+    <form class="site-search" action="https://napkinnotes.es/search" onsubmit="return validateForm(this.elements['q'].value);">
+        <input type="text" placeholder="Buscar" name="q" id="tipue_search_input">
+    </form>
+
+    <a class="site-mobile-x"
+       href="https://twitter.com/napkiinnotes"
+       target="_blank"
+       rel="me noopener noreferrer"
+       aria-label="Seguir a Napkin Notes en X">
+        𝕏
+    </a>
+</div>
+                </div>
+            </header>
+
+            <main class="site-main">
+                <div class="site-main__inner">
+<article itemscope class="nn-article-page">
+
+<div class="nn-article-hero">
+    <div class="nn-article-hero__inner">
+        <div class="nn-article-hero__content">
+            <div class="nn-article-hero__meta">
+                <span class="nn-article-hero__category">Matemáticas</span>
+                <span class="nn-article-hero__dot">•</span>
+                <time itemprop="dateCreated" datetime="2026-06-09T00:00:00+02:00">9 de junio de 2026</time>
+            </div>
+
+            <div class="nn-article-hero__heading">
+                <div class="nn-article-hero__title-wrap">
+                    <h1 class="nn-article-hero__title">
+                        <a href="https://napkinnotes.es/la-moneda-que-no-queria-decidir-un-mundial">¿Una moneda al aire decide&nbsp;Mundiales?</a>
+                    </h1>
+                </div>
+
+            </div>
+
+            <p class="nn-article-hero__summary"><p>En una tanda de penaltis, ganar el sorteo parece comprar una ventaja. Pero los Mundiales cuentan una historia bastante menos&nbsp;obediente.</p></p>
+
+            <figure class="nn-article-hero__figure">
+                <img class="nn-article-hero__image" src="https://napkinnotes.es/images/penaltis-mundial-moneda.png" alt="¿Una moneda al aire decide&nbsp;Mundiales?">
+            </figure>
+        </div>
+    </div>
+</div>
+
+<div class="nn-article-layout nn-article-layout--no-toc">
+    <div class="nn-article-main">
+        <div class="nn-article-content">
+            
+            <div class="toc">
+<ul>
+<li><a href="#el-aire-ya-ha-hablado-ahora-sonemos">El aire ya ha hablado&#8230; ahora&nbsp;soñemos</a></li>
+<li><a href="#la-intuicion-entra-al-area">La intuición entra al&nbsp;área</a></li>
+<li><a href="#treinta-y-cinco-monedas">Treinta y cinco&nbsp;monedas</a></li>
+<li><a href="#la-estadistica-no-dice-que-no-importe">La estadística no dice que no&nbsp;importe</a></li>
+<li><a href="#abab-una-simetria-sospechosa"><span class="caps">ABAB</span>, una simetría&nbsp;sospechosa</a></li>
+<li><a href="#el-dato-que-estropea-el-titular">El dato que estropea el&nbsp;titular</a></li>
+<li><a href="#no-es-empezar-es-marcar">No es empezar. Es&nbsp;marcar</a></li>
+<li><a href="#volvamos-al-centro-del-campo">Volvamos al centro del&nbsp;campo</a></li>
+<li><a href="#la-estadistica-desinfecta">La estadística&nbsp;desinfecta</a></li>
+<li><a href="#conclusiones">Conclusiones</a></li>
+<li><a href="#referencias">Referencias</a></li>
+</ul>
+</div>
+<h2 id="el-aire-ya-ha-hablado-ahora-sonemos">El aire ya ha hablado&#8230; ahora soñemos<a class="headerlink" href="#el-aire-ya-ha-hablado-ahora-sonemos" title="Permanent link"> </a></h2>
+<p>Si bien en el artículo de hace una semana el enemigo era el aire, el aire de Vancouver, el aire de Ciudad de México, el aire caliente, el aire frío, el aire denso, el aire fino, en definitiva ese aire invisible que rodea al balón y decide si una falta baja a tiempo, si un centro se queda corto o si un disparo con efecto termina obedeciendo a la física en vez de al delantero, ahora ya hemos pasado eso y estamos ante el mayor provocador de ataques cardíacos del planeta Tierra: una tanda de penaltis en la final del&nbsp;Mundial.</p>
+<p>Solo ha pasado tres veces en la historia de los Mundiales. Pasó en el Mundial de 1994, en Estados Unidos, cuando Baggio falló el penalti decisivo y Brasil levantó la copa mientras <em>el silencio invadía todas las casas de Italia</em>. Pasó en Alemania 2006, cuando Italia se llevó el Mundial marcando Grosso el quinto penalti. Y pasó en Catar 2022, con victoria argentina, después de que Argentina y Francia decidieran que una final normal era demasiado poco para&nbsp;ellos.</p>
+<p>Soñemos.</p>
+<p>Final del Mundial 2026. New York New Jersey Stadium, el MetLife de toda la vida disfrazado para la <span class="caps">FIFA</span>. Final España-Portugal. Minuto 124. Marcador 3-3. El árbitro pita el final de la&nbsp;prórroga.</p>
+<p>Hay jugadores sentados sobre el césped. Otros caminan sin ir a ninguna parte. Alguno bebe agua como si el agua pudiera explicar algo. Los porteros se alejan hacia la portería donde va a decidirse todo. El árbitro llama a los dos&nbsp;capitanes.</p>
+<p>Y saca una&nbsp;moneda.</p>
+<p>No hay pizarra. No hay presión alta. No hay salida lavolpiana. No hay <span class="caps">GPS</span>. No hay mapas de calor. No hay un analista con tres pantallas diciendo que el lateral izquierdo rival suele cruzar el cuarto penalti si ha mirado antes al portero tres veces los jueves, pero si es domingo, como hoy, lo tira por el centro a&nbsp;asegurar.</p>
+<p>Hay una&nbsp;moneda.</p>
+<p>Tú eres el capitán de España. Ganas el sorteo. El árbitro te&nbsp;mira.</p>
+<p>—¿Queréis tirar primero o&nbsp;segundo?</p>
+<p>Y ahí aparece la&nbsp;pregunta.</p>
+<p>La pregunta&nbsp;estadística.</p>
+<blockquote>
+<p><strong>¿Qué conviene más: tirar primero o tirar&nbsp;segundo?</strong></p>
+</blockquote>
+<hr />
+<h2 id="la-intuicion-entra-al-area">La intuición entra al área<a class="headerlink" href="#la-intuicion-entra-al-area" title="Permanent link"> </a></h2>
+<p>La intuición dice que hay que tirar&nbsp;primero.</p>
+<p>Siempre.</p>
+<p>Tirar primero parece mejor porque te permite golpear antes. Si marcas, el otro equipo empieza la tanda persiguiéndote. Tú pones el número en el marcador. Ellos tienen que contestar. Parece una diferencia pequeña. Pero las tandas de penaltis viven precisamente de las diferencias pequeñas. Un pie que llega tarde. Un portero que se vence medio segundo antes. Un balón cinco centímetros más a la derecha. Un palo. Una rodilla. Una&nbsp;moneda.</p>
+<p>Además, hay una idea psicológica muy razonable escondida ahí: no es lo mismo tirar para adelantarte que tirar para no caerte. El penalti sigue estando a once metros, la portería sigue midiendo lo mismo y el balón no se vuelve más pesado según el marcador. Reglamentariamente, al&nbsp;menos.</p>
+<p>Pero la cabeza no lee&nbsp;reglamentos.</p>
+<p>Si el primer equipo marca, el segundo no lanza exactamente el mismo penalti. Lanza uno parecido, con el mismo césped debajo y la misma portería delante, pero con otra frase escrita por&nbsp;dentro.</p>
+<p><em>Si fallo, empezamos&nbsp;mal.</em></p>
+<p>Ay, la cabeza. Piensa que si tiras segundo tus compañeros van a tener que recorrer unos 47 metros viendo, casi sintiendo, que van por debajo. Que el otro ya ha marcado. Que el estadio ya ha hecho ese ruido raro que hacen los estadios cuando huelen sangre y estadística&nbsp;barata.</p>
+<p>El marcador ya ha&nbsp;hablado.</p>
+<p>Ay, la&nbsp;cabecita.</p>
+<p>Por eso durante años se ha repetido que empezar una tanda da ventaja. Algunos análisis antiguos, publicados antes de que el Mundial de Rusia 2018 y el de Catar 2022 añadieran más tandas a la historia, hablaban de una ventaja apreciable para el equipo que tiraba primero <a class="nn-cite" href="#ref-2">[2]</a>.</p>
+<p>Suena&nbsp;bien.</p>
+<p>Demasiado&nbsp;bien.</p>
+<p>Los datos tienen una costumbre desagradable:&nbsp;envejecen.</p>
+<hr />
+<h2 id="treinta-y-cinco-monedas">Treinta y cinco monedas<a class="headerlink" href="#treinta-y-cinco-monedas" title="Permanent link"> </a></h2>
+<p>Una tanda mundialista no es una encuesta gigante. No es una simulación con millones de mundos paralelos. No es una sábana de Excel interminable donde los porcentajes se acomodan solos y uno puede sacar conclusiones con voz de notario. En los Mundiales masculinos, hasta la final de Catar 2022 incluida, ha habido 35 tandas de penaltis <a class="nn-cite" href="#ref-1">[1]</a>.</p>
+<p>Treinta y&nbsp;cinco.</p>
+<p>No tres mil quinientas. No trescientas cincuenta. Treinta y&nbsp;cinco.</p>
+<p>Esto obliga a hablar con cuidado. Con bastante cuidado. Porque en una muestra así una final como Argentina-Francia 2022 no es solo una final absurda, preciosa, agotadora y probablemente ilegal para cualquier sistema cardiovascular. Es también una fila más en una tabla&nbsp;pequeña.</p>
+<p>Y en una tabla pequeña, una fila&nbsp;pesa.</p>
+<p>Al mirar el dato completo hasta Catar 2022, el resultado es&nbsp;este:</p>
+<ul>
+<li>el equipo que tiró primero ganó 17&nbsp;tandas;  </li>
+<li>el equipo que tiró segundo ganó 18&nbsp;tandas.</li>
+</ul>
+<p>Es&nbsp;decir:</p>
+<div class="math">$$
+17 - 18
+$$</div>
+<p>Una diferencia de una&nbsp;tanda.</p>
+<p>La moneda se queda sin&nbsp;épica.</p>
+<hr />
+<h2 id="la-estadistica-no-dice-que-no-importe">La estadística no dice que no importe<a class="headerlink" href="#la-estadistica-no-dice-que-no-importe" title="Permanent link"> </a></h2>
+<p>No tan&nbsp;rápido.</p>
+<p>Que el resultado global sea 17-18 no significa que tirar primero y tirar segundo sean exactamente lo mismo. Significa algo más prudente, más incómodo y bastante menos&nbsp;vendible:</p>
+<blockquote>
+<p><strong>Con los datos mundialistas disponibles, no se observa una ventaja clara por empezar&nbsp;lanzando.</strong></p>
+</blockquote>
+<p>No es&nbsp;igual.</p>
+<p>La estadística no está diciendo: “tirar primero no importa”. Está diciendo: “con esta muestra, no puedo demostrar que importe&nbsp;mucho”.</p>
+<p>Y esa diferencia importa. Es la diferencia entre saber algo y tener muchas ganas de&nbsp;saberlo.</p>
+<p>Las tandas mundialistas son pocas, raras y llenas de ruido. No es lo mismo una tanda de octavos que una final. No es lo mismo tirar contra Alemania que contra Japón. No es lo mismo lanzar el primer penalti fresco que hacerlo después de 120 minutos persiguiendo extremos, despejando centros y descubriendo que tus gemelos tienen opiniones&nbsp;propias.</p>
+<p>La tanda parece un experimento&nbsp;limpio.</p>
+<p>No lo&nbsp;es.</p>
+<p>En un experimento limpio uno controla las variables. Aquí las variables llevan camiseta, lloran, tienen calambres, rezan, miran al cielo, escuchan a ochenta mil personas y, en algún momento, tienen que caminar solas desde el círculo central hasta el punto de&nbsp;penalti.</p>
+<hr />
+<h2 id="abab-una-simetria-sospechosa"><span class="caps">ABAB</span>, una simetría sospechosa<a class="headerlink" href="#abab-una-simetria-sospechosa" title="Permanent link"> </a></h2>
+<p>El formato tradicional de una tanda de penaltis es de una belleza&nbsp;sospechosa:</p>
+<div class="math">$$
+A-B-A-B-A-B-A-B-A-B
+$$</div>
+<p>Uno tira. Luego el otro. Luego uno. Luego el&nbsp;otro.</p>
+<p>Parece&nbsp;justo.</p>
+<p>Quizá ese es el&nbsp;problema.</p>
+<p>Muchas reglas injustas sobreviven porque tienen forma de regla justa. Ambos equipos tiran el mismo número de penaltis. Ambos usan la misma portería. Ambos se enfrentan al mismo portero rival. Ambos tienen once metros. Todo parece equilibrado. Todo parece limpio. Todo parece diseñado para que nadie pueda quejarse antes de&nbsp;empezar.</p>
+<p>Pero el orden no reparte necesariamente la presión de la misma&nbsp;manera.</p>
+<p>Si A tira primero y marca, B tira por detrás. Si A vuelve a marcar, B vuelve a tirar por detrás. Si A no falla nunca, B vive toda la tanda contestando preguntas que no ha&nbsp;elegido.</p>
+<p>A marca.<br />
+B debe&nbsp;empatar.</p>
+<p>A marca.<br />
+B debe&nbsp;empatar.</p>
+<p>A marca.<br />
+B debe&nbsp;empatar.</p>
+<p>Eso no es una secuencia. Es una&nbsp;persecución.</p>
+<p>Por eso alguna vez se ha probado un sistema parecido al tie-break del&nbsp;tenis:</p>
+<div class="math">$$
+A-B-B-A-A-B-B-A
+$$</div>
+<p>El sistema <span class="caps">ABBA</span> intenta repartir mejor el privilegio de abrir cada pequeño bloque psicológico. No elimina la presión, porque la presión en una tanda no se elimina. Solo se cambia de sitio. Pero al menos evita que el mismo equipo empiece siempre la&nbsp;conversación.</p>
+<p>El tenis entendió hace tiempo que el orden&nbsp;importa.</p>
+<p>El fútbol lo sospecha, mira la moneda y sigue&nbsp;adelante.</p>
+<hr />
+<h2 id="el-dato-que-estropea-el-titular">El dato que estropea el titular<a class="headerlink" href="#el-dato-que-estropea-el-titular" title="Permanent link"> </a></h2>
+<p>Llegados aquí, el artículo fácil habría sido&nbsp;evidente.</p>
+<p>“Ganar el sorteo te da ventaja.”<br />
+“La ciencia lo demuestra.”<br />
+“El capitán debe tirar&nbsp;primero.”</p>
+<p>Pero la ciencia, cuando se porta bien, no está para darnos titulares. Está para quitarnos&nbsp;algunos.</p>
+<p>El dato mundialista no permite decir que empezar sea claramente mejor. Tampoco permite decir que sea claramente peor. Solo permite decir que, en la historia de las tandas de los Mundiales masculinos, la moneda no parece haber inclinado la balanza de forma&nbsp;evidente.</p>
+<p>17 contra&nbsp;18.</p>
+<p>Casi simetría&nbsp;perfecta.</p>
+<p>Esto no mata la intuición. La baja del pedestal. La obliga a sentarse en la mesa con los datos, que es donde las intuiciones suelen ponerse&nbsp;nerviosas.</p>
+<p>Quizá empezar tiene ventajas psicológicas. Quizá esas ventajas existen, pero son pequeñas. Quizá se compensan con otras cosas: el primer fallo, la calidad de los lanzadores, el portero, el cansancio, la memoria del partido, el simple hecho de que el fútbol nunca firma contratos de&nbsp;comportamiento.</p>
+<p>Quizá estábamos mirando la moneda&nbsp;equivocada.</p>
+<hr />
+<h2 id="no-es-empezar-es-marcar">No es empezar. Es marcar<a class="headerlink" href="#no-es-empezar-es-marcar" title="Permanent link"> </a></h2>
+<p>Hay otro dato que huele más a&nbsp;fútbol.</p>
+<p>No mide exactamente lo mismo, pero entra mejor en el&nbsp;cuerpo.</p>
+<p>Algunos análisis periodísticos han señalado que fallar el primer lanzamiento de la tanda es una losa enorme <a class="nn-cite" href="#ref-3">[3]</a>. No porque “tirar primero” sea mágico, sino porque empezar fallando convierte la tanda en una&nbsp;cuesta.</p>
+<p>Y esto sí parece&nbsp;familiar.</p>
+<p>Una cosa es elegir tirar primero. Otra cosa es tirar primero y&nbsp;marcar.</p>
+<p>La diferencia parece pequeña. No lo&nbsp;es.</p>
+<p>Elegir tirar primero es una decisión estratégica. Marcar el primer penalti es un golpe psicológico. La primera pertenece al capitán. La segunda pertenece al&nbsp;jugador.</p>
+<p>El resultado global del orden mezcla muchas historias distintas: equipos que tiran primero y marcan, equipos que tiran primero y fallan, equipos que tiran segundo y aprovechan el error, equipos que sobreviven, equipos que se hunden, equipos que ya estaban rotos antes de&nbsp;empezar.</p>
+<p>Una tanda no es una línea recta. Es una novela breve. Diez capítulos y, a veces, un epílogo&nbsp;cruel.</p>
+<p>El primer capítulo&nbsp;importa.</p>
+<p>Pero no siempre por la razón que nos&nbsp;gustaría.</p>
+<hr />
+<h2 id="volvamos-al-centro-del-campo">Volvamos al centro del campo<a class="headerlink" href="#volvamos-al-centro-del-campo" title="Permanent link"> </a></h2>
+<p>Así que volvemos a New York New Jersey&nbsp;Stadium.</p>
+<p>Final del Mundial 2026. España.&nbsp;Penaltis.</p>
+<p>Tú eres el capitán. La moneda acaba de caer a tu favor. El árbitro espera. Tus compañeros también. En algún lugar, millones de personas creen que esta decisión tiene una respuesta escondida en una&nbsp;tabla.</p>
+<p>Primero o&nbsp;segundo.</p>
+<p>Ahora ya sabes&nbsp;algo.</p>
+<p>Sabes que la intuición pide tirar primero. Sabes que psicológicamente tiene sentido querer poner presión. Sabes que durante años se ha hablado de esa ventaja. Pero también sabes que, en los Mundiales, el dato completo hasta Catar 2022 no muestra una ventaja clara:&nbsp;17-18.</p>
+<p>Así que quizá la respuesta honesta no es&nbsp;“primero”.</p>
+<p>Ni&nbsp;“segundo”.</p>
+<p>La respuesta honesta es más&nbsp;incómoda:</p>
+<blockquote>
+<p><strong>Depende de quién&nbsp;tire.</strong></p>
+</blockquote>
+<p>Si tu mejor lanzador está listo, si quiere el balón, si lleva dos minutos mirándote con cara de “dámelo”, quizá quieres empezar. No porque la historia diga que empezar gana Mundiales, sino porque marcar el primero puede ordenar el&nbsp;caos.</p>
+<p>Pero si tu primer lanzador duda, si el portero rival parece una pared con guantes, si tu equipo necesita respirar, quizá empezar no es un premio. Quizá es una trampa con forma de&nbsp;privilegio.</p>
+<p>La moneda no decide&nbsp;sola.</p>
+<p>Solo te entrega una&nbsp;pregunta.</p>
+<hr />
+<h2 id="la-estadistica-desinfecta">La estadística desinfecta<a class="headerlink" href="#la-estadistica-desinfecta" title="Permanent link"> </a></h2>
+<p>Esta es quizá la parte más incómoda de la&nbsp;estadística.</p>
+<p>Uno llega buscando una respuesta&nbsp;clara.</p>
+<p>¿Tirar primero o&nbsp;segundo?</p>
+<p>Y la estadística&nbsp;responde:</p>
+<p>“No sé. Pero sé que no deberías estar tan&nbsp;seguro.”</p>
+<p>Parece poco. Es&nbsp;muchísimo.</p>
+<p>Porque el fútbol está lleno de certezas gritadas. Frases que sobreviven porque suenan bien. “Siempre hay que tirar primero.” “El que falla primero pierde.” “El que empata al final llega mejor.” “Los penaltis son una&nbsp;lotería.”</p>
+<p>Los penaltis no son una&nbsp;lotería.</p>
+<p>En una lotería no puedes entrenar. No puedes estudiar al portero. No puedes elegir lanzadores. No puedes respirar antes de tirar. No puedes engañar con la carrera. No puedes mandar el balón a la&nbsp;escuadra.</p>
+<p>Pero tampoco son una ciencia&nbsp;exacta.</p>
+<p>Son algo&nbsp;peor.</p>
+<p>Una mezcla de técnica, azar, memoria, miedo, fatiga, scouting, superstición y once metros de&nbsp;césped.</p>
+<p>El aire ya hizo su trabajo durante el&nbsp;partido.</p>
+<p>Ahora trabaja otra&nbsp;cosa.</p>
+<p>La&nbsp;presión.</p>
+<p>Y la presión no aparece en el reglamento, pero aparece en todas las&nbsp;caras.</p>
+<hr />
+<h2 id="conclusiones">Conclusiones<a class="headerlink" href="#conclusiones" title="Permanent link"> </a></h2>
+<p>La moneda pesa poco. Unos&nbsp;gramos.</p>
+<p>Pero en el centro del campo, antes de una tanda, parece pesar una&nbsp;barbaridad.</p>
+<p>Quizá porque queremos creer que ahí dentro hay una ventaja escondida. Que si elegimos bien, si decimos la palabra correcta, si empezamos por el lado bueno de la historia, habremos comprado un&nbsp;porcentaje.</p>
+<p>Pero los Mundiales no nos dan esa&nbsp;comodidad.</p>
+<p>Hasta Catar 2022, empezar lanzando no ha sido una garantía. Ni siquiera una ventaja clara. Los que tiraron primero ganaron 17 veces. Los que tiraron segundo,&nbsp;18.</p>
+<p>Una tanda de&nbsp;diferencia.</p>
+<p>Eso no mata la intuición, pero la baja del&nbsp;pedestal.</p>
+<p>Quizá el capitán de España debería elegir tirar primero. Quizá debería elegir tirar segundo. Quizá debería mirar a sus compañeros antes que a la&nbsp;tabla.</p>
+<p>Porque a veces la estadística no sirve para decidir por&nbsp;ti.</p>
+<p>Sirve para algo más&nbsp;humilde.</p>
+<p>Para recordarte que la moneda no sabe de&nbsp;fútbol.</p>
+<p>Y que el balón, cuando llega al punto de penalti, tampoco sabe quién&nbsp;empezó.</p>
+<hr />
+<h2 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link"> </a></h2>
+<ol class="nn-references">
+  <li id="ref-1">
+    Informe propio. (2026). <em>Informe detallado: tandas de penaltis en Mundiales y orden de lanzamiento</em>. Base de datos actualizada hasta la final de Catar&nbsp;2022.
+  </li>
+
+  <li id="ref-2">
+    <span class="caps">BBC</span> Sport. (2018). <em>World Cup 2018: Penalty shootouts - who has the advantage?</em>.
+    <a href="https://www.bbc.com/sport/football/44641247" target="_blank" rel="noopener noreferrer">https://www.bbc.com/sport/football/44641247</a>
+  </li>
+
+  <li id="ref-3">
+    Goal.com. (2022). <em>Tandas de penales en Mundial: ¿conviene patear o atajar primero?</em>.
+    <a href="https://www.goal.com/es/noticias/tandas-penales-mundial-conviene-patear-atajar-primero/bltbfeae4267974f427" target="_blank" rel="noopener noreferrer">https://www.goal.com/es/noticias/tandas-penales-mundial-conviene-patear-atajar-primero/bltbfeae4267974f427</a>
+  </li>
+
+  <li id="ref-4">
+    Planet World Cup. (s. f.). <em>Penalty shoot-outs in the World Cup</em>.
+    <a href="https://www.planetworldcup.com/STATS/stat_pens.html" target="_blank" rel="noopener noreferrer">https://www.planetworldcup.com/<span class="caps">STATS</span>/stat_pens.html</a>
+  </li>
+</ol>
+
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+
+             
+
+
+<div class="applause_button">
+    <applause-button url=https://napkinnotes.es/la-moneda-que-no-queria-decidir-un-mundial> </applause-button>
+</div>
+
+ 
+            
+            
+<div class="nn-author-box">
+    <div class="nn-author-box__avatar">
+        <img src="https://napkinnotes.es/images/david.jpg" alt="David Figueruelo Hernán">
+    </div>
+
+    <div class="nn-author-box__content">
+        <div class="nn-author-box__label">Autor</div>
+        <h3 class="nn-author-box__name">David Figueruelo Hernán</h3>
+
+        <p class="nn-author-box__bio">Doctor en cosmología que busca comprender el universo y el rol de la materia y energía oscuras en él. Interesado las ecuaciones y las preguntas fundamentales: qué significa entender en física y qué es  <strong>verdad</strong> al observar solo una fracción mínima del cosmos. Trabaja interpretando las pistas que el universo nos deja en forma de datos, intentando averiguar qué historias encajan con ellas y cuáles no. Financiación: Personal investigador doctor de la UPV/EHU (2024).</p>
+
+        <div class="nn-author-box__links">
+            <a class="nn-author-box__link" href="https://inspirehep.net/authors/1869776?ui-citation-summary=true" target="_blank" rel="noopener noreferrer">
+                Ver perfil
+            </a>
+
+            <a class="nn-author-box__link" href="https://napkinnotes.es/autor/david-figueruelo-hernan">
+                Ver artículos
+            </a>
+        </div>
+    </div>
+</div>
+
+            
+<section class="nn-comments">
+    <h2 class="nn-comments__title">Comentarios</h2>
+
+
+    <div class="nn-comments__form-block">
+        <h2 class="nn-comments__form-title">Enviar un comentario</h2>
+
+        <p class="nn-comments__intro">
+            ¿Qué te ha parecido? Escríbenos tu comentario y lo revisaremos antes de publicarlo.
+        </p>
+
+        <div class="nn-comments__box">
+            <form
+                class="nn-comment-form"
+                id="nn-comment-form"
+                action="https://formspree.io/f/mkokjgka"
+                method="POST">
+
+                <input type="hidden" name="_subject" value="Nuevo comentario en Napkin Notes">
+                <input type="hidden" name="articulo" value="¿Una moneda al aire decide&nbsp;Mundiales?">
+                <input type="hidden" name="article_key" value="la-moneda-que-no-queria-decidir-un-mundial">
+                <input type="hidden" name="url_articulo" value="https://napkinnotes.es/la-moneda-que-no-queria-decidir-un-mundial">
+
+                <div class="nn-comment-form__row">
+                    <label for="comment-name">Nombre</label>
+                    <input id="comment-name" type="text" name="nombre" required>
+                </div>
+
+                <div class="nn-comment-form__row">
+                    <label for="comment-email">Email (opcional)</label>
+                    <input id="comment-email" type="email" name="email">
+                </div>
+
+                <div class="nn-comment-form__row">
+                    <label for="comment-text">Comentario</label>
+                    <textarea id="comment-text" name="comentario" rows="6" required></textarea>
+                </div>
+
+                <p id="nn-comment-form-status" class="nn-comment-form__status"></p>
+
+                <button class="nn-home-sidebar__button" type="submit">Enviar comentario</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+            <hr/>
+         </div>
+    </div>
+</div>
+
+<aside id="article-sidebar" class="nn-article-sidebar">
+    <div class="nn-sticky-card">
+
+        <div class="nn-article-meta-card">
+            <div class="nn-article-meta-card__section">
+                <div class="nn-article-meta-card__eyebrow">Ficha del artículo</div>
+
+                <div class="nn-article-meta-row">
+                    <span class="nn-article-meta-row__label">Publicado</span>
+                    <time class="nn-article-meta-row__value" itemprop="dateCreated" datetime="2026-06-09T00:00:00+02:00">
+                        9 de junio de 2026
+                    </time>
+                </div>
+
+                <div class="nn-article-meta-row nn-article-meta-row--stack">
+                    <span class="nn-article-meta-row__label">Categoría</span>
+                    <div class="nn-article-meta-badges">
+                        <a class="nn-article-meta-badge nn-article-meta-badge--category"
+                           href="https://napkinnotes.es/categories#matematicas-ref">
+                            Matemáticas
+                        </a>
+                    </div>
+                </div>
+
+                <div class="nn-article-meta-row nn-article-meta-row--stack">
+                    <span class="nn-article-meta-row__label">Tags</span>
+                    <div class="nn-article-meta-tags">
+                        <a class="nn-article-meta-tag"
+                           href="https://napkinnotes.es/tags#estadistica-ref">
+                            estadística
+                        </a>
+                        <a class="nn-article-meta-tag"
+                           href="https://napkinnotes.es/tags#futbol-ref">
+                            fútbol
+                        </a>
+                        <a class="nn-article-meta-tag"
+                           href="https://napkinnotes.es/tags#mundial-2026-ref">
+                            mundial 2026
+                        </a>
+                        <a class="nn-article-meta-tag"
+                           href="https://napkinnotes.es/tags#penaltis-ref">
+                            penaltis
+                        </a>
+                        <a class="nn-article-meta-tag"
+                           href="https://napkinnotes.es/tags#probabilidad-ref">
+                            probabilidad
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nn-article-meta-card__section nn-article-meta-card__section--share">
+                <div class="nn-article-meta-card__eyebrow">¿Te ha gustado este artículo?</div>
+                <p class="nn-article-meta-card__share-text">Compártelo</p>
+
+                <div class="nn-share-actions">
+                    <a class="nn-share-actions__button"
+                       href="https://twitter.com/intent/tweet?url=https%3A//napkinnotes.es/la-moneda-que-no-queria-decidir-un-mundial&text=%C2%BFUna%20moneda%20al%20aire%20decide%C2%A0Mundiales%3F"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+                            <path fill="currentColor" d="M18.244 2H21l-6.56 7.498L22.16 22h-6.05l-4.738-6.197L5.95 22H3.192l7.017-8.018L2 2h6.203l4.283 5.658L18.244 2Zm-1.06 18.174h1.527L7.378 3.73H5.74l11.443 16.444Z"/>
+                        </svg>
+                        <span>X</span>
+                    </a>
+
+                    <a class="nn-share-actions__button"
+                       href="https://www.facebook.com/sharer/sharer.php?u=https%3A//napkinnotes.es/la-moneda-que-no-queria-decidir-un-mundial"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+                            <path fill="currentColor" d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6h1.7V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.4V11H8v3h2.6v8h2.9Z"/>
+                        </svg>
+                        <span>Facebook</span>
+                    </a>
+
+                    <a class="nn-share-actions__button"
+                       href="https://api.whatsapp.com/send?text=%C2%BFUna%20moneda%20al%20aire%20decide%26nbsp%3BMundiales%3F%20https%3A//napkinnotes.es/la-moneda-que-no-queria-decidir-un-mundial"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+                            <path fill="currentColor" d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.16 1.6 5.98L0 24l6.28-1.65a11.84 11.84 0 0 0 5.78 1.47h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.17-3.45-8.44ZM12.07 21.8h-.01a9.86 9.86 0 0 1-5.02-1.37l-.36-.21-3.73.98 1-3.63-.23-.37a9.82 9.82 0 0 1-1.5-5.28c0-5.45 4.43-9.88 9.88-9.88 2.64 0 5.12 1.03 6.98 2.9a9.8 9.8 0 0 1 2.88 6.98c0 5.45-4.43 9.88-9.88 9.88Zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.46-.15-.66.15-.2.3-.76.97-.93 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.46-2.4-1.47a9.03 9.03 0 0 1-1.67-2.07c-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.66-1.6-.9-2.19-.24-.58-.48-.5-.66-.5h-.56c-.2 0-.5.08-.76.38-.27.3-1.02 1-1.02 2.44 0 1.43 1.05 2.82 1.2 3.02.15.2 2.06 3.15 5 4.42.7.3 1.24.48 1.67.61.7.22 1.33.19 1.83.12.56-.08 1.76-.72 2-1.42.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.56-.35Z"/>
+                        </svg>
+                        <span>WhatsApp</span>
+                    </a>
+
+                    <button class="nn-share-actions__button nn-share-actions__button--copy"
+                            type="button"
+                            data-copy-url="https://napkinnotes.es/la-moneda-que-no-queria-decidir-un-mundial">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+                            <path fill="currentColor" d="M16 1H6a2 2 0 0 0-2 2v12h2V3h10V1Zm3 4H10a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H10V7h9v14Z"/>
+                        </svg>
+                        <span>Copiar enlace</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+
+</article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>                </div>
+            </main>
+        </div>
+
+<footer>
+    <div class="nn-footer-inner">
+        <div class="nn-footer-copy">
+            <div>
+                Contenido publicado bajo licencia <a rel="license nofollow noopener noreferrer"
+    href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+    Creative Commons Atribución 4.0 Internacional</a>.
+            </div>
+
+
+
+
+            <div class="web-developers">
+                Web creada y desarrollada por <strong>David Figueruelo Hernán</strong> y <strong>Duvier Suarez Fontanella</strong>
+            </div>
+
+            <div id="fpowered">
+                Funciona con <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>
+                · Tema <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>
+            </div>
+        </div>
+
+        <div class="nn-footer-contact">
+
+            <a class="nn-footer-contact__link"
+               href="https://www.instagram.com/napk.innotes"
+               target="_blank"
+               rel="me noopener noreferrer"
+               aria-label="Seguir a Napkin Notes en Instagram">
+                <span class="nn-footer-contact__icon">
+                    <svg class="nn-footer-contact__svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="currentColor" d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Zm0 2A3.76 3.76 0 0 0 4 7.75v8.5A3.76 3.76 0 0 0 7.75 20h8.5A3.76 3.76 0 0 0 20 16.25v-8.5A3.76 3.76 0 0 0 16.25 4h-8.5ZM12 7.35A4.65 4.65 0 1 1 7.35 12 4.65 4.65 0 0 1 12 7.35Zm0 2A2.65 2.65 0 1 0 14.65 12 2.65 2.65 0 0 0 12 9.35Zm5.1-2.7a1.1 1.1 0 1 1-1.1 1.1 1.1 1.1 0 0 1 1.1-1.1Z"/>
+                    </svg>
+                </span>
+                <span>Síguenos en Instagram</span>
+                <strong>@napk.innotes</strong>
+            </a>
+
+            <a class="nn-footer-contact__link"
+               href="https://twitter.com/napkiinnotes"
+               target="_blank"
+               rel="me noopener noreferrer"
+               aria-label="Seguir a Napkin Notes en X">
+                <span class="nn-footer-contact__icon">𝕏</span>
+                <span>Síguenos en X</span>
+                <strong>@napkiinnotes</strong>
+            </a>
+
+            <a class="nn-footer-contact__link"
+               href="mailto:napkiin.notes@proton.me"
+               aria-label="Enviar correo a Napkin Notes">
+                <span class="nn-footer-contact__icon">✉</span>
+                <span>Contacto</span>
+                <strong>napkiin.notes@proton.me</strong>
+            </a>
+        </div>
+    </div>
+</footer>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="https://napkinnotes.es/theme/js/elegant.prod.9e9d5ce754.js"></script>
+<script>
+    function validateForm(query)
+    {
+        return (query.length > 0);
+    }
+</script>
+<script>
+    let bgShift = 0;
+
+    window.addEventListener("scroll", () => {
+      bgShift = Math.min(window.scrollY * 0.08, 60);
+      document.documentElement.style.setProperty('--bg-shift', bgShift + 'px');
+    });
+</script>
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("nn-comment-form");
+    const status = document.getElementById("nn-comment-form-status");
+    if (!form || !status) return;
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+
+        const data = new FormData(form);
+        status.textContent = "Enviando...";
+
+        try {
+            const response = await fetch(form.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    "Accept": "application/json"
+                }
+            });
+
+            if (response.ok) {
+                status.textContent = "Comentario enviado. Lo revisaremos antes de publicarlo.";
+                form.reset();
+            } else {
+                const result = await response.json();
+                if (result && result.errors) {
+                    status.textContent = result.errors.map(error => error.message).join(", ");
+                } else {
+                    status.textContent = "No se pudo enviar el comentario.";
+                }
+            }
+        } catch (error) {
+            status.textContent = "No se pudo enviar el comentario.";
+        }
+    }
+
+    form.addEventListener("submit", handleSubmit);
+});
+</script>
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toc = document.querySelector(".nn-article-content > .toc");
+        if (!toc) return;
+
+        const tocLinks = Array.from(toc.querySelectorAll("a[href^='#']"));
+        if (!tocLinks.length) return;
+
+        const headings = tocLinks
+            .map(link => {
+                const id = decodeURIComponent(link.getAttribute("href").slice(1));
+                const target = document.getElementById(id);
+                return target ? { link, target } : null;
+            })
+            .filter(Boolean);
+
+        if (!headings.length) return;
+
+        function setActive(id) {
+           tocLinks.forEach(link => link.classList.remove("is-active"));
+
+           if (window.innerWidth <= 980) return;
+
+           const activeLink = toc.querySelector(`a[href="#${CSS.escape(id)}"]`);
+           if (activeLink) activeLink.classList.add("is-active");
+        }
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                const visible = entries
+                    .filter(entry => entry.isIntersecting)
+                    .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+
+                if (visible.length) {
+                    setActive(visible[0].target.id);
+                }
+            },
+            {
+                rootMargin: "-18% 0px -62% 0px",
+                threshold: [0.15, 0.35, 0.6]
+            }
+        );
+
+        headings.forEach(({ target }) => observer.observe(target));
+
+        tocLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                tocLinks.forEach(item => item.classList.remove("is-active"));
+                link.classList.add("is-active");
+            });
+        });
+
+        setActive(headings[0].target.id);
+    });
+    </script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const copyButton = document.querySelector(".nn-share-actions__button--copy");
+        if (!copyButton) return;
+
+        copyButton.addEventListener("click", async function () {
+            const url = copyButton.getAttribute("data-copy-url");
+            const originalText = copyButton.textContent;
+
+            try {
+                await navigator.clipboard.writeText(url);
+                copyButton.textContent = "Copiado";
+                setTimeout(() => {
+                    copyButton.textContent = originalText;
+                }, 1600);
+            } catch (error) {
+                copyButton.textContent = "No se pudo copiar";
+                setTimeout(() => {
+                    copyButton.textContent = originalText;
+                }, 1600);
+            }
+        });
+    });
+    </script>
+
+
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e8c5c528a6c9464ab6b495a375bc1c70"}'>
+</script><!-- End Cloudflare Web Analytics -->
+
+    </body>
+</html>
