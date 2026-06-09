@@ -104,7 +104,8 @@ CATEGORY_FEED_RSS = None
 # Social
 SOCIAL = (
     ("RSS", SITEURL + "/feeds/all.atom.xml"),
-    ("X", "https://twitter.com/napkiinnotes", "Napkin Notes en X"),
+    ("Instagram", "https://www.instagram.com/napk.innotes", "Napkin Notes en Instagram"),
+    ("X", "https://x.com/napkiinnotes", "Napkin Notes en X"),
 )
 # Elegant theme
 STATIC_PATHS = ["theme/images", "images", "extra", "extra/_redirects", "code", "articulos/template_articulos"]
@@ -165,6 +166,8 @@ X_PROFILE_URL = "https://twitter.com/napkiinnotes"
 TWITTER_USERNAME = "napkiinnotes"
 FEATURED_IMAGE = SITEURL + "/theme/images/nn_logo.png"
 CONTACT_EMAIL = "napkiin.notes@proton.me"
+INSTAGRAM_USERNAME = "napk.innotes"
+INSTAGRAM_PROFILE_URL = "https://www.instagram.com/napk.innotes"
 # Legal
 SITE_LICENSE = """Contenido publicado bajo licencia <a rel="license nofollow noopener noreferrer"
     href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
