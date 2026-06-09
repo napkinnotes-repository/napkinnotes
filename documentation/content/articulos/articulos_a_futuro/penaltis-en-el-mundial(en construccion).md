@@ -66,7 +66,7 @@ Por eso durante años se ha repetido que empezar una tanda da ventaja. Algunos a
 
 ## Treinta y cinco monedas
 
-Una tanda mundialista no es una encuesta gigante. No es una simulación con millones de mundos paralelos. No es una sábana de Excel interminable donde los porcentajes se acomodan solos y uno puede sacar conclusiones con voz de notario. En los Mundiales masculinos, hasta la final de Catar 2022 incluida, ha habido 35 tandas de penaltis <a class="nn-cite" href="#ref-1">[1]</a>.
+Una tanda mundialista no es una encuesta gigante. No es una simulación con millones de mundos paralelos. No es una sábana de Excel interminable donde los porcentajes se acomodan solos y uno puede sacar conclusiones con voz de notario. En los Mundiales masculinos, hasta la final de Catar 2022 incluida, ha habido 35 tandas de penaltis.
 
 Treinta y cinco.
 
@@ -180,9 +180,6 @@ Y que el balón, cuando llega al punto de penalti, tampoco sabe quién empezó.
 ## Referencias
 
 <ol class="nn-references">
-  <li id="ref-1">
-    Informe propio. (2026). <em>Informe detallado: tandas de penaltis en Mundiales y orden de lanzamiento</em>. Base de datos actualizada hasta la final de Catar 2022.
-  </li>
 
   <li id="ref-2">
     BBC Sport. (2018). <em>World Cup 2018: Penalty shootouts - who has the advantage?</em>.
