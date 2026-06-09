@@ -140,6 +140,7 @@ El modelo no pretende adivinar goles ni explicar derrotas (bueno esto ultimo qui
 El efecto más robusto es la densidad del aire. Por eso Ciudad de México aparece como el caso más extremo: allí la pelota encuentra menos resistencia y puede comportarse de forma distinta a como lo haría en estadios cercanos al nivel del mar.Otros factores, como el viento, la temperatura o la superficie, añaden matices más inciertos, pero también más interesantes. 
 
 Así que, si en 2026 tu equipo pierde, no corras a culpar al delantero, revisa antes la densidad del aire. Admitámoslo, sigue siendo una excusa; pero es bastante más elegante cuando viene con $\rho$, $C_d$ y Napkin Notes.
+
 ---
 
 ## Anexo mínimo: datos clave
