@@ -1,5 +1,5 @@
 ---
-title: Perdimos por culpa del aire; una investigación casi seria sobre el mundia de futbol 2026
+title: Perdimos por culpa del aire; una investigación casi seria sobre el mundial de fútbol 2026
 author: Duvier Suárez Fontanella
 date: 2026-06-09
 layout: articles
@@ -12,7 +12,7 @@ tags:
   - física
   - aerodinámica
   - datos
-summary: Una estimación sobre cómo altitud, temperatura y densidad del aire pueden cambiar el vuelo del balón en las sedes del Mundial 2026 y todo para que tengas un buena excusa si no llegas a la final.
+summary: Una estimación sobre cómo altitud, temperatura y densidad del aire pueden cambiar el vuelo del balón en las sedes del Mundial 2026, y todo para que tengas un buena excusa si no llegas a la final.
 image: images/05_mapa_rareza_estatico.png
 certificated: true
 ---
@@ -57,9 +57,12 @@ Es decir: en este modelo de servilleta, **si cambia la densidad del aire, cambia
 
 La densidad del aire no es igual en todas partes. Baja con la altitud, baja con la temperatura y cambia ligeramente con la humedad [6][7]. La altitud es el efecto dominante: por eso Ciudad de México y Guadalajara destacan tanto.
 
-![Densidad estimada del aire por sede](images/01_densidad_aire_corregida.png)
-
-*Figura 1. La densidad estimada del aire separa claramente a Ciudad de México y Guadalajara del resto de sedes. Menor densidad implica menor arrastre y menor fuerza lateral de Magnus.*
+<figure class="nn-article-figure">
+  <img src="{static}/images/01_densidad_aire_corregida.png" alt="Densidad estimada del aire por sede">
+  <figcaption>
+    Figura 1. La densidad estimada del aire separa claramente a Ciudad de México y Guadalajara del resto de sedes. Menor densidad implica menor arrastre y menor fuerza lateral de Magnus.
+  </figcaption>
+</figure>
 
 ---
 
@@ -75,9 +78,12 @@ Para un disparo de $30\,\mathrm{m/s}$, el modelo da aproximadamente un frenado d
 
 La diferencia entre Ciudad de México y Vancouver ronda el **24% de arrastre inicial**. En fútbol, esa no es una corrección decorativa: puede afectar la distancia, la caída y la sensación de golpeo.
 
-![Arrastre aerodinámico estimado para un disparo de 30 m/s](images/02_arrastre_disparo_corregido.png)
-
-*Figura 2. Fuerza de arrastre estimada para un disparo fuerte. El Azteca aparece como el escenario donde el balón debería frenarse menos.*
+<figure class="nn-article-figure">
+  <img src="{static}/images/02_arrastre_disparo_corregido.png" alt="Arrastre aerodinámico estimado para un disparo de 30 m/s">
+  <figcaption>
+    Figura 2. Fuerza de arrastre estimada para un disparo fuerte. El Azteca aparece como el escenario donde el balón debería frenarse menos.
+  </figcaption>
+</figure>
 
 Por otro lado hay un matiz bonito, el aire tenue no solo reduce el frenado, sino que también reduce la fuerza lateral responsable de la curva del balón. De forma esquemática, el efecto Magnus, que asi es como se llama,  escala como
 
@@ -88,9 +94,13 @@ $$
 Así que el estadio donde la pelota “vuela más” no tiene por qué ser el estadio donde “curva más”. En aire menos denso, a igualdad de golpeo y giro, el balón debería conservar mejor su velocidad, pero también curvarse algo menos.
 
 
-![Arrastre aerodinámico estimado para un disparo de 30 m/s](images/17_alcance_vs_curva_cuadrantes.png)
+<figure class="nn-article-figure">
+  <img src="{static}/images/17_alcance_vs_curva_cuadrantes.png" alt="Mapa relativo del comportamiento del balón en las sedes del Mundial 2026">
+  <figcaption>
+    Figura 3. Mapa relativo del comportamiento del balón en las sedes del Mundial 2026. El eje horizontal mide penetración aerodinámica o alcance relativo; el eje vertical mide deriva lateral efectiva. El modelo compara el mismo disparo bajo distintas condiciones atmosféricas.
+  </figcaption>
+</figure>
 
-*Figura 3. Mapa relativo del comportamiento del balón en las sedes del Mundial 2026. El eje horizontal mide penetración aerodinámica o alcance relativo; el eje vertical mide deriva lateral efectiva. El modelo compara el mismo disparo bajo distintas condiciones atmosféricas.*
 ---
 
 ## Un índice de "rareza" física
@@ -101,9 +111,12 @@ No es un modelo predictivo profesional. No dice dónde habrá más goles ni qui�
 
 El resultado es claro:
 
-![Índice de rareza física del balón](images/04_indice_rareza_corregido.png)
-
-*Figura 4. Ranking de rareza física. México domina la parte atmosférica; varias sedes estadounidenses y canadienses aparecen por la combinación de superficie temporal, techo o condiciones locales.*
+<figure class="nn-article-figure">
+  <img src="{static}/images/04_indice_rareza_corregido.png" alt="Índice de rareza física del balón">
+  <figcaption>
+    Figura 4. Ranking de rareza física. México domina la parte atmosférica; varias sedes estadounidenses y canadienses aparecen por la combinación de superficie temporal, techo o condiciones locales.
+  </figcaption>
+</figure>
 
 
 La rareza no siempre empuja en la misma dirección. En Ciudad de México el balon debería frenarse menos. En Vancouver el aire es más denso y puede frenarla más. En Dallas o Seattle la pregunta interesante no es solo el aire: también es la superficie.
@@ -112,9 +125,12 @@ La rareza no siempre empuja en la misma dirección. En Ciudad de México el balo
 
 La respuesta corta es: **el Estadio Azteca, en Ciudad de México**, si hablamos de vuelo, frenado y curva. Si incluimos el bote, aparecen otras sedes interesantes por la superficie temporal o adaptada.
 
-![Mapa físico del Mundial 2026: índice de rareza del balón por sede](images/05_mapa_rareza_estatico.png)
-
-*Figura 5. Las 16 sedes del Mundial 2026 vistas como un mapa físico: no solo importa dónde están, sino qué aire rodea al balón.*
+<figure class="nn-article-figure">
+  <img src="{static}/images/05_mapa_rareza_estatico.png" alt="Mapa físico del Mundial 2026: índice de rareza del balón por sede">
+  <figcaption>
+    Figura 5. Las 16 sedes del Mundial 2026 vistas como un mapa físico: no solo importa dónde están, sino qué aire rodea al balón.
+  </figcaption>
+</figure>
 
 ---
 ## Conclusiones
