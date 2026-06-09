@@ -1,5 +1,5 @@
 ---
-title: Perdimos por culpa del aire; una investigación casi seria sobre el mundial de fútbol 2026
+title: "Perdimos por culpa del aire: una investigación casi seria sobre el mundial de fútbol 2026"
 author: Duvier Suárez Fontanella
 date: 2026-06-09
 layout: articles
