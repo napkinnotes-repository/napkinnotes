@@ -40,7 +40,7 @@ Tú eres el capitán de España. Ganas el sorteo. El árbitro te mira.
 
 > **¿Queréis tirar primero o segundo?**
 
-Y ahí aparece la pregunta.,La pregunta estadística. **¿Qué conviene más: tirar primero o tirar segundo?**
+Y ahí aparece la pregunta. La pregunta estadística. **¿Qué conviene más: tirar primero o tirar segundo?**
 
 ---
 
