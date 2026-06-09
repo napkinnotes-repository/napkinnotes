@@ -173,9 +173,10 @@ SITE_LICENSE = """Contenido publicado bajo licencia <a rel="license nofollow noo
 
 # SEO
 SITE_DESCRIPTION = (
-    "Napkin Notes es un blog de divulgación científica y pensamiento crítico "
-    "donde la física, la cosmología, las matemáticas y la vida cotidiana se explican "
-    "con rigor, claridad y curiosidad."
+    "Napkin Notes es un blog-revista de divulgación científica en español para quienes "
+    "disfrutan entendiendo la ciencia detrás de preguntas curiosas, cotidianas o inesperadas. "
+    "Publicamos contenidos con explicaciones claras, rigurosas y visuales sobre diferentes "
+    "disciplinas científicas."
 )
 
 # Share links at bottom of articles
