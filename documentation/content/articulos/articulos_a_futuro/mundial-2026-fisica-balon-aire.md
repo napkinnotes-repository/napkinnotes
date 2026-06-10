@@ -1,5 +1,5 @@
 ---
-title: "Perdimos por culpa del aire: una investigación casi seria sobre el mundial de fútbol 2026"
+title: "Perdimos por culpa del aire: una investigación casi seria sobre el Mundial de Fútbol 2026"
 author: Duvier Suárez Fontanella
 date: 2026-06-09
 layout: articles
@@ -12,7 +12,7 @@ tags:
   - física
   - aerodinámica
   - datos
-summary: Una estimación sobre cómo altitud, temperatura y densidad del aire pueden cambiar el vuelo del balón en las sedes del Mundial 2026, y todo para que tengas una buena excusa si no llegas a la final.
+summary: Una estimación sobre cómo la altitud, la temperatura y la densidad del aire afectan el vuelo del balón en las sedes del Mundial de Fútbol 2026, y todo para que tengas una buena excusa si tu equipo no llega a la final.
 image: images/05_mapa_rareza_estatico.png
 certificated: true
 ---
@@ -20,28 +20,28 @@ certificated: true
 [TOC]
 
 
-Todos los equipos del Mundial 2026 jugarán con el mismo balón reglamentario, pero no jugarán contra el mismo aire o en las mismas condiciones atmosféricas.
+Aunque en los mundiales de fútbol todos los equipos juegan con el mismo balón reglamentario, no todos los juegos se desarrollan bajo las mismas condiciones atmosféricas. Los partidos tendrán lugar en lugares climática y arquitéctonicamente diversos. Los balones se moverán lo mimso por estadios a nivel del mar que por otros a una gran altitud; en entornos frescos como Vancouver o Seattle y otros cálidos como Monterrey, Dallas, Houston o Miami; entre campos abiertos, techos retráctiles y superficies temporales <a class="nn-cite" href="#ref-1">[1]</a>. 
 
-El balon de fútbol del mundial 2026 viajará entre estadios casi al nivel del mar y otros a gran altitud; entre sedes frescas como Vancouver o Seattle y entornos cálidos como Monterrey, Dallas, Houston o Miami; entre campos abiertos, techos retráctiles y superficies temporales <a class="nn-cite" href="#ref-1">[1]</a>. Esa geografía convierte el torneo en un pequeño laboratorio físico. Aquí te daremos, cual buen perdedor, la mejor excusa en caso de que tu equipo no llegue a la final. "Perdimos por culpa del aire y de las condiciones atmosféricas" pero con un respaldo científico para que tu cuñado que le va al equipo rival no te diga más que siempre te estas quejando de nada. 
+Esa variabilidad geografía convierte el torneo en un inesperado laboratorio de Física. ¿El resultado del experimento? La mejor de las excusas en caso de que tu equipo no llegue a la final: "Perdimos por culpa del aire", y, por supuesto, al afirmarlo tendrás todo el respaldo científico necesario para que tu cuñado, que le va al equipo rival, no pueda decirte más que siempre te quejas por gusto. 
 
 
-## El modelo mínimo: un balón contra el aire
+## Modelo mínimo: el balón contra el aire
 
-Para no convertir esto en una simulación profesional, basta una ecuación. La fuerza de arrastre sobre un balón que se mueve en el aire puede escribirse como:
+Cada vez que el balón, tras ser pateado, vuela sobre el campo experimenta, además del efecto de la fuerza de gravedad, el efecto desacelerador de la resistencia del aire. Para no convertir esto en una simulación profesional, nos concentraremos en caracterizar esta resistencia, también conocida como fuerza de arrastre. La fuerza de arrastre sobre un balón que se mueve en el aire puede escribirse como:
 
 $$
 D=\frac{1}{2}\rho C_d A v^2 .
 $$
 
-Aquí $\rho$ es la densidad del aire, $C_d$ el coeficiente de arrastre, $A$ el área frontal del balón y $v$ la velocidad del disparo <a class="nn-cite" href="#ref-3">[3]</a> y no lo digo solo yo, también lo dice la NASA <a class="nn-cite" href="#ref-4">[4]</a><a class="nn-cite" href="#ref-5">[5]</a>, bueno, más o menos pero sirve para que le digas a tu cuñado que lo dice la NASA. 
+Aquí $\rho$ es la densidad del aire, $C_d$ el coeficiente de arrastre, $A$ el área frontal del balón y $v$ la velocidad del disparo <a class="nn-cite" href="#ref-3">[3]</a> y no lo digo solo yo, también lo dice la NASA <a class="nn-cite" href="#ref-4">[4]</a><a class="nn-cite" href="#ref-5">[5]</a>. 
 
-Tomando valores razonables para una pelota reglamentaria de acuerdo a la International Football Association Board <a class="nn-cite" href="#ref-2">[2]</a>,
+Tomando valores razonables para una pelota reglamentaria de acuerdo a la *International Football Association Board* <a class="nn-cite" href="#ref-2">[2]</a>:
 
 $$
 m\simeq 0.43\,\mathrm{kg}, \qquad R\simeq 0.11\,\mathrm{m}, \qquad A=\pi R^2,
 $$
 
-y un disparo fuerte de
+y un disparo fuerte de:
 
 $$
 v=30\,\mathrm{m/s}=108\, \mathrm{km/h},
@@ -50,12 +50,12 @@ $$
 con $C_d\simeq 0.25$, queda una regla muy útil:
 
 $$
-D \simeq 4.28\,\rho .
+D \simeq 4.28\,\rho,
 $$
 
-Es decir: en este modelo de servilleta, **si cambia la densidad del aire, cambia casi directamente cuánto se frena la pelota**.
+que relaciona la fuerza de arrastre con la densidad del aire. En este modelo de servilleta, **si cambia la densidad del aire, cambia casi directamente cuánto se frena la pelota**.
 
-La densidad del aire no es igual en todas partes. Baja con la altitud, baja con la temperatura y cambia ligeramente con la humedad <a class="nn-cite" href="#ref-6">[6]</a><a class="nn-cite" href="#ref-7">[7]</a>. La altitud es el efecto dominante: por eso Ciudad de México y Guadalajara destacan tanto.
+La densidad del aire no es igual en todas partes. Disminuye con la altitud y la temperatura, y varía ligeramente con la humedad <a class="nn-cite" href="#ref-6">[6]</a><a class="nn-cite" href="#ref-7">[7]</a>. Entre estos tres, la altitud resulta ser el efecto dominante. Por eso en la figura 1, la densidad del aire en Ciudad de México y Guadalajara se encuentra tan por debajo de la media.
 
 <figure class="nn-article-figure">
   <img src="{static}/images/01_densidad_aire_corregida.png" alt="Densidad estimada del aire por sede">
@@ -66,33 +66,30 @@ La densidad del aire no es igual en todas partes. Baja con la altitud, baja con 
 
 ---
 
-## Qué cambia cuando el aire es menos denso
+## ¿Qué cambia cuando el aire es menos denso?
 
-Un balón en aire más tenue encuentra menos resistencia, tal como a nosotros nos es más fácil movernos en el aire que en el agua por poner un ejemplo extremo.
-
-Para un disparo de $30\,\mathrm{m/s}$, el modelo da aproximadamente un frenado de:
+Un balón que se mueve por un medio menos denso encuentra una menor resistencia, tal como a nosotros nos es más fácil movernos en el aire que en el agua, por poner un ejemplo extremo. Para un disparo de $30\,\mathrm{m/s}$, el modelo da aproximadamente una fuerza de frenado con los siguientes valores extremos:
 
 - **Ciudad de México:** $D\simeq 3.91\,\mathrm{N}$.
 - **Guadalajara:** $D\simeq 4.18\,\mathrm{N}$.
 - **Vancouver:** $D\simeq 5.15\,\mathrm{N}$.
 
-La diferencia entre Ciudad de México y Vancouver ronda el **24% de arrastre inicial**. En fútbol, esa no es una corrección decorativa: puede afectar la distancia, la caída y la sensación de golpeo.
+La diferencia entre Ciudad de México y Vancouver ronda el **24%**. En fútbol esa no es una corrección decorativa, puede afectar el alcance de la pelota, el tiempo de caída y la sensación de golpeo.
 
 <figure class="nn-article-figure">
   <img src="{static}/images/02_arrastre_disparo_corregido.png" alt="Arrastre aerodinámico estimado para un disparo de 30 m/s">
   <figcaption>
-    Figura 2. Fuerza de arrastre estimada para un disparo fuerte. El Azteca aparece como el escenario donde el balón debería frenarse menos.
+    Figura 2. Fuerza de arrastre estimada para un disparo fuerte. El Azteca aparece como el escenario donde el balón debería sentir el menor frenado.
   </figcaption>
 </figure>
 
-Por otro lado hay un matiz bonito, el aire tenue no solo reduce el frenado, sino que también reduce la fuerza lateral responsable de la curva del balón. De forma esquemática, el efecto Magnus, que así es como se llama, escala como
+Por otro lado, hay un matiz interesante. En un aire más tenue no solo se reduce el efecto de frenado, sino que también disminuye la fuerza responsable de la curva del balón, es decir de su desvío lateral (efecto Magnus), provocando que la trayectoria sea más recta. De forma esquemática, el efecto Magnus, escala como:
 
 $$
-L \sim \frac{1}{2}\rho C_L A v^2 .
+L \sim \frac{1}{2}\rho C_L A v^2.
 $$
 
-Así que el estadio donde la pelota “vuela más” no tiene por qué ser el estadio donde “curva más”. En aire menos denso, a igualdad de golpeo y giro, el balón debería conservar mejor su velocidad, pero también curvarse algo menos.
-
+Así que el estadio donde la pelota vuela más fácil no tiene por qué ser el estadio donde se curva más. En aire menos denso, a igualdad de golpeo y giro, el balón debería conservar mejor su velocidad, pero también curvarse algo menos.
 
 <figure class="nn-article-figure">
   <img src="{static}/images/17_alcance_vs_curva_cuadrantes.png" alt="Mapa relativo del comportamiento del balón en las sedes del Mundial 2026">
@@ -103,27 +100,22 @@ Así que el estadio donde la pelota “vuela más” no tiene por qué ser el es
 
 ---
 
-## Un índice de "rareza" física
+## Un índice de "rareza física" para las sedes del Mundial
 
-Para ordenar las sedes podemos definir un índice comparativo de rareza física a lo Napkin Notes, es decir sin mucho formalismo pero que nos permita tener una estimación de cuán raro será el bote o volar del balón respecto a la media de los estadios, llamémosle a este $R$ como no podía ser de otra manera, y combinará seis ingredientes: altitud, temperatura, humedad, viento, tipo de estadio y superficie.
-
-No es un modelo predictivo profesional. No dice dónde habrá más goles ni quién jugará mejor. Solo responde a una pregunta: **¿qué sedes se alejan más de un entorno medio para el balón?**
-
-El resultado es claro:
+Podemos ordenar las sedes con ayuda de un índice comparativo de "rareza física" definido a lo *Napkin Notes*, es decir sin un rigor excesivo, pero que nos permita tener una estimación de cuán diferente (o raro) será el vuelo del balón respecto a la media de los estadios. Lo denotaremos por $R$ y combinará seis ingredientes: altitud, temperatura, humedad, viento, tipo de estadio y superficie del terreno: 
 
 <figure class="nn-article-figure">
   <img src="{static}/images/04_indice_rareza_corregido.png" alt="Índice de rareza física del balón">
   <figcaption>
-    Figura 4. Ranking de rareza física. México domina la parte atmosférica; varias sedes estadounidenses y canadienses aparecen por la combinación de superficie temporal, techo o condiciones locales.
+    Figura 4. Ranking de rareza física. México domina la parte atmosférica; varias sedes estadounidenses y canadienses aparecen por la combinación de superficie, techo o condiciones locales.
   </figcaption>
 </figure>
 
+Naturalmente, este no es un modelo predictivo profesional. No pretende adivinar goles ni explicar derrotas (bueno, esto último quizás sí), sino responder a una pregunta: **¿qué sedes se alejan más de un entorno medio para el balón?** 
 
-La rareza no siempre empuja en la misma dirección. En Ciudad de México el balón debería frenarse menos. En Vancouver el aire es más denso y puede frenarla más. En Dallas o Seattle la pregunta interesante no es solo el aire: también es la superficie.
+La desviación será mayor mientras mayor sea $R$, por tanto la respuesta es clara: el comportamiento más alejado de la media se ve en **el Estadio Azteca, en Ciudad de México**, donde se esperan vuelos de mayor alcance y trayectoria más recta. Como se ve en la figura 4,  México domina en la rareza debido a sus condiciones atmosféricas y de altitud, mientras que varias sedes estadounidenses y canadienses tienen índice de rareza relativamente alto gracias a la combinación del clima local con otros factores como la superficie o el techado del estadio, que añaden a este problema matices más inciertos, pero también más interesantes acerca de cómo la ubicación geográfica de un estadio facilita o dificulta el manejo del balón por parte de los jugadores. 
 
-> **¿En qué estadio del Mundial 2026 puede cambiar más el comportamiento del balón?**
-
-La respuesta corta es: **el Estadio Azteca, en Ciudad de México**, si hablamos de vuelo, frenado y curva. Si incluimos el bote, aparecen otras sedes interesantes por la superficie temporal o adaptada.
+Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, revisa antes la densidad del aire para esa sede. Admitámoslo, sigue siendo una excusa, pero es bastante más elegante cuando viene con $\rho$, $C_d$ y *Napkin Notes*.   
 
 <figure class="nn-article-figure">
   <img src="{static}/images/05_mapa_rareza_estatico.png" alt="Mapa físico del Mundial 2026: índice de rareza del balón por sede">
@@ -131,15 +123,6 @@ La respuesta corta es: **el Estadio Azteca, en Ciudad de México**, si hablamos 
     Figura 5. Las 16 sedes del Mundial 2026 vistas como un mapa físico: no solo importa dónde están, sino qué aire rodea al balón.
   </figcaption>
 </figure>
-
----
-## Conclusiones
-
-El modelo no pretende adivinar goles ni explicar derrotas (bueno esto último quizás sí), pero sí deja una idea clara, el balón no viaja en el vacío. Cada sede le ofrece un entorno distinto, y eso cambia cuánto se frena, cuánto conserva su velocidad y cuánto puede desviarse lateralmente.
-
-El efecto más robusto es la densidad del aire. Por eso Ciudad de México aparece como el caso más extremo: allí la pelota encuentra menos resistencia y puede comportarse de forma distinta a como lo haría en estadios cercanos al nivel del mar. Otros factores, como el viento, la temperatura o la superficie, añaden matices más inciertos, pero también más interesantes. 
-
-Así que, si en 2026 tu equipo pierde, no corras a culpar al delantero, revisa antes la densidad del aire. Admitámoslo, sigue siendo una excusa; pero es bastante más elegante cuando viene con $\rho$, $C_d$ y Napkin Notes.
 
 ---
 
