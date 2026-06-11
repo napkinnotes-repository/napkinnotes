@@ -174,7 +174,7 @@ Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, r
     </tr>
     <tr>
       <td><span class="nowrap">Seattle</span></td>
-      <td><span class="table-two-lines">Lumen<br>Field</span></td>    
+      <td><span class="table-two-lines">Lumen<br>Field</span></td>   
       <td><span class="nowrap">45</span></td>
       <td><span class="nowrap">1.198</span></td>
       <td><span class="nowrap">5.12</span></td>
