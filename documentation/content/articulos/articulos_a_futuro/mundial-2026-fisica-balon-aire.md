@@ -135,7 +135,7 @@ Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, r
       <th>Estadio</th>
       <th>Altitud<br><small>[m]</small></th>
       <th>&rho;<br><small>[kg/m<sup>3</sup>]</small></th>
-      <th>Drag<br><small>(a 108 km/h)</small><br><small>[N]</small></th>
+      <th>Drag<br><small>(108 km/h)</small><br><small>[N]</small></th>
       <th>Índice R </th>
     </tr>
   </thead>
@@ -174,7 +174,7 @@ Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, r
     </tr>
     <tr>
       <td><span class="nowrap">Seattle</span></td>
-      <td><span class="nowrap">Lumen Field</span></td>
+      <td><span class="table-two-lines">Lumen<br>Field</span></td>    
       <td><span class="nowrap">45</span></td>
       <td><span class="nowrap">1.198</span></td>
       <td><span class="nowrap">5.12</span></td>
@@ -182,7 +182,7 @@ Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, r
     </tr>
     <tr>
       <td><span class="nowrap">Vancouver</span></td>
-      <td><span class="nowrap">BC Place</span></td>
+      <td><span class="table-two-lines">BC<br>Place</span></td>
       <td><span class="nowrap">34</span></td>
       <td><span class="nowrap">1.205</span></td>
       <td><span class="nowrap">5.15</span></td>
