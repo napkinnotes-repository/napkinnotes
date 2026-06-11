@@ -128,7 +128,7 @@ Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, r
 
 ## Anexo mínimo: datos clave
 
-| Sede | Estadio | Altitud [m] | $\rho$ [kg/m<sup>3</sup>] | Drag a 30 m/s [N] | Índice R |
+| Sede | Estadio | Altitud [m] | $\rho$ [kg/m<sup>3</sup>] | Drag <small>(a 108 km/h)</small> [N] | Índice R |
 |---|---|---:|---:|---:|---:|
 | Ciudad de México | Estadio Azteca | 2240 | 0.915 | 3.91 | 75.8 |
 | Guadalajara | Estadio Akron | 1598 | 0.977 | 4.18 | 51.3 |
