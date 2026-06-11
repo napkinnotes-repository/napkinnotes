@@ -4,7 +4,7 @@ author: Duvier Suárez Fontanella
 date: 2026-06-09
 layout: articles
 slug: mundial-2026-fisica-balon-aire
-status: hidden
+status: published
 category: Física
 tags:
   - fútbol
