@@ -128,14 +128,68 @@ Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, r
 
 ## Anexo mínimo: datos clave
 
-| Sede | Estadio | Altitud [m] | $\rho$ [kg/m<sup>3</sup>] | Drag [N] <small>(a 108 km/h)</small> | Índice R |
-|---|---|---:|---:|---:|---:|
-| Ciudad de México | Estadio Azteca | 2240 | 0.915 | 3.91 | 75.8 |
-| Guadalajara | Estadio Akron | 1598 | 0.977 | 4.18 | 51.3 |
-| Monterrey | Estadio BBVA | 500 | 1.089 | 4.66 | 49.7 |
-| Dallas | AT&T Stadium | 184 | 1.132 | 4.84 | 45.7 |
-| Seattle | Lumen Field | 45 | 1.198 | 5.12 | 44.4 |
-| Vancouver | BC Place | 34 | 1.205 | 5.15 | 40.3 |
+<table class="nn-compact-table">
+  <thead>
+    <tr>
+      <th>Sede</th>
+      <th>Estadio</th>
+      <th>Altitud<br><small>[m]</small></th>
+      <th>&rho;<br><small>[kg/m<sup>3</sup>]</small></th>
+      <th>Drag<br><small>30 m/s</small><br><small>[N]</small></th>
+      <th>Índice<br><small>R</small></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="nowrap">Ciudad de México</span></td>
+      <td><span class="nowrap">Estadio Azteca</span></td>
+      <td><span class="nowrap">2240</span></td>
+      <td><span class="nowrap">0.915</span></td>
+      <td><span class="nowrap">3.91</span></td>
+      <td><span class="nowrap">75.8</span></td>
+    </tr>
+    <tr>
+      <td><span class="nowrap">Guadalajara</span></td>
+      <td><span class="nowrap">Estadio Akron</span></td>
+      <td><span class="nowrap">1598</span></td>
+      <td><span class="nowrap">0.977</span></td>
+      <td><span class="nowrap">4.18</span></td>
+      <td><span class="nowrap">51.3</span></td>
+    </tr>
+    <tr>
+      <td><span class="nowrap">Monterrey</span></td>
+      <td><span class="nowrap">Estadio BBVA</span></td>
+      <td><span class="nowrap">500</span></td>
+      <td><span class="nowrap">1.089</span></td>
+      <td><span class="nowrap">4.66</span></td>
+      <td><span class="nowrap">49.7</span></td>
+    </tr>
+    <tr>
+      <td><span class="nowrap">Dallas</span></td>
+      <td><span class="nowrap">AT&amp;T Stadium</span></td>
+      <td><span class="nowrap">184</span></td>
+      <td><span class="nowrap">1.132</span></td>
+      <td><span class="nowrap">4.84</span></td>
+      <td><span class="nowrap">45.7</span></td>
+    </tr>
+    <tr>
+      <td><span class="nowrap">Seattle</span></td>
+      <td><span class="nowrap">Lumen Field</span></td>
+      <td><span class="nowrap">45</span></td>
+      <td><span class="nowrap">1.198</span></td>
+      <td><span class="nowrap">5.12</span></td>
+      <td><span class="nowrap">44.4</span></td>
+    </tr>
+    <tr>
+      <td><span class="nowrap">Vancouver</span></td>
+      <td><span class="nowrap">BC Place</span></td>
+      <td><span class="nowrap">34</span></td>
+      <td><span class="nowrap">1.205</span></td>
+      <td><span class="nowrap">5.15</span></td>
+      <td><span class="nowrap">40.3</span></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
