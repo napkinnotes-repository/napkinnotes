@@ -4969,3 +4969,9 @@ a.nn-squad-hero__metric {
     font-weight: 700;
   }
 }
+.nn-article-content table th small {
+  display: block;
+  font-size: 0.72em;
+  font-weight: 600;
+  line-height: 1.1;
+}
