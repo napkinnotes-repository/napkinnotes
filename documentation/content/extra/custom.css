@@ -4945,33 +4945,64 @@ a.nn-squad-hero__metric {
   height: 18px;
 }
 /* =========================
-   ARTICLE TABLES MOBILE COMPACT
+   ARTICLE COMPACT TABLES
 ========================= */
 
-@media (max-width: 760px) {
-  .nn-article-content table {
-    width: 100% !important;
-    table-layout: auto;
-    font-size: 0.72rem;
-  }
-
-  .nn-article-content table th,
-  .nn-article-content table td {
-    padding: 6px 5px !important;
-    font-size: 0.72rem !important;
-    line-height: 1.2 !important;
-    white-space: normal !important;
-    word-break: normal;
-    overflow-wrap: anywhere;
-  }
-
-  .nn-article-content table th {
-    font-weight: 700;
-  }
+.nn-article-content .nn-compact-table {
+  width: 100%;
+  table-layout: auto;
 }
-.nn-article-content table th small {
-  display: block;
+
+.nn-article-content .nn-compact-table th,
+.nn-article-content .nn-compact-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nn-article-content .nn-compact-table th:first-child,
+.nn-article-content .nn-compact-table td:first-child,
+.nn-article-content .nn-compact-table th:nth-child(2),
+.nn-article-content .nn-compact-table td:nth-child(2) {
+  text-align: left;
+}
+
+.nn-article-content .nn-compact-table small {
+  display: inline-block;
   font-size: 0.72em;
   font-weight: 600;
   line-height: 1.1;
+  white-space: nowrap;
+}
+
+.nn-article-content .nowrap {
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .nn-article-content .nn-compact-table {
+    font-size: 0.68rem;
+  }
+
+  .nn-article-content .nn-compact-table th,
+  .nn-article-content .nn-compact-table td {
+    padding: 5px 4px !important;
+    font-size: 0.68rem !important;
+    line-height: 1.15 !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+  .nn-article-content .nn-compact-table small {
+    font-size: 0.68em;
+  }
+
+  .nn-article-content .nn-compact-table th:first-child,
+  .nn-article-content .nn-compact-table td:first-child {
+    min-width: 74px;
+  }
+
+  .nn-article-content .nn-compact-table th:nth-child(2),
+  .nn-article-content .nn-compact-table td:nth-child(2) {
+    min-width: 70px;
+  }
 }
