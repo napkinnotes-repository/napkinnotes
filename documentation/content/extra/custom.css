@@ -4950,20 +4950,13 @@ a.nn-squad-hero__metric {
 
 .nn-article-content .nn-compact-table {
   width: 100%;
-  table-layout: auto;
+  table-layout: fixed;
 }
 
 .nn-article-content .nn-compact-table th,
 .nn-article-content .nn-compact-table td {
-  text-align: center;
-  vertical-align: middle;
-}
-
-.nn-article-content .nn-compact-table th:first-child,
-.nn-article-content .nn-compact-table td:first-child,
-.nn-article-content .nn-compact-table th:nth-child(2),
-.nn-article-content .nn-compact-table td:nth-child(2) {
-  text-align: left;
+  text-align: center !important;
+  vertical-align: middle !important;
 }
 
 .nn-article-content .nn-compact-table small {
@@ -4975,34 +4968,25 @@ a.nn-squad-hero__metric {
 }
 
 .nn-article-content .nowrap {
-  white-space: nowrap;
+  white-space: nowrap !important;
 }
 
 @media (max-width: 760px) {
   .nn-article-content .nn-compact-table {
-    font-size: 0.68rem;
+    font-size: 0.62rem;
   }
 
   .nn-article-content .nn-compact-table th,
   .nn-article-content .nn-compact-table td {
-    padding: 5px 4px !important;
-    font-size: 0.68rem !important;
+    padding: 5px 2px !important;
+    font-size: 0.62rem !important;
     line-height: 1.15 !important;
+    white-space: nowrap !important;
     word-break: normal !important;
     overflow-wrap: normal !important;
   }
 
   .nn-article-content .nn-compact-table small {
     font-size: 0.68em;
-  }
-
-  .nn-article-content .nn-compact-table th:first-child,
-  .nn-article-content .nn-compact-table td:first-child {
-    min-width: 74px;
-  }
-
-  .nn-article-content .nn-compact-table th:nth-child(2),
-  .nn-article-content .nn-compact-table td:nth-child(2) {
-    min-width: 70px;
   }
 }
