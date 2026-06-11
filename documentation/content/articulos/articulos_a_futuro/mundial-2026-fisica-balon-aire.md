@@ -58,7 +58,7 @@ que relaciona la fuerza de arrastre con la densidad del aire. En este modelo de 
 La densidad del aire no es igual en todas partes. Disminuye con la altitud y la temperatura, y varía ligeramente con la humedad <a class="nn-cite" href="#ref-6">[6]</a><a class="nn-cite" href="#ref-7">[7]</a>. Entre estos tres, la altitud resulta ser el efecto dominante. Por eso en la Fig. 1 la densidad del aire en Ciudad de México y Guadalajara se encuentra tan por debajo de la media.
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/01_densidad_aire_corregida.png" alt="Densidad estimada del aire por sede">
+  <img src="{static}/images/01_densidad_aire_corregida_arregladaDFH.png" alt="Densidad estimada del aire por sede">
   <figcaption>
     Figura 1. La densidad estimada del aire separa claramente a Ciudad de México y Guadalajara del resto de sedes. Menor densidad implica menor arrastre y menor fuerza lateral de Magnus.
   </figcaption>
