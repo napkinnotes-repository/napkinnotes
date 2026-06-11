@@ -4971,16 +4971,22 @@ a.nn-squad-hero__metric {
   white-space: nowrap !important;
 }
 
+.nn-article-content .table-two-lines {
+  display: inline-block;
+  white-space: normal !important;
+  line-height: 1.15;
+}
+
 @media (max-width: 760px) {
   .nn-article-content .nn-compact-table {
-    font-size: 0.62rem;
+    font-size: 0.58rem;
   }
 
   .nn-article-content .nn-compact-table th,
   .nn-article-content .nn-compact-table td {
-    padding: 5px 2px !important;
-    font-size: 0.62rem !important;
-    line-height: 1.15 !important;
+    padding: 5px 1px !important;
+    font-size: 0.58rem !important;
+    line-height: 1.12 !important;
     white-space: nowrap !important;
     word-break: normal !important;
     overflow-wrap: normal !important;
@@ -4989,19 +4995,35 @@ a.nn-squad-hero__metric {
   .nn-article-content .nn-compact-table small {
     font-size: 0.68em;
   }
-}
-.nn-article-content .nn-compact-table th,
-.nn-article-content .nn-compact-table td {
-  text-align: center !important;
-  vertical-align: middle !important;
-}
 
-.nn-article-content .nowrap {
-  white-space: nowrap !important;
-}
+  /* Reparto de anchuras en móvil */
+  .nn-article-content .nn-compact-table th:nth-child(1),
+  .nn-article-content .nn-compact-table td:nth-child(1) {
+    width: 22%;
+  }
 
-.nn-article-content .table-two-lines {
-  display: inline-block;
-  white-space: normal !important;
-  line-height: 1.15;
+  .nn-article-content .nn-compact-table th:nth-child(2),
+  .nn-article-content .nn-compact-table td:nth-child(2) {
+    width: 15%;
+  }
+
+  .nn-article-content .nn-compact-table th:nth-child(3),
+  .nn-article-content .nn-compact-table td:nth-child(3) {
+    width: 13%;
+  }
+
+  .nn-article-content .nn-compact-table th:nth-child(4),
+  .nn-article-content .nn-compact-table td:nth-child(4) {
+    width: 16%;
+  }
+
+  .nn-article-content .nn-compact-table th:nth-child(5),
+  .nn-article-content .nn-compact-table td:nth-child(5) {
+    width: 18%;
+  }
+
+  .nn-article-content .nn-compact-table th:nth-child(6),
+  .nn-article-content .nn-compact-table td:nth-child(6) {
+    width: 16%;
+  }
 }
