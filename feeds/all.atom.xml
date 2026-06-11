@@ -1,5 +1,256 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-06-04T00:00:00+02:00</updated><entry><title>Dunas y desiertos I</title><link href="https://napkinnotes.es/dunas-y-desiertos-i" rel="alternate"/><published>2026-06-04T00:00:00+02:00</published><updated>2026-06-04T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-06-04:/dunas-y-desiertos-i</id><summary type="html">&lt;p&gt;Vamos a hacer la receta para crear una duna en un desierto. Bueno, o mejor solo entendemos la&amp;nbsp;receta.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-06-09T00:00:00+02:00</updated><entry><title>Perdimos por culpa del aire: una investigación casi seria sobre el Mundial de Fútbol 2026</title><link href="https://napkinnotes.es/mundial-2026-fisica-balon-aire" rel="alternate"/><published>2026-06-09T00:00:00+02:00</published><updated>2026-06-09T00:00:00+02:00</updated><author><name>Duvier Suárez Fontanella</name></author><id>tag:napkinnotes.es,2026-06-09:/mundial-2026-fisica-balon-aire</id><summary type="html">&lt;p&gt;Una estimación sobre cómo la altitud, la temperatura y la densidad del aire afectan el vuelo del balón en las sedes del Mundial de Fútbol 2026, todo ello para que tengas una buena excusa si tu equipo no llega a la&amp;nbsp;final.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#modelo-minimo-el-balon-contra-el-aire"&gt;Modelo mínimo: el balón contra el&amp;nbsp;aire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#que-cambia-cuando-el-aire-es-menos-denso"&gt;¿Qué cambia cuando el aire es menos&amp;nbsp;denso?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#un-indice-de-rareza-fisica-para-las-sedes-del-mundial"&gt;Un índice de &amp;#8220;rareza física&amp;#8221; para las sedes del&amp;nbsp;Mundial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#anexo-minimo-datos-clave"&gt;Anexo mínimo: datos&amp;nbsp;clave&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Aunque en el Mundial de Fútbol siempre se juegue con el mismo balón reglamentario, no todos los partidos se desarrollarán bajo las mismas condiciones atmosféricas. Los balones se moverán lo mismo por estadios a nivel del mar que por otros a una gran altitud; en entornos frescos como Vancouver o Seattle, y en otros cálidos como Monterrey, Dallas, Houston o Miami; entre campos abiertos, techos retráctiles y superficies temporales &lt;a class="nn-cite" href="#ref-1"&gt;[1]&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Esa variabilidad convierte el torneo en un inesperado laboratorio de Física. ¿El resultado del experimento? La mejor de las excusas en caso de que tu equipo no llegue a la final: &amp;#8220;Perdimos por culpa del aire&amp;#8221;. Y, por supuesto, al afirmarlo tendrás todo el respaldo científico necesario para que tu cuñado, ese que le va al equipo rival, no pueda decirte de nuevo que siempre te quejas por&amp;nbsp;gusto. &lt;/p&gt;
+&lt;h2 id="modelo-minimo-el-balon-contra-el-aire"&gt;Modelo mínimo: el balón contra el aire&lt;a class="headerlink" href="#modelo-minimo-el-balon-contra-el-aire" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Cada vez que el balón, tras ser pateado, vuela sobre el campo experimenta, además del efecto de la fuerza de gravedad, el efecto desacelerador de la resistencia del aire. Esta resistencia, también conocida como fuerza de arrastre, puede describirse&amp;nbsp;como:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+D=\frac{1}{2}\rho C_d A v^2 .
+$$&lt;/div&gt;
+&lt;p&gt;Aquí &lt;span class="math"&gt;\(\rho\)&lt;/span&gt; es la densidad del&amp;nbsp;aire, &lt;span class="math"&gt;\(C_d\)&lt;/span&gt; el coeficiente de&amp;nbsp;arrastre, &lt;span class="math"&gt;\(A\)&lt;/span&gt; el área frontal del balón&amp;nbsp;y &lt;span class="math"&gt;\(v\)&lt;/span&gt; la velocidad del disparo &lt;a class="nn-cite" href="#ref-3"&gt;[3]&lt;/a&gt;, y no lo digo solo yo, también lo dice la &lt;span class="caps"&gt;NASA&lt;/span&gt; &lt;a class="nn-cite" href="#ref-4"&gt;[4]&lt;/a&gt;&lt;a class="nn-cite" href="#ref-5"&gt;[5]&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Tomando valores razonables para un balón reglamentario de acuerdo a la &lt;em&gt;International Football Association Board&lt;/em&gt; &lt;a class="nn-cite" href="#ref-2"&gt;[2]&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+m\simeq 0.43\,\mathrm{kg}, \qquad R\simeq 0.11\,\mathrm{m}, \qquad A=\pi R^2,
+$$&lt;/div&gt;
+&lt;p&gt;y un disparo fuerte&amp;nbsp;de:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+v=30\,\mathrm{m/s}=108\, \mathrm{km/h},
+$$&lt;/div&gt;
+&lt;p&gt;con &lt;span class="math"&gt;\(C_d\simeq 0.25\)&lt;/span&gt;, queda una regla muy&amp;nbsp;útil:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+D \simeq 4.28\,\rho,
+$$&lt;/div&gt;
+&lt;p&gt;que relaciona la fuerza de arrastre con la densidad del aire. En este modelo de servilleta, &lt;strong&gt;si cambia la densidad del aire, cambia casi directamente cuánto se frena el balón&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;La densidad del aire no es igual en todas partes. Disminuye con la altitud y la temperatura, y varía ligeramente con la humedad &lt;a class="nn-cite" href="#ref-6"&gt;[6]&lt;/a&gt;&lt;a class="nn-cite" href="#ref-7"&gt;[7]&lt;/a&gt;. Entre estos tres, la altitud resulta ser el efecto dominante. Por eso en la Fig. 1 la densidad del aire en Ciudad de México y Guadalajara se encuentra tan por debajo de la&amp;nbsp;media.&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/01_densidad_aire_corregida_arregladaDFH.png" alt="Densidad estimada del aire por sede"&gt;
+  &lt;figcaption&gt;
+    Figura 1. La densidad estimada del aire separa claramente a Ciudad de México y Guadalajara del resto de sedes. Menor densidad implica menor arrastre y menor fuerza lateral de Magnus.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+&lt;h2 id="que-cambia-cuando-el-aire-es-menos-denso"&gt;¿Qué cambia cuando el aire es menos denso?&lt;a class="headerlink" href="#que-cambia-cuando-el-aire-es-menos-denso" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Un balón que se mueve por un medio menos denso encuentra una menor resistencia, tal como a nosotros nos es más fácil movernos en el aire que en el agua, por poner un ejemplo extremo. Para un disparo&amp;nbsp;de &lt;span class="math"&gt;\(30\,\mathrm{m/s}\)&lt;/span&gt;, el modelo da aproximadamente una fuerza de frenado con los siguientes valores&amp;nbsp;extremos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ciudad de&amp;nbsp;México:&lt;/strong&gt; &lt;span class="math"&gt;\(D\simeq 3.91\,\mathrm{N}\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Guadalajara:&lt;/strong&gt; &lt;span class="math"&gt;\(D\simeq 4.18\,\mathrm{N}\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vancouver:&lt;/strong&gt; &lt;span class="math"&gt;\(D\simeq 5.15\,\mathrm{N}\)&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La diferencia entre Ciudad de México y Vancouver ronda el &lt;strong&gt;24%&lt;/strong&gt;. En el fútbol esa no es una corrección decorativa, puede afectar el alcance del balón, el tiempo de caída y la sensación de&amp;nbsp;golpeo.&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/02_arrastre_disparo_corregido_arregladaDFH.png" alt="Arrastre aerodinámico estimado para un disparo de 30 m/s"&gt;
+  &lt;figcaption&gt;
+    Figura 2. Fuerza de arrastre estimada para un disparo fuerte. El Azteca aparece como el escenario donde el balón debería sentir el menor frenado.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Por otro lado, hay un matiz interesante. En un aire más tenue no solo se reduce el efecto de frenado, sino que también disminuye la fuerza lateral responsable de la curva del balón (efecto Magnus), provocando que la trayectoria sea más recta. El efecto Magnus escala con la densidad del aire&amp;nbsp;como:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+L \sim \frac{1}{2}\rho C_L A v^2.
+$$&lt;/div&gt;
+&lt;p&gt;Así que el estadio donde el balón vuela más fácil no tiene por qué ser donde su trayectoria se curva más. En aire menos denso, a igualdad de golpeo y giro, el balón debería conservar mejor su velocidad, pero también curvarse algo&amp;nbsp;menos.&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/17_alcance_vs_curva_cuadrantes.png" alt="Mapa relativo del comportamiento del balón en las sedes del Mundial 2026"&gt;
+  &lt;figcaption&gt;
+    Figura 3. Mapa relativo del comportamiento del balón en las sedes del Mundial 2026. El eje horizontal mide penetración aerodinámica o alcance relativo; el eje vertical mide deriva lateral efectiva. El modelo compara el mismo disparo bajo distintas condiciones atmosféricas.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+&lt;h2 id="un-indice-de-rareza-fisica-para-las-sedes-del-mundial"&gt;Un índice de &amp;#8220;rareza física&amp;#8221; para las sedes del Mundial&lt;a class="headerlink" href="#un-indice-de-rareza-fisica-para-las-sedes-del-mundial" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Podemos ordenar las sedes con ayuda de un índice comparativo de &amp;#8220;rareza física&amp;#8221; definido a lo &lt;em&gt;Napkin Notes&lt;/em&gt;: sin un rigor excesivo, pero que nos permita tener una estimación de cuán diferente (o raro) será el vuelo del balón respecto a la media de los estadios en una sede concreta. Lo denotaremos&amp;nbsp;por &lt;span class="math"&gt;\(R\)&lt;/span&gt; y combinará seis ingredientes: altitud, temperatura, humedad, viento, tipo de estadio y superficie del&amp;nbsp;terreno. &lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/04_indice_rareza_corregido_arregladoDFH.png" alt="Índice de rareza física del balón"&gt;
+  &lt;figcaption&gt;
+    Figura 4. Ranking de rareza física. México domina la parte atmosférica; varias sedes estadounidenses y canadienses aparecen por la combinación de superficie, techo o condiciones locales.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Naturalmente, este no es un modelo predictivo profesional. No pretende adivinar goles ni explicar derrotas (bueno, esto último quizás sí), sino responder a una pregunta: &lt;strong&gt;¿qué sedes se alejan más de un entorno medio para el&amp;nbsp;balón?&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;La desviación será mayor cuanto mayor&amp;nbsp;sea &lt;span class="math"&gt;\(R\)&lt;/span&gt;. Por tanto, la respuesta es clara: el comportamiento más alejado de la media se ve en &lt;strong&gt;el Estadio Azteca, en Ciudad de México&lt;/strong&gt;, donde se esperan vuelos de mayor alcance y trayectoria más recta. En general, los estadios de México dominan en la rareza debido a sus condiciones atmosféricas y de altitud, mientras que varias sedes estadounidenses y canadienses también tienen un índice relativamente alto gracias a la combinación del clima local con otros factores como la superficie o el techado del estadio. Estos últimos añaden al problema matices más inciertos, pero también más interesantes acerca de cómo la ubicación geográfica influye en el comportamiento del&amp;nbsp;balón. &lt;/p&gt;
+&lt;p&gt;Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, revisa antes la densidad del aire para esa sede. Admitámoslo, sigue siendo una excusa, pero es bastante más elegante cuando viene&amp;nbsp;con &lt;span class="math"&gt;\(\rho\)&lt;/span&gt;, &lt;span class="math"&gt;\(C_d\)&lt;/span&gt; y &lt;em&gt;Napkin Notes&lt;/em&gt;.   &lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/05_mapa_rareza_estatico.png" alt="Mapa físico del Mundial 2026: índice de rareza del balón por sede"&gt;
+  &lt;figcaption&gt;
+    Figura 5. Las 16 sedes del Mundial 2026 y sus índices de rareza.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+&lt;h2 id="anexo-minimo-datos-clave"&gt;Anexo mínimo: datos clave&lt;a class="headerlink" href="#anexo-minimo-datos-clave" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;table class="nn-compact-table"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Sede&lt;/th&gt;
+      &lt;th&gt;Estadio&lt;/th&gt;
+      &lt;th&gt;Altitud&lt;br&gt;&lt;small&gt;[m]&lt;/small&gt;&lt;/th&gt;
+      &lt;th&gt;&amp;rho;&lt;br&gt;&lt;small&gt;[kg/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/small&gt;&lt;/th&gt;
+      &lt;th&gt;Drag&lt;br&gt;&lt;small&gt;(108 km/h)&lt;br&gt;[N]&lt;/small&gt;&lt;/th&gt;
+      &lt;th&gt;Índice R &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;&lt;span class="caps"&gt;CDMX&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;Azteca&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;2240&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;0.915&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;3.91&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;75.8&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;Guadalajara&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;Akron&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;1598&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;0.977&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;4.18&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;51.3&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;Monterrey&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;&lt;span class="caps"&gt;BBVA&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;500&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;1.089&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;4.66&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;49.7&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;Dallas&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;&lt;span class="caps"&gt;AT&lt;/span&gt;&amp;amp;T&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;184&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;1.132&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;4.84&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;45.7&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;Seattle&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="table-two-lines"&gt;Lumen&lt;br&gt;Field&lt;/span&gt;&lt;/td&gt;   
+      &lt;td&gt;&lt;span class="nowrap"&gt;45&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;1.198&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;5.12&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;44.4&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;Vancouver&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="table-two-lines"&gt;&lt;span class="caps"&gt;BC&lt;/span&gt;&lt;br&gt;Place&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;34&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;1.205&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;5.15&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;40.3&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+  &lt;li id="ref-1"&gt;
+    &lt;span class="caps"&gt;FIFA&lt;/span&gt;. &lt;em&gt;&lt;span class="caps"&gt;FIFA&lt;/span&gt; World Cup 2026 stadium information: official addresses, capacities and maps&lt;/em&gt;.
+    &lt;a href="https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-stadium-capacities-and-maps-of-the-FIFA-World-Cup-2026-stadiums" target="_blank" rel="noopener noreferrer"&gt;&lt;span class="caps"&gt;FIFA&lt;/span&gt; stadium&amp;nbsp;information&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-2"&gt;
+    &lt;span class="caps"&gt;IFAB&lt;/span&gt;. &lt;em&gt;Laws of the Game, Law 2: The Ball&lt;/em&gt;.
+    &lt;a href="https://www.theifab.com/laws/latest/the-ball/" target="_blank" rel="noopener noreferrer"&gt;&lt;span class="caps"&gt;IFAB&lt;/span&gt; Law&amp;nbsp;2&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-3"&gt;
+    &lt;span class="caps"&gt;NASA&lt;/span&gt; Glenn Research Center. &lt;em&gt;Drag Equation&lt;/em&gt;.
+    &lt;a href="https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/" target="_blank" rel="noopener noreferrer"&gt;&lt;span class="caps"&gt;NASA&lt;/span&gt; Glenn: drag&amp;nbsp;equation&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-4"&gt;
+    &lt;span class="caps"&gt;NASA&lt;/span&gt; Glenn Research Center. &lt;em&gt;Drag on a Soccer Ball&lt;/em&gt;.
+    &lt;a href="https://www.grc.nasa.gov/www/k-12/airplane/socdrag.html" target="_blank" rel="noopener noreferrer"&gt;&lt;span class="caps"&gt;NASA&lt;/span&gt; Glenn: soccer ball&amp;nbsp;drag&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-5"&gt;
+    &lt;span class="caps"&gt;NASA&lt;/span&gt; Glenn Research Center. &lt;em&gt;Lift of a Soccer Ball&lt;/em&gt;.
+    &lt;a href="https://www.grc.nasa.gov/WWW/K-12/airplane/soclift.html" target="_blank" rel="noopener noreferrer"&gt;&lt;span class="caps"&gt;NASA&lt;/span&gt; Glenn: soccer ball&amp;nbsp;lift&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-6"&gt;
+    &lt;span class="caps"&gt;NASA&lt;/span&gt; Glenn Research Center. &lt;em&gt;Earth Atmosphere Model: Metric Units&lt;/em&gt;.
+    &lt;a href="https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html" target="_blank" rel="noopener noreferrer"&gt;&lt;span class="caps"&gt;NASA&lt;/span&gt; Glenn: atmosphere&amp;nbsp;model&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-7"&gt;
+    Time and Date / CustomWeather. &lt;em&gt;Climate and Weather Averages&lt;/em&gt;.
+    &lt;a href="https://www.timeanddate.com/weather/" target="_blank" rel="noopener noreferrer"&gt;Climate&amp;nbsp;averages&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Física"/><category term="fútbol"/><category term="mundial 2026"/><category term="física"/><category term="aerodinámica"/><category term="datos"/></entry><entry><title>Dunas y desiertos I</title><link href="https://napkinnotes.es/dunas-y-desiertos-i" rel="alternate"/><published>2026-06-04T00:00:00+02:00</published><updated>2026-06-04T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-06-04:/dunas-y-desiertos-i</id><summary type="html">&lt;p&gt;Vamos a hacer la receta para crear una duna en un desierto. Bueno, o mejor solo entendemos la&amp;nbsp;receta.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#arena"&gt;Arena&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#viento"&gt;Viento&lt;/a&gt;&lt;/li&gt;
