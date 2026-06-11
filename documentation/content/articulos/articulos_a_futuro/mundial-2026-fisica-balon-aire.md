@@ -13,7 +13,7 @@ tags:
   - aerodinámica
   - datos
 summary: Una estimación sobre cómo la altitud, la temperatura y la densidad del aire afectan el vuelo del balón en las sedes del Mundial de Fútbol 2026, todo ello para que tengas una buena excusa si tu equipo no llega a la final.
-image: images/05_mapa_rareza_estatico.png
+image: images/mundial-2026-fisica-balon-aire_cover.png
 certificated: true
 ---
 
