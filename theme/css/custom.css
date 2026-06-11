@@ -4944,3 +4944,27 @@ a.nn-squad-hero__metric {
   width: 18px;
   height: 18px;
 }
+/* =========================
+   ARTICLE TABLES MOBILE FIX
+========================= */
+
+.nn-article-content table {
+  width: 100%;
+}
+
+@media (max-width: 760px) {
+  .nn-article-content table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .nn-article-content table th,
+  .nn-article-content table td {
+    white-space: nowrap;
+  }
+}
