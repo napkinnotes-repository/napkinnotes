@@ -141,8 +141,8 @@ Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, r
   </thead>
   <tbody>
     <tr>
-      <td><span class="nowrap">Ciudad de México</span></td>
-      <td><span class="nowrap">Estadio Azteca</span></td>
+      <td><span class="nowrap">CDMX</span></td>
+      <td><span class="nowrap">Azteca</span></td>
       <td><span class="nowrap">2240</span></td>
       <td><span class="nowrap">0.915</span></td>
       <td><span class="nowrap">3.91</span></td>
@@ -150,7 +150,7 @@ Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, r
     </tr>
     <tr>
       <td><span class="nowrap">Guadalajara</span></td>
-      <td><span class="nowrap">Estadio Akron</span></td>
+      <td><span class="nowrap">Akron</span></td>
       <td><span class="nowrap">1598</span></td>
       <td><span class="nowrap">0.977</span></td>
       <td><span class="nowrap">4.18</span></td>
@@ -158,7 +158,7 @@ Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, r
     </tr>
     <tr>
       <td><span class="nowrap">Monterrey</span></td>
-      <td><span class="nowrap">Estadio BBVA</span></td>
+      <td><span class="nowrap">BBVA</span></td>
       <td><span class="nowrap">500</span></td>
       <td><span class="nowrap">1.089</span></td>
       <td><span class="nowrap">4.66</span></td>
@@ -166,7 +166,7 @@ Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, r
     </tr>
     <tr>
       <td><span class="nowrap">Dallas</span></td>
-      <td><span class="nowrap">AT&amp;T Stadium</span></td>
+      <td><span class="nowrap">AT&amp;T</span></td>
       <td><span class="nowrap">184</span></td>
       <td><span class="nowrap">1.132</span></td>
       <td><span class="nowrap">4.84</span></td>
