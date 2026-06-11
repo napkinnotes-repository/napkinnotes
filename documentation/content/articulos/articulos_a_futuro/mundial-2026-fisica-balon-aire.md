@@ -27,7 +27,7 @@ Esa variabilidad convierte el torneo en un inesperado laboratorio de Física. ¿
 
 ## Modelo mínimo: el balón contra el aire
 
-Cada vez que el balón, tras ser pateado, vuela sobre el campo experimenta, además del efecto de la fuerza de gravedad, el efecto desacelerador de la resistencia del aire. Para no convertir esto en una simulación profesional, nos concentraremos en caracterizar esta resistencia, también conocida como fuerza de arrastre. La fuerza de arrastre sobre un balón que se mueve en el aire puede escribirse como:
+Cada vez que el balón, tras ser pateado, vuela sobre el campo experimenta, además del efecto de la fuerza de gravedad, el efecto desacelerador de la resistencia del aire. Esta resistencia, también conocida como fuerza de arrastre, puede describirse como:
 
 $$
 D=\frac{1}{2}\rho C_d A v^2 .
@@ -35,7 +35,7 @@ $$
 
 Aquí $\rho$ es la densidad del aire, $C_d$ el coeficiente de arrastre, $A$ el área frontal del balón y $v$ la velocidad del disparo <a class="nn-cite" href="#ref-3">[3]</a>, y no lo digo solo yo, también lo dice la NASA <a class="nn-cite" href="#ref-4">[4]</a><a class="nn-cite" href="#ref-5">[5]</a>. 
 
-Tomando valores razonables para un balón reglamentaria de acuerdo a la *International Football Association Board* <a class="nn-cite" href="#ref-2">[2]</a>:
+Tomando valores razonables para un balón reglamentario de acuerdo a la *International Football Association Board* <a class="nn-cite" href="#ref-2">[2]</a>:
 
 $$
 m\simeq 0.43\,\mathrm{kg}, \qquad R\simeq 0.11\,\mathrm{m}, \qquad A=\pi R^2,
