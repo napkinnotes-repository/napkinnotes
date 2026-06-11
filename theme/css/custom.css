@@ -4945,26 +4945,27 @@ a.nn-squad-hero__metric {
   height: 18px;
 }
 /* =========================
-   ARTICLE TABLES MOBILE FIX
+   ARTICLE TABLES MOBILE COMPACT
 ========================= */
-
-.nn-article-content table {
-  width: 100%;
-}
 
 @media (max-width: 760px) {
   .nn-article-content table {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
+    width: 100% !important;
+    table-layout: auto;
+    font-size: 0.72rem;
   }
 
   .nn-article-content table th,
   .nn-article-content table td {
-    white-space: nowrap;
+    padding: 6px 5px !important;
+    font-size: 0.72rem !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+    word-break: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .nn-article-content table th {
+    font-weight: 700;
   }
 }
