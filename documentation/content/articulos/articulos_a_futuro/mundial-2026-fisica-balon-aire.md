@@ -77,7 +77,7 @@ Un balón que se mueve por un medio menos denso encuentra una menor resistencia,
 La diferencia entre Ciudad de México y Vancouver ronda el **24%**. En el fútbol esa no es una corrección decorativa, puede afectar el alcance del balón, el tiempo de caída y la sensación de golpeo.
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/02_arrastre_disparo_corregido.png" alt="Arrastre aerodinámico estimado para un disparo de 30 m/s">
+  <img src="{static}/images/02_arrastre_disparo_corregido_arregladaDFH.png" alt="Arrastre aerodinámico estimado para un disparo de 30 m/s">
   <figcaption>
     Figura 2. Fuerza de arrastre estimada para un disparo fuerte. El Azteca aparece como el escenario donde el balón debería sentir el menor frenado.
   </figcaption>
@@ -105,7 +105,7 @@ Así que el estadio donde el balón vuela más fácil no tiene por qué ser dond
 Podemos ordenar las sedes con ayuda de un índice comparativo de "rareza física" definido a lo *Napkin Notes*: sin un rigor excesivo, pero que nos permita tener una estimación de cuán diferente (o raro) será el vuelo del balón respecto a la media de los estadios en una sede concreta. Lo denotaremos por $R$ y combinará seis ingredientes: altitud, temperatura, humedad, viento, tipo de estadio y superficie del terreno. 
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/04_indice_rareza_corregido.png" alt="Índice de rareza física del balón">
+  <img src="{static}/images/04_indice_rareza_corregido_arregladoDFH.png" alt="Índice de rareza física del balón">
   <figcaption>
     Figura 4. Ranking de rareza física. México domina la parte atmosférica; varias sedes estadounidenses y canadienses aparecen por la combinación de superficie, techo o condiciones locales.
   </figcaption>
