@@ -4990,3 +4990,18 @@ a.nn-squad-hero__metric {
     font-size: 0.68em;
   }
 }
+.nn-article-content .nn-compact-table th,
+.nn-article-content .nn-compact-table td {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.nn-article-content .nowrap {
+  white-space: nowrap !important;
+}
+
+.nn-article-content .table-two-lines {
+  display: inline-block;
+  white-space: normal !important;
+  line-height: 1.15;
+}
