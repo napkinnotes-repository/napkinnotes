@@ -135,8 +135,8 @@ Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, r
       <th>Estadio</th>
       <th>Altitud<br><small>[m]</small></th>
       <th>&rho;<br><small>[kg/m<sup>3</sup>]</small></th>
-      <th>Drag<br><small>30 m/s</small><br><small>[N]</small></th>
-      <th>Índice<br><small>R</small></th>
+      <th>Drag<br><small>(a 108 km/h)</small><br><small>[N]</small></th>
+      <th>Índice R </th>
     </tr>
   </thead>
   <tbody>
