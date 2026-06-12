@@ -4,7 +4,7 @@ author: "Duvier Suárez Fontanella"
 date: 2026-03-01
 layout: articles
 status: hidden
-slug: corcho-corchito 
+slug: que-tan-rapido-sale-el-corcho-de-una-botella-de-champan 
 category: "Dinámica de Fluidos"
 tags: ["física", "termodinámica", "champán", "supersónico"]
 summary: "Cada descorche de champán es una pequeña demostración de física: gases comprimidos, termodinámica y un corcho convertido en proyectil. Un simple pop esconde presión interna, expansión rápida y un chorro de CO₂ que puede cruzar la barrera del sonido."
