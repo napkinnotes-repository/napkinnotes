@@ -20,12 +20,31 @@
         {% endif %}
     </header>
 
-    <div class="nn-comment__body">
-        <p>{{ comment.text }}</p>
-    </div>
+<div class="nn-comment__body">
+    <p>{{ comment.text }}</p>
+</div>
 
-    <button
-        class="nn-comment__reply-button"
+{% if comment.replies %}
+<div class="nn-comment__replies">
+    {% for reply in comment.replies %}
+    <article class="nn-comment-reply">
+        <header class="nn-comment-reply__header">
+            <strong class="nn-comment-reply__author">{{ reply.author }}</strong>
+            {% if reply.date %}
+            <span class="nn-comment-reply__date">{{ reply.date }}</span>
+            {% endif %}
+        </header>
+
+        <div class="nn-comment-reply__body">
+            <p>{{ reply.text }}</p>
+        </div>
+    </article>
+    {% endfor %}
+</div>
+{% endif %}
+
+<button
+    class="nn-comment__reply-button"
         type="button"
         data-reply-author="{{ comment.author|e }}"
         data-reply-id="comment-{{ loop.index }}">
