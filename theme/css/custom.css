@@ -5115,3 +5115,56 @@ a.nn-squad-hero__metric {
     margin-left: 0;
   }
 }
+/* =========================
+   COMMENT REPLIES DISPLAY
+========================= */
+
+.nn-comment__replies {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1rem;
+  margin-left: 1.1rem;
+  padding-left: 1rem;
+  border-left: 3px solid rgba(196, 154, 102, 0.45);
+}
+
+.nn-comment-reply {
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(196, 154, 102, 0.35);
+  border-radius: 14px;
+  background: #fffaf4;
+}
+
+.nn-comment-reply__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.nn-comment-reply__author {
+  color: var(--richcarmine);
+  font-weight: 700;
+}
+
+.nn-comment-reply__date {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.nn-comment-reply__body p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .nn-comment__replies {
+    margin-left: 0.35rem;
+    padding-left: 0.75rem;
+  }
+
+  .nn-comment-reply {
+    padding: 0.85rem;
+  }
+}
