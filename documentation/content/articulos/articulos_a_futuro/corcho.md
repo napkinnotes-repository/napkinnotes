@@ -3,7 +3,7 @@ title: "¿Qué tan rápido sale el corcho de una botella de champán?"
 author: "Duvier Suárez Fontanella"
 date: 2026-03-01
 layout: articles
-status: draft
+status: hidden
 slug: corcho-corchito 
 category: "Dinámica de Fluidos"
 tags: ["física", "termodinámica", "champán", "supersónico"]
