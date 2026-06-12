@@ -522,16 +522,24 @@ La próxima vez que brindes, recuerda: no estás simplemente abriendo una botell
 
     <div class="nn-comments__published">
         <div class="nn-comments__list">
-            <article class="nn-comment">
-                <header class="nn-comment__header">
-                    <strong class="nn-comment__author">Helena</strong>
-                    <span class="nn-comment__date">5 Junio 2026</span>
-                </header>
+            <article class="nn-comment" id="comment-1">
+    <header class="nn-comment__header">
+        <strong class="nn-comment__author">Helena</strong>
+        <span class="nn-comment__date">5 Junio 2026</span>
+    </header>
 
-                <div class="nn-comment__body">
-                    <p>Si la temperatura aumenta la presión y puede hacer que el descorche sea más violento, ¿cuánto cambia realmente la velocidad del corcho entre una botella fría de nevera y una botella a temperatura ambiente?</p>
-                </div>
-            </article>
+    <div class="nn-comment__body">
+        <p>Si la temperatura aumenta la presión y puede hacer que el descorche sea más violento, ¿cuánto cambia realmente la velocidad del corcho entre una botella fría de nevera y una botella a temperatura ambiente?</p>
+    </div>
+
+    <button
+        class="nn-comment__reply-button"
+        type="button"
+        data-reply-author="Helena"
+        data-reply-id="comment-1">
+        Responder
+    </button>
+</article>
         </div>
     </div>
 
@@ -544,7 +552,10 @@ La próxima vez que brindes, recuerda: no estás simplemente abriendo una botell
             Todos los comentarios serán revisados antes de su publicación a fin de mantener un espacio respetuoso, libre de spam y acorde a las normas editoriales.
         </span>
     </p>
-
+        <div id="nn-reply-notice" class="nn-reply-notice" hidden>
+    Respondiendo a <strong id="nn-reply-author"></strong>.
+    <button id="nn-reply-cancel" type="button">Cancelar respuesta</button>
+</div>
         <div class="nn-comments__box">
             <form
                 class="nn-comment-form"
@@ -556,7 +567,11 @@ La próxima vez que brindes, recuerda: no estás simplemente abriendo una botell
                 <input type="hidden" name="articulo" value="¿Qué tan rápido sale el corcho de una botella de&nbsp;champán?">
                 <input type="hidden" name="article_key" value="que-tan-rapido-sale-el-corcho-de-una-botella-de-champan">
                 <input type="hidden" name="url_articulo" value="https://napkinnotes.es/drafts/que-tan-rapido-sale-el-corcho-de-una-botella-de-champan.html">
+                <input id="nn-comment-type" type="hidden" name="tipo_comentario" value="comentario">
+                <input id="nn-comment-reply-to-author" type="hidden" name="respuesta_a_autor" value="">
+                <input id="nn-comment-reply-to-id" type="hidden" name="respuesta_a_id" value="">
 
+                
                 <div class="nn-comment-form__row">
                     <label for="comment-name">Nombre</label>
                     <input id="comment-name" type="text" name="nombre" required>
@@ -833,7 +848,53 @@ La próxima vez que brindes, recuerda: no estás simplemente abriendo una botell
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("nn-comment-form");
     const status = document.getElementById("nn-comment-form-status");
+
     if (!form || !status) return;
+
+    const subjectInput = document.getElementById("nn-comment-subject");
+    const typeInput = document.getElementById("nn-comment-type");
+    const replyToAuthorInput = document.getElementById("nn-comment-reply-to-author");
+    const replyToIdInput = document.getElementById("nn-comment-reply-to-id");
+
+    const replyNotice = document.getElementById("nn-reply-notice");
+    const replyAuthorLabel = document.getElementById("nn-reply-author");
+    const replyCancel = document.getElementById("nn-reply-cancel");
+    const commentTextarea = document.getElementById("comment-text");
+
+    function clearReplyMode() {
+        if (subjectInput) subjectInput.value = "Nuevo comentario en Napkin Notes";
+        if (typeInput) typeInput.value = "comentario";
+        if (replyToAuthorInput) replyToAuthorInput.value = "";
+        if (replyToIdInput) replyToIdInput.value = "";
+
+        if (replyNotice) replyNotice.hidden = true;
+        if (replyAuthorLabel) replyAuthorLabel.textContent = "";
+    }
+
+    document.querySelectorAll(".nn-comment__reply-button").forEach(function (button) {
+        button.addEventListener("click", function () {
+            const author = button.getAttribute("data-reply-author") || "";
+            const replyId = button.getAttribute("data-reply-id") || "";
+
+            if (subjectInput) subjectInput.value = "Nueva respuesta a un comentario en Napkin Notes";
+            if (typeInput) typeInput.value = "respuesta";
+            if (replyToAuthorInput) replyToAuthorInput.value = author;
+            if (replyToIdInput) replyToIdInput.value = replyId;
+
+            if (replyAuthorLabel) replyAuthorLabel.textContent = author;
+            if (replyNotice) replyNotice.hidden = false;
+
+            form.scrollIntoView({ behavior: "smooth", block: "start" });
+
+            if (commentTextarea) {
+                commentTextarea.focus();
+            }
+        });
+    });
+
+    if (replyCancel) {
+        replyCancel.addEventListener("click", clearReplyMode);
+    }
 
     async function handleSubmit(event) {
         event.preventDefault();
@@ -851,8 +912,14 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
             if (response.ok) {
-                status.textContent = "Comentario enviado. Lo revisaremos antes de publicarlo.";
+                if (typeInput && typeInput.value === "respuesta") {
+                    status.textContent = "Respuesta enviada. La revisaremos antes de publicarla.";
+                } else {
+                    status.textContent = "Comentario enviado. Lo revisaremos antes de publicarlo.";
+                }
+
                 form.reset();
+                clearReplyMode();
             } else {
                 const result = await response.json();
                 if (result && result.errors) {
