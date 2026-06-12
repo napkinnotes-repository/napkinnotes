@@ -5044,10 +5044,10 @@ a.nn-squad-hero__metric {
 }
 .nn-comments__note {
   display: block;
-  margin-top: 6px;
+  margin-top: 4px;
   color: var(--muted);
-  font-size: 0.95rem;
-  line-height: 1.55;
+  font-size: 0.82rem;
+  line-height: 1.4;
 }
 /* =========================
    COMMENT REPLIES
