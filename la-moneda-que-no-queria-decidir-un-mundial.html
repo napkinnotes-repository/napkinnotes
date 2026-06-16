@@ -266,18 +266,18 @@ $$</div>
 Esta fórmula no mide cuánto varía el número total de victorias, sino cuánto puede variar el porcentaje observado por efecto del azar. Sustituyendo los&nbsp;valores:
 </p>
 <div class="math">$$
-EE(\hat{p}) = \approx 0.084
+EE(\hat{p})  \approx 0.084
 $$</div>
 <p>
 Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Si construimos una aproximación de intervalo de confianza al 95%, usamos&nbsp;que <span class="math">\(\hat{p} \pm 1.96 \cdot EE(\hat{p})\)</span>. Esto aplicado a nuestro caso se resume en que ese porcentaje es realmente este si tenemos en cuenta el&nbsp;ruido:
 </p>
 <div class="math">$$
-32.1% &lt; p &lt; 65.1%
+32.1\% &lt; p &lt; 65.1\%
 $$</div>
 <p>
-Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre el 32.1% y el 65.1% de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir, el 48.6%. Lo que significa es que, con solo 35 casos, ese 48.6% todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero con el limite inferior&nbsp;de <span class="math">\(32.1%\)</span> hasta una ventaja considerable con el límite superior&nbsp;de <span class="math">\(65.1%\)</span>. Por eso no podemos convertir un 17-18 en una ley general sobre la presión psicológica. Podemos verlo de otra&nbsp;forma:</p>
+Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre el 32.1% y el 65.1% de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir, el 48.6%. Lo que significa es que, con solo 35 casos, ese 48.6% todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero con el limite inferior&nbsp;de <span class="math">\(32.1\%\)</span> hasta una ventaja considerable con el límite superior&nbsp;de <span class="math">\(65.1\%\)</span>. Por eso no podemos convertir un 17-18 en una ley general sobre la presión psicológica. Podemos verlo de otra&nbsp;forma:</p>
 <blockquote>
-<p><strong>Si de verdad quien tira primero tuviera una probabilidad real de ganar&nbsp;del <span class="math">\(60 %\)</span> de las veces, ¿qué probabilidad tendría una muestra de 35 tandas de detectar esa ventaja con algún test cuyos falso positivos fueran como mucho el 5&nbsp;%?</strong></p>
+<p><strong>Si de verdad quien tira primero tuviera una probabilidad real de ganar&nbsp;del <span class="math">\(60 \%\)</span> de las veces, ¿qué probabilidad tendría una muestra de 35 tandas de detectar esa ventaja con algún test cuyos falso positivos fueran como mucho el 5&nbsp;%?</strong></p>
 </blockquote>
 <p>Si de verdad quien tira primero ganara&nbsp;el <span class="math">\(60\%\)</span> de las veces, la variable que queremos observar&nbsp;sería:
 </p>
@@ -285,7 +285,7 @@ Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que 
 X \sim \mathrm{Binomial}(35, 0.6)
 $$</div>
 <p>
-donde <span class="math">\(X\)</span> es el número de tandas ganadas por quien tira primero en una muestra&nbsp;de <span class="math">\(35\)</span>. Para detectar esa ventaja con un test cuyos falsos positivos sean como mucho&nbsp;el <span class="math">\(5%\)</span>, comparamos contra la hipótesis de que no hay ventaja que&nbsp;llamamos <span class="math">\(H_0\)</span> y que es tal&nbsp;que <span class="math">\(H_0: p = 0.5\)</span>.&nbsp;Con <span class="math">\(35\)</span> tandas, un test binomial bilateral&nbsp;al <span class="math">\(5%\)</span> rechaza esa hipótesis si el resultado es suficientemente extremo. En este caso,&nbsp;aproximadamente <span class="math">\(X ≥ 24\)</span> o <span class="math">\(X ≤ 11\)</span>
+donde <span class="math">\(X\)</span> es el número de tandas ganadas por quien tira primero en una muestra&nbsp;de <span class="math">\(35\)</span>. Para detectar esa ventaja con un test cuyos falsos positivos sean como mucho&nbsp;el <span class="math">\(5\%\)</span>, comparamos contra la hipótesis de que no hay ventaja que&nbsp;llamamos <span class="math">\(H_0\)</span> y que es tal&nbsp;que <span class="math">\(H_0: p = 0.5\)</span>.&nbsp;Con <span class="math">\(35\)</span> tandas, un test binomial bilateral&nbsp;al <span class="math">\(5\%\)</span> rechaza esa hipótesis si el resultado es suficientemente extremo. En este caso,&nbsp;aproximadamente <span class="math">\(X ≥ 24\)</span> o <span class="math">\(X ≤ 11\)</span>
 La probabilidad de que eso ocurra si la probabilidad real&nbsp;fuera <span class="math">\(p = 0.6\)</span> es:</p>
 <div class="math">$$
 P(X \geq 24 \text{ o } X \leq 11 \mid p = 0.6)
