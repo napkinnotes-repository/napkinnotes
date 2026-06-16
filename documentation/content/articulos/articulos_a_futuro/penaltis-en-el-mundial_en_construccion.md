@@ -143,11 +143,31 @@ EE(\hat{p}) = \approx 0.084
 $$
 Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Si construimos una aproximación de intervalo de confianza al 95%, usamos que $\hat{p} \pm 1.96 \cdot EE(\hat{p})$. Esto aplicado a nuestro caso se resume en que ese porcentaje es realmente este si tenemos en cuenta el ruido:
 $$
-32.1% \leq p \leq 65.1%
+32.1% < p < 65.1%
 $$
-Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre el 32.1% y el 65.1% de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir, el 48.6%. Lo que significa es que, con solo 35 casos, ese 48.6% todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero con el limite inferior de $32.1%$ hasta una ventaja considerable con el límite superior de $65.1%$. Por eso no podemos convertir un 17-18 en una ley general sobre la presión psicológica.
+Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre el 32.1% y el 65.1% de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir, el 48.6%. Lo que significa es que, con solo 35 casos, ese 48.6% todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero con el limite inferior de $32.1%$ hasta una ventaja considerable con el límite superior de $65.1%$. Por eso no podemos convertir un 17-18 en una ley general sobre la presión psicológica. Podemos verlo de otra  forma:
 
+> **Si de verdad quien tira primero tuviera una probabilidad real de ganar del $60 %$ de las veces, ¿qué probabilidad tendría una muestra de 35 tandas de detectar esa ventaja con algún test cuyos falso positivos fueran como mucho el 5 %?**
 
+Si de verdad quien tira primero ganara el $60\%$ de las veces, la variable que queremos observar sería:
+$$
+X \sim \mathrm{Binomial}(35, 0.6)
+$$
+donde $X$ es el número de tandas ganadas por quien tira primero en una muestra de $35$. Para detectar esa ventaja con un test cuyos falsos positivos sean como mucho el $5%$, comparamos contra la hipótesis de que no hay ventaja que llamamos $H_0$ y que es tal que $H_0: p = 0.5$. 
+Con $35$ tandas, un test binomial bilateral al $5%$ rechaza esa hipótesis si el resultado es suficientemente extremo. En este caso, aproximadamente $X ≥ 24$ o $X ≤ 11$
+La probabilidad de que eso ocurra si la probabilidad real fuera $p = 0.6$ es:
+
+$$
+P(X \geq 24 \text{ o } X \leq 11 \mid p = 0.6)
+$$
+
+Calculando esa probabilidad binomial:
+
+$$
+P(X \geq 24 \text{ o } X \leq 11 \mid p = 0.6) \approx 0.195 ==> \boxed{19.5\%} \text{lo detectariamos}
+$$
+
+Dicho al revés: habría aproximadamente un $80.5\%$ de probabilidad de no detectarlo, aunque la ventaja existiera.
 ---
 
 
