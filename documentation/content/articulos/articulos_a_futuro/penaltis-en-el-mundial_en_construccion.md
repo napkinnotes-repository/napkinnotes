@@ -79,7 +79,7 @@ Al mirar el dato completo hasta Catar 2022, el resultado es este:
 - el equipo que tiró segundo ganó 18 tandas.
 
 
-Una diferencia de una tanda.La moneda se queda sin épica.
+Una diferencia de una tanda. La moneda se queda sin épica.
 Que el resultado global sea 17-18 no significa que tirar primero y tirar segundo sean exactamente lo mismo. Significa algo más prudente, más incómodo y bastante menos vendible:
 
 > **Con los datos mundialistas disponibles, no se observa una ventaja clara por empezar lanzando.**
@@ -89,7 +89,7 @@ No es igual.
 La estadística no está diciendo: “tirar primero no importa”. Está diciendo: “con esta muestra, no puedo demostrar que importe mucho”.
 Y esa diferencia importa. Es la diferencia entre saber algo y tener muchas ganas de saberlo.
 Las tandas mundialistas son pocas, raras y llenas de ruido. No es lo mismo una tanda de octavos que una final. No es lo mismo tirar contra Alemania que contra Japón. No es lo mismo lanzar el primer penalti fresco que hacerlo después de 120 minutos persiguiendo extremos, despejando centros y descubriendo que tus gemelos tienen opiniones propias.
-La tanda parece un experimento limpio.No lo es.
+La tanda parece un experimento limpio. No lo es.
 En un experimento limpio uno controla las variables. Aquí las variables llevan camiseta, lloran, tienen calambres, rezan, miran al cielo, escuchan a ochenta mil personas y, en algún momento, tienen que caminar solas desde el círculo central hasta el punto de penalti. Y en esas cabezas pasan muchas cosas...ay la cabecita.
 
 ---
