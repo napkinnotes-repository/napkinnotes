@@ -143,7 +143,7 @@ EE(\hat{p})  \approx 0.084
 $$
 Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Si construimos una aproximación de intervalo de confianza al 95%, usamos que $\hat{p} \pm 1.96 \cdot EE(\hat{p})$. Esto aplicado a nuestro caso se resume en que ese porcentaje es realmente este si tenemos en cuenta el ruido:
 $$
-32.1\% < p < 65.1\%
+32.1 \% < p < 65.1 \%
 $$
 Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre el 32.1% y el 65.1% de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir, el 48.6%. Lo que significa es que, con solo 35 casos, ese 48.6% todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero con el limite inferior de $32.1\%$ hasta una ventaja considerable con el límite superior de $65.1\%$. Por eso no podemos convertir un 17-18 en una ley general sobre la presión psicológica. Podemos verlo de otra  forma:
 
