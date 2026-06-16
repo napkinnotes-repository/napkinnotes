@@ -203,10 +203,6 @@ La respuesta honesta es más incómoda:
  **Depende de quién tire...y de que lo marque.**
 
 
----
-
-
-## La estadística desinfecta
 
 Esta es quizá la parte más incómoda de la estadística.
 Uno llega buscando una respuesta clara.
