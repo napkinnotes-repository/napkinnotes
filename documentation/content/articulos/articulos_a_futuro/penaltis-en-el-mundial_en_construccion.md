@@ -138,7 +138,7 @@ Esta es quizá la parte más incómoda de la estadística. Uno llega buscando un
 
 *No sé. Pero sé que no deberías estar tan seguro.*
 
-Parece poco. Es muchísimo. Sirve para algo más humilde. Para recordarte que la moneda no sabe de fútbol. Y que el balón, cuando llega al punto de penalti, tampoco sabe quién empezó. No sabe quién llega con calambres, quién ha fallado antes, quién lleva toda la vida soñando con ese disparo ni quién está a punto de convertirse en una estatua o en una herida nacional. La moneda cae y se calla.
+Parece poco. Es muchísimo. Sirve para algo más humilde. Para recordarte que la moneda no sabe de fútbol. Y que el balón, cuando llega al punto de penalti, tampoco sabe quién empezó. No sabe quién llega con calambres, quién ha fallado antes, quién lleva toda la vida soñando con ese disparo ni quién está a punto de convertirse en una estatua o en una herida nacional. La moneda cae y se calla dejando un silencio que invadirá todas las casas de un país.
 
 ---
 
