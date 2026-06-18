@@ -1,5 +1,5 @@
 ---
-title: "Dunas y desiertos (D&D): segunda parte"
+title: "Dunas y desiertos (D&D) II"
 author: "David Barba González"
 date: 2026-07-02
 layout: articles
