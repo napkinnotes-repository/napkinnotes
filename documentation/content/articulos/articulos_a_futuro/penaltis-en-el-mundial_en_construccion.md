@@ -163,7 +163,7 @@ $$
 \hat{p} = \frac{x}{n}
 $$
 
-donde $x$ es el número de éxitos y $n$ el número total de casos. En nuestro caso: $\hat{p} = \frac{17}{35} = 0.486$. Es decir, el equipo que tiró primero ganó el $48.6\%$ de las tandas mundialistas, como decíamos. Ese dato observado es exacto, pero lo que no es exacto es la conclusión que podemos sacar de él sobre la probabilidad real de que tirar primero sea ventajoso.
+donde $x$ es el número de éxitos y $n$ el número total de casos. En nuestro caso: $\hat{p} = \frac{17}{35} = 0.486$. Es decir, el equipo que tiró primero ganó el $48.6 \% $ de las tandas mundialistas, como decíamos. Ese dato observado es exacto, pero lo que no es exacto es la conclusión que podemos sacar de él sobre la probabilidad real de que tirar primero sea ventajoso.
 
 Por eso nos interesa medir la incertidumbre de la proporción observada. Una forma básica de hacerlo es el error estándar de la proporción, que se calcula así:
 
