@@ -12,7 +12,7 @@ tags:
   - viento
   - arena
 summary: "Hoy vamos a tratar dos cuestiones que seguro no os dejan conciliar el sueño: la descripción y características de una duna, y los tipos de dunas en función de su morfología y dinámica."
-image: images/dunas_desiertos_ii.png
+image: images/dunas_desiertos_2nd.png
 ---
 
 [TOC]
