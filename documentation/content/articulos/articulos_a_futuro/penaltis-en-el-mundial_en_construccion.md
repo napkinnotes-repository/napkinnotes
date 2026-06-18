@@ -172,21 +172,6 @@ Dicho al revés: habría aproximadamente un $80.5\%$ de probabilidad de no detec
 ---
 
 
-## No es empezar. Es marcar
-
-Hay otro dato que huele más a fútbol.
-No mide exactamente lo mismo, pero entra mejor en el cuerpo.
-Algunos análisis periodísticos han señalado que fallar el primer lanzamiento de la tanda es una losa enorme <a class="nn-cite" href="#ref-3">[3]</a>. No porque “tirar primero” sea mágico, sino porque empezar fallando convierte la tanda en una cuesta. Y esto sí parece familiar.
-Una cosa es elegir tirar primero. Otra cosa es tirar primero y marcar.
-La diferencia parece pequeña. No lo es.
-Elegir tirar primero es una decisión estratégica. Marcar el primer penalti es un golpe psicológico. La primera pertenece al capitán. La segunda pertenece al jugador.
-El resultado global del orden mezcla muchas historias distintas: equipos que tiran primero y marcan, equipos que tiran primero y fallan, equipos que tiran segundo y aprovechan el error, equipos que sobreviven, equipos que se hunden, equipos que ya estaban rotos antes de empezar.
-Una tanda no es una línea recta. Es una novela breve. Diez capítulos y, a veces, un epílogo cruel.
-El primer capítulo importa.
-Pero no siempre por la razón que nos gustaría.
-
----
-
 
 ## Volvamos al centro del campo
 
