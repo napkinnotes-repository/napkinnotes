@@ -1,5 +1,5 @@
 ---
-title: ¿Una moneda al aire decide Mundiales?: Como la estaiditcia se puede usar para lo que uno quiera si la muestra es pequeña.
+title: "¿Una moneda al aire decide Mundiales?: Como la estaiditcia se puede usar para lo que uno quiera si la muestra es pequeña."
 author: David Figueruelo Hernán
 date: 2026-06-25
 layout: articles
