@@ -163,7 +163,7 @@ $$
 \hat{p} = \frac{x}{n}
 $$
 
-donde $x$ es el número de éxitos y $n$ el número total de casos. En nuestro caso: $\hat{p} = \frac{17}{35} = 0.486$. Es decir, el equipo que tiró primero ganó el $48.6 \% $ de las tandas mundialistas, como decíamos. Ese dato observado es exacto, pero lo que no es exacto es la conclusión que podemos sacar de él sobre la probabilidad real de que tirar primero sea ventajoso.
+donde $x$ es el número de éxitos y $n$ el número total de casos. En nuestro caso: $\hat{p} = \frac{17}{35} = 0.486$. Es decir, el equipo que tiró primero ganó el $48.6  \%  $ de las tandas mundialistas, como decíamos. Ese dato observado es exacto, pero lo que no es exacto es la conclusión que podemos sacar de él sobre la probabilidad real de que tirar primero sea ventajoso.
 
 Por eso nos interesa medir la incertidumbre de la proporción observada. Una forma básica de hacerlo es el error estándar de la proporción, que se calcula así:
 
@@ -177,29 +177,29 @@ $$
 EE(\hat{p})  \approx 0.084
 $$
 
-Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Si construimos una aproximación de intervalo de confianza al $95\%$, usamos que $\hat{p} \pm 1.96 \cdot EE(\hat{p})$. Si metemos el ruido dentro de la cuenta, el $48.6\%$ deja de parecer tan sólido y empieza a ensancharse:
+Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Si construimos una aproximación de intervalo de confianza al $95 \% $, usamos que $\hat{p} \pm 1.96 \cdot EE(\hat{p})$. Si metemos el ruido dentro de la cuenta, el $48.6 \% $ deja de parecer tan sólido y empieza a ensancharse:
 
 $$
-32\% \lesssim p \lesssim 65\%
+32 \%  \lesssim p \lesssim 65 \% 
 $$
 
-Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre el $32\%$ y el $65\%$ de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir, el $48.6\%$. Lo que significa es que, con solo 35 casos, ese $48.6\%$ todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero, cerca del $32\%$, hasta una ventaja considerable, cerca del $65\%$. Por eso no podemos convertir un 17-18 en una ley general sobre la presión psicológica.
+Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre el $32 \% $ y el $65 \% $ de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir, el $48.6 \% $. Lo que significa es que, con solo 35 casos, ese $48.6 \% $ todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero, cerca del $32 \% $, hasta una ventaja considerable, cerca del $65 \% $. Por eso no podemos convertir un 17-18 en una ley general sobre la presión psicológica.
 
 Podemos verlo de otra forma:
 
-> **Si de verdad quien tira primero tuviera una probabilidad real de ganar el $60\%$ de las veces, ¿qué probabilidad tendría una muestra de 35 tandas de detectar esa ventaja con un test cuyos falsos positivos fueran como mucho el $5\%$?**
+> **Si de verdad quien tira primero tuviera una probabilidad real de ganar el $60 \% $ de las veces, ¿qué probabilidad tendría una muestra de 35 tandas de detectar esa ventaja con un test cuyos falsos positivos fueran como mucho el $5 \% $?**
 
-Si de verdad quien tira primero ganara el $60\%$ de las veces, la variable que queremos observar sería:
+Si de verdad quien tira primero ganara el $60 \% $ de las veces, la variable que queremos observar sería:
 
 $$
 X \sim \mathrm{Binomial}(35, 0.6)
 $$
 
-donde $X$ es el número de tandas ganadas por quien tira primero en una muestra de $35$. Para detectar esa ventaja con un test cuyos falsos positivos sean como mucho el $5\%$, comparamos contra la hipótesis de que no hay ventaja, que llamamos $H_0$ y que es tal que $H_0: p = 0.5$.
+donde $X$ es el número de tandas ganadas por quien tira primero en una muestra de $35$. Para detectar esa ventaja con un test cuyos falsos positivos sean como mucho el $5 \% $, comparamos contra la hipótesis de que no hay ventaja, que llamamos $H_0$ y que es tal que $H_0: p = 0.5$.
 
 Como aquí la pregunta es si tirar primero da ventaja, nos interesa mirar solo hacia arriba: resultados en los que quien tira primero gana muchas más tandas de las esperadas si no hubiera ventaja. Eso es un test unilateral.
 
-Con $35$ tandas, un test binomial unilateral al $5\%$ rechaza esa hipótesis si el resultado es suficientemente alto. En este caso, aproximadamente si:
+Con $35$ tandas, un test binomial unilateral al $5 \% $ rechaza esa hipótesis si el resultado es suficientemente alto. En este caso, aproximadamente si:
 
 $$
 X \geq 23
@@ -217,9 +217,9 @@ $$
 P(X \geq 23 \mid p = 0.6) \approx 0.306
 $$
 
-Es decir, lo detectaríamos aproximadamente el $31\%$ de las veces.
+Es decir, lo detectaríamos aproximadamente el $31 \% $ de las veces.
 
-Dicho al revés: habría aproximadamente un $69\%$ de probabilidad de no detectarlo, aunque la ventaja existiera.
+Dicho al revés: habría aproximadamente un $69 \% $ de probabilidad de no detectarlo, aunque la ventaja existiera.
 
 Ay, la estadística. A veces no te dice quién tiene razón. Solo te mira y te dice: con tan pocos datos, no vengas tan gallito.
 
