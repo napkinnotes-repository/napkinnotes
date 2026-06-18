@@ -24,18 +24,18 @@ image: images/penaltis-mundial-moneda.png
 
 Si bien en el artículo de hace una semana el enemigo era el aire, el aire de Vancouver, el aire de Ciudad de México, el aire caliente, el aire frío, el aire denso, el aire fino, en definitiva ese aire invisible que rodea al balón y decide si una falta baja a tiempo, si un centro se queda corto o si un disparo con efecto termina obedeciendo a la física en vez de al delantero, ahora ya hemos pasado eso y estamos ante el mayor provocador de ataques cardíacos del planeta Tierra: una tanda de penaltis en la final del Mundial.
 
-Solo ha pasado tres veces en la historia de los Mundiales. Pasó en el Mundial de 1994, en Estados Unidos, cuando Baggio falló el penalti decisivo mientras *el silencio invadía todas las casas de Italia*. Pasó en Alemania 2006, cuando Italia se llevó el Mundial marcando Grosso el quinto penalti. Y pasó en Catar 2022, con victoria argentina, después de que Argentina y Francia decidieran que una final normal era demasiado poco para ellos.
+Solo ha pasado tres veces en la historia de los Mundiales. En el Mundial de Estados Unidos 1994 cuando Baggio falló el penalti decisivo mientras *el silencio invadía todas las casas de Italia*. Pasó en Alemania 2006, cuando Italia se llevó el Mundial marcando Grosso el quinto penalti. Y pasó en Catar 2022, con victoria argentina, después de que Argentina y Francia decidieran que una final normal era demasiado poco para ellos.
 
 Soñemos.
 
-Final del Mundial 2026. New York New Jersey Stadium, el MetLife de toda la vida disfrazado para la FIFA. Final España-Portugal. Minuto 124. Marcador 3-3. El árbitro pita el final de la prórroga.
-Hay jugadores sentados sobre el césped. Otros caminan sin ir a ninguna parte. Alguno bebe agua como si el agua pudiera explicar algo y darles las fuerzas que ya escasean. Los porteros se alejan hacia la portería donde va a decidirse todo. El árbitro llama a los dos capitanes.
+Final del Mundial 2026. New York New Jersey Stadium, el MetLife disfrazado para la FIFA. Final España-Portugal. Minuto 124. Marcador 3-3. El árbitro pita el final de la prórroga.
+Hay jugadores sentados sobre el césped. Otros caminan sin ir a ninguna parte. Alguno bebe agua como si el agua pudiera explicar algo. Los porteros se alejan hacia la portería donde va a decidirse todo. El árbitro llama a los dos capitanes.
 Y saca una moneda.
-No hay pizarra. No hay presión alta. No hay presión tras pérdida que valga. No hay GPS. No hay 4-3-3 ni espacios al tercer hombre. No hay mapas de calor. No hay un analista con tres pantallas diciendo que el lateral izquierdo rival suele cruzar el cuarto penalti a la derecha si antes ha mirado al portero en la carrera tres veces los jueves, pero si es domingo, como hoy, lo tira por el centro a asegurar.
+No hay pizarra. No hay presión alta ni tras pérdida que valga. No hay 4-3-3 ni espacios al tercer hombre. No hay mapas de calor. No hay un analista con tres pantallas diciendo que el lateral izquierdo rival suele cruzar el cuarto penalti a la derecha si antes ha mirado al portero en la carrera tres veces los jueves, pero si es domingo, como hoy, lo tira por el centro a asegurar.
 
 Hay una moneda.
 
-Tú eres el capitán de España. Ganas el sorteo. El árbitro te mira.
+Tú eres el capitán. Ganas el sorteo. El árbitro te mira.
 
 > **¿Queréis tirar primero o segundo?**
 
@@ -46,7 +46,7 @@ Tú eres el capitán de España. Ganas el sorteo. El árbitro te mira.
 
 La intuición dice que hay que tirar primero. Siempre.
 
-Tirar primero parece mejor porque te permite golpear antes. Si marcas, el otro equipo empieza la tanda persiguiéndote. Tú pones el número en el marcador. Ellos tienen que contestar. Parece una diferencia pequeña. Pero las tandas de penaltis viven precisamente de las diferencias pequeñas. Un pie que llega tarde. Un portero que se vence medio segundo antes. Un balón cinco centímetros más a la derecha. Un palo. Una rodilla. Una moneda.
+Tirar primero parece mejor porque te permite golpear antes. Si marcas, el otro equipo empieza la tanda persiguiéndote. Parece una diferencia pequeña. Pero las tandas de penaltis viven precisamente de las diferencias pequeñas. Un pie que llega tarde. Un portero que se vence medio segundo antes. Un balón cinco centímetros más a la derecha. Un palo. Una rodilla. Una moneda.
 Además, hay una idea psicológica muy razonable escondida ahí: no es lo mismo tirar para adelantarte que tirar para no caerte. El penalti sigue estando a once metros, la portería sigue midiendo lo mismo y el balón no se vuelve más pesado según el marcador. Reglamentariamente, al menos. Pero la cabeza no lee reglamentos.
 
 *Si fallo, empezamos por debajo.*
@@ -66,23 +66,12 @@ Una tanda mundialista no es una encuesta gigante. No es una simulación con mill
 
 Treinta y cinco.
 
-No tres mil quinientas. No trescientas cincuenta. Treinta y cinco.
-
 Esto obliga a hablar con cuidado. Con bastante cuidado. Porque en una muestra así una final como Argentina-Francia 2022 no es solo una final absurda, preciosa, agotadora y probablemente ilegal para cualquier sistema cardiovascular. Es también una fila más en una tabla pequeña. Y en una tabla pequeña, una fila pesa. Al mirar el dato completo hasta Catar 2022, el resultado es este:
 
 - el equipo que tiró primero ganó 17 tandas;  
 - el equipo que tiró segundo ganó 18 tandas.
 
-Una diferencia de una tanda. La moneda se queda sin épica. Que el resultado global sea 17-18 no significa que tirar primero y tirar segundo sean exactamente lo mismo. Significa algo más prudente, más incómodo y bastante menos vendible:
-
-> **Con los datos mundialistas disponibles, no se observa una ventaja clara por empezar lanzando.**
-
-No es igual.
-
-La estadística no está diciendo: “tirar primero no importa”. Está diciendo: “con esta muestra, no puedo demostrar que importe mucho”. 
-Y esa diferencia importa. Es la diferencia entre saber algo y tener muchas ganas de saberlo. Las tandas mundialistas son pocas, raras y llenas de ruido. Además tenemos que tener en cuenta que estamos hablando de los mejores jugadores del mundo, los más acostumbrados a situaciones de alta presión y los más técnicos. No es lo mismo una tanda de octavos que una final. No es lo mismo tirar contra Alemania que contra Japón. No es lo mismo lanzar el primer penalti fresco que hacerlo después de 120 minutos persiguiendo extremos, despejando centros y descubriendo que tus gemelos tienen opiniones propias.
-La tanda parece un experimento limpio. No lo es.
-En un experimento limpio uno controla las variables. Aquí las variables llevan camiseta, lloran, tienen calambres, rezan, miran al cielo, escuchan a ochenta mil personas y, en algún momento, tienen que caminar solas desde el círculo central hasta el punto de penalti. Y en esas cabezas pasan muchas cosas... ay la cabecita.
+Una diferencia de una tanda. La moneda se queda sin épica.
 
 ---
 
@@ -91,9 +80,9 @@ En un experimento limpio uno controla las variables. Aquí las variables llevan 
 Llegados aquí, el artículo fácil habría sido evidente. Algo así como *La ciencia lo demuestra*. Pero la ciencia, cuando se porta bien, no está para darnos titulares. Está para quitarnos algunos.
 
 El dato mundialista no permite decir que empezar sea claramente mejor. Tampoco permite decir que sea claramente peor, ni siquiera permite decir que da igual quién empiece. Solo permite decir que, en la historia de las tandas de los Mundiales, la moneda no parece haber inclinado la balanza de forma evidente. Esto no mata la intuición. La baja del pedestal. La obliga a sentarse en la mesa con los datos, que es donde las intuiciones suelen ponerse nerviosas.
-Quizá empezar tiene ventajas psicológicas. Quizá esas ventajas existen, pero son pequeñas. Quizá se compensan con otras cosas: el primer fallo, la calidad de los lanzadores, el portero, el cansancio, la memoria del partido, el simple hecho de que el fútbol nunca firma contratos de comportamiento. Quizá estábamos mirando la moneda equivocada.
+Quizá empezar tiene ventajas psicológicas. Quizá esas ventajas existen, pero son pequeñas. Quizá se compensan con otras cosas: el primer fallo, la calidad de los lanzadores, el portero, el cansancio, la memoria del partido, el simple hecho de que el fútbol nunca firma contratos de comportamiento. Aquí las variables llevan camiseta, lloran, tienen calambres, rezan, miran al cielo, escuchan a ochenta mil personas y, en algún momento, tienen que caminar solas desde el círculo central hasta el punto de penalti. Y en esas cabezas pasan muchas cosas... ay la cabecita. 
 
-Y finalmente hay una cosa que conviene destacar: si alguna vez os presentan una estadística hecha con pocos datos, desconfiad. Desconfiad mucho. Desconfiad siempre. Porque una muestra pequeña puede parecer una verdad revelada y, en realidad, no ser más que ruido con buena presentación. Treinta y cinco tandas de penaltis en Mundiales suenan a mucho porque abarcan décadas, finales, tragedias nacionales y momentos grabados en la memoria colectiva, pero estadísticamente siguen siendo muy pocas. Basta con que dos o tres tandas caigan de un lado u otro para que el porcentaje cambie de aspecto y parezca contar una historia distinta. 
+Y finalmente hay una cosa que conviene destacar: si alguna vez os presentan una estadística hecha con pocos datos, desconfiad. Desconfiad mucho. Desconfiad siempre. Porque puede parecer una verdad revelada y, en realidad, no ser más que ruido con buena presentación. Treinta y cinco tandas de penaltis en Mundiales suenan a mucho porque abarcan décadas, finales, tragedias nacionales y momentos grabados en la memoria colectiva, pero estadísticamente siguen siendo muy pocas. Basta con que dos o tres tandas caigan de un lado u otro para que el porcentaje cambie de aspecto y parezca contar una historia distinta. 
 
 Si observamos una variable binaria, por ejemplo “gana quien tira primero” o “no gana quien tira primero”, cada tanda funciona como un experimento de sí/no. La proporción observada se calcula así:
 $$
@@ -111,7 +100,7 @@ Eso significa que el porcentaje observado puede moverse bastante simplemente por
 $$
 32 \% ≲ p ≲ 65 \%
 $$
-Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre el $32$% y el $65$%  de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir, el $48.6$%. Lo que significa es que, con solo 35 casos, ese $48.6$% todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero, cerca del $32$%, hasta una ventaja considerable, cerca del $65$%. Por eso no podemos convertir un 17-18 en una ley general sobre la presión psicológica.
+Ese rango es enorme. Y lo que significa es que, con solo 35 casos, ese $48.6$% todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero, cerca del $32$%, hasta una ventaja considerable, cerca del $65$%. Por eso no podemos convertir un 17-18 en una ley general sobre la presión psicológica.
 
 Podemos verlo de otra forma:
 
@@ -122,7 +111,7 @@ $$
 X \sim \mathrm{Binomial}(35, 0.6)
 $$
 donde $X$ es el número de tandas ganadas por quien tira primero en una muestra de $35$. Para detectar esa ventaja con un test cuyos falsos positivos sean como mucho el $5$%, comparamos contra la hipótesis de que no hay ventaja, que llamamos $H_0$ y que es tal que $H_0: p = 0.5$.
-Como aquí la pregunta es si tirar primero da ventaja, nos interesa mirar solo hacia arriba: resultados en los que quien tira primero gana muchas más tandas de las esperadas si no hubiera ventaja. Eso es un test unilateral. Con $35$ tandas, un test binomial unilateral al $5$% rechaza esa hipótesis si el resultado es suficientemente alto. En este caso, aproximadamente si:
+Como aquí la pregunta es si tirar primero da ventaja,  un test binomial unilateral al $5$% rechaza esa hipótesis si el resultado es suficientemente alto. En este caso, aproximadamente si:
 $$
 X \geq 23
 $$
@@ -130,7 +119,7 @@ La probabilidad de que eso ocurra si la probabilidad real fuera $p = 0.6$ es:
 $$
 P(X \geq 23 \mid p = 0.6) \approx 0.306
 $$
-Es decir, lo detectaríamos aproximadamente el $31$% de las veces. Dicho al revés: **habría aproximadamente un $69$% de probabilidad de no detectarlo, aunque la ventaja existiera.**
+Es decir, lo detectaríamos aproximadamente el $31$% de las veces. Dicho al revés: **habría aproximadamente un $69$% de probabilidades de no detectarlo, aunque la ventaja sí que existiera.**
 
 Ay, la estadística. A veces no te dice quién tiene razón. Solo te mira y te dice: con tan pocos datos, no vengas tan gallito.
 
