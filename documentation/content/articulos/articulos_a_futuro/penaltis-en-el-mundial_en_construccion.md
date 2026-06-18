@@ -1,5 +1,5 @@
 ---
-title: "¿Una moneda al aire decide Mundiales?: Como la estaiditcia se puede usar para lo que uno quiera si la muestra es pequeña."
+title: "¿Una moneda al aire decide Mundiales?: cómo la estadística se puede usar para lo que uno quiera si la muestra es pequeña"
 author: David Figueruelo Hernán
 date: 2026-06-25
 layout: articles
@@ -90,7 +90,7 @@ En un experimento limpio uno controla las variables. Aquí las variables llevan 
 
 Llegados aquí, el artículo fácil habría sido evidente. Algo así como *La ciencia lo demuestra*. Pero la ciencia, cuando se porta bien, no está para darnos titulares. Está para quitarnos algunos.
 
-El dato mundialista no permite decir que empezar sea claramente mejor. Tampoco permite decir que sea claramente peor, ni siquiera permite decir que da igual quien empiece. Solo permite decir que, en la historia de las tandas de los Mundiales, la moneda no parece haber inclinado la balanza de forma evidente. Esto no mata la intuición. La baja del pedestal. La obliga a sentarse en la mesa con los datos, que es donde las intuiciones suelen ponerse nerviosas.
+El dato mundialista no permite decir que empezar sea claramente mejor. Tampoco permite decir que sea claramente peor, ni siquiera permite decir que da igual quién empiece. Solo permite decir que, en la historia de las tandas de los Mundiales, la moneda no parece haber inclinado la balanza de forma evidente. Esto no mata la intuición. La baja del pedestal. La obliga a sentarse en la mesa con los datos, que es donde las intuiciones suelen ponerse nerviosas.
 Quizá empezar tiene ventajas psicológicas. Quizá esas ventajas existen, pero son pequeñas. Quizá se compensan con otras cosas: el primer fallo, la calidad de los lanzadores, el portero, el cansancio, la memoria del partido, el simple hecho de que el fútbol nunca firma contratos de comportamiento. Quizá estábamos mirando la moneda equivocada.
 
 Y finalmente hay una cosa que conviene destacar: si alguna vez os presentan una estadística hecha con pocos datos, desconfiad. Desconfiad mucho. Desconfiad siempre. Porque una muestra pequeña puede parecer una verdad revelada y, en realidad, no ser más que ruido con buena presentación. Treinta y cinco tandas de penaltis en Mundiales suenan a mucho porque abarcan décadas, finales, tragedias nacionales y momentos grabados en la memoria colectiva, pero estadísticamente siguen siendo muy pocas. Basta con que dos o tres tandas caigan de un lado u otro para que el porcentaje cambie de aspecto y parezca contar una historia distinta. 
