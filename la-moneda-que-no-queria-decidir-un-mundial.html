@@ -251,7 +251,7 @@
 <div class="math">$$
 \hat{p} = \frac{x}{n}
 $$</div>
-<p>donde <span class="math">\(x\)</span> es el número de éxitos&nbsp;y <span class="math">\(n\)</span> el número total de casos. En nuestro&nbsp;caso: <span class="math">\(\hat{p} = \frac{17}{35} = 0.486\)</span>. Es decir, el equipo que tiró primero ganó el $48.6 \% $ de las tandas mundialistas, como decíamos. Ese dato observado es exacto, pero lo que no es exacto es la conclusión que podemos sacar de él sobre la probabilidad real de que tirar primero sea&nbsp;ventajoso.</p>
+<p>donde <span class="math">\(x\)</span> es el número de éxitos&nbsp;y <span class="math">\(n\)</span> el número total de casos. En nuestro&nbsp;caso: <span class="math">\(\hat{p} = \frac{17}{35} = 0.486\)</span>. Es decir, el equipo que tiró primero ganó el $48.6  \%  $ de las tandas mundialistas, como decíamos. Ese dato observado es exacto, pero lo que no es exacto es la conclusión que podemos sacar de él sobre la probabilidad real de que tirar primero sea&nbsp;ventajoso.</p>
 <p>Por eso nos interesa medir la incertidumbre de la proporción observada. Una forma básica de hacerlo es el error estándar de la proporción, que se calcula&nbsp;así:</p>
 <div class="math">$$
 EE(\hat{p}) = \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
@@ -260,22 +260,22 @@ $$</div>
 <div class="math">$$
 EE(\hat{p})  \approx 0.084
 $$</div>
-<p>Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Si construimos una aproximación de intervalo de confianza&nbsp;al <span class="math">\(95\%\)</span>, usamos&nbsp;que <span class="math">\(\hat{p} \pm 1.96 \cdot EE(\hat{p})\)</span>. Si metemos el ruido dentro de la cuenta,&nbsp;el <span class="math">\(48.6\%\)</span> deja de parecer tan sólido y empieza a&nbsp;ensancharse:</p>
+<p>Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Si construimos una aproximación de intervalo de confianza&nbsp;al <span class="math">\(95 \% $, usamos que $\hat{p} \pm 1.96 \cdot EE(\hat{p})\)</span>. Si metemos el ruido dentro de la cuenta, el $48.6 \% $ deja de parecer tan sólido y empieza a&nbsp;ensancharse:</p>
 <div class="math">$$
-32\% \lesssim p \lesssim 65\%
+32 \%  \lesssim p \lesssim 65 \% 
 $$</div>
-<p>Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre&nbsp;el <span class="math">\(32\%\)</span> y&nbsp;el <span class="math">\(65\%\)</span> de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir,&nbsp;el <span class="math">\(48.6\%\)</span>. Lo que significa es que, con solo 35 casos,&nbsp;ese <span class="math">\(48.6\%\)</span> todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero, cerca&nbsp;del <span class="math">\(32\%\)</span>, hasta una ventaja considerable, cerca&nbsp;del <span class="math">\(65\%\)</span>. Por eso no podemos convertir un 17-18 en una ley general sobre la presión&nbsp;psicológica.</p>
+<p>Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre el $32 \% $ y el $65 \% $ de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir, el $48.6 \% $. Lo que significa es que, con solo 35 casos, ese $48.6 \% $ todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero, cerca del $32 \% $, hasta una ventaja considerable, cerca del $65 \% $. Por eso no podemos convertir un 17-18 en una ley general sobre la presión&nbsp;psicológica.</p>
 <p>Podemos verlo de otra&nbsp;forma:</p>
 <blockquote>
-<p><strong>Si de verdad quien tira primero tuviera una probabilidad real de ganar&nbsp;el <span class="math">\(60\%\)</span> de las veces, ¿qué probabilidad tendría una muestra de 35 tandas de detectar esa ventaja con un test cuyos falsos positivos fueran como mucho&nbsp;el <span class="math">\(5\%\)</span>?</strong></p>
+<p><strong>Si de verdad quien tira primero tuviera una probabilidad real de ganar el $60 \% $ de las veces, ¿qué probabilidad tendría una muestra de 35 tandas de detectar esa ventaja con un test cuyos falsos positivos fueran como mucho el $5 \%&nbsp;$?</strong></p>
 </blockquote>
-<p>Si de verdad quien tira primero ganara&nbsp;el <span class="math">\(60\%\)</span> de las veces, la variable que queremos observar&nbsp;sería:</p>
+<p>Si de verdad quien tira primero ganara el $60 \% $ de las veces, la variable que queremos observar&nbsp;sería:</p>
 <div class="math">$$
 X \sim \mathrm{Binomial}(35, 0.6)
 $$</div>
-<p>donde <span class="math">\(X\)</span> es el número de tandas ganadas por quien tira primero en una muestra&nbsp;de <span class="math">\(35\)</span>. Para detectar esa ventaja con un test cuyos falsos positivos sean como mucho&nbsp;el <span class="math">\(5\%\)</span>, comparamos contra la hipótesis de que no hay ventaja, que&nbsp;llamamos <span class="math">\(H_0\)</span> y que es tal&nbsp;que <span class="math">\(H_0: p = 0.5\)</span>.</p>
+<p>donde <span class="math">\(X\)</span> es el número de tandas ganadas por quien tira primero en una muestra&nbsp;de <span class="math">\(35\)</span>. Para detectar esa ventaja con un test cuyos falsos positivos sean como mucho&nbsp;el <span class="math">\(5 \% $, comparamos contra la hipótesis de que no hay ventaja, que llamamos $H_0\)</span> y que es tal&nbsp;que <span class="math">\(H_0: p = 0.5\)</span>.</p>
 <p>Como aquí la pregunta es si tirar primero da ventaja, nos interesa mirar solo hacia arriba: resultados en los que quien tira primero gana muchas más tandas de las esperadas si no hubiera ventaja. Eso es un test&nbsp;unilateral.</p>
-<p>Con <span class="math">\(35\)</span> tandas, un test binomial unilateral&nbsp;al <span class="math">\(5\%\)</span> rechaza esa hipótesis si el resultado es suficientemente alto. En este caso, aproximadamente&nbsp;si:</p>
+<p>Con <span class="math">\(35\)</span> tandas, un test binomial unilateral al $5 \% $ rechaza esa hipótesis si el resultado es suficientemente alto. En este caso, aproximadamente&nbsp;si:</p>
 <div class="math">$$
 X \geq 23
 $$</div>
@@ -287,8 +287,8 @@ $$</div>
 <div class="math">$$
 P(X \geq 23 \mid p = 0.6) \approx 0.306
 $$</div>
-<p>Es decir, lo detectaríamos aproximadamente&nbsp;el <span class="math">\(31\%\)</span> de las&nbsp;veces.</p>
-<p>Dicho al revés: habría aproximadamente&nbsp;un <span class="math">\(69\%\)</span> de probabilidad de no detectarlo, aunque la ventaja&nbsp;existiera.</p>
+<p>Es decir, lo detectaríamos aproximadamente el $31 \% $ de las&nbsp;veces.</p>
+<p>Dicho al revés: habría aproximadamente un $69 \% $ de probabilidad de no detectarlo, aunque la ventaja&nbsp;existiera.</p>
 <p>Ay, la estadística. A veces no te dice quién tiene razón. Solo te mira y te dice: con tan pocos datos, no vengas tan&nbsp;gallito.</p>
 <hr />
 <h2 id="volvamos-al-centro-del-campo">Volvamos al centro del campo<a class="headerlink" href="#volvamos-al-centro-del-campo" title="Permanent link"> </a></h2>
