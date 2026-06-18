@@ -32,7 +32,7 @@ Hay jugadores sentados sobre el césped. Otros caminan sin ir a ninguna parte. A
 
 Y saca una moneda.
 
-No hay pizarra. No hay presión alta. No hay salida lavolpiana. No hay GPS. No hay mapas de calor. No hay un analista con tres pantallas diciendo que el lateral izquierdo rival suele cruzar el cuarto penalti a la derecha si antes ha mirado al portero en la carrera  tres veces los jueves pero si es domingo, como hoy, lo tira por el centro a asegurar.
+No hay pizarra. No hay presión alta. No hay presión tras perdida que valga. No hay GPS. No hay 4-3-3 ni espacios al tercer hombre. No hay mapas de calor. No hay un analista con tres pantallas diciendo que el lateral izquierdo rival suele cruzar el cuarto penalti a la derecha si antes ha mirado al portero en la carrera  tres veces los jueves, pero si es domingo, como hoy, lo tira por el centro a asegurar.
 
 Hay una moneda.
 
@@ -55,7 +55,7 @@ Si el primer equipo marca, el segundo no lanza exactamente el mismo penalti. Lan
 
 *Si fallo, empezamos mal.*
 
-Ay, la cabeza. Piensa que si tiras segundo tus compañeros van a tener que recorrer unos 47 metros viendo, casi sintiendo, que van por debajo. Que el otro ya ha marcado. Que el estadio ya ha hecho ese ruido raro que hacen los estadios cuando huelen sangre y estadística barata.
+Ay, la cabeza. Piensa que si tiras segundo tus compañeros van a tener que recorrer unos cuarenta metros viendo, casi sintiendo, que van por debajo. Que el otro ya ha marcado. Que el estadio ya ha hecho ese ruido raro que hacen los estadios cuando huelen sangre y estadística barata.
 El marcador ya ha hablado.
 Ay, la cabecita.
 
