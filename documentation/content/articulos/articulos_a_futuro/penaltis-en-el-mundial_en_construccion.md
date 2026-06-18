@@ -1,5 +1,5 @@
 ---
-title: ¿Una moneda al aire decide Mundiales?
+title: ¿Una moneda al aire decide Mundiales?: Como la estaiditcia se puede usar para lo que uno quiera si la muestra es pequeña.
 author: David Figueruelo Hernán
 date: 2026-06-25
 layout: articles
@@ -47,9 +47,9 @@ Tú eres el capitán de España. Ganas el sorteo. El árbitro te mira.
 La intuición dice que hay que tirar primero. Siempre.
 
 Tirar primero parece mejor porque te permite golpear antes. Si marcas, el otro equipo empieza la tanda persiguiéndote. Tú pones el número en el marcador. Ellos tienen que contestar. Parece una diferencia pequeña. Pero las tandas de penaltis viven precisamente de las diferencias pequeñas. Un pie que llega tarde. Un portero que se vence medio segundo antes. Un balón cinco centímetros más a la derecha. Un palo. Una rodilla. Una moneda.
-Además, hay una idea psicológica muy razonable escondida ahí: no es lo mismo tirar para adelantarte que tirar para no caerte. El penalti sigue estando a once metros, la portería sigue midiendo lo mismo y el balón no se vuelve más pesado según el marcador. Reglamentariamente, al menos. Pero la cabeza no lee reglamentos. Si el primer equipo marca, el segundo no lanza exactamente el mismo penalti. Lanza uno parecido, con el mismo césped debajo y la misma portería delante, pero con otra frase escrita por dentro.
+Además, hay una idea psicológica muy razonable escondida ahí: no es lo mismo tirar para adelantarte que tirar para no caerte. El penalti sigue estando a once metros, la portería sigue midiendo lo mismo y el balón no se vuelve más pesado según el marcador. Reglamentariamente, al menos. Pero la cabeza no lee reglamentos.
 
-*Si fallo, empezamos mal.*
+*Si fallo, empezamos por debajo.*
 
 Ay, la cabeza. Piensa que si tiras segundo tus compañeros van a tener que recorrer unos cuarenta metros viendo, casi sintiendo, que van por debajo. Que el otro ya ha marcado. Que el estadio ya ha hecho ese ruido raro que hacen los estadios cuando huelen sangre y estadística barata. El marcador ya ha hablado.
 
