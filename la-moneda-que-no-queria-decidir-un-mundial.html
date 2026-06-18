@@ -216,9 +216,10 @@ La tanda parece un experimento limpio. No lo es.
 En un experimento limpio uno controla las variables. Aquí las variables llevan camiseta, lloran, tienen calambres, rezan, miran al cielo, escuchan a ochenta mil personas y, en algún momento, tienen que caminar solas desde el círculo central hasta el punto de penalti. Y en esas cabezas pasan muchas cosas&#8230; ay la&nbsp;cabecita.</p>
 <hr />
 <h2 id="el-dato-que-estropea-el-titular-y-una-explicacion-de-estadistica">El dato que estropea el titular. Y una explicación de estadística.<a class="headerlink" href="#el-dato-que-estropea-el-titular-y-una-explicacion-de-estadistica" title="Permanent link"> </a></h2>
-<p>Llegados aquí, el artículo fácil habría sido evidente. Algo así como <em>La ciencia lo demuestra</em>. Pero la ciencia, cuando se porta bien, no está para darnos titulares. Está para quitarnos algunos. El dato mundialista no permite decir que empezar sea claramente mejor. Tampoco permite decir que sea claramente peor. Solo permite decir que, en la historia de las tandas de los Mundiales, la moneda no parece haber inclinado la balanza de forma evidente. Esto no mata la intuición. La baja del pedestal. La obliga a sentarse en la mesa con los datos, que es donde las intuiciones suelen ponerse nerviosas.
+<p>Llegados aquí, el artículo fácil habría sido evidente. Algo así como <em>La ciencia lo demuestra</em>. Pero la ciencia, cuando se porta bien, no está para darnos titulares. Está para quitarnos&nbsp;algunos.</p>
+<p>El dato mundialista no permite decir que empezar sea claramente mejor. Tampoco permite decir que sea claramente peor, ni siquiera permite decir que da igual quien empiece. Solo permite decir que, en la historia de las tandas de los Mundiales, la moneda no parece haber inclinado la balanza de forma evidente. Esto no mata la intuición. La baja del pedestal. La obliga a sentarse en la mesa con los datos, que es donde las intuiciones suelen ponerse nerviosas.
 Quizá empezar tiene ventajas psicológicas. Quizá esas ventajas existen, pero son pequeñas. Quizá se compensan con otras cosas: el primer fallo, la calidad de los lanzadores, el portero, el cansancio, la memoria del partido, el simple hecho de que el fútbol nunca firma contratos de comportamiento. Quizá estábamos mirando la moneda&nbsp;equivocada.</p>
-<p>Y finalmente hay una cosa que conviene destacar: si alguna vez os presentan una estadística hecha con pocos datos, desconfiad. Desconfiad mucho. Desconfiad siempre. Porque una muestra pequeña puede parecer una verdad revelada y, en realidad, no ser más que ruido con buena presentación. Treinta y cinco tandas de penaltis en Mundiales suenan a mucho porque abarcan décadas, finales, tragedias nacionales y momentos grabados en la memoria colectiva, pero estadísticamente siguen siendo muy pocas. Basta con que dos o tres tandas caigan de un lado u otro para que el porcentaje cambie de aspecto y parezca contar una historia distinta. Por eso conviene resistirse a la tentación de convertir un 17-18, un 12-13 o cualquier equilibrio parecido en una ley universal sobre la presión, el miedo o la ventaja psicológica. Los datos sirven para iluminar una pregunta, no para disfrazar de certeza lo que apenas alcanza para una sospecha. Y en este caso, la conclusión más honesta no es que tirar primero sea mejor o peor, sino que con muestras tan pequeñas lo prudente es decir: no lo sabemos con la seguridad que a veces aparentan los porcentajes. La razón estadística es sencilla: cuanto más pequeña es la muestra, más grande puede ser el ruido. En este caso estamos midiendo una proporción: qué porcentaje de tandas gana el equipo que tira primero. No estamos midiendo simplemente el número bruto de victorias, sino la fiabilidad de ese porcentaje&nbsp;observado.</p>
+<p>Y finalmente hay una cosa que conviene destacar: si alguna vez os presentan una estadística hecha con pocos datos, desconfiad. Desconfiad mucho. Desconfiad siempre. Porque una muestra pequeña puede parecer una verdad revelada y, en realidad, no ser más que ruido con buena presentación. Treinta y cinco tandas de penaltis en Mundiales suenan a mucho porque abarcan décadas, finales, tragedias nacionales y momentos grabados en la memoria colectiva, pero estadísticamente siguen siendo muy pocas. Basta con que dos o tres tandas caigan de un lado u otro para que el porcentaje cambie de aspecto y parezca contar una historia&nbsp;distinta. </p>
 <p>Si observamos una variable binaria, por ejemplo “gana quien tira primero” o “no gana quien tira primero”, cada tanda funciona como un experimento de sí/no. La proporción observada se calcula&nbsp;así:
 </p>
 <div class="math">$$
@@ -237,7 +238,7 @@ Esta fórmula no mide cuánto varía el número total de victorias, sino cuánto
 EE(\hat{p})  \approx 0.084
 $$</div>
 <p>
-Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Si construimos una aproximación de intervalo de confianza&nbsp;al <span class="math">\(95\)</span>% , usamos&nbsp;que <span class="math">\(\hat{p} \pm 1.96 \cdot EE(\hat{p})\)</span>. Si metemos el ruido dentro de la cuenta,&nbsp;el <span class="math">\(48.6\)</span>% deja de parecer tan sólido y empieza a&nbsp;ensancharse:
+Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Para hacernos una idea del margen de duda, no nos quedamos solo con el 48.6%. Le sumamos y le restamos una especie de colchón estadístico, lo bastante grande como para cubrir, aproximadamente, el 95% de los casos razonables.&nbsp;Usamos <span class="math">\(\hat{p} \pm 1.96 \cdot EE(\hat{p})\)</span>, es decir, si metemos el ruido dentro de la cuenta,&nbsp;el <span class="math">\(48.6\)</span>% deja de parecer tan sólido y empieza a&nbsp;ensancharse:
 </p>
 <div class="math">$$
 32 \% ≲ p ≲ 65 \%
@@ -264,16 +265,10 @@ $$</div>
 La probabilidad de que eso ocurra si la probabilidad real&nbsp;fuera <span class="math">\(p = 0.6\)</span> es:
 </p>
 <div class="math">$$
-P(X \geq 23 \mid p = 0.6)
-$$</div>
-<p>
-Calculando esa probabilidad&nbsp;binomial:
-</p>
-<div class="math">$$
 P(X \geq 23 \mid p = 0.6) \approx 0.306
 $$</div>
 <p>
-Es decir, lo detectaríamos aproximadamente&nbsp;el <span class="math">\(31\)</span>% de las veces. Dicho al revés: <em>habría aproximadamente&nbsp;un <span class="math">\(69\)</span>% de probabilidad de no detectarlo, aunque la ventaja&nbsp;existiera.</em></p>
+Es decir, lo detectaríamos aproximadamente&nbsp;el <span class="math">\(31\)</span>% de las veces. Dicho al revés: <strong>habría aproximadamente&nbsp;un <span class="math">\(69\)</span>% de probabilidad de no detectarlo, aunque la ventaja&nbsp;existiera.</strong></p>
 <p>Ay, la estadística. A veces no te dice quién tiene razón. Solo te mira y te dice: con tan pocos datos, no vengas tan&nbsp;gallito.</p>
 <hr />
 <h2 id="volvamos-al-centro-del-campo">Volvamos al centro del campo<a class="headerlink" href="#volvamos-al-centro-del-campo" title="Permanent link"> </a></h2>
@@ -285,7 +280,7 @@ La respuesta honesta es más&nbsp;incómoda:</p>
 <p><strong>Depende de quién tire&#8230; y de que lo&nbsp;marque.</strong></p>
 <p>Esta es quizá la parte más incómoda de la estadística. Uno llega buscando una respuesta clara. ¿Tirar primero o segundo? Y la estadística&nbsp;responde:</p>
 <p><em>No sé. Pero sé que no deberías estar tan&nbsp;seguro.</em></p>
-<p>Parece poco. Es muchísimo. Sirve para algo más humilde. Para recordarte que la moneda no sabe de fútbol. Y que el balón, cuando llega al punto de penalti, tampoco sabe quién&nbsp;empezó.</p>
+<p>Parece poco. Es muchísimo. Sirve para algo más humilde. Para recordarte que la moneda no sabe de fútbol. Y que el balón, cuando llega al punto de penalti, tampoco sabe quién empezó. No sabe quién llega con calambres, quién ha fallado antes, quién lleva toda la vida soñando con ese disparo ni quién está a punto de convertirse en una estatua o en una herida nacional. La moneda cae y se&nbsp;calla.</p>
 <hr />
 <h2 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link"> </a></h2>
 <ol class="nn-references">
