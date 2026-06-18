@@ -79,7 +79,7 @@ Una diferencia de una tanda. La moneda se queda sin épica.
 
 Llegados aquí, el artículo fácil habría sido evidente. Algo así como *La ciencia lo demuestra*. Pero la ciencia, cuando se porta bien, no está para darnos titulares. Está para quitarnos algunos.
 
-El dato mundialista no permite decir que empezar sea claramente mejor, ni peor, ni siquiera irrelevante: solo dice que, hasta ahora, la moneda no parece haber inclinado la balanza de forma evidente. Eso no mata la intuición; la baja del pedestal y la sienta frente a los datos, donde las intuiciones suelen ponerse nerviosas. Quizá empezar dé ventaja psicológica, quizá sea pequeña, quizá se compense con el primer fallo, la calidad de los lanzadores, el portero, el cansancio o esa rareza de un fútbol que nunca firma contratos de comportamiento. Porque aquí las variables llevan camiseta, lloran, rezan, tienen calambres, escuchan a ochenta mil personas y caminan solas desde el círculo central hasta el punto de penalti, con demasiadas cosas pasando en la cabecita. Por eso conviene recordar algo: cuando una estadística viene con pocos datos, desconfiad. Treinta y cinco tandas suenan a mucho porque cargan décadas, finales y tragedias nacionales, pero siguen siendo pocas; basta con que dos o tres caigan del otro lado para que el porcentaje cambie de cara y parezca contar otra historia.
+El dato mundialista no permite decir que empezar sea claramente mejor, ni peor, ni siquiera irrelevante: solo dice que, hasta ahora, la moneda no parece haber inclinado la balanza de forma evidente. Eso no mata la intuición, la baja del pedestal y la sienta frente a los datos, donde las intuiciones suelen ponerse nerviosas. Quizá empezar dé ventaja psicológica, quizá sea pequeña, quizá se compense con el primer fallo, la calidad de los lanzadores, el portero, el cansancio o esa rareza de un fútbol que nunca firma contratos de comportamiento. Porque aquí las variables llevan camiseta, lloran, rezan, tienen calambres, escuchan a ochenta mil personas y caminan solas desde el círculo central hasta el punto de penalti, con demasiadas cosas pasando en la cabecita. Por eso conviene recordar algo: cuando una estadística viene con pocos datos, desconfiad. Treinta y cinco tandas suenan a mucho porque cargan décadas, finales y tragedias nacionales, pero siguen siendo pocas; basta con que dos o tres caigan del otro lado para que el porcentaje cambie de cara y parezca contar otra historia.
 
 Si observamos una variable binaria, por ejemplo “gana quien tira primero” o “no gana quien tira primero”, cada tanda funciona como un experimento de sí/no. La proporción observada se calcula así:
 $$
@@ -112,7 +112,7 @@ Como aquí la pregunta es si tirar primero da ventaja,  un test binomial unilate
 $$
 X \geq 23
 $$
-La probabilidad de que eso ocurra si la probabilidad real fuera $p = 0.6$ es:
+En palabras más sencillas, la probabilidad de que eso ocurra si tirar primero te diera ventaja para ganar el $60$% de las veces es:
 $$
 P(X \geq 23 \mid p = 0.6) \approx 0.306
 $$
