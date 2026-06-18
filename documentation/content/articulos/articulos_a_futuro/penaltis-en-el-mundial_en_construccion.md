@@ -86,16 +86,6 @@ En un experimento limpio uno controla las variables. Aquí las variables llevan 
 
 ---
 
-
-## ABAB, una simetría sospechosa
-
-El formato tradicional de una tanda de penaltis es de una belleza sospechosa: $A-B-A-B-A-B-A-B-A-B$. Uno tira. Luego el otro. Luego uno. Luego el otro. Parece justo. Quizá ese es el problema. Muchas reglas injustas sobreviven porque tienen forma de regla justa. Ambos equipos tiran el mismo número de penaltis. Ambos usan la misma portería. Ambos se enfrentan al mismo portero rival. Ambos tienen once metros. Todo parece equilibrado. Todo parece limpio. Todo parece diseñado para que nadie pueda quejarse antes de empezar.
-
-Pero el orden no reparte necesariamente la presión de la misma manera. Si A tira primero y marca, B tira por detrás. Si A vuelve a marcar, B vuelve a tirar por detrás. Si A no falla nunca, B vive toda la tanda contestando preguntas que no ha elegido. Por eso alguna vez se ha pensado en un sistema parecido al tie-break del tenis: $A-B-B-A-A-B-B-A$. El sistema ABBA intenta repartir mejor el privilegio de abrir cada pequeño bloque psicológico. No elimina la presión, porque la presión en una tanda no se elimina. Solo se cambia de sitio. Pero al menos evita que el mismo equipo empiece siempre la conversación. El tenis entendió hace tiempo que el orden importa. El fútbol lo sospecha, mira la moneda y sigue adelante.
-
----
-
-
 ## El dato que estropea el titular. Y una explicación de estadística.
 
 Llegados aquí, el artículo fácil habría sido evidente. Algo así como *La ciencia lo demuestra*. Pero la ciencia, cuando se porta bien, no está para darnos titulares. Está para quitarnos algunos. El dato mundialista no permite decir que empezar sea claramente mejor. Tampoco permite decir que sea claramente peor. Solo permite decir que, en la historia de las tandas de los Mundiales, la moneda no parece haber inclinado la balanza de forma evidente. Esto no mata la intuición. La baja del pedestal. La obliga a sentarse en la mesa con los datos, que es donde las intuiciones suelen ponerse nerviosas.
