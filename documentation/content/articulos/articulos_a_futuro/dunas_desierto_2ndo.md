@@ -12,7 +12,7 @@ tags:
   - viento
   - arena
 summary: "Hoy vamos a tratar dos cuestiones que seguro no os dejan conciliar el sueño: la descripción y características de una duna, y los tipos de dunas en función de su morfología y dinámica."
-image: images/cabecera.png
+image: images/dunas_desiertos_ii.png
 ---
 
 [TOC]
@@ -35,9 +35,12 @@ Esta estructura la podemos observar en la Figura 1, en la que se ven indicadas t
 
 Es importante entender que esta estructura es muy común, pero no universal, y aparece sobre todo en las denominadas dunas libres que ya hemos comentado más arriba. En cambio, una duna creada debido a un obstáculo muy localizado, como un arbusto o un árbol, llamadas *nebkha* por su nombre en árabe, forma un montículo con simetría circular alrededor del obstáculo.
 
-![Estructura de una duna típica.](Figures_dunes_2/duna.png)
-
-*Figura 1. Estructura de una duna típica.*
+<figure class="nn-article-figure">
+  <img src="{static}/images/duna.png" alt="Estructura de una duna típica">
+  <figcaption>
+    Figura 1. Estructura de una duna típica.
+  </figcaption>
+</figure>
 
 # Clasificación de dunas
 
@@ -47,13 +50,21 @@ La clasificación que voy a comentar brevemente en este artículo se propuso muy
 
 En términos de morfología, la principal clasificación es entre dunas libres y ancladas. Las libres ya las he comentado, y las ancladas son aquellas que están fijas en un lugar concreto porque han sido creadas gracias a un obstáculo inmóvil. Estas últimas se suelen clasificar en función del obstáculo: plantas individuales, línea de vegetación en el fondo de una playa, o una antigua masa de agua ya seca.
 
-![Dunas barján en Marte, cámara HiRISE.](Figures_dunes_2/dunas-barjan-marte.png)
+<figure class="nn-article-figure">
+  <img src="{static}/images/dunas-barjan-marte.png" alt="Dunas barján en Marte">
+  <figcaption>
+    Figura 2. Dunas barján en Marte, cámara HiRISE.
+  </figcaption>
+</figure>
 
-![Dunas estrella en Argelia, Maxar Technologies.](Figures_dunes_2/star-dunes.png)
+<figure class="nn-article-figure">
+  <img src="{static}/images/star-dunes.png" alt="Dunas estrella en Argelia">
+  <figcaption>
+    Figura 3. Dunas estrella en Argelia, Maxar Technologies.
+  </figcaption>
+</figure>
 
-*Figura 2. Fotografía superior: dunas barján en Marte, cámara HiRISE. Fotografía inferior: dunas estrella en Argelia, Maxar Technologies.*
-
-Centrándonos ahora en las dunas libres, encontramos distintos tipos, muy interesantes si es que te interesan los tipos de dunas. Que no es algo baladí. Comentaré los detalles de los dos tipos más vistosos, que podéis ver en dos ambientes muy distintos en la Figura 2:
+Centrándonos ahora en las dunas libres, encontramos distintos tipos, muy interesantes si es que te interesan los tipos de dunas. Que no es algo baladí. Comentaré los detalles de los dos tipos más vistosos, que podéis ver en las Figuras 2 y 3:
 
 - **Dunas barján:** tienen una estructura longitudinal idéntica a la estándar de la Figura 1, mientras que su planta adquiere forma de creciente lunar, con dos pronunciados cuernos apuntando en la dirección del viento. Se forman cuando el viento tiene muy poca variabilidad direccional y cuando el suelo debajo de la arena es duro y no erosionable. En ausencia de vegetación son dunas migrantes, es decir, avanzan en la dirección del viento.
 
@@ -61,13 +72,16 @@ Centrándonos ahora en las dunas libres, encontramos distintos tipos, muy intere
 
 A pesar de que solo he mencionado explícitamente la morfología al introducirlas, las dunas barján y las dunas tipo estrella son categorías también de la segunda clasificación, basada en la dinámica, puesto que esta morfología está íntimamente relacionada con la dirección del viento y las características físicas de la base, es decir, lo que está debajo de la arena que forma la duna. Otros tipos de dunas que también comparten las dos categorías son las dunas lineales, las más simples, que constituyen la cabecera de este artículo.
 
-![Dunas libres transversales del Parque Nacional de Doñana, en España.](Figures_dunes_2/donana.png)
-
-*Figura 3. Dunas libres transversales del Parque Nacional de Doñana, en España.*
+<figure class="nn-article-figure">
+  <img src="{static}/images/donana.png" alt="Dunas libres transversales del Parque Nacional de Doñana">
+  <figcaption>
+    Figura 4. Dunas libres transversales del Parque Nacional de Doñana, en España.
+  </figcaption>
+</figure>
 
 En España, el Parque Nacional de Doñana es un ejemplo muy interesante por la presencia de dos tipos de dunas independientes. Por un lado, cerca de la costa, aparecen dunas fijadas a la vegetación en la parte trasera de la playa. Estas dunas son inmóviles, al contrario que el famosísimo sistema de dunas móviles de Doñana, que surgen debido al viento muy continuado del suroeste.
 
-Estas dunas móviles son libres y de tipo barján, con la particularidad de que los cuernos de las dunas se han unido unos con otros, formando frentes de dunas móviles paralelas a la costa. Estas dunas no quedan fijadas a la vegetación, a pesar de que la vegetación existe. Una de las razones para ello es su altura, que hace que la cresta de las dunas esté por encima de los árboles, por lo que acaban avanzando varios metros por año. Las podéis ver en la Figura 3.
+Estas dunas móviles son libres y de tipo barján, con la particularidad de que los cuernos de las dunas se han unido unos con otros, formando frentes de dunas móviles paralelas a la costa. Estas dunas no quedan fijadas a la vegetación, a pesar de que la vegetación existe. Una de las razones para ello es su altura, que hace que la cresta de las dunas esté por encima de los árboles, por lo que acaban avanzando varios metros por año. Las podéis ver en la Figura 4.
 
 Vamos a parar aquí. Nos falta la tercera categoría de clasificación, basada en el tamaño de las dunas. Y la dejamos para más adelante precisamente porque la creación de esta categoría se debe a la existencia de dunas espaciales de distinto tamaño a las de la Tierra.
 
@@ -75,7 +89,7 @@ Vamos a parar aquí. Nos falta la tercera categoría de clasificación, basada e
 
 [1] S. Courrech du Pont et al. (2024). *Complementary classification of aeolian dunes based on morphology, dynamics, and fluid mechanics*. **Earth-Science Reviews**, 255, 104772.
 
-La imagen de cabecera y la Figura 2 han sido adaptadas de [1], publicadas bajo licencia CC BY-NC 4.0. Se han realizado modificaciones. La licencia puede consultarse en:  
+La imagen de cabecera y las Figuras 2 y 3 han sido adaptadas de [1], publicadas bajo licencia CC BY-NC 4.0. Se han realizado modificaciones. La licencia puede consultarse en:  
 https://creativecommons.org/licenses/by-nc/4.0/
 
-La imagen de la Figura 3 es una imagen satelital obtenida de Google Maps. © Google.
+La imagen de la Figura 4 es una imagen satelital obtenida de Google Maps. © Google.
