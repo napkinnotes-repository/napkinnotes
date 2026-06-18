@@ -1,7 +1,7 @@
 ---
 title: "Dunas y desiertos (D&D) II"
 author: "David Barba González"
-date: 2026-07-02
+date: 2026-07-09
 layout: articles
 slug: dunas-y-desiertos-ii
 status: hidden
