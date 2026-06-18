@@ -164,7 +164,7 @@ $$
 Calculando esa probabilidad binomial:
 
 $$
-P(X \geq 24 \text{ o } X \leq 11 \mid p = 0.6) \approx 0.195 ==> \boxed{19.5\%} \text{lo detectariamos}
+P(X \geq 24 \text{ o } X \leq 11 \mid p = 0.6) \approx 0.195 ==> \boxed{19.5\%\;} \text{lo detectariamos}
 $$
 
 Dicho al revés: habría aproximadamente un $80.5\%$ de probabilidad de no detectarlo, aunque la ventaja existiera.
