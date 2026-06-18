@@ -145,7 +145,7 @@ Eso significa que el porcentaje observado puede moverse bastante simplemente por
 $$
 32 \% \lesssim p \lesssim 65 \%
 $$
-Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre el 32.1% y el 65.1% de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir, el 48.6%. Lo que significa es que, con solo 35 casos, ese 48.6% todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero con el limite inferior de $32.1\%$ hasta una ventaja considerable con el límite superior de $65.1\%$. Por eso no podemos convertir un 17-18 en una ley general sobre la presión psicológica. Podemos verlo de otra  forma:
+Ese rango es enorme. Y conviene explicarlo bien: no significa que el equipo que tiró primero haya ganado entre el 32% y el 65% de las tandas observadas. El dato observado es exacto: ganó 17 de 35, es decir, el 48.6%. Lo que significa es que, con solo 35 casos, ese 48.6% todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero con el limite inferior de $32\%$ hasta una ventaja considerable con el límite superior de $65\%$. Por eso no podemos convertir un 17-18 en una ley general sobre la presión psicológica. Podemos verlo de otra  forma:
 
 > **Si de verdad quien tira primero tuviera una probabilidad real de ganar del $60 \%$ de las veces, ¿qué probabilidad tendría una muestra de 35 tandas de detectar esa ventaja con algún test cuyos falso positivos fueran como mucho el 5 %?**
 
