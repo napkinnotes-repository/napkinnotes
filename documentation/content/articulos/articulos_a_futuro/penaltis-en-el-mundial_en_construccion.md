@@ -156,9 +156,4 @@ Parece poco. Es muchísimo. Sirve para algo más humilde. Para recordarte que la
     Goal.com. (2022). <em>Tandas de penales en Mundial: ¿conviene patear o atajar primero?</em>.
     <a href="https://www.goal.com/es/noticias/tandas-penales-mundial-conviene-patear-atajar-primero/bltbfeae4267974f427" target="_blank" rel="noopener noreferrer">https://www.goal.com/es/noticias/tandas-penales-mundial-conviene-patear-atajar-primero/bltbfeae4267974f427</a>
   </li>
-
-  <li id="ref-4">
-    Planet World Cup. (s. f.). <em>Penalty shoot-outs in the World Cup</em>.
-    <a href="https://www.planetworldcup.com/STATS/stat_pens.html" target="_blank" rel="noopener noreferrer">https://www.planetworldcup.com/STATS/stat_pens.html</a>
-  </li>
 </ol>
