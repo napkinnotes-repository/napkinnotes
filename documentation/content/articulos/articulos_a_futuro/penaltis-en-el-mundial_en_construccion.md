@@ -88,10 +88,12 @@ En un experimento limpio uno controla las variables. Aquí las variables llevan 
 
 ## El dato que estropea el titular. Y una explicación de estadística.
 
-Llegados aquí, el artículo fácil habría sido evidente. Algo así como *La ciencia lo demuestra*. Pero la ciencia, cuando se porta bien, no está para darnos titulares. Está para quitarnos algunos. El dato mundialista no permite decir que empezar sea claramente mejor. Tampoco permite decir que sea claramente peor. Solo permite decir que, en la historia de las tandas de los Mundiales, la moneda no parece haber inclinado la balanza de forma evidente. Esto no mata la intuición. La baja del pedestal. La obliga a sentarse en la mesa con los datos, que es donde las intuiciones suelen ponerse nerviosas.
+Llegados aquí, el artículo fácil habría sido evidente. Algo así como *La ciencia lo demuestra*. Pero la ciencia, cuando se porta bien, no está para darnos titulares. Está para quitarnos algunos.
+
+El dato mundialista no permite decir que empezar sea claramente mejor. Tampoco permite decir que sea claramente peor, ni siquiera permite decir que da igual quien empiece. Solo permite decir que, en la historia de las tandas de los Mundiales, la moneda no parece haber inclinado la balanza de forma evidente. Esto no mata la intuición. La baja del pedestal. La obliga a sentarse en la mesa con los datos, que es donde las intuiciones suelen ponerse nerviosas.
 Quizá empezar tiene ventajas psicológicas. Quizá esas ventajas existen, pero son pequeñas. Quizá se compensan con otras cosas: el primer fallo, la calidad de los lanzadores, el portero, el cansancio, la memoria del partido, el simple hecho de que el fútbol nunca firma contratos de comportamiento. Quizá estábamos mirando la moneda equivocada.
 
-Y finalmente hay una cosa que conviene destacar: si alguna vez os presentan una estadística hecha con pocos datos, desconfiad. Desconfiad mucho. Desconfiad siempre. Porque una muestra pequeña puede parecer una verdad revelada y, en realidad, no ser más que ruido con buena presentación. Treinta y cinco tandas de penaltis en Mundiales suenan a mucho porque abarcan décadas, finales, tragedias nacionales y momentos grabados en la memoria colectiva, pero estadísticamente siguen siendo muy pocas. Basta con que dos o tres tandas caigan de un lado u otro para que el porcentaje cambie de aspecto y parezca contar una historia distinta. Por eso conviene resistirse a la tentación de convertir un 17-18, un 12-13 o cualquier equilibrio parecido en una ley universal sobre la presión, el miedo o la ventaja psicológica. Los datos sirven para iluminar una pregunta, no para disfrazar de certeza lo que apenas alcanza para una sospecha. Y en este caso, la conclusión más honesta no es que tirar primero sea mejor o peor, sino que con muestras tan pequeñas lo prudente es decir: no lo sabemos con la seguridad que a veces aparentan los porcentajes. La razón estadística es sencilla: cuanto más pequeña es la muestra, más grande puede ser el ruido. En este caso estamos midiendo una proporción: qué porcentaje de tandas gana el equipo que tira primero. No estamos midiendo simplemente el número bruto de victorias, sino la fiabilidad de ese porcentaje observado.
+Y finalmente hay una cosa que conviene destacar: si alguna vez os presentan una estadística hecha con pocos datos, desconfiad. Desconfiad mucho. Desconfiad siempre. Porque una muestra pequeña puede parecer una verdad revelada y, en realidad, no ser más que ruido con buena presentación. Treinta y cinco tandas de penaltis en Mundiales suenan a mucho porque abarcan décadas, finales, tragedias nacionales y momentos grabados en la memoria colectiva, pero estadísticamente siguen siendo muy pocas. Basta con que dos o tres tandas caigan de un lado u otro para que el porcentaje cambie de aspecto y parezca contar una historia distinta. 
 
 Si observamos una variable binaria, por ejemplo “gana quien tira primero” o “no gana quien tira primero”, cada tanda funciona como un experimento de sí/no. La proporción observada se calcula así:
 $$
@@ -105,7 +107,7 @@ Esta fórmula no mide cuánto varía el número total de victorias, sino cuánto
 $$
 EE(\hat{p})  \approx 0.084
 $$
-Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Si construimos una aproximación de intervalo de confianza al $95$% , usamos que $\hat{p} \pm 1.96 \cdot EE(\hat{p})$. Si metemos el ruido dentro de la cuenta, el $48.6$% deja de parecer tan sólido y empieza a ensancharse:
+Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Para hacernos una idea del margen de duda, no nos quedamos solo con el 48.6%. Le sumamos y le restamos una especie de colchón estadístico, lo bastante grande como para cubrir, aproximadamente, el 95% de los casos razonables. Usamos $\hat{p} \pm 1.96 \cdot EE(\hat{p})$, es decir, si metemos el ruido dentro de la cuenta, el $48.6$% deja de parecer tan sólido y empieza a ensancharse:
 $$
 32 \% ≲ p ≲ 65 \%
 $$
@@ -126,13 +128,9 @@ X \geq 23
 $$
 La probabilidad de que eso ocurra si la probabilidad real fuera $p = 0.6$ es:
 $$
-P(X \geq 23 \mid p = 0.6)
-$$
-Calculando esa probabilidad binomial:
-$$
 P(X \geq 23 \mid p = 0.6) \approx 0.306
 $$
-Es decir, lo detectaríamos aproximadamente el $31$% de las veces. Dicho al revés: *habría aproximadamente un $69$% de probabilidad de no detectarlo, aunque la ventaja existiera.*
+Es decir, lo detectaríamos aproximadamente el $31$% de las veces. Dicho al revés: **habría aproximadamente un $69$% de probabilidad de no detectarlo, aunque la ventaja existiera.**
 
 Ay, la estadística. A veces no te dice quién tiene razón. Solo te mira y te dice: con tan pocos datos, no vengas tan gallito.
 
@@ -154,7 +152,7 @@ Esta es quizá la parte más incómoda de la estadística. Uno llega buscando un
 
 *No sé. Pero sé que no deberías estar tan seguro.*
 
-Parece poco. Es muchísimo. Sirve para algo más humilde. Para recordarte que la moneda no sabe de fútbol. Y que el balón, cuando llega al punto de penalti, tampoco sabe quién empezó.
+Parece poco. Es muchísimo. Sirve para algo más humilde. Para recordarte que la moneda no sabe de fútbol. Y que el balón, cuando llega al punto de penalti, tampoco sabe quién empezó. No sabe quién llega con calambres, quién ha fallado antes, quién lleva toda la vida soñando con ese disparo ni quién está a punto de convertirse en una estatua o en una herida nacional. La moneda cae y se calla.
 
 ---
 
