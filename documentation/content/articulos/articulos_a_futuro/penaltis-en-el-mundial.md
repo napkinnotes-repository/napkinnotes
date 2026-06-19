@@ -22,7 +22,7 @@ image: images/penaltis-mundial-moneda.png
 
 ## El aire ya ha hablado... ahora soñemos
 
-Si bien en [el artículo de hace dos semanas](https://napkinnotes.es/mundial-2026-fisica-balon-aire/) el enemigo era el aire -el aire de Vancouver, el de Ciudad de México; el aire caliente, el aire frío, denso o fino; en definitiva, ese aire invisible que rodea al balón y decide si una falta baja a tiempo, si un centro se queda corto o si un disparo con efecto termina obedeciendo a la física en vez de al delantero-, ahora ya hemos pasado eso y estamos ante el mayor provocador de ataques cardíacos del planeta Tierra: una tanda de penaltis en la final del Mundial.
+Si bien en [el artículo de hace dos semanas](https://napkinnotes.es/mundial-2026-fisica-balon-aire) el enemigo era el aire -el aire de Vancouver, el de Ciudad de México; el aire caliente, el aire frío, denso o fino; en definitiva, ese aire invisible que rodea al balón y decide si una falta baja a tiempo, si un centro se queda corto o si un disparo con efecto termina obedeciendo a la física en vez de al delantero-, ahora ya hemos pasado eso y estamos ante el mayor provocador de ataques cardíacos del planeta Tierra: una tanda de penaltis en la final del Mundial.
 
 Solo ha pasado tres veces en la historia de los Mundiales. En el Mundial de Estados Unidos 1994, cuando Baggio falló el penalti decisivo mientras *"el silencio invadía todas las casas de Italia"*. Pasó en Alemania 2006, cuando Italia se llevó el Mundial marcando Grosso el quinto penalti. Y pasó en Catar 2022, con victoria argentina, después de que Argentina y Francia decidieran que una final normal era demasiado poco para ellos.
 
