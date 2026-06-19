@@ -28,7 +28,7 @@ Solo ha pasado tres veces en la historia de los Mundiales. En el Mundial de Esta
 
 Soñemos: *Final del Mundial 2026. New York-New Jersey Stadium, el MetLife disfrazado para la FIFA. Final España-Portugal. Minuto 124. Marcador 3-3. El árbitro pita el final de la prórroga.
 Hay jugadores sentados sobre el césped. Otros caminan sin ir a ninguna parte. Alguno bebe agua como si eso pudiera ayudar en algo. Los porteros se alejan hacia la portería donde va a decidirse todo. El árbitro llama a los capitanes y saca una moneda.
-No hay pizarra. No hay presión alta ni tras pérdida que valga. No hay 4-3-3 ni espacios al tercer hombre. No hay mapas de calor. No hay un analista con tres pantallas diciendo que el lateral izquierdo rival suele cruzar el cuarto penalti a la derecha si antes ha mirado al portero en la carrera tres veces los jueves, pero si es domingo, como hoy, lo tira por el centro a asegurar. Hay una moneda. Tú eres el capitán. Ganas el sorteo. El árbitro te mira: **¿Queréis tirar primero o segundo?***
+No hay pizarra. No hay presión alta ni tras pérdida que valga. No hay 4-3-3 ni espacios al tercer hombre. No hay mapas de calor. No hay un analista con tres pantallas diciendo que el lateral izquierdo rival suele cruzar el cuarto penalti a la derecha si antes ha mirado al portero en la carrera tres veces los jueves, pero si es domingo, como hoy, lo tira por el centro a asegurar. Hay una moneda. Tú eres el capitán. Ganas el sorteo. El árbitro te mira:* **¿Queréis tirar primero o segundo?**
 
 ---
 
@@ -110,13 +110,11 @@ Ay, la estadística. A veces no te dice quién tiene razón, solo te mira y sent
 
 ## Volvamos al centro del campo
 
-Así que volvemos al New York-New Jersey Stadium. Final del Mundial 2026. *España. Penaltis. Tú eres el capitán. La moneda acaba de caer a tu favor. El árbitro espera. Tus compañeros también. En algún lugar, millones de personas creen que esta decisión tiene una respuesta escondida en una tabla. Primero o segundo. Ahora ya sabes algo. Sabes que la intuición pide tirar primero. Sabes que psicológicamente tiene sentido querer poner presión. Sabes que durante años se ha hablado de esa ventaja. Pero también sabes que, en los Mundiales, el dato completo hasta Catar 2022 no muestra una ventaja clara. Así que quizá la respuesta honesta no es “primero”, ni “segundo”. La respuesta honesta es más incómoda: **Depende de quién tire... y de que lo marque.***
+Así que volvemos al New York-New Jersey Stadium. Final del Mundial 2026. *España. Penaltis. Tú eres el capitán. La moneda acaba de caer a tu favor. El árbitro espera. Tus compañeros también. En algún lugar, millones de personas creen que esta decisión tiene una respuesta escondida en una tabla. Primero o segundo. Ahora ya sabes algo. Sabes que la intuición pide tirar primero. Sabes que psicológicamente tiene sentido querer poner presión. Sabes que durante años se ha hablado de esa ventaja. Pero también sabes que, en los Mundiales, el dato completo hasta Catar 2022 no muestra una ventaja clara. Así que quizá la respuesta honesta no es “primero”, ni “segundo”. La respuesta honesta es más incómoda:* **Depende de quién tire... y de lo que marque.**
 
-Esta es quizá la parte más incómoda de la estadística. Uno llega buscando una respuesta clara. ¿Tirar primero o segundo? Y la estadística responde:
+Esta es quizá la parte más difícil de aceptar de la estadística. Uno llega buscando una respuesta clara (¿Tirar primero o segundo?), y ella responde: *No sé, pero en ninguno de los casos deberías estar tan seguro.*
 
-*No sé. Pero sé que no deberías estar tan seguro.*
-
-Parece poco. Es muchísimo. Sirve para algo más humilde. Para recordarte que la moneda no sabe de fútbol. Y que el balón, cuando llega al punto de penalti, tampoco sabe quién empezó. No sabe quién llega con calambres, quién ha fallado antes, quién lleva toda la vida soñando con ese disparo ni quién está a punto de convertirse en una estatua o en una herida nacional. La moneda cae y se calla dejando un silencio que invadirá todas las casas de un país.
+Pero aunque parezca poco, esto es muchísimo y sirve para algo más humilde: recordarte que la moneda no sabe de fútbol. Y que el balón, cuando llega al punto de penalti, tampoco sabe quién empezó. No sabe quién llega con calambres, quién ha fallado antes, quién lleva toda la vida soñando con ese disparo o quién está a punto de convertirse en una estatua o en una herida nacional. La moneda cae y se calla, dejando un silencio que invadirá todas las casas de un país.
 
 ---
 
