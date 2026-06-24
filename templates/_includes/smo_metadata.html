@@ -21,9 +21,17 @@
 {% from '_includes/_defaults.html' import FEATURED_IMAGE with context %}
 
 {% if article.featured_image %}
-    {% set SHARE_IMAGE = article.featured_image %}
+    {% if article.featured_image.startswith('http') %}
+        {% set SHARE_IMAGE = article.featured_image %}
+    {% else %}
+        {% set SHARE_IMAGE = SITEURL ~ '/' ~ article.featured_image %}
+    {% endif %}
 {% elif article.image %}
-    {% set SHARE_IMAGE = SITEURL ~ '/' ~ article.image %}
+    {% if article.image.startswith('http') %}
+        {% set SHARE_IMAGE = article.image %}
+    {% else %}
+        {% set SHARE_IMAGE = SITEURL ~ '/' ~ article.image %}
+    {% endif %}
 {% else %}
     {% set SHARE_IMAGE = FEATURED_IMAGE %}
 {% endif %}
@@ -31,6 +39,10 @@
 {% if SHARE_IMAGE %}
 <meta property="og:image" content="{{ SHARE_IMAGE }}" />
 <meta property="og:image:secure_url" content="{{ SHARE_IMAGE }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="{{ article.title|striptags|e }}" />
 <meta name="twitter:image" content="{{ SHARE_IMAGE }}">
+<meta name="twitter:image:alt" content="{{ article.title|striptags|e }}">
 {% endif %}
 {% endmacro %}
