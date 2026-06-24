@@ -1,25 +1,36 @@
 {% macro smo_metadata(article) %}
-<meta property="og:title" content="{{ article.title|striptags|e }} {% if article.subtitle %} - {{ article.subtitle|striptags|e }} {% endif %}"/>
+<meta property="og:title" content="{{ article.title|striptags|e }}{% if article.subtitle %} - {{ article.subtitle|striptags|e }}{% endif %}" />
 <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />
 <meta property="og:description" content="{{ article.summary|striptags|e }}" />
 <meta property="og:site_name" content="{{ SITENAME|striptags|e }}" />
+<meta property="og:type" content="article" />
 <meta property="og:article:author" content="{{ article.author }}" />
+
 {% if article.date %}
 <meta property="og:article:published_time" content="{{ article.date.isoformat() }}" />
 {% endif %}
+
 {% if article.locale_modified and article.modified %}
 <meta property="og:article:modified_time" content="{{ article.modified.isoformat() }}" />
 {% endif %}
-<meta name="twitter:title" content="{{ article.title|striptags|e }} {% if article.subtitle %} - {{ article.subtitle|striptags|e }} {% endif %}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ article.title|striptags|e }}{% if article.subtitle %} - {{ article.subtitle|striptags|e }}{% endif %}">
 <meta name="twitter:description" content="{{ article.summary|striptags|e }}">
-{% if article.featured_image %}
-<meta property="og:image" content="{{ article.featured_image }}" />
-<meta name="twitter:image" content="{{ article.featured_image }}" >
-{% else %}
+
 {% from '_includes/_defaults.html' import FEATURED_IMAGE with context %}
-    {% if FEATURED_IMAGE %}
-<meta property="og:image" content="{{ FEATURED_IMAGE }}" />
-<meta name="twitter:image" content="{{ FEATURED_IMAGE }}" >
-    {% endif %}
+
+{% if article.featured_image %}
+    {% set SHARE_IMAGE = article.featured_image %}
+{% elif article.image %}
+    {% set SHARE_IMAGE = SITEURL ~ '/' ~ article.image %}
+{% else %}
+    {% set SHARE_IMAGE = FEATURED_IMAGE %}
+{% endif %}
+
+{% if SHARE_IMAGE %}
+<meta property="og:image" content="{{ SHARE_IMAGE }}" />
+<meta property="og:image:secure_url" content="{{ SHARE_IMAGE }}" />
+<meta name="twitter:image" content="{{ SHARE_IMAGE }}">
 {% endif %}
 {% endmacro %}
