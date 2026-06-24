@@ -41,12 +41,14 @@
         <meta name="description" content="{% block head_description %}{{ SITE_DESCRIPTION|e }}{% endblock head_description %}" />
         {% endif %}
 
-        {% block meta_tags_in_head %}
+{% block meta_tags_in_head %}
 {% from '_includes/_defaults.html' import TWITTER_USERNAME, FEATURED_IMAGE with context %}
+
 {% if TWITTER_USERNAME %}
 <meta name="twitter:creator" content="@{{ TWITTER_USERNAME }}">
 {% endif %}
 
+{% if not article %}
 <meta property="og:type" content="website" />
 <meta property="og:title" content="{{ SITENAME|striptags|e }}" />
 <meta property="og:site_name" content="{{ SITENAME|striptags|e }}" />
@@ -64,7 +66,8 @@
 {% endif %}
 
 <meta name="twitter:card" content="summary_large_image">
-        {% endblock meta_tags_in_head %}
+{% endif %}
+{% endblock meta_tags_in_head %}
 
         <title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
         {% include '_includes/favicon_links.html' %}
