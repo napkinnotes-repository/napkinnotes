@@ -42,12 +42,28 @@
         {% endif %}
 
         {% block meta_tags_in_head %}
-        {% from '_includes/_defaults.html' import TWITTER_USERNAME with context %}
-        {% if TWITTER_USERNAME %}
-        <meta name="twitter:creator" content="@{{ TWITTER_USERNAME }}">
-        {% endif %}
-        <meta property="og:type" content="article" />
-        <meta name="twitter:card" content="summary">
+{% from '_includes/_defaults.html' import TWITTER_USERNAME, FEATURED_IMAGE with context %}
+{% if TWITTER_USERNAME %}
+<meta name="twitter:creator" content="@{{ TWITTER_USERNAME }}">
+{% endif %}
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ SITENAME|striptags|e }}" />
+<meta property="og:site_name" content="{{ SITENAME|striptags|e }}" />
+<meta property="og:url" content="{{ SITEURL }}" />
+
+{% if SITE_DESCRIPTION %}
+<meta property="og:description" content="{{ SITE_DESCRIPTION|striptags|e }}" />
+<meta name="twitter:description" content="{{ SITE_DESCRIPTION|striptags|e }}">
+{% endif %}
+
+{% if FEATURED_IMAGE %}
+<meta property="og:image" content="{{ FEATURED_IMAGE }}" />
+<meta property="og:image:secure_url" content="{{ FEATURED_IMAGE }}" />
+<meta name="twitter:image" content="{{ FEATURED_IMAGE }}">
+{% endif %}
+
+<meta name="twitter:card" content="summary_large_image">
         {% endblock meta_tags_in_head %}
 
         <title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
