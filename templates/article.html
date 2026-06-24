@@ -193,7 +193,7 @@
                     </a>
 
                     <a class="nn-share-actions__button"
-                       href="https://www.facebook.com/sharer/sharer.php?u={{ (SITEURL ~ '/' ~ article.url)|urlencode }}"
+                       href="https://www.facebook.com/sharer/sharer.php?u={{ (SITEURL ~ '/' ~ article.url ~ '?v=' ~ article.date.strftime('%Y%m%d'))|urlencode }}"
                        target="_blank"
                        rel="noopener noreferrer">
                         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
@@ -203,7 +203,7 @@
                     </a>
 
                     <a class="nn-share-actions__button"
-                       href="https://api.whatsapp.com/send?text={{ (article.title ~ ' ' ~ SITEURL ~ '/' ~ article.url)|urlencode }}"
+                       href="https://api.whatsapp.com/send?text={{ (article.title|striptags ~ ' ' ~ SITEURL ~ '/' ~ article.url ~ '?v=' ~ article.date.strftime('%Y%m%d'))|urlencode }}"
                        target="_blank"
                        rel="noopener noreferrer">
                         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
