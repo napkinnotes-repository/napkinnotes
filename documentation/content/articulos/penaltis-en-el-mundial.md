@@ -14,7 +14,7 @@ tags:
   - probabilidad
 summary: En una tanda de penaltis, ganar el sorteo parece comprar una ventaja. Pero los Mundiales cuentan una historia bastante menos clara.
 image: images/penaltis-mundial-moneda.png
-featured_image: images/penaltis-mundial-moneda.png
+featured_image: images/penaltis-mundial-moneda-share.jpg
 certificated: true
 ---
 
