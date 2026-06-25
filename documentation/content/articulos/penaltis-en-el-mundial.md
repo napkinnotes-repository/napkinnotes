@@ -4,7 +4,7 @@ author: David Figueruelo Hernán
 date: 2026-06-25
 layout: articles
 slug: la-moneda-que-no-queria-decidir-un-mundial
-status: hidden
+status: published
 category: Estadística
 tags:
   - fútbol
