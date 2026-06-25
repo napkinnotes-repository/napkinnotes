@@ -3,7 +3,7 @@ title: "¿Una moneda al aire decide Mundiales?: cómo la estadística se puede u
 author: David Figueruelo Hernán
 date: 2026-06-25
 layout: articles
-slug: la-moneda-que-no-queria-decidir-un-mundial
+slug: la-moneda-que-no-queria-decidir-el-mundial
 status: published
 category: Estadística
 tags:
