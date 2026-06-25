@@ -1,5 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-06-11T00:00:00+02:00</updated><entry><title>Perdimos por culpa del aire: una investigación casi seria sobre el Mundial de Fútbol 2026</title><link href="https://napkinnotes.es/mundial-2026-fisica-balon-aire" rel="alternate"/><published>2026-06-11T00:00:00+02:00</published><updated>2026-06-11T00:00:00+02:00</updated><author><name>Duvier Suárez Fontanella</name></author><id>tag:napkinnotes.es,2026-06-11:/mundial-2026-fisica-balon-aire</id><summary type="html">&lt;p&gt;Una estimación sobre cómo la altitud, la temperatura y la densidad del aire afectan el vuelo del balón en las sedes del Mundial de Fútbol 2026, todo ello para que tengas una buena excusa si tu equipo no llega a la&amp;nbsp;final.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-06-25T00:00:00+02:00</updated><entry><title>¿Una moneda al aire decide Mundiales?: cómo la estadística se puede usar para lo que uno quiera si la muestra es pequeña</title><link href="https://napkinnotes.es/la-moneda-que-no-queria-decidir-un-mundial" rel="alternate"/><published>2026-06-25T00:00:00+02:00</published><updated>2026-06-25T00:00:00+02:00</updated><author><name>David Figueruelo Hernán</name></author><id>tag:napkinnotes.es,2026-06-25:/la-moneda-que-no-queria-decidir-un-mundial</id><summary type="html">&lt;p&gt;En una tanda de penaltis, ganar el sorteo parece comprar una ventaja. Pero los Mundiales cuentan una historia bastante menos&amp;nbsp;clara.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#el-aire-ya-ha-hablado-ahora-sonemos"&gt;El aire ya ha hablado&amp;#8230; ahora&amp;nbsp;soñemos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#la-intuicion-entra-al-area"&gt;La intuición entra al&amp;nbsp;área&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#treinta-y-cinco-monedas"&gt;Treinta y cinco&amp;nbsp;monedas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-dato-que-estropea-el-titular-y-una-explicacion-de-estadistica"&gt;El dato que estropea el titular y una explicación de&amp;nbsp;estadística&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#volvamos-al-centro-del-campo"&gt;Volvamos al centro del&amp;nbsp;campo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="el-aire-ya-ha-hablado-ahora-sonemos"&gt;El aire ya ha hablado&amp;#8230; ahora soñemos&lt;a class="headerlink" href="#el-aire-ya-ha-hablado-ahora-sonemos" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Si bien en &lt;a href="https://napkinnotes.es/mundial-2026-fisica-balon-aire"&gt;el artículo de hace dos semanas&lt;/a&gt; el enemigo era el aire -el aire de Vancouver, el de Ciudad de México; el aire caliente, el aire frío, denso o fino; en definitiva, ese aire invisible que rodea al balón y decide si una falta baja a tiempo, si un centro se queda corto o si un disparo con efecto termina obedeciendo a la física en vez de al delantero-, ahora ya hemos pasado eso y estamos ante el mayor provocador de ataques cardíacos del planeta Tierra: una tanda de penaltis en la final del&amp;nbsp;Mundial.&lt;/p&gt;
+&lt;p&gt;Solo ha pasado tres veces en la historia de los Mundiales. En el Mundial de Estados Unidos 1994, cuando Baggio falló el penalti decisivo mientras &lt;em&gt;&amp;#8220;el silencio invadía todas las casas de Italia&amp;#8221;&lt;/em&gt;. Pasó en Alemania 2006, cuando Italia se llevó el Mundial marcando Grosso el quinto penalti. Y pasó en Catar 2022, con victoria argentina, después de que Argentina y Francia decidieran que una final normal era demasiado poco para&amp;nbsp;ellos.&lt;/p&gt;
+&lt;p&gt;Soñemos: &lt;em&gt;Final del Mundial 2026. New York-New Jersey Stadium, el MetLife disfrazado para la &lt;span class="caps"&gt;FIFA&lt;/span&gt;. Final España-Portugal. Minuto 124. Marcador 3-3. El árbitro pita el fin de la prórroga.
+Hay jugadores sentados sobre el césped, otros caminan sin ir a ninguna parte, alguno bebe agua como si eso pudiera ayudar en algo. Los porteros se alejan hacia la portería donde va a decidirse todo. El árbitro llama a los capitanes y saca una moneda.
+No hay pizarra. No hay presión alta ni tras pérdida que valga. No hay 4-3-3 ni espacios al tercer hombre. No hay mapas de calor. No hay un analista con tres pantallas diciendo que el lateral izquierdo rival suele cruzar el cuarto penalti a la derecha si antes ha mirado al portero en la carrera tres veces los jueves, pero si es domingo, como hoy, lo tira por el centro a asegurar. Hay una moneda. Tú eres el capitán. Ganas el sorteo. El árbitro te mira:&lt;/em&gt; &lt;strong&gt;¿Queréis tirar primero o&amp;nbsp;segundo?&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="la-intuicion-entra-al-area"&gt;La intuición entra al área&lt;a class="headerlink" href="#la-intuicion-entra-al-area" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;La intuición dice que hay que tirar primero, siempre. Tirar primero parece mejor porque te permite golpear antes. Si marcas, el otro equipo empieza la tanda persiguiéndote. Parece una diferencia pequeña, pero las tandas de penaltis viven precisamente de las diferencias pequeñas. Un pie que llega tarde, un portero que se vence medio segundo antes, un balón cinco centímetros más a la derecha, un palo, una rodilla, una moneda. Además, hay una idea psicológica muy razonable escondida ahí: no es lo mismo tirar para adelantarte que tirar para no caerte. El penalti sigue estando a once metros, la portería sigue midiendo lo mismo y el balón no se vuelve más pesado según el marcador. Reglamentariamente, al menos. Pero la cabeza no lee&amp;nbsp;reglamentos.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Si fallo, empezamos por&amp;nbsp;debajo.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ay, la cabeza. Piensa que si tiras segundo tus compañeros van a tener que recorrer unos cuarenta metros viendo, casi sintiendo, que van por debajo, que el otro ya ha marcado, que el estadio ya ha hecho ese ruido raro que hacen los estadios cuando huelen sangre y estadística&amp;nbsp;barata.&lt;/p&gt;
+&lt;p&gt;Ay, la&amp;nbsp;cabecita.&lt;/p&gt;
+&lt;p&gt;Por eso durante años se ha repetido que empezar una tanda da ventaja. Algunos análisis antiguos, publicados antes de que el Mundial de Rusia 2018 y el de Catar 2022 añadieran más tandas a la historia, hablaban de una ventaja apreciable para el equipo que tiraba primero &lt;a class="nn-cite" href="#ref-2"&gt;[2]&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="treinta-y-cinco-monedas"&gt;Treinta y cinco monedas&lt;a class="headerlink" href="#treinta-y-cinco-monedas" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Una tanda mundialista no es una encuesta gigante, ni una simulación con millones de mundos paralelos o una sábana de Excel interminable donde los porcentajes se acomodan solos y uno puede sacar conclusiones con voz de notario. En los Mundiales, hasta la final de Catar 2022 incluida, ha habido 35 tandas de penaltis: treinta y cinco. Esto obliga a hablar con bastante cuidado, porque en una muestra así una final como Argentina-Francia 2022 no es solo una final absurda, preciosa, agotadora y probablemente ilegal para cualquier sistema cardiovascular, es también una fila más en una tabla pequeña. Y en una tabla pequeña cada fila&amp;nbsp;pesa. &lt;/p&gt;
+&lt;p&gt;Al mirar los datos completos hasta Catar 2022 el resultado es&amp;nbsp;este:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;el equipo que tiró primero ganó 17&amp;nbsp;tandas;  &lt;/li&gt;
+&lt;li&gt;el equipo que tiró segundo ganó&amp;nbsp;18.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Con una diferencia de una tanda la moneda se queda sin&amp;nbsp;épica.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="el-dato-que-estropea-el-titular-y-una-explicacion-de-estadistica"&gt;El dato que estropea el titular y una explicación de estadística&lt;a class="headerlink" href="#el-dato-que-estropea-el-titular-y-una-explicacion-de-estadistica" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Llegados aquí, el artículo fácil habría sido evidente. Algo así como &lt;em&gt;Tirar primero o segundo da igual, la ciencia lo demuestra&lt;/em&gt;. Pero la ciencia, cuando se porta bien, no está para darnos titulares, sino más bien para quitarnos&amp;nbsp;algunos.&lt;/p&gt;
+&lt;p&gt;El dato mundialista no permite decir que empezar la tanda de penaltis sea claramente mejor, pero tampoco peor, ni siquiera irrelevante. Solo dice que, hasta ahora, la moneda no parece haber inclinado la balanza de forma definitiva. Eso no mata la intuición, la baja del pedestal y la sienta frente a los datos, una situación donde las intuiciones suelen ponerse nerviosas. Quizá empezar dé ventaja psicológica, pero quizá esta se compense con el primer fallo, la calidad de los lanzadores, el portero, el cansancio o esa rareza de un fútbol que nunca firma contratos de comportamiento. Porque aquí las variables llevan camiseta, lloran, rezan, tienen calambres, escuchan a ochenta mil personas y caminan solas desde el círculo central hasta el punto de penalti con demasiadas cosas en la cabeza. Por eso conviene recordar algo: cuando una estadística viene con pocos datos, desconfiad. Treinta y cinco tandas suenan a mucho porque cargan décadas, finales y tragedias nacionales, pero siguen siendo pocas; basta con que dos o tres caigan del otro lado para que el porcentaje cambie de cara y parezca contar otra&amp;nbsp;historia.&lt;/p&gt;
+&lt;p&gt;Si observamos una variable binaria, por ejemplo “gana quien tira primero” o “no gana quien tira primero”, cada tanda funciona como un experimento de sí/no. La proporción observada se calcula&amp;nbsp;así:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\hat{p} = \frac{x}{n},
+$$&lt;/div&gt;
+&lt;p&gt;
+donde &lt;span class="math"&gt;\(x\)&lt;/span&gt; es el número de éxitos&amp;nbsp;y &lt;span class="math"&gt;\(n\)&lt;/span&gt; el número total de casos. En nuestro&amp;nbsp;caso: &lt;span class="math"&gt;\(\hat{p} = \frac{17}{35} = 0.486\)&lt;/span&gt;, es decir, quien tiró primero ganó&amp;nbsp;el &lt;span class="math"&gt;\(48.6\)&lt;/span&gt;% de las tandas mundialistas. Ese dato observado es exacto, pero lo que no es exacto es la conclusión que podemos sacar de él sobre la probabilidad real de que tirar primero sea ventajoso. Por eso nos interesa medir la incertidumbre de la proporción observada. Una forma básica de hacerlo es el error estándar de la proporción, que se calcula&amp;nbsp;así:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+EE(\hat{p}) = \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}.
+$$&lt;/div&gt;
+&lt;p&gt;
+Esta fórmula no mide cuánto varía el número total de victorias, sino cuánto puede variar el porcentaje observado por efecto del azar. Sustituyendo los&amp;nbsp;valores:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+EE(\hat{p})  \approx 0.084
+$$&lt;/div&gt;
+&lt;p&gt;
+Eso significa que el porcentaje observado puede moverse bastante simplemente por azar. Para hacernos una idea del margen de duda, no nos quedamos solo con el 48.6%. Le sumamos y le restamos una especie de colchón estadístico, lo bastante grande como para cubrir, aproximadamente, el 95% de los casos razonables.&amp;nbsp;Usamos &lt;span class="math"&gt;\(\hat{p} \pm 1.96 \cdot EE(\hat{p})\)&lt;/span&gt;, es decir, si metemos el ruido dentro de la cuenta,&amp;nbsp;el &lt;span class="math"&gt;\(48.6\)&lt;/span&gt;% deja de parecer tan sólido y empieza a&amp;nbsp;ensancharse:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+32 \% ≲ p ≲ 65 \%
+$$&lt;/div&gt;
+&lt;p&gt;
+Ese rango es enorme. Y lo que significa es que, con solo 35 casos,&amp;nbsp;ese &lt;span class="math"&gt;\(48.6\)&lt;/span&gt;% todavía deja muchísima incertidumbre sobre la probabilidad real. Estadísticamente, los datos son compatibles con escenarios muy distintos: desde una desventaja apreciable para quien tira primero, cerca&amp;nbsp;del &lt;span class="math"&gt;\(32\)&lt;/span&gt;%, hasta una ventaja considerable, cerca&amp;nbsp;del &lt;span class="math"&gt;\(65\)&lt;/span&gt;%. Por eso no podemos convertir un 17-18 en una ley general sobre la presión&amp;nbsp;psicológica.&lt;/p&gt;
+&lt;p&gt;Podemos verlo de otra&amp;nbsp;forma:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Si de verdad quien tira primero tuviera una probabilidad real de ganar&amp;nbsp;el &lt;span class="math"&gt;\(60\)&lt;/span&gt;% de las veces, ¿qué probabilidad tendría una muestra de 35 tandas de detectar esa ventaja con un test cuyos falsos positivos fueran como mucho&amp;nbsp;el &lt;span class="math"&gt;\(5\)&lt;/span&gt;%?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Si en realidad quien tira primero ganara&amp;nbsp;el &lt;span class="math"&gt;\(60\)&lt;/span&gt;% de las veces, la variable que queremos observar&amp;nbsp;sería:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+X \sim \mathrm{Binomial}(35, 0.6),
+$$&lt;/div&gt;
+&lt;p&gt;
+donde &lt;span class="math"&gt;\(X\)&lt;/span&gt; es el número de tandas ganadas por quien tira primero en una muestra&amp;nbsp;de &lt;span class="math"&gt;\(35\)&lt;/span&gt;. Para detectar esa ventaja con un test cuyos falsos positivos sean como mucho&amp;nbsp;el &lt;span class="math"&gt;\(5\)&lt;/span&gt;%, comparamos contra la hipótesis de que no hay ventaja, que&amp;nbsp;llamamos &lt;span class="math"&gt;\(H_0\)&lt;/span&gt; y que es tal&amp;nbsp;que &lt;span class="math"&gt;\(H_0: p = 0.5\)&lt;/span&gt;.
+Como aquí la pregunta es si tirar primero da ventaja, un test binomial unilateral&amp;nbsp;al &lt;span class="math"&gt;\(5\)&lt;/span&gt;% rechaza esa hipótesis si el resultado es suficientemente alto. En este caso, aproximadamente&amp;nbsp;si:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+X \geq 23.
+$$&lt;/div&gt;
+&lt;p&gt;
+En palabras más sencillas, la probabilidad de que eso ocurra si tirar primero te diera ventaja para ganar&amp;nbsp;el &lt;span class="math"&gt;\(60\)&lt;/span&gt;% de las veces&amp;nbsp;es:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+P(X \geq 23 \mid p = 0.6) \approx 0.306
+$$&lt;/div&gt;
+&lt;p&gt;
+Es decir, lo detectaríamos aproximadamente&amp;nbsp;el &lt;span class="math"&gt;\(31\)&lt;/span&gt;% de las veces. Dicho de otra forma: &lt;strong&gt;habría aproximadamente&amp;nbsp;un &lt;span class="math"&gt;\(69\)&lt;/span&gt;% de probabilidades de no detectarlo, aunque la ventaja sí que&amp;nbsp;existiera.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ay, la estadística. A veces no te dice quién tiene razón, solo te mira y sentencia: con tan pocos datos, no vengas tan&amp;nbsp;gallito.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="volvamos-al-centro-del-campo"&gt;Volvamos al centro del campo&lt;a class="headerlink" href="#volvamos-al-centro-del-campo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Así que volvemos al New York-New Jersey Stadium. Final del Mundial 2026. &lt;em&gt;España. Penaltis. Tú eres el capitán. La moneda acaba de caer a tu favor. El árbitro espera. Tus compañeros también. En algún lugar, millones de personas creen que esta decisión tiene una respuesta escondida en una tabla. Primero o segundo. Ahora ya sabes algo. Sabes que la intuición pide tirar primero. Sabes que psicológicamente tiene sentido querer poner presión. Sabes que durante años se ha hablado de esa ventaja. Pero también sabes que, en los Mundiales, el dato completo hasta Catar 2022 no muestra una ventaja clara. Así que quizá la respuesta honesta no es “primero”, ni “segundo”. La respuesta honesta es más incómoda:&lt;/em&gt; &lt;strong&gt;Depende de quién tire&amp;#8230; y de lo que&amp;nbsp;marque.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Esta es quizá la parte más difícil de aceptar de la estadística. Uno llega buscando una respuesta clara (¿Tirar primero o segundo?), y ella responde: &lt;em&gt;No sé, pero en ninguno de los casos deberías estar tan&amp;nbsp;seguro.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Pero aunque parezca poco, esto es muchísimo y sirve para algo más humilde: recordarte que la moneda no sabe de fútbol. Y que el balón, cuando llega al punto de penalti, tampoco sabe quién empezó. No sabe quién llega con calambres, quién ha fallado antes, quién lleva toda la vida soñando con ese disparo o quién está a punto de convertirse en una estatua o en una herida nacional. La moneda cae y se calla, dejando un silencio que invadirá todas las casas de un&amp;nbsp;país.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+
+  &lt;li id="ref-2"&gt;
+    &lt;span class="caps"&gt;BBC&lt;/span&gt; Sport. (2018). &lt;em&gt;World Cup 2018: Penalty shootouts - who has the advantage?&lt;/em&gt;.
+    &lt;a href="https://www.bbc.com/sport/football/44641247" target="_blank" rel="noopener noreferrer"&gt;https://www.bbc.com/sport/football/44641247&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-3"&gt;
+    Goal.com. (2022). &lt;em&gt;Tandas de penales en Mundial: ¿conviene patear o atajar primero?&lt;/em&gt;.
+    &lt;a href="https://www.goal.com/es/noticias/tandas-penales-mundial-conviene-patear-atajar-primero/bltbfeae4267974f427" target="_blank" rel="noopener noreferrer"&gt;https://www.goal.com/es/noticias/tandas-penales-mundial-conviene-patear-atajar-primero/bltbfeae4267974f427&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Estadística"/><category term="fútbol"/><category term="mundial 2026"/><category term="penaltis"/><category term="estadística"/><category term="probabilidad"/></entry><entry><title>Perdimos por culpa del aire: una investigación casi seria sobre el Mundial de Fútbol 2026</title><link href="https://napkinnotes.es/mundial-2026-fisica-balon-aire" rel="alternate"/><published>2026-06-11T00:00:00+02:00</published><updated>2026-06-11T00:00:00+02:00</updated><author><name>Duvier Suárez Fontanella</name></author><id>tag:napkinnotes.es,2026-06-11:/mundial-2026-fisica-balon-aire</id><summary type="html">&lt;p&gt;Una estimación sobre cómo la altitud, la temperatura y la densidad del aire afectan el vuelo del balón en las sedes del Mundial de Fútbol 2026, todo ello para que tengas una buena excusa si tu equipo no llega a la&amp;nbsp;final.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#modelo-minimo-el-balon-contra-el-aire"&gt;Modelo mínimo: el balón contra el&amp;nbsp;aire&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#que-cambia-cuando-el-aire-es-menos-denso"&gt;¿Qué cambia cuando el aire es menos&amp;nbsp;denso?&lt;/a&gt;&lt;/li&gt;
