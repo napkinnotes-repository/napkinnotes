@@ -28,10 +28,10 @@ La quinta y la octava son intervalos muy armónicos y matemáticamente muy "puro
   Mi♭–Si♭–Fa–<strong>Do</strong>–Sol–Re–La–Mi–Si–Fa♯–Do♯–Sol♯
 </p>
 
-<div class="nn-two-images nn-two-images--balanced">
+<div class="nn-two-images nn-two-images--music-balanced">
 
   <figure>
-    <div class="nn-two-images__frame">
+    <div class="nn-two-images-music__frame">
       <img src="{static}/images/armonicos_matematicas_desafinan.jpg" alt="Armónicos de una cuerda">
     </div>
     <figcaption>
@@ -42,7 +42,7 @@ La quinta y la octava son intervalos muy armónicos y matemáticamente muy "puro
   </figure>
 
   <figure>
-    <div class="nn-two-images__frame">
+    <div class="nn-two-images-music__frame">
       <img src="{static}/images/Circulo-quintas_matematicas_desafinan.png" alt="Círculo de quintas">
     </div>
     <figcaption>
