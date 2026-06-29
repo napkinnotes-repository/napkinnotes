@@ -5169,13 +5169,21 @@ a.nn-squad-hero__metric {
   }
 }
 /* Figuras dobles específicas para el artículo de música */
+.nn-two-images--music-balanced {
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 24px;
+  align-items: start;
+}
+
 .nn-two-images--music-balanced figure {
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
 
 .nn-two-images--music-balanced .nn-two-images-music__frame {
-  height: 260px;
+  height: 290px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5190,6 +5198,10 @@ a.nn-squad-hero__metric {
 }
 
 @media (max-width: 760px) {
+  .nn-two-images--music-balanced {
+    grid-template-columns: 1fr;
+  }
+
   .nn-two-images--music-balanced .nn-two-images-music__frame {
     height: auto;
   }
