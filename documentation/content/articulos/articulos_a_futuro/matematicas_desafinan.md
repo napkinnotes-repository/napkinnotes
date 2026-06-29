@@ -24,30 +24,39 @@ Tomemos como frecuencia de partida la nota Do (66Hz). Esta nota será nuestro pr
 
 La quinta y la octava son intervalos muy armónicos y matemáticamente muy "puros", algo que fascinaba a Pitágoras. Partiendo de la primera nota (Do, en nuestro ejemplo), construimos la escala pitagórica obteniendo seis notas con una razón de 3:2 por encima y las restantes con la misma razón por debajo:
 
-Mi♭–Si♭–Fa–**Do**–Sol–Re–La–Mi–Si–Fa♯–Do♯–Sol♯
+<p style="text-align: center;">
+  Mi♭–Si♭–Fa–<strong>Do</strong>–Sol–Re–La–Mi–Si–Fa♯–Do♯–Sol♯
+</p>
 
+<div class="nn-figure-row">
 
-<!-- Figura armónicos -->
-<figure class="nn-article-figure">
-  <img src="{static}/images/armonicos_matematicas_desafinan.jpg" alt="Armónicos de una cuerda">
-  <figcaption>
-    Figura 1. Armónicos de una cuerda.
-  </figcaption>
-</figure>
+  <div>
+    <figure class="nn-article-figure">
+      <img src="{static}/images/armonicos_matematicas_desafinan.jpg" alt="Armónicos de una cuerda">
+      <figcaption>
+        Figura 1. Armónicos de una cuerda.
+      </figcaption>
+    </figure>
 
-<!-- Opcional: pie de foto -->
-*Relaciones entre las longitudes de onda de una nota fundamental y sus armónicos principales.*
+    <p class="nn-figure-note">
+      Relaciones entre las longitudes de onda de una nota fundamental y sus armónicos principales.
+    </p>
+  </div>
 
-<!-- Figura círculo de quintas -->
-<figure class="nn-article-figure">
-  <img src="{static}/images/Circulo-quintas_matematicas_desafinan.png" alt="Círculo de quintas">
-  <figcaption>
-    Figura 2. Círculo de quintas.
-  </figcaption>
-</figure>
+  <div>
+    <figure class="nn-article-figure">
+      <img src="{static}/images/Circulo-quintas_matematicas_desafinan.png" alt="Círculo de quintas">
+      <figcaption>
+        Figura 2. Círculo de quintas.
+      </figcaption>
+    </figure>
 
-<!-- Opcional: pie de foto -->
-*Cículo de quintas pitagórico.*
+    <p class="nn-figure-note">
+      Círculo de quintas pitagórico.
+    </p>
+  </div>
+
+</div>
 
 El único problema de este método es que, si te fijas en el diagrama de la figura anterior, la escala no "cierra" el círculo de quintas. El motivo es que las doce quintas del círculo no equivalen exactamente a siete octavas. Matemáticamente, no es posible encadenar intervalos con una razón de 3:2 (la quinta) y obtener exactamente una relación de 2:1 (la octava). Es decir, no existen números enteros x e y que satisfagan la ecuación:
 
