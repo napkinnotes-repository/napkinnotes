@@ -38,11 +38,16 @@ La quinta y la octava son intervalos muy armónicos y matemáticamente muy "puro
 </figure>
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/Circulo-quintas_matematicas_desafinan.png" alt="Círculo de quintas">
+  <img src="{static}/images/Circulo-quintas_matematicas_desafinan.png" alt="Círculo de quintas pitagórico">
   <figcaption>
-    Figura 2. Círculo de quintas.
+    Figura 2. Círculo de quintas pitagórico con la quinta del lobo marcada en rojo.
     <br>
-    <span>Círculo de quintas pitagórico.</span>
+    <span>
+      Fuente: Pacovila, trabajo propio,
+      <a href="https://es.wikipedia.org/wiki/Afinaci%C3%B3n_pitag%C3%B3rica#/media/Archivo:Circulo-quintas.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>,
+      licencia
+      <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.es" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>.
+    </span>
   </figcaption>
 </figure>
 
