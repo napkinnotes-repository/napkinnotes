@@ -28,33 +28,21 @@ La quinta y la octava son intervalos muy armónicos y matemáticamente muy "puro
   Mi♭–Si♭–Fa–<strong>Do</strong>–Sol–Re–La–Mi–Si–Fa♯–Do♯–Sol♯
 </p>
 
-<div class="nn-figure-row">
+<div class="nn-two-images">
 
-  <div>
-    <figure class="nn-article-figure">
-      <img src="{static}/images/armonicos_matematicas_desafinan.jpg" alt="Armónicos de una cuerda">
-      <figcaption>
-        Figura 1. Armónicos de una cuerda.
-      </figcaption>
-    </figure>
+  <figure>
+    <img src="{static}/images/armonicos_matematicas_desafinan.jpg" alt="Armónicos de una cuerda">
+    <figcaption>
+      Figura 1. Armónicos de una cuerda. Relaciones entre las longitudes de onda de una nota fundamental y sus armónicos principales.
+    </figcaption>
+  </figure>
 
-    <p class="nn-figure-note">
-      Relaciones entre las longitudes de onda de una nota fundamental y sus armónicos principales.
-    </p>
-  </div>
-
-  <div>
-    <figure class="nn-article-figure">
-      <img src="{static}/images/Circulo-quintas_matematicas_desafinan.png" alt="Círculo de quintas">
-      <figcaption>
-        Figura 2. Círculo de quintas.
-      </figcaption>
-    </figure>
-
-    <p class="nn-figure-note">
-      Círculo de quintas pitagórico.
-    </p>
-  </div>
+  <figure>
+    <img src="{static}/images/Circulo-quintas_matematicas_desafinan.png" alt="Círculo de quintas">
+    <figcaption>
+      Figura 2. Círculo de quintas. Círculo de quintas pitagórico.
+    </figcaption>
+  </figure>
 
 </div>
 
