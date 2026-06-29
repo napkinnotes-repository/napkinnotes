@@ -28,31 +28,23 @@ La quinta y la octava son intervalos muy armónicos y matemáticamente muy "puro
   Mi♭–Si♭–Fa–<strong>Do</strong>–Sol–Re–La–Mi–Si–Fa♯–Do♯–Sol♯
 </p>
 
-<div class="nn-two-images nn-two-images--music-balanced">
+<figure class="nn-article-figure">
+  <img src="{static}/images/armonicos_matematicas_desafinan.jpg" alt="Armónicos de una cuerda">
+  <figcaption>
+    Figura 1. Armónicos de una cuerda.
+    <br>
+    <span>Relaciones entre las longitudes de onda de una nota fundamental y sus armónicos principales.</span>
+  </figcaption>
+</figure>
 
-  <figure>
-    <div class="nn-two-images-music__frame">
-      <img src="{static}/images/armonicos_matematicas_desafinan.jpg" alt="Armónicos de una cuerda">
-    </div>
-    <figcaption>
-      Figura 1. Armónicos de una cuerda.
-      <br>
-      <span>Relaciones entre las longitudes de onda de una nota fundamental y sus armónicos principales.</span>
-    </figcaption>
-  </figure>
-
-  <figure>
-    <div class="nn-two-images-music__frame">
-      <img src="{static}/images/Circulo-quintas_matematicas_desafinan.png" alt="Círculo de quintas">
-    </div>
-    <figcaption>
-      Figura 2. Círculo de quintas.
-      <br>
-      <span>Círculo de quintas pitagórico.</span>
-    </figcaption>
-  </figure>
-
-</div>
+<figure class="nn-article-figure">
+  <img src="{static}/images/Circulo-quintas_matematicas_desafinan.png" alt="Círculo de quintas">
+  <figcaption>
+    Figura 2. Círculo de quintas.
+    <br>
+    <span>Círculo de quintas pitagórico.</span>
+  </figcaption>
+</figure>
 
 El único problema de este método es que, si te fijas en el diagrama de la figura anterior, la escala no "cierra" el círculo de quintas. El motivo es que las doce quintas del círculo no equivalen exactamente a siete octavas. Matemáticamente, no es posible encadenar intervalos con una razón de 3:2 (la quinta) y obtener exactamente una relación de 2:1 (la octava). Es decir, no existen números enteros x e y que satisfagan la ecuación:
 
