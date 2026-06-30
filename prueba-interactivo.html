@@ -178,9 +178,10 @@
             
             <div class="toc">
 <ul>
-<li><a href="#opcion-a">Opcion&nbsp;A</a></li>
-<li><a href="#opcion-b">Opcion B</a><ul>
-<li><a href="#sub-seccion">Sub-Sección</a></li>
+<li><a href="#opcion-a">Opción&nbsp;A</a></li>
+<li><a href="#opcion-b">Opción&nbsp;B</a></li>
+<li><a href="#texto-normal">Texto normal</a><ul>
+<li><a href="#sub-seccion">Sub-sección</a></li>
 </ul>
 </li>
 <li><a href="#otra-seccion">Otra&nbsp;sección</a></li>
@@ -188,297 +189,531 @@
 <li><a href="#referencias">Referencias</a></li>
 </ul>
 </div>
-<h2 id="opcion-a">Opcion A<a class="headerlink" href="#opcion-a" title="Permanent link"> </a></h2>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Laboratorio del Caos: Mide tu Garabato</title>
-    <style>
-        .fractal-app { font-family: sans-serif; max-width: 500px; margin: 20px auto; text-align: center; }
-        .canvas-container { background: #f3f4f6; padding: 10px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid #d1d5db; }
-        canvas { background: #ffffff; border: 2px dashed #9ca3af; cursor: crosshair; touch-action: none; display: block; margin: 0 auto; }
-        .controls { margin-top: 15px; display: flex; gap: 10px; justify-content: center; }
-        button { padding: 10px 20px; font-weight: bold; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95em; }
-        .btn-clear { background: #e5e7eb; color: #1f2937; border: 1px solid #9ca3af; }
-        .btn-calc { background: #2563eb; color: white; }
-        .result-box { margin-top: 15px; font-size: 1.2em; font-weight: bold; color: #1e3a8a; background: #e0f2fe; padding: 12px; border-radius: 6px; min-height: 28px; }
-    </style>
-</head>
-<body>
+<h2 id="opcion-a">Opción A<a class="headerlink" href="#opcion-a" title="Permanent link"> </a></h2>
+<style>
+  .fractal-app-a {
+    font-family: sans-serif;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+  }
 
-<div class="fractal-app">
-    <div class="canvas-container">
-        <!-- Lienzo blanco interactivo -->
-        <canvas id="chaosCanvas" width="400" height="300"></canvas>
-    </div>
+  .fractal-app-a .canvas-container {
+    background: #f3f4f6;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 1px solid #d1d5db;
+  }
 
-    <div class="controls">
-        <button class="btn-clear" onclick="resetCanvas()">🔄 Reiniciar</button>
-        <button class="btn-calc" onclick="analyzeChaos()">📊 Analizar Caos</button>
-    </div>
+  .fractal-app-a canvas {
+    background: #ffffff;
+    border: 2px dashed #9ca3af;
+    cursor: crosshair;
+    touch-action: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
 
-    <div class="result-box" id="result-text">
-        ⚡ Haz un garabato abstracto o líneas cruzadas sobre el lienzo blanco.
-    </div>
+  .fractal-app-a .controls {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .fractal-app-a button {
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95em;
+  }
+
+  .fractal-app-a .btn-clear {
+    background: #e5e7eb;
+    color: #1f2937;
+    border: 1px solid #9ca3af;
+  }
+
+  .fractal-app-a .btn-calc {
+    background: #2563eb;
+    color: white;
+  }
+
+  .fractal-app-a .result-box {
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #1e3a8a;
+    background: #e0f2fe;
+    padding: 12px;
+    border-radius: 6px;
+    min-height: 28px;
+  }
+</style>
+
+<div class="fractal-app-a">
+  <div class="canvas-container">
+    <canvas id="chaosCanvasA" width="400" height="300"></canvas>
+  </div>
+
+  <div class="controls">
+    <button class="btn-clear" id="resetBtnA" type="button">🔄 Reiniciar</button>
+    <button class="btn-calc" id="analyzeBtnA" type="button">📊 Analizar caos</button>
+  </div>
+
+  <div class="result-box" id="resultTextA">
+    ⚡ Haz un garabato abstracto o líneas cruzadas sobre el lienzo blanco.
+  </div>
 </div>
 
 <script>
-const canvas = document.getElementById('chaosCanvas');
-const ctx = canvas.getContext('2d');
-const resultText = document.getElementById('result-text');
-let drawing = false;
+(function () {
+  const canvas = document.getElementById("chaosCanvasA");
+  const ctx = canvas.getContext("2d");
+  const resultText = document.getElementById("resultTextA");
 
-// Configuración inicial del lienzo blanco
-function initCanvas() {
-    ctx.fillStyle = '#ffffff';
+  const resetBtn = document.getElementById("resetBtnA");
+  const analyzeBtn = document.getElementById("analyzeBtnA");
+
+  let drawing = false;
+
+  function initCanvas() {
+    ctx.fillStyle = "#ffffff";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    // Configuración del trazo en negro grueso y suave
-    ctx.strokeStyle = '#000000';
+    ctx.strokeStyle = "#000000";
     ctx.lineWidth = 4;
-    ctx.lineCap = 'round';
-    ctx.lineJoin = 'round';
-}
-initCanvas();
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
+  }
 
-// Función unificada y ultra-segura para calcular la posición del cursor o dedo
-function getPos(e) {
+  function getPos(e) {
     const rect = canvas.getBoundingClientRect();
-    let clientX, clientY;
+
+    let clientX;
+    let clientY;
 
     if (e.touches && e.touches.length > 0) {
-        clientX = e.touches[0].clientX;
-        clientY = e.touches[0].clientY;
+      clientX = e.touches[0].clientX;
+      clientY = e.touches[0].clientY;
     } else {
-        clientX = e.clientX;
-        clientY = e.clientY;
+      clientX = e.clientX;
+      clientY = e.clientY;
     }
 
     return {
-        x: clientX - rect.left,
-        y: clientY - rect.top
+      x: clientX - rect.left,
+      y: clientY - rect.top
     };
-}
+  }
 
-// Funciones principales de la acción de dibujar
-function startDrawing(e) {
+  function startDrawing(e) {
     drawing = true;
     ctx.beginPath();
+
     const pos = getPos(e);
     ctx.moveTo(pos.x, pos.y);
-}
+  }
 
-function draw(e) {
+  function draw(e) {
     if (!drawing) return;
+
     const pos = getPos(e);
     ctx.lineTo(pos.x, pos.y);
     ctx.stroke();
-}
+  }
 
-function stopDrawing() {
+  function stopDrawing() {
     drawing = false;
     ctx.beginPath();
-}
+  }
 
-// Vinculación de eventos de Ratón (Ordenadores)
-canvas.addEventListener('mousedown', startDrawing);
-canvas.addEventListener('mousemove', draw);
-canvas.addEventListener('mouseup', stopDrawing);
-canvas.addEventListener('mouseleave', stopDrawing);
-
-// Vinculación de eventos Táctiles (Móviles y Tablets)
-canvas.addEventListener('touchstart', (e) => { e.preventDefault(); startDrawing(e); });
-canvas.addEventListener('touchmove', (e) => { e.preventDefault(); draw(e); });
-canvas.addEventListener('touchend', (e) => { e.preventDefault(); stopDrawing(); });
-
-// Función para limpiar la pantalla
-function resetCanvas() {
+  function resetCanvas() {
     initCanvas();
     resultText.innerHTML = "⚡ Haz un garabato abstracto o líneas cruzadas sobre el lienzo blanco.";
-}
+  }
 
-// Algoritmo matemático Box-Counting para calcular la rugosidad fractal
-function analyzeChaos() {
-    const w = canvas.width, h = canvas.height;
+  function analyzeChaos() {
+    const w = canvas.width;
+    const h = canvas.height;
     const imgData = ctx.getImageData(0, 0, w, h).data;
-    const grid = Array(h).fill().map(() => new Uint8Array(w));
+
+    const grid = Array(h).fill().map(function () {
+      return new Uint8Array(w);
+    });
+
     let hasData = false;
 
-    // Escaneo de píxeles: si no es blanco (255), es trazo del usuario
     for (let y = 0; y < h; y++) {
-        for (let x = 0; x < w; x++) {
-            const idx = (y * w + x) * 4;
-            if (imgData[idx] < 220 || imgData[idx+1] < 220 || imgData[idx+2] < 220) { 
-                grid[y][x] = 1; 
-                hasData = true; 
-            }
+      for (let x = 0; x < w; x++) {
+        const idx = (y * w + x) * 4;
+
+        if (
+          imgData[idx] < 220 ||
+          imgData[idx + 1] < 220 ||
+          imgData[idx + 2] < 220
+        ) {
+          grid[y][x] = 1;
+          hasData = true;
         }
+      }
     }
 
     if (!hasData) {
-        resultText.innerHTML = "⚠️ El lienzo está vacío. ¡Dibuja algo primero!";
-        return;
+      resultText.innerHTML = "⚠️ El lienzo está vacío. Dibuja algo primero.";
+      return;
     }
 
-    // Muestreo por rejillas cuadradas decrecientes (cajas)
     const sizes = [32, 16, 8, 4];
-    const logX = [], logY = [];
+    const logX = [];
+    const logY = [];
 
-    sizes.forEach(s => {
-        let boxesUsed = 0;
-        for (let y = 0; y < h; y += s) {
-            for (let x = 0; x < w; x += s) {
-                let match = false;
-                for (let by = 0; by < s && (y + by) < h; by++) {
-                    for (let bx = 0; bx < s && (x + bx) < w; bx++) {
-                        if (grid[y + by][x + bx] === 1) { match = true; break; }
-                    }
-                    if (match) break;
-                }
-                if (match) boxesUsed++;
+    sizes.forEach(function (s) {
+      let boxesUsed = 0;
+
+      for (let y = 0; y < h; y += s) {
+        for (let x = 0; x < w; x += s) {
+          let match = false;
+
+          for (let by = 0; by < s && y + by < h; by++) {
+            for (let bx = 0; bx < s && x + bx < w; bx++) {
+              if (grid[y + by][x + bx] === 1) {
+                match = true;
+                break;
+              }
             }
+
+            if (match) break;
+          }
+
+          if (match) boxesUsed++;
         }
-        if (boxesUsed > 0) {
-            logX.push(Math.log(1 / s));
-            logY.push(Math.log(boxesUsed));
-        }
+      }
+
+      if (boxesUsed > 0) {
+        logX.push(Math.log(1 / s));
+        logY.push(Math.log(boxesUsed));
+      }
     });
 
-    // Regresión lineal por mínimos cuadrados para hallar la pendiente
     const n = logX.length;
-    let sX = 0, sY = 0, sXY = 0, sXX = 0;
+
+    let sX = 0;
+    let sY = 0;
+    let sXY = 0;
+    let sXX = 0;
+
     for (let i = 0; i < n; i++) {
-        sX += logX[i]; sY += logY[i];
-        sXY += logX[i] * logY[i]; sXX += logX[i] * logX[i];
+      sX += logX[i];
+      sY += logY[i];
+      sXY += logX[i] * logY[i];
+      sXX += logX[i] * logX[i];
     }
-    const d = Math.abs((n * sXY - sX * sY) / (n * sXX - sX * sX));
 
-    resultText.innerHTML = `🔮 Dimensión Fractal de tu trazo: <b>${d.toFixed(2)}</b>`;
-}
+    const denominator = n * sXX - sX * sX;
+
+    if (denominator === 0) {
+      resultText.innerHTML = "⚠️ No se pudo calcular la dimensión. Prueba con un trazo más complejo.";
+      return;
+    }
+
+    const d = Math.abs((n * sXY - sX * sY) / denominator);
+
+    resultText.innerHTML = "🔮 Dimensión fractal de tu trazo: <b>" + d.toFixed(2) + "</b>";
+  }
+
+  canvas.addEventListener("mousedown", startDrawing);
+  canvas.addEventListener("mousemove", draw);
+  canvas.addEventListener("mouseup", stopDrawing);
+  canvas.addEventListener("mouseleave", stopDrawing);
+
+  canvas.addEventListener("touchstart", function (e) {
+    e.preventDefault();
+    startDrawing(e);
+  });
+
+  canvas.addEventListener("touchmove", function (e) {
+    e.preventDefault();
+    draw(e);
+  });
+
+  canvas.addEventListener("touchend", function (e) {
+    e.preventDefault();
+    stopDrawing();
+  });
+
+  resetBtn.addEventListener("click", resetCanvas);
+  analyzeBtn.addEventListener("click", analyzeChaos);
+
+  initCanvas();
+})();
 </script>
-</body>
-</html>
 
-<h2 id="opcion-b">Opcion B<a class="headerlink" href="#opcion-b" title="Permanent link"> </a></h2>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Laboratorio Fractal Interactivo Continuo</title>
-    <style>
-        .fractal-app { font-family: sans-serif; max-width: 550px; margin: 20px auto; text-align: center; color: #333; }
-        .canvas-container { background: #f3f4f6; padding: 10px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid #d1d5db; display: flex; flex-direction: column; gap: 15px; align-items: center; }
-        canvas { background: #ffffff; border: 2px dashed #9ca3af; cursor: crosshair; touch-action: none; display: block; }
-        #chartCanvas { background: #fafafa; border: 1px solid #cbd5e1; cursor: default; }
-        .controls { margin-top: 15px; display: flex; flex-direction: column; gap: 12px; align-items: center; background: #fafafa; padding: 15px; border-radius: 6px; border: 1px solid #e5e7eb; width: 100%; box-sizing: border-box; }
-        .slider-box { display: flex; align-items: center; gap: 10px; width: 100%; justify-content: center; }
-        .btn-group { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
-        button { padding: 10px 15px; font-weight: bold; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9em; }
-        .btn-clear { background: #e5e7eb; color: #1f2937; border: 1px solid #9ca3af; }
-        .btn-add { background: #2563eb; color: white; }
-        .result-box { margin-top: 15px; font-size: 1.25em; font-weight: bold; color: #1e3a8a; background: #e0f2fe; padding: 12px; border-radius: 6px; border: 1px solid #bae6fd; width: 100%; box-sizing: border-box; line-height: 1.5; }
-        input[type=range] { width: 45%; cursor: pointer; }
-    </style>
-</head>
-<body>
+<hr />
+<h2 id="opcion-b">Opción B<a class="headerlink" href="#opcion-b" title="Permanent link"> </a></h2>
+<style>
+  .fractal-app-b {
+    font-family: sans-serif;
+    max-width: 550px;
+    margin: 20px auto;
+    text-align: center;
+    color: #333;
+  }
 
-<div class="fractal-app">
-    <h3>🔬 Laboratorio Dinámico de&nbsp;Box-Counting</h3>
-    <p style="font-size: 0.85em; margin-bottom: 15px; line-height: 1.4;">
-        1. Haz tu dibujo libremente en el lienzo blanco.<br>
-        2. Mueve el deslizador y pulsa <b>&#8220;📌 Registrar Punto Actual&#8221;</b> en diferentes escalas para crear tu propia&nbsp;gráfica.
-    </p>
+  .fractal-app-b .canvas-container {
+    background: #f3f4f6;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 1px solid #d1d5db;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
 
-    <div class="canvas-container">
-        <!-- Lienzo de Dibujo Superior -->
-        <div>
-            <canvas id="chaosCanvas" width="400" height="300"></canvas>
-        </div>
+  .fractal-app-b canvas {
+    background: #ffffff;
+    border: 2px dashed #9ca3af;
+    cursor: crosshair;
+    touch-action: none;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 
-        <!-- Lienzo de la Gráfica de Interpolación Inferior -->
-        <div>
-            <canvas id="chartCanvas" width="400" height="220"></canvas>
-        </div>
+  #chartCanvasB {
+    background: #fafafa;
+    border: 1px solid #cbd5e1;
+    cursor: default;
+  }
+
+  .fractal-app-b .controls {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .fractal-app-b .slider-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .fractal-app-b .btn-group {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .fractal-app-b button {
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+
+  .fractal-app-b .btn-clear {
+    background: #e5e7eb;
+    color: #1f2937;
+    border: 1px solid #9ca3af;
+  }
+
+  .fractal-app-b .btn-add {
+    background: #2563eb;
+    color: white;
+  }
+
+  .fractal-app-b .result-box {
+    margin-top: 15px;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #1e3a8a;
+    background: #e0f2fe;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #bae6fd;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+
+  .fractal-app-b input[type="range"] {
+    width: 45%;
+    cursor: pointer;
+  }
+
+  @media (max-width: 760px) {
+    .fractal-app-b input[type="range"] {
+      width: 100%;
+    }
+  }
+</style>
+
+<div class="fractal-app-b">
+  <h3>🔬 Laboratorio dinámico de&nbsp;box-counting</h3>
+
+  <p style="font-size: 0.85em; margin-bottom: 15px; line-height: 1.4;">
+    1. Haz tu dibujo libremente en el lienzo blanco.<br>
+    2. Mueve el deslizador y pulsa <b>“📌 Registrar punto actual”</b> en diferentes escalas para crear tu propia&nbsp;gráfica.
+  </p>
+
+  <div class="canvas-container">
+    <div>
+      <canvas id="chaosCanvasB" width="400" height="300"></canvas>
     </div>
 
-    <div class="controls">
-        <div class="slider-box">
-            <label for="boxSlider"><b>Escala de Rejilla (ε):</b> <span id="sizeVal">30</span>px</label>
-            <input type="range" id="boxSlider" min="8" max="100" value="30">
-        </div>
+    <div>
+      <canvas id="chartCanvasB" width="400" height="220"></canvas>
+    </div>
+  </div>
 
-        <div class="btn-group">
-            <button class="btn-clear" onclick="resetCanvas()">🗑️ Reiniciar</button>
-            <button id="addPointBtn" class="btn-add" onclick="recordCurrentPoint()">📌 Registrar Punto Actual</button>
-        </div>
+  <div class="controls">
+    <div class="slider-box">
+      <label for="boxSliderB">
+        <b>Escala de rejilla ε:</b> <span id="sizeValB">30</span> px
+      </label>
+      <input type="range" id="boxSliderB" min="8" max="100" value="30">
     </div>
 
-    <div class="result-box" id="result-text">
-        ⚡ Haz un dibujo sobre el lienzo blanco para comenzar.
+    <div class="btn-group">
+      <button class="btn-clear" id="resetBtnB" type="button">🗑️ Reiniciar</button>
+      <button class="btn-add" id="addPointBtnB" type="button">📌 Registrar punto actual</button>
     </div>
+  </div>
+
+  <div class="result-box" id="resultTextB">
+    ⚡ Haz un dibujo sobre el lienzo blanco para comenzar.
+  </div>
 </div>
 
-<!-- Lienzo espejo oculto en memoria para salvar el dibujo original -->
-<canvas id="hiddenCanvas" width="400" height="300" style="display:none;"></canvas>
+<canvas id="hiddenCanvasB" width="400" height="300" style="display:none;"></canvas>
+
 <script>
-const canvas = document.getElementById('chaosCanvas');
-const ctx = canvas.getContext('2d');
-const hiddenCanvas = document.getElementById('hiddenCanvas');
-const hCtx = hiddenCanvas.getContext('2d');
-const chartCanvas = document.getElementById('chartCanvas');
-const chartCtx = chartCanvas.getContext('2d');
+(function () {
+  const canvas = document.getElementById("chaosCanvasB");
+  const ctx = canvas.getContext("2d");
 
-const slider = document.getElementById('boxSlider');
-const sizeVal = document.getElementById('sizeVal');
-const resultText = document.getElementById('result-text');
+  const hiddenCanvas = document.getElementById("hiddenCanvasB");
+  const hCtx = hiddenCanvas.getContext("2d");
 
-let drawing = false;
-let hasPintado = false;
-let registeredPoints = []; 
-let currentBoxesCount = 0;
+  const chartCanvas = document.getElementById("chartCanvasB");
+  const chartCtx = chartCanvas.getContext("2d");
 
-function initCanvases() {
-    ctx.fillStyle = '#ffffff';
+  const slider = document.getElementById("boxSliderB");
+  const sizeVal = document.getElementById("sizeValB");
+  const resultText = document.getElementById("resultTextB");
+
+  const resetBtn = document.getElementById("resetBtnB");
+  const addPointBtn = document.getElementById("addPointBtnB");
+
+  let drawing = false;
+  let hasPintado = false;
+  let registeredPoints = [];
+  let currentBoxesCount = 0;
+
+  function initCanvases() {
+    ctx.fillStyle = "#ffffff";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    hCtx.fillStyle = '#ffffff';
+
+    hCtx.fillStyle = "#ffffff";
     hCtx.fillRect(0, 0, hiddenCanvas.width, hiddenCanvas.height);
 
-    hCtx.strokeStyle = '#000000';
+    hCtx.strokeStyle = "#000000";
     hCtx.lineWidth = 4;
-    hCtx.lineCap = 'round';
-    hCtx.lineJoin = 'round';
+    hCtx.lineCap = "round";
+    hCtx.lineJoin = "round";
 
     drawNativeChart([], [], null, null);
-}
+  }
 
-function getPos(e) {
+  function getPos(e) {
     const rect = canvas.getBoundingClientRect();
+
     let clientX = e.clientX;
     let clientY = e.clientY;
+
     if (e.touches && e.touches.length > 0) {
-        clientX = e.touches[0].clientX;
-        clientY = e.touches[0].clientY;
+      clientX = e.touches[0].clientX;
+      clientY = e.touches[0].clientY;
     }
-    return { x: clientX - rect.left, y: clientY - rect.top };
-}
 
-canvas.addEventListener('mousedown', (e) => { drawing = true; hasPintado = true; const pos = getPos(e); hCtx.beginPath(); hCtx.moveTo(pos.x, pos.y); });
-canvas.addEventListener('mousemove', (e) => { if (!drawing) return; const pos = getPos(e); hCtx.lineTo(pos.x, pos.y); hCtx.stroke(); drawGrid(); });
-canvas.addEventListener('mouseup', () => { drawing = false; drawGrid(); });
-canvas.addEventListener('mouseleave', () => { drawing = false; });
+    return {
+      x: clientX - rect.left,
+      y: clientY - rect.top
+    };
+  }
 
-canvas.addEventListener('touchstart', (e) => { e.preventDefault(); drawing = true; hasPintado = true; const pos = getPos(e); hCtx.beginPath(); hCtx.moveTo(pos.x, pos.y); });
-canvas.addEventListener('touchmove', (e) => { e.preventDefault(); if (!drawing) return; const pos = getPos(e); hCtx.lineTo(pos.x, pos.y); hCtx.stroke(); drawGrid(); });
-canvas.addEventListener('touchend', () => { drawing = false; drawGrid(); });
+  function startDrawing(e) {
+    drawing = true;
+    hasPintado = true;
 
-slider.addEventListener('input', () => {
+    const pos = getPos(e);
+    hCtx.beginPath();
+    hCtx.moveTo(pos.x, pos.y);
+  }
+
+  function draw(e) {
+    if (!drawing) return;
+
+    const pos = getPos(e);
+    hCtx.lineTo(pos.x, pos.y);
+    hCtx.stroke();
+    drawGrid();
+  }
+
+  function stopDrawing() {
+    drawing = false;
+    drawGrid();
+  }
+
+  canvas.addEventListener("mousedown", startDrawing);
+  canvas.addEventListener("mousemove", draw);
+  canvas.addEventListener("mouseup", stopDrawing);
+  canvas.addEventListener("mouseleave", stopDrawing);
+
+  canvas.addEventListener("touchstart", function (e) {
+    e.preventDefault();
+    startDrawing(e);
+  });
+
+  canvas.addEventListener("touchmove", function (e) {
+    e.preventDefault();
+    draw(e);
+  });
+
+  canvas.addEventListener("touchend", function (e) {
+    e.preventDefault();
+    stopDrawing();
+  });
+
+  slider.addEventListener("input", function () {
     sizeVal.innerText = slider.value;
     drawGrid();
-});
+  });
 
-function drawGrid() {
-    ctx.fillStyle = '#ffffff';
+  function drawGrid() {
+    ctx.fillStyle = "#ffffff";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.drawImage(hiddenCanvas, 0, 0);
 
@@ -488,221 +723,320 @@ function drawGrid() {
     const w = canvas.width;
     const h = canvas.height;
     const imgData = hCtx.getImageData(0, 0, w, h).data;
+
     currentBoxesCount = 0;
 
     for (let y = 0; y < h; y += boxSize) {
-        for (let x = 0; x < w; x += boxSize) {
-            let hasBlackPixel = false;
-            for (let by = 0; by < boxSize && (y + by) < h; by++) {
-                for (let bx = 0; bx < boxSize && (x + bx) < w; bx++) {
-                    const idx = ((y + by) * w + (x + bx)) * 4;
-                    if (imgData[idx] < 220 && imgData[idx+1] < 220 && imgData[idx+2] < 220) { hasBlackPixel = true; break; }
-                }
-                if (hasBlackPixel) break;
-            }
+      for (let x = 0; x < w; x += boxSize) {
+        let hasBlackPixel = false;
 
-            if (hasBlackPixel) {
-                ctx.fillStyle = 'rgba(37, 99, 235, 0.22)';
-                ctx.fillRect(x, y, boxSize, boxSize);
-                ctx.strokeStyle = 'rgba(37, 99, 235, 0.5)';
-                currentBoxesCount++;
-            } else {
-                ctx.strokeStyle = 'rgba(156, 163, 175, 0.12)';
+        for (let by = 0; by < boxSize && y + by < h; by++) {
+          for (let bx = 0; bx < boxSize && x + bx < w; bx++) {
+            const idx = ((y + by) * w + (x + bx)) * 4;
+
+            if (
+              imgData[idx] < 220 &&
+              imgData[idx + 1] < 220 &&
+              imgData[idx + 2] < 220
+            ) {
+              hasBlackPixel = true;
+              break;
             }
-            ctx.lineWidth = 1;
-            ctx.strokeRect(x, y, boxSize, boxSize);
+          }
+
+          if (hasBlackPixel) break;
         }
+
+        if (hasBlackPixel) {
+          ctx.fillStyle = "rgba(37, 99, 235, 0.22)";
+          ctx.fillRect(x, y, boxSize, boxSize);
+          ctx.strokeStyle = "rgba(37, 99, 235, 0.5)";
+          currentBoxesCount++;
+        } else {
+          ctx.strokeStyle = "rgba(156, 163, 175, 0.12)";
+        }
+
+        ctx.lineWidth = 1;
+        ctx.strokeRect(x, y, boxSize, boxSize);
+      }
     }
 
-    if (hasPintado && !drawing) updateResultUI();
-}
+    if (hasPintado && !drawing) {
+      updateResultUI();
+    }
+  }
 
-function recordCurrentPoint() {
+  function recordCurrentPoint() {
     if (!hasPintado || currentBoxesCount === 0) {
-        resultText.innerHTML = "⚠️ ¡Primero dibuja algo en el lienzo!";
-        return;
+      resultText.innerHTML = "⚠️ Primero dibuja algo en el lienzo.";
+      return;
     }
 
     const boxSize = parseInt(slider.value);
     const valX = Math.log(1 / boxSize);
     const valY = Math.log(currentBoxesCount);
 
-    if (registeredPoints.some(p => p.size === boxSize)) {
-        resultText.innerHTML = `⚠️ El tamaño de ${boxSize}px ya está registrado en la gráfica.`;
-        return;
+    if (registeredPoints.some(function (p) { return p.size === boxSize; })) {
+      resultText.innerHTML = "⚠️ El tamaño de " + boxSize + " px ya está registrado.";
+      return;
     }
 
-    registeredPoints.push({ size: boxSize, x: valX, y: valY });
-    registeredPoints.sort((a, b) => a.x - b.x);
+    registeredPoints.push({
+      size: boxSize,
+      x: valX,
+      y: valY
+    });
+
+    registeredPoints.sort(function (a, b) {
+      return a.x - b.x;
+    });
+
     updateCalculationsAndChart();
-}
-function updateCalculationsAndChart() {
-    const logX = registeredPoints.map(p => p.x);
-    const logY = registeredPoints.map(p => p.y);
+  }
+
+  function updateCalculationsAndChart() {
+    const logX = registeredPoints.map(function (p) { return p.x; });
+    const logY = registeredPoints.map(function (p) { return p.y; });
     const n = registeredPoints.length;
 
     if (n < 2) {
-        drawNativeChart(logX, logY, null, null);
-        updateResultUI();
-        return;
+      drawNativeChart(logX, logY, null, null);
+      updateResultUI();
+      return;
     }
 
-    let sX = 0, sY = 0, sXY = 0, sXX = 0;
+    let sX = 0;
+    let sY = 0;
+    let sXY = 0;
+    let sXX = 0;
+
     for (let i = 0; i < n; i++) {
-        sX += logX[i]; sY += logY[i];
-        sXY += logX[i] * logY[i]; sXX += logX[i] * logX[i];
+      sX += logX[i];
+      sY += logY[i];
+      sXY += logX[i] * logY[i];
+      sXX += logX[i] * logX[i];
     }
-    const slope = (n * sXY - sX * sY) / (n * sXX - sX * sX);
+
+    const denominator = n * sXX - sX * sX;
+
+    if (denominator === 0) {
+      resultText.innerHTML = "⚠️ No se pudo calcular la dimensión. Registra escalas distintas.";
+      return;
+    }
+
+    const slope = (n * sXY - sX * sY) / denominator;
     const intercept = (sY - slope * sX) / n;
     const d = Math.abs(slope);
 
     drawNativeChart(logX, logY, slope, intercept);
-    resultText.innerHTML = `🔲 Puntos registrados: <b>${n}</b><br>🔮 Dimensión Fractal: <span style="color:#ef4444;"><b>${d.toFixed(2)}</b></span>`;
-}
 
-function updateResultUI() {
+    resultText.innerHTML =
+      "🔲 Puntos registrados: <b>" + n + "</b><br>" +
+      "🔮 Dimensión fractal: <span style='color:#ef4444;'><b>" + d.toFixed(2) + "</b></span>";
+  }
+
+  function updateResultUI() {
     const boxSize = parseInt(slider.value);
     const nPoints = registeredPoints.length;
-    if (nPoints >= 2) {
-        updateCalculationsAndChart();
-    } else {
-        resultText.innerHTML = `🔲 Rejilla (ε): <b>${boxSize}px</b> | Cajas (N): <b>${currentBoxesCount}</b><br><span style="font-size:0.8em; color:#555; font-weight:normal;">Puntos en gráfica: ${nPoints}/2 registrados para calcular la recta.</span>`;
-    }
-}
 
-function drawNativeChart(xData, yData, slope, intercept) {
-    const W = chartCanvas.width; const H = chartCanvas.height;
+    if (nPoints >= 2) {
+      updateCalculationsAndChart();
+    } else {
+      resultText.innerHTML =
+        "🔲 Rejilla ε: <b>" + boxSize + " px</b> | Cajas N: <b>" + currentBoxesCount + "</b><br>" +
+        "<span style='font-size:0.8em; color:#555; font-weight:normal;'>" +
+        "Puntos en gráfica: " + nPoints + "/2 registrados para calcular la recta." +
+        "</span>";
+    }
+  }
+
+  function drawNativeChart(xData, yData, slope, intercept) {
+    const W = chartCanvas.width;
+    const H = chartCanvas.height;
+
     chartCtx.clearRect(0, 0, W, H);
 
-    const padLeft = 55; const padBottom = 40; const padRight = 25; const padTop = 25;
-    const gW = W - padLeft - padRight; const gH = H - padTop - padBottom;
+    const padLeft = 55;
+    const padBottom = 40;
+    const padRight = 25;
+    const padTop = 25;
 
-    chartCtx.strokeStyle = '#000000';
+    const gW = W - padLeft - padRight;
+    const gH = H - padTop - padBottom;
+
+    chartCtx.strokeStyle = "#000000";
     chartCtx.lineWidth = 2;
+
     chartCtx.beginPath();
-    chartCtx.moveTo(padLeft, H - padBottom); chartCtx.lineTo(W - padRight, H - padBottom);
-    chartCtx.moveTo(padLeft, padTop); chartCtx.lineTo(padLeft, H - padBottom);
+    chartCtx.moveTo(padLeft, H - padBottom);
+    chartCtx.lineTo(W - padRight, H - padBottom);
+    chartCtx.moveTo(padLeft, padTop);
+    chartCtx.lineTo(padLeft, H - padBottom);
     chartCtx.stroke();
 
-    chartCtx.fillStyle = '#1e293b';
-    chartCtx.font = 'bold 11px sans-serif';
-    chartCtx.fillText("Eje X: log(1/ε)", W - padRight - 80, H - padBottom + 32);
+    chartCtx.fillStyle = "#1e293b";
+    chartCtx.font = "bold 11px sans-serif";
+    chartCtx.fillText("Eje X: log(1/ε)", W - padRight - 95, H - padBottom + 32);
 
     chartCtx.save();
-    chartCtx.translate(padLeft - 40, padTop + 45);
+    chartCtx.translate(padLeft - 40, padTop + 70);
     chartCtx.rotate(-Math.PI / 2);
     chartCtx.fillText("Eje Y: log(N)", 0, 0);
     chartCtx.restore();
 
     if (xData.length === 0) {
-        chartCtx.strokeStyle = '#e2e8f0'; chartCtx.lineWidth = 1;
-        for(let i=1; i<=4; i++) {
-            let cx = padLeft + (i/5)*gW; let cy = H - padBottom - (i/5)*gH;
-            chartCtx.beginPath(); chartCtx.moveTo(cx, H-padBottom); chartCtx.lineTo(cx, padTop); chartCtx.stroke();
-            chartCtx.beginPath(); chartCtx.moveTo(padLeft, cy); chartCtx.lineTo(W-padRight, cy); chartCtx.stroke();
-        }
-        return;
+      chartCtx.strokeStyle = "#e2e8f0";
+      chartCtx.lineWidth = 1;
+
+      for (let i = 1; i <= 4; i++) {
+        const cx = padLeft + (i / 5) * gW;
+        const cy = H - padBottom - (i / 5) * gH;
+
+        chartCtx.beginPath();
+        chartCtx.moveTo(cx, H - padBottom);
+        chartCtx.lineTo(cx, padTop);
+        chartCtx.stroke();
+
+        chartCtx.beginPath();
+        chartCtx.moveTo(padLeft, cy);
+        chartCtx.lineTo(W - padRight, cy);
+        chartCtx.stroke();
+      }
+
+      return;
     }
 
-    let minX = Math.min(...xData), maxX = Math.max(...xData);
-    let minY = Math.min(...yData), maxY = Math.max(...yData);
-    if(minX === maxX) { minX -= 0.5; maxX += 0.5; }
-    if(minY === maxY) { minY -= 0.5; maxY += 0.5; }
-    const spanX = maxX - minX, spanY = maxY - minY;
+    let minX = Math.min.apply(null, xData);
+    let maxX = Math.max.apply(null, xData);
+    let minY = Math.min.apply(null, yData);
+    let maxY = Math.max.apply(null, yData);
+
+    if (minX === maxX) {
+      minX -= 0.5;
+      maxX += 0.5;
+    }
+
+    if (minY === maxY) {
+      minY -= 0.5;
+      maxY += 0.5;
+    }
+
+    const spanX = maxX - minX;
+    const spanY = maxY - minY;
 
     function toScreen(x, y) {
-        return { x: padLeft + ((x - minX) / spanX) * gW, y: H - padBottom - ((y - minY) / spanY) * gH };
+      return {
+        x: padLeft + ((x - minX) / spanX) * gW,
+        y: H - padBottom - ((y - minY) / spanY) * gH
+      };
     }
 
-    chartCtx.strokeStyle = '#e2e8f0'; chartCtx.lineWidth = 1;
-    chartCtx.fillStyle = '#64748b'; chartCtx.font = '9px sans-serif';
+    chartCtx.strokeStyle = "#e2e8f0";
+    chartCtx.lineWidth = 1;
+    chartCtx.fillStyle = "#64748b";
+    chartCtx.font = "9px sans-serif";
 
     for (let i = 0; i <= 4; i++) {
-        const factor = i / 4;
-        const curX = minX + factor * spanX; const curY = minY + factor * spanY;
-        const sPt = toScreen(curX, curY);
+      const factor = i / 4;
+      const curX = minX + factor * spanX;
+      const curY = minY + factor * spanY;
+      const sPt = toScreen(curX, curY);
 
-        chartCtx.beginPath(); chartCtx.moveTo(sPt.x, H - padBottom); chartCtx.lineTo(sPt.x, H - padBottom + 5); chartCtx.stroke();
-        chartCtx.fillText(curX.toFixed(2), sPt.x - 10, H - padBottom + 16);
+      chartCtx.beginPath();
+      chartCtx.moveTo(sPt.x, H - padBottom);
+      chartCtx.lineTo(sPt.x, H - padBottom + 5);
+      chartCtx.stroke();
 
-        chartCtx.beginPath(); chartCtx.moveTo(padLeft - 5, sPt.y); chartCtx.lineTo(padLeft, sPt.y); chartCtx.stroke();
-        chartCtx.fillText(curY.toFixed(1), padLeft - 32, sPt.y + 3);
+      chartCtx.fillText(curX.toFixed(2), sPt.x - 10, H - padBottom + 16);
+
+      chartCtx.beginPath();
+      chartCtx.moveTo(padLeft - 5, sPt.y);
+      chartCtx.lineTo(padLeft, sPt.y);
+      chartCtx.stroke();
+
+      chartCtx.fillText(curY.toFixed(1), padLeft - 32, sPt.y + 3);
     }
 
     if (slope !== null) {
-        chartCtx.strokeStyle = '#ef4444'; chartCtx.lineWidth = 2.5;
-        chartCtx.beginPath();
-        chartCtx.moveTo(toScreen(minX, slope * minX + intercept).x, toScreen(minX, slope * minX + intercept).y);
-        chartCtx.lineTo(toScreen(maxX, slope * maxX + intercept).x, toScreen(maxX, slope * maxX + intercept).y);
-        chartCtx.stroke();
+      const p1 = toScreen(minX, slope * minX + intercept);
+      const p2 = toScreen(maxX, slope * maxX + intercept);
+
+      chartCtx.strokeStyle = "#ef4444";
+      chartCtx.lineWidth = 2.5;
+
+      chartCtx.beginPath();
+      chartCtx.moveTo(p1.x, p1.y);
+      chartCtx.lineTo(p2.x, p2.y);
+      chartCtx.stroke();
     }
 
-    chartCtx.fillStyle = '#2563eb';
+    chartCtx.fillStyle = "#2563eb";
+
     for (let i = 0; i < xData.length; i++) {
-        const pt = toScreen(xData[i], yData[i]);
-        chartCtx.beginPath(); chartCtx.arc(pt.x, pt.y, 5.5, 0, 2 * Math.PI); chartCtx.fill();
-        chartCtx.strokeStyle = '#ffffff'; chartCtx.lineWidth = 1.5; chartCtx.stroke();
+      const pt = toScreen(xData[i], yData[i]);
+
+      chartCtx.beginPath();
+      chartCtx.arc(pt.x, pt.y, 5.5, 0, 2 * Math.PI);
+      chartCtx.fill();
+
+      chartCtx.strokeStyle = "#ffffff";
+      chartCtx.lineWidth = 1.5;
+      chartCtx.stroke();
     }
-}
+  }
 
-function resetCanvas() {
-    hasPintado = false; drawing = false; registeredPoints = []; currentBoxesCount = 0;
-    slider.value = 30; sizeVal.innerText = 30;
+  function resetCanvas() {
+    hasPintado = false;
+    drawing = false;
+    registeredPoints = [];
+    currentBoxesCount = 0;
+
+    slider.value = 30;
+    sizeVal.innerText = 30;
+
     initCanvases();
+
     resultText.innerHTML = "⚡ Haz un dibujo sobre el lienzo blanco para comenzar.";
-}
+  }
 
-initCanvases();
+  resetBtn.addEventListener("click", resetCanvas);
+  addPointBtn.addEventListener("click", recordCurrentPoint);
+
+  initCanvases();
+})();
 </script>
-</body>
-</html>
 
-<!-- Texto normal -->
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
-<h3 id="sub-seccion">Sub-Sección<a class="headerlink" href="#sub-seccion" title="Permanent link"> </a></h3>
-<!-- Preguntas con recuadro bonito -->
+<hr />
+<h2 id="texto-normal">Texto normal<a class="headerlink" href="#texto-normal" title="Permanent link"> </a></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna&nbsp;aliqua.</p>
+<h3 id="sub-seccion">Sub-sección<a class="headerlink" href="#sub-seccion" title="Permanent link"> </a></h3>
 <blockquote>
-<p><strong>¿Cuánta el gramo&nbsp;quillo?</strong></p>
+<p><strong>¿Cuánto cuesta el gramo,&nbsp;quillo?</strong></p>
 </blockquote>
-<!-- Fin pregunta con recuadro bonito -->
-
 <p>Fórmulas:</p>
-<!-- Fórmula en bloque: en entorno $$ $$, todo es como LaTeX -->
 <div class="math">$$
 \rho c_p \frac{\partial T}{\partial t} = k \nabla^2 T + Q_{\text{abs}}
 $$</div>
-<!-- Fórmula en línea de texto -->
 <p>Se puede usar $ \alpha $ como en&nbsp;LaTeX.</p>
-<!-- Obsoleto: mejor no usar \( ... \) -->
-<p>obsoleto: bla bla bla (J) lari lari&nbsp;lari</p>
-<!-- Subíndice fuera de entorno matemático -->
-<p>c<sub>p</sub></p>
-<!-- Negrita y cursiva -->
+<p>Subíndice fuera de entorno matemático: c<sub>p</sub>.</p>
 <p>Negrita y cursiva: <strong>una paradoja</strong>. <em>una paradoja</em>.</p>
-<!-- Lista (el espacio entre : y los - es necesario, también con la siguiente linea y el ultimo - tenedlo en cuenta-->
 <p>Presentan:</p>
 <ul>
-<li>nanani nanana&nbsp;nanano.  </li>
-<li>abc cba&nbsp;caracola</li>
-<li>Maka make&nbsp;maki</li>
+<li>nanani nanana&nbsp;nanano.</li>
+<li>abc cba&nbsp;caracola.</li>
+<li>maka make&nbsp;maki.</li>
 </ul>
-<!-- Citas dentro del texto -->
-<p>El texto que queréis referenciar va así <a class="nn-cite" href="#ref-1">[1]</a>.
+<p>El texto que queréis referenciar va así <a class="nn-cite" href="#ref-1">[1]</a>.<br />
 Otra cita distinta iría así <a class="nn-cite" href="#ref-2">[2]</a>.</p>
-<!-- Fin de Sección -->
 <hr />
 <h2 id="otra-seccion">Otra sección<a class="headerlink" href="#otra-seccion" title="Permanent link"> </a></h2>
 <p>Texto antes de la&nbsp;imagen.</p>
-<!-- Una imagen va así -->
-<p><img alt="Descripción de la imagen" src="images/nombre_de_la_imagen.png" /></p>
-<!-- Opcional: pie de foto -->
+<p><img alt="Descripción de la imagen" src="https://napkinnotes.es/images/nombre_de_la_imagen.png" /></p>
 <p><em>Figura 1. Breve explicación de la&nbsp;imagen.</em></p>
 <p>Texto tras la&nbsp;imagen.</p>
-<!-- Fin de Sección -->
 <hr />
 <h2 id="conclusiones">Conclusiones<a class="headerlink" href="#conclusiones" title="Permanent link"> </a></h2>
-<p>Frases&nbsp;finales</p>
+<p>Frases&nbsp;finales.</p>
 <hr />
 <h2 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link"> </a></h2>
 <ol class="nn-references">
