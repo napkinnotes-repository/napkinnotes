@@ -285,6 +285,30 @@ image: images/nombre_de_la_imagen.png
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Opción B
 
 <style>
