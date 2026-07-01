@@ -9,7 +9,7 @@ category: Música # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
   - música
   - matemáticas
-summary: Millones de personas escuchamos música a diario. Mientras trabajamos, practicamos algún deporte, viajamos o pasamos la aspiradora. Lo que quizás no sabías es que toda la música que escuchamos está desafinada, según Pitágoras. Explicamos por qué en este napkin notes.
+summary: Millones de personas escuchamos música a diario mientras trabajamos, practicamos algún deporte, viajamos o pasamos la aspiradora. Lo que quizás no sabías es que toda la música que escuchamos está desafinada, según Pitágoras. En esta servilleta te explicamos por qué.
 image: images/portada_matematicas_desafinan.jpeg # imagen principal del artículo
 ---
 
@@ -72,7 +72,7 @@ El sistema temperado o temperamento igual es el sistema de afinación comúnment
 <!-- Opcional: pie de foto -->
 *Comparación entre el sistema temperado (en negro) y el pitagórico (en verde) para diferentes intervalos, en cents. Una octava completa equivale a 1200 cents.*
 
-Como podréis imaginar, diseñar un piano con este sistema es muchísimo más sencillo que con la afinación pitagórica. Probablemente Pitágoras no estaría muy contento con nuestro sistema, ya que se basa en el número irracional $2^{1/12}$, lo que para él destruye la armonía del cosmos. Os dejo algunos enlaces en los que podéis escuchar estos dos sistemas, a ver si sois capaces de escuchar la diferencia! 
+Como podréis imaginar, diseñar un piano con este sistema es muchísimo más sencillo que con la afinación pitagórica. Probablemente Pitágoras no estaría muy contento con nuestro sistema, ya que se basa en el número irracional $2^{1/12}$, lo que para él destruye la armonía del cosmos. Os dejo algunos enlaces en los que podéis escuchar estos dos sistemas, ¡a ver si sois capaces de escuchar la diferencia! 
 
 
 ## Referencias
