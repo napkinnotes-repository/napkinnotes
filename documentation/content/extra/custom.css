@@ -956,6 +956,18 @@ footer a,
   font-size: clamp(2.7rem, 5vw, 4.4rem);
   line-height: 0.98;
 }
+/*Esto arregla los saltos de liena al gusto y ademas evita partir palabras en los titulos que no es estetico*/
+/* Por defecto (en ordenador), ocultamos el salto de línea */
+.nn-article-hero__title br {
+  display: none;
+}
+
+/* En pantallas móviles (640px o menos), volvemos a activar el salto de línea */
+@media (max-width: 640px) {
+  .nn-article-hero__title br {
+    display: inline;
+  }
+}
 
 .nn-article-hero__subtitle {
   max-width: 55ch;
