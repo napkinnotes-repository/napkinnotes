@@ -33,7 +33,7 @@ La quinta y la octava son intervalos muy armónicos y matemáticamente muy "puro
   <figcaption>
     Figura 1. Armónicos de una cuerda.
     <br>
-    <span>Relaciones entre las longitudes de onda de una nota fundamental y sus armónicos principales. <a href="https://www.deviolines.com/armonicos-que-son-y-como-se-tocan-en-el-violin/" target="_blank" rel="noopener noreferrer">Fuente de la imagen aquí.</a></span>.
+    <span>Relaciones entre las longitudes de onda de una nota fundamental y sus armónicos principales. <a href="https://www.deviolines.com/armonicos-que-son-y-como-se-tocan-en-el-violin/" target="_blank" rel="noopener noreferrer">Fuente de la imagen aquí</a></span>.
   </figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ El sistema temperado o temperamento igual es el sistema de afinación comúnment
 <figure class="nn-article-figure">
   <img src="{static}/images/compare_matematicas_desafinan.png" alt="Sistema temperado y pitagórico">
   <figcaption>
-    Figura 3. Comparación entre el sistema temperado y el sistema pitagórico. <a href="https://en.wikipedia.org/wiki/Pythagorean_tuning#/media/File:Music_intervals_frequency_ratio_equal_tempered_pythagorean_comparison.svg" target="_blank" rel="noopener noreferrer">Fuente de la imagen aquí (imagen de dominio público).</a></span>.
+    Figura 3. Comparación entre el sistema temperado y el sistema pitagórico. <a href="https://en.wikipedia.org/wiki/Pythagorean_tuning#/media/File:Music_intervals_frequency_ratio_equal_tempered_pythagorean_comparison.svg" target="_blank" rel="noopener noreferrer">Fuente de la imagen aquí (imagen de dominio público)</a></span>.
   </figcaption>
 </figure>
 <!-- Opcional: pie de foto -->
