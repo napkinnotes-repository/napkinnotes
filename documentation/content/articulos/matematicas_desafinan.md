@@ -1,12 +1,12 @@
 ---
 title: Cuando las matemáticas desafinan
-author: María Pérez Garrote # mismo nombre que en la tarjeta de autor
-date: 2026-07-02 # formato YYYY-MM-DD
+author: María Pérez Garrote 
+date: 2026-07-02 
 layout: articles
 slug: matematicas_desafinan
-status: published # published si ya está listo
-category: Música # categoría con mayúscula inicial
-tags: # tags con minúscula inicial
+status: published 
+category: Música
+tags:
   - música
   - matemáticas
 summary: Millones de personas escuchamos música a diario mientras trabajamos, practicamos algún deporte, viajamos o pasamos la aspiradora. Lo que quizás no sabías es que toda la música que escuchamos está desafinada, según Pitágoras. En esta servilleta te explicamos por qué.
