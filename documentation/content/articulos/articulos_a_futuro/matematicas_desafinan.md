@@ -15,7 +15,7 @@ image: images/portada_matematicas_desafinan.jpeg # imagen principal del artícul
 
 [TOC]
 
-Todo se remonta a la antigua Grecia. El filósofo Pitágoras de Samos encabeza una escuela filosófica en la que las matemáticas y los números son la esencia de toda la naturaleza y la vida, incluyendo la música. Por ello, se atribuye a Pitágoras el descubrimiento de la relación entre la aritmética y la escala musical, llamada afinación pitagórica. Este sistema se fundamenta en una escala musical construida sobre intervalos de quintas perfectas de razón $3/2$. Veamos las matemáticas que se esconden tras este número.
+Todo se remonta a la antigua Grecia. El filósofo Pitágoras de Samos encabeza una escuela filosófica en la que las matemáticas y los números son la esencia de toda la naturaleza y la vida, incluyendo la música. Por ello, se atribuye a Pitágoras el descubrimiento de la relación entre la aritmética y la escala musical, llamada afinación pitagórica. Este sistema se fundamenta en una escala musical construida sobre intervalos de quintas perfectas de razón $3:2$. Veamos las matemáticas que se esconden tras este número.
 
 
 ## Pitágoras inventa su escala musical
