@@ -11,6 +11,7 @@ tags:
   - matemáticas
 summary: Millones de personas escuchamos música a diario mientras trabajamos, practicamos algún deporte, viajamos o pasamos la aspiradora. Lo que quizás no sabías es que toda la música que escuchamos está desafinada, según Pitágoras. En esta servilleta te explicamos por qué.
 image: images/portada_matematicas_desafinan.jpeg # imagen principal del artículo
+certificate: true
 ---
 
 [TOC]
