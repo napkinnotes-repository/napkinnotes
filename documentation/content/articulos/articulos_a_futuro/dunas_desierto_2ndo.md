@@ -21,17 +21,17 @@ image: images/dunas_desiertos_2nd.png
 
 En el anterior artículo os expliqué qué necesitamos para formar una duna: arena, viento y un obstáculo. Hoy vamos a analizar la duna en sí, qué forma tiene una duna básica y cuál es su clasificación morfológica. Y nos quedará una tercera y última entrega de la serie en la que hablaremos de dunas extraterrestres, en otros cuerpos del Sistema Solar.
 
-Antes de comenzar, debo admitir que en la anterior entrega realicé una simplificación que hay que aclarar aquí. Hablé de un obstáculo como condición necesaria para la formación de una duna. Sin embargo, las denominadas dunas *libres*, como las de la fotografía en la cabecera del artículo, se forman en desiertos muy arenosos como el Sahara, donde hay además poca vegetación. Lo que está ocurriendo aquí es que, bajo vientos constantes, cualquier pequeña acumulación de arena que supere la altura uniforme del desierto va a ejercer como dicho obstáculo.
+Antes de comenzar, debo admitir que en el primer artículo realicé una simplificación que hay que aclarar aquí. Hablé de un obstáculo como condición necesaria para la formación de una duna. Sin embargo, las denominadas dunas *libres*, como las de la fotografía de cabecera, se forman en desiertos muy arenosos como el Sahara, donde hay además poca vegetación. Es decir, sin obstáculo. Lo que está ocurriendo aquí es que, bajo vientos constantes, cualquier pequeña acumulación de arena que supere la altura uniforme del desierto va a ejercer como dicho obstáculo.
 
 # Estructura de una duna
 
-A pesar de que la variabilidad en las dunas es enorme, la mayor parte de las dunas tiene una morfología común en su sección eficaz longitudinal. Esta morfología asimétrica consiste en dos pendientes con ángulos distintos con respecto a la horizontal:
+A pesar de que la variabilidad en las dunas es enorme, la mayor parte tiene una morfología común en su vista lateral. Esta morfología asimétrica consiste en dos pendientes con ángulos distintos respecto de la horizontal:
 
 - **Barlovento:** parte de la duna que recibe las ráfagas de viento, con una pendiente suave, ya que los granos de arena van poco a poco subiendo dicha pendiente arrastrados por el viento.
 
 - **Sotavento:** zona inmediatamente posterior a la cresta de la duna en la dirección en la que sopla el viento. El viento empuja la arena, que cae de forma abrupta tras superar la cresta.
 
-Esta estructura la podemos observar en la Figura 1, en la que se ven indicadas todas las partes de la duna junto con la dirección del viento.
+Podemos observar esta estructura en la Figura 1, en la que se ven indicadas todas las partes de la duna junto con la dirección del viento.
 
 Es importante entender que esta estructura es muy común, pero no universal, y aparece sobre todo en las denominadas dunas libres que ya hemos comentado más arriba. En cambio, una duna creada debido a un obstáculo muy localizado, como un arbusto o un árbol, llamadas *nebkha* por su nombre en árabe, forma un montículo con simetría circular alrededor del obstáculo.
 
@@ -66,7 +66,7 @@ En términos de morfología, la principal clasificación es entre dunas libres y
 
 Centrándonos ahora en las dunas libres, encontramos distintos tipos, muy interesantes si es que te interesan los tipos de dunas. Que no es algo baladí. Comentaré los detalles de los dos tipos más vistosos, que podéis ver en las Figuras 2 y 3:
 
-- **Dunas barján:** tienen una estructura longitudinal idéntica a la estándar de la Figura 1, mientras que su planta adquiere forma de creciente lunar, con dos pronunciados cuernos apuntando en la dirección del viento. Se forman cuando el viento tiene muy poca variabilidad direccional y cuando el suelo debajo de la arena es duro y no erosionable. En ausencia de vegetación son dunas migrantes, es decir, avanzan en la dirección del viento.
+- **Dunas barján:** tienen una estructura longitudinal idéntica a la estándar de la Figura 1, mientras que su planta adquiere forma de creciente lunar, con dos pronunciados cuernos apuntando en la dirección del viento. Se forman cuando el viento tiene muy poca variabilidad direccional y cuando el suelo bajo la arena es duro y no erosionable. En ausencia de vegetación son dunas migrantes, es decir, avanzan en la dirección del viento.
 
 - **Dunas estrella:** para pensar en cómo se forman este tipo de dunas solo tenemos que imaginar una duna con base muy móvil en una región en la que la dirección del viento varía mucho y muy frecuentemente. Pueden formar redes dúnicas —he disfrutado escribiendo estas palabras— de tamaños kilométricos.
 
@@ -81,13 +81,13 @@ A pesar de que solo he mencionado explícitamente la morfología al introducirla
 
 En España, el Parque Nacional de Doñana es un ejemplo muy interesante por la presencia de dos tipos de dunas independientes. Por un lado, cerca de la costa, aparecen dunas fijadas a la vegetación en la parte trasera de la playa. Estas dunas son inmóviles, al contrario que el famosísimo sistema de dunas móviles de Doñana, que surgen debido al viento muy continuado del suroeste.
 
-Estas dunas móviles son libres y de tipo barján, con la particularidad de que los cuernos de las dunas se han unido unos con otros, formando frentes de dunas móviles paralelas a la costa. Estas dunas no quedan fijadas a la vegetación, a pesar de que la vegetación existe. Una de las razones para ello es su altura, que hace que la cresta de las dunas esté por encima de los árboles, por lo que acaban avanzando varios metros por año. Las podéis ver en la Figura 4.
+Estas dunas móviles en Doñana son libres y de tipo barján, con la particularidad de que los cuernos de las dunas se han unido unos con otros, formando frentes de dunas móviles paralelas a la costa. Estas dunas no quedan fijadas a la vegetación, a pesar de que la vegetación existe. Una de las razones para ello es su altura, que hace que la cresta de las dunas esté por encima de los árboles, por lo que acaban avanzando varios metros por año. Las podéis ver en la Figura 4.
 
 Vamos a parar aquí. Nos falta la tercera categoría de clasificación, basada en el tamaño de las dunas. Y la dejamos para más adelante precisamente porque la creación de esta categoría se debe a la existencia de dunas espaciales de distinto tamaño a las de la Tierra.
 
 # Referencias
 
-[1] S. Courrech du Pont et al. (2024). *Complementary classification of aeolian dunes based on morphology, dynamics, and fluid mechanics*. **Earth-Science Reviews**, 255, 104772.
+[1] S. Courrech du Pont et al. (2024). *Complementary classification of aeolian dunes based on morphology, dynamics, and fluid mechanics*. **Earth-Science Reviews**, 255, 104772. https://doi.org/10.1016/j.earscirev.2024.104772
 
 La imagen de cabecera y las Figuras 2 y 3 han sido adaptadas de [1], publicadas bajo licencia CC BY-NC 4.0. Se han realizado modificaciones. La licencia puede consultarse en:  
 https://creativecommons.org/licenses/by-nc/4.0/
