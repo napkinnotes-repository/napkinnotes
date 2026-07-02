@@ -12,6 +12,7 @@ tags: # tags con minúscula inicial
   - bli bli
 summary: aaaaa # 1-2 frases cortas para la tarjeta del artículo
 image: images/nombre_de_la_imagen.png # imagen principal del artículo
+certificate: true
 ---
 
 [TOC]
