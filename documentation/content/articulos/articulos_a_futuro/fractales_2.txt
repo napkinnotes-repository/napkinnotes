@@ -3,8 +3,6 @@ title: aaa
 author: aaa
 date: 2026-03-15
 layout: articles
-slug: prueba-interactivo
-status: hidden
 category: aaa
 tags:
   - bla
