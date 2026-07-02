@@ -1,10 +1,10 @@
 ---
-title: "La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales?" # vuestro título
-author: Paz Albares Vicente # mismo nombre que en la tarjeta de autor
+title: "La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales?" 
+author: Paz Albares Vicente
 date: 2026-06-04 # formato YYYY-MM-DD
 layout: articles
-status: published # published si ya está listo
-category: Matemáticas # categoría con mayúscula inicial
+status: published 
+category: Matemáticas 
 tags: # tags con minúscula inicial
   - matemáticas
   - fractales
