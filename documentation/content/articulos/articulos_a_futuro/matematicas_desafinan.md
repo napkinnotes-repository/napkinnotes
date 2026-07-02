@@ -95,3 +95,6 @@ Como podréis imaginar, diseñar un piano con este sistema es muchísimo más se
   </li>
 
 </ol>
+
+## Agradecimientos
+Gracias a Dr. Jensko por las referencias y la idea para escribir este artículo.
