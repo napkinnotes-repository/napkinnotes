@@ -33,7 +33,7 @@ La quinta y la octava son intervalos muy armónicos y matemáticamente muy "puro
   <figcaption>
     Figura 1. Armónicos de una cuerda.
     <br>
-    <span>Relaciones entre las longitudes de onda de una nota fundamental y sus armónicos principales.</span>
+    <span>Relaciones entre las longitudes de onda de una nota fundamental y sus armónicos principales. <a href="https://www.deviolines.com/armonicos-que-son-y-como-se-tocan-en-el-violin/" target="_blank" rel="noopener noreferrer">Fuente de la imagen aquí.</a>, </span>
   </figcaption>
 </figure>
 
