@@ -1137,10 +1137,10 @@ footer a,
   .nn-article-hero__title {
     font-size: clamp(1.85rem, 10vw, 2.45rem);
     line-height: 1.04;
-    overflow-wrap: normal;
-    word-break: normal;
-    hyphens: manual;
-    -webkit-hyphens: manual;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
   }
 }
 /* Móvil: solo las fórmulas de bloque pueden tener scroll */
