@@ -956,18 +956,34 @@ footer a,
   font-size: clamp(2.7rem, 5vw, 4.4rem);
   line-height: 0.98;
 }
-/*Esto arregla los saltos de liena al gusto y ademas evita partir palabras en los titulos que no es estetico*/
-/* Por defecto (en ordenador), ocultamos el salto de línea */
-.nn-article-hero__title br {
-  display: none;
-}
 
-/* En pantallas móviles (640px o menos), volvemos a activar el salto de línea */
+{% if article.slug == 'matematicas_desafinan' %}
+<style>
 @media (max-width: 640px) {
-  .nn-article-hero__title br {
-    display: inline;
+  .nn-article-hero__title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* O left si tus títulos están alineados a la izquierda */
+  }
+  
+  /* Forzamos a que la palabra 'desafinan' actúe como un bloque independiente */
+  .nn-article-hero__title::after {
+    content: "desafinan";
+    display: block;
+    width: 100%;
+    order: 2;
+  }
+
+  /* Ocultamos la palabra original para que no se duplique, rompiendo la línea de forma natural */
+  /* Nota: Un enfoque más limpio si tu fuente lo permite es simplemente ajustar el ancho máximo */
+  .nn-article-hero__title {
+    max-width: 11ch; /* Forzar el quiebre exacto después de "matemáticas" (11 caracteres) */
+    margin-left: auto;
+    margin-right: auto;
   }
 }
+</style>
+{% endif %}
 
 .nn-article-hero__subtitle {
   max-width: 55ch;
