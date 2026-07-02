@@ -1,10 +1,10 @@
 ---
-title: Cuando las matemáticas <br> desafinan
+title: Cuando las matemáticas <br>desafinan
 author: María Pérez Garrote # mismo nombre que en la tarjeta de autor
 date: 2026-07-02 # formato YYYY-MM-DD
 layout: articles
 slug: matematicas_desafinan
-status: hidden # published si ya está listo
+status: published # published si ya está listo
 category: Música # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
   - música
