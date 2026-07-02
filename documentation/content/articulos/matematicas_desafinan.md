@@ -1,5 +1,5 @@
 ---
-title: "Cuando las matemáticas <br> desafinan"
+title: "Cuando las matemáticas <br>desafinan"
 author: María Pérez Garrote # mismo nombre que en la tarjeta de autor
 date: 2026-07-02 # formato YYYY-MM-DD
 layout: articles
