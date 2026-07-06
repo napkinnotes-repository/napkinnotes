@@ -71,6 +71,7 @@
 
         <title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
         {% include '_includes/favicon_links.html' %}
+        <link rel="icon" type="image/png" href="{{ SITEURL }}/favicon.png">
 
         {% block feed_links %}
         {% include '_includes/feeds.html' %}
