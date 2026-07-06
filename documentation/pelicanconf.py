@@ -122,6 +122,7 @@ EXTRA_PATH_METADATA = {
     "extra/custom.css": {"path": "theme/css/custom.css"},
     "extra/robots.txt": {"path": "robots.txt"},
     "extra/sitemap.xml": {"path": "sitemap.xml"},
+    "theme/images/nn_logo.png": {"path": "favicon.png"},
 }
 
 #problema con indexacion en google
@@ -144,7 +145,7 @@ TAG_SAVE_AS = ""
 AUTHOR_URL = "autor/{slug}"
 AUTHOR_SAVE_AS = "autor/{slug}.html"
 CATEGORY_SAVE_AS = ""
-USE_SHORTCUT_ICONS = False
+USE_SHORTCUT_ICONS = True
 
 # Elegant Labels
 SOCIAL_PROFILE_LABEL = "Stay in Touch"
