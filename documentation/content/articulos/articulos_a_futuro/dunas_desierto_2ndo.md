@@ -21,7 +21,7 @@ image: images/dunas_desiertos_2nd.png
 
 En el [artículo anterior](https://napkinnotes.es/dunas-y-desiertos-i) os expliqué qué necesitamos para formar una duna: arena, viento y un obstáculo. Hoy vamos a analizar la duna en sí, qué forma tiene una duna básica y cuál es su clasificación morfológica. Y nos quedará una tercera y última entrega de la serie en la que hablaremos de dunas extraterrestres, en otros cuerpos del Sistema Solar.
 
-Antes de comenzar, debo admitir que en el primer artículo realicé una simplificación que hay que aclarar aquí. Hablé de un obstáculo como condición necesaria para la formación de una duna. Sin embargo, las denominadas dunas *libres*, como las de la fotografía de cabecera, se forman en desiertos muy arenosos como el Sahara, donde hay además poca vegetación; es decir, sin obstáculo. Lo que está ocurriendo aquí es que, bajo vientos constantes, cualquier pequeña acumulación de arena que supere la altura uniforme del desierto va a ejercer como dicho obstáculo.
+Antes de comenzar, debo admitir que en el primer artículo realicé una simplificación que hay que aclarar aquí. Hablé de un obstáculo como condición necesaria para la formación de una duna. Sin embargo, las denominadas dunas *libres*, como las de la fotografía de cabecera, se forman en desiertos muy arenosos como el Sahara, donde hay además poca vegetación; es decir, sin obstáculos. Lo que está ocurriendo aquí es que, bajo vientos constantes, cualquier pequeña acumulación de arena que supere la altura uniforme del desierto va a ejercer como dicho obstáculo.
 
 # Estructura de una duna
 
