@@ -1,5 +1,5 @@
 ---
-title: Dunas y desiertos II 
+title: Dunas y desiertos 
 author: David Barba González
 date: 2026-07-09
 layout: articles
