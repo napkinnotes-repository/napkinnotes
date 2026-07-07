@@ -1,5 +1,5 @@
 ---
-title: "Dunas y desiertos (D&D) II"
+title: "Dunas y desiertos II"
 author: "David Barba González"
 date: 2026-07-09
 layout: articles
@@ -13,6 +13,7 @@ tags:
   - arena
 summary: "Hoy vamos a tratar dos cuestiones que seguro no os dejan conciliar el sueño: la descripción y características de una duna, y los tipos de dunas en función de su morfología y dinámica."
 image: images/dunas_desiertos_2nd.png
+certificated: true
 ---
 
 [TOC]
