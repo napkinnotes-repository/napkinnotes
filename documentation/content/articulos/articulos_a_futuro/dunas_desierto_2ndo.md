@@ -93,9 +93,7 @@ Vamos a parar aquí. Nos falta la tercera categoría de clasificación, basada e
   </li>
 </ol>
 
-[1] S. Courrech du Pont et al. (2024). *Complementary classification of aeolian dunes based on morphology, dynamics, and fluid mechanics*. **Earth-Science Reviews**, 255, 104772. https://doi.org/10.1016/j.earscirev.2024.104772
-
-La imagen de cabecera y las Figuras 2 y 3 han sido adaptadas de [1], publicadas bajo licencia CC BY-NC 4.0. Se han realizado modificaciones. La licencia puede consultarse en:  
+La imagen de cabecera y las Figuras 2 y 3 han sido adaptadas de <a class="nn-cite" href="#ref-1">[1]</a>, publicadas bajo licencia CC BY-NC 4.0. Se han realizado modificaciones. La licencia puede consultarse en:  
 https://creativecommons.org/licenses/by-nc/4.0/
 
 La imagen de la Figura 4 es una imagen satelital obtenida de Google Maps. © Google.
