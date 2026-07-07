@@ -45,7 +45,7 @@ Es importante entender que esta estructura es muy común, pero no universal, y a
 
 # Clasificación de dunas
 
-Seré franco con vosotros: este es un tema muy complicado por razones tanto históricas como científicas. Históricas porque las dunas aparecen en todo el mundo y, por tanto, existen multitud de nombres locales en distintos idiomas que se usan para mentar objetos que pueden ser muy diferentes o exactamente iguales. Y científicas porque la variabilidad entre tipos es enorme debido a distintas clases de sedimento, cantidad de arena, viento, o presencia o no de vegetación. La clasificación que voy a explicar brevemente en este artículo se propuso apenas en 2024 [1] y está basada en tres aspectos: morfología, crecimiento y dinámica, y tamaño.
+Seré franco con vosotros: este es un tema muy complicado por razones tanto históricas como científicas. Históricas porque las dunas aparecen en todo el mundo y, por tanto, existen multitud de nombres locales en distintos idiomas que se usan para mentar objetos que pueden ser muy diferentes o exactamente iguales. Y científicas porque la variabilidad entre tipos es enorme debido a distintas clases de sedimento, cantidad de arena, viento, o presencia o no de vegetación. La clasificación que voy a explicar brevemente en este artículo se propuso apenas en 2024 <a class="nn-cite" href="#ref-1">[1]</a> y está basada en tres aspectos: morfología, crecimiento y dinámica, y tamaño.
 
 En términos de morfología, la principal clasificación es entre dunas libres y ancladas. Las libres ya las he comentado, y las ancladas son aquellas que están fijas en un lugar concreto porque han sido creadas gracias a un obstáculo inmóvil. Estas últimas se suelen clasificar en función del obstáculo: plantas individuales, línea de vegetación en el fondo de una playa, o una antigua masa de agua ya seca.
 
@@ -85,6 +85,13 @@ Las dunas móviles en Doñana son libres y de tipo barján, con la particularida
 Vamos a parar aquí. Nos falta la tercera categoría de clasificación, basada en el tamaño de las dunas. Y la dejamos para más adelante precisamente porque la creación de esta categoría se debe a la existencia de dunas espaciales de distinto tamaño a las de la Tierra.
 
 # Referencias
+
+<ol class="nn-references">
+  <li id="ref-1">
+    S. Courrech du Pont et al. (2024). *Complementary classification of aeolian dunes based on morphology, dynamics, and fluid mechanics*. <em>Earth-Science Reviews , 255, 104772 </em>.
+    <a href="https://doi.org/10.1016/j.earscirev.2024.104772" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.earscirev.2024.104772</a>
+  </li>
+</ol>
 
 [1] S. Courrech du Pont et al. (2024). *Complementary classification of aeolian dunes based on morphology, dynamics, and fluid mechanics*. **Earth-Science Reviews**, 255, 104772. https://doi.org/10.1016/j.earscirev.2024.104772
 
