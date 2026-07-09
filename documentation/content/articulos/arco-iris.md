@@ -4,7 +4,7 @@ author: Ruchika
 date: 2026-05-28
 layout: articles
 status: published 
-category: Física cotidiana
+category: Física
 tags:
   - física
   - óptica
