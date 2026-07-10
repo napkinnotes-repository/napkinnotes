@@ -247,20 +247,7 @@ ctx.save();
 ctx.fillStyle="#94a3b8";
 ctx.textAlign="center";
 
-ctx.font="24px sans-serif";
-ctx.fillText(
-"✏️ Dibuja una curva irregular",
-400,
-380
-);
 
-ctx.font="18px sans-serif";
-
-ctx.fillText(
-"Prueba con una costa, un rayo o una rama",
-400,
-420
-);
 
 ctx.restore();
 
@@ -457,9 +444,6 @@ if(d>2)d=2;
 
 result.innerHTML=
 cube+
-`<div class="dimension-number">
-0.00
-</div>
 <div class="dimension-label">
 Dimensión fractal
 </div>`;
