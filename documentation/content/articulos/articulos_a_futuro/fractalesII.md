@@ -10,7 +10,7 @@ tags:
   - fractales
   - matemáticas
 summary: La naturaleza posee una estructura profundamente fractal. ¡Vamos a comprobarlo! En esta servilleta te enseñamos un truco muy sencillo para calcular la dimensión fractal de todo lo que te rodea. Desde descubrir las formas que dibuja la leche en tu café por las mañanas hasta entender por qué un paseo por la playa siempre parece más largo de lo que dice el mapa.
-image: images/nombre_de_la_imagen.png
+image: images/cabecera_fractalesIIv2.png
 ---
 
 [TOC]
