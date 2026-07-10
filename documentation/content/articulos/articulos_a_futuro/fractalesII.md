@@ -211,7 +211,7 @@ let drawing=false,
 painted=false,
 mouseX=400,
 mouseY=400;
-const cube=`<svg class="fractal-cube" width="24" height="24" viewBox="0 0 24 24"><polygon points="12,2 21,7.2 12,12.4 3,7.2" fill="#ff4d5a"/><polygon points="3,7.2 12,12.4 12,22 3,16.8" fill="#d92635"/><polygon points="12,12.4 21,7.2 21,16.8 12,22" fill="#b81424"/></svg>Dimensión fractal: <span style="color:#b81424"><b id="dimension">0.00</b></span>`;
+const cube=`<svg class="fractal-cube" width="24" height="24" viewBox="0 0 24 24"><polygon points="12,2 21,7.2 12,12.4 3,7.2" fill="#ff4d5a"/><polygon points="3,7.2 12,12.4 12,22 3,16.8" fill="#d92635"/><polygon points="12,12.4 21,7.2 21,16.8 12,22" fill="#b81424"/></svg> <span style="color:#b81424"><b id="dimension">0.00</b></span>`;
 
 function drawGrid(){
 
