@@ -46,20 +46,128 @@ Desde Napkin Notes hemos desarrollado esta herramienta interactiva que permite d
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Laboratorio Fractal Interactivo</title>
 <style>
-.fractal-app{font-family:sans-serif;width:95%;max-width:600px;margin:15px auto;text-align:center;color:#1e293b;background:#fff;padding:20px;border-radius:12px;box-shadow:0 10px 25px rgba(0,0,0,.05);box-sizing:border-box}
-.fractal-app canvas{background:#fff;border:2px dashed #cbd5e1;cursor:crosshair;touch-action:none;display:block;width:100%;height:auto;border-radius:6px;margin:0 auto 15px;box-sizing:border-box;user-select:none;-webkit-user-select:none}
-.fractal-controls{margin-top:15px;display:flex;justify-content:center;width:100%}
-.fractal-btn-group{width:100%;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;align-items:center}
-.fractal-app button{padding:10px 14px;font-weight:bold;background:#fff;border-radius:6px;cursor:pointer;font-size:.85em;border:2px solid transparent;-webkit-tap-highlight-color:transparent}
-.fractal-app button:active{transform:scale(.97)}
-.fractal-clear{color:#475569;border-color:#cbd5e1!important}
-.fractal-calc{color:#b81424;border-color:#b81424!important}
-.fractal-download{color:#2563eb;border-color:#2563eb!important}
-.fractal-clear:hover{background:#f1f5f9}
-.fractal-calc:hover{background:#fdf2f2}
-.fractal-download:hover{background:#eff6ff}
-.fractal-result{display:none;margin-top:15px;font-size:1.2em;font-weight:bold;color:#b81424;background:#fdf2f2;padding:12px;border-radius:8px;border:1px solid #fbd5d5;width:100%;box-sizing:border-box;line-height:1.5}
-.fractal-cube{vertical-align:middle;margin-right:8px}
+.fractal-app{
+font-family:sans-serif;
+width:95%;
+max-width:600px;
+margin:15px auto;
+text-align:center;
+color:#1e293b;
+background:#fff;
+padding:20px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,.05);
+box-sizing:border-box;
+}
+
+.fractal-app canvas{
+background:#fff;
+border:2px solid #e2e8f0;
+cursor:none;
+touch-action:none;
+display:block;
+width:100%;
+height:auto;
+border-radius:8px;
+margin:0 auto 15px;
+box-sizing:border-box;
+user-select:none;
+-webkit-user-select:none;
+transition:.25s;
+box-shadow:inset 0 0 20px rgba(0,0,0,.03);
+}
+
+.fractal-app canvas:hover{
+border-color:#94a3b8;
+}
+
+.fractal-controls{
+margin-top:15px;
+display:flex;
+justify-content:center;
+width:100%;
+}
+
+.fractal-btn-group{
+width:100%;
+display:flex;
+gap:8px;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+}
+
+.fractal-app button{
+padding:10px 14px;
+font-weight:bold;
+background:#fff;
+border-radius:6px;
+cursor:pointer;
+font-size:.85em;
+border:2px solid transparent;
+-webkit-tap-highlight-color:transparent;
+}
+
+.fractal-app button:active{
+transform:scale(.97);
+}
+
+.fractal-clear{
+color:#475569;
+border-color:#cbd5e1!important;
+}
+
+.fractal-calc{
+color:#b81424;
+border-color:#b81424!important;
+}
+
+.fractal-download{
+color:#2563eb;
+border-color:#2563eb!important;
+}
+
+.fractal-clear:hover{
+background:#f1f5f9;
+}
+
+.fractal-calc:hover{
+background:#fdf2f2;
+}
+
+.fractal-download:hover{
+background:#eff6ff;
+}
+
+.fractal-result{
+display:none;
+margin-top:15px;
+background:#fdf2f2;
+padding:18px;
+border-radius:10px;
+border:1px solid #fbd5d5;
+width:100%;
+box-sizing:border-box;
+}
+
+.dimension-number{
+font-size:3rem;
+font-weight:700;
+line-height:1;
+color:#b81424;
+}
+
+.dimension-label{
+font-size:.95rem;
+color:#64748b;
+margin-top:6px;
+font-weight:600;
+}
+
+.fractal-cube{
+vertical-align:middle;
+margin-bottom:10px;
+}
 </style>
 </head>
 <body>
@@ -93,17 +201,109 @@ reset=document.getElementById("fractalReset"),
 calc=document.getElementById("fractalCalculate"),
 download=document.getElementById("fractalDownload");
 
-let drawing=false,painted=false;
-
+let drawing=false,
+painted=false,
+mouseX=400,
+mouseY=400;
 const cube=`<svg class="fractal-cube" width="24" height="24" viewBox="0 0 24 24"><polygon points="12,2 21,7.2 12,12.4 3,7.2" fill="#ff4d5a"/><polygon points="3,7.2 12,12.4 12,22 3,16.8" fill="#d92635"/><polygon points="12,12.4 21,7.2 21,16.8 12,22" fill="#b81424"/></svg>Dimensión fractal: <span style="color:#b81424"><b id="dimension">0.00</b></span>`;
 
+function drawGrid(){
+
+ctx.save();
+
+ctx.strokeStyle="rgba(148,163,184,.08)";
+ctx.lineWidth=1;
+
+for(let i=0;i<=800;i+=40){
+
+ctx.beginPath();
+ctx.moveTo(i,0);
+ctx.lineTo(i,800);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(0,i);
+ctx.lineTo(800,i);
+ctx.stroke();
+
+}
+
+ctx.restore();
+
+}
+
+function drawPlaceholder(){
+
+if(painted)return;
+
+ctx.save();
+
+ctx.fillStyle="#94a3b8";
+ctx.textAlign="center";
+
+ctx.font="24px sans-serif";
+ctx.fillText(
+"✏️ Dibuja una curva irregular",
+400,
+380
+);
+
+ctx.font="18px sans-serif";
+
+ctx.fillText(
+"Prueba con una costa, un rayo o una rama",
+400,
+420
+);
+
+ctx.restore();
+
+}
+
+function drawCursor(){
+
+if(drawing)return;
+
+ctx.save();
+
+ctx.beginPath();
+ctx.arc(mouseX,mouseY,6,0,2*Math.PI);
+
+ctx.strokeStyle="#b81424";
+ctx.lineWidth=1.5;
+
+ctx.stroke();
+
+ctx.restore();
+
+}
+
+function redrawBackground(){
+
+ctx.fillStyle="#fff";
+ctx.fillRect(0,0,800,800);
+
+drawGrid();
+
+if(!painted){
+drawPlaceholder();
+}else{
+ctx.drawImage(hidden,0,0);
+}
+
+drawCursor();
+
+}
+  
 function init(){
+
 ctx.fillStyle=hctx.fillStyle="#fff";
 ctx.fillRect(0,0,800,800);
 hctx.fillRect(0,0,800,800);
 
 ctx.strokeStyle=hctx.strokeStyle="#000";
-ctx.lineWidth=hctx.lineWidth=2;
+ctx.lineWidth=hctx.lineWidth=3;
+
 ctx.lineCap=hctx.lineCap="round";
 ctx.lineJoin=hctx.lineJoin="round";
 
@@ -112,8 +312,12 @@ hctx.imageSmoothingEnabled=false;
 
 drawing=false;
 painted=false;
+
 result.style.display="none";
 result.innerHTML="";
+
+redrawBackground();
+
 }
 
 function pos(e){
@@ -129,7 +333,12 @@ e.preventDefault();
 canvas.setPointerCapture(e.pointerId);
 drawing=true;
 painted=true;
+ctx.fillStyle="#fff";
+ctx.fillRect(0,0,800,800);
+ctx.drawImage(hidden,0,0);
 
+
+  
 let p=pos(e);
 ctx.beginPath();
 hctx.beginPath();
@@ -138,13 +347,26 @@ hctx.moveTo(p.x,p.y);
 });
 
 canvas.addEventListener("pointermove",e=>{
-if(!drawing)return;
 
 let p=pos(e);
+
+mouseX=p.x;
+mouseY=p.y;
+
+if(!drawing){
+
+redrawBackground();
+
+return;
+
+}
+
 ctx.lineTo(p.x,p.y);
 hctx.lineTo(p.x,p.y);
+
 ctx.stroke();
 hctx.stroke();
+
 });
 
 canvas.addEventListener("pointerup",()=>drawing=false);
@@ -227,8 +449,48 @@ let d=Math.abs((n*sxy-sx*sy)/(n*sxx-sx*sx));
 if(d<1)d=1;
 if(d>2)d=2;
 
-result.innerHTML=cube;
-document.getElementById("dimension").innerText=d.toFixed(2);
+result.innerHTML=
+cube+
+`<div class="dimension-number">
+0.00
+</div>
+<div class="dimension-label">
+Dimensión fractal
+</div>`;
+
+ const number=
+result.querySelector(".dimension-number");
+
+let start=0;
+let end=d;
+
+let duration=700;
+
+let startTime=null;
+
+function animate(time){
+
+if(!startTime)
+startTime=time;
+
+let progress=
+Math.min(
+(time-startTime)/duration,
+1
+);
+
+let value=
+start+(end-start)*progress;
+
+number.textContent=
+value.toFixed(2);
+
+if(progress<1)
+requestAnimationFrame(animate);
+
+}
+
+requestAnimationFrame(animate); 
 
 calc.disabled=false;
 }
