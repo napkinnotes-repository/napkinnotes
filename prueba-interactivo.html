@@ -196,8 +196,14 @@
 <li>Si reduces la escala y mides con una regla de un metro, te verás obligado a rodear cada curva, cada roca y cada recodo. La longitud total crece&nbsp;considerablemente.</li>
 <li>Y si sigues afinando la medida, usando una regla cada vez más pequeña, el nivel de detalle aumenta sin&nbsp;parar.</li>
 </ul>
-<p><img alt="Britain-fractal-coastline-combined" src="https://napkinnotes.es/images/Britain-fractal-coastline-combined.png" /></p>
-<p><em>Fig. 1: Costa de la isla de Gran Bretaña, medida con reglas de 200, 100 y 50 km, respectivamente. Fuente: Avsa y Acadac, <a href="https://commons.wikimedia.org/wiki/File:Britain-fractal-coastline-combined.jpg">Wikimedia Commons</a>, licencia <span class="caps">CC</span> <span class="caps">BY</span>-<span class="caps">SA</span>&nbsp;3.0.</em></p>
+<figure class="nn-article-figure">
+  <img src="https://napkinnotes.es/images/Britain-fractal-coastline-combined.png" alt="Britain-fractal-coastline-combined">
+  <figcaption>
+Fig. 1: Costa de la isla de Gran Bretaña, medida con reglas de 200, 100 y 50 km, respectivamente. Fuente: Avsa y Acadac, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Britain-fractal-coastline-combined.jpg), licencia <span class="caps">CC</span> <span class="caps">BY</span>-<span class="caps">SA</span> 3.0.
+  </figcaption>
+</figure>
+
+<p>**</p>
 <p>Si llevamos este proceso al límite matemático y usamos una regla infinitamente pequeña, la longitud de la costa tiende a infinito. La isla de Gran Bretaña ocupa un espacio limitado y definido en el océano, pero su frontera es infinitamente larga. ¿A qué nos recuerda este comportamiento? ¡Coincide exactamente con lo que le sucedía al copo de nieve de Koch! A lo mejor estos objetos no son tan&nbsp;diferentes…</p>
 <p>Mandelbrot llegó entonces a la conclusión de que intentar medir la longitud de un objeto real no tiene sentido, ya que depende del instrumento y de su escala. Lo relevante no es su longitud, sino el grado de irregularidad de su forma, su “rugosidad”. Para capturar esa idea, reformuló la manera de entender la dimensión geométrica, dando lugar a herramientas como el método de <em>box-counting</em>.</p>
 <h2 id="dibuja-tu-propia-curva-fractal">Dibuja tu propia curva fractal<a class="headerlink" href="#dibuja-tu-propia-curva-fractal" title="Permanent link"> </a></h2>
@@ -682,8 +688,13 @@ init();
 <li>Repetimos este proceso, utilizando cuadrículas con cuadrados de lado cada vez más pequeño, lo que genera parejas de&nbsp;valores <span class="math">\((\epsilon, N)\)</span>. </li>
 </ol>
 <p>Por ejemplo, para la costa de Gran Bretaña, obtenemos lo&nbsp;siguiente:</p>
-<p><img alt="GB_3" src="https://napkinnotes.es/images/GB_3.png" /></p>
-<p><em>Fig. 2: Estimación de la dimensión fractal de la costa de Gran Bretaña mediante el método de&nbsp;box-counting.</em></p>
+<figure class="nn-article-figure">
+  <img src="https://napkinnotes.es/images/GB_3.png" alt="GB_3">
+  <figcaption>
+    Fig. 2: Estimación de la dimensión fractal de la costa de Gran Bretaña mediante el método de box-counting.
+  </figcaption>
+</figure>
+
 <p>La información relevante aquí no es tanto el valor concreto&nbsp;de <span class="math">\(N\)</span>, sino la rapidez con la que crece al aumentar la resolución. Este crecimiento sigue aproximadamente una ley potencial del&nbsp;tipo,
 </p>
 <div class="math">$$
