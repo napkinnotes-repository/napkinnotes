@@ -639,6 +639,7 @@ Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dim
             <div class="btn-group">
                 <button class="btn-clear" onclick="resetToWelcome()">🔄 Reiniciar</button>
                 <button id="addPointBtn" class="btn-add" onclick="recordCurrentPoint()">📌 Registrar Punto</button>
+                <button class="btn-clear" onclick="removeLastPoint()">↩️ Borrar último punto</button>
                 <div id="downloadBtn" class="download-dropdown">
                     <button class="btn-download" onclick="toggleDropdown(event)">📥 Descargar</button>
                     <div class="dropdown-content">
@@ -658,10 +659,12 @@ Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dim
         <div class="table-box">
             <table>
                 <thead>
-                    <tr>
-                        <th>Tamaño (ϵ, en px)</th>
-                        <th>Cajas (N)</th>
-                    </tr>
+                   <tr>
+    <th>Tamaño (ϵ)</th>
+    <th>Cajas (N)</th>
+    <th>log(1/ϵ)</th>
+    <th>log(N)</th>
+                  </tr>
                 </thead>
                 <tbody id="dataTableBody">
                     <tr>
@@ -844,8 +847,12 @@ function updateTableUI() {
     dataTableBody.innerHTML = '';
     registeredPoints.forEach(p => {
         const row = document.createElement('tr');
-        row.innerHTML = `<td><b>${p.size}</b></td><td>${p.rawCount}</td>`;
-        dataTableBody.appendChild(row);
+row.innerHTML = `
+<td><b>${p.size}</b></td>
+<td>${p.rawCount}</td>
+<td>${p.x.toFixed(3)}</td>
+<td>${p.y.toFixed(3)}</td>
+`;        dataTableBody.appendChild(row);
     });
     if(registeredPoints.length >= 2) { downloadBtn.style.display = 'inline-block'; }
 }
@@ -1015,6 +1022,21 @@ function triggerExport(type) {
             setTimeout(() => URL.revokeObjectURL(pngUrl), 100);
         }, "image/png");
     } 
+}
+
+function removeLastPoint() {
+    if (registeredPoints.length === 0) return;
+
+    registeredPoints.pop();
+
+    updateTableUI();
+
+    if (registeredPoints.length >= 2) {
+        updateCalculationsAndChart();
+    } else {
+        drawNativeChart([], [], null, null);
+        updateResultUI();
+    }
 }
 
 function toggleDropdown(event) {
