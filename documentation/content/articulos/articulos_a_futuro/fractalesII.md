@@ -333,11 +333,18 @@ ctx.drawImage(hidden,0,0);
 
   
 let p=pos(e);
+
+ctx.strokeStyle="#000";
+ctx.lineWidth=3;
+
+hctx.strokeStyle="#000";
+hctx.lineWidth=3;
+
 ctx.beginPath();
 hctx.beginPath();
+
 ctx.moveTo(p.x,p.y);
 hctx.moveTo(p.x,p.y);
-});
 
 canvas.addEventListener("pointermove",e=>{
 
@@ -362,7 +369,10 @@ hctx.stroke();
 
 });
 
-canvas.addEventListener("pointerup",()=>drawing=false);
+canvas.addEventListener("pointerup",e=>{
+drawing=false;
+canvas.releasePointerCapture(e.pointerId);
+});
 canvas.addEventListener("pointercancel",()=>drawing=false);
 canvas.addEventListener("pointerleave",()=>drawing=false);
 
@@ -442,9 +452,9 @@ let d=Math.abs((n*sxy-sx*sy)/(n*sxx-sx*sx));
 if(d<1)d=1;
 if(d>2)d=2;
 
-result.innerHTML=
-cube+
-<div class="dimension-label">
+result.innerHTML =
+cube +
+`<div class="dimension-label">
 Dimensión fractal
 </div>`;
 
