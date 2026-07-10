@@ -27,9 +27,15 @@ En 1967, B. Mandelbrot publicó un artículo con un título más que curioso: *�
 - Si reduces la escala y mides con una regla de un metro, te verás obligado a rodear cada curva, cada roca y cada recodo. La longitud total crece considerablemente.
 - Y si sigues afinando la medida, usando una regla cada vez más pequeña, el nivel de detalle aumenta sin parar.
 
-![Britain-fractal-coastline-combined]({static}/images/Britain-fractal-coastline-combined.png)
 
-*Fig. 1: Costa de la isla de Gran Bretaña, medida con reglas de 200, 100 y 50 km, respectivamente. Fuente: Avsa y Acadac, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Britain-fractal-coastline-combined.jpg), licencia CC BY-SA 3.0.*
+<figure class="nn-article-figure">
+  <img src="{static}/images/Britain-fractal-coastline-combined.png" alt="Britain-fractal-coastline-combined">
+  <figcaption>
+Fig. 1: Costa de la isla de Gran Bretaña, medida con reglas de 200, 100 y 50 km, respectivamente. Fuente: Avsa y Acadac, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Britain-fractal-coastline-combined.jpg), licencia CC BY-SA 3.0.
+  </figcaption>
+</figure>
+
+**
 
 Si llevamos este proceso al límite matemático y usamos una regla infinitamente pequeña, la longitud de la costa tiende a infinito. La isla de Gran Bretaña ocupa un espacio limitado y definido en el océano, pero su frontera es infinitamente larga. ¿A qué nos recuerda este comportamiento? ¡Coincide exactamente con lo que le sucedía al copo de nieve de Koch! A lo mejor estos objetos no son tan diferentes…
 
@@ -524,9 +530,14 @@ Imagina que tomamos la silueta irregular de la costa de la isla de Gran Bretaña
 
 Por ejemplo, para la costa de Gran Bretaña, obtenemos lo siguiente:
 
-![GB_3]({static}/images/GB_3.png)
 
-*Fig. 2: Estimación de la dimensión fractal de la costa de Gran Bretaña mediante el método de box-counting.*
+<figure class="nn-article-figure">
+  <img src="{static}/images/GB_3.png" alt="GB_3">
+  <figcaption>
+    Fig. 2: Estimación de la dimensión fractal de la costa de Gran Bretaña mediante el método de box-counting.
+  </figcaption>
+</figure>
+
 
 La información relevante aquí no es tanto el valor concreto de $N$, sino la rapidez con la que crece al aumentar la resolución. Este crecimiento sigue aproximadamente una ley potencial del tipo,
 $$
