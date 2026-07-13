@@ -935,13 +935,19 @@ canvas.addEventListener('pointercancel', () => {
 
 canvas.addEventListener('pointerleave', () => {
     drawing = false;
+    drawGrid();
 });
-
+canvas.addEventListener('pointerenter', () => {
+    drawGrid();
+});
 slider.addEventListener('input', () => { sizeVal.innerText = slider.value; drawGrid(); });
 
 function startWithDrawing() { 
     canvas.width = 800; canvas.height = 800; hiddenCanvas.width = 800; hiddenCanvas.height = 800; 
     welcomeScreen.style.display = 'none'; mainContent.style.display = 'block'; resetCanvasState(); 
+    mouseX = canvas.width / 2;
+mouseY = canvas.height / 2;
+drawGrid();
 }
 
 function triggerImageUpload() { document.getElementById('imageInput').click(); }
