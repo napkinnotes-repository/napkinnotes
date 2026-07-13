@@ -848,8 +848,16 @@ function resetToWelcome() {
 }
 function drawGrid() {
     ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, canvas.width, canvas.height); ctx.drawImage(hiddenCanvas, 0, 0);
-    if (!hasPintado) return;
-    const boxSize = parseInt(slider.value); const w = canvas.width; const h = canvas.height;
+if (!hasPintado) {
+
+    ctx.beginPath();
+    ctx.arc(mouseX, mouseY, 6, 0, 2 * Math.PI);
+    ctx.strokeStyle = '#b81424';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+
+    return;
+}    const boxSize = parseInt(slider.value); const w = canvas.width; const h = canvas.height;
     const imgData = hCtx.getImageData(0, 0, w, h).data; currentBoxesCount = 0;
     for (let y = 0; y < h; y += boxSize) {
         for (let x = 0; x < w; x += boxSize) {
@@ -1109,6 +1117,11 @@ function toggleDropdown(event) {
 });
 
 initCanvases();
+ctx.beginPath();
+ctx.arc(mouseX, mouseY, 6, 0, 2 * Math.PI);
+ctx.strokeStyle = '#b81424';
+ctx.lineWidth = 1.5;
+ctx.stroke();
 </script>
 </body>
 </html>
