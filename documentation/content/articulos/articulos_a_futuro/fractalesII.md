@@ -456,7 +456,7 @@ if(d>2)d=2;
 result.innerHTML =
 `<div style="display: flex; align-items: center; justify-content: center; gap: 10px; font-weight: bold; font-size: 1.8em; color: #b81424;">` +
 cube +
-`<span>Dimensión fractal: <span id="dimension">0.00</span></span>` +
+`<span>Dimensión fractal <span id="dimension"></span></span>` +
 `</div>`;
 
 const number=
