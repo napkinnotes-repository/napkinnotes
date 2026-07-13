@@ -680,8 +680,6 @@ Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dim
                    <tr>
     <th>Tamaño (ϵ)</th>
     <th>Cajas (N)</th>
-    <th>log(1/ϵ)</th>
-    <th>log(N)</th>
                   </tr>
                 </thead>
                 <tbody id="dataTableBody">
@@ -868,8 +866,6 @@ function updateTableUI() {
 row.innerHTML = `
 <td><b>${p.size}</b></td>
 <td>${p.rawCount}</td>
-<td>${p.x.toFixed(3)}</td>
-<td>${p.y.toFixed(3)}</td>
 `;        dataTableBody.appendChild(row);
     });
     if(registeredPoints.length >= 2) { downloadBtn.style.display = 'inline-block'; }
