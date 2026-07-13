@@ -1038,6 +1038,13 @@ if (!hasPintado) {
     ctx.stroke();
 }
     if (hasPintado && !drawing) updateResultUI();
+    if (!drawing) {
+    ctx.beginPath();
+    ctx.arc(mouseX, mouseY, 6, 0, 2 * Math.PI);
+    ctx.strokeStyle = '#b81424';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+}
 }
 
 function recordCurrentPoint() {
