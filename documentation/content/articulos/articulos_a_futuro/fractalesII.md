@@ -460,9 +460,9 @@ cube +
 Dimensión fractal
 </div>`;
 
- const number=
-result.querySelector(".dimension-number");
-
+const number=
+result.querySelector("#dimension");
+  
 let start=0;
 let end=d;
 
