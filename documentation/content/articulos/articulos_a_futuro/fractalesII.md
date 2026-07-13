@@ -590,10 +590,17 @@ Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dim
         .slider-box { display: flex; align-items: center; gap: 10px; width: 100%; justify-content: center; font-weight: bold; color: #334155; }
         .btn-group { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
         button { padding: 10px 18px; font-weight: bold; background: #ffffff; border-radius: 6px; cursor: pointer; font-size: 0.9em; transition: all 0.2s ease; border: 2px solid transparent; }
-        .btn-clear { color: #475569; border-color: #cbd5e1; }
-        .btn-clear:hover { background: #f1f5f9; border-color: #94a3b8; }
-        .btn-add { color: #b81424; border-color: #b81424; }
-        .btn-add:hover { background: #fdf2f2; }
+.btn-clear,
+.btn-add {
+    color: #b81424;
+    border: 2px solid #b81424;
+}
+
+.btn-clear:hover,
+.btn-add:hover {
+    background: #fdf2f2;
+    border-color: #b81424;
+}
         .btn-download { color: #2563eb; border-color: #2563eb; display: inline-block; }
         .btn-download:hover { background: #eff6ff; }
         .result-box { margin-top: 15px; font-size: 1.2em; font-weight: bold; color: #b81424; background: #fdf2f2; padding: 12px; border-radius: 8px; border: 1px solid #fbd5d5; width: 100%; box-sizing: border-box; line-height: 1.5; }
