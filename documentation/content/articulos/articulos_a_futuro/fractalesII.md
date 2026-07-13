@@ -346,6 +346,8 @@ hctx.beginPath();
 ctx.moveTo(p.x,p.y);
 hctx.moveTo(p.x,p.y);
 
+});
+
 canvas.addEventListener("pointermove",e=>{
 
 let p=pos(e);
