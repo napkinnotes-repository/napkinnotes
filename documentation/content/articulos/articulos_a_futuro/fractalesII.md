@@ -35,7 +35,6 @@ Fig. 1: Costa de la isla de Gran Bretaña, medida con reglas de 200, 100 y 50 km
   </figcaption>
 </figure>
 
-**
 
 Si llevamos este proceso al límite matemático y usamos una regla infinitamente pequeña, la longitud de la costa tiende a infinito. La isla de Gran Bretaña ocupa un espacio limitado y definido en el océano, pero su frontera es infinitamente larga. ¿A qué nos recuerda este comportamiento? ¡Coincide exactamente con lo que le sucedía al copo de nieve de Koch! A lo mejor estos objetos no son tan diferentes…
 
@@ -167,7 +166,7 @@ color:#b81424;
 font-size:.95rem;
 color:#64748b;
 margin-top:6px;
-font-weight:600;
+font-weight:bold;
 }
 
 .fractal-cube{
