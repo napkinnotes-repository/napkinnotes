@@ -975,13 +975,17 @@ function resetCanvasState() {
     resultText.innerHTML = "⚡ Espacio en blanco listo para calcular la dimensión fractal";
 }
 function resetToWelcome() {
-    document.getElementById('imageInput').value = "";
+    const currentScroll = window.scrollY;
 
+    document.activeElement.blur();
+
+    document.getElementById('imageInput').value = "";
     mainContent.style.display = 'none';
     welcomeScreen.style.display = 'flex';
 
-    document.querySelector('.fractal-app')
-        .scrollIntoView({ behavior: 'instant', block: 'start' });
+    requestAnimationFrame(() => {
+        window.scrollTo(0, currentScroll);
+    });
 }
 function drawGrid() {
     ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, canvas.width, canvas.height); ctx.drawImage(hiddenCanvas, 0, 0);
