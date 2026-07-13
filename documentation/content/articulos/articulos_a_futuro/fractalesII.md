@@ -607,7 +607,7 @@ Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dim
         .btn-download:hover { background: #eff6ff; }
         .result-box { margin-top: 15px; font-size: 1.2em; font-weight: bold; color: #b81424; background: #fdf2f2; padding: 12px; border-radius: 8px; border: 1px solid #fbd5d5; width: 100%; box-sizing: border-box; line-height: 1.5; }
         input[type=range] { width: 45%; cursor: pointer; accent-color: #b81424; }
-        .welcome-screen { background: #ffffff; padding: 10px 0; display: flex; flex-direction: column; gap: 12px; align-items: center; }
+        .welcome-screen { background: #ffffff; padding: 10px 0; display: flex; flex-direction: column; gap: 12px; align-items: center; min-height: 900px;}
 .btn-choice {
     color: #b81424 !important;
     background: #ffffff;
