@@ -647,6 +647,11 @@ Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dim
     margin-top: 5px;
 }
         .dropdown-content button { width: 100%; border: none; border-radius: 0; padding: 10px 16px; text-align: left; background: none; color: #334155; font-size: 0.85em; }
+        .dropdown-content button {
+    pointer-events: auto;
+    position: relative;
+    z-index: 10000;
+}
         .dropdown-content button:hover { background-color: #f1f5f9; color: #1e293b; }
         .download-dropdown.active .dropdown-content { display: block; }
     </style>
@@ -1135,11 +1140,12 @@ function toggleDropdown(event) {
     dropdown.classList.toggle('active');
 }
 
-['click', 'touchstart'].forEach(evt => {
-    document.addEventListener(evt, function() {
-        const dropdown = document.getElementById('downloadBtn');
-        if (dropdown) { dropdown.classList.remove('active'); }
-    });
+document.addEventListener('click', function(e) {
+    const dropdown = document.getElementById('downloadBtn');
+
+    if (!dropdown.contains(e.target)) {
+        dropdown.classList.remove('active');
+    }
 });
 
 initCanvases();
