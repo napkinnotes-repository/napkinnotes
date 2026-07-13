@@ -599,15 +599,16 @@ Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dim
         .result-box { margin-top: 15px; font-size: 1.2em; font-weight: bold; color: #b81424; background: #fdf2f2; padding: 12px; border-radius: 8px; border: 1px solid #fbd5d5; width: 100%; box-sizing: border-box; line-height: 1.5; }
         input[type=range] { width: 45%; cursor: pointer; accent-color: #b81424; }
         .welcome-screen { background: #ffffff; padding: 10px 0; display: flex; flex-direction: column; gap: 12px; align-items: center; }
-        .btn-choice {
-    color: #b81424;
+.btn-choice {
+    color: #b81424 !important;
     background: #ffffff;
-    border: 2px solid #b81424;
+    border: 2px solid #b81424 !important;
     font-size: 1em;
     min-width: 220px;
     padding: 12px;
     font-weight: bold;
     border-radius: 6px;
+    box-sizing: border-box;
 }
 .btn-choice:hover {
     background: #fdf2f2;
