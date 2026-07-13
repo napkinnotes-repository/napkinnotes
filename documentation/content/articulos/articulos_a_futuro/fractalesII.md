@@ -708,7 +708,6 @@ Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dim
             </div>
         </div>
         
-        <div class="result-box" id="result-text">⚡ Espacio en blanco listo para calcular la dimensión fractal</div>
         
         <div class="chart-container">
             <canvas id="chartCanvas" width="800" height="440"></canvas>
