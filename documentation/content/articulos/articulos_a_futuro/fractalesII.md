@@ -639,8 +639,8 @@ Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dim
     </style>
 </head>
 <body>
-<div class="fractal-app">
-    <h3>Crea tu propio fractal y descubre su dimensión</h3>
+<div class="fractal-app" id="fractal-lab">
+  <h3>Crea tu propio fractal y descubre su dimensión</h3>
     
     <div id="welcomeScreen" class="welcome-screen">
         <button class="btn-choice" onclick="startWithDrawing()">✏️ Haz un dibujo</button>
@@ -820,16 +820,21 @@ function resetCanvasState() {
     resultText.innerHTML = "⚡ Espacio en blanco listo para calcular la dimensión fractal";
 }
 function resetToWelcome() {
-    const currentScroll = window.scrollY;
-
-    document.activeElement.blur();
+    const lab = document.getElementById('fractal-lab');
+    const top = lab.getBoundingClientRect().top + window.pageYOffset;
 
     document.getElementById('imageInput').value = "";
+
     mainContent.style.display = 'none';
     welcomeScreen.style.display = 'flex';
 
+    resetCanvasState();
+
     requestAnimationFrame(() => {
-        window.scrollTo(0, currentScroll);
+        window.scrollTo({
+            top: top,
+            behavior: 'instant'
+        });
     });
 }
 function drawGrid() {
