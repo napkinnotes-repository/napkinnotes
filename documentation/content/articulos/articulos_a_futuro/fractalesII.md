@@ -31,7 +31,7 @@ En 1967, B. Mandelbrot publicó un artículo con un título más que curioso: *�
 <figure class="nn-article-figure">
   <img src="{static}/images/Britain-fractal-coastline-combined.png" alt="Britain-fractal-coastline-combined">
   <figcaption>
-Fig. 1: Costa de la isla de Gran Bretaña, medida con reglas de 200, 100 y 50 km, respectivamente. Fuente: Avsa y Acadac, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Britain-fractal-coastline-combined.jpg), licencia CC BY-SA 3.0.
+    Fig. 1: Costa de la isla de Gran Bretaña, medida con reglas de 200, 100 y 50 km, respectivamente. Fuente: Avsa y Acadac, <a href="https://commons.wikimedia.org/wiki/File:Britain-fractal-coastline-combined.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>, licencia CC BY-SA 3.0.
   </figcaption>
 </figure>
 
@@ -454,10 +454,10 @@ if(d<1)d=1;
 if(d>2)d=2;
 
 result.innerHTML =
+`<div style="display: flex; align-items: center; justify-content: center; gap: 10px; font-weight: bold; font-size: 1.8em; color: #b81424;">` +
 cube +
-`<div class="dimension-label">
-Dimensión fractal
-</div>`;
+`<span>Dimensión fractal: <span id="dimension">0.00</span></span>` +
+`</div>`;
 
 const number=
 result.querySelector("#dimension");
