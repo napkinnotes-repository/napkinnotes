@@ -958,7 +958,7 @@ function updateTableUI() {
     registeredPoints.forEach(p => {
         const row = document.createElement('tr');
 row.innerHTML = `
-<td><b>${p.size}</b></td>
+<td>${p.size}</td>
 <td>${p.rawCount}</td>
 `;        dataTableBody.appendChild(row);
     });
