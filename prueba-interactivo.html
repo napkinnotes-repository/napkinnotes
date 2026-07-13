@@ -787,7 +787,20 @@ Esta operación transforma la ley potencial anterior en la ecuación de una rect
         tr:last-child td { border-bottom: none; }
         .chart-container { display: flex; justify-content: center; width: 100%; margin-top: 15px; }
         .download-dropdown { position: relative; display: none; }
-        .dropdown-content { display: none; position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); background-color: #ffffff; min-width: 160px; box-shadow: 0px 8px 16px rgba(0,0,0,0.15); border-radius: 6px; border: 1px solid #cbd5e1; z-index: 10; margin-bottom: 5px; overflow: hidden; }
+       .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    z-index: 9999;
+    margin-top: 5px;
+}
         .dropdown-content button { width: 100%; border: none; border-radius: 0; padding: 10px 16px; text-align: left; background: none; color: #334155; font-size: 0.85em; }
         .dropdown-content button:hover { background-color: #f1f5f9; color: #1e293b; }
         .download-dropdown.active .dropdown-content { display: block; }
@@ -816,7 +829,7 @@ Esta operación transforma la ley potencial anterior en la ecuación de una rect
         <div class="controls">
             <div class="slider-box">
                 <label for="boxSlider"><b>Tamaño (ϵ):</b> <span id="sizeVal">16</span>px</label>
-                <input type="range" id="boxSlider" min="4" max="80" value="16">
+                <input type="range" id="boxSlider" min="6" max="80" value="16">
             </div>
             <div class="btn-group">
                 <button class="btn-clear" onclick="resetToWelcome()">🔄 Reiniciar</button>
