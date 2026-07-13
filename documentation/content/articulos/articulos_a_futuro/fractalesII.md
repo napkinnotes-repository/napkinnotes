@@ -710,7 +710,9 @@ const resultText = document.getElementById('result-text');
 const welcomeScreen = document.getElementById('welcomeScreen'); const mainContent = document.getElementById('mainContent');
 const dataTableBody = document.getElementById('dataTableBody');
 const downloadBtn = document.getElementById('downloadBtn');
-let drawing = false; let hasPintado = false; let registeredPoints = []; let currentBoxesCount = 0;
+let drawing = false; let hasPintado = false; let registeredPoints = []; let currentBoxesCount = 0; 
+let mouseX = canvas.width / 2;
+let mouseY = canvas.height / 2;
 
 const cubeSVG = `<svg class="fractal-cube" width="24" height="24" viewBox="0 0 24 24" style="vertical-align:middle; margin-right:8px;"><polygon points="12,2 21,7.2 12,12.4 3,7.2" fill="#ff4d5a"/><polygon points="3,7.2 12,12.4 12,22 3,16.8" fill="#d92635"/><polygon points="12,12.4 21,7.2 21,16.8 12,22" fill="#b81424"/></svg>`;
 
@@ -749,9 +751,16 @@ canvas.addEventListener('pointerdown', (e) => {
 });
 
 canvas.addEventListener('pointermove', (e) => {
-    if (!drawing) return;
 
     const pos = getPos(e);
+
+    mouseX = pos.x;
+    mouseY = pos.y;
+
+    if (!drawing) {
+        drawGrid();
+        return;
+    }
 
     hCtx.lineTo(pos.x, pos.y);
     hCtx.stroke();
@@ -858,6 +867,13 @@ function drawGrid() {
             ctx.lineWidth = 1.5; ctx.strokeRect(x, y, boxSize, boxSize);
         }
     }
+    if (!drawing) {
+    ctx.beginPath();
+    ctx.arc(mouseX, mouseY, 6, 0, 2 * Math.PI);
+    ctx.strokeStyle = '#b81424';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+}
     if (hasPintado && !drawing) updateResultUI();
 }
 
