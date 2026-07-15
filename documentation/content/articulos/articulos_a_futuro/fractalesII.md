@@ -1,5 +1,5 @@
 ---
-title: "La rebelión de los fractales I I: crea tu propio fractal y descubre su dimensión"
+title: "La rebelión de los fractales II: crea tu propio fractal y descubre su dimensión"
 author: Paz Albares Vicente
 date: 2026-07-16
 layout: articles
@@ -15,18 +15,17 @@ image: images/cabecera_fractalesIIv2.png
 
 [TOC]
 
-¡Bienvenido a la segunda servilleta sobre fractales! En el [artículo anterior](https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales) nos adentramos, desafiando la intuición, en el universo de las dimensiones fraccionarias y la geometría fractal. Descubrimos que a figuras ideales como el triángulo de Sierpinski o el copo de nieve de Koch les gusta vivir en un lugar de dimensiones intermedias, son más que una línea, pero menos que una superficie plana. A estos objetos los llamamos fractales.
+¡Bienvenido a la segunda servilleta sobre fractales! En el [artículo anterior](https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales) nos adentramos, desafiando la intuición, en el universo de las dimensiones fraccionarias y la geometría fractal. Descubrimos que a figuras ideales como el triángulo de Sierpinski o el copo de nieve de Koch les gusta vivir en un lugar de dimensiones intermedias; son más que una línea, pero menos que una superficie plana. A estos objetos los llamamos fractales.
 
-Sin embargo, estas figuras, que denominamos autosimilares, tienen una pequeña trampa. Son fractales matemáticos perfectos, que se construyen aplicando una “receta” concreta y repitiéndola de forma idéntica hasta el infinito. Pero, salgamos un momento de la pantalla del ordenador y miremos a nuestro alrededor. Las nubes no son esferas perfectas, las montañas no son conos o pirámides regulares y las hojas de los helechos no repiten un patrón algorítmico exacto. ¿Significa eso que la geometría fractal no puede representar la realidad? Todo lo contrario, significa que necesitamos una herramienta diferente para medir la rugosidad del mundo. ¡Bienvenidos al método definitivo para calcular la dimensión de cualquier objeto: el **método de box-counting** (o conteo de cajas, si lo traducimos)!
+Sin embargo, estas figuras, que denominamos autosimilares, tienen una pequeña trampa. Son fractales matemáticos perfectos, que se construyen aplicando una “receta” concreta y repitiéndola de forma idéntica hasta el infinito. Pero, salgamos un momento de la pantalla del ordenador y miremos a nuestro alrededor. Las nubes no son esferas perfectas, las montañas no son conos o pirámides regulares y las hojas de los helechos no repiten un patrón algorítmico exacto. ¿Significa eso que la geometría fractal no puede representar la realidad? Todo lo contrario, significa que necesitamos una herramienta diferente para medir la rugosidad del mundo. ¡Bienvenidos al método definitivo para calcular la dimensión de cualquier objeto: el **método de box-counting** (o *conteo de cajas*, si lo traducimos)!
 
 ## ¿Cuánto mide la costa de Gran Bretaña? 
 
-En 1967, B. Mandelbrot publicó un artículo con un título más que curioso: *¿Cuánto mide la costa de Gran Bretaña?* <a class="nn-cite" href="#ref-1">[1]</a>. A primera vista, la respuesta parece sencilla, basta con consultar un mapa oficial o una base de datos cartográfica y buscar el número de kilómetros. Pero Mandelbrot, apoyándose en estudios previos del geógrafo Lewis Richardson, demostró que el problema es mucho más profundo de lo que parece: la longitud de una costa depende exclusivamente del tamaño de la regla que uses para medirla.
+En 1967, B. Mandelbrot publicó un artículo con un título más que curioso: *¿Cuánto mide la costa de Gran Bretaña?* <a class="nn-cite" href="#ref-1">[1]</a>. A primera vista la respuesta parece sencilla, basta con consultar un mapa oficial o una base de datos cartográfica y buscar el número de kilómetros. Pero Mandelbrot, apoyándose en estudios previos del geógrafo Lewis Richardson, demostró que el problema es mucho más profundo de lo que parece: la longitud de una costa depende exclusivamente del tamaño de la regla que uses para medirla:
 
 - Si utilizas una regla muy grande, de decenas de kilómetros por ejemplo, sólo capturas la forma general del litoral, y pasarás por alto bahías y golfos pequeños o penínsulas menores. El resultado es una costa relativamente “suave” y corta.
 - Si reduces la escala y mides con una regla de un metro, te verás obligado a rodear cada curva, cada roca y cada recodo. La longitud total crece considerablemente.
 - Y si sigues afinando la medida, usando una regla cada vez más pequeña, el nivel de detalle aumenta sin parar.
-
 
 <figure class="nn-article-figure">
   <img src="{static}/images/Britain-fractal-coastline-combined.png" alt="Britain-fractal-coastline-combined">
@@ -42,7 +41,7 @@ Mandelbrot llegó entonces a la conclusión de que intentar medir la longitud de
 
 ## Dibuja tu propia curva fractal
 
-Desde Napkin Notes hemos desarrollado esta herramienta interactiva que permite dibujar libremente y explorar su dimensión fractal. Ponte creativo y haz un dibujo a mano alzada, puede ser todo lo complejo que quieras, lo importante es que sea “rugoso”. Puedes levantar el lápiz de la pantalla y seguir dibujando. Cuando esté listo, presiona el botón de “Calcular dimensión fractal”, y listo, ¡acabas de construir tu primera curva fractal!. La herramienta te permite descargar tu creación si así lo deseas.
+Desde Napkin Notes hemos desarrollado esta herramienta interactiva que permite dibujar libremente y explorar la dimensión fractal de lo que hayas pintado. Ponte creativo y haz un dibujo a mano alzada, puede ser todo lo complejo que quieras, lo importante es que sea “rugoso”. Puedes levantar el lápiz de la pantalla y seguir dibujando. Cuando esté listo, presiona el botón de “Calcular dimensión fractal”, y listo, ¡acabas de construir tu primera curva fractal!. La herramienta te permite descargar tu creación si así lo deseas.
 
 <!DOCTYPE html>
 <html lang="es">
@@ -514,7 +513,7 @@ init();
 
 ## De la geometría al recuento de cajas
 
-El método de *box-counting* es un algoritmo universal <a class="nn-cite" href="#ref-2">[2]</a><a class="nn-cite" href="#ref-3">[3]</a>, nos sirve para cualquier tipo de forma, y no necesita que el objeto tenga una fórmula matemática detrás o una simetría determinada. 
+El método de *box-counting* es un algoritmo universal <a class="nn-cite" href="#ref-2">[2]</a><a class="nn-cite" href="#ref-3">[3]</a>, pues sirve para cualquier tipo de forma y no necesita que el objeto tenga una fórmula matemática detrás o una simetría determinada. 
 
 Imagina que tomamos la silueta irregular de la costa de la isla de Gran Bretaña, definiendo una curva cerrada en el plano. Ahora, en ese mismo plano, ponemos una cuadrícula transparente, formada por cuadrados (*cajas*) de lado $\epsilon$. Sin mucho problema, podemos contar cuántas de estas cajas contienen parte de la curva de estudio. La pregunta es, ¿cómo varía este número de cajas al modificar el tamaño de la cuadrícula? Si te das cuentas, lo que estamos haciendo es construir una manera ingeniosa de efectuar y cuantificar un “cambio de escala” para objetos irregulares. El procedimiento es el siguiente:
 
@@ -564,7 +563,7 @@ Te presentamos la siguiente simulación interactiva, inspirada el recurso del Pr
 - Cuando la escala es demasiado grande, el recuento de cajas deja de ser fiable. En este caso aparece el mensaje “Escala omitida por saturación, prueba con otro punto”. Modifica la posición del deslizador para seguir registrando puntos.
 - La herramienta permite descargar la tabla de datos en formato TXT y la representación gráfica con el ajuste lineal en formato PNG.
 
-Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dimensión fractal de tu propia creatividad. El mundo real es rugoso, y ahora tienes una regla matemática para medirlo.
+Deja volar tu imaginación, dibuja un rayo, un árbol o un laberinto, y descubre la dimensión fractal de tu propia creatividad. El mundo real es rugoso, y ahora tienes una regla apropiada para medirlo.
 
 <!DOCTYPE html>
 <html lang="es">
@@ -1147,7 +1146,7 @@ ctx.stroke();
 </html>
 
 
-**Disclaimer**: las herramientas interactivas han sido diseñadas con fines educativos y divulgativos por Paz Albares Vicente, con el soporte de modelos de inteligencia artificial para la generación y optimización de parte del código. Se recomienda usarlas con precaución y revisar los resultados obtenidos. Los resultados pueden contener errores debido a limitaciones del algoritmo, del procesamiento de imágenes o del propio dispositivo utilizado.
+**Disclaimer**: Las herramientas interactivas han sido diseñadas con fines educativos y divulgativos por Paz Albares Vicente, con el soporte de modelos de inteligencia artificial para la generación y optimización de parte del código. Se recomienda usarlas con precaución y revisar los resultados obtenidos. Los resultados pueden contener errores debido a limitaciones del algoritmo, del procesamiento de imágenes o del propio dispositivo utilizado.
 
 ## Referencias
 
