@@ -673,23 +673,23 @@ Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dim
 <div class="fractal-app" id="fractal-lab">
   <h3>Crea tu propio fractal y descubre su dimensión</h3>
     
-    <div id="welcomeScreen" class="welcome-screen">
+ <div id="welcomeScreen" class="welcome-screen">
         <button class="btn-choice" onclick="startWithDrawing()">✏️ Haz un dibujo</button>
         <button class="btn-choice" onclick="triggerImageUpload()">📁 Sube una imagen</button>
         <input type="file" id="imageInput" class="hidden-input" accept="image/*" onchange="handleImageUpload(event)">
         <p class="privacy-notice">🔒 Las imágenes se procesan localmente en tu navegador</p>
     </div>
 
-    <div id="mainContent" class="main-content">
+   <div id="mainContent" class="main-content">
         <p style="font-size: 0.85em; margin-bottom: 15px; line-height: 1.4;">
             Mueve el deslizador y pulsa <b>"📌 Registrar Punto"</b> en diferentes escalas para trazar tu gráfica
         </p>
         
-        <div class="canvas-container">
+   <div class="canvas-container">
             <div><canvas id="chaosCanvas" width="800" height="800"></canvas></div>
         </div>
         
-        <div class="controls">
+   <div class="controls">
             <div class="slider-box">
                 <label for="boxSlider"><b>Tamaño (ϵ):</b> <span id="sizeVal">16</span>px</label>
                 <input type="range" id="boxSlider" min="6" max="80" value="16">
@@ -773,34 +773,25 @@ function getPos(e) {
 canvas.addEventListener('pointerdown', (e) => {
     e.preventDefault();
     canvas.setPointerCapture(e.pointerId);
-
     drawing = true;
     hasPintado = true;
-
-    const pos = getPos(e);
-
+    const pos = getPos(e)
     hCtx.beginPath();
     hCtx.moveTo(pos.x, pos.y);
-
     ctx.beginPath();
     ctx.moveTo(pos.x, pos.y);
 });
 
 canvas.addEventListener('pointermove', (e) => {
-
     const pos = getPos(e);
-
     mouseX = pos.x;
     mouseY = pos.y;
-
     if (!drawing) {
         drawGrid();
         return;
     }
-
     hCtx.lineTo(pos.x, pos.y);
     hCtx.stroke();
-
     drawGrid();
 });
 
@@ -873,14 +864,10 @@ function resetCanvasState() {
 function resetToWelcome() {
     const lab = document.getElementById('fractal-lab');
     const top = lab.getBoundingClientRect().top + window.pageYOffset;
-
     document.getElementById('imageInput').value = "";
-
     mainContent.style.display = 'none';
     welcomeScreen.style.display = 'flex';
-
     resetCanvasState();
-
     requestAnimationFrame(() => {
         window.scrollTo({
             top: top,
@@ -891,13 +878,11 @@ function resetToWelcome() {
 function drawGrid() {
     ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, canvas.width, canvas.height); ctx.drawImage(hiddenCanvas, 0, 0);
 if (!hasPintado) {
-
     ctx.beginPath();
     ctx.arc(mouseX, mouseY, 6, 0, 2 * Math.PI);
     ctx.strokeStyle = '#b81424';
     ctx.lineWidth = 1.5;
     ctx.stroke();
-
     return;
 }    const boxSize = parseInt(slider.value); const w = canvas.width; const h = canvas.height;
     const imgData = hCtx.getImageData(0, 0, w, h).data; currentBoxesCount = 0;
@@ -939,16 +924,13 @@ function recordCurrentPoint() {
     if (!hasPintado || currentBoxesCount === 0) { resultText.innerHTML = "⚠️ ¡Lienzo vacío!"; return; }
     const boxSize = parseInt(slider.value); const valX = Math.log(1 / boxSize); const valY = Math.log(currentBoxesCount);
     if (registeredPoints.some(p => p.size === boxSize)) { resultText.innerHTML = `⚠️ El tamaño de ${boxSize}px ya está registrado`; return; }
-    
     let totalW = canvas.width; let totalH = canvas.height;
     let theoreticalMaxBoxes = Math.ceil(totalW / boxSize) * Math.ceil(totalH / boxSize);
     let ratioFill = currentBoxesCount / theoreticalMaxBoxes;
-    
     if (ratioFill > 0.82) {
         resultText.innerHTML = `⚠️ Escala omitida por saturación, prueba con otro punto`;
         return;
     }
-    
     registeredPoints.push({ size: boxSize, x: valX, y: valY, rawCount: currentBoxesCount });
     registeredPoints.sort((a, b) => a.x - b.x);
     updateTableUI();
@@ -995,16 +977,13 @@ function drawNativeChart(xData, yData, slope, intercept) {
     const w = 400; const h = 220;
     const padLeft = 55; const padBottom = 40; const padRight = 25; const padTop = 25;
     const gW = w - padLeft - padRight; const gH = h - padTop - padBottom;
-    
     chartCtx.strokeStyle = '#475569'; chartCtx.lineWidth = 1.5; chartCtx.beginPath();
     chartCtx.moveTo(padLeft, h - padBottom); chartCtx.lineTo(w - padRight, h - padBottom);
     chartCtx.moveTo(padLeft, padTop); chartCtx.lineTo(padLeft, h - padBottom); chartCtx.stroke();
-    
     chartCtx.fillStyle = '#1e293b'; chartCtx.font = 'bold 11px sans-serif';
     chartCtx.fillText("log(1/ϵ)", w - padRight - 55, h - padBottom + 28);
     chartCtx.save(); chartCtx.translate(padLeft - 38, padTop + 45); chartCtx.rotate(-Math.PI / 2);
     chartCtx.fillText("log(N)", 0, 0); chartCtx.restore();
-
     if (xData.length === 0) {
         chartCtx.strokeStyle = '#f1f5f9'; chartCtx.lineWidth = 1;
         for(let i=1; i<=4; i++) {
@@ -1019,7 +998,6 @@ function drawNativeChart(xData, yData, slope, intercept) {
     if(minX === maxX) { minX -= 0.5; maxX += 0.5; } if(minY === maxY) { minY -= 0.5; maxY += 0.5; }
     const spanX = maxX - minX, spanY = maxY - minY;
     function toScreen(x, y) { return { x: padLeft + ((x - minX) / spanX) * gW, y: h - padBottom - ((y - minY) / spanY) * gH }; }
-
     chartCtx.strokeStyle = '#f1f5f9'; chartCtx.lineWidth = 1; chartCtx.fillStyle = '#64748b'; chartCtx.font = '9px sans-serif';
     for (let i = 0; i <= 4; i++) {
         const factor = i / 4; const curX = minX + factor * spanX; const curY = minY + factor * spanY; const sPt = toScreen(curX, curY);
@@ -1048,47 +1026,38 @@ function generateChartOnCanvas() {
     const logX = registeredPoints.map(p => p.x); const logY = registeredPoints.map(p => p.y);
     for (let i = 0; i < n; i++) { sX += logX[i]; sY += logY[i]; sXY += logX[i] * logY[i]; sXX += logX[i] * logX[i]; }
     const slope = (n * sXY - sX * sY) / (n * sXX - sX * sX); const d = Math.abs(slope);
-
     const exportCanvas = document.createElement('canvas');
     exportCanvas.width = chartCanvas.width;
     exportCanvas.height = chartCanvas.height;
     const eCtx = exportCanvas.getContext('2d');
-    
     eCtx.fillStyle = '#ffffff';
     eCtx.fillRect(0, 0, exportCanvas.width, exportCanvas.height);
     eCtx.drawImage(chartCanvas, 0, 0);
-    
     eCtx.save();
     eCtx.fillStyle = 'rgba(253, 242, 242, 0.90)';
     eCtx.strokeStyle = '#fbd5d5';
     eCtx.lineWidth = 2;
-    
     const boxW = 265; const boxH = 45;
     const boxX = (exportCanvas.width - boxW) / 2; const boxY = 15;
-    
     eCtx.beginPath();
     eCtx.roundRect(boxX, boxY, boxW, boxH, 6);
     eCtx.fill();
     eCtx.stroke();
-    
     eCtx.save();
     eCtx.translate(boxX + 15, boxY + 11);
     eCtx.fillStyle = '#ff4d5a'; eCtx.beginPath(); eCtx.moveTo(11, 0); eCtx.lineTo(20, 4.8); eCtx.lineTo(11, 9.6); eCtx.lineTo(2, 4.8); eCtx.closePath(); eCtx.fill();
     eCtx.fillStyle = '#d92635'; eCtx.beginPath(); eCtx.moveTo(2, 4.8); eCtx.lineTo(11, 9.6); eCtx.lineTo(11, 23); eCtx.lineTo(2, 18.2); eCtx.closePath(); eCtx.fill();
     eCtx.fillStyle = '#b81424'; eCtx.beginPath(); eCtx.moveTo(11, 9.6); eCtx.lineTo(20, 4.8); eCtx.lineTo(20, 18.2); eCtx.lineTo(11, 23); eCtx.closePath(); eCtx.fill();
     eCtx.restore();
-    
     eCtx.fillStyle = '#b81424'; eCtx.font = 'bold 18px sans-serif'; eCtx.textBaseline = 'middle'; eCtx.textAlign = 'left';
     eCtx.fillText(`Dimensión fractal: ${d.toFixed(2)}`, boxX + 48, boxY + (boxH / 2));
     eCtx.restore();
-
     return exportCanvas;
 }
 
 function triggerExport(type) {
     if (registeredPoints.length < 2) return;
     document.getElementById('downloadBtn').classList.remove('active');
-
     const n = registeredPoints.length;
     let sX = 0, sY = 0, sXY = 0, sXX = 0;
     const logX = registeredPoints.map(p => p.x); const logY = registeredPoints.map(p => p.y);
