@@ -709,11 +709,15 @@ Deja volar tu mente, dibuja un rayo, un árbol o un laberinto, y descubre la dim
         </div>
         
         
-        <div class="chart-container">
-            <canvas id="chartCanvas" width="800" height="440"></canvas>
-        </div>
-        
-        <div class="table-box">
+<div class="chart-container">
+    <canvas id="chartCanvas" width="800" height="440"></canvas>
+</div>
+
+<div id="result-text" class="result-box">
+    ⚡ Espacio en blanco listo para calcular la dimensión fractal
+</div>
+
+<div class="table-box">
             <table>
                 <thead>
                    <tr>
@@ -745,7 +749,9 @@ let mouseX = canvas.width / 2;
 let mouseY = canvas.height / 2;
 
 const cubeSVG = `<svg class="fractal-cube" width="24" height="24" viewBox="0 0 24 24" style="vertical-align:middle; margin-right:8px;"><polygon points="12,2 21,7.2 12,12.4 3,7.2" fill="#ff4d5a"/><polygon points="3,7.2 12,12.4 12,22 3,16.8" fill="#d92635"/><polygon points="12,12.4 21,7.2 21,16.8 12,22" fill="#b81424"/></svg>`;
-
+const squareSVG = `<svg width="20" height="20" viewBox="0 0 20 20" style="vertical-align:middle; margin-right:8px;">
+<rect x="2" y="2" width="16" height="16" fill="#000000"/>
+</svg>`;
 function initCanvases() {
     ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, canvas.width, canvas.height);
