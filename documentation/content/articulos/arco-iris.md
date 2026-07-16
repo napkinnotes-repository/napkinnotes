@@ -11,7 +11,7 @@ tags:
   - arcoíris
 summary: Cada arcoíris es único porque depende del ángulo exacto desde el que lo observan tus ojos.
 image: images/arco-iris.png
-featured_image: images/arco-iris-share.jpg
+featured_image: images/arco-iris-share.jpeg
 certificate: true
 ---
 
