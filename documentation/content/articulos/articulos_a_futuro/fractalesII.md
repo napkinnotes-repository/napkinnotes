@@ -3,8 +3,7 @@ title: "La rebelión de los fractales II: crea tu propio fractal y descubre su d
 author: Paz Albares Vicente
 date: 2026-07-16
 layout: articles
-slug: prueba-interactivo
-status: hidden
+status: published
 category: Matemáticas
 tags:
   - fractales
@@ -1146,7 +1145,7 @@ ctx.stroke();
 </html>
 
 
-**Disclaimer**: Las herramientas interactivas han sido diseñadas con fines educativos y divulgativos por Paz Albares Vicente, con el soporte de modelos de inteligencia artificial para la generación y optimización de parte del código. Se recomienda usarlas con precaución y revisar los resultados obtenidos. Los resultados pueden contener errores debido a limitaciones del algoritmo, del procesamiento de imágenes o del propio dispositivo utilizado.
+**Disclaimer**: Las herramientas interactivas han sido diseñadas con fines educativos y divulgativos por Paz Albares Vicente, con el soporte de modelos de inteligencia artificial para la generación y optimización de parte del código y con el soporte técnico de David Figueruelo Hernán. Se recomienda usarlas con precaución y revisar los resultados obtenidos. Los resultados pueden contener errores debido a limitaciones del algoritmo, del procesamiento de imágenes o del propio dispositivo utilizado.
 
 ## Referencias
 
