@@ -1,5 +1,5 @@
 ---
-title: "Dunas y desiertos I&nbsp;I"
+title: "Dunas y desiertos I&#8202;I"
 author: David Barba González
 date: 2026-07-09
 layout: articles
