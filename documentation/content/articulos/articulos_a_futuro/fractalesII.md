@@ -1,5 +1,5 @@
 ---
-title: "La rebelión de los fractales I&nbsp;I: crea tu propio fractal y descubre su dimensión"
+title: "La rebelión de los fractales I&#8202;I: crea tu propio fractal y descubre su dimensión"
 author: Paz Albares Vicente
 date: 2026-07-16
 layout: articles
