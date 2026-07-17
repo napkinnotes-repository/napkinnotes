@@ -1,16 +1,16 @@
 ---
-title: El misterio de la mezquita de Washington y la geometría diferencial
+title: El camino más corto no siempre es la línea recta
 author: Gabriel Sánchez Pérez
 date: 2026-07-23
 layout: articles
 slug: misterio-mezquita-washington-geometria
 status: hidden
-category: Ciencia
+category: Matemáticas
 tags:
-  - geometría diferencial
+  - geometría
   - geodésicas
   - mapas
-  - curiosidades
+  - paradojas
 summary: La increíble historia de cómo una mezquita en Washington D. C. casi es demolida debido a la distorsión de los mapas planos y las leyes de la geometría esférica.
 image: images/mezquita_washington.jpeg
 certificate: true
