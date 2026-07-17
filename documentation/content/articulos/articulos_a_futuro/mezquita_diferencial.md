@@ -1,7 +1,7 @@
 ---
 title: El misterio de la mezquita de Washington y la geometría diferencial
 author: Napkin Notes
-date: 2026-03-15
+date: 2026-07-23
 layout: articles
 slug: misterio-mezquita-washington-geometria
 status: published
@@ -189,12 +189,5 @@ La próxima vez que mires un mapa plano, recuerda que las apariencias engañan. 
 
 ---
 
-
-## Referencias
-
-<ol class="nn-references">
-  <li id="ref-1">
-    Autor del blog. (2026). El misterio de la mezquita de Washington y la geometría diferencial. <em>Napkin Notes</em>.
-    <a href="https://doi.org/..." target="_blank" rel="noopener noreferrer">https://doi.org/...</a>
   </li>
 </ol>
