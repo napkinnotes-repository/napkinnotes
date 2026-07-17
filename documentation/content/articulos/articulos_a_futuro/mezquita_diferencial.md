@@ -20,9 +20,7 @@ certificate: true
 
 
 
-## Introducción
 
-<!-- Texto normal -->
 
 En la napkin note de hoy os traemos una curiosa historia que combina la construcción de la mezquita más grande del hemisferio occidental con los aspectos más básicos de la geometría diferencial.
 
@@ -93,8 +91,6 @@ Por lo tanto, la longitud de nuestra curva siempre estará acotada inferiormente
 $$
 L \ge R \int_{\theta_1}^{\theta_2} 1 d\theta = R(\theta_2 - \theta_1).
 $$
-
-### Determinación del mínimo
 
 <!-- Preguntas con recuadro bonito -->
 > **¿Cuándo se alcanza el valor mínimo absoluto de la longitud?**
@@ -182,15 +178,6 @@ Cuando proyectamos la verdadera distancia geodésica (la ortodromia, es decir, e
 
 Dado que las leyes islámicas dictan que el muro de la Qibla debe orientarse hacia La Meca siguiendo la distancia más corta posible, el arquitecto Porter y el cartógrafo de la National Geographic tenían toda la razón del mundo: para rezar mirando a La Meca desde Washington, hay que mirar hacia el noreste. El embajador Rahim, víctima de la distorsión de los mapas planos, simplemente había olvidado que vivimos atrapados en la preciosa superficie curva de una esfera.
 
-<!-- Fin de Sección -->
 ---
-
-
-## Conclusiones
-
-La próxima vez que mires un mapa plano, recuerda que las apariencias engañan. La distancia más corta entre dos puntos en un planeta curvo siempre desafiará la intuición bidimensional a la que nos han acostumbrado las proyecciones cartográficas. Gracias a la geometría diferencial, el Islamic Center de Washington D. C. sigue en pie hoy en día, perfectamente orientado hacia su destino.
-
----
-
-  </li>
+/li>
 </ol>
