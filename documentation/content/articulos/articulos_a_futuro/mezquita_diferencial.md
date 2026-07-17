@@ -128,7 +128,6 @@ Si las desarrollamos para nuestras dos coordenadas, obtenemos el siguiente siste
 
 - Para $\theta$: $\ddot{\theta} - \sin \theta \cos \theta \dot{\phi}^2 = 0$.  
 - Para $\phi$: $\frac{d}{dt}\left(\sin^2 \theta \dot{\phi}\right) = 0 \Longrightarrow \sin^2 \theta \dot{\phi} = C \quad (\text{constante})$.  
-- Comprobación: Evaluaremos los círculos máximos en las ecuaciones.
 
 Comprobemos si nuestros candidatos a caminos más cortos, los círculos máximos (representados aquí por los meridianos con $\phi = \text{constante}$), satisfacen estas ecuaciones de las geodésicas:
 
@@ -179,5 +178,4 @@ Cuando proyectamos la verdadera distancia geodésica (la ortodromia, es decir, e
 Dado que las leyes islámicas dictan que el muro de la Qibla debe orientarse hacia La Meca siguiendo la distancia más corta posible, el arquitecto Porter y el cartógrafo de la National Geographic tenían toda la razón del mundo: para rezar mirando a La Meca desde Washington, hay que mirar hacia el noreste. El embajador Rahim, víctima de la distorsión de los mapas planos, simplemente había olvidado que vivimos atrapados en la preciosa superficie curva de una esfera.
 
 ---
-/li>
-</ol>
+
