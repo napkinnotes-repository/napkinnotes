@@ -71,10 +71,12 @@ Otra cita distinta iría así <a class="nn-cite" href="#ref-2">[2]</a>.
 Texto antes de la imagen.
 
 <!-- Una imagen va así -->
-![Descripción de la imagen](images/nombre_de_la_imagen.png)
-
-<!-- Opcional: pie de foto -->
-*Figura 1. Breve explicación de la imagen.*
+<figure class="nn-article-figure">
+  <img src="{static}/images/duna.png" alt="Estructura de una duna típica">
+  <figcaption>
+    Figura 1. Estructura de una duna típica.
+  </figcaption>
+</figure>
 
 Texto tras la imagen.
 
