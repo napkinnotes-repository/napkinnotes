@@ -65,28 +65,27 @@ Para encontrar la curva más corta sobre una esfera de radio $R$, podemos recurr
 Representemos nuestra esfera usando las coordenadas esféricas estándar $(\theta, \phi)$, donde $\theta \in [0,\pi]$ es la colatitud (el ángulo desde el polo norte) y $\phi \in [0, 2\pi)$ es la longitud. En estas coordenadas, un pequeño elemento de longitud de arco $ds$ en la superficie de la esfera viene dado por:
 
 $$
-ds^2 = R^2 d	\theta^2 + R^2 \sin^2	\theta d\phi^2
+ds^2 = R^2 d\theta^2 + R^2 \sin^2 \theta d\phi^2
 $$
 
 Queremos unir dos puntos, $A$ y $B$. Como la esfera es perfectamente simétrica, siempre podemos girarla de manera que ambos puntos queden situados sobre el mismo meridiano. Es decir, ambos compartirán la misma longitud $\phi_0$.
 
-Ahora, consideremos cualquier curva $\gamma$ que vaya de $A = (	\theta_1, \phi_0)$ a $B = (	\theta_2, \phi_0)$ (con $	\theta_1 < 	\theta_2$). Podemos parametrizar esta curva expresando la longitud en función de la colatitud, es decir, $\phi = \phi(	\theta)$. La longitud total $L$ de esta trayectoria será la suma de todos los pequeños trozos $ds$:
+Ahora, consideremos cualquier curva $\gamma$ que vaya de $A = (\theta_1, \phi_0)$ a $B = (\theta_2, \phi_0)$ (con $\theta_1 < \theta_2$). Podemos parametrizar esta curva expresando la longitud en función de la colatitud, es decir, $\phi = \phi(\theta)$. La longitud total $L$ de esta trayectoria será la suma de todos los pequeños trozos $ds$:
 
 $$
-L = \int_{\theta_1}^{\theta_2} \sqrt{R^2 + R^2 \sin^2 \theta \left(rac{d\phi}{d\theta}
-ight)^2} d \theta = R \int_{\theta_1}^{\theta_2} \sqrt{1 + \sin^2 \theta (\phi')^2} d\theta,
+L = \int_{\theta_1}^{\theta_2} \sqrt{R^2 + R^2 \sin^2 \theta \left(\frac{d\phi}{d\theta}\right)^2} d\theta = R \int_{\theta_1}^{\theta_2} \sqrt{1 + \sin^2 \theta (\phi')^2} d\theta,
 $$
 
-donde $\phi' = rac{d\phi}{d\theta}$. Nuestro objetivo es minimizar esta integral. Fijémonos bien en el integrando:
+donde $\phi' = \frac{d\phi}{d\theta}$. Nuestro objetivo es minimizar esta integral. Fijémonos bien en el integrando:
 
 $$
 \sqrt{1 + \sin^2 \theta (\phi')^2}.
 $$
 
-Dado que el término $\sin^2	\theta (\phi')^2$ siempre es mayor o igual a cero (ya que está elevado al cuadrado y el seno al cuadrado de cualquier ángulo real es no negativo), se cumple de forma directa la siguiente desigualdad:
+Dado que el término $\sin^2 \theta (\phi')^2$ siempre es mayor o igual a cero (ya que está elevado al cuadrado y el seno al cuadrado de cualquier ángulo real es no negativo), se cumple de forma directa la siguiente desigualdad:
 
 $$
-\sqrt{1 + \sin^2	\theta (\phi')^2} \ge 1.
+\sqrt{1 + \sin^2 \theta (\phi')^2} \ge 1.
 $$
 
 Por lo tanto, la longitud de nuestra curva siempre estará acotada inferiormente:
@@ -104,7 +103,7 @@ $$
 Únicamente cuando el término que sumaba sea cero en todo el trayecto:
 
 $$
-\sin^2 \theta (\phi')^2 = 0 \implies \phi' = 0 \implies \phi(\theta) = 	ext{constante} = \phi_0.
+\sin^2 \theta (\phi')^2 = 0 \implies \phi' = 0 \implies \phi(\theta) = \text{constante} = \phi_0.
 $$
 
 Esto significa que el camino que minimiza la distancia es aquel donde la longitud $\phi$ no varía en absoluto. En una esfera, las curvas donde la longitud es constante son los meridianos, que no son otra cosa que arcos de círculos máximos (círculos que tienen el mismo radio que la esfera y cuyo centro coincide con el centro de la Tierra). Como cualquier par de puntos en la Tierra se puede rotar para que queden sobre un mismo meridiano sin alterar las distancias, concluimos que el camino más corto entre dos puntos cualesquiera de la esfera es siempre un arco de círculo máximo.
@@ -120,28 +119,25 @@ En geometría diferencial, las curvas de menor longitud se conocen formalmente c
 Consideremos la métrica estándar de la esfera de radio $1$ (para simplificar los cálculos): $g = d\theta^2 + \sin^2 \theta d\phi^2$. El Lagrangiano asociado a las geodésicas es:
 
 $$
-E(\theta, \phi, \dot{\theta}, \dot{\phi}) = rac{1}{2} \left( \dot{\theta}^2 + \sin^2 \theta \dot{\phi}^2 
-ight)
+E(\theta, \phi, \dot{\theta}, \dot{\phi}) = \frac{1}{2} \left( \dot{\theta}^2 + \sin^2 \theta \dot{\phi}^2 \right)
 $$
 
 donde los puntos denotan la derivada respecto a un parámetro afín $t$ (que podemos pensar como el tiempo si viajamos a velocidad constante). Las ecuaciones de movimiento de Euler-Lagrange para este sistema son:
 
 $$
-rac{d}{dt}\left(rac{\partial E}{\partial \dot{x}^i}
-ight) - rac{\partial E}{\partial x^i} = 0
+\frac{d}{dt}\left(\frac{\partial E}{\partial \dot{x}^i}\right) - \frac{\partial E}{\partial x^i} = 0
 $$
 
 Si las desarrollamos para nuestras dos coordenadas, obtenemos el siguiente sistema de ecuaciones diferenciales:
 
 - Para $\theta$: $\ddot{\theta} - \sin \theta \cos \theta \dot{\phi}^2 = 0$.  
-- Para $\phi$: $rac{d}{dt}\left(\sin^2 \theta \dot{\phi}
-ight) = 0 \Longrightarrow \sin^2 \theta \dot{\phi} = C \quad (	ext{constante})$.  
+- Para $\phi$: $\frac{d}{dt}\left(\sin^2 \theta \dot{\phi}\right) = 0 \Longrightarrow \sin^2 \theta \dot{\phi} = C \quad (\text{constante})$.  
 - Comprobación: Evaluaremos los círculos máximos en las ecuaciones.
 
-Comprobemos si nuestros candidatos a caminos más cortos, los círculos máximos (representados aquí por los meridianos con $\phi = 	ext{constante}$), satisfacen estas ecuaciones de las geodésicas:
+Comprobemos si nuestros candidatos a caminos más cortos, los círculos máximos (representados aquí por los meridianos con $\phi = \text{constante}$), satisfacen estas ecuaciones de las geodésicas:
 
 - Si $\phi(t) = \phi_0$ (constante), entonces su derivada es cero: $\dot{\phi} = 0$.  
-- Al sustituir $\dot{\phi} = 0$ en la segunda ecuación, obtenemos $rac{d}{dt}(0) = 0$, lo cual se cumple trivialmente (con $C = 0$).  
+- Al sustituir $\dot{\phi} = 0$ en la segunda ecuación, obtenemos $\frac{d}{dt}(0) = 0$, lo cual se cumple trivialmente (con $C = 0$).  
 - Al sustituir $\dot{\phi} = 0$ en la primera ecuación, esta se reduce a:
 
 $$
