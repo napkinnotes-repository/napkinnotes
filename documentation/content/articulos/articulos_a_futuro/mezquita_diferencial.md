@@ -62,37 +62,37 @@ Volviendo al problema que nos ocupa, ¿cuál es la distancia entre cualesquiera 
 
 Para encontrar la curva más corta sobre una esfera de radio $R$, podemos recurrir al cálculo de variaciones, que es la herramienta matemática que nos permite encontrar "funciones que minimizan cosas" (en este caso, la longitud de una curva).
 
-Representemos nuestra esfera usando las coordenadas esféricas estándar $(	heta, \phi)$, donde $	heta \in [0, \pi]$ es la colatitud (el ángulo desde el polo norte) y $\phi \in [0, 2\pi)$ es la longitud. En estas coordenadas, un pequeño elemento de longitud de arco $ds$ en la superficie de la esfera viene dado por:
+Representemos nuestra esfera usando las coordenadas esféricas estándar $(\theta, \phi)$, donde $\theta \in [0,\pi]$ es la colatitud (el ángulo desde el polo norte) y $\phi \in [0, 2\pi)$ es la longitud. En estas coordenadas, un pequeño elemento de longitud de arco $ds$ en la superficie de la esfera viene dado por:
 
 $$
-ds^2 = R^2 d	heta^2 + R^2 \sin^2	heta d\phi^2
+ds^2 = R^2 d	\theta^2 + R^2 \sin^2	\theta d\phi^2
 $$
 
 Queremos unir dos puntos, $A$ y $B$. Como la esfera es perfectamente simétrica, siempre podemos girarla de manera que ambos puntos queden situados sobre el mismo meridiano. Es decir, ambos compartirán la misma longitud $\phi_0$.
 
-Ahora, consideremos cualquier curva $\gamma$ que vaya de $A = (	heta_1, \phi_0)$ a $B = (	heta_2, \phi_0)$ (con $	heta_1 < 	heta_2$). Podemos parametrizar esta curva expresando la longitud en función de la colatitud, es decir, $\phi = \phi(	heta)$. La longitud total $L$ de esta trayectoria será la suma de todos los pequeños trozos $ds$:
+Ahora, consideremos cualquier curva $\gamma$ que vaya de $A = (	\theta_1, \phi_0)$ a $B = (	\theta_2, \phi_0)$ (con $	\theta_1 < 	\theta_2$). Podemos parametrizar esta curva expresando la longitud en función de la colatitud, es decir, $\phi = \phi(	\theta)$. La longitud total $L$ de esta trayectoria será la suma de todos los pequeños trozos $ds$:
 
 $$
-L = \int_{	heta_1}^{	heta_2} \sqrt{R^2 + R^2 \sin^2	heta \left(rac{d\phi}{d	heta}
-ight)^2} d	heta = R \int_{	heta_1}^{	heta_2} \sqrt{1 + \sin^2	heta (\phi')^2} d	heta,
+L = \int_{\theta_1}^{\theta_2} \sqrt{R^2 + R^2 \sin^2 \theta \left(rac{d\phi}{d\theta}
+ight)^2} d \theta = R \int_{\theta_1}^{\theta_2} \sqrt{1 + \sin^2 \theta (\phi')^2} d\theta,
 $$
 
-donde $\phi' = rac{d\phi}{d	heta}$. Nuestro objetivo es minimizar esta integral. Fijémonos bien en el integrando:
+donde $\phi' = rac{d\phi}{d\theta}$. Nuestro objetivo es minimizar esta integral. Fijémonos bien en el integrando:
 
 $$
-\sqrt{1 + \sin^2	heta (\phi')^2}.
+\sqrt{1 + \sin^2 \theta (\phi')^2}.
 $$
 
-Dado que el término $\sin^2	heta (\phi')^2$ siempre es mayor o igual a cero (ya que está elevado al cuadrado y el seno al cuadrado de cualquier ángulo real es no negativo), se cumple de forma directa la siguiente desigualdad:
+Dado que el término $\sin^2	\theta (\phi')^2$ siempre es mayor o igual a cero (ya que está elevado al cuadrado y el seno al cuadrado de cualquier ángulo real es no negativo), se cumple de forma directa la siguiente desigualdad:
 
 $$
-\sqrt{1 + \sin^2	heta (\phi')^2} \ge 1.
+\sqrt{1 + \sin^2	\theta (\phi')^2} \ge 1.
 $$
 
 Por lo tanto, la longitud de nuestra curva siempre estará acotada inferiormente:
 
 $$
-L \ge R \int_{	heta_1}^{	heta_2} 1 d	heta = R(	heta_2 - 	heta_1).
+L \ge R \int_{\theta_1}^{\theta_2} 1 d\theta = R(\theta_2 - \theta_1).
 $$
 
 ### Determinación del mínimo
@@ -104,7 +104,7 @@ $$
 Únicamente cuando el término que sumaba sea cero en todo el trayecto:
 
 $$
-\sin^2	heta (\phi')^2 = 0 \implies \phi' = 0 \implies \phi(	heta) = 	ext{constante} = \phi_0.
+\sin^2 \theta (\phi')^2 = 0 \implies \phi' = 0 \implies \phi(\theta) = 	ext{constante} = \phi_0.
 $$
 
 Esto significa que el camino que minimiza la distancia es aquel donde la longitud $\phi$ no varía en absoluto. En una esfera, las curvas donde la longitud es constante son los meridianos, que no son otra cosa que arcos de círculos máximos (círculos que tienen el mismo radio que la esfera y cuyo centro coincide con el centro de la Tierra). Como cualquier par de puntos en la Tierra se puede rotar para que queden sobre un mismo meridiano sin alterar las distancias, concluimos que el camino más corto entre dos puntos cualesquiera de la esfera es siempre un arco de círculo máximo.
@@ -117,10 +117,10 @@ Esto significa que el camino que minimiza la distancia es aquel donde la longitu
 
 En geometría diferencial, las curvas de menor longitud se conocen formalmente como geodésicas. Pero en lugar de definirlas solo como "los caminos más cortos", las geodésicas se definen matemáticamente a través de la métrica del espacio usando las ecuaciones de Euler-Lagrange para el funcional de energía. Resulta que, como no podía ser de otra manera, ambas definiciones coinciden.
 
-Consideremos la métrica estándar de la esfera de radio $1$ (para simplificar los cálculos): $g = d	heta^2 + \sin^2	heta d\phi^2$. El Lagrangiano asociado a las geodésicas es:
+Consideremos la métrica estándar de la esfera de radio $1$ (para simplificar los cálculos): $g = d\theta^2 + \sin^2 \theta d\phi^2$. El Lagrangiano asociado a las geodésicas es:
 
 $$
-E(	heta, \phi, \dot{	heta}, \dot{\phi}) = rac{1}{2} \left( \dot{	heta}^2 + \sin^2	heta \dot{\phi}^2 
+E(\theta, \phi, \dot{\theta}, \dot{\phi}) = rac{1}{2} \left( \dot{\theta}^2 + \sin^2 \theta \dot{\phi}^2 
 ight)
 $$
 
@@ -133,9 +133,9 @@ $$
 
 Si las desarrollamos para nuestras dos coordenadas, obtenemos el siguiente sistema de ecuaciones diferenciales:
 
-- Para $	heta$: $\ddot{	heta} - \sin	heta \cos	heta \dot{\phi}^2 = 0$.  
-- Para $\phi$: $rac{d}{dt}\left(\sin^2	heta \dot{\phi}
-ight) = 0 \Longrightarrow \sin^2	heta \dot{\phi} = C \quad (	ext{constante})$.  
+- Para $\theta$: $\ddot{\theta} - \sin \theta \cos \theta \dot{\phi}^2 = 0$.  
+- Para $\phi$: $rac{d}{dt}\left(\sin^2 \theta \dot{\phi}
+ight) = 0 \Longrightarrow \sin^2 \theta \dot{\phi} = C \quad (	ext{constante})$.  
 - Comprobación: Evaluaremos los círculos máximos en las ecuaciones.
 
 Comprobemos si nuestros candidatos a caminos más cortos, los círculos máximos (representados aquí por los meridianos con $\phi = 	ext{constante}$), satisfacen estas ecuaciones de las geodésicas:
@@ -145,7 +145,7 @@ Comprobemos si nuestros candidatos a caminos más cortos, los círculos máximos
 - Al sustituir $\dot{\phi} = 0$ en la primera ecuación, esta se reduce a:
 
 $$
-\ddot{	heta} = 0 \implies 	heta(t) = a t + b.
+\ddot{\theta} = 0 \implies \theta(t) = a t + b.
 $$
 
 Esto describe un movimiento a velocidad angular constante a lo largo del meridiano. Dado que las ecuaciones se satisfacen perfectamente, los meridianos son geodésicas de la esfera. Y como cualquier círculo máximo puede transformarse en un meridiano mediante una rotación (que es una isometría y conserva las geodésicas), queda demostrado que las geodésicas de la métrica estándar de la esfera son, precisamente, los círculos máximos.
