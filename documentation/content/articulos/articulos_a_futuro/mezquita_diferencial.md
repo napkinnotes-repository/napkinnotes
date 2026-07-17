@@ -1,10 +1,10 @@
 ---
 title: El misterio de la mezquita de Washington y la geometría diferencial
-author: Napkin Notes
+author: Gabr
 date: 2026-07-23
 layout: articles
 slug: misterio-mezquita-washington-geometria
-status: published
+status: hidden
 category: Ciencia
 tags:
   - geometría diferencial
