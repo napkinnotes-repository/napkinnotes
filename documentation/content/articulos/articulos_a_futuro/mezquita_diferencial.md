@@ -175,7 +175,11 @@ Cuando proyectamos la verdadera distancia geodésica (la ortodromia, es decir, e
 </div>
 
 
+
 Dado que las leyes islámicas dictan que el muro de la Qibla debe orientarse hacia La Meca siguiendo la distancia más corta posible, el arquitecto Porter y el cartógrafo de la National Geographic tenían toda la razón del mundo: para rezar mirando a La Meca desde Washington, hay que mirar hacia el noreste. El embajador Rahim, víctima de la distorsión de los mapas planos, simplemente había olvidado que vivimos atrapados en la preciosa superficie curva de una esfera.
 
 ---
 
+# Referencias
+
+Las imágenes han sido obtenidas de Google Maps y Google Earth (© Google) y modificadas por el autor pertinentemente.
