@@ -32,7 +32,7 @@ Las obras comenzaron en 1949 dirigidas por el arquitecto estadounidense Irwin S.
 
 <!-- Una imagen va así -->
 <figure class="nn-article-figure">
-  <img src="{static}/images/mapa_1.png" alt="En amarillo, la orientación del edificio. En rojo, la dirección a la Meca">
+  <img src="{static}/images/Mezquita_Mapa1.png" alt="En amarillo, la orientación del edificio. En rojo, la dirección a la Meca">
   <figcaption>
     Figura 1. En amarillo, la orientación del edificio. En rojo, la dirección a la Meca (según un mapa).
   </figcaption>
@@ -155,7 +155,7 @@ Esto describe un movimiento a velocidad angular constante a lo largo del meridia
 Aquí es donde se desvela el gran misterio que casi le cuesta la demolición a la mezquita de Washington. Nuestra mente está acostumbrada a ver el mundo a través de mapas planos, generalmente utilizando la archiconocida proyección de Mercator. En estos mapas, si trazamos una línea recta entre Washington D. C. y La Meca, la trayectoria resultante apunta claramente hacia el sureste. Esta línea recta sobre el papel se conoce como loxodromia (una curva que mantiene un rumbo constante de brújula), pero no es el camino más corto en la realidad tridimensional.
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/mapa_2.png" alt="Comparación entre la dirección geodésica y la dirección en el plano">
+  <img src="{static}/images/Mezquita_Mapa2.png" alt="Comparación entre la dirección geodésica y la dirección en el plano">
   <figcaption>
     Figura 2. Comparación entre la dirección geodésica (amarillo) y la dirección en el plano (rojo).
   </figcaption>
@@ -164,14 +164,14 @@ Aquí es donde se desvela el gran misterio que casi le cuesta la demolición a l
 Cuando proyectamos la verdadera distancia geodésica (la ortodromia, es decir, el arco de círculo máximo) sobre ese mismo mapa plano, la ruta no se ve recta, sino que se curva hacia el norte. De hecho, si decidieras volar desde Washington D. C. hasta La Meca siguiendo el camino más corto, despegarías con tu avión apuntando hacia el noreste, sobrevolando parte de Canadá, Groenlandia y el sur de Europa antes de descender hacia Arabia Saudita.
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/mapa3.png" alt="Visión tridimensional del círculo máximo que une Washington con La Meca">
+  <img src="{static}/images/Mezquita_Mapa3.png" alt="Visión tridimensional del círculo máximo que une Washington con La Meca">
   <figcaption>
     Figura 3. Visión tridimensional del círculo máximo que une Washington con La Meca.
   </figcaption>
 </figure>
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/mapa4.png" alt="Desde la orientación apropiada se observa que es una verdadera línea recta">
+  <img src="{static}/images/Mezquita_Mapa4.png" alt="Desde la orientación apropiada se observa que es una verdadera línea recta">
   <figcaption>
     Figura 4. Desde la orientación apropiada, se observa que ésta es la verdadera línea recta.
   </figcaption>
