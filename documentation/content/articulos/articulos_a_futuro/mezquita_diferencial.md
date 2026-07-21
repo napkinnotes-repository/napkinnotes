@@ -22,11 +22,11 @@ certificate: true
 
 
 
-En la napkin note de hoy os traemos una curiosa historia que combina la construcción de la mezquita más grande del hemisferio occidental con los aspectos más básicos de la geometría diferencial.
+En la *napkin note* de hoy os traemos una curiosa historia que combina la construcción de la mezquita más grande del hemisferio occidental con los aspectos básicos de la geometría diferencial.
 
-La idea de construir una mezquita en Washington fue impulsada en los años 30 del siglo pasado a raíz de varias olas de inmigración desde países como Egipto a Estados Unidos. Después de la II Guerra Mundial, el embajador egipcio en EE.UU., Kamil Abdul Rahim, dio un paso decisivo para la construcción de semejante obra faraónica. Contactó con representantes de todo el mundo para financiar la construcción, dejando el diseño del edificio en manos del italiano Mario Rossi.
+La idea de construir una mezquita en Washington fue impulsada en los años 30 del siglo pasado a raíz de varias olas de inmigración desde países como Egipto a Estados Unidos. Después de la II Guerra Mundial, el embajador egipcio en EE.UU., Kamil Abdul Rahim, dio un paso decisivo para la realización de semejante obra faraónica. Contactó con representantes de todo el mundo para financiar la construcción, dejando el diseño del edificio en manos del italiano Mario Rossi.
 
-Las obras comenzaron en 1949 dirigidas por el arquitecto estadounidense Irwin S. Porter, y en 1953 el edificio estaba prácticamente terminado. Fue entonces cuando el embajador, Rahim, visitó el complejo. Cuando llegó allí, sacó una brújula de su bolsillo, miró a Porter y le dijo: “Esta mezquita no está bien. El muro de la Qibla no apunta a La Meca. La Meca está al sureste y esta mezquita está orientada al noreste. Antiguamente, cuando una mezquita no apuntaba exactamente a La Meca, se obligaba a demoler el edificio y hacerlo de nuevo”.
+Las obras comenzaron en 1949 dirigidas por el arquitecto estadounidense Irwin S. Porter, y en 1953 el edificio estaba prácticamente terminado. Fue entonces cuando el embajador, Rahim, visitó el complejo. Cuando llegó allí, sacó una brújula de su bolsillo, miró a Porter y le dijo: “Esta mezquita no está bien. El muro de la *Qibla* no apunta a La Meca. La Meca está al sureste y la mezquita está orientada al noreste. Antiguamente, cuando una mezquita no apuntaba exactamente a La Meca, se obligaba a demoler el edificio y hacerlo de nuevo”.
 
 <!-- Una imagen va así -->
 <figure class="nn-article-figure">
@@ -36,7 +36,7 @@ Las obras comenzaron en 1949 dirigidas por el arquitecto estadounidense Irwin S.
   </figcaption>
 </figure>
 
-Asustado, Porter llamó a un cartógrafo de la National Geographic Society, quien a las pocas horas confirmó que la orientación era la correcta. ¿Qué estaba sucediendo? ¿Quién tenía razón? La solución a todo este embrollo, al igual que la mayoría de problemas en esta vida, no podría estar en otro lugar más que en la geometría diferencial de variedades. Es broma. La geometría solo me ha causado problemas. Ayuda, por favor.
+Asustado, Porter llamó a un cartógrafo de la *National Geographic Society*, quien a las pocas horas confirmó que la orientación era la correcta. ¿Qué estaba sucediendo? ¿Quién tenía razón? La solución a todo este embrollo, al igual que a la mayoría de problemas en esta vida, no podría estar en otro lugar más que en la geometría diferencial de variedades. Es broma. La geometría solo me ha causado problemas. (¡Ayuda, por favor!)
 
 <!-- Fin de Sección -->
 ---
@@ -46,11 +46,11 @@ Asustado, Porter llamó a un cartógrafo de la National Geographic Society, quie
 
 La pregunta que uno debe hacerse en este punto es clara: ¿Cómo se define la distancia a La Meca (o a cualquier otro punto del planeta)? Veámoslo con un ejemplo más sencillo.
 
-Supongamos que yo, que vivo en Salamanca (una ciudad en el oeste de España), quiero ir a Madrid (la capital de España). Para ello puedo tomar varias rutas. En primer lugar, puedo ir en coche a Zamora, nuestra ciudad vecina, y luego ahí puedo tomar un tren a Madrid. Según Google Maps, la distancia recorrida en este caso es de unos 300 km. Pero también puedo tomar un tren hasta Bilbao, y de allí tomar un vuelo a Atenas (Grecia), y otro vuelo a Madrid. Claramente, la distancia recorrida ahora supera los 5000 km. La opción más corta es, sin lugar a dudas, tomar un autobús o tren directo desde Salamanca a Madrid (unos 200 km). 
+Supongamos que yo, que vivo en Salamanca (una ciudad en el oeste de España), quiero ir a Madrid. Para ello puedo tomar varias rutas. En primer lugar, puedo ir en coche a Zamora, nuestra ciudad vecina, y luego ahí puedo tomar un tren a Madrid. Según Google Maps, la distancia recorrida en este caso es de unos 300 km. Pero también puedo tomar un tren hasta Bilbao, y de allí tomar un vuelo a Atenas (Grecia), y otro vuelo a Madrid. Claramente, la distancia recorrida ahora supera los 5000 km. La opción más corta es, sin lugar a dudas, tomar un autobús o tren directo desde Salamanca a Madrid (unos 200 km). 
 
 ¿Cuál es la distancia real de Salamanca a Madrid? Ya hemos visto la respuesta: 200 km, pues corresponden al camino más corto. Definiremos por tanto “distancia” como la longitud del trayecto más corto entre dos puntos.
 
-Volviendo al problema que nos ocupa, ¿cuál es la distancia entre cualesquiera dos puntos en una esfera (sí, estoy asumiendo que la Tierra es esférica, ¡no soy un terraplanista de esos!)? Para ello, necesitaremos realizar algunas cuentas matemáticas, pero prometo que no serán demasiado complicadas.
+Volviendo al problema que nos ocupa, ¿cuál es la distancia entre cualesquiera dos puntos en una esfera? (Sí, estoy asumiendo que la Tierra es esférica, ¡no soy un terraplanista de esos!). Para responder, necesitaremos realizar algunas cuentas matemáticas, pero prometo que no serán demasiado complicadas.
 
 <!-- Fin de Sección -->
 ---
@@ -176,7 +176,7 @@ Cuando proyectamos la verdadera distancia geodésica (la ortodromia, es decir, e
 
 
 
-Dado que las leyes islámicas dictan que el muro de la Qibla debe orientarse hacia La Meca siguiendo la distancia más corta posible, el arquitecto Porter y el cartógrafo de la National Geographic tenían toda la razón del mundo: para rezar mirando a La Meca desde Washington, hay que mirar hacia el noreste. El embajador Rahim, víctima de la distorsión de los mapas planos, simplemente había olvidado que vivimos atrapados en la preciosa superficie curva de una esfera.
+Dado que las leyes islámicas dictan que el muro de la *Qibla* debe orientarse hacia La Meca siguiendo la distancia más corta posible, el arquitecto Porter y el cartógrafo de la National Geographic tenían toda la razón del mundo: para rezar mirando a La Meca desde Washington hay que mirar hacia el noreste. El embajador Rahim, víctima de la distorsión de los mapas planos, simplemente había olvidado que vivimos atrapados en la preciosa superficie curva de una esfera.
 
 ---
 
