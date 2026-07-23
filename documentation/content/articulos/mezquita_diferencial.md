@@ -127,7 +127,7 @@ $$
 Si las desarrollamos para nuestras dos coordenadas, obtenemos el siguiente sistema de ecuaciones diferenciales:
 
 - Para $\theta$: $\ddot{\theta} - \sin \theta \cos \theta \dot{\phi}^2 = 0$.  
-- Para $\phi$: $\frac{d}{dt}\left(\sin^2 \theta \dot{\phi}\right) = 0$ Entonces $\sin^2 \theta \dot{\phi} = C \quad (\text{constante})$.  
+- Para $\phi$: $\frac{d}{dt}\left(\sin^2 \theta \dot{\phi}\right) = 0$. Entonces $\sin^2 \theta \dot{\phi} = C \quad (\text{constante})$.  
 
 Comprobemos si nuestros candidatos a caminos más cortos, los círculos máximos (representados aquí por los meridianos con $\phi = \text{constante}$), satisfacen estas ecuaciones de las geodésicas:
 
