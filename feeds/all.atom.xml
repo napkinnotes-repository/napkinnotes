@@ -1,5 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-07-16T00:00:00+02:00</updated><entry><title>La rebelión de los fractales I I: crea tu propio fractal y descubre su dimensión</title><link href="https://napkinnotes.es/la-rebelion-de-los-fractales-i-i-crea-tu-propio-fractal-y-descubre-su-dimension" rel="alternate"/><published>2026-07-16T00:00:00+02:00</published><updated>2026-07-16T00:00:00+02:00</updated><author><name>Paz Albares Vicente</name></author><id>tag:napkinnotes.es,2026-07-16:/la-rebelion-de-los-fractales-i-i-crea-tu-propio-fractal-y-descubre-su-dimension</id><summary type="html">&lt;p&gt;La naturaleza posee una estructura profundamente fractal. ¡Vamos a comprobarlo! En esta servilleta te enseñamos un truco muy sencillo para calcular la dimensión fractal de todo lo que te rodea. Desde descubrir las formas que dibuja la leche en tu café por las mañanas hasta entender por qué un paseo por la playa siempre parece más largo de lo que dice el&amp;nbsp;mapa.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-07-23T00:00:00+02:00</updated><entry><title>El camino más corto no siempre es la línea recta</title><link href="https://napkinnotes.es/misterio-mezquita-washington-geometria" rel="alternate"/><published>2026-07-23T00:00:00+02:00</published><updated>2026-07-23T00:00:00+02:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-07-23:/misterio-mezquita-washington-geometria</id><summary type="html">&lt;p&gt;La increíble historia de cómo una mezquita en Washington &lt;span class="caps"&gt;D. C.&lt;/span&gt; casi es demolida debido a la distorsión de los mapas planos y las leyes de la geometría&amp;nbsp;esférica.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#distancia-geodesica"&gt;Distancia&amp;nbsp;geodésica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-camino-mas-corto-un-argumento-variacional"&gt;El camino más corto: un argumento&amp;nbsp;variacional&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#las-geodesicas-de-la-metrica-esferica-estandar"&gt;Las geodésicas de la métrica esférica&amp;nbsp;estándar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-engano-de-los-mapas-y-el-misterio-de-la-mezquita"&gt;El engaño de los mapas y el misterio de la&amp;nbsp;mezquita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;En la &lt;em&gt;napkin note&lt;/em&gt; de hoy os traemos una curiosa historia que combina la construcción de la mezquita más grande del hemisferio occidental con los aspectos básicos de la geometría&amp;nbsp;diferencial.&lt;/p&gt;
+&lt;p&gt;La idea de construir una mezquita en Washington fue impulsada en los años 30 del siglo pasado a raíz de varias olas de inmigración desde países como Egipto a Estados Unidos. Después de la &lt;span class="caps"&gt;II&lt;/span&gt; Guerra Mundial, el embajador egipcio en &lt;span class="caps"&gt;EE&lt;/span&gt;.&lt;span class="caps"&gt;UU&lt;/span&gt;., Kamil Abdul Rahim, dio un paso decisivo para la realización de semejante obra faraónica. Contactó con representantes de todo el mundo para financiar la construcción, dejando el diseño del edificio en manos del italiano Mario&amp;nbsp;Rossi.&lt;/p&gt;
+&lt;p&gt;Las obras comenzaron en 1949 dirigidas por el arquitecto estadounidense Irwin S. Porter, y en 1953 el edificio estaba prácticamente terminado. Fue entonces cuando el embajador, Rahim, visitó el complejo. Cuando llegó allí, sacó una brújula de su bolsillo, miró a Porter y le dijo: “Esta mezquita no está bien. El muro de la &lt;em&gt;Qibla&lt;/em&gt; no apunta a La Meca. La Meca está al sureste y la mezquita está orientada al noreste. Antiguamente, cuando una mezquita no apuntaba exactamente a La Meca, se obligaba a demoler el edificio y hacerlo de&amp;nbsp;nuevo”.&lt;/p&gt;
+&lt;!-- Una imagen va así --&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/Mezquita_Mapa1.png" alt="En amarillo, la orientación del edificio. En rojo, la dirección a la Meca"&gt;
+  &lt;figcaption&gt;
+    Figura 1. En amarillo, la orientación del edificio. En rojo, la dirección a la Meca (según un mapa).
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Asustado, Porter llamó a un cartógrafo de la &lt;em&gt;National Geographic Society&lt;/em&gt;, quien a las pocas horas confirmó que la orientación era la correcta. ¿Qué estaba sucediendo? ¿Quién tenía razón? La solución a todo este embrollo, al igual que a la mayoría de problemas en esta vida, no podría estar en otro lugar más que en la geometría diferencial de variedades. Es broma. La geometría solo me ha causado problemas. (¡Ayuda, por&amp;nbsp;favor!)&lt;/p&gt;
+&lt;!-- Fin de Sección --&gt;
+&lt;hr /&gt;
+&lt;h2 id="distancia-geodesica"&gt;Distancia geodésica&lt;a class="headerlink" href="#distancia-geodesica" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;La pregunta que uno debe hacerse en este punto es clara: ¿Cómo se define la distancia a La Meca (o a cualquier otro punto del planeta)? Veámoslo con un ejemplo más&amp;nbsp;sencillo.&lt;/p&gt;
+&lt;p&gt;Supongamos que yo, que vivo en Salamanca (una ciudad en el oeste de España), quiero ir a Madrid. Para ello puedo tomar varias rutas. En primer lugar, puedo ir en coche a Zamora, nuestra ciudad vecina, y luego ahí puedo tomar un tren a Madrid. Según Google Maps, la distancia recorrida en este caso es de unos 300 km. Pero también puedo tomar un tren hasta Bilbao, y de allí tomar un vuelo a Atenas (Grecia), y otro vuelo a Madrid. Claramente, la distancia recorrida ahora supera los 5000 km. La opción más corta es, sin lugar a dudas, tomar un autobús o tren directo desde Salamanca a Madrid (unos 200&amp;nbsp;km). &lt;/p&gt;
+&lt;p&gt;¿Cuál es la distancia real de Salamanca a Madrid? Ya hemos visto la respuesta: 200 km, pues corresponden al camino más corto. Definiremos por tanto “distancia” como la longitud del trayecto más corto entre dos&amp;nbsp;puntos.&lt;/p&gt;
+&lt;p&gt;Volviendo al problema que nos ocupa, ¿cuál es la distancia entre cualesquiera dos puntos en una esfera? (Sí, estoy asumiendo que la Tierra es esférica, ¡no soy un terraplanista de esos!). Para responder, necesitaremos realizar algunas cuentas matemáticas, pero prometo que no serán demasiado&amp;nbsp;complicadas.&lt;/p&gt;
+&lt;!-- Fin de Sección --&gt;
+&lt;hr /&gt;
+&lt;h2 id="el-camino-mas-corto-un-argumento-variacional"&gt;El camino más corto: un argumento variacional&lt;a class="headerlink" href="#el-camino-mas-corto-un-argumento-variacional" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Para encontrar la curva más corta sobre una esfera de&amp;nbsp;radio &lt;span class="math"&gt;\(R\)&lt;/span&gt;, podemos recurrir al cálculo de variaciones, que es la herramienta matemática que nos permite encontrar &amp;#8220;funciones que minimizan cosas&amp;#8221; (en este caso, la longitud de una&amp;nbsp;curva).&lt;/p&gt;
+&lt;p&gt;Representemos nuestra esfera usando las coordenadas esféricas&amp;nbsp;estándar &lt;span class="math"&gt;\((\theta, \phi)\)&lt;/span&gt;,&amp;nbsp;donde &lt;span class="math"&gt;\(\theta \in [0,\pi]\)&lt;/span&gt; es la colatitud (el ángulo desde el polo norte)&amp;nbsp;y &lt;span class="math"&gt;\(\phi \in [0, 2\pi)\)&lt;/span&gt; es la longitud. En estas coordenadas, un pequeño elemento de longitud de&amp;nbsp;arco &lt;span class="math"&gt;\(ds\)&lt;/span&gt; en la superficie de la esfera viene dado&amp;nbsp;por:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+ds^2 = R^2 d\theta^2 + R^2 \sin^2 \theta d\phi^2
+$$&lt;/div&gt;
+&lt;p&gt;Queremos unir dos&amp;nbsp;puntos, &lt;span class="math"&gt;\(A\)&lt;/span&gt; y &lt;span class="math"&gt;\(B\)&lt;/span&gt;. Como la esfera es perfectamente simétrica, siempre podemos girarla de manera que ambos puntos queden situados sobre el mismo meridiano. Es decir, ambos compartirán la misma&amp;nbsp;longitud &lt;span class="math"&gt;\(\phi_0\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Ahora, consideremos cualquier&amp;nbsp;curva &lt;span class="math"&gt;\(\gamma\)&lt;/span&gt; que vaya&amp;nbsp;de &lt;span class="math"&gt;\(A = (\theta_1, \phi_0)\)&lt;/span&gt; a &lt;span class="math"&gt;\(B = (\theta_2, \phi_0)\)&lt;/span&gt; (con &lt;span class="math"&gt;\(\theta_1 &amp;lt; \theta_2\)&lt;/span&gt;). Podemos parametrizar esta curva expresando la longitud en función de la colatitud, es&amp;nbsp;decir, &lt;span class="math"&gt;\(\phi = \phi(\theta)\)&lt;/span&gt;. La longitud&amp;nbsp;total &lt;span class="math"&gt;\(L\)&lt;/span&gt; de esta trayectoria será la suma de todos los pequeños&amp;nbsp;trozos &lt;span class="math"&gt;\(ds\)&lt;/span&gt;:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+L = \int_{\theta_1}^{\theta_2} \sqrt{R^2 + R^2 \sin^2 \theta \left(\frac{d\phi}{d\theta}\right)^2} d\theta = R \int_{\theta_1}^{\theta_2} \sqrt{1 + \sin^2 \theta (\phi')^2} d\theta,
+$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(\phi' = \frac{d\phi}{d\theta}\)&lt;/span&gt;. Nuestro objetivo es minimizar esta integral. Fijémonos bien en el&amp;nbsp;integrando:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\sqrt{1 + \sin^2 \theta (\phi')^2}.
+$$&lt;/div&gt;
+&lt;p&gt;Dado que el&amp;nbsp;término &lt;span class="math"&gt;\(\sin^2 \theta (\phi')^2\)&lt;/span&gt; siempre es mayor o igual a cero (ya que está elevado al cuadrado y el seno al cuadrado de cualquier ángulo real es no negativo), se cumple de forma directa la siguiente&amp;nbsp;desigualdad:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\sqrt{1 + \sin^2 \theta (\phi')^2} \ge 1.
+$$&lt;/div&gt;
+&lt;p&gt;Por lo tanto, la longitud de nuestra curva siempre estará acotada&amp;nbsp;inferiormente:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+L \ge R \int_{\theta_1}^{\theta_2} 1 d\theta = R(\theta_2 - \theta_1).
+$$&lt;/div&gt;
+&lt;!-- Preguntas con recuadro bonito --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;¿Cuándo se alcanza el valor mínimo absoluto de la&amp;nbsp;longitud?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- Fin pregunta con recuadro bonito --&gt;
+
+&lt;p&gt;Únicamente cuando el término que sumaba sea cero en todo el&amp;nbsp;trayecto:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\sin^2 \theta (\phi')^2 = 0 \implies \phi' = 0 \implies \phi(\theta) = \text{constante} = \phi_0.
+$$&lt;/div&gt;
+&lt;p&gt;Esto significa que el camino que minimiza la distancia es aquel donde la&amp;nbsp;longitud &lt;span class="math"&gt;\(\phi\)&lt;/span&gt; no varía en absoluto. En una esfera, las curvas donde la longitud es constante son los meridianos, que no son otra cosa que arcos de círculos máximos (círculos que tienen el mismo radio que la esfera y cuyo centro coincide con el centro de la Tierra). Como cualquier par de puntos en la Tierra se puede rotar para que queden sobre un mismo meridiano sin alterar las distancias, concluimos que el camino más corto entre dos puntos cualesquiera de la esfera es siempre un arco de círculo&amp;nbsp;máximo.&lt;/p&gt;
+&lt;!-- Fin de Sección --&gt;
+&lt;hr /&gt;
+&lt;h2 id="las-geodesicas-de-la-metrica-esferica-estandar"&gt;Las geodésicas de la métrica esférica estándar&lt;a class="headerlink" href="#las-geodesicas-de-la-metrica-esferica-estandar" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;En geometría diferencial, las curvas de menor longitud se conocen formalmente como geodésicas. Pero en lugar de definirlas solo como &amp;#8220;los caminos más cortos&amp;#8221;, las geodésicas se definen matemáticamente a través de la métrica del espacio usando las ecuaciones de Euler-Lagrange para el funcional de energía. Resulta que, como no podía ser de otra manera, ambas definiciones&amp;nbsp;coinciden.&lt;/p&gt;
+&lt;p&gt;Consideremos la métrica estándar de la esfera de&amp;nbsp;radio &lt;span class="math"&gt;\(1\)&lt;/span&gt; (para simplificar los&amp;nbsp;cálculos): &lt;span class="math"&gt;\(g = d\theta^2 + \sin^2 \theta d\phi^2\)&lt;/span&gt;. El Lagrangiano asociado a las geodésicas&amp;nbsp;es:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E(\theta, \phi, \dot{\theta}, \dot{\phi}) = \frac{1}{2} \left( \dot{\theta}^2 + \sin^2 \theta \dot{\phi}^2 \right)
+$$&lt;/div&gt;
+&lt;p&gt;donde los puntos denotan la derivada respecto a un parámetro&amp;nbsp;afín &lt;span class="math"&gt;\(t\)&lt;/span&gt; (que podemos pensar como el tiempo si viajamos a velocidad constante). Las ecuaciones de movimiento de Euler-Lagrange para este sistema&amp;nbsp;son:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\frac{d}{dt}\left(\frac{\partial E}{\partial \dot{x}^i}\right) - \frac{\partial E}{\partial x^i} = 0
+$$&lt;/div&gt;
+&lt;p&gt;Si las desarrollamos para nuestras dos coordenadas, obtenemos el siguiente sistema de ecuaciones&amp;nbsp;diferenciales:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Para &lt;span class="math"&gt;\(\theta\)&lt;/span&gt;: &lt;span class="math"&gt;\(\ddot{\theta} - \sin \theta \cos \theta \dot{\phi}^2 = 0\)&lt;/span&gt;.  &lt;/li&gt;
+&lt;li&gt;Para &lt;span class="math"&gt;\(\phi\)&lt;/span&gt;: &lt;span class="math"&gt;\(\frac{d}{dt}\left(\sin^2 \theta \dot{\phi}\right) = 0 \Longrightarrow \sin^2 \theta \dot{\phi} = C \quad (\text{constante})\)&lt;/span&gt;.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comprobemos si nuestros candidatos a caminos más cortos, los círculos máximos (representados aquí por los meridianos&amp;nbsp;con &lt;span class="math"&gt;\(\phi = \text{constante}\)&lt;/span&gt;), satisfacen estas ecuaciones de las&amp;nbsp;geodésicas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Si &lt;span class="math"&gt;\(\phi(t) = \phi_0\)&lt;/span&gt; (constante), entonces su derivada es&amp;nbsp;cero: &lt;span class="math"&gt;\(\dot{\phi} = 0\)&lt;/span&gt;.  &lt;/li&gt;
+&lt;li&gt;Al&amp;nbsp;sustituir &lt;span class="math"&gt;\(\dot{\phi} = 0\)&lt;/span&gt; en la segunda ecuación,&amp;nbsp;obtenemos &lt;span class="math"&gt;\(\frac{d}{dt}(0) = 0\)&lt;/span&gt;, lo cual se cumple trivialmente&amp;nbsp;(con &lt;span class="math"&gt;\(C = 0\)&lt;/span&gt;).  &lt;/li&gt;
+&lt;li&gt;Al&amp;nbsp;sustituir &lt;span class="math"&gt;\(\dot{\phi} = 0\)&lt;/span&gt; en la primera ecuación, esta se reduce&amp;nbsp;a:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="math"&gt;$$
+\ddot{\theta} = 0 \implies \theta(t) = a t + b.
+$$&lt;/div&gt;
+&lt;p&gt;Esto describe un movimiento a velocidad angular constante a lo largo del meridiano. Dado que las ecuaciones se satisfacen perfectamente, los meridianos son geodésicas de la esfera. Y como cualquier círculo máximo puede transformarse en un meridiano mediante una rotación (que es una isometría y conserva las geodésicas), queda demostrado que las geodésicas de la métrica estándar de la esfera son, precisamente, los círculos&amp;nbsp;máximos.&lt;/p&gt;
+&lt;!-- Fin de Sección --&gt;
+&lt;hr /&gt;
+&lt;h2 id="el-engano-de-los-mapas-y-el-misterio-de-la-mezquita"&gt;El engaño de los mapas y el misterio de la mezquita&lt;a class="headerlink" href="#el-engano-de-los-mapas-y-el-misterio-de-la-mezquita" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Aquí es donde se desvela el gran misterio que casi le cuesta la demolición a la mezquita de Washington. Nuestra mente está acostumbrada a ver el mundo a través de mapas planos, generalmente utilizando la archiconocida proyección de Mercator. En estos mapas, si trazamos una línea recta entre Washington &lt;span class="caps"&gt;D. C.&lt;/span&gt; y La Meca, la trayectoria resultante apunta claramente hacia el sureste. Esta línea recta sobre el papel se conoce como loxodromia (una curva que mantiene un rumbo constante de brújula), pero no es el camino más corto en la realidad&amp;nbsp;tridimensional.&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/Mezquita_Mapa2.png" alt="Comparación entre la dirección geodésica y la dirección en el plano"&gt;
+  &lt;figcaption&gt;
+    Figura 2. Comparación entre la dirección geodésica (amarillo) y la dirección en el plano (rojo).
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Cuando proyectamos la verdadera distancia geodésica (la ortodromia, es decir, el arco de círculo máximo) sobre ese mismo mapa plano, la ruta no se ve recta, sino que se curva hacia el norte. De hecho, si decidieras volar desde Washington &lt;span class="caps"&gt;D. C.&lt;/span&gt; hasta La Meca siguiendo el camino más corto, despegarías con tu avión apuntando hacia el noreste, sobrevolando parte de Canadá, Groenlandia y el sur de Europa antes de descender hacia Arabia&amp;nbsp;Saudita.&lt;/p&gt;
+&lt;div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;"&gt;
+  &lt;figure class="nn-article-figure" style="flex: 1; min-width: 280px; margin: 0;"&gt;
+    &lt;img src="https://napkinnotes.es/images/Mezquita_Mapa3.png" alt="Visión tridimensional del círculo máximo que une Washington con La Meca" style="width: 100%; height: auto;"&gt;
+    &lt;figcaption&gt;
+      Figura 3. Visión tridimensional del círculo máximo que une Washington con La Meca.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure class="nn-article-figure" style="flex: 1; min-width: 280px; margin: 0;"&gt;
+    &lt;img src="https://napkinnotes.es/images/Mezquita_Mapa4.png" alt="Desde la orientación apropiada se observa que es una verdadera línea recta" style="width: 100%; height: auto;"&gt;
+    &lt;figcaption&gt;
+      Figura 4. Desde la orientación apropiada, se observa que ésta es la verdadera línea recta.
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Dado que las leyes islámicas dictan que el muro de la &lt;em&gt;Qibla&lt;/em&gt; debe orientarse hacia La Meca siguiendo la distancia más corta posible, el arquitecto Porter y el cartógrafo de la National Geographic tenían toda la razón del mundo: para rezar mirando a La Meca desde Washington hay que mirar hacia el noreste. El embajador Rahim, víctima de la distorsión de los mapas planos, simplemente había olvidado que vivimos atrapados en la preciosa superficie curva de una&amp;nbsp;esfera.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Las imágenes han sido obtenidas de Google Maps y Google Earth (© Google) y modificadas por el autor&amp;nbsp;pertinentemente.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Matemáticas"/><category term="geometría"/><category term="geodésicas"/><category term="mapas"/><category term="paradojas"/></entry><entry><title>La rebelión de los fractales I I: crea tu propio fractal y descubre su dimensión</title><link href="https://napkinnotes.es/la-rebelion-de-los-fractales-i-i-crea-tu-propio-fractal-y-descubre-su-dimension" rel="alternate"/><published>2026-07-16T00:00:00+02:00</published><updated>2026-07-16T00:00:00+02:00</updated><author><name>Paz Albares Vicente</name></author><id>tag:napkinnotes.es,2026-07-16:/la-rebelion-de-los-fractales-i-i-crea-tu-propio-fractal-y-descubre-su-dimension</id><summary type="html">&lt;p&gt;La naturaleza posee una estructura profundamente fractal. ¡Vamos a comprobarlo! En esta servilleta te enseñamos un truco muy sencillo para calcular la dimensión fractal de todo lo que te rodea. Desde descubrir las formas que dibuja la leche en tu café por las mañanas hasta entender por qué un paseo por la playa siempre parece más largo de lo que dice el&amp;nbsp;mapa.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#cuanto-mide-la-costa-de-gran-bretana"&gt;¿Cuánto mide la costa de Gran&amp;nbsp;Bretaña?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#dibuja-tu-propia-curva-fractal"&gt;Dibuja tu propia curva&amp;nbsp;fractal&lt;/a&gt;&lt;/li&gt;
