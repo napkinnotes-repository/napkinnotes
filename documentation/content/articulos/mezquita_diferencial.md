@@ -4,7 +4,7 @@ author: Gabriel Sánchez Pérez
 date: 2026-07-23
 layout: articles
 slug: misterio-mezquita-washington-geometria
-status: hidden
+status: published
 category: Matemáticas
 tags:
   - geometría
