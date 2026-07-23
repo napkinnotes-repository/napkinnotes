@@ -78,7 +78,7 @@ $$&lt;/div&gt;
 &lt;p&gt;Si las desarrollamos para nuestras dos coordenadas, obtenemos el siguiente sistema de ecuaciones&amp;nbsp;diferenciales:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Para &lt;span class="math"&gt;\(\theta\)&lt;/span&gt;: &lt;span class="math"&gt;\(\ddot{\theta} - \sin \theta \cos \theta \dot{\phi}^2 = 0\)&lt;/span&gt;.  &lt;/li&gt;
-&lt;li&gt;Para &lt;span class="math"&gt;\(\phi\)&lt;/span&gt;: &lt;span class="math"&gt;\(\frac{d}{dt}\left(\sin^2 \theta \dot{\phi}\right) = 0 \Longrightarrow \sin^2 \theta \dot{\phi} = C \quad (\text{constante})\)&lt;/span&gt;.  &lt;/li&gt;
+&lt;li&gt;Para &lt;span class="math"&gt;\(\phi\)&lt;/span&gt;: &lt;span class="math"&gt;\(\frac{d}{dt}\left(\sin^2 \theta \dot{\phi}\right) = 0\)&lt;/span&gt; Entonces &lt;span class="math"&gt;\(\sin^2 \theta \dot{\phi} = C \quad (\text{constante})\)&lt;/span&gt;.  &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Comprobemos si nuestros candidatos a caminos más cortos, los círculos máximos (representados aquí por los meridianos&amp;nbsp;con &lt;span class="math"&gt;\(\phi = \text{constante}\)&lt;/span&gt;), satisfacen estas ecuaciones de las&amp;nbsp;geodésicas:&lt;/p&gt;
 &lt;ul&gt;
