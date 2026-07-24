@@ -6,7 +6,7 @@ layout: articles
 slug: ia-acelero-ciencia-arxiv-chatgpt
 status: hidden
 category: Ciencia y tecnología
-tags:
+tags: 
   - inteligencia artificial
   - arXiv
   - chatGPT
