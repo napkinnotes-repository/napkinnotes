@@ -1,14 +1,25 @@
-Title: ¿Cuanto aceleró la produccion de conocimiento la IA? Una estimacion sobre ciencia en la era TransChatGPTina
-Date: 2026-07-07 18:30:00 +0200
-Modified: 2026-07-24 10:30:00 +0200
-Category: Ciencia y tecnología
-Tags: inteligencia artificial, arXiv, ChatGPT, ciencia abierta, producción científica, datos
-Slug: ia-acelero-ciencia-arxiv-chatgpt
-Author: Duvier Suárez Fontanella
-Status: hidden
-Image: images/arxiv-ia/01_contrafactual_global_exponential.png
-Thumbnail: images/arxiv-ia/01_contrafactual_global_exponential.png
-Subtitle: Los envíos mensuales a arXiv crecieron un 87 % más rápido tras ChatGPT, pero la cifra necesita contexto
+---
+title:  ¿Cuanto aceleró la produccion de conocimiento la IA? Una estimacion sobre ciencia en la era TransChatGPTina
+author: Duvier Suárez Fontanella
+date: 2026-07-30
+layout: articles
+slug: ia-acelero-ciencia-arxiv-chatgpt
+status: hidden
+category: Ciencia y tecnología
+tags:
+  - inteligencia artificial
+  - arXiv
+  - chatGPT
+  - ciencia abierta
+  - producción científica
+  - datos
+summary: Los envíos mensuales a arXiv crecieron un 87 % más rápido tras ChatGPT, pero la cifra necesita contexto
+image: images/01_contrafactual_global_exponential.png
+certificate: true
+---
+
+[TOC]
+
 
 Desde que ChatGPT apareció a finales de 2022, marcando la entrada de los grandes modelos de lenguaje a la vida cotidian, ha sido toda una revolucion. Estas herramientas se han integrado en tareas de programación, traducción, redacción, exploración bibliográfica y otras muchas facetas incluyendo muchas mas pedestres. Estaremos entonces casi todos de acuerdo con que esta revolucion de la IA ha acelerado la produccion de conociminto, nota que digo la produccion y no la asimilacion, pero cuanto la ha acelerado, se puede medir este cambio? en fin ¿puede detectarse ya algún cambio cuantitativo en el ritmo de producción científica en la era TransChatGPTina?
 
