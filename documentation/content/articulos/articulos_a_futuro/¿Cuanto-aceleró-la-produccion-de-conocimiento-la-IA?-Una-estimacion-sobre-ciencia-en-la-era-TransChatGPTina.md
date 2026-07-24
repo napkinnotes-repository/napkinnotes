@@ -1,5 +1,5 @@
 ---
-title:  ¿Cuanto aceleró la produccion de conocimiento la IA? Una estimacion sobre ciencia en la era TransChatGPTina
+title:  "¿Cuanto aceleró la produccion de conocimiento la IA?: Una estimacion sobre ciencia en la era TransChatGPTina"
 author: Duvier Suárez Fontanella
 date: 2026-07-30
 layout: articles
