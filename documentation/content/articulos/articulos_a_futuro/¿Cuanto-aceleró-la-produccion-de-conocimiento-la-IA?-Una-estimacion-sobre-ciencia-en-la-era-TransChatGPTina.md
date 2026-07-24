@@ -5,7 +5,7 @@ Category: Ciencia y tecnología
 Tags: inteligencia artificial, arXiv, ChatGPT, ciencia abierta, producción científica, datos
 Slug: ia-acelero-ciencia-arxiv-chatgpt
 Author: Duvier Suárez Fontanella
-Status: draft
+Status: hidden
 Image: images/arxiv-ia/01_contrafactual_global_exponential.png
 Thumbnail: images/arxiv-ia/01_contrafactual_global_exponential.png
 Subtitle: Los envíos mensuales a arXiv crecieron un 87 % más rápido tras ChatGPT, pero la cifra necesita contexto
