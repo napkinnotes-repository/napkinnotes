@@ -14,7 +14,7 @@ tags:
   - producción científica
   - datos
 summary: Los envíos mensuales a arXiv crecieron un 87 % más rápido tras ChatGPT, pero la cifra necesita contexto
-image: images/01_contrafactual_global_exponential.png
+image: images/01_contrafactual_global_exponential.jpeg
 certificate: true
 ---
 
