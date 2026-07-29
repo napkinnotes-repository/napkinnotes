@@ -13,7 +13,7 @@ tags:
   - ciencia abierta
   - producción científica
   - datos
-summary: Los envíos mensuales a arXiv crecieron un 87 % más rápido tras ChatGPT, pero la cifra necesita contexto
+summary: Los envíos mensuales de artículos a **arXiv** crecieron un 87 % más rápido tras ChatGPT, pero la cifra necesita contexto
 image: images/01_contrafactual_global_exponential.jpeg
 certificate: true
 ---
@@ -21,10 +21,10 @@ certificate: true
 [TOC]
 
 
-Desde que ChatGPT apareció a finales de 2022, marcando la entrada de los grandes modelos de lenguaje a la vida cotidiana, ha sido toda una revolución. Estas herramientas se han integrado en tareas de programación, traducción, redacción, búsqueda bibliográfica y otras muchas, incluyendo algunas más pedestres. Estaremos entonces casi todos de acuerdo con que esta revolución de la IA ha acelerado la producción de conociminto -noten que digo la producción y no la asimilación-, pero ¿cuánto la ha acelerado?, ¿puede detectarse ya algún cambio cuantitativo en el ritmo de producción científica en la era transChatGPTiana?
+Desde que ChatGPT apareció a finales de 2022, marcando la entrada de los grandes modelos de lenguaje a la vida cotidiana, ha sido toda una revolución. Estas herramientas se han integrado en tareas de programación, traducción, redacción, búsqueda bibliográfica y otras muchas, incluyendo algunas más pedestres. Estaremos entonces casi todos de acuerdo con que esta revolución de la IA ha acelerado la producción de conocimiento -noten que digo la producción y no la asimilación-, pero ¿cuánto la ha acelerado?, ¿puede detectarse ya algún cambio cuantitativo en el ritmo de producción científica en la era transChatGPTiana?
 
 
-Para buscar una respuesta, en este texto haremos algo bastante divertido: usaremos **[arXiv](https://arxiv.org/)** como un sensor parcial de la producción científica y compararemos la evolución de sus envíos mensuales con la trayectoria que habría seguido si la tendencia anterior a ChatGPT hubiera continuado sin cambios. El resultado es asombroso desde mi perspectiva: la tasa mensual ajustada pasó de aproximadamente un **0,768 %** antes de ChatGPT a un **1,435 %** desde enero de 2023. Es decir, el ritmo de crecimiento de la produccion cientifica basado en **[arXiv](https://arxiv.org/)** fue alrededor de un **87 % mayor**.
+Para buscar una respuesta, en este texto haremos algo bastante divertido: usaremos **[arXiv](https://arxiv.org/)** como un sensor parcial de la producción científica y compararemos la evolución de sus envíos mensuales con la trayectoria que habría seguido si la tendencia anterior a ChatGPT hubiera continuado sin cambios. El resultado es asombroso desde mi perspectiva: la tasa mensual ajustada pasó de aproximadamente un **0,768 %** antes de ChatGPT a un **1,435 %** desde enero de 2023. Es decir, el ritmo de crecimiento de la producción científica basado en **[arXiv](https://arxiv.org/)** fue alrededor de un **87 % mayor**.
 
 ¿Demuestra esto que la IA produjo por sí sola más ciencia? No. Las curvas, por desgracia, todavía no incluyen una nota al pie explicando sus causas. Pero sí muestran que algo cambió en el ritmo de publicación, y que ese cambio puede medirse.
 
@@ -40,7 +40,7 @@ Aun con esas limitaciones, **[arXiv](https://arxiv.org/)** tiene tres ventajas d
 
 La diferencia entre ambas trayectorias puede utilizarse como un termómetro aproximado del cambio en la producción científica abierta. 
 
-Antes de continuar, me gustaria dejar  aquí un *disclaimer* de rigor para lo mas fieles defensores de la razón. Un aumento en el número de *papers*, término coloquial para los artículos en el dialecto académico, no implica necesariamente un aumento equivalente del conocimiento humano. De hecho, desde mi perspectiva, una producción enorme sin la calidad adecuada puede incluso ser contraproducente. Sin embargo, no se me ocurre una forma mejor de ensayar esta pregunta con datos públicos, de manera sencilla y, sobre todo, que quepa en una *Napkin Note*.
+Antes de continuar, me gustaría dejar  aquí un *disclaimer* de rigor para los más fieles defensores de la razón. Un aumento en el número de *papers*, término coloquial para los artículos en el dialecto académico, no implica necesariamente un aumento equivalente del conocimiento humano. De hecho, desde mi perspectiva, una producción enorme sin la calidad adecuada puede incluso ser contraproducente. Sin embargo, no se me ocurre una forma mejor de ensayar esta pregunta con datos públicos, de manera sencilla y, sobre todo, que quepa en una *Napkin Note*.
 
 ## El experimento: construir un mundo sin ChatGPT
 
@@ -167,7 +167,7 @@ Es decir, el mismo recorrido requeriría aproximadamente el **53,5 % del tiempo 
 
 Empecemos con las comparación histórica, con la advertencia de que se trata de una metáfora y no de una máquina del tiempo científica. Entre el primer vuelo propulsado de los hermanos Wright, el 17 de diciembre de 1903, y la llegada del Apollo 11 a la Luna, en julio de 1969, transcurrieron unos 65 años y medio. Si todo aquel proceso tecnológico hubiera avanzado a un ritmo similar al actual, ese mismo recorrido habría durado alrededor de 35 años; abríamos llegado a la Luna hacia 1939, unas tres décadas antes. 
 
-Un ejemplo menos cinematográfico sería el Proyecto Genoma Humano, iniciado en octubre de 1990 y completado en abril de 2003. Sus doce años y medio de trabajo se reducirían, bajo la misma simplificación, a unos seis años y ocho meses: el genoma humano habría quedado esencialmente secuenciado hacia mediados de 1997. De nuevo, la comparación no pretende afirmar que más artículos produzcan automáticamente descubrimientos más rápidos, pero nos sirve para visualizar la magnitud del cambio.
+Un ejemplo menos cinematográfico sería el [**Proyecto Genoma Humano**](https://www.genome.gov/es/genetics-glossary/Proyecto-Genoma-Humano), iniciado en octubre de 1990 y completado en abril de 2003. Sus doce años y medio de trabajo se reducirían, bajo la misma simplificación, a unos seis años y ocho meses: el genoma humano habría quedado esencialmente secuenciado hacia mediados de 1997. De nuevo, la comparación no pretende afirmar que más artículos produzcan automáticamente descubrimientos más rápidos, pero nos sirve para visualizar la magnitud del cambio.
 
 También podemos saltar del telégrafo a internet. Entre el célebre primer mensaje de Morse, enviado en 1844, y la aparición de la primera página web, en 1991, pasaron unos 147 años. Comprimido por nuestro factor, el mismo recorrido habría terminado hacia **1923**. La humanidad habría entrado en la era de la web durante los felices años veinte: páginas en blanco y negro, buscadores con sombrero y discusiones en redes sociales transmitidas, quizá, a golpe de telegrama.
 
@@ -188,7 +188,7 @@ Estas comparaciones son deliberadamente absurdas, porque el progreso científico
 En este punto quiero cerrar con una observación dirigida a mis colegas académicos. Desde mi perspectiva, la combinación de la inteligencia artificial como herramienta de producción masiva con unos indicadores bibliométricos centrados principalmente en la cantidad —y mucho menos en la calidad— puede generar un problema serio. Si las plazas, los contratos y el reconocimiento continúan premiando sobre todo a quienes más publican, la academia corre el riesgo de seleccionar a los investigadores más productivos, aunque esa productividad se consiga a costa de rebajar los estándares. El resultado sería un filtro perverso; un sistema diseñado para impulsar el conocimiento que termina favoreciendo el volumen por encima del valor. Quizá ha llegado el momento de pensar en nuevos indicadores capaces de medir no solo cuánto se publica, sino cuánto de lo publicado merece realmente permanecer.
  
 
-## Datos y métodos
+## Datos y método
 
 - Los datos mensuales se obtuvieron mediante la [API oficial de arXiv](https://info.arxiv.org/help/api/user-manual.html), utilizando las fechas de envío (`submittedDate`).
 - El corte temporal se sitúa en el lanzamiento público de ChatGPT, el [30 de noviembre de 2022](https://openai.com/es-ES/index/chatgpt/).
