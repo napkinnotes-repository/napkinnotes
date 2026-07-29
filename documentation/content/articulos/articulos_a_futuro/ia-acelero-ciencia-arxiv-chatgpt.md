@@ -9,7 +9,7 @@ category: Ciencia y tecnología
 tags: 
   - inteligencia artificial
   - arXiv
-  - chatGPT
+  - ChatGPT
   - ciencia abierta
   - producción científica
   - datos
@@ -21,7 +21,7 @@ certificate: true
 [TOC]
 
 
-Desde que ChatGPT apareció a finales de 2022, marcando la entrada de los grandes modelos de lenguaje a la vida cotidiana, ha sido toda una revolución. Estas herramientas se han integrado en tareas de programación, traducción, redacción, búsqueda bibliográfica y otras muchas, incluyendo algunas más pedestres. Estaremos entonces casi todos de acuerdo con que esta revolución de la IA ha acelerado la producción de conocimiento -noten que digo la producción y no la asimilación-, pero ¿cuánto la ha acelerado?, ¿puede detectarse ya algún cambio cuantitativo en el ritmo de producción científica en la era transChatGPTiana?
+Desde que ChatGPT apareció a finales de 2022, marcando la entrada de los grandes modelos de lenguaje a la vida cotidiana, ha sido toda una revolución. Estas herramientas se han integrado en tareas de programación, traducción, redacción, búsqueda bibliográfica y otras muchas, incluyendo algunas más pedestres. Estaremos entonces casi todos de acuerdo con que esta revolución de la IA ha acelerado la producción de conocimiento —noten que digo la producción y no la asimilación—, pero ¿cuánto la ha acelerado? ¿Puede detectarse ya algún cambio cuantitativo en el ritmo de producción científica en la era transChatGPTiana?
 
 
 Para buscar una respuesta, en este texto haremos algo bastante divertido: usaremos **[arXiv](https://arxiv.org/)** como un sensor parcial de la producción científica y compararemos la evolución de sus envíos mensuales con la trayectoria que habría seguido si la tendencia anterior a ChatGPT hubiera continuado sin cambios. El resultado es asombroso desde mi perspectiva: la tasa mensual ajustada pasó de aproximadamente un **0,768 %** antes de ChatGPT a un **1,435 %** desde enero de 2023. Es decir, el ritmo de crecimiento de la producción científica basado en **[arXiv](https://arxiv.org/)** fue alrededor de un **87 % mayor**.
@@ -40,11 +40,11 @@ Aun con esas limitaciones, **[arXiv](https://arxiv.org/)** tiene tres ventajas d
 
 La diferencia entre ambas trayectorias puede utilizarse como un termómetro aproximado del cambio en la producción científica abierta. 
 
-Antes de continuar, me gustaría dejar  aquí un *disclaimer* de rigor para los más fieles defensores de la razón. Un aumento en el número de *papers*, término coloquial para los artículos en el dialecto académico, no implica necesariamente un aumento equivalente del conocimiento humano. De hecho, desde mi perspectiva, una producción enorme sin la calidad adecuada puede incluso ser contraproducente. Sin embargo, no se me ocurre una forma mejor de ensayar esta pregunta con datos públicos, de manera sencilla y, sobre todo, que quepa en una *Napkin Note*.
+Antes de continuar, me gustaría dejar aquí un *disclaimer* de rigor para los más fieles defensores de la razón. Un aumento en el número de *papers*, término coloquial para los artículos en el dialecto académico, no implica necesariamente un aumento equivalente del conocimiento humano. De hecho, desde mi perspectiva, una producción enorme sin la calidad adecuada puede incluso ser contraproducente. Sin embargo, no se me ocurre una forma mejor de ensayar esta pregunta con datos públicos, de manera sencilla y, sobre todo, que quepa en una *Napkin Note*.
 
 ## El experimento: construir un mundo sin ChatGPT
 
-Descargamos mediante la API oficial de arXiv el número de nuevos envíos mensuales entre enero de 2015 y junio de 2026. Para reconstruir la tendencia previa utilizamos únicamente los datos comprendidos entre enero de 2015 y octubre de 2022. Noviembre y diciembre de 2022 quedaron fuera tanto del ajuste como de la evaluación. Son meses demasiado cercanos al lanzamiento público de ChatGPT para clasificarlos limpiamente como parte del mundo anterior o del posterior, son meses schrödingerianos respecto a este lanzamiento (¡sí, permitanme estos pequenos momentos!)
+Descargamos mediante la API oficial de arXiv el número de nuevos envíos mensuales entre enero de 2015 y junio de 2026. Para reconstruir la tendencia previa utilizamos únicamente los datos comprendidos entre enero de 2015 y octubre de 2022. Noviembre y diciembre de 2022 quedaron fuera tanto del ajuste como de la evaluación. Son meses demasiado cercanos al lanzamiento público de ChatGPT para clasificarlos limpiamente como parte del mundo anterior o del posterior. Son meses schrödingerianos respecto a este lanzamiento. (¡Sí, permítanme estos pequeños momentos!)
 
 La tendencia histórica se modeló de dos formas. La primera fue una extrapolación lineal:
 
@@ -58,7 +58,7 @@ $$
 N(t)=A\,e^{bt}.
 $$
 
-Aquí $N(t)$ representa el número de nuevos envíos durante el mes $t$. $A\$, $a$ y $b$ son parámetros de ajuste. 
+Aquí $N(t)$ representa el número de nuevos envíos durante el mes $t$. $A$, $a$ y $b$ son parámetros de ajuste. 
 
 El modelo exponencial se adoptó como referencia principal, no porque sea «la verdad», sino porque incorpora una idea razonable. Cuanto mayor es una comunidad científica, mayor puede ser también su capacidad de producir nuevos trabajos. En términos menos elegantes, mientras más somos, más publicamos. El modelo lineal se mantuvo como prueba de sensibilidad.
 
@@ -77,7 +77,7 @@ $$
 Aplicando este procedimiento a los dos periodos, obtenemos:
 
 - **Antes de ChatGPT:** $r_{\rm pre}=0{,}768\,\%$ mensual.
-- **Después de CahtGPT:** $r_{\rm post}=1{,}435\,\%$ mensual.
+- **Después de ChatGPT:** $r_{\rm post}=1{,}435\,\%$ mensual.
 
 La diferencia absoluta es de $0{,}667$ puntos porcentuales al mes. Sin embargo, para expresar cuánto aumentó el ritmo respecto al valor anterior resulta más útil calcular
 
@@ -88,7 +88,7 @@ $$
 \simeq 1{,}87.
 $$
 
-Por tanto, la tasa mensual posterior fue aproximadamente **1,87 veces** la tasa previa. Dicho de forma más directa, el ritmo de crecimiento fue cerca de un **87 % mayor**. La curva no solo continuó subiendo, comenzó a hacerlo más deprisa.
+Por tanto, la tasa mensual posterior fue aproximadamente **1,87 veces** la tasa previa. Dicho de forma más directa, el ritmo de crecimiento fue cerca de un **87 % mayor**. La curva no solo continuó subiendo, sino que comenzó a hacerlo más deprisa.
 
 ## Del cambio de ritmo a los 43.670 envíos adicionales
 
@@ -110,7 +110,7 @@ $$
 
 Entre enero de 2023 y junio de 2026 se registraron **906.209** envíos. El contrafactual exponencial predecía **862.539**. Por tanto: hay un exceso acumulado de **43.670 envíos**, equivalente a un crecimiento del **5,06 %**.
 
-Esta cifra no mide directamente la aceleración de la producción científica, pero muestra su huella. La tasa indica cuánto cambió el ritmo de crecimiento, el acumulado indica cuánta distancia terminó separando la trayectoria observada de la trayectoria esperada.
+Esta cifra no mide directamente la aceleración de la producción científica, pero muestra su huella. La tasa indica cuánto cambió el ritmo de crecimiento; el acumulado indica cuánta distancia terminó separando la trayectoria observada de la trayectoria esperada.
 
 ## La señal tardó en aparecer
 
@@ -155,7 +155,7 @@ Esa aceleración dejó, hasta junio de 2026, una diferencia acumulada de **43.67
 
 Los datos no permiten afirmar que la inteligencia artificial sea la única responsable. En estos años también podrían haber influido el crecimiento de las comunidades científicas, cambios en las políticas de publicación, nuevas áreas de investigación, incentivos académicos y otras transformaciones que este análisis no tiene en cuenta. En cualquier caso, **la curva de producción científica abierta cambió de pendiente y comenzó a crecer más deprisa** en la era transChatGPTiana.
 
-Dadas las conclusiones más serias, echemos ahora a volar nuestra imaginaciín y veamos que significaría este aumento traducido a tiempo histórico, solo como ejercicio mental. 
+Dadas las conclusiones más serias, echemos ahora a volar nuestra imaginación y veamos qué significaría este aumento traducido a tiempo histórico, solo como ejercicio mental. 
 
 Si suponemos, como simplificación, que alcanzar un determinado hito exige recorrer siempre la misma «distancia porcentual», el tiempo necesario sería inversamente proporcional al ritmo:
 
@@ -165,7 +165,7 @@ $$
 
 Es decir, el mismo recorrido requeriría aproximadamente el **53,5 % del tiempo original**, lo que equivale a una reducción temporal cercana al **46,5 %**. Por ejemplo, un avance que antes necesitara 100 años tardaría unos 53,5 años con el nuevo ritmo.
 
-Empecemos con las comparación histórica, con la advertencia de que se trata de una metáfora y no de una máquina del tiempo científica. Entre el primer vuelo propulsado de los hermanos Wright, el 17 de diciembre de 1903, y la llegada del Apollo 11 a la Luna, en julio de 1969, transcurrieron unos 65 años y medio. Si todo aquel proceso tecnológico hubiera avanzado a un ritmo similar al actual, ese mismo recorrido habría durado alrededor de 35 años; abríamos llegado a la Luna hacia 1939, unas tres décadas antes. 
+Empecemos con la comparación histórica, con la advertencia de que se trata de una metáfora y no de una máquina del tiempo científica. Entre el primer vuelo propulsado de los hermanos Wright, el 17 de diciembre de 1903, y la llegada del Apolo 11 a la Luna, en julio de 1969, transcurrieron unos 65 años y medio. Si todo aquel proceso tecnológico hubiera avanzado a un ritmo similar al actual, ese mismo recorrido habría durado alrededor de 35 años; habríamos llegado a la Luna hacia 1939, unas tres décadas antes. 
 
 Un ejemplo menos cinematográfico sería el [**Proyecto Genoma Humano**](https://www.genome.gov/es/genetics-glossary/Proyecto-Genoma-Humano), iniciado en octubre de 1990 y completado en abril de 2003. Sus doce años y medio de trabajo se reducirían, bajo la misma simplificación, a unos seis años y ocho meses: el genoma humano habría quedado esencialmente secuenciado hacia mediados de 1997. De nuevo, la comparación no pretende afirmar que más artículos produzcan automáticamente descubrimientos más rápidos, pero nos sirve para visualizar la magnitud del cambio.
 
@@ -177,9 +177,9 @@ Otros modelos más optimistas sitúan la llegada al tipo I hacia 2271 y una hipo
 
 Naturalmente, toda utopía futurista necesita su pequeño apocalipsis. Stephen Hawking advirtió en 2017 que la humanidad debía ser capaz de establecerse fuera de la Tierra en un plazo aproximado de cien años para mejorar sus posibilidades de supervivencia frente a amenazas existenciales. Si aplicáramos el mismo factor de 1,87 a esa cuenta atrás, el año 2117 se convertiría aproximadamente en 2070. No porque los peligros respeten nuestras ecuaciones, sino porque toda aceleración tiene una lectura menos tranquilizadora; si la inteligencia artificial nos ayuda a encontrar antes la cura del cáncer o a construir una base lunar, estupendo; pero también podría ayudarnos a diseñar antes armas más eficaces, sistemas de vigilancia más invasivos o formas extraordinariamente sofisticadas de discutir con desconocidos.
 
-Ahí reside la advertencia que se esconde detrás del entusiasmo. Acelerar la producción científica no garantiza acelerar únicamente las cosas buenas. El conocimiento es un motor, no un volante; aumenta nuestra capacidad de movimiento, pero no decide hacia dónde conducimos. Podemos llegar antes a Marte, a la energía de fusión o a una medicina personalizada, también podemos llegar antes a una crisis que todavía no sabemos gestionar. La pregunta importante no es solo cuánto más rápido avanza la ciencia, sino si la humanidad está aprendiendo a conducir al mismo ritmo que pisa el acelerador.
+Ahí reside la advertencia que se esconde detrás del entusiasmo. Acelerar la producción científica no garantiza acelerar únicamente las cosas buenas. El conocimiento es un motor, no un volante; aumenta nuestra capacidad de movimiento, pero no decide hacia dónde conducimos. Podemos llegar antes a Marte, a la energía de fusión o a una medicina personalizada; también podemos llegar antes a una crisis que todavía no sabemos gestionar. La pregunta importante no es solo cuánto más rápido avanza la ciencia, sino si la humanidad está aprendiendo a conducir al mismo ritmo que pisa el acelerador.
 
-Estas comparaciones son deliberadamente absurdas, porque el progreso científico no avanza como un tren sobre una vía recta, depende de descubrimientos inesperados, financiación, instituciones, guerras, errores y personas concretas. De igual modo son bastante entretenidas y ahora que conoces la regla, puedes aplicarla a tus propios hitos históricos y preguntarte cuánto antes habrían ocurrido en una ciencia acelerada.
+Estas comparaciones son deliberadamente absurdas porque el progreso científico no avanza como un tren sobre una vía recta, depende de descubrimientos inesperados, financiación, instituciones, guerras, errores y personas concretas. De igual modo son bastante entretenidas y ahora que conoces la regla, puedes aplicarla a tus propios hitos históricos y preguntarte cuánto antes habrían ocurrido en una ciencia acelerada.
 
 ## Epílogo necesario 
 
