@@ -13,7 +13,7 @@ tags:
   - ciencia abierta
   - producción científica
   - datos
-summary: Los envíos mensuales de artículos a **arXiv** crecieron un 87 % más rápido tras ChatGPT, pero la cifra necesita contexto
+summary: Los envíos mensuales de artículos a **arXiv** crecieron un 87 % más rápido tras ChatGPT, pero la cifra necesita contexto.
 image: images/01_contrafactual_global_exponential.jpeg
 certificate: true
 ---
@@ -40,11 +40,11 @@ Aun con esas limitaciones, **[arXiv](https://arxiv.org/)** tiene tres ventajas d
 
 La diferencia entre ambas trayectorias puede utilizarse como un termómetro aproximado del cambio en la producción científica abierta. 
 
-Antes de continuar, me gustaría dejar aquí un *disclaimer* de rigor para los más fieles defensores de la razón. Un aumento en el número de *papers*, término coloquial para los artículos en el dialecto académico, no implica necesariamente un aumento equivalente del conocimiento humano. De hecho, desde mi perspectiva, una producción enorme sin la calidad adecuada puede incluso ser contraproducente. Sin embargo, no se me ocurre una forma mejor de ensayar esta pregunta con datos públicos, de manera sencilla y, sobre todo, que quepa en una *Napkin Note*.
+Antes de continuar, me gustaría dejar aquí un *disclaimer* de rigor para los más fieles defensores de la razón. Un aumento en el número de *papers*, término coloquial para los artículos en el dialecto académico, no implica necesariamente un aumento equivalente del conocimiento humano. De hecho, desde mi perspectiva, una producción enorme sin la calidad adecuada puede incluso ser contraproducente. Sin embargo, no se me ocurre una forma mejor de responder a esta pregunta con datos públicos, de manera sencilla y, sobre todo, en el espacio de una *Napkin Note*.
 
 ## El experimento: construir un mundo sin ChatGPT
 
-Descargamos mediante la API oficial de arXiv el número de nuevos envíos mensuales entre enero de 2015 y junio de 2026. Para reconstruir la tendencia previa utilizamos únicamente los datos comprendidos entre enero de 2015 y octubre de 2022. Noviembre y diciembre de 2022 quedaron fuera tanto del ajuste como de la evaluación. Son meses demasiado cercanos al lanzamiento público de ChatGPT para clasificarlos limpiamente como parte del mundo anterior o del posterior. Son meses schrödingerianos respecto a este lanzamiento. (¡Sí, permítanme estos pequeños momentos!)
+Descargamos mediante la API oficial de **[arXiv](https://arxiv.org/)** el número de nuevos envíos mensuales entre enero de 2015 y junio de 2026. Para reconstruir la tendencia previa utilizamos únicamente los datos comprendidos entre enero de 2015 y octubre de 2022. Noviembre y diciembre de 2022 quedaron fuera tanto del ajuste como de la evaluación. Son meses demasiado cercanos al lanzamiento público de ChatGPT para clasificarlos limpiamente como parte del mundo anterior o del posterior. Son meses schrödingerianos respecto a este lanzamiento. (¡Sí, permítanme estos pequeños momentos!)
 
 La tendencia histórica se modeló de dos formas. La primera fue una extrapolación lineal:
 
@@ -149,15 +149,11 @@ Con el modelo lineal, el número esperado entre enero de 2023 y junio de 2026 se
 
 ## Conclusiones con una gran imaginación
 
-Los envíos mensuales a **[arXiv](https://arxiv.org/)** muestran un cambio cuantitativo claro después de 2023. Bajo el ajuste exponencial, la tasa de crecimiento pasó del **0,768 %** al **1,435 %** mensual, representando un incremento relativo cercano al **87 %**.
-
-Esa aceleración dejó, hasta junio de 2026, una diferencia acumulada de **43.670 envíos** respecto a la tendencia exponencial anterior. 
+Los envíos mensuales a **[arXiv](https://arxiv.org/)** muestran un cambio cuantitativo claro después de 2023. Bajo el ajuste exponencial, la tasa de crecimiento pasó del **0,768 %** al **1,435 %** mensual, representando un incremento relativo cercano al **87 %**. Esa aceleración dejó, hasta junio de 2026, una diferencia acumulada de **43.670 envíos** respecto a la tendencia exponencial anterior. 
 
 Los datos no permiten afirmar que la inteligencia artificial sea la única responsable. En estos años también podrían haber influido el crecimiento de las comunidades científicas, cambios en las políticas de publicación, nuevas áreas de investigación, incentivos académicos y otras transformaciones que este análisis no tiene en cuenta. En cualquier caso, **la curva de producción científica abierta cambió de pendiente y comenzó a crecer más deprisa** en la era transChatGPTiana.
 
-Dadas las conclusiones más serias, echemos ahora a volar nuestra imaginación y veamos qué significaría este aumento traducido a tiempo histórico, solo como ejercicio mental. 
-
-Si suponemos, como simplificación, que alcanzar un determinado hito exige recorrer siempre la misma «distancia porcentual», el tiempo necesario sería inversamente proporcional al ritmo:
+Dadas las conclusiones más serias, echemos ahora a volar nuestra imaginación y veamos qué significaría este aumento traducido a tiempo histórico, solo como ejercicio mental. Si suponemos, como simplificación, que alcanzar un determinado hito exige recorrer siempre la misma «distancia», el tiempo necesario sería inversamente proporcional al ritmo:
 
 $$
 t_{\rm nuevo}=\frac{t_{\rm anterior}}{1{,}87}\simeq 0{,}535,t_{\rm anterior}.
@@ -171,7 +167,7 @@ Un ejemplo menos cinematográfico sería el [**Proyecto Genoma Humano**](https:/
 
 También podemos saltar del telégrafo a internet. Entre el célebre primer mensaje de Morse, enviado en 1844, y la aparición de la primera página web, en 1991, pasaron unos 147 años. Comprimido por nuestro factor, el mismo recorrido habría terminado hacia **1923**. La humanidad habría entrado en la era de la web durante los felices años veinte: páginas en blanco y negro, buscadores con sombrero y discusiones en redes sociales transmitidas, quizá, a golpe de telegrama.
 
-También podemos proyectar este juego matemático hacia el futuro. Algunos estudios inspirados en la escala de Kardashev estiman que la humanidad podría convertirse en una civilización de tipo I capaz, en términos generales, de gestionar la energía disponible a escala planetaria, alrededor del año 2371. Si comprimiéramos ese camino mediante nuestro factor de aceleración, la fecha se desplazaría hasta aproximadamente 2209. Seguiría quedando lejos, pero nuestros tataranietos podrían heredar algo más interesante que una hipoteca y varias contraseñas olvidadas: un planeta convertido, por fin, en una infraestructura tecnológica coordinada.
+Proyectemos ahora este juego matemático hacia el futuro. Algunos estudios inspirados en la escala de Kardashev estiman que la humanidad podría convertirse en una civilización de tipo I, capaz, en términos generales, de gestionar la energía disponible a escala planetaria, alrededor del año 2371. Si comprimiéramos ese camino mediante nuestro factor de aceleración, la fecha se desplazaría hasta aproximadamente 2209. Seguiría quedando lejos, pero nuestros tataranietos podrían heredar algo más interesante que una hipoteca y varias contraseñas olvidadas: un planeta convertido, por fin, en una infraestructura tecnológica coordinada.
 
 Otros modelos más optimistas sitúan la llegada al tipo I hacia 2271 y una hipotética civilización de tipo II, capaz de explotar energía a escala estelar mediante estructuras como enjambres de Dyson, entre los años 3200 y 3500. Aplicando nuestra absurda calculadora de aceleración, el tipo I llegaría aproximadamente en 2156, mientras que el dominio energético del sistema solar podría adelantarse hasta algún momento entre 2650 y 2810. Dicho de otra manera, podríamos empezar a desmontar asteroides, poblar lunas y rodear el Sol con paneles solares varios siglos antes de lo previsto. La mala noticia es que incluso una civilización capaz de capturar la energía de una estrella probablemente seguiría convocando reuniones que podrían haberse resuelto con un correo.
 
