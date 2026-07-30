@@ -4,7 +4,7 @@ author: Duvier Suárez Fontanella
 date: 2026-07-30
 layout: articles
 slug: ia-acelero-ciencia-arxiv-chatgpt
-status: hidden
+status: published
 category: Ciencia y tecnología
 tags: 
   - inteligencia artificial
