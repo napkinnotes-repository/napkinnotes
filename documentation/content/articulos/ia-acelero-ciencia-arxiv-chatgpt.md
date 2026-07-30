@@ -13,7 +13,7 @@ tags:
   - ciencia abierta
   - producción científica
   - datos
-summary: Los envíos mensuales de artículos a **arXiv** crecieron un 87 % más rápido tras ChatGPT, pero la cifra necesita contexto.
+summary: "Los envíos mensuales de artículos a **arXiv** crecieron un 87 % más rápido tras ChatGPT, pero la cifra necesita contexto."
 image: images/01_contrafactual_global_exponential.jpeg
 certificate: true
 ---
@@ -137,10 +137,30 @@ La extrapolación, por útil que sea, no es una máquina del tiempo. El resultad
 
 Con el modelo lineal, el número esperado entre enero de 2023 y junio de 2026 se reduce a **783.816** envíos frente a los 906.209 observados, el exceso asciende a **122.393**, equivalente a un **15,62 %**.
 
-| Modelo contrafactual | Envíos esperados, ene. 2023–jun. 2026 | Exceso acumulado | Exceso relativo |
-|---|---:|---:|---:|
-| Lineal | 783.816 | 122.393 | 15,62 % |
-| Exponencial | 862.539 | 43.670 | 5,06 % |
+<table class="nn-compact-table">
+  <thead>
+    <tr>
+      <th>Modelo contrafactual</th>
+      <th>Envíos esperados<br><small>ene. 2023–jun. 2026</small></th>
+      <th>Exceso acumulado</th>
+      <th>Exceso relativo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="nowrap">Lineal</span></td>
+      <td><span class="nowrap">783.816</span></td>
+      <td><span class="nowrap">122.393</span></td>
+      <td><span class="nowrap">15,62 %</span></td>
+    </tr>
+    <tr>
+      <td><span class="nowrap">Exponencial</span></td>
+      <td><span class="nowrap">862.539</span></td>
+      <td><span class="nowrap">43.670</span></td>
+      <td><span class="nowrap">5,06 %</span></td>
+    </tr>
+  </tbody>
+</table>
 
 
 ![Comparación de los datos observados con un contrafactual lineal.](images/01_contrafactual_global_linear.png)
