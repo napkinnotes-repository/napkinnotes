@@ -1,5 +1,204 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-07-23T00:00:00+02:00</updated><entry><title>El camino más corto no siempre es la línea recta</title><link href="https://napkinnotes.es/misterio-mezquita-washington-geometria" rel="alternate"/><published>2026-07-23T00:00:00+02:00</published><updated>2026-07-23T00:00:00+02:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-07-23:/misterio-mezquita-washington-geometria</id><summary type="html">&lt;p&gt;La increíble historia de cómo una mezquita en Washington &lt;span class="caps"&gt;D. C.&lt;/span&gt; casi es demolida debido a la distorsión de los mapas planos y las leyes de la geometría&amp;nbsp;esférica.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-07-30T00:00:00+02:00</updated><entry><title>¿Cuánto ha acelerado la producción de conocimiento la IA?: Una estimación sobre ciencia en la era transChatGPTiana</title><link href="https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt" rel="alternate"/><published>2026-07-30T00:00:00+02:00</published><updated>2026-07-30T00:00:00+02:00</updated><author><name>Duvier Suárez Fontanella</name></author><id>tag:napkinnotes.es,2026-07-30:/ia-acelero-ciencia-arxiv-chatgpt</id><summary type="html">&lt;p&gt;Los envíos mensuales de artículos a &lt;strong&gt;arXiv&lt;/strong&gt; crecieron un 87 % más rápido tras ChatGPT, pero la cifra necesita&amp;nbsp;contexto.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#arxiv-un-termometro-imperfecto"&gt;arXiv: un termómetro&amp;nbsp;imperfecto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-experimento-construir-un-mundo-sin-chatgpt"&gt;El experimento: construir un mundo sin&amp;nbsp;ChatGPT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#la-curva-cambio-de-ritmo"&gt;La curva cambió de&amp;nbsp;ritmo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#del-cambio-de-ritmo-a-los-43670-envios-adicionales"&gt;Del cambio de ritmo a los 43.670 envíos&amp;nbsp;adicionales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#la-senal-tardo-en-aparecer"&gt;La señal tardó en&amp;nbsp;aparecer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-contrafactual-importa"&gt;El contrafactual&amp;nbsp;importa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#conclusiones-con-una-gran-imaginacion"&gt;Conclusiones con una gran&amp;nbsp;imaginación&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#epilogo-necesario"&gt;Epílogo&amp;nbsp;necesario&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#datos-y-metodo"&gt;Datos y&amp;nbsp;método&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Desde que ChatGPT apareció a finales de 2022, marcando la entrada de los grandes modelos de lenguaje a la vida cotidiana, ha sido toda una revolución. Estas herramientas se han integrado en tareas de programación, traducción, redacción, búsqueda bibliográfica y otras muchas, incluyendo algunas más pedestres. Estaremos entonces casi todos de acuerdo con que esta revolución de la &lt;span class="caps"&gt;IA&lt;/span&gt; ha acelerado la producción de conocimiento —noten que digo la producción y no la asimilación—, pero ¿cuánto la ha acelerado? ¿Puede detectarse ya algún cambio cuantitativo en el ritmo de producción científica en la era&amp;nbsp;transChatGPTiana?&lt;/p&gt;
+&lt;p&gt;Para buscar una respuesta, en este texto haremos algo bastante divertido: usaremos &lt;strong&gt;&lt;a href="https://arxiv.org/"&gt;arXiv&lt;/a&gt;&lt;/strong&gt; como un sensor parcial de la producción científica y compararemos la evolución de sus envíos mensuales con la trayectoria que habría seguido si la tendencia anterior a ChatGPT hubiera continuado sin cambios. El resultado es asombroso desde mi perspectiva: la tasa mensual ajustada pasó de aproximadamente un &lt;strong&gt;0,768 %&lt;/strong&gt; antes de ChatGPT a un &lt;strong&gt;1,435 %&lt;/strong&gt; desde enero de 2023. Es decir, el ritmo de crecimiento de la producción científica basado en &lt;strong&gt;&lt;a href="https://arxiv.org/"&gt;arXiv&lt;/a&gt;&lt;/strong&gt; fue alrededor de un &lt;strong&gt;87 % mayor&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;¿Demuestra esto que la &lt;span class="caps"&gt;IA&lt;/span&gt; produjo por sí sola más ciencia? No. Las curvas, por desgracia, todavía no incluyen una nota al pie explicando sus causas. Pero sí muestran que algo cambió en el ritmo de publicación, y que ese cambio puede&amp;nbsp;medirse.&lt;/p&gt;
+&lt;h2 id="arxiv-un-termometro-imperfecto"&gt;&lt;strong&gt;arXiv&lt;/strong&gt;: un termómetro imperfecto&lt;a class="headerlink" href="#arxiv-un-termometro-imperfecto" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Pero primero lo primero: ¿qué es &lt;strong&gt;&lt;a href="https://arxiv.org/"&gt;arXiv&lt;/a&gt;&lt;/strong&gt;? Y no, no es un error gramatical ni solamente una forma especialmente creativa de escribir &lt;em&gt;archive&lt;/em&gt;. Es un repositorio de &lt;em&gt;preprints&lt;/em&gt;, o sea, de versiones públicas de artículos científicos que pueden compartirse antes, durante o después de la revisión por pares. Tiene una presencia especialmente importante en física, matemáticas, informática, estadística y otras ciencias&amp;nbsp;cuantitativas.&lt;/p&gt;
+&lt;p&gt;¿Representa toda la ciencia? Por supuesto que no. Tampoco cada nuevo envío equivale a un descubrimiento, ni todos los trabajos tienen la misma calidad. &lt;strong&gt;&lt;a href="https://arxiv.org/"&gt;arXiv&lt;/a&gt;&lt;/strong&gt; incluso alberga ocasionalmente artículos de broma publicados por el &lt;em&gt;April Fools’ Day&lt;/em&gt;, algo parecido a trasladar el Día de los Inocentes al lenguaje de las ecuaciones. Además, su moderación inicial no sustituye la revisión por pares de una&amp;nbsp;revista.&lt;/p&gt;
+&lt;p&gt;Aun con esas limitaciones, &lt;strong&gt;&lt;a href="https://arxiv.org/"&gt;arXiv&lt;/a&gt;&lt;/strong&gt; tiene tres ventajas difíciles de ignorar: una serie temporal larga, una estructura relativamente estable y una &lt;span class="caps"&gt;API&lt;/span&gt; pública. Por eso resulta útil para plantear una pregunta estadística&amp;nbsp;sencilla:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Si el ritmo de envíos anterior a ChatGPT hubiera continuado, ¿cuántos &lt;em&gt;preprints&lt;/em&gt; esperaríamos encontrar desde enero de 2023 y cuántos se enviaron&amp;nbsp;realmente?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;La diferencia entre ambas trayectorias puede utilizarse como un termómetro aproximado del cambio en la producción científica&amp;nbsp;abierta. &lt;/p&gt;
+&lt;p&gt;Antes de continuar, me gustaría dejar aquí un &lt;em&gt;disclaimer&lt;/em&gt; de rigor para los más fieles defensores de la razón. Un aumento en el número de &lt;em&gt;papers&lt;/em&gt;, término coloquial para los artículos en el dialecto académico, no implica necesariamente un aumento equivalente del conocimiento humano. De hecho, desde mi perspectiva, una producción enorme sin la calidad adecuada puede incluso ser contraproducente. Sin embargo, no se me ocurre una forma mejor de responder a esta pregunta con datos públicos, de manera sencilla y, sobre todo, en el espacio de una &lt;em&gt;Napkin Note&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id="el-experimento-construir-un-mundo-sin-chatgpt"&gt;El experimento: construir un mundo sin ChatGPT&lt;a class="headerlink" href="#el-experimento-construir-un-mundo-sin-chatgpt" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Descargamos mediante la &lt;span class="caps"&gt;API&lt;/span&gt; oficial de &lt;strong&gt;&lt;a href="https://arxiv.org/"&gt;arXiv&lt;/a&gt;&lt;/strong&gt; el número de nuevos envíos mensuales entre enero de 2015 y junio de 2026. Para reconstruir la tendencia previa utilizamos únicamente los datos comprendidos entre enero de 2015 y octubre de 2022. Noviembre y diciembre de 2022 quedaron fuera tanto del ajuste como de la evaluación. Son meses demasiado cercanos al lanzamiento público de ChatGPT para clasificarlos limpiamente como parte del mundo anterior o del posterior. Son meses schrödingerianos respecto a este lanzamiento. (¡Sí, permítanme estos pequeños&amp;nbsp;momentos!)&lt;/p&gt;
+&lt;p&gt;La tendencia histórica se modeló de dos formas. La primera fue una extrapolación&amp;nbsp;lineal:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+N(t)=a+bt,
+$$&lt;/div&gt;
+&lt;p&gt;y la segunda, una extrapolación&amp;nbsp;exponencial:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+N(t)=A\,e^{bt}.
+$$&lt;/div&gt;
+&lt;p&gt;Aquí &lt;span class="math"&gt;\(N(t)\)&lt;/span&gt; representa el número de nuevos envíos durante el&amp;nbsp;mes &lt;span class="math"&gt;\(t\)&lt;/span&gt;. &lt;span class="math"&gt;\(A\)&lt;/span&gt;, &lt;span class="math"&gt;\(a\)&lt;/span&gt; y &lt;span class="math"&gt;\(b\)&lt;/span&gt; son parámetros de&amp;nbsp;ajuste. &lt;/p&gt;
+&lt;p&gt;El modelo exponencial se adoptó como referencia principal, no porque sea «la verdad», sino porque incorpora una idea razonable. Cuanto mayor es una comunidad científica, mayor puede ser también su capacidad de producir nuevos trabajos. En términos menos elegantes, mientras más somos, más publicamos. El modelo lineal se mantuvo como prueba de&amp;nbsp;sensibilidad.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Envíos mensuales a arXiv frente a la trayectoria contrafactual exponencial." src="images/01_contrafactual_global_exponential.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figura 1. Envíos mensuales observados en arXiv y tendencia exponencial ajustada únicamente con datos hasta octubre de 2022. La banda sombreada representa una incertidumbre exploratoria obtenida mediante&amp;nbsp;bootstrap.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="la-curva-cambio-de-ritmo"&gt;La curva cambió de ritmo&lt;a class="headerlink" href="#la-curva-cambio-de-ritmo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El resultado más importante es el cambio en la &lt;strong&gt;tasa de crecimiento&lt;/strong&gt;. Si los envíos mensuales siguen aproximadamente el&amp;nbsp;modelo &lt;span class="math"&gt;\(N(t)=Ae^{bt}\)&lt;/span&gt;, la&amp;nbsp;pendiente &lt;span class="math"&gt;\(b\)&lt;/span&gt; puede transformarse en una tasa porcentual mensual&amp;nbsp;mediante:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+r=100\left(e^b-1\right).
+$$&lt;/div&gt;
+&lt;p&gt;Aplicando este procedimiento a los dos periodos,&amp;nbsp;obtenemos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Antes de&amp;nbsp;ChatGPT:&lt;/strong&gt; &lt;span class="math"&gt;\(r_{\rm pre}=0{,}768\,\%\)&lt;/span&gt; mensual.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Después de&amp;nbsp;ChatGPT:&lt;/strong&gt; &lt;span class="math"&gt;\(r_{\rm post}=1{,}435\,\%\)&lt;/span&gt; mensual.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La diferencia absoluta es&amp;nbsp;de &lt;span class="math"&gt;\(0{,}667\)&lt;/span&gt; puntos porcentuales al mes. Sin embargo, para expresar cuánto aumentó el ritmo respecto al valor anterior resulta más útil&amp;nbsp;calcular&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\frac{r_{\rm post}}{r_{\rm pre}}
+=
+\frac{1{,}435}{0{,}768}
+\simeq 1{,}87.
+$$&lt;/div&gt;
+&lt;p&gt;Por tanto, la tasa mensual posterior fue aproximadamente &lt;strong&gt;1,87 veces&lt;/strong&gt; la tasa previa. Dicho de forma más directa, el ritmo de crecimiento fue cerca de un &lt;strong&gt;87 % mayor&lt;/strong&gt;. La curva no solo continuó subiendo, sino que comenzó a hacerlo más&amp;nbsp;deprisa.&lt;/p&gt;
+&lt;h2 id="del-cambio-de-ritmo-a-los-43670-envios-adicionales"&gt;Del cambio de ritmo a los 43.670 envíos adicionales&lt;a class="headerlink" href="#del-cambio-de-ritmo-a-los-43670-envios-adicionales" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;La tasa es la magnitud que mejor describe el cambio de ritmo, pero un porcentaje mensual puede resultar abstracto. Por eso calculamos también el exceso acumulado respecto al contrafactual (término pomposo que reconozco me agrada y que describe el hipotético caso de una historia sin un evento específico: ¿qué habría sido de la ciencia si no hubiese aparecido&amp;nbsp;ChatGPT?).&lt;/p&gt;
+&lt;p&gt;Para cada mes posterior a enero de 2023&amp;nbsp;definimos:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta N(t)=N_{\rm observado}(t)-N_{\rm esperado}(t),
+$$&lt;/div&gt;
+&lt;p&gt;y sumamos las diferencias&amp;nbsp;mensuales:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta N_{\rm acumulado}
+=
+\sum_{t\geq {\rm enero\ de\ 2023}}\Delta N(t).
+$$&lt;/div&gt;
+&lt;p&gt;Entre enero de 2023 y junio de 2026 se registraron &lt;strong&gt;906.209&lt;/strong&gt; envíos. El contrafactual exponencial predecía &lt;strong&gt;862.539&lt;/strong&gt;. Por tanto: hay un exceso acumulado de &lt;strong&gt;43.670 envíos&lt;/strong&gt;, equivalente a un crecimiento del &lt;strong&gt;5,06 %&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Esta cifra no mide directamente la aceleración de la producción científica, pero muestra su huella. La tasa indica cuánto cambió el ritmo de crecimiento; el acumulado indica cuánta distancia terminó separando la trayectoria observada de la trayectoria&amp;nbsp;esperada.&lt;/p&gt;
+&lt;h2 id="la-senal-tardo-en-aparecer"&gt;La señal tardó en aparecer&lt;a class="headerlink" href="#la-senal-tardo-en-aparecer" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Si ChatGPT hubiera actuado como un interruptor mágico de productividad, esperaríamos un salto abrupto en diciembre de 2022 o enero de 2023. Los datos, menos aficionados al espectáculo, no muestran algo tan&amp;nbsp;limpio. &lt;/p&gt;
+&lt;p&gt;Durante buena parte de 2023 y comienzos de 2024, los envíos observados se situaron con frecuencia por debajo del contrafactual exponencial. Como consecuencia, el exceso acumulado fue inicialmente negativo. Esto puede tener varias explicaciones: el modelo pudo sobreestimar temporalmente la tendencia, la comunidad científica necesitó tiempo para incorporar las nuevas herramientas o la señal solo se hizo visible al acumular suficientes&amp;nbsp;meses.&lt;/p&gt;
+&lt;p&gt;A partir de 2025, los meses con exceso positivo se vuelven más frecuentes y el exceso de mayor magnitud. El acumulado cruza el cero durante ese año y continúa aumentando hasta alcanzar los 43.670 envíos adicionales al cierre del&amp;nbsp;periodo.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Exceso acumulado de envíos respecto al contrafactual exponencial desde enero de 2023." src="images/03_exceso_acumulado_exponential.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figura 2. La desviación acumulada respecto al modelo exponencial no aparece de inmediato: primero es negativa, después cambia de signo y aumenta con rapidez en la parte final de la&amp;nbsp;serie.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;El gráfico mensual permite ver que el resultado no procede de una subida uniforme. Surge de la combinación entre oscilaciones estacionales y varios meses recientes con un número de envíos claramente superior al&amp;nbsp;esperado.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Exceso mensual de envíos respecto al contrafactual exponencial." src="images/02_exceso_mensual_exponential.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figura 3. Diferencia mensual entre el número de envíos observado y el estimado por el modelo exponencial. Las barras positivas indican meses por encima del contrafactual; las negativas, meses por&amp;nbsp;debajo.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="el-contrafactual-importa"&gt;El contrafactual importa&lt;a class="headerlink" href="#el-contrafactual-importa" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;La extrapolación, por útil que sea, no es una máquina del tiempo. El resultado depende de cómo describamos la tendencia&amp;nbsp;anterior.&lt;/p&gt;
+&lt;p&gt;Con el modelo lineal, el número esperado entre enero de 2023 y junio de 2026 se reduce a &lt;strong&gt;783.816&lt;/strong&gt; envíos frente a los 906.209 observados, el exceso asciende a &lt;strong&gt;122.393&lt;/strong&gt;, equivalente a un &lt;strong&gt;15,62 %&lt;/strong&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Modelo contrafactual&lt;/th&gt;
+&lt;th style="text-align: right;"&gt;Envíos esperados, ene. 2023–jun. 2026&lt;/th&gt;
+&lt;th style="text-align: right;"&gt;Exceso acumulado&lt;/th&gt;
+&lt;th style="text-align: right;"&gt;Exceso relativo&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Lineal&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;783.816&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;122.393&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;15,62 %&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Exponencial&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;862.539&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;43.670&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;5,06 %&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img alt="Comparación de los datos observados con un contrafactual lineal." src="images/01_contrafactual_global_linear.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figura 4. El contrafactual lineal predice un crecimiento más lento y, por tanto, genera una estimación mayor del exceso. La comparación muestra la sensibilidad del acumulado a la forma funcional&amp;nbsp;elegida.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="conclusiones-con-una-gran-imaginacion"&gt;Conclusiones con una gran imaginación&lt;a class="headerlink" href="#conclusiones-con-una-gran-imaginacion" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Los envíos mensuales a &lt;strong&gt;&lt;a href="https://arxiv.org/"&gt;arXiv&lt;/a&gt;&lt;/strong&gt; muestran un cambio cuantitativo claro después de 2023. Bajo el ajuste exponencial, la tasa de crecimiento pasó del &lt;strong&gt;0,768 %&lt;/strong&gt; al &lt;strong&gt;1,435 %&lt;/strong&gt; mensual, representando un incremento relativo cercano al &lt;strong&gt;87 %&lt;/strong&gt;. Esa aceleración dejó, hasta junio de 2026, una diferencia acumulada de &lt;strong&gt;43.670 envíos&lt;/strong&gt; respecto a la tendencia exponencial&amp;nbsp;anterior. &lt;/p&gt;
+&lt;p&gt;Los datos no permiten afirmar que la inteligencia artificial sea la única responsable. En estos años también podrían haber influido el crecimiento de las comunidades científicas, cambios en las políticas de publicación, nuevas áreas de investigación, incentivos académicos y otras transformaciones que este análisis no tiene en cuenta. En cualquier caso, &lt;strong&gt;la curva de producción científica abierta cambió de pendiente y comenzó a crecer más deprisa&lt;/strong&gt; en la era&amp;nbsp;transChatGPTiana.&lt;/p&gt;
+&lt;p&gt;Dadas las conclusiones más serias, echemos ahora a volar nuestra imaginación y veamos qué significaría este aumento traducido a tiempo histórico, solo como ejercicio mental. Si suponemos, como simplificación, que alcanzar un determinado hito exige recorrer siempre la misma «distancia», el tiempo necesario sería inversamente proporcional al&amp;nbsp;ritmo:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+t_{\rm nuevo}=\frac{t_{\rm anterior}}{1{,}87}\simeq 0{,}535,t_{\rm anterior}.
+$$&lt;/div&gt;
+&lt;p&gt;Es decir, el mismo recorrido requeriría aproximadamente el &lt;strong&gt;53,5 % del tiempo original&lt;/strong&gt;, lo que equivale a una reducción temporal cercana al &lt;strong&gt;46,5 %&lt;/strong&gt;. Por ejemplo, un avance que antes necesitara 100 años tardaría unos 53,5 años con el nuevo&amp;nbsp;ritmo.&lt;/p&gt;
+&lt;p&gt;Empecemos con la comparación histórica, con la advertencia de que se trata de una metáfora y no de una máquina del tiempo científica. Entre el primer vuelo propulsado de los hermanos Wright, el 17 de diciembre de 1903, y la llegada del Apolo 11 a la Luna, en julio de 1969, transcurrieron unos 65 años y medio. Si todo aquel proceso tecnológico hubiera avanzado a un ritmo similar al actual, ese mismo recorrido habría durado alrededor de 35 años; habríamos llegado a la Luna hacia 1939, unas tres décadas&amp;nbsp;antes. &lt;/p&gt;
+&lt;p&gt;Un ejemplo menos cinematográfico sería el &lt;a href="https://www.genome.gov/es/genetics-glossary/Proyecto-Genoma-Humano"&gt;&lt;strong&gt;Proyecto Genoma Humano&lt;/strong&gt;&lt;/a&gt;, iniciado en octubre de 1990 y completado en abril de 2003. Sus doce años y medio de trabajo se reducirían, bajo la misma simplificación, a unos seis años y ocho meses: el genoma humano habría quedado esencialmente secuenciado hacia mediados de 1997. De nuevo, la comparación no pretende afirmar que más artículos produzcan automáticamente descubrimientos más rápidos, pero nos sirve para visualizar la magnitud del&amp;nbsp;cambio.&lt;/p&gt;
+&lt;p&gt;También podemos saltar del telégrafo a internet. Entre el célebre primer mensaje de Morse, enviado en 1844, y la aparición de la primera página web, en 1991, pasaron unos 147 años. Comprimido por nuestro factor, el mismo recorrido habría terminado hacia &lt;strong&gt;1923&lt;/strong&gt;. La humanidad habría entrado en la era de la web durante los felices años veinte: páginas en blanco y negro, buscadores con sombrero y discusiones en redes sociales transmitidas, quizá, a golpe de&amp;nbsp;telegrama.&lt;/p&gt;
+&lt;p&gt;Proyectemos ahora este juego matemático hacia el futuro. Algunos estudios inspirados en la escala de Kardashev estiman que la humanidad podría convertirse en una civilización de tipo I, capaz, en términos generales, de gestionar la energía disponible a escala planetaria, alrededor del año 2371. Si comprimiéramos ese camino mediante nuestro factor de aceleración, la fecha se desplazaría hasta aproximadamente 2209. Seguiría quedando lejos, pero nuestros tataranietos podrían heredar algo más interesante que una hipoteca y varias contraseñas olvidadas: un planeta convertido, por fin, en una infraestructura tecnológica&amp;nbsp;coordinada.&lt;/p&gt;
+&lt;p&gt;Otros modelos más optimistas sitúan la llegada al tipo I hacia 2271 y una hipotética civilización de tipo &lt;span class="caps"&gt;II&lt;/span&gt;, capaz de explotar energía a escala estelar mediante estructuras como enjambres de Dyson, entre los años 3200 y 3500. Aplicando nuestra absurda calculadora de aceleración, el tipo I llegaría aproximadamente en 2156, mientras que el dominio energético del sistema solar podría adelantarse hasta algún momento entre 2650 y 2810. Dicho de otra manera, podríamos empezar a desmontar asteroides, poblar lunas y rodear el Sol con paneles solares varios siglos antes de lo previsto. La mala noticia es que incluso una civilización capaz de capturar la energía de una estrella probablemente seguiría convocando reuniones que podrían haberse resuelto con un&amp;nbsp;correo.&lt;/p&gt;
+&lt;p&gt;Naturalmente, toda utopía futurista necesita su pequeño apocalipsis. Stephen Hawking advirtió en 2017 que la humanidad debía ser capaz de establecerse fuera de la Tierra en un plazo aproximado de cien años para mejorar sus posibilidades de supervivencia frente a amenazas existenciales. Si aplicáramos el mismo factor de 1,87 a esa cuenta atrás, el año 2117 se convertiría aproximadamente en 2070. No porque los peligros respeten nuestras ecuaciones, sino porque toda aceleración tiene una lectura menos tranquilizadora; si la inteligencia artificial nos ayuda a encontrar antes la cura del cáncer o a construir una base lunar, estupendo; pero también podría ayudarnos a diseñar antes armas más eficaces, sistemas de vigilancia más invasivos o formas extraordinariamente sofisticadas de discutir con&amp;nbsp;desconocidos.&lt;/p&gt;
+&lt;p&gt;Ahí reside la advertencia que se esconde detrás del entusiasmo. Acelerar la producción científica no garantiza acelerar únicamente las cosas buenas. El conocimiento es un motor, no un volante; aumenta nuestra capacidad de movimiento, pero no decide hacia dónde conducimos. Podemos llegar antes a Marte, a la energía de fusión o a una medicina personalizada; también podemos llegar antes a una crisis que todavía no sabemos gestionar. La pregunta importante no es solo cuánto más rápido avanza la ciencia, sino si la humanidad está aprendiendo a conducir al mismo ritmo que pisa el&amp;nbsp;acelerador.&lt;/p&gt;
+&lt;p&gt;Estas comparaciones son deliberadamente absurdas porque el progreso científico no avanza como un tren sobre una vía recta, depende de descubrimientos inesperados, financiación, instituciones, guerras, errores y personas concretas. De igual modo son bastante entretenidas y ahora que conoces la regla, puedes aplicarla a tus propios hitos históricos y preguntarte cuánto antes habrían ocurrido en una ciencia&amp;nbsp;acelerada.&lt;/p&gt;
+&lt;h2 id="epilogo-necesario"&gt;Epílogo necesario&lt;a class="headerlink" href="#epilogo-necesario" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;¿Estamos produciendo más conocimiento o simplemente más &lt;em&gt;papers&lt;/em&gt;? Esa es otra pregunta, probablemente más importante y, desde luego, bastante más incómoda. Por ahora, al menos, sabemos que la cinta transportadora académica ha aumentado su velocidad. Lo que todavía queda por averiguar es cuánto de lo que circula sobre ella merece realmente llegar al&amp;nbsp;final.&lt;/p&gt;
+&lt;p&gt;En este punto quiero cerrar con una observación dirigida a mis colegas académicos. Desde mi perspectiva, la combinación de la inteligencia artificial como herramienta de producción masiva con unos indicadores bibliométricos centrados principalmente en la cantidad —y mucho menos en la calidad— puede generar un problema serio. Si las plazas, los contratos y el reconocimiento continúan premiando sobre todo a quienes más publican, la academia corre el riesgo de seleccionar a los investigadores más productivos, aunque esa productividad se consiga a costa de rebajar los estándares. El resultado sería un filtro perverso; un sistema diseñado para impulsar el conocimiento que termina favoreciendo el volumen por encima del valor. Quizá ha llegado el momento de pensar en nuevos indicadores capaces de medir no solo cuánto se publica, sino cuánto de lo publicado merece realmente&amp;nbsp;permanecer.&lt;/p&gt;
+&lt;h2 id="datos-y-metodo"&gt;Datos y método&lt;a class="headerlink" href="#datos-y-metodo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Los datos mensuales se obtuvieron mediante la &lt;a href="https://info.arxiv.org/help/api/user-manual.html"&gt;&lt;span class="caps"&gt;API&lt;/span&gt; oficial de arXiv&lt;/a&gt;, utilizando las fechas de envío&amp;nbsp;(&lt;code&gt;submittedDate&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;El corte temporal se sitúa en el lanzamiento público de ChatGPT, el &lt;a href="https://openai.com/es-ES/index/chatgpt/"&gt;30 de noviembre de 2022&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Periodo de ajuste del contrafactual: enero de 2015–octubre de&amp;nbsp;2022.&lt;/li&gt;
+&lt;li&gt;Periodo evaluado: enero de 2023–junio de&amp;nbsp;2026.&lt;/li&gt;
+&lt;li&gt;Noviembre y diciembre de 2022 se excluyeron como intervalo de&amp;nbsp;transición.&lt;/li&gt;
+&lt;li&gt;El código genera las series mensuales, los contrafactuales lineal y exponencial, las bandas bootstrap exploratorias y las figuras incluidas en el&amp;nbsp;artículo.&lt;/li&gt;
+&lt;li&gt;Todos los resultados deben interpretarse como una &lt;strong&gt;estimación descriptiva y contrafactual&lt;/strong&gt;, no como evidencia&amp;nbsp;causal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Ciencia y tecnología"/><category term="inteligencia artificial"/><category term="arXiv"/><category term="ChatGPT"/><category term="ciencia abierta"/><category term="producción científica"/><category term="datos"/></entry><entry><title>El camino más corto no siempre es la línea recta</title><link href="https://napkinnotes.es/misterio-mezquita-washington-geometria" rel="alternate"/><published>2026-07-23T00:00:00+02:00</published><updated>2026-07-23T00:00:00+02:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-07-23:/misterio-mezquita-washington-geometria</id><summary type="html">&lt;p&gt;La increíble historia de cómo una mezquita en Washington &lt;span class="caps"&gt;D. C.&lt;/span&gt; casi es demolida debido a la distorsión de los mapas planos y las leyes de la geometría&amp;nbsp;esférica.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#distancia-geodesica"&gt;Distancia&amp;nbsp;geodésica&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#el-camino-mas-corto-un-argumento-variacional"&gt;El camino más corto: un argumento&amp;nbsp;variacional&lt;/a&gt;&lt;/li&gt;
