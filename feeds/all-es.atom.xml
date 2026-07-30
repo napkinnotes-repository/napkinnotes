@@ -135,7 +135,7 @@ $$&lt;/div&gt;
 &lt;li&gt;Periodo de ajuste del contrafactual: enero de 2015–octubre de&amp;nbsp;2022.&lt;/li&gt;
 &lt;li&gt;Periodo evaluado: enero de 2023–junio de&amp;nbsp;2026.&lt;/li&gt;
 &lt;li&gt;Noviembre y diciembre de 2022 se excluyeron como intervalo de&amp;nbsp;transición.&lt;/li&gt;
-&lt;li&gt;El código genera las series mensuales, los contrafactuales lineal y exponencial, las bandas bootstrap exploratorias y las figuras incluidas en el&amp;nbsp;artículo.&lt;/li&gt;
+&lt;li&gt;El código del procesamiento de los datos se encuentra gratis &lt;a href="https://github.com/Du92/napkinnotes-arXiv-estimation"&gt;aquí&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Todos los resultados deben interpretarse como una &lt;strong&gt;estimación descriptiva y contrafactual&lt;/strong&gt;, no como evidencia&amp;nbsp;causal.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
