@@ -1,5 +1,5 @@
 ---
-title:  "Cuánto ha acelerado la producción de conocimiento la IA"
+title: "¿Cuánto ha acelerado la producción de conocimiento la Inteligencia Artificial? Una estimación sobre ciencia en la era transChatGPTiana"
 author: Duvier Suárez Fontanella
 date: 2026-07-30
 layout: articles
@@ -13,7 +13,7 @@ tags:
   - ciencia abierta
   - producción científica
   - datos
-summary: "Los envíos mensuales de artículos a arXiv crecieron un 87 más rápido tras ChatGPT, pero la cifra necesita contexto."
+summary: "Los envíos mensuales de artículos a arXiv crecieron un 87% más rápido tras ChatGPT, pero la cifra necesita contexto."
 image: images/01_contrafactual_global_exponential.jpeg
 ---
 
