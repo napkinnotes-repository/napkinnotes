@@ -1,5 +1,5 @@
 ---
-title:  "¿Cuánto ha acelerado la producción de conocimiento la IA? : una estimación sobre ciencia en la era transChatGPTiana"
+title:  "¿Cuánto ha acelerado la producción de conocimiento la IA?"
 author: Duvier Suárez Fontanella
 date: 2026-07-30
 layout: articles
@@ -140,7 +140,7 @@ Con el modelo lineal, el número esperado entre enero de 2023 y junio de 2026 se
   <thead>
     <tr>
       <th>Modelo contrafactual</th>
-      <th>Envíos esperados<br><small>ene. 2023–jun. 2026</small></th>
+      <th>Envíos esperados<br><small>ene.23–jun.26</small></th>
       <th>Exceso acumulado</th>
       <th>Exceso relativo</th>
     </tr>
