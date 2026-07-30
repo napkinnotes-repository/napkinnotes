@@ -210,5 +210,5 @@ En este punto quiero cerrar con una observación dirigida a mis colegas académi
 - Periodo de ajuste del contrafactual: enero de 2015–octubre de 2022.
 - Periodo evaluado: enero de 2023–junio de 2026.
 - Noviembre y diciembre de 2022 se excluyeron como intervalo de transición.
-- El código genera las series mensuales, los contrafactuales lineal y exponencial, las bandas bootstrap exploratorias y las figuras incluidas en el artículo.
+- El código del procesamiento de los datos se encuentra gratis [aquí](https://github.com/Du92/napkinnotes-arXiv-estimation)
 - Todos los resultados deben interpretarse como una **estimación descriptiva y contrafactual**, no como evidencia causal.
