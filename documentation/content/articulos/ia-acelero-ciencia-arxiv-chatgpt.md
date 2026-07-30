@@ -1,5 +1,5 @@
 ---
-title:  "¿Cuánto ha acelerado la producción de conocimiento la IA?"
+title:  "Cuánto ha acelerado la producción de conocimiento la IA"
 author: Duvier Suárez Fontanella
 date: 2026-07-30
 layout: articles
