@@ -176,7 +176,7 @@ Los datos no permiten afirmar que la inteligencia artificial sea la única respo
 Dadas las conclusiones más serias, echemos ahora a volar nuestra imaginación y veamos qué significaría este aumento traducido a tiempo histórico, solo como ejercicio mental. Si suponemos, como simplificación, que alcanzar un determinado hito exige recorrer siempre la misma «distancia», el tiempo necesario sería inversamente proporcional al ritmo:
 
 $$
-t_{\rm nuevo}=\frac{t_{\rm anterior}}{1{,}87}\simeq 0{,}535,t_{\rm anterior}.
+t_{\rm nuevo}=\frac{t_{\rm anterior}}{1{,}87}\simeq 0{,}535\,t_{\rm anterior}.
 $$
 
 Es decir, el mismo recorrido requeriría aproximadamente el **53,5 % del tiempo original**, lo que equivale a una reducción temporal cercana al **46,5 %**. Por ejemplo, un avance que antes necesitara 100 años tardaría unos 53,5 años con el nuevo ritmo.
