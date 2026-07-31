@@ -58,7 +58,7 @@ Plutón es el último objeto de nuestro sistema estelar en el que se han encontr
 
 La incertidumbre más grande que aparece en las dunas extraterrestres es la composición del material. Es muy complicado modelizar el comportamiento y tamaño de las dunas cuando no sabemos las características físicas de los granos de arena (u otros materiales como en Titán) que las conforman. A pesar de ello, espero haberos convencido de que es un campo de la geofísica extremadamente interesante (y tiene un poco del romanticismo de lo exótico y desconocido).
 
-Y con esto despedimos esta serie de tres artículos. Hemos viajado por las dunas terrestres, entendiendo su formación [link art 1], hemos clasificado los distintos tipos de dunas [link art 2], y finalmente en este último hemos hecho un viaje por el espacio en busca de dunas más allá de los cielos. Gracias por acompañarme.
+Y con esto despedimos esta serie de tres artículos. Hemos viajado por las dunas terrestres, entendiendo su [formación](https://napkinnotes.es/dunas-y-desiertos-i), hemos clasificado los distintos [tipos de dunas](https://napkinnotes.es/dunas-y-desiertos-ii), y finalmente en este último hemos hecho un viaje por el espacio en busca de dunas más allá de los cielos. Gracias por acompañarme.
 
 # Referencias
 
