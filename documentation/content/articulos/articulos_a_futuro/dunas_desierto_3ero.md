@@ -27,7 +27,7 @@ Las imágenes existentes de la superficie de Venus han revelado la existencia de
 
 # Marte
 
-A Marte lo tenemos mejor controlado, no porque esté más cerca (que no lo está), sino porque en Marte hemos podido aterrizar con robots en varias ocasiones, y tenemos una cartografía muy completa de la superficie del planeta. Así, el 0.62% de la superficie está cubierto por dunas, es decir unos 900.000 kilómetros cuadrados. Las dunas en Marte son muy similares a las de la tierra, predominando las de tipo barján [link art 2] que, además, son en promedio más grandes que las dunas del mismo tipo encontradas en la Tierra. Podéis ver estas dunas barján en la figura 1. ¿Por qué son más grandes? Dos razones fundamentales: menos presión y densidad atmosférica y menos gravedad. Recordad que las dunas se forman porque el viento acumula arena sobre un obstáculo. En general, cuanto más alto y más lejos sople el viento los granos de arena, más grande será la duna. De hecho, un estudio reciente ha encontrado una correlación muy fuerte entre el tamaño de las dunas marcianas y la densidad atmosférica que cambia en función del lugar en la superficie de Marte <a class="nn-cite" href="#ripplesMars">[2]</a>. 
+A Marte lo tenemos mejor controlado, no porque esté más cerca (que no lo está), sino porque en Marte hemos podido aterrizar con robots en varias ocasiones, y tenemos una cartografía muy completa de la superficie del planeta. Así, el 0.62% de la superficie está cubierto por dunas, es decir unos 900.000 kilómetros cuadrados. Las dunas en Marte son muy similares a las de la tierra, predominando las de tipo [barján](https://napkinnotes.es/dunas-y-desiertos-ii) que, además, son en promedio más grandes que las dunas del mismo tipo encontradas en la Tierra. Podéis ver estas dunas barján en la figura 1. ¿Por qué son más grandes? Dos razones fundamentales: menos presión y densidad atmosférica y menos gravedad. Recordad que las dunas se forman porque el viento acumula arena sobre un obstáculo. En general, cuanto más alto y más lejos sople el viento los granos de arena, más grande será la duna. De hecho, un estudio reciente ha encontrado una correlación muy fuerte entre el tamaño de las dunas marcianas y la densidad atmosférica que cambia en función del lugar en la superficie de Marte <a class="nn-cite" href="#ripplesMars">[2]</a>. 
 
 Sin embargo, en torno a un 30% de dunas en Marte no son clasificables en categorías reconocibles en la Tierra. Esto se aduce a diferencias en la viscosidad del material que modifican la interacción entre el viento y los granos de arena en la superficie. Aparentemente, el proceso de formación para estas "ondas marcianas" (Martian ripples) es el mismo que el de las dunas terrestres, pero lo que les da su tamaño y forma característicos -- que son como las dunitas que se forman en un parque de arena infantil -- es la combinación de densidad atmosférica y viscosidad de la arena, distintas a las de la Tierra.
 
@@ -46,7 +46,7 @@ Titan es una luna de Saturno, en la que el 20% de la superficie está cubierta p
 <figure class="nn-article-figure">
   <img src="{static}/images/shangrila.jpg" alt="Mar de arena de Shangri-La en Titan.">
   <figcaption>
-    Figura 1. Mar de arena de Shangri-La en Titan.
+    Figura 2. Mar de arena de Shangri-La en Titan.
   </figcaption>
 </figure>
 
