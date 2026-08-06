@@ -3,7 +3,7 @@ title: "Dunas y desiertos I&#8202;I&#8202;I"
 author: "David Barba González"
 date: 2026-08-06
 layout: articles
-#slug: dunas-y-desiertos-tres
+#slug: dunas-y-desiertos-t
 status: published 
 category: Geografía
 tags:
