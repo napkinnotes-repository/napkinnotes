@@ -4,7 +4,7 @@ author: David Barba González
 date: 2026-08-06
 layout: articles
 slug: dunas-y-desiertos-iii
-status: hidden
+status: published 
 category: Geografía
 tags:
   - desierto
