@@ -18,7 +18,7 @@ image: images/dunas_desiertos_3o.jpeg
 [TOC]
 
 # Dunas espaciales
-
+ 
 Llevamos dos artículos hablando de dunas. Este es el último. Os lo prometo. Palabrita del Niño Jesús. Pero es que hoy vamos a hablar de dunas espaciales. En el sistema solar existen otros cuerpos aparte de la Tierra en los que encontramos arena y viento. Por supuesto, no en todos ellos se forman dunas, dado que también necesitamos la aparición de condiciones topográficas positivas (es decir, un obstáculo o acumulación de arena). Vamos a tratar un poco los distintos lugares fuera de nuestro planeta donde aparecen dunas, qué pinta tienen y de qué están hechas <a class="nn-cite" href="#extraTdunes">[1]</a>.
 
 # Venus
