@@ -40,7 +40,7 @@ Sin embargo, alrededor de un 30% de las dunas de Marte no son clasificables en c
 
 # Titán
 
-Titán es una luna de Saturno en la que el 20% de la superficie está cubierta por dunas. Dunas que además son enormes, de unos dos kilómetros de ancho y cientos de kilómetros de largo, y en las que la orientación de la cresta es la misma que la dirección del viento (longitudinales). La composición de estas monumentales dunas es incierta, se cree que están formadas de hidrocarburos complejos sintetizados en la atmósfera, junto con hielo de agua. Poco más se sabe de las dunas de Titán.
+Titán es una luna de Saturno en la que el 20% de la superficie está cubierta por dunas. Dunas que además son enormes, de unos dos kilómetros de ancho y cientos de kilómetros de largo, y en las que la orientación de la cresta es la misma que la dirección del viento (longitudinales). La composición de estas monumentales dunas es incierta, se cree que están formadas de hidrocarburos complejos sintetizados en la atmósfera y hielo de agua. Poco más se sabe de las dunas de Titán.
 
 
 <figure class="nn-article-figure">
