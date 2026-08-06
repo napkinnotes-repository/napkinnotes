@@ -23,7 +23,7 @@ Llevamos dos artículos hablando de dunas. Este es el último. Os lo prometo. Pa
 
 # Venus
 
-Las imágenes existentes de la superficie de Venus han revelado la existencia de dos zonas de dunas, ocupando un total de unos 18.000 kilómetros cuadrados, el 0.0039% de la superficie total del planeta. Han sido identificadas mediante imágenes de radar en radiofrecuencias, capaces de atravesar la densa y opaca atmósfera de Venus. Tenemos pocos datos sobre estas dunas, aparte de su tamaño (hasta 10 km de largo, 0,5 km de ancho) y su orientación con respecto del viento (transversales). Solamente contamos con unas cuantas fotografías de la superficie de Venus, provenientes de las misiones soviéticas Venera, que muestran la existencia de material granular, pero no permiten analizar la composición del mismo.
+Las imágenes existentes de la superficie de Venus han revelado la existencia de dos zonas de dunas, ocupando un total de unos 18.000 kilómetros cuadrados, el 0.0039% de la superficie total del planeta. Han sido identificadas mediante imágenes de radar en radiofrecuencias, capaces de atravesar la densa y opaca atmósfera de Venus. Tenemos pocos datos sobre estas dunas, aparte de su tamaño (hasta 10 km de largo, 0,5 km de ancho) y su orientación con respecto del viento (transversales). Solamente contamos con unas cuantas fotografías de la superficie de Venus, provenientes de las misiones soviéticas Venera, que muestran la existencia de material granular, pero no permiten analizar la composición del mismo. 
 
 # Marte
 
