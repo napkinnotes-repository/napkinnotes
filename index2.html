@@ -226,6 +226,14 @@ Napkin Notes        </h1>
                 </a>
                 <a
                     class="nn-mini-author-carousel__item"
+                    href="https://napkinnotes.es/autor/david-barba-gonzalez"
+                    data-carousel-item
+                >
+                    <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/barba_caricatura.png" alt="David Barba González">
+                    <span class="nn-mini-author-carousel__name">David Barba González</span>
+                </a>
+                <a
+                    class="nn-mini-author-carousel__item"
                     href="https://napkinnotes.es/autor/paz-albares-vicente"
                     data-carousel-item
                 >
@@ -239,14 +247,6 @@ Napkin Notes        </h1>
                 >
                     <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/maria_caricatura.png" alt="María Pérez Garrote">
                     <span class="nn-mini-author-carousel__name">María Pérez Garrote</span>
-                </a>
-                <a
-                    class="nn-mini-author-carousel__item"
-                    href="https://napkinnotes.es/autor/david-barba-gonzalez"
-                    data-carousel-item
-                >
-                    <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/barba_caricatura.png" alt="David Barba González">
-                    <span class="nn-mini-author-carousel__name">David Barba González</span>
                 </a>
                 <a
                     class="nn-mini-author-carousel__item"
@@ -280,6 +280,15 @@ Napkin Notes        </h1>
         </button>
 
         <div class="nn-mini-author-carousel__items">
+                <a
+                    class="nn-mini-author-carousel__item"
+                    href="https://napkinnotes.es/dunas-y-desiertos-iii"
+                    data-carousel-item
+                >
+                        <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/dunas_desiertos_3o.jpeg" alt="Dunas y desiertos&nbsp;I&#8202;I&#8202;I">
+
+                    <span class="nn-mini-author-carousel__name">Dunas y desiertos&nbsp;I&#8202;I&#8202;I</span>
+                </a>
                 <a
                     class="nn-mini-author-carousel__item"
                     href="https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt"
@@ -334,15 +343,6 @@ Napkin Notes        </h1>
 
                     <span class="nn-mini-author-carousel__name">¿Una moneda al aire decide Mundiales?</span>
                 </a>
-                <a
-                    class="nn-mini-author-carousel__item"
-                    href="https://napkinnotes.es/mundial-2026-fisica-balon-aire"
-                    data-carousel-item
-                >
-                        <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/mundial-2026-fisica-balon-aire_cover.jpeg" alt="Perdimos por culpa del aire: una investigación casi seria sobre el Mundial de Fútbol&nbsp;2026">
-
-                    <span class="nn-mini-author-carousel__name">Perdimos por culpa del aire</span>
-                </a>
         </div>
 
         <button class="nn-mini-author-carousel__control nn-author-carousel__control--next" type="button" aria-label="Artículo siguiente">
@@ -394,19 +394,19 @@ Boton de descarga aqui por facilidad pero luego lo podemos cambiar al html-->
             <span class="nn-kicker">Último</span>
 
             <div class="nn-sidebar-featured">
-                <a class="nn-sidebar-featured__title" href="https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt">
-                    ¿Cuánto ha acelerado la producción de conocimiento la Inteligencia Artificial? Una estimación sobre ciencia en la era&nbsp;transChatGPTiana
+                <a class="nn-sidebar-featured__title" href="https://napkinnotes.es/dunas-y-desiertos-iii">
+                    Dunas y desiertos&nbsp;I&#8202;I&#8202;I
                 </a>
 
                 <div class="nn-sidebar-featured__meta">
-                    <span>30 de julio de 2026</span>
+                    <span>6 de agosto de 2026</span>
                     <span>•</span>
-                    <span>Ciencia y tecnología</span>
+                    <span>Geografía</span>
                 </div>
 
-                <p class="nn-sidebar-featured__text">Los envíos mensuales de artículos a arXiv crecieron un 87% más rápido tras ChatGPT, pero la cifra necesita contexto.</p>
+                <p class="nn-sidebar-featured__text">Hagamos un viaje por el sistema solar en busca de DUNAS.</p>
 
-                <a class="nn-button nn-button--ghost nn-sidebar-featured__button nn-home-sidebar__button" href="https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt">
+                <a class="nn-button nn-button--ghost nn-sidebar-featured__button nn-home-sidebar__button" href="https://napkinnotes.es/dunas-y-desiertos-iii">
                     Leer ahora
                 </a>
             </div>
@@ -415,7 +415,7 @@ Boton de descarga aqui por facilidad pero luego lo podemos cambiar al html-->
         <section class="nn-sidebar-card nn-reveal">
             <span class="nn-kicker">Descubre</span>
             <p>¿Te apetece una pregunta inesperada? Abre un artículo al azar y déjate sorprender.</p>
-            <a id="random-article-link" class="nn-button nn-button--ghost nn-home-sidebar__button" href="https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt">
+            <a id="random-article-link" class="nn-button nn-button--ghost nn-home-sidebar__button" href="https://napkinnotes.es/dunas-y-desiertos-iii">
                 Sorpréndeme
             </a>
         </section>
@@ -579,7 +579,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!randomLink) return;
 
     const articleUrls = [
-        "https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt",        "https://napkinnotes.es/misterio-mezquita-washington-geometria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-i-crea-tu-propio-fractal-y-descubre-su-dimension",        "https://napkinnotes.es/dunas-y-desiertos-ii",        "https://napkinnotes.es/matematicas_desafinan",        "https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial",        "https://napkinnotes.es/mundial-2026-fisica-balon-aire",        "https://napkinnotes.es/dunas-y-desiertos-i",        "https://napkinnotes.es/el-poder-de-la-catenaria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales",        "https://napkinnotes.es/el-misterio-del-tiempo-acelerado-por-que-la-vida-vuela-a-medida-que-envejecemos",        "https://napkinnotes.es/tu-arcoiris-es-solo-tuyo",        "https://napkinnotes.es/el-pintor-y-la-trompeta",        "https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas"    ];
+        "https://napkinnotes.es/dunas-y-desiertos-iii",        "https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt",        "https://napkinnotes.es/misterio-mezquita-washington-geometria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-i-crea-tu-propio-fractal-y-descubre-su-dimension",        "https://napkinnotes.es/dunas-y-desiertos-ii",        "https://napkinnotes.es/matematicas_desafinan",        "https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial",        "https://napkinnotes.es/mundial-2026-fisica-balon-aire",        "https://napkinnotes.es/dunas-y-desiertos-i",        "https://napkinnotes.es/el-poder-de-la-catenaria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales",        "https://napkinnotes.es/el-misterio-del-tiempo-acelerado-por-que-la-vida-vuela-a-medida-que-envejecemos",        "https://napkinnotes.es/tu-arcoiris-es-solo-tuyo",        "https://napkinnotes.es/el-pintor-y-la-trompeta",        "https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas"    ];
 
     if (!articleUrls.length) return;
 
