@@ -8,13 +8,12 @@ date: 2026-08-05 # formato YYYY-MM-DD
 layout: articles
 slug: eclipse-caza
 status: hidden # published si ya está listo
-category: aaa # categoría con mayúscula inicial
+category: Astronomía # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
-  - Astronomía
-  - Eclipse
+  - astronomía
+  - eclipse
 summary: ¿Alguna vez te has preguntado cuál es la probabilidad de presenciar un eclipse total a lo largo de tu vida? A las puertas del histórico trío de eclipses ibéricos (2026-2028), acompáñanos a explorar la geometría celeste para descubrir la respuesta. Imagen de la portada por cortesía de la NASA.
 image: images/NASA_solar_eclipse_photo.jpeg # imagen principal del artículo TIENE QUE SER JPEG EL FORMATO
-certificate: true
 ---
 
 
