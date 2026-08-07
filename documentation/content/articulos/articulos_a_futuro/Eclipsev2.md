@@ -6,7 +6,7 @@ author:
  # mismo nombre que en la tarjeta de autor
 date: 2026-08-05 # formato YYYY-MM-DD
 layout: articles
-slug: prueba-articulo
+slug: eclipse-caza
 status: hidden # published si ya está listo
 category: aaa # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
