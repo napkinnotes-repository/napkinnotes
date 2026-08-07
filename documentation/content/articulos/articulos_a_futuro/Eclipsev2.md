@@ -4,7 +4,7 @@ author:
  - Paz Albares Vicente 
  - Diego Martín González 
  # mismo nombre que en la tarjeta de autor
-date: 2026-08-05 # formato YYYY-MM-DD
+date: 2026-08-11 # formato YYYY-MM-DD
 layout: articles
 slug: eclipse-caza
 status: hidden # published si ya está listo
