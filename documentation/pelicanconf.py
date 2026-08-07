@@ -228,7 +228,7 @@ AUTHORS = {
     },
     "Paz Albares Vicente": {
         "url": "https://portalcientifico.upm.es/es/ipublic/researcher/338845",
-        "role": "Colaboradora",
+        "role": "Editora",
         "blurb": "Paz es doctora en Física, especializada en Física Matemática, exploradora de ecuaciones no lineales y de los patrones que de ellas emergen donde menos se esperan. Modeliza fenómenos complejos e intenta descubrir y entender qué estructuras se esconden detrás, combinando la física con herramientas y el lenguaje de las matemáticas. De mente curiosa, está convencida de que tan importante es hacerse preguntas como buscar sus respuestas. Y a veces, todo comienza con una idea escrita en la cara de una servilleta.",
         "avatar": "images/paz.jpg",
         "caricature": "images/paz_caricatura.png",
@@ -236,7 +236,7 @@ AUTHORS = {
     },
      "María Pérez Garrote": {
         "url": "https://produccioncientifica.usal.es/investigadores/1222882/detalle",
-        "role": "Colaboradora",
+        "role": "Editora",
         "blurb": "María es estudiante de doctorado en cosmología, y le apasiona intentar desentrañar los misterios del cosmos y de la vida en general. Su trabajo consiste en estudiar los ingredientes fundamentales que conforman el universo, y de qué manera interactúan para dar lugar a las formaciones de galaxias que observamos hoy en día. Sus textos aspiran a arrojar un poco de luz sobre ese sector todavía oscuro del universo, despertando la curiosidad y el pensamiento crítico en quienes se acercan a explorarlo.",
         "avatar": "images/maria.jpeg",
         "caricature": "images/maria_caricatura.png",
@@ -247,16 +247,22 @@ AUTHORS = {
         "role": "Colaboradora",
         "blurb": "La Dra. Ruchika es investigadora postdoctoral en la Universidad de Salamanca, tras haber trabajado en la Universidad La Sapienza de Roma y en el IIT Bombay. Le fascinan las grandes preguntas sobre el universo y estudia cómo las galaxias se alejan, se agrupan y forman la estructura cósmica a gran escala. Su investigación conecta la observación del cielo con la física fundamental, explorando dos de los grandes misterios actuales: la materia oscura y la energía oscura. Lo que más la entusiasma es descubrir qué son realmente estos ingredientes invisibles del cosmos y distinguir las señales verdaderamente nuevas de los efectos producidos por errores de medición.",  
         "avatar": "images/Ruchika.jpeg",
-        "caricature": "images/ruchika_caricatura.png",
         "articles_url": "autor/ruchika",       
     },
       "David Barba González": {
         "url": "https://www.linkedin.com/in/david-barba-gonz%C3%A1lez-854101215/",
-        "role": "Colaborador",
+        "role": "Editor",
         "blurb": "David es doctor en astrofísica, y actualmente trabaja como investigador postdoctoral en la Universidad Hebrea de Jerusalén. Es experto en metalurgia galáctica, es decir, en las propiedades de los sólidos y líquidos más densos y poderosos del universo, que se encuentran en los corazones de estrellas muertas. Su trabajo de investigación intenta entender cómo podemos aprender más de estos materiales a través de observaciones astronómicas, tanto a través de la luz como de otros mensajeros, como neutrinos u ondas gravitacionales.",
         "avatar": "images/barba.jpeg",
         "caricature": "images/barba_caricatura.png",
         "articles_url": "autor/david-barba-gonzalez",       
+    },
+    "Diego Martín González.": {
+        "url": "https://gracus.usal.es/member.php?id=24",
+        "role": "Colaborador",
+        "blurb": "Diego Martín González es un estudiante de doctorado en la Universidad de Salamanca, está interesado en la formación de las primeras estrellas, galaxias y agujeros negros supermasivos en el universo temprano. Particularmente en la influencia de poblaciones de agujeros negros primordiales sobre estos procesos. El doctorando está financiado por con una beca del Fondo Social Europeo Plus, Programa Operativo de Castilla y León, Consejería de Educación, Junta de Castilla y León",
+        "avatar": "images/Diego.png",
+        "articles_url": "autor/diego-martin-gonzalez",       
     },
 }
 
@@ -280,6 +286,7 @@ AUTHOR_BOTTOM_DYNAMIC = [
     "María Pérez Garrote",
     "Ruchika",
     "David Barba González",
+    "Diego Martín González",
 ]
 
 
