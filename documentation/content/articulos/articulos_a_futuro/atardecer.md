@@ -1,7 +1,7 @@
 ---
 title: ¿Por qué es naranja el atardecer?
 author: María Pérez Garrote
-date: 2026-08-03
+date: 2026-08-13
 layout: articles
 #slug: prueba-articulo
 status: hidden # published si ya está listo
