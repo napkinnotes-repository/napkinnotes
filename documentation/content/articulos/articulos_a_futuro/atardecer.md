@@ -3,7 +3,7 @@ title: ¿Por qué es naranja el atardecer?
 author: María Pérez Garrote
 date: 2026-08-13
 layout: articles
-#slug: prueba-articulo
+slug: el-atardecer
 status: hidden # published si ya está listo
 category: Física # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
@@ -11,7 +11,6 @@ tags: # tags con minúscula inicial
   - Óptica
 summary: El cielo cambia de color a lo largo del día. Comenzamos el día con un precioso color anaranjado, después se tiñe de azul y, cuando llega el atardecer, volvemos a ver los colores cálidos del ocaso. Detrás de este festival cromático se esconde un fenómeno físico interesantísimo. Lo explicamos en esta servilleta.
 image: images/atardecer_Salamanca.jpg
-certificate: true
 ---
 
 [TOC]
