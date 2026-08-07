@@ -16,7 +16,7 @@ summary: ¿Alguna vez te has preguntado cuál es la probabilidad de presenciar u
 image: images/NASA_solar_eclipse_photo.jpeg # imagen principal del artículo TIENE QUE SER JPEG EL FORMATO
 ---
 
-
+[TOC]
 
  
 Pocas experiencias naturales despiertan tanta fascinación como los eclipses. La temperatura desciende, los animales modifican su
