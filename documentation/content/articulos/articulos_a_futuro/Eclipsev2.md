@@ -24,7 +24,7 @@ comportamiento, aparecen las primeras estrellas y el día y la noche se
 confunden en un mismo instante. Los eclipses han acompañado a la
 humanidad desde la antigüedad, interpretados históricamente como
 presagios divinos o señales del destino. Una de las anécdotas más
-famosas data del año 585 a.C., cuando un eclipse total irrumpió en plena
+famosas data del año 585 a. C., cuando un eclipse total irrumpió en plena
 batalla entre lidios y medos. Ambos ejércitos interpretaron la repentina
 oscuridad como una señal divina de desaprobación, lo que les llevó a
 deponer las armas de inmediato y firmar la paz. Otro ejemplo tuvo lugar
@@ -126,7 +126,7 @@ elípticas, su tamaño aparente visto desde la Tierra cambia a lo largo de
 su trayectoria, y puede variar hasta en un $14 \%$ entre el perigeo (punto
 de la órbita más cercano a la Tierra) y el apogeo (punto más lejano).
 Así, el tamaño aparente de la Luna en el momento del eclipse determina
-si ésta puede cubrir por completo el disco solar o no. Se pueden
+si esta puede cubrir por completo el disco solar o no. Se pueden
 observar distintos tipos de eclipses solares:
 
 - **Eclipse total**: la Luna cubre completamente el disco solar, y
@@ -134,7 +134,7 @@ observar distintos tipos de eclipses solares:
   solar. La totalidad solo puede observarse desde una estrecha banda en
   la superficie terrestre denominada **franja de totalidad**.
 
-- **Eclipse parcial**: la Luna oculta solo una parte del Sol, y éste
+- **Eclipse parcial**: la Luna oculta solo una parte del Sol, y este
   aparece como un disco "mordido". Son los eclipses más frecuentes.
 
 - **Eclipse anular**: la Luna no consigue cubrir completamente el Sol,
@@ -171,7 +171,7 @@ observar distintos tipos de eclipses solares:
 Ya hemos hablado de que los eclipses se producen cuando Sol, Tierra y
 Luna se encuentran alineados. Sabemos por experiencia (y porque así lo
 dicta la Física) que los movimientos de la Tierra con respecto al Sol y
-de la Luna alrededor de la Tierra son movimiento periódicos. Entonces,
+de la Luna alrededor de la Tierra son movimientos periódicos. Entonces,
 aunque a priori pueda parecer que los eclipses son fenómenos fortuitos,
 dada su naturaleza periódica, ese alineamiento de los astros está
 condenado a repetirse.
@@ -292,7 +292,7 @@ recoge los datos de todos los eclipses (solares) desde el año 2000 a. C.
 hasta el año 3000 d. C., incluyendo los ya ocurridos como los futuros. Este catálogo recoge información astronómica
 detallada de cada eclipse, e incluye mapas que permiten visualizar la
 trayectoria de la sombra sobre la superficie terrestre. Hemos analizado
-mapa por mapa y registrado los años comprendidos a lo largo de esos 5
+mapa por mapa y registrado los años comprendidos a lo largo de esos cinco
 milenios en los cuales ha tenido lugar un eclipse total en la península
 ibérica. En la figura siguiente se muestra la información obtenida en un
 histograma:
@@ -328,7 +328,7 @@ celeste siguen siendo las mismas, no es que haya más eclipses, sino más
 posibilidades de estar en el lugar adecuado para verlos. Ahora nos
 diréis que la probabilidad de que una persona pueda presenciar dos
 eclipses totales en la península ibérica a lo largo de su vida es de un
-$53\%$, que no es tan raro. Pero daros cuenta que tenemos nuestros 2
+$53\%$, que no es tan raro. Pero daros cuenta de que tenemos nuestros dos
 eclipses totales ibéricos en 2026 y 2027. Estos dos son los que nos han
 tocado a nosotros y hay que aprovecharlos, pues el siguiente es en 2180.
 Así que, si quieres ver un eclipse total, no lo dudes, esta es tu
