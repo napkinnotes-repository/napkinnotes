@@ -12,7 +12,7 @@ category: Astronomía # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
   - astronomía
   - eclipse
-summary: ¿Alguna vez te has preguntado cuál es la probabilidad de presenciar un eclipse total a lo largo de tu vida? A las puertas del histórico trío de eclipses ibéricos (2026-2028), acompáñanos a explorar la geometría celeste para descubrir la respuesta. Imagen de la portada por cortesía de la NASA.
+summary: ¿Alguna vez te has preguntado cuál es la probabilidad de presenciar un eclipse total a lo largo de tu vida? A las puertas del histórico trío de eclipses ibéricos (2026-2028), acompáñanos a explorar la geometría celeste para descubrir la respuesta. (Imagen de la portada por cortesía de la NASA.)
 image: images/NASA_solar_eclipse_photo.jpeg # imagen principal del artículo TIENE QUE SER JPEG EL FORMATO
 ---
 
@@ -20,14 +20,14 @@ image: images/NASA_solar_eclipse_photo.jpeg # imagen principal del artículo TIE
 
  
 Pocas experiencias naturales despiertan tanta fascinación como los eclipses. La temperatura desciende, los animales modifican su
-comportamiento, aparecen las primeras estrellas y el día y la noc he se
+comportamiento, aparecen las primeras estrellas y el día y la noche se
 confunden en un mismo instante. Los eclipses han acompañado a la
 humanidad desde la antigüedad, interpretados históricamente como
 presagios divinos o señales del destino. Una de las anécdotas más
 famosas data del año 585 a.C., cuando un eclipse total irrumpió en plena
 batalla entre lidios y medos. Ambos ejércitos interpretaron la repentina
 oscuridad como una señal divina de desaprobación, lo que les llevó a
-deponer las armas de inmediato y firmar la paz. Otro ejemplo tiene lugar
+deponer las armas de inmediato y firmar la paz. Otro ejemplo tuvo lugar
 siglos más tarde, durante el cuarto viaje de Cristóbal Colón a América,
 cuando su expedición quedó atrapada en Jamaica dependiendo del
 abastecimiento de la población local para sobrevivir. Colón, que conocía
@@ -41,29 +41,27 @@ expedición.
 En la actualidad sabemos que los eclipses son el resultado de una
 coincidencia geométrica entre el Sol, la Tierra y la Luna. Y aún
 conociendo la causa, los eclipses siguen fascinándonos. Millones de
-personas viajan miles de kilómetros buscando la franja de totalidad,
+personas viajan miles de kilómetros buscando la franja de totalidad
 cual auténticos "cazadores de eclipses". En palabras del astrónomo
-británico David Kipping, "it's an awe-inspiring experience that everyone
+británico David Kipping, *"It's an awe-inspiring experience that everyone
 should try to see once before leaving this Earth; a moment when you are
-confronted with your cosmic stature from an astronomical perspective"
+confronted with your cosmic stature from an astronomical perspective"*
 (Es una experiencia sobrecogedora que todo el mundo debería intentar ver
 al menos una vez antes de abandonar la Tierra; un momento en el que te
-enfrentas a tu lugar en el cosmos desde una perspectiva astronómica) <a class="nn-cite" href="#ref-1">[1]</a>.
+enfrentas a tu lugar en el cosmos desde una perspectiva astronómica). <a class="nn-cite" href="#ref-1">[1]</a>.
 
-Las preguntas son: ¿cómo de frecuente se dan estos fenómenos?, y ¿cómo
-de probable es que alguien experimente un eclipse total de Sol a lo
-largo de su vida? La intuición y la experiencia parecen decirnos que
+Las preguntas son: ¿cuán frecuentes son estos fenómenos?, y ¿cuán probable es que alguien experimente un eclipse total de Sol a lo largo de su vida? La intuición y la experiencia parecen decirnos que
 esta probabilidad es reducida, pero ¿realmente lo es? Y si en efecto es
-baja, ¿hay algo que esté en nuestra mano para aumentar nuestras opciones
+baja, ¿hay algo que podamos hacer para aumentar nuestras opciones
 de alguna forma?
 
 Desde Napkin Notes nos hemos hecho estas preguntas, y en esta servilleta
-te contamos nuestras conclusiones. En este artículo primero veremos por
+te contamos nuestras conclusiones. Primero veremos por
 qué ocurren estos fenómenos y qué tipos de eclipses existen. Después
 exploraremos la regularidad con la que se repiten y, finalmente, con
 ayuda de las matemáticas y el catálogo histórico de eclipses de la NASA <a class="nn-cite" href="#ref-2">[2]</a>,
-estimaremos el cálculo de probabilidades. El objetivo es crear un poco
-de *hype*, y animarte a aprovechar la oportunidad excepcional que ofrece
+calcularemos la probabilidad de que una persona pueda ver un eclipse total. El objetivo es crear un poco
+de *hype* y animarte a aprovechar la oportunidad excepcional que ofrece
 el trío de eclipses que cruzará la península ibérica entre 2026 y 2028 <a class="nn-cite" href="#ref-3">[3]</a>:
 12 de agosto de 2026, 2 de agosto de 2027 (eclipses totales) y 26 de
 enero de 2028 (eclipse anular).
@@ -73,13 +71,13 @@ enero de 2028 (eclipse anular).
 <figure class="nn-article-figure">
   <img src="./images/MoonOrbit.gif" alt="Movimiento de la Luna">
   <figcaption>
-    Figura 1. Movimiento del sistema Sol-Tierra-Luna. Las escalas estan exageradas, al igual que el movimiento de precession de la Luna que se ha acelerado de 18.6 años a 2 años con fines demostrativos.
+    Figura 1. Movimiento del sistema Sol-Tierra-Luna. Las escalas estan exageradas, al igual que el movimiento de precesión de la Luna que se ha acelerado de 18.6 años a 2 años con fines demostrativos.
   </figcaption>
 </figure>
 
 Un eclipse ocurre cuando un cuerpo celeste bloquea total o parcialmente
 la luz de otro. En este artículo nos centraremos en los eclipses de Sol
-y los eclipses de Luna. El movimiento planetario se rige por las leyes
+y de Luna. El movimiento planetario se rige por las leyes
 de Kepler, por las cuales sabemos que la Tierra describe una órbita
 elíptica alrededor del Sol. Esta órbita es plana, y está contenida en el
 plano de la eclíptica. A su vez, la Luna también sigue una órbita
@@ -117,7 +115,7 @@ base a esto podemos tener dos posibles configuraciones:
 <figure class="nn-article-figure">
   <img src="./images/Etype.gif" alt="Tipos de Eclipses">
   <figcaption>
-    Figura 3. Vista desde el polo norte de eclíptico del sistema Sol-Tierra-Luna. A parte de tener que cruzar uno de los nodos lunares, la Luna tendrá que ser nueva, es decir, estar entre la Tierra y el Sol para producir un eclipse de Sol, y tedrá que ser llena para que se produzca uno de Luna.
+    Figura 3. Vista desde el polo norte de eclíptico del sistema Sol-Tierra-Luna. Aparte de tener que cruzar uno de los nodos lunares, la Luna tendrá que ser nueva, es decir, estar entre la Tierra y el Sol para producir un eclipse de Sol, y tedrá que ser llena para que se produzca uno de Luna.
   </figcaption>
 </figure>
 
@@ -231,7 +229,7 @@ eclipses a lo largo de la serie empiecen siendo pequeños y cortos,
 crezcan hasta alcanzar sus máximos cerca del ecuador, y después vayan
 disminuyendo hasta desaparecer en el polo contrario, dando por
 finalizada esa serie del Saros. Estos cilos de aparición, crecimiento y
-desaparición de la serie de saros duran unos 1200 años <a class="nn-cite" href="#ref-6">[6]</a>.
+desaparición de la serie de Saros duran unos 1200 años <a class="nn-cite" href="#ref-6">[6]</a>.
 
 <figure class="nn-article-figure">
   <img src="./images/SarosNasa.png" alt="Saros Nasa">
@@ -265,7 +263,7 @@ eclipses solares <a class="nn-cite" href="#ref-7">[7]</a>:
 - En un punto concreto de la Tierra se puede observar, de media, un eclipse solar cada
   aproximadamente 375 años.
 
-Sin embargo, no nos conformamos con este último dato, si los eclipses de
+Sin embargo, no nos conformamos con este último dato. Si los eclipses de
 Sol son tan espectaculares como dicen, no queremos perdérnoslo. Y nos
 preguntamos si existe alguna forma en que podamos aumentar nuestras
 probabilidades. No parece muy razonable echarse a la mar cada vez que
@@ -287,11 +285,11 @@ ciudades autónomas españolas, limitando el estudio a una región
 geográfica accesible mediante trasporte terrestre. Además,
 consideraremos que una persona de esta región tiene una esperanza de
 vida media de unos 83.7 años, media ponderada según la población de
-España y Portugal (datos de 2024), <a class="nn-cite" href="#ref-8">[8]</a> <a class="nn-cite" href="#ref-9">[9]</a> <a class="nn-cite" href="#ref-10">[10]</a>.
+España y Portugal (datos de 2024) <a class="nn-cite" href="#ref-8">[8]</a> <a class="nn-cite" href="#ref-9">[9]</a> <a class="nn-cite" href="#ref-10">[10]</a>.
 
 Partimos del catálogo histórico de eclipses de la NASA <a class="nn-cite" href="#ref-2">[2]</a> <a class="nn-cite" href="#ref-6">[6]</a>, que
-recoge todos los eclipses (solares) ocurridos desde el año 2000 a.C.
-hasta el año 3000 d.C. Este catálogo recoge información astronómica
+recoge los datos de todos los eclipses (solares) desde el año 2000 a.C.
+hasta el año 3000 d.C., inlcuyendo los ya ocurridos como los futuros. Este catálogo recoge información astronómica
 detallada de cada eclipse, e incluye mapas que permiten visualizar la
 trayectoria de la sombra sobre la superficie terrestre. Hemos analizado
 mapa por mapa y registrado los años comprendidos a lo largo de esos 5
@@ -314,7 +312,7 @@ número de intervalos temporales con al menos un eclipse,
 $N_{\geq 1\ \text{eclipse}}$, y el número de intervalos totales
 considerados, $N$,
 $$P(\text{ver al menos un eclipse})=\frac{N_{\geq 1\ \text{eclipse}}}{N}.$$
-Una vez hecho el contaje, podemos calcular fácilmente la probabilidad de
+Una vez hecho el conteo, podemos calcular fácilmente la probabilidad de
 visualización de al menos uno, dos, tres o incluso cuatro eclipses,
 obteniendo los siguientes resultados:
 
@@ -330,7 +328,7 @@ celeste siguen siendo las mismas, no es que haya más eclipses, sino más
 posibilidades de estar en el lugar adecuado para verlos. Ahora nos
 diréis que la probabilidad de que una persona pueda presenciar dos
 eclipses totales en la península ibérica a lo largo de su vida es de un
-$53\%$. Qué no es tan raro. Pero daros cuenta que tenemos nuestros 2
+$53\%$, que no es tan raro. Pero daros cuenta que tenemos nuestros 2
 eclipses totales ibéricos en 2026 y 2027. Estos dos son los que nos han
 tocado a nosotros y hay que aprovecharlos, pues el siguiente es en 2180.
 Así que, si quieres ver un eclipse total, no lo dudes, ésta es tu
@@ -364,7 +362,7 @@ recomendaciones:
 - Incluso eligiendo una zona de totalidad te puedes perder el eclipse.
   El eclipse alcanza su máximo en torno a las 20:30. Esto es $9^\circ$
   sobre el horizonte. Montañas y otros elementos pueden bloquear la
-  visualización del mismo, verifica el <a href="https://shademap.app/"> mapa de sombras</a>. De igual forma este atento a la <a href="https://clearoutside.com/forecast/40.42/-3.70?view=midnight"> previsión
+  visualización del mismo, verifica el <a href="https://shademap.app/"> mapa de sombras</a>. De igual forma estate atento a la <a href="https://clearoutside.com/forecast/40.42/-3.70?view=midnight"> previsión
   meteorológica</a>, sobre todo en el norte de la península.
 
 - El eclipse coincide con la operación salida de agosto y se espera un
