@@ -299,7 +299,7 @@ ibérica. En la figura siguiente se muestra la información obtenida en un
 histograma:
 
 <figure class="nn-article-figure">
-  <img src="./images/Histo.png" alt="Histograma">
+  <img src="./images/Histo.jpg" alt="Histograma">
   <figcaption>
     Figura 7. Histograma con todos los eclipses del 2000 a. C. al 3000 d. C.. Con un tamaño de bin 83.7 años.
   </figcaption>
