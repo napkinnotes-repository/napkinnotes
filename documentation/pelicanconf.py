@@ -257,7 +257,7 @@ AUTHORS = {
         "caricature": "images/barba_caricatura.png",
         "articles_url": "autor/david-barba-gonzalez",       
     },
-    "Diego Martín González.": {
+    "Diego Martín González": {
         "url": "https://gracus.usal.es/member.php?id=24",
         "role": "Colaborador",
         "blurb": "Diego Martín González es un estudiante de doctorado en la Universidad de Salamanca, está interesado en la formación de las primeras estrellas, galaxias y agujeros negros supermasivos en el universo temprano. Particularmente en la influencia de poblaciones de agujeros negros primordiales sobre estos procesos. El doctorando está financiado por con una beca del Fondo Social Europeo Plus, Programa Operativo de Castilla y León, Consejería de Educación, Junta de Castilla y León",
