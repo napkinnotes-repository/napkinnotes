@@ -1,38 +1,41 @@
 {% macro article_author(article) %}
-{% if article and article.author %}
-{% set author_name = article.author.name if article.author.name is defined else article.author %}
-{% set author_key = author_name | string %}
-{% set author_data = AUTHORS.get(author_key) if AUTHORS else None %}
+{% if article and (article.authors or article.author) %}
+{% set authors_list = article.authors if article.authors else [article.author] %}
+{% for author_item in authors_list %}
+    {% set author_name = author_item.name if author_item.name is defined else author_item %}
+    {% set author_key = author_name | string %}
+    {% set author_data = AUTHORS.get(author_key) if AUTHORS else None %}
 
-<div class="nn-author-box">
-    {% if author_data and author_data.avatar %}
-    <div class="nn-author-box__avatar">
-        <img src="{{ SITEURL }}/{{ author_data.avatar }}" alt="{{ author_key }}">
-    </div>
-    {% endif %}
-
-    <div class="nn-author-box__content">
-        <div class="nn-author-box__label">Autor</div>
-        <h3 class="nn-author-box__name">{{ author_key }}</h3>
-
-        {% if author_data and author_data.blurb %}
-        <p class="nn-author-box__bio">{{ author_data.blurb|safe }}</p>
+    <div class="nn-author-box">
+        {% if author_data and author_data.avatar %}
+        <div class="nn-author-box__avatar">
+            <img src="{{ SITEURL }}/{{ author_data.avatar }}" alt="{{ author_key }}">
+        </div>
         {% endif %}
 
-        <div class="nn-author-box__links">
-            {% if author_data and author_data.url %}
-            <a class="nn-author-box__link" href="{{ author_data.url }}" target="_blank" rel="noopener noreferrer">
-                Ver perfil
-            </a>
+        <div class="nn-author-box__content">
+            <div class="nn-author-box__label">Autor</div>
+            <h3 class="nn-author-box__name">{{ author_key }}</h3>
+
+            {% if author_data and author_data.blurb %}
+            <p class="nn-author-box__bio">{{ author_data.blurb|safe }}</p>
             {% endif %}
 
-            {% if author_data and author_data.articles_url %}
-            <a class="nn-author-box__link" href="{{ SITEURL }}/{{ author_data.articles_url }}">
-                Ver artículos
-            </a>
-            {% endif %}
+            <div class="nn-author-box__links">
+                {% if author_data and author_data.url %}
+                <a class="nn-author-box__link" href="{{ author_data.url }}" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+                {% endif %}
+
+                {% if author_data and author_data.articles_url %}
+                <a class="nn-author-box__link" href="{{ SITEURL }}/{{ author_data.articles_url }}">
+                    Ver artículos
+                </a>
+                {% endif %}
+            </div>
         </div>
     </div>
-</div>
+{% endfor %}
 {% endif %}
 {% endmacro %}
