@@ -1,6 +1,6 @@
 ---
 title: A la caza del eclipse total # vuestro título
-author: 
+authors: 
  - Paz Albares Vicente 
  - Diego Martín González 
  # mismo nombre que en la tarjeta de autor
