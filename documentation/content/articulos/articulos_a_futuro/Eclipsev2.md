@@ -84,7 +84,7 @@ elíptica alrededor del Sol. Esta órbita es plana, y está contenida en el
 plano de la eclíptica. A su vez, la Luna también sigue una órbita
 elíptica alrededor de la Tierra, aunque el plano de su órbita no
 coincide exactamente con el plano de la eclíptica, sino que está
-inclinado aproximadamente $5.1^\circ$ con respecto a él <a class="nn-cite" href="#ref-4">[4]</a>. Debido a esta
+inclinado aproximadamente 5.1º con respecto a él <a class="nn-cite" href="#ref-4">[4]</a>. Debido a esta
 inclinación, solo se podrá producir un eclipse cuando la Luna pase por
 un punto de su órbita que corte el plano de la eclíptica. A estos dos
 puntos se les denomina nodos lunares, y podemos distinguir entre nodo
@@ -92,7 +92,7 @@ ascendente, cuando la Luna pasa del hemisferio sur al norte de la
 eclíptica, y nodo descendente, cuando pasa del hemisferio norte al sur.
 Además, la órbita lunar sufre un movimiento de precesión debido a la
 influencia de la gravedad del Sol, lo que va rotando el plano de la
-órbita en periodos de $18.6$ años y, con ello, los nodos lunares <a class="nn-cite" href="#ref-4">[4]</a>. En
+órbita en periodos de 18.6 años y, con ello, los nodos lunares <a class="nn-cite" href="#ref-4">[4]</a>. En
 base a esto podemos tener dos posibles configuraciones:
 
 <figure class="nn-article-figure">
@@ -124,7 +124,7 @@ base a esto podemos tener dos posibles configuraciones:
 
 Vamos a centrarnos en eclipses solares. Como la Luna describe órbitas
 elípticas, su tamaño aparente visto desde la Tierra cambia a lo largo de
-su trayectoria, y puede variar hasta en un $14 \%$ entre el perigeo (punto
+su trayectoria, y puede variar hasta en un 14 % entre el perigeo (punto
 de la órbita más cercano a la Tierra) y el apogeo (punto más lejano).
 Así, el tamaño aparente de la Luna en el momento del eclipse determina
 si esta puede cubrir por completo el disco solar o no. Se pueden
@@ -185,24 +185,24 @@ su distancia a la Tierra sea aproximadamente la misma. Cada una de estas
 condiciones está asociada a un periodo diferente del movimiento lunar <a class="nn-cite" href="#ref-4">[4]</a>:
 
 - El intervalo entre dos configuraciones lunares idénticas respecto al
-  Sol se denomina *mes sinódico*, y tiene una duración media de $29.53$
+  Sol se denomina *mes sinódico*, y tiene una duración media de 29.53
   días. Es el periodo que determina la sucesión de las fases de la Luna.
 
 - El tiempo que tarda la Luna en volver a pasar por el mismo nodo se
-  denomina *mes dracónico*, con una duración de aproximadamente $27.21$
+  denomina *mes dracónico*, con una duración de aproximadamente 27.21
   días. Y como vemos, es más pequeño que el mes sinódico por el efecto
   de la precesión.
 
 - El tiempo que tarda la Luna en volver al mismo punto de su órbita
   respecto a la Tierra (tomando como referencia el perigeo) se denomina
-  *mes anomalístico* y dura aproximadamente $27.55$ días.
+  *mes anomalístico* y dura aproximadamente 27.55 días.
 
 Estos tres periodos no coinciden exactamente, por lo que la geometría
 del sistema Sol-Tierra-Luna no se repite después de cada ciclo lunar.
 Sin embargo, estos tres ciclos coinciden de forma casi perfecta cada
 cierto tiempo. Después de 223 meses sinódicos, han pasado casi
 exactamente 242 meses dracónicos y 239 meses anomalísticos. Esta
-sincronía ocurre cada $6585.32$ días, equivalentes a aproximadamente 18
+sincronía ocurre cada 6585.32 días, equivalentes a aproximadamente 18
 años, 11 días y 8 horas. Este periodo recibe el nombre de **ciclo de
 Saros** <a class="nn-cite" href="#ref-4">[4]</a>. El ciclo de Saros permite agrupar los eclipses en las
 denominadas **series de Saros**, familias de eclipses con una geometría
@@ -215,7 +215,7 @@ Transcurrido un ciclo de Saros, el Sol, la Tierra y la Luna vuelven a
 quedar en la misma posición, por lo que se repite un eclipse muy
 parecido al ocurrido en el ciclo anterior. Sin embargo, esas ocho horas
 adicionales hacen que la Tierra siga girando y se desplace la zona de
-observación unos $120^\circ$ hacia el oeste. ¿Y qué sucede tras tres
+observación unos 120º hacia el oeste. ¿Y qué sucede tras tres
 ciclos de Saros? Las tres fracciones de ocho horas suman aproximadamente
 un día, la Tierra da una vuelta completa y el nuevo eclipse vuelve a ser
 visible desde longitudes geográficas similares. Este intervalo de unos
@@ -258,7 +258,7 @@ eclipses solares <a class="nn-cite" href="#ref-7">[7]</a>:
   apenas unos segundos hasta algunos minutos.
 
 - La trayectoria de un eclipse total es bastante estrecha, y menos del
-  0.5% de la superficie terrestre queda dentro de la sombra de la Luna
+  0.5 % de la superficie terrestre queda dentro de la sombra de la Luna
   en un eclipse concreto.
 
 - En un punto concreto de la Tierra se puede observar, de media, un eclipse solar cada
@@ -346,7 +346,7 @@ celeste siguen siendo las mismas, no es que haya más eclipses, sino más
 posibilidades de estar en el lugar adecuado para verlos. Ahora nos
 diréis que la probabilidad de que una persona pueda presenciar dos
 eclipses totales en la península ibérica a lo largo de su vida es de un
-$53\%$, que no es tan raro. Pero daros cuenta de que tenemos nuestros dos
+53 %, que no es tan raro. Pero daros cuenta de que tenemos nuestros dos
 eclipses totales ibéricos en 2026 y 2027. Estos dos son los que nos han
 tocado a nosotros y hay que aprovecharlos, pues el siguiente es en 2180.
 Así que, si quieres ver un eclipse total, no lo dudes, esta es tu
@@ -360,10 +360,10 @@ evento histórico que tendrá lugar en España el próximo 12 de agosto de
 2026. Para disfrutarlo con seguridad, conviene tener en cuenta algunas
 recomendaciones:
 
-- Siempre lleva gafas para el eclipse con estándar ISO $12312-2$: es muy
+- Siempre lleva gafas para el eclipse con estándar ISO 12312-2: es muy
   importante proteger tus ojos. La observación del Sol puede producir
   ceguera. Es muy importante llevarlas siempre durante la fase de
-  parcialidad del eclipse, aunque el Sol esté cubierto al $99\%$, ya que
+  parcialidad del eclipse, aunque el Sol esté cubierto al 99 %, ya que
   puedes no sentir dolor pero en realidad estás quemando tu retina y te
   puedes quedar completamente ciego. Solo durante un estrecho margen en
   la fase de totalidad se puede observar sin gafas y hay que volver a
@@ -378,7 +378,7 @@ recomendaciones:
   quitarte las gafas!
 
 - Incluso eligiendo una zona de totalidad te puedes perder el eclipse.
-  El eclipse alcanza su máximo en torno a las 20:30. Esto es $9^\circ$
+  El eclipse alcanza su máximo en torno a las 20:30. Esto es 9º
   sobre el horizonte. Montañas y otros elementos pueden bloquear la
   visualización del mismo, verifica el <a href="https://shademap.app/"> mapa de sombras</a>. De igual forma estate atento a la <a href="https://clearoutside.com/forecast/40.42/-3.70?view=midnight"> previsión
   meteorológica</a>, sobre todo en el norte de la península.
