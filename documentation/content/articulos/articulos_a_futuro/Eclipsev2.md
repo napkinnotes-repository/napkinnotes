@@ -67,7 +67,7 @@ el trío de eclipses que cruzará la península ibérica entre 2026 y 2028 <a cl
 12 de agosto de 2026, 2 de agosto de 2027 (eclipses totales) y 26 de
 enero de 2028 (eclipse anular).
 
-# ¿Qué es un eclipse?
+## ¿Qué es un eclipse?
 
 <figure class="nn-article-figure">
   <img src="./images/MoonOrbit.gif" alt="Movimiento de la Luna">
@@ -120,7 +120,7 @@ base a esto podemos tener dos posibles configuraciones:
   </figcaption>
 </figure>
 
-# Hablemos de eclipses solares
+## Hablemos de eclipses solares
 
 Vamos a centrarnos en eclipses solares. Como la Luna describe órbitas
 elípticas, su tamaño aparente visto desde la Tierra cambia a lo largo de
@@ -167,7 +167,7 @@ observar distintos tipos de eclipses solares:
   </figcaption>
 </figure>
 
-# ¿Son aleatorios los eclipses? Descubre los ciclos de Saros
+## ¿Son aleatorios los eclipses? Descubre los ciclos de Saros
 
 Ya hemos hablado de que los eclipses se producen cuando Sol, Tierra y
 Luna se encuentran alineados. Sabemos por experiencia (y porque así lo
@@ -239,7 +239,7 @@ desaparición de la serie de Saros duran unos 1200 años <a class="nn-cite" href
   </figcaption>
 </figure>
 
-# ¿Cuál es la probabilidad de que experimentes un eclipse total a lo largo de tu vida?
+## ¿Cuál es la probabilidad de que experimentes un eclipse total a lo largo de tu vida?
 
 Volvamos a la pregunta que intentábamos responder al inicio del
 artículo. Antes de comenzar, veamos algunas estadísticas sobre los
@@ -353,7 +353,7 @@ Así que, si quieres ver un eclipse total, no lo dudes, esta es tu
 oportunidad de convertirte en un cazador de eclipses y salir a
 buscarlos.
 
-# Recomendaciones para el eclipse del 12 de agosto de 2026
+## Recomendaciones para el eclipse del 12 de agosto de 2026
 
 Esperamos haberte convencido sobre la importancia de presenciar este
 evento histórico que tendrá lugar en España el próximo 12 de agosto de
