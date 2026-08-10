@@ -14,6 +14,7 @@ tags: # tags con minúscula inicial
   - eclipse
 summary: ¿Alguna vez te has preguntado cuál es la probabilidad de presenciar un eclipse total a lo largo de tu vida? A las puertas del histórico trío de eclipses ibéricos (2026-2028), acompáñanos a explorar la geometría celeste para descubrir la respuesta. (Imagen de la portada por cortesía de la NASA.)
 image: images/NASA_solar_eclipse_photo.jpeg # imagen principal del artículo TIENE QUE SER JPEG EL FORMATO
+certificate: false
 ---
 
 [TOC]
