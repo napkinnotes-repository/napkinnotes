@@ -317,9 +317,42 @@ visualización de al menos uno, dos, tres o incluso cuatro eclipses,
 obteniendo los siguientes resultados:
 
 
-| $\#$ Eclipses | $\geq1$ | $\geq2$ | $\geq3$ | $\geq4$ |
-| --- | --- | --- | --- | --- |
-| Probabilidad | $85\%$ | $53\%$ | $22\%$ |  $7\%$ |
+<table class="nn-compact-table">
+  <thead>
+    <tr>
+      <th>Intervalo<br><small>(%)</small></th>
+      <th>Probabilidad<br><small>(%)</small></th>
+      <th>Frecuencia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="nowrap">&le; 20</span></td>
+      <td><span class="nowrap">0.05%</span></td>
+      <td><span class="nowrap">Muy baja</span></td>
+    </tr>
+    <tr>
+      <td><span class="nowrap">21 - 40</span></td>
+      <td><span class="nowrap">0.15%</span></td>
+      <td><span class="nowrap">Baja</span></td>
+    </tr>
+    <tr>
+      <td><span class="nowrap">41 - 60</span></td>
+      <td><span class="nowrap">0.50%</span></td>
+      <td><span class="nowrap">Media</span></td>
+    </tr>
+    <tr>
+      <td><span class="nowrap">61 - 80</span></td>
+      <td><span class="nowrap">0.20%</span></td>
+      <td><span class="nowrap">Alta</span></td>
+    </tr>
+    <tr>
+      <td><span class="nowrap">&gt; 80</span></td>
+      <td><span class="nowrap">0.10%</span></td>
+      <td><span class="nowrap">Muy alta</span></td>
+    </tr>
+  </tbody>
+</table>
 
 
 Las probabilidades han aumentado considerablemente, y ahora obtenemos
