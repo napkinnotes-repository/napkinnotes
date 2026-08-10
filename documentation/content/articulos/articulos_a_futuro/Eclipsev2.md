@@ -321,36 +321,20 @@ obteniendo los siguientes resultados:
 <table class="nn-compact-table">
   <thead>
     <tr>
-      <th>Intervalo<br><small>(%)</small></th>
-      <th>Probabilidad<br><small>(%)</small></th>
-      <th>Frecuencia</th>
+      <th># Eclipses</th>
+      <th>&ge; 1</th>
+      <th>&ge; 2</th>
+      <th>&ge; 3</th>
+      <th>&ge; 4</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><span class="nowrap">&le; 20</span></td>
-      <td><span class="nowrap">0.05%</span></td>
-      <td><span class="nowrap">Muy baja</span></td>
-    </tr>
-    <tr>
-      <td><span class="nowrap">21 - 40</span></td>
-      <td><span class="nowrap">0.15%</span></td>
-      <td><span class="nowrap">Baja</span></td>
-    </tr>
-    <tr>
-      <td><span class="nowrap">41 - 60</span></td>
-      <td><span class="nowrap">0.50%</span></td>
-      <td><span class="nowrap">Media</span></td>
-    </tr>
-    <tr>
-      <td><span class="nowrap">61 - 80</span></td>
-      <td><span class="nowrap">0.20%</span></td>
-      <td><span class="nowrap">Alta</span></td>
-    </tr>
-    <tr>
-      <td><span class="nowrap">&gt; 80</span></td>
-      <td><span class="nowrap">0.10%</span></td>
-      <td><span class="nowrap">Muy alta</span></td>
+      <td><span class="nowrap">Probabilidad</span></td>
+      <td><span class="nowrap">85%</span></td>
+      <td><span class="nowrap">53%</span></td>
+      <td><span class="nowrap">22%</span></td>
+      <td><span class="nowrap">7%</span></td>
     </tr>
   </tbody>
 </table>
