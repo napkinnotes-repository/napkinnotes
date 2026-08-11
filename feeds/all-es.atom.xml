@@ -1,5 +1,497 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-08-06T00:00:00+02:00</updated><entry><title>Dunas y desiertos I I I</title><link href="https://napkinnotes.es/dunas-y-desiertos-i-i-i" rel="alternate"/><published>2026-08-06T00:00:00+02:00</published><updated>2026-08-06T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-08-06:/dunas-y-desiertos-i-i-i</id><summary type="html">&lt;p&gt;Hagamos un viaje por el sistema solar en busca de &lt;span class="caps"&gt;DUNAS&lt;/span&gt;.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-08-11T00:00:00+02:00</updated><entry><title>A la caza del eclipse total</title><link href="https://napkinnotes.es/eclipse-caza" rel="alternate"/><published>2026-08-11T00:00:00+02:00</published><updated>2026-08-11T00:00:00+02:00</updated><author><name>Paz Albares Vicente</name></author><id>tag:napkinnotes.es,2026-08-11:/eclipse-caza</id><summary type="html">&lt;p&gt;¿Alguna vez te has preguntado cuál es la probabilidad de presenciar un eclipse total a lo largo de tu vida? A las puertas del histórico trío de eclipses ibéricos (2026-2028), acompáñanos a explorar la geometría celeste para descubrir la respuesta. (Imagen de la portada por cortesía de la &lt;span class="caps"&gt;NASA&lt;/span&gt;.)&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#que-es-un-eclipse"&gt;¿Qué es un&amp;nbsp;eclipse?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#hablemos-de-eclipses-solares"&gt;Hablemos de eclipses&amp;nbsp;solares&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#son-aleatorios-los-eclipses-descubre-los-ciclos-de-saros"&gt;¿Son aleatorios los eclipses? Descubre los ciclos de&amp;nbsp;Saros&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#cual-es-la-probabilidad-de-que-experimentes-un-eclipse-total-a-lo-largo-de-tu-vida"&gt;¿Cuál es la probabilidad de que experimentes un eclipse total a lo largo de tu&amp;nbsp;vida?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#recomendaciones-para-el-eclipse-del-12-de-agosto-de-2026"&gt;Recomendaciones para el eclipse del 12 de agosto de&amp;nbsp;2026&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Pocas experiencias naturales despiertan tanta fascinación como los eclipses. La temperatura desciende, los animales modifican su
+comportamiento, aparecen las primeras estrellas y el día y la noche se
+confunden en un mismo instante. Los eclipses han acompañado a la
+humanidad desde la antigüedad, interpretados históricamente como
+presagios divinos o señales del destino. Una de las anécdotas más
+famosas data del año 585 a. C., cuando un eclipse total irrumpió en plena
+batalla entre lidios y medos. Ambos ejércitos interpretaron la repentina
+oscuridad como una señal divina de desaprobación, lo que les llevó a
+deponer las armas de inmediato y firmar la paz. Otro ejemplo tuvo lugar
+siglos más tarde, durante el cuarto viaje de Cristóbal Colón a América,
+cuando su expedición quedó atrapada en Jamaica dependiendo del
+abastecimiento de la población local para sobrevivir. Colón, que conocía
+por las tablas astronómicas que en 1504 iba a producirse un eclipse
+lunar, amenazó a los líderes locales con que su dios haría desaparecer
+la Luna si no recibían ayuda, y que solo la haría reaparecer si
+colaboraban. Cuando el eclipse terminó y la Luna recuperó su brillo, los
+habitantes de la isla reanudaron el suministro de alimentos a la&amp;nbsp;expedición.&lt;/p&gt;
+&lt;p&gt;En la actualidad sabemos que los eclipses son el resultado de una
+coincidencia geométrica entre el Sol, la Tierra y la Luna. Y aún
+conociendo la causa, siguen fascinándonos. Millones de
+personas viajan miles de kilómetros buscando la franja de totalidad
+cual auténticos &amp;#8220;cazadores de eclipses&amp;#8221;. En palabras del astrónomo
+británico David Kipping, &lt;em&gt;&amp;#8220;It&amp;#8217;s an awe-inspiring experience that everyone
+should try to see once before leaving this Earth; a moment when you are
+confronted with your cosmic stature from an astronomical perspective&amp;#8221;&lt;/em&gt;
+(Es una experiencia sobrecogedora que todo el mundo debería intentar ver
+al menos una vez antes de abandonar la Tierra; un momento en el que te
+enfrentas a tu lugar en el cosmos desde una perspectiva astronómica) &lt;a class="nn-cite" href="#ref-1"&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Pero ¿cuán frecuentes son estos fenómenos? ¿Y cuán probable es que alguien experimente un eclipse total de Sol a lo largo de su vida? La intuición y la experiencia parecen decirnos que
+esta probabilidad es reducida, pero ¿realmente lo es? Y si en efecto es
+baja, ¿hay algo que podamos hacer para aumentar nuestras opciones
+de alguna&amp;nbsp;forma?&lt;/p&gt;
+&lt;p&gt;Desde Napkin Notes nos hemos hecho estas preguntas y en esta servilleta
+te contamos nuestras conclusiones. Primero veremos por
+qué ocurren estos fenómenos y qué tipos de eclipses existen. Después
+exploraremos la regularidad con la que se repiten y, finalmente, con
+ayuda de las matemáticas y el catálogo histórico de eclipses de la &lt;span class="caps"&gt;NASA&lt;/span&gt; &lt;a class="nn-cite" href="#ref-2"&gt;[2]&lt;/a&gt;,
+calcularemos la probabilidad de que una persona pueda ver un eclipse total. El objetivo es crear un poco
+de &lt;em&gt;hype&lt;/em&gt; y animarte a aprovechar la oportunidad excepcional que ofrece
+el trío de eclipses que cruzará la península ibérica entre 2026 y 2028 &lt;a class="nn-cite" href="#ref-3"&gt;[3]&lt;/a&gt;:
+12 de agosto de 2026, 2 de agosto de 2027 (eclipses totales) y 26 de
+enero de 2028 (eclipse&amp;nbsp;anular).&lt;/p&gt;
+&lt;h2 id="que-es-un-eclipse"&gt;¿Qué es un eclipse?&lt;a class="headerlink" href="#que-es-un-eclipse" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="./images/MoonOrbit.gif" alt="Movimiento de la Luna"&gt;
+  &lt;figcaption&gt;
+    Figura 1. Movimiento del sistema Sol-Tierra-Luna. Las escalas están exageradas, al igual que el movimiento de precesión de la Luna que se ha acelerado de 18.6 años a 2 años con fines demostrativos.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Un eclipse ocurre cuando un cuerpo celeste bloquea total o parcialmente
+la luz de otro. En este artículo nos centraremos en los eclipses de Sol
+y de Luna. El movimiento planetario se rige por las leyes
+de Kepler, por las cuales sabemos que la Tierra describe una órbita
+elíptica alrededor del Sol. Esta órbita es plana, y está contenida en el
+plano de la eclíptica. A su vez, la Luna también sigue una órbita
+elíptica alrededor de la Tierra, aunque el plano de su órbita no
+coincide exactamente con el plano de la eclíptica, sino que está
+inclinado aproximadamente 5.1º con respecto a él &lt;a class="nn-cite" href="#ref-4"&gt;[4]&lt;/a&gt;. Debido a esta
+inclinación, solo se podrá producir un eclipse cuando la Luna pase por
+un punto de su órbita que corte el plano de la eclíptica. A estos dos
+puntos se les denomina nodos lunares, y podemos distinguir entre nodo
+ascendente, cuando la Luna pasa del hemisferio sur al norte de la
+eclíptica, y nodo descendente, cuando pasa del hemisferio norte al sur.
+Además, la órbita lunar sufre un movimiento de precesión debido a la
+influencia de la gravedad del Sol, lo que va rotando el plano de la
+órbita en periodos de 18.6 años y, con ello, los nodos lunares &lt;a class="nn-cite" href="#ref-4"&gt;[4]&lt;/a&gt;. En
+base a esto podemos tener dos posibles&amp;nbsp;configuraciones:&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="./images/Precesion.gif" alt="Precesion de la Luna"&gt;
+  &lt;figcaption&gt;
+    Figura 2. Corte vertical del sistema Sol-Tierra-Luna. El plano definido por la órbita de la Luna está inclinado 5.1º con respecto a la eclíptica y rota en un periodo de 18.6 años. El corte de la órbita con la eclíptica define los nodos lunares. Solo cuando la Luna pasa por estos nodos podrá producir un eclipse. 
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;En un eclipse de Sol, la Luna se sitúa entre la Tierra y el Sol,
+  proyectando su sombra sobre una pequeña región de la superficie
+  terrestre. Los observadores situados dentro de esa sombra ven cómo el
+  Sol queda oculto parcial o totalmente bajo la&amp;nbsp;Luna.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En un eclipse de Luna sucede lo contrario, es la Tierra la que se
+  interpone entre el Sol y la Luna, proyectando su sombra sobre el
+  satélite. Desde la superficie terrestre observamos cómo la Luna entra
+  progresivamente en la sombra terrestre y adquiere ese característico
+  tono rojizo, conocido popularmente como &amp;#8220;Luna de&amp;nbsp;sangre&amp;#8221;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="./images/Etype.gif" alt="Tipos de Eclipses"&gt;
+  &lt;figcaption&gt;
+    Figura 3. Vista desde el polo norte de eclíptico del sistema Sol-Tierra-Luna. Aparte de tener que cruzar uno de los nodos lunares, la Luna tendrá que ser nueva, es decir, estar entre la Tierra y el Sol para producir un eclipse de Sol, y tendrá que ser llena para que se produzca uno de Luna.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="hablemos-de-eclipses-solares"&gt;Hablemos de eclipses solares&lt;a class="headerlink" href="#hablemos-de-eclipses-solares" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Vamos a centrarnos en eclipses solares. Como la Luna describe órbitas
+elípticas, su tamaño aparente visto desde la Tierra cambia a lo largo de
+su trayectoria, y puede variar hasta en un 14 % entre el perigeo (punto
+de la órbita más cercano a la Tierra) y el apogeo (punto más lejano).
+Así, el tamaño aparente de la Luna en el momento del eclipse determina
+si esta puede cubrir por completo el disco solar o no. Se pueden
+observar distintos tipos de eclipses&amp;nbsp;solares:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Eclipse total&lt;/strong&gt;: la Luna cubre completamente el disco solar, y
+  durante unos minutos el cielo se oscurece y puede observarse la corona
+  solar. La totalidad solo puede observarse desde una estrecha banda en
+  la superficie terrestre denominada &lt;strong&gt;franja de totalidad&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Eclipse parcial&lt;/strong&gt;: la Luna oculta solo una parte del Sol, y este
+  aparece como un disco &amp;#8220;mordido&amp;#8221;. Son los eclipses más&amp;nbsp;frecuentes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Eclipse anular&lt;/strong&gt;: la Luna no consigue cubrir completamente el Sol,
+  el cielo nunca llega a oscurecerse del todo, y se observa un brillante
+  anillo de luz alrededor de la&amp;nbsp;Luna.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Eclipse híbrido&lt;/strong&gt;: el mismo eclipse puede observarse como total
+  desde algunas zonas de la Tierra y como anular desde otras a lo largo
+  de la trayectoria de la sombra. Es el tipo de eclipse menos&amp;nbsp;frecuente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="./images/AtrioParcial.jpeg" alt="Fernando1"&gt;
+  &lt;figcaption&gt;
+    Figura 4a. Fase de parcialidad del eclipse anular de 2005 (Salamanca, España), cortesía de F. Atrio-Barandela &lt;a class="nn-cite" href="#ref-5"&gt;[5]&lt;/a&gt;.
+  &lt;/figcaption&gt;
+  &lt;img src="./images/AtrioAnular.jpeg" alt="Fernando2"&gt;
+  &lt;figcaption&gt; 
+    Figura 4b. Eclipse anular de 2005 (Salamanca, España), cortesía de F. Atrio-Barandela &lt;a class="nn-cite" href="#ref-5"&gt;[5]&lt;/a&gt;.
+  &lt;/figcaption&gt;
+  &lt;img src="./images/TotalEclipse.jpg" alt="Total"&gt;
+  &lt;figcaption&gt;
+    Figura 4c. Eclipse total del 20 de marzo de 2015 por Damien Deltenre (Longyearbyen, Svalbard). Fuente: Damien Deltenre, &lt;a href="https://commons.wikimedia.org/wiki/File:Total_solar_eclipse_of_March_20,_2015_by_Damien_Deltenre_(licensed_for_free_use)._(32844461616).jpg"&gt; Wikimedia Commons&lt;/a&gt;, licencia &lt;span class="caps"&gt;CC&lt;/span&gt; &lt;span class="caps"&gt;BY&lt;/span&gt; 2.0.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="./images/ShadowEP.gif" alt="Eclipses"&gt;
+  &lt;figcaption&gt;
+    Figura 5. Trazado de rayos de un eclipse total o anular. Dependiendo de si la Luna está en el apogeo o perigeo. La franja de totalidad viene rodeada por una franja donde el eclipse es parcial. En este caso, el nodo lunar se sitúa en la recta Tierra-Sol. Si el nodo se desvía mucho de esta recta puede haber únicamente franja de parcialidad.  
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="son-aleatorios-los-eclipses-descubre-los-ciclos-de-saros"&gt;¿Son aleatorios los eclipses? Descubre los ciclos de Saros&lt;a class="headerlink" href="#son-aleatorios-los-eclipses-descubre-los-ciclos-de-saros" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Ya hemos hablado de que los eclipses se producen cuando Sol, Tierra y
+Luna se encuentran alineados. Sabemos por experiencia (y porque así lo
+dicta la Física) que los movimientos de la Tierra con respecto al Sol y
+de la Luna alrededor de la Tierra son movimientos periódicos. Entonces,
+aunque a priori pueda parecer que los eclipses son fenómenos fortuitos,
+dada su naturaleza periódica, ese alineamiento de los astros está
+condenado a&amp;nbsp;repetirse.&lt;/p&gt;
+&lt;p&gt;Para que un eclipse vuelva a producirse con características similares es
+necesario que coincidan simultáneamente varias condiciones: que la Luna
+se encuentre en la fase adecuada (todos los eclipses solares tienen
+lugar en Luna nueva), que esté próxima al mismo nodo de su órbita y que
+su distancia a la Tierra sea aproximadamente la misma. Cada una de estas
+condiciones está asociada a un periodo diferente del movimiento lunar &lt;a class="nn-cite" href="#ref-4"&gt;[4]&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;El intervalo entre dos configuraciones lunares idénticas respecto al
+  Sol se denomina &lt;em&gt;mes sinódico&lt;/em&gt;, y tiene una duración media de 29.53
+  días. Es el periodo que determina la sucesión de las fases de la&amp;nbsp;Luna.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El tiempo que tarda la Luna en volver a pasar por el mismo nodo se
+  denomina &lt;em&gt;mes dracónico&lt;/em&gt;, con una duración de aproximadamente 27.21
+  días. Y como vemos, es más pequeño que el mes sinódico por el efecto
+  de la&amp;nbsp;precesión.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El tiempo que tarda la Luna en volver al mismo punto de su órbita
+  respecto a la Tierra (tomando como referencia el perigeo) se denomina
+  &lt;em&gt;mes anomalístico&lt;/em&gt; y dura aproximadamente 27.55&amp;nbsp;días.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Estos tres periodos no coinciden exactamente, por lo que la geometría
+del sistema Sol-Tierra-Luna no se repite después de cada ciclo lunar.
+Sin embargo, estos tres ciclos coinciden de forma casi perfecta cada
+cierto tiempo. Después de 223 meses sinódicos, han pasado casi
+exactamente 242 meses dracónicos y 239 meses anomalísticos. Esta
+sincronía ocurre cada 6585.32 días, equivalentes a aproximadamente 18
+años, 11 días y 8 horas. Este periodo recibe el nombre de &lt;strong&gt;ciclo de
+Saros&lt;/strong&gt; &lt;a class="nn-cite" href="#ref-4"&gt;[4]&lt;/a&gt;. El ciclo de Saros permite agrupar los eclipses en las
+denominadas &lt;strong&gt;series de Saros&lt;/strong&gt;, familias de eclipses con una geometría
+muy similar que se prolongan típicamente durante 12 o 13 siglos e
+incluyen alrededor de 70 eclipses. Puesto que hay dos nodos lunares,
+podemos distinguir series de Saros pares asociadas al nodo descendente e
+impares para el&amp;nbsp;ascendente.&lt;/p&gt;
+&lt;p&gt;Transcurrido un ciclo de Saros, el Sol, la Tierra y la Luna vuelven a
+quedar en la misma posición, por lo que se repite un eclipse muy
+parecido al ocurrido en el ciclo anterior. Sin embargo, esas ocho horas
+adicionales hacen que la Tierra siga girando y se desplace la zona de
+observación unos 120º hacia el oeste. ¿Y qué sucede tras tres
+ciclos de Saros? Las tres fracciones de ocho horas suman aproximadamente
+un día, la Tierra da una vuelta completa y el nuevo eclipse vuelve a ser
+visible desde longitudes geográficas similares. Este intervalo de unos
+54 años y 33 días (tres ciclos de Saros) recibe el nombre de
+&lt;strong&gt;exeligmos&lt;/strong&gt;. La presencia de un mes extra en el exeligmos, entre otros
+factores, mueve la latitud del eclipse, por lo que la trayectoria de la
+sombra y la franja de totalidad puedan verse desplazadas varios cientos
+de kilómetros. Para eclipses en el nodo ascendente, el eclipse se
+desplaza hacia el sur y para eclipses en el nodo descendente, hacia el
+norte. Esta migración norte-sur o sur-norte provoca que sucesivos
+eclipses a lo largo de la serie empiecen siendo pequeños y cortos,
+crezcan hasta alcanzar sus máximos cerca del ecuador, y después vayan
+disminuyendo hasta desaparecer en el polo contrario, dando por
+finalizada esa serie del Saros. Estos ciclos de aparición, crecimiento y
+desaparición de la serie de Saros duran unos 1200 años &lt;a class="nn-cite" href="#ref-6"&gt;[6]&lt;/a&gt;.&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="./images/SarosNasa.png" alt="Saros Nasa"&gt;
+  &lt;figcaption&gt;
+    Figura 6. Saros 136, extraído de &lt;a class="nn-cite" href="#ref-6"&gt;[6]&lt;/a&gt;. Puesto que es par, está asociado al nodo descendente. Podemos observar el ciclo de 18 años 11 días y 8 horas leyendo de este a oeste y el exeligmos con sus 33 días de sur a norte.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="cual-es-la-probabilidad-de-que-experimentes-un-eclipse-total-a-lo-largo-de-tu-vida"&gt;¿Cuál es la probabilidad de que experimentes un eclipse total a lo largo de tu vida?&lt;a class="headerlink" href="#cual-es-la-probabilidad-de-que-experimentes-un-eclipse-total-a-lo-largo-de-tu-vida" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Volvamos a la pregunta que intentábamos responder al inicio del
+artículo. Antes de comenzar, veamos algunas estadísticas sobre los
+eclipses solares &lt;a class="nn-cite" href="#ref-7"&gt;[7]&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Desde un punto de vista astronómico, los eclipses solares totales no
+  son un fenómeno particularmente raro, ya que a escala global ocurre un
+  eclipse de este tipo aproximadamente cada 18 meses en algún lugar de
+  la&amp;nbsp;Tierra.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Aproximadamente un 70 % de la Tierra está cubierta por agua, con lo
+  que las opciones de ver estos eventos desde lugares habitados se
+  reducen, especialmente desde lugares muy densamente&amp;nbsp;poblados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;La fase de totalidad de un eclipse solar es breve, puede durar desde
+  apenas unos segundos hasta algunos&amp;nbsp;minutos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;La trayectoria de un eclipse total es bastante estrecha, y menos del
+  0.5 % de la superficie terrestre queda dentro de la sombra de la Luna
+  en un eclipse&amp;nbsp;concreto.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En un punto concreto de la Tierra se puede observar, de media, un eclipse solar cada
+  aproximadamente 375&amp;nbsp;años.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sin embargo, no nos conformamos con este último dato. Si los eclipses de
+Sol son tan espectaculares como dicen, no queremos perdérnoslo. Y nos
+preguntamos si existe alguna forma en que podamos aumentar nuestras
+probabilidades. No parece muy razonable echarse a la mar cada vez que
+haya un eclipse total (¡hay gente que sí que lo hace!). Pero, dado que
+los eclipses siguen patrones casi periódicos, a lo mejor merece la pena
+convertirse en cazadores de eclipses por un día y perseguir esa sombra
+que tanta fascinación despierta. Hoy en día podemos planificar y
+desplazarnos fácilmente a zonas cercanas. Con lo cual, si en vez de
+centrarnos en un lugar puntual, ampliamos el análisis a una región
+geográfica extensa, que sea realista en términos de desplazamientos,
+puede que nuestras probabilidades no sean tan escasas. Veamos qué dicen
+las&amp;nbsp;matemáticas.&lt;/p&gt;
+&lt;p&gt;La pregunta es, ¿cuál es la probabilidad de que una persona pueda
+presenciar más de un eclipse total a lo largo de su vida en la península
+ibérica? Para este análisis consideramos los territorios de España y
+Portugal continental, excluyendo los archipiélagos de ambos países y
+ciudades autónomas españolas, limitando el estudio a una región
+geográfica accesible mediante transporte terrestre. Además,
+consideraremos que una persona de esta región tiene una esperanza de
+vida media de unos 83.7 años, media ponderada según la población de
+España y Portugal (datos de 2024) &lt;a class="nn-cite" href="#ref-8"&gt;[8]&lt;/a&gt; &lt;a class="nn-cite" href="#ref-9"&gt;[9]&lt;/a&gt; &lt;a class="nn-cite" href="#ref-10"&gt;[10]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Partimos del catálogo histórico de eclipses de la &lt;span class="caps"&gt;NASA&lt;/span&gt; &lt;a class="nn-cite" href="#ref-2"&gt;[2]&lt;/a&gt; &lt;a class="nn-cite" href="#ref-6"&gt;[6]&lt;/a&gt;, que
+recoge los datos de todos los eclipses (solares) desde el año 2000 a. C.
+hasta el año 3000 d. C., incluyendo los ya ocurridos como los futuros. Este catálogo recoge información astronómica
+detallada de cada eclipse, e incluye mapas que permiten visualizar la
+trayectoria de la sombra sobre la superficie terrestre. Hemos analizado
+mapa por mapa y registrado los años comprendidos a lo largo de esos cinco
+milenios en los cuales ha tenido lugar un eclipse total en la península
+ibérica. En la figura siguiente se muestra la información obtenida en un&amp;nbsp;histograma:&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="./images/Histo.jpg" alt="Histograma"&gt;
+  &lt;figcaption&gt;
+    Figura 7. Histograma con todos los eclipses del 2000 a. C. al 3000 d. C.. Con un tamaño de bin 83.7 años.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A continuación, para cada año de nacimiento dentro del periodo temporal
+considerado, hemos contado el número de eclipses totales que han
+ocurrido o van a ocurrir durante los 83.7 años siguientes. Entonces, la
+probabilidad que buscamos se puede estimar como el cociente entre el
+número de intervalos temporales con al menos un&amp;nbsp;eclipse,
+&lt;span class="math"&gt;\(N_{\geq 1\ \text{eclipse}}\)&lt;/span&gt;, y el número de intervalos totales&amp;nbsp;considerados, &lt;span class="math"&gt;\(N\)&lt;/span&gt;,
+&lt;/p&gt;
+&lt;div class="math"&gt;$$P(\text{ver al menos un eclipse})=\frac{N_{\geq 1\ \text{eclipse}}}{N}.$$&lt;/div&gt;
+&lt;p&gt;
+Una vez hecho el conteo, podemos calcular fácilmente la probabilidad de
+visualización de al menos uno, dos, tres o incluso cuatro eclipses,
+obteniendo los siguientes&amp;nbsp;resultados:&lt;/p&gt;
+&lt;table class="nn-compact-table"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;# Eclipses&lt;/th&gt;
+      &lt;th&gt;&amp;ge; 1&lt;/th&gt;
+      &lt;th&gt;&amp;ge; 2&lt;/th&gt;
+      &lt;th&gt;&amp;ge; 3&lt;/th&gt;
+      &lt;th&gt;&amp;ge; 4&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;Probabilidad&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;85%&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;53%&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;22%&lt;/span&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span class="nowrap"&gt;7%&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Las probabilidades han aumentado considerablemente, y ahora obtenemos
+unas cifras que nos permiten ser optimistas. Las reglas de la mecánica
+celeste siguen siendo las mismas, no es que haya más eclipses, sino más
+posibilidades de estar en el lugar adecuado para verlos. Ahora nos
+diréis que la probabilidad de que una persona pueda presenciar dos
+eclipses totales en la península ibérica a lo largo de su vida es de un
+53 %, que no es tan raro. Pero daros cuenta de que tenemos nuestros dos
+eclipses totales ibéricos en 2026 y 2027. Estos dos son los que nos han
+tocado a nosotros y hay que aprovecharlos, pues el siguiente es en 2180.
+Así que, si quieres ver un eclipse total, no lo dudes, esta es tu
+oportunidad de convertirte en un cazador de eclipses y salir a&amp;nbsp;buscarlos.&lt;/p&gt;
+&lt;h2 id="recomendaciones-para-el-eclipse-del-12-de-agosto-de-2026"&gt;Recomendaciones para el eclipse del 12 de agosto de 2026&lt;a class="headerlink" href="#recomendaciones-para-el-eclipse-del-12-de-agosto-de-2026" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Esperamos haberte convencido sobre la importancia de presenciar este
+evento histórico que tendrá lugar en España el próximo 12 de agosto de
+2026. Para disfrutarlo con seguridad, conviene tener en cuenta algunas&amp;nbsp;recomendaciones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Siempre lleva gafas para el eclipse con estándar &lt;span class="caps"&gt;ISO&lt;/span&gt; 12312-2: es muy
+  importante proteger tus ojos. La observación del Sol puede producir
+  ceguera. Es muy importante llevarlas siempre durante la fase de
+  parcialidad del eclipse, aunque el Sol esté cubierto al 99 %, ya que
+  puedes no sentir dolor pero en realidad estás quemando tu retina y te
+  puedes quedar completamente ciego. Solo durante un estrecho margen en
+  la fase de totalidad se puede observar sin gafas y hay que volver a
+  ponérselas con la primera luz. Recuerda siempre hay que llevarlas
+  puestas durante la fase de parcialidad y en eclipses anulares. Visita la web de
+  &lt;a href="https://www.trioeclipses.es/salud"&gt; recomendaciones oficiales&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Puedes consultar la franja de totalidad del eclipse en la siguiente &lt;a href="https://www.trioeclipses.es/salud(https://visualizadores.ign.es/eclipses/2026)"&gt; página web&lt;/a&gt;.
+  En el resto
+  de territorio español, el eclipse del 12 de agosto será visible como
+  un eclipse parcial. ¡Recuerda que en la zona de parcialidad no puedes
+  quitarte las&amp;nbsp;gafas!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Incluso eligiendo una zona de totalidad te puedes perder el eclipse.
+  El eclipse alcanza su máximo en torno a las 20:30. Esto es 9º
+  sobre el horizonte. Montañas y otros elementos pueden bloquear la
+  visualización del mismo, verifica el &lt;a href="https://shademap.app/"&gt; mapa de sombras&lt;/a&gt;. De igual forma estate atento a la &lt;a href="https://clearoutside.com/forecast/40.42/-3.70?view=midnight"&gt; previsión
+  meteorológica&lt;/a&gt;, sobre todo en el norte de la&amp;nbsp;península.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El eclipse coincide con la operación salida de agosto y se espera un
+  gran volumen de desplazamientos, presta especial cuidado en carretera
+  y planifica con antelación la hora y el día en el que vas a salir. Visita la web sobre
+  &lt;a href="https://www.trioeclipses.es/movilidad"&gt; recomendaciones de movilidad&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+ &lt;li id="ref-1"&gt;
+  J. Guenzel (2017). 5 Questions: Astronomer David Kipping on The Great American Eclipse. Columbia News. Disponible en:
+  &lt;a href="https://news.columbia.edu/news/5-questions-astronomer-david-kipping-great-american-eclipse" target="_blank" rel="noopener noreferrer"&gt;https://news.columbia.edu/news/5-questions-astronomer-david-kipping-great-american-eclipse&lt;/a&gt;
+&lt;/li&gt;
+
+  &lt;li id="ref-2"&gt;
+    &lt;span class="caps"&gt;NASA&lt;/span&gt;. (2008). World Atlas of Solar Eclipse Paths.
+    &lt;a href="https://eclipse.gsfc.nasa.gov/SEatlas/SEatlas.html" target="_blank" rel="noopener noreferrer"&gt;https://eclipse.gsfc.nasa.gov/SEatlas/SEatlas.html&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-3"&gt;
+    Ministerio de Ciencia, Innovación y Universidades. (2026). Trío de eclipses España.
+    &lt;a href="https://www.trioeclipses.es/los-eclipses" target="_blank" rel="noopener n.oreferrer"&gt;https://www.trioeclipses.es/los-eclipses&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-4"&gt;
+    Karttunen, H., Kröger, P., Oja, H., Poutanen, M., and Donner, &lt;span class="caps"&gt;K. J.&lt;/span&gt;(2017). Fundamental Astronomy (6th ed.).&amp;nbsp;Springer
+  &lt;/li&gt;
+
+  &lt;li id="ref-5"&gt;
+    Atrio Barandela, F. (2005). Eclipse solar. 3 de octubre de 2005. Diarium. Universidad de Salamanca.
+    &lt;a href="https://diarium.usal.es/atrio/eclipse-solar-3-de-octubre-de-2005/" target="_blank" rel="noopener noreferrer"&gt;https://diarium.usal.es/atrio/eclipse-solar-3-de-octubre-de-2005/&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-6"&gt;
+    Espenak, F., and Meeus, J. (2006). Five Millennium Canon of Solar Eclipses: -1999 to +3000 (2000 &lt;span class="caps"&gt;BCE&lt;/span&gt; to 3000 &lt;span class="caps"&gt;CE&lt;/span&gt;), (&lt;span class="caps"&gt;NASA&lt;/span&gt;/&lt;span class="caps"&gt;TP&lt;/span&gt;-2006-214141). &lt;span class="caps"&gt;NASA&lt;/span&gt; Goddard Space Flight Center.
+    &lt;a href="https://ui.adsabs.harvard.edu/abs/2006fmcs.book.....E/abstract"&gt;&amp;nbsp;https://ui.adsabs.harvard.edu/abs/2006fmcs.book&amp;#8230;..E/abstract &lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-7"&gt;
+    &lt;span class="caps"&gt;NASA&lt;/span&gt;. (2024). Eclipses Frequently Asked Questions. &lt;span class="caps"&gt;NASA&lt;/span&gt; Science.
+    &lt;a href="https://science.nasa.gov/eclipses/faq/" target="_blank" rel="noopener noreferrer"&gt;https://science.nasa.gov/eclipses/faq/&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-8"&gt;
+    Instituto Nacional de Estadística (&lt;span class="caps"&gt;INE&lt;/span&gt; España).
+    &lt;a href="https://www.ine.es/" target="_blank" rel="noopener noreferrer"&gt;https://www.ine.es/&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-9"&gt;
+    Instituto Nacional de Estatística (&lt;span class="caps"&gt;INE&lt;/span&gt; Portugal).
+    &lt;a href="https://www.ine.pt/" target="_blank" rel="noopener noreferrer"&gt;https://www.ine.pt/&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-10"&gt;
+    Eurostat. European Commission, 2024.
+    &lt;a href="https://ec.europa.eu/eurostat" target="_blank" rel="noopener noreferrer"&gt;https://ec.europa.eu/eurostat&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Astronomía"/><category term="astronomía"/><category term="eclipse"/></entry><entry><title>Dunas y desiertos I I I</title><link href="https://napkinnotes.es/dunas-y-desiertos-i-i-i" rel="alternate"/><published>2026-08-06T00:00:00+02:00</published><updated>2026-08-06T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-08-06:/dunas-y-desiertos-i-i-i</id><summary type="html">&lt;p&gt;Hagamos un viaje por el sistema solar en busca de &lt;span class="caps"&gt;DUNAS&lt;/span&gt;.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#dunas-espaciales"&gt;Dunas&amp;nbsp;espaciales&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#venus"&gt;Venus&lt;/a&gt;&lt;/li&gt;

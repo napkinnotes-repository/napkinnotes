@@ -44,7 +44,7 @@
 <meta name="twitter:image" content="https://napkinnotes.es/theme/images/nn_logo.png">
 <meta property="og:description" content="Napkin Notes es un blog-revista de divulgación científica en español para quienes disfrutan entendiendo la ciencia detrás de preguntas curiosas, cotidianas o inesperadas. Publicamos contenidos con explicaciones claras, rigurosas y visuales sobre diferentes disciplinas científicas." />
 <meta name="twitter:description" content="Napkin Notes es un blog-revista de divulgación científica en español para quienes disfrutan entendiendo la ciencia detrás de preguntas curiosas, cotidianas o inesperadas. Publicamos contenidos con explicaciones claras, rigurosas y visuales sobre diferentes disciplinas científicas.">
-<meta name="keywords" content=" aerodinámica,  alimentos,  arcoíris,  arena,  arXiv,  cálculo,  ChatGPT,  ciencia abierta,  datos,  desierto,  dunas,  envejecimiento,  estadística,  física,  fractales,  fútbol,  geodésicas,  geometría,  infinito,  inteligencia artificial,  ley de janet,  mapas,  matemáticas,  microondas,  mundial 2026,  música,  óptica,  paradojas,  penaltis,  probabilidad,  producción científica,  termodinámica,  viento,  Arquitectura,  Ciencia y tecnología,  Envejecimiento,  Estadística,  Física,  Geografía,  Matemáticas,  Música,  Termodinámica, " />
+<meta name="keywords" content=" aerodinámica,  alimentos,  arcoíris,  arena,  arXiv,  astronomía,  cálculo,  ChatGPT,  ciencia abierta,  datos,  desierto,  dunas,  eclipse,  envejecimiento,  estadística,  física,  fractales,  fútbol,  geodésicas,  geometría,  infinito,  inteligencia artificial,  ley de janet,  mapas,  matemáticas,  microondas,  mundial 2026,  música,  óptica,  paradojas,  penaltis,  probabilidad,  producción científica,  termodinámica,  viento,  Arquitectura,  Astronomía,  Ciencia y tecnología,  Envejecimiento,  Estadística,  Física,  Geografía,  Matemáticas,  Música,  Termodinámica, " />
 
         <title>Napkin Notes
 </title>
@@ -274,6 +274,15 @@ Napkin Notes        </h1>
         <div class="nn-mini-author-carousel__items">
                 <a
                     class="nn-mini-author-carousel__item"
+                    href="https://napkinnotes.es/eclipse-caza"
+                    data-carousel-item
+                >
+                        <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/NASA_solar_eclipse_photo.jpeg" alt="A la caza del eclipse&nbsp;total">
+
+                    <span class="nn-mini-author-carousel__name">A la caza del eclipse&nbsp;total</span>
+                </a>
+                <a
+                    class="nn-mini-author-carousel__item"
                     href="https://napkinnotes.es/dunas-y-desiertos-i-i-i"
                     data-carousel-item
                 >
@@ -326,15 +335,6 @@ Napkin Notes        </h1>
 
                     <span class="nn-mini-author-carousel__name">Cuando las matemáticas&nbsp;desafinan</span>
                 </a>
-                <a
-                    class="nn-mini-author-carousel__item"
-                    href="https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial"
-                    data-carousel-item
-                >
-                        <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/penaltis-mundial-moneda-share.jpeg" alt="¿Una moneda al aire decide Mundiales?: cómo la estadística se puede usar para lo que uno quiera si la muestra es&nbsp;pequeña">
-
-                    <span class="nn-mini-author-carousel__name">¿Una moneda al aire decide Mundiales?</span>
-                </a>
         </div>
 
         <button class="nn-mini-author-carousel__control nn-author-carousel__control--next" type="button" aria-label="Artículo siguiente">
@@ -386,19 +386,19 @@ Boton de descarga aqui por facilidad pero luego lo podemos cambiar al html-->
             <span class="nn-kicker">Último</span>
 
             <div class="nn-sidebar-featured">
-                <a class="nn-sidebar-featured__title" href="https://napkinnotes.es/dunas-y-desiertos-i-i-i">
-                    Dunas y desiertos&nbsp;I&#8202;I&#8202;I
+                <a class="nn-sidebar-featured__title" href="https://napkinnotes.es/eclipse-caza">
+                    A la caza del eclipse&nbsp;total
                 </a>
 
                 <div class="nn-sidebar-featured__meta">
-                    <span>6 de agosto de 2026</span>
+                    <span>11 de agosto de 2026</span>
                     <span>•</span>
-                    <span>Geografía</span>
+                    <span>Astronomía</span>
                 </div>
 
-                <p class="nn-sidebar-featured__text">Hagamos un viaje por el sistema solar en busca de DUNAS.</p>
+                <p class="nn-sidebar-featured__text">¿Alguna vez te has preguntado cuál es la probabilidad de presenciar un eclipse total a lo largo de tu vida? A las puertas del histórico...</p>
 
-                <a class="nn-button nn-button--ghost nn-sidebar-featured__button nn-home-sidebar__button" href="https://napkinnotes.es/dunas-y-desiertos-i-i-i">
+                <a class="nn-button nn-button--ghost nn-sidebar-featured__button nn-home-sidebar__button" href="https://napkinnotes.es/eclipse-caza">
                     Leer ahora
                 </a>
             </div>
@@ -407,7 +407,7 @@ Boton de descarga aqui por facilidad pero luego lo podemos cambiar al html-->
         <section class="nn-sidebar-card nn-reveal">
             <span class="nn-kicker">Descubre</span>
             <p>¿Te apetece una pregunta inesperada? Abre un artículo al azar y déjate sorprender.</p>
-            <a id="random-article-link" class="nn-button nn-button--ghost nn-home-sidebar__button" href="https://napkinnotes.es/dunas-y-desiertos-i-i-i">
+            <a id="random-article-link" class="nn-button nn-button--ghost nn-home-sidebar__button" href="https://napkinnotes.es/eclipse-caza">
                 Sorpréndeme
             </a>
         </section>
@@ -571,7 +571,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!randomLink) return;
 
     const articleUrls = [
-        "https://napkinnotes.es/dunas-y-desiertos-i-i-i",        "https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt",        "https://napkinnotes.es/misterio-mezquita-washington-geometria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-i-crea-tu-propio-fractal-y-descubre-su-dimension",        "https://napkinnotes.es/dunas-y-desiertos-ii",        "https://napkinnotes.es/matematicas_desafinan",        "https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial",        "https://napkinnotes.es/mundial-2026-fisica-balon-aire",        "https://napkinnotes.es/dunas-y-desiertos-i",        "https://napkinnotes.es/el-poder-de-la-catenaria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales",        "https://napkinnotes.es/el-misterio-del-tiempo-acelerado-por-que-la-vida-vuela-a-medida-que-envejecemos",        "https://napkinnotes.es/tu-arcoiris-es-solo-tuyo",        "https://napkinnotes.es/el-pintor-y-la-trompeta",        "https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas"    ];
+        "https://napkinnotes.es/eclipse-caza",        "https://napkinnotes.es/dunas-y-desiertos-i-i-i",        "https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt",        "https://napkinnotes.es/misterio-mezquita-washington-geometria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-i-crea-tu-propio-fractal-y-descubre-su-dimension",        "https://napkinnotes.es/dunas-y-desiertos-ii",        "https://napkinnotes.es/matematicas_desafinan",        "https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial",        "https://napkinnotes.es/mundial-2026-fisica-balon-aire",        "https://napkinnotes.es/dunas-y-desiertos-i",        "https://napkinnotes.es/el-poder-de-la-catenaria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales",        "https://napkinnotes.es/el-misterio-del-tiempo-acelerado-por-que-la-vida-vuela-a-medida-que-envejecemos",        "https://napkinnotes.es/tu-arcoiris-es-solo-tuyo",        "https://napkinnotes.es/el-pintor-y-la-trompeta",        "https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas"    ];
 
     if (!articleUrls.length) return;
 
