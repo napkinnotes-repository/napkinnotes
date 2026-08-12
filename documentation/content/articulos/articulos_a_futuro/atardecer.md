@@ -55,7 +55,11 @@ Si nos fijamos en la ecuación anterior vemos que la potencia dispersada es inve
   </figcaption>
 </figure>
 
-Durante las horas centrales del día, los rayos de sol se dispersan en la atmósfera, siendo violeta, azul y verde los colores más predominantes. Por ejemplo, el color azul se dispersa unas nueve veces más que el color rojo. Esto explica por qué durante el día vemos el cielo de color azul en todas las direcciones. \footnote{Para ser más precisos, el color azul se debe al efecto combinado de la dispersión de Rayleigh, a que el ojo humano es poco sensible al violeta y a la absorción del ultravioleta por la capa de ozono.} Pero, ¿qué ocurre al amanecer y al atardecer?
+Durante las horas centrales del día, los rayos de sol se dispersan en la atmósfera, siendo violeta, azul y verde los colores más predominantes. Por ejemplo, el color azul se dispersa unas nueve veces más que el color rojo. Esto explica por qué durante el día vemos el cielo de color azul en todas las direcciones[^1]. Pero, ¿qué ocurre al amanecer y al atardecer?
+
+[^1]: Para ser más precisos, el color azul se debe al efecto combinado de la dispersión de Rayleigh, a que el ojo humano es poco sensible al violeta y a la absorción del ultravioleta por la capa de ozono.
+
+Durante las horas centrales del día, los rayos de sol se dispersan en la atmósfera, siendo violeta, azul y verde los colores más predominantes. Por ejemplo, el color azul se dispersa unas nueve veces más que el color rojo. Esto explica por qué durante el día vemos el cielo de color azul en todas las direcciones\footnote{Para ser más precisos, el color azul se debe al efecto combinado de la dispersión de Rayleigh, a que el ojo humano es poco sensible al violeta y a la absorción del ultravioleta por la capa de ozono.}. Pero, ¿qué ocurre al amanecer y al atardecer?
 
 <!-- Imagen cielo azul -->
 <figure class="nn-article-figure">
