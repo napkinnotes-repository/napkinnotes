@@ -9,25 +9,25 @@ category: Física # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
   - Física
   - Óptica
-summary: El cielo cambia de color a lo largo del día. Comenzamos el día con un precioso color anaranjado, después se tiñe de azul y, cuando llega el atardecer, volvemos a ver los colores cálidos del ocaso. Detrás de este festival cromático se esconde un fenómeno físico interesantísimo. Lo explicamos en esta servilleta.
+summary: El cielo cambia de color a lo largo del día. Comenzamos el día con un precioso color anaranjado, después se tiñe de azul y, cuando llega el atardecer, volvemos a ver los colores cálidos en el ocaso. Detrás de este festival cromático se esconde un fenómeno físico interesantísimo. Lo explicamos en esta servilleta.
 image: images/atardecer_Salamanca.jpg
 ---
 
 [TOC]
 
 
-Para entender el cambio de color en el cielo necesitamos saber de qué está hecha nuestra atmósfera. Ésta se compone de diferentes gases: 78.084% de nitrógeno, 20.946% de oxígeno, 0.934% de argón, 0.042% de dióxido de carbono, y una pequeña cantidad de otras moléculas y gases nobles <a class="nn-cite" href="#ref-1">[1]</a>. Cuando la luz interactúa con estos átomos y moléculas sufre un fenómeno físico llamado dispersión, esto es, la descomposición de la radiación en sus diferentes longitudes de onda por la acción del medio de propagación <a class="nn-cite" href="#ref-2">[2]</a>. Si la dispersión de la luz se produce por partículas cuyo tamaño es mucho menor que la longitud de onda de la radiación incidente, hablamos de **dispersión de Rayleigh** o Rayleigh scattering en inglés <a class="nn-cite" href="#ref-3">[3]</a>. Esto es precisamente lo que ocurre en nuestra atmósfera.
+Para entender el cambio de color en el cielo necesitamos saber de qué está hecha nuestra atmósfera. Ésta se compone de diferentes gases: 78.084% de nitrógeno, 20.946% de oxígeno, 0.934% de argón, 0.042% de dióxido de carbono, y una pequeña cantidad de otras moléculas y gases nobles <a class="nn-cite" href="#ref-1">[1]</a>. Cuando la luz interactúa con estos átomos y moléculas sufre un fenómeno físico llamado dispersión, esto es, la descomposición de la radiación en sus diferentes longitudes de onda por la acción del medio de propagación <a class="nn-cite" href="#ref-2">[2]</a>. Si la dispersión de la luz se produce por partículas cuyo tamaño es mucho menor que la longitud de onda de la radiación incidente, hablamos de **dispersión de Rayleigh** o Rayleigh *scattering* en inglés <a class="nn-cite" href="#ref-3">[3]</a>. Esto es precisamente lo que ocurre en nuestra atmósfera.
 
 
 ## La ecuación para la dispersión de Rayleigh
 
-Revisemos algunos conceptos de óptica para entender con más profundidad cómo se produce la dispersión de Rayleigh. Imaginemos que tenemos un haz incidente proveniente del sol polarizado en el eje $z$, $E_{inc} = \hat{z}E_i$, propagándose en la dirección $x$ (figura 1), que choca con un átomo o molécula de la atmósfera de radio $a$ y permitividad $\epsilon_s$. La permitividad del aire la denotamos como $\epsilon_0$ y la permeabilidad magnética como $\mu_0$. La luz incidente polariza los átomos de la atmósfera y los convierte en pequeños dipolos. El campo eléctrico que produce un pequeño dipolo en la lejanía es aproximadamente <a class="nn-cite" href="#ref-4">[4]</a>
+Revisemos algunos conceptos de óptica para entender con más profundidad cómo se produce la dispersión de Rayleigh. Imaginemos que tenemos un haz incidente proveniente del Sol, polarizado en el eje $z$: $E_{inc} = \hat{z}E_i$, y propagándose en la dirección $x$ (figura 1), que choca con un átomo o molécula de la atmósfera de radio $a$ y permitividad $\epsilon_s$. La permitividad del aire la denotaremos como $\epsilon_0$ y su permeabilidad magnética como $\mu_0$. La luz incidente polariza los átomos de la atmósfera y los convierte en pequeños dipolos. El campo eléctrico que produce un pequeño dipolo en la lejanía es aproximadamente <a class="nn-cite" href="#ref-4">[4]</a>:
 
 <!-- Fórmula dipolo -->
 $$
 E_\theta \cong -k^2 \mu_0 \epsilon_0 \left(\frac{\epsilon_s-\epsilon_0}{\epsilon_s+2\epsilon_0}\right)\frac{a^3}{r}E_i e^{-ikr} \text{sin}(\theta).
 $$
-Notemos que por la geometría del problema las demás componentes del campo eléctrico en coordenadas esféricas son cero. Para el campo magnético tenemos simplemente $H_\theta=\sqrt{\epsilon_0/\mu_0}E_\theta$.
+Notemos que, por la geometría del problema, las demás componentes del campo eléctrico en coordenadas esféricas son cero. Para el campo magnético tenemos simplemente $H_\theta=\sqrt{\epsilon_0/\mu_0}E_\theta$.
 
 <!-- Imagen geometria -->
 <figure class="nn-article-figure">
@@ -38,7 +38,7 @@ Notemos que por la geometría del problema las demás componentes del campo elé
 </figure>
 
 
-Podemos calcular la potencia dispersada integrando el vector de Poynting $\langle S \rangle = \frac1/2 \mathcal{Re} \{ \mathbf{E}\times\mathbf{H}^* \}$ en el ángulo sólido
+Podemos calcular la potencia dispersada integrando el vector de Poynting $\langle S \rangle = \frac {1}/{2} \mathcal{Re} \{ \mathbf{E}\times\mathbf{H}^* \}$ en el ángulo sólido:
 <!-- Fórmula potencia -->
 $$
 P_S = \frac{4\pi}{3}\sqrt{\frac{\epsilon_0}{\mu_0}}\left(\frac{\epsilon_s-\epsilon_0}{\epsilon_s+2\epsilon_0}\right)^2\left(\frac{2\pi}{\lambda}\right)^4a^6 |E_i|^2.
