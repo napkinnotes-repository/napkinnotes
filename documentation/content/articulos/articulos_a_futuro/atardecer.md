@@ -38,14 +38,14 @@ Notemos que, por la geometría del problema, las demás componentes del campo el
 </figure>
 
 
-Podemos calcular la potencia dispersada integrando el vector de Poynting $\langle S \rangle = \frac {1}/{2} \mathcal{Re} \{ \mathbf{E}\times\mathbf{H}^* \}$ en el ángulo sólido:
+Podemos calcular la potencia dispersada integrando el vector de Poynting $\langle S \rangle = \frac{1}{2} \mathcal{Re} \{ \mathbf{E}\times\mathbf{H}^* \}$ en el ángulo sólido:
 <!-- Fórmula potencia -->
 $$
 P_S = \frac{4\pi}{3}\sqrt{\frac{\epsilon_0}{\mu_0}}\left(\frac{\epsilon_s-\epsilon_0}{\epsilon_s+2\epsilon_0}\right)^2\left(\frac{2\pi}{\lambda}\right)^4a^6 |E_i|^2.
 $$
 
 ## Los colores del cielo
-Si nos fijamos en la anterior ecuación vemos que la potencia dispersada es inversamente proporcional a la longitud de onda a la cuarta $1/\lambda^4$. Esto significa que en la atmósfera con longitud de onda más corta (violeta y azul) se dispersa más que aquella con longitud de onda mayor (roja y naranja). Esta es la clave para entender por qué vemos diferentes colores en el cielo a lo largo del día. 
+Si nos fijamos en la ecuación anterior vemos que la potencia dispersada es inversamente proporcional a la longitud de onda a la cuarta $1/\lambda^4$. Esto significa que en la atmósfera con longitud de onda más corta (violeta y azul) se dispersa más que aquella con longitud de onda mayor (roja y naranja). Esta es la clave para entender por qué vemos diferentes colores en el cielo a lo largo del día. 
 
 <!-- Imagen earth -->
 <figure class="nn-article-figure">
