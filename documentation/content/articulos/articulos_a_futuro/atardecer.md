@@ -59,8 +59,6 @@ Durante las horas centrales del día, los rayos de sol se dispersan en la atmós
 
 [^1]: Para ser más precisos, el color azul se debe al efecto combinado de la dispersión de Rayleigh, a que el ojo humano es poco sensible al violeta y a la absorción del ultravioleta por la capa de ozono.
 
-Durante las horas centrales del día, los rayos de sol se dispersan en la atmósfera, siendo violeta, azul y verde los colores más predominantes. Por ejemplo, el color azul se dispersa unas nueve veces más que el color rojo. Esto explica por qué durante el día vemos el cielo de color azul en todas las direcciones\footnote{Para ser más precisos, el color azul se debe al efecto combinado de la dispersión de Rayleigh, a que el ojo humano es poco sensible al violeta y a la absorción del ultravioleta por la capa de ozono.}. Pero, ¿qué ocurre al amanecer y al atardecer?
-
 <!-- Imagen cielo azul -->
 <figure class="nn-article-figure">
   <img src="{static}/images/cielo_azul.jpg">
@@ -71,17 +69,17 @@ Durante las horas centrales del día, los rayos de sol se dispersan en la atmós
 
 ### El atardecer
 
-Pues aquí la clave es la dirección en la que observamos los rayos de luz. Durante el día el sol está situado verticalmente sobre nosotros. En cambio, durante el amanecer y el atardecer el sol está situado sobre el horizonte y, por tanto, los rayos de luz recorren mayor recorrido por la atmósfera. Durante este recorrido las longitudes de onda cortas se dispersan mucho más que las largas. Como consecuencia, la luz que llega directamente desde el Sol ha perdido gran parte de sus componentes azules y violetas, quedando enriquecida en las longitudes de onda largas (amarillos, naranjas y rojos).
+Pues aquí la clave es la dirección en la que observamos los rayos de luz. Durante el día el Sol está situado verticalmente sobre nosotros. En cambio, durante el amanecer y el atardecer el Sol está situado sobre el horizonte y, por tanto, los rayos de luz recorren una mayor distancia dentro de la atmósfera. Durante este recorrido las longitudes de onda cortas se dispersan mucho más que las largas. Como consecuencia, la luz que llega directamente desde el Sol ha perdido gran parte de sus componentes azules y violetas, quedando enriquecida en las longitudes de onda largas (amarillos, naranjas y rojos).
 
 <!-- Imagen atardecer -->
 <figure class="nn-article-figure">
   <img src="{static}/images/atardecer_Salamanca.jpg">
   <figcaption>
-    Figura 4. Scattering Rayleigh en el cielo de Salamanca.
+    Figura 4. Dispersión de Rayleigh en el cielo de Salamanca.
   </figcaption>
 </figure>
 
-## Los cielos más contaminados tienen atardeceres más bonitos.
+## Los cielos más contaminados tienen atardeceres más bonitos
 
 Hay muchos factores atmosféricos que influyen en los colores del amanecer y del atardecer. Cuando hay una mayor concentración de aerosoles —por ejemplo tras una erupción volcánica, un incendio o en zonas muy contaminadas— aparece además la dispersión de Mie <a class="nn-cite" href="#ref-5">[5]</a>. Estas partículas eliminan parte de la luz azul y pueden intensificar los tonos rojizos y anaranjados del amanecer y del atardecer. De hecho, la intensidad de los colores nos puede dar una estimación de la contaminación atmosférica <a class="nn-cite" href="#ref-6">[6]</a>. A decir verdad, yo abogo por tener cielos más limpios aunque sean menos coloridos.
 
