@@ -45,7 +45,7 @@ P_S = \frac{4\pi}{3}\sqrt{\frac{\epsilon_0}{\mu_0}}\left(\frac{\epsilon_s-\epsil
 $$
 
 ## Los colores del cielo
-Si nos fijamos en la ecuación anterior vemos que la potencia dispersada es inversamente proporcional a la longitud de onda a la cuarta $1/\lambda^4$. Esto significa que, en la atmósfera, la radiación con longitud de onda más corta (violeta y azul) se dispersa más que aquella con longitud de onda mayor (roja y naranja). Esta es la clave para entender por qué a lo largo del día vemos diferentes colores en el cielo. 
+Si nos fijamos en la ecuación anterior, vemos que la potencia dispersada es inversamente proporcional a la longitud de onda a la cuarta $1/\lambda^4$. Esto significa que, en la atmósfera, la radiación con longitud de onda más corta (violeta y azul) se dispersa más que aquella con longitud de onda mayor (roja y naranja). Esta es la clave para entender por qué a lo largo del día vemos diferentes colores en el cielo. 
 
 <!-- Imagen earth -->
 <figure class="nn-article-figure">
