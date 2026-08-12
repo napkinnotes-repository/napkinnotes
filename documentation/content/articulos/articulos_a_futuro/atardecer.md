@@ -51,7 +51,9 @@ Si nos fijamos en la ecuación anterior vemos que la potencia dispersada es inve
 <figure class="nn-article-figure">
   <img src="{static}/images/earth.jpeg">
   <figcaption>
-    Figura 2. Dispersión de la luz del Sol por la atmósfera. Foto tomada de [Why is the Sky Blue? A Deep Dive into Rayleigh Scattering](https://medium.com/@ermal.alibali/why-is-the-sky-blue-a-deep-dive-into-rayleigh-scattering-f652f80e59e0).
+    Figura 2. Dispersión de la luz del Sol por la atmósfera. Foto tomada de <a href="https://medium.com/@ermal.alibali/why-is-the-sky-blue-a-deep-dive-into-rayleigh-scattering-f652f80e59e0">
+      Why is the Sky Blue? A Deep Dive into Rayleigh Scattering
+    </a>.
   </figcaption>
 </figure>
 
@@ -81,7 +83,7 @@ Pues aquí la clave es la dirección en la que observamos los rayos de luz. Dura
 
 ## Los cielos más contaminados tienen atardeceres más bonitos
 
-Hay muchos factores atmosféricos que influyen en los colores del amanecer y del atardecer. Cuando hay una mayor concentración de aerosoles —por ejemplo tras una erupción volcánica, un incendio o en zonas muy contaminadas— aparece además la dispersión de Mie <a class="nn-cite" href="#ref-5">[5]</a>. Estas partículas eliminan parte de la luz azul y pueden intensificar los tonos rojizos y anaranjados del amanecer y del atardecer. De hecho, la intensidad de los colores nos puede dar una estimación de la contaminación atmosférica <a class="nn-cite" href="#ref-6">[6]</a>. A decir verdad, yo abogo por tener cielos más limpios aunque sean menos coloridos.
+Hay muchos factores atmosféricos que influyen en los colores del amanecer y del atardecer. Cuando hay una mayor concentración de aerosoles —por ejemplo, tras una erupción volcánica, un incendio o en zonas muy contaminadas— aparece además la dispersión de Mie <a class="nn-cite" href="#ref-5">[5]</a>. Estas partículas eliminan parte de la luz azul y pueden intensificar los tonos rojizos y anaranjados del amanecer y del atardecer. De hecho, la intensidad de los colores nos puede dar una estimación de la contaminación atmosférica <a class="nn-cite" href="#ref-6">[6]</a>. A decir verdad, yo abogo por tener cielos más limpios aunque sean menos coloridos.
 
 ## Referencias
 
