@@ -45,13 +45,13 @@ P_S = \frac{4\pi}{3}\sqrt{\frac{\epsilon_0}{\mu_0}}\left(\frac{\epsilon_s-\epsil
 $$
 
 ## Los colores del cielo
-Si nos fijamos en la ecuación anterior vemos que la potencia dispersada es inversamente proporcional a la longitud de onda a la cuarta $1/\lambda^4$. Esto significa que en la atmósfera con longitud de onda más corta (violeta y azul) se dispersa más que aquella con longitud de onda mayor (roja y naranja). Esta es la clave para entender por qué vemos diferentes colores en el cielo a lo largo del día. 
+Si nos fijamos en la ecuación anterior vemos que la potencia dispersada es inversamente proporcional a la longitud de onda a la cuarta $1/\lambda^4$. Esto significa que, en la atmósfera, la radiación con longitud de onda más corta (violeta y azul) se dispersa más que aquella con longitud de onda mayor (roja y naranja). Esta es la clave para entender por qué a lo largo del día vemos diferentes colores en el cielo. 
 
 <!-- Imagen earth -->
 <figure class="nn-article-figure">
   <img src="{static}/images/earth.jpeg">
   <figcaption>
-    Figura 2. Dispersión de la luz del sol por la atmósfera. Foto tomada de https://medium.com/@ermal.alibali/why-is-the-sky-blue-a-deep-dive-into-rayleigh-scattering-f652f80e59e0.
+    Figura 2. Dispersión de la luz del Sol por la atmósfera. Foto tomada de [Why is the Sky Blue? A Deep Dive into Rayleigh Scattering](https://medium.com/@ermal.alibali/why-is-the-sky-blue-a-deep-dive-into-rayleigh-scattering-f652f80e59e0).
   </figcaption>
 </figure>
 
