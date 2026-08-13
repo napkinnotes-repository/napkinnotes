@@ -4,7 +4,7 @@ author: María Pérez Garrote
 date: 2026-08-13
 layout: articles
 slug: el-atardecer
-status: hidden # published si ya está listo
+status: published # published si ya está listo
 category: Física # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
   - Física
