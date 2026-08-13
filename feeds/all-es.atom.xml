@@ -1,5 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-08-11T00:00:00+02:00</updated><entry><title>A la caza del eclipse total</title><link href="https://napkinnotes.es/eclipse-caza" rel="alternate"/><published>2026-08-11T00:00:00+02:00</published><updated>2026-08-11T00:00:00+02:00</updated><author><name>Paz Albares Vicente</name></author><id>tag:napkinnotes.es,2026-08-11:/eclipse-caza</id><summary type="html">&lt;p&gt;¿Alguna vez te has preguntado cuál es la probabilidad de presenciar un eclipse total a lo largo de tu vida? A las puertas del histórico trío de eclipses ibéricos (2026-2028), acompáñanos a explorar la geometría celeste para descubrir la respuesta. (Imagen de la portada por cortesía de la &lt;span class="caps"&gt;NASA&lt;/span&gt;.)&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-08-13T00:00:00+02:00</updated><entry><title>¿Por qué es naranja el atardecer?</title><link href="https://napkinnotes.es/el-atardecer" rel="alternate"/><published>2026-08-13T00:00:00+02:00</published><updated>2026-08-13T00:00:00+02:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-08-13:/el-atardecer</id><summary type="html">&lt;p&gt;El cielo cambia de color a lo largo del día. Comenzamos el día con un precioso color anaranjado, después se tiñe de azul y, cuando llega el atardecer, volvemos a ver los colores cálidos en el ocaso. Detrás de este festival cromático se esconde un fenómeno físico interesantísimo. Lo explicamos en esta&amp;nbsp;servilleta.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#la-ecuacion-para-la-dispersion-de-rayleigh"&gt;La ecuación para la dispersión de&amp;nbsp;Rayleigh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#los-colores-del-cielo"&gt;Los colores del cielo&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#el-atardecer"&gt;El&amp;nbsp;atardecer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#los-cielos-mas-contaminados-tienen-atardeceres-mas-bonitos"&gt;Los cielos más contaminados tienen atardeceres más&amp;nbsp;bonitos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Para entender el cambio de color en el cielo necesitamos saber de qué está hecha nuestra atmósfera. Ésta se compone de diferentes gases: 78.084% de nitrógeno, 20.946% de oxígeno, 0.934% de argón, 0.042% de dióxido de carbono, y una pequeña cantidad de otras moléculas y gases nobles &lt;a class="nn-cite" href="#ref-1"&gt;[1]&lt;/a&gt;. Cuando la luz interactúa con estos átomos y moléculas sufre un fenómeno físico llamado dispersión, esto es, la descomposición de la radiación en sus diferentes longitudes de onda por la acción del medio de propagación &lt;a class="nn-cite" href="#ref-2"&gt;[2]&lt;/a&gt;. Si la dispersión de la luz se produce por partículas cuyo tamaño es mucho menor que la longitud de onda de la radiación incidente, hablamos de &lt;strong&gt;dispersión de Rayleigh&lt;/strong&gt; o Rayleigh &lt;em&gt;scattering&lt;/em&gt; en inglés &lt;a class="nn-cite" href="#ref-3"&gt;[3]&lt;/a&gt;. Esto es precisamente lo que ocurre en nuestra&amp;nbsp;atmósfera.&lt;/p&gt;
+&lt;h2 id="la-ecuacion-para-la-dispersion-de-rayleigh"&gt;La ecuación para la dispersión de Rayleigh&lt;a class="headerlink" href="#la-ecuacion-para-la-dispersion-de-rayleigh" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Revisemos algunos conceptos de óptica para entender con más profundidad cómo se produce la dispersión de Rayleigh. Imaginemos que tenemos un haz incidente proveniente del Sol, polarizado en el&amp;nbsp;eje &lt;span class="math"&gt;\(z\)&lt;/span&gt;: &lt;span class="math"&gt;\(E_{inc} = \hat{z}E_i\)&lt;/span&gt;, y propagándose en la&amp;nbsp;dirección &lt;span class="math"&gt;\(x\)&lt;/span&gt; (figura 1), que choca con un átomo o molécula de la atmósfera de&amp;nbsp;radio &lt;span class="math"&gt;\(a\)&lt;/span&gt; y&amp;nbsp;permitividad &lt;span class="math"&gt;\(\epsilon_s\)&lt;/span&gt;. La permitividad del aire la denotaremos&amp;nbsp;como &lt;span class="math"&gt;\(\epsilon_0\)&lt;/span&gt; y su permeabilidad magnética&amp;nbsp;como &lt;span class="math"&gt;\(\mu_0\)&lt;/span&gt;. La luz incidente polariza los átomos de la atmósfera y los convierte en pequeños dipolos. El campo eléctrico que produce un pequeño dipolo en la lejanía es aproximadamente &lt;a class="nn-cite" href="#ref-4"&gt;[4]&lt;/a&gt;:&lt;/p&gt;
+&lt;!-- Fórmula dipolo --&gt;
+&lt;div class="math"&gt;$$
+E_\theta \cong -k^2 \mu_0 \epsilon_0 \left(\frac{\epsilon_s-\epsilon_0}{\epsilon_s+2\epsilon_0}\right)\frac{a^3}{r}E_i e^{-ikr} \text{sin}(\theta).
+$$&lt;/div&gt;
+&lt;p&gt;
+Notemos que, por la geometría del problema, las demás componentes del campo eléctrico en coordenadas esféricas son cero. Para el campo magnético tenemos&amp;nbsp;simplemente &lt;span class="math"&gt;\(H_\theta=\sqrt{\epsilon_0/\mu_0}E_\theta\)&lt;/span&gt;.&lt;/p&gt;
+&lt;!-- Imagen geometria --&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/geometry.jpeg"&gt;
+  &lt;figcaption&gt;
+    Figura 1. Geometría para estudiar la dispersión de Rayleigh.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Podemos calcular la potencia dispersada integrando el vector de&amp;nbsp;Poynting &lt;span class="math"&gt;\(\langle S \rangle = \frac{1}{2} \mathcal{Re} \{ \mathbf{E}\times\mathbf{H}^* \}\)&lt;/span&gt; en el ángulo&amp;nbsp;sólido:&lt;/p&gt;
+&lt;!-- Fórmula potencia --&gt;
+&lt;div class="math"&gt;$$
+P_S = \frac{4\pi}{3}\sqrt{\frac{\epsilon_0}{\mu_0}}\left(\frac{\epsilon_s-\epsilon_0}{\epsilon_s+2\epsilon_0}\right)^2\left(\frac{2\pi}{\lambda}\right)^4a^6 |E_i|^2.
+$$&lt;/div&gt;
+&lt;h2 id="los-colores-del-cielo"&gt;Los colores del cielo&lt;a class="headerlink" href="#los-colores-del-cielo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Si nos fijamos en la ecuación anterior, vemos que la potencia dispersada es inversamente proporcional a la longitud de onda a la&amp;nbsp;cuarta &lt;span class="math"&gt;\(1/\lambda^4\)&lt;/span&gt;. Esto significa que, en la atmósfera, la radiación con longitud de onda más corta (violeta y azul) se dispersa más que aquella con longitud de onda mayor (roja y naranja). Esta es la clave para entender por qué a lo largo del día vemos diferentes colores en el&amp;nbsp;cielo. &lt;/p&gt;
+&lt;!-- Imagen earth --&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/earth.jpeg"&gt;
+  &lt;figcaption&gt;
+    Figura 2. Dispersión de la luz del Sol por la atmósfera. Foto tomada de &lt;a href="https://medium.com/@ermal.alibali/why-is-the-sky-blue-a-deep-dive-into-rayleigh-scattering-f652f80e59e0"&gt;
+      Why is the Sky Blue? A Deep Dive into Rayleigh Scattering.
+    &lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Durante las horas centrales del día, los rayos de sol se dispersan en la atmósfera, siendo violeta, azul y verde los colores más predominantes. Por ejemplo, el color azul se dispersa unas nueve veces más que el color rojo. Esto explica por qué durante el día vemos el cielo de color azul en todas las direcciones&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;. Pero, ¿qué ocurre al amanecer y al&amp;nbsp;atardecer?&lt;/p&gt;
+&lt;!-- Imagen cielo azul --&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/cielo_azul.jpg"&gt;
+  &lt;figcaption&gt;
+    Figura 3. El cielo azul en los Pirineos.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id="el-atardecer"&gt;El atardecer&lt;a class="headerlink" href="#el-atardecer" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Pues aquí la clave es la dirección en la que observamos los rayos de luz. Durante el día el Sol está situado verticalmente sobre nosotros. En cambio, durante el amanecer y el atardecer el Sol está situado sobre el horizonte y, por tanto, los rayos de luz recorren una mayor distancia dentro de la atmósfera. Durante este recorrido las longitudes de onda cortas se dispersan mucho más que las largas. Como consecuencia, la luz que llega directamente desde el Sol ha perdido gran parte de sus componentes azules y violetas, quedando enriquecida en las longitudes de onda largas (amarillos, naranjas y&amp;nbsp;rojos).&lt;/p&gt;
+&lt;!-- Imagen atardecer --&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/atardecer_Salamanca.jpg"&gt;
+  &lt;figcaption&gt;
+    Figura 4. Dispersión de Rayleigh en el cielo de Salamanca.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="los-cielos-mas-contaminados-tienen-atardeceres-mas-bonitos"&gt;Los cielos más contaminados tienen atardeceres más bonitos&lt;a class="headerlink" href="#los-cielos-mas-contaminados-tienen-atardeceres-mas-bonitos" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Hay muchos factores atmosféricos que influyen en los colores del amanecer y del atardecer. Cuando hay una mayor concentración de aerosoles —por ejemplo, tras una erupción volcánica, un incendio o en zonas muy contaminadas— aparece además la dispersión de Mie &lt;a class="nn-cite" href="#ref-5"&gt;[5]&lt;/a&gt;. Estas partículas eliminan parte de la luz azul y pueden intensificar los tonos rojizos y anaranjados del amanecer y del atardecer. De hecho, la intensidad de los colores nos puede dar una estimación de la contaminación atmosférica &lt;a class="nn-cite" href="#ref-6"&gt;[6]&lt;/a&gt;. A decir verdad, yo abogo por tener cielos más limpios aunque sean menos&amp;nbsp;coloridos.&lt;/p&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+  &lt;li id="ref-1"&gt;
+    &lt;a href="https://www.noaa.gov/jetstream/atmosphere" &gt;https://www.noaa.gov/jetstream/atmosphere&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-2"&gt;
+    &lt;a href="https://dle.rae.es/dispersi%C3%B3n" &gt;https://dle.rae.es/dispersi%C3%B3n&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-3"&gt;
+    Strutt, &lt;span class="caps"&gt;J. W.&lt;/span&gt;(1871). On the light from the sky, its polarization and colour. &lt;em&gt;The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 41(271), 107–120.&lt;/em&gt;.
+    &lt;a href="https://doi.org/10.1080/14786447108640452" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1080/14786447108640452&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-4"&gt;
+    Griffiths, &lt;span class="caps"&gt;D. J.&lt;/span&gt;(2017). Introduction to Electrodynamics. &lt;em&gt;Cambridge University Press.&lt;/em&gt;.
+    &lt;a href=" https://doi.org/10.1017/9781108333511 " target="_blank" rel="noopener noreferrer"&gt;&amp;nbsp;https://doi.org/10.1017/9781108333511 &lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-5"&gt;
+    Mie, G. (1908). Beiträge zur Optik trüber Medien, speziell kolloidaler Metallösungen. &lt;em&gt;Annalen der Physik 330, 377-445&lt;/em&gt;.
+    &lt;a href="https://doi.org/10.1002/andp.19083300302" target="_blank" rel="noopener noreferrer"&gt;&amp;nbsp;https://doi.org/10.1002/andp.19083300302 &lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-6"&gt;
+    &lt;a href="https://revista.iaa.es/content/la-contaminaci%C3%B3n-lum%C3%ADnica" &gt;https://revista.iaa.es/content/la-contaminaci%C3%B3n-lum%C3%ADnica&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class="footnote"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Para ser más precisos, el color azul se debe al efecto combinado de la dispersión de Rayleigh, a que el ojo humano es poco sensible al violeta y a la absorción del ultravioleta por la capa de ozono.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Física"/><category term="Física"/><category term="Óptica"/></entry><entry><title>A la caza del eclipse total</title><link href="https://napkinnotes.es/eclipse-caza" rel="alternate"/><published>2026-08-11T00:00:00+02:00</published><updated>2026-08-11T00:00:00+02:00</updated><author><name>Paz Albares Vicente</name></author><id>tag:napkinnotes.es,2026-08-11:/eclipse-caza</id><summary type="html">&lt;p&gt;¿Alguna vez te has preguntado cuál es la probabilidad de presenciar un eclipse total a lo largo de tu vida? A las puertas del histórico trío de eclipses ibéricos (2026-2028), acompáñanos a explorar la geometría celeste para descubrir la respuesta. (Imagen de la portada por cortesía de la &lt;span class="caps"&gt;NASA&lt;/span&gt;.)&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#que-es-un-eclipse"&gt;¿Qué es un&amp;nbsp;eclipse?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#hablemos-de-eclipses-solares"&gt;Hablemos de eclipses&amp;nbsp;solares&lt;/a&gt;&lt;/li&gt;
