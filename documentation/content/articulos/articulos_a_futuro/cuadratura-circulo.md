@@ -19,7 +19,7 @@ image: images/cuadratura-circulo-gabri.jpeg
 Muchos han sido los intentos de cuadrar un círculo con las "reglas clásicas de la antigüedad", es decir, construir con "regla y compás" un cuadrado de área igual a un círculo dado. Desde hace 150 años se sabe que es una tarea completamente imposible, al igual que muchas otras, como la trisección del ángulo o la duplicación del cubo (los tres problemas délicos). ¡Comencemos!
 
 
-## 1. Trascendencia de $\pi$ y Teorema de Lindemann-Weierstrass
+## Trascendencia de $\pi$ y Teorema de Lindemann-Weierstrass
 
 Como paso previo imprescindible para demostrar la imposibilidad de la cuadratura del círculo, primero vamos a demostrar que el número $\pi$ es irracional y trascendente sobre $\mathbb{Q}$. Esta parte del artículo es técnica, pero muy recomendable para aquellos lectores que seáis tan amantes de las matemáticas como yo. Si os parece demasiado engorrosa, podéis saltar directamente a la Sección 2.
 
@@ -61,7 +61,7 @@ A continuación vamos a estudiar la relación entre la trascendencia de $\pi$ y 
 ---
 
 
-## 2. Imposibilidad de cuadrar un círculo
+## Imposibilidad de cuadrar un círculo
 
 Para el tema que nos concierne, es suficiente con entender que si $a$ y $b$ son dos puntos construibles con regla y compás, entonces su cociente es construible. Esto será clave para demostrar que es imposible cuadrar el círculo.
 
@@ -74,7 +74,7 @@ Para concluir, supongamos que es posible cuadrar el círculo con regla y compás
 ---
 
 
-## 4. Otros problemas délicos
+## Otros problemas délicos
 
 Además de la imposibilidad de cuadrar el círculo, existen otros dos problemas clásicos que se han demostrado imposibles. El primero es la duplicación del cubo, la cual no es posible porque el polinomio mínimo irreducible de $\sqrt[3]{2}$ es $x^3-2=0$, cuyo grado es 3, y 3 no es una potencia de 2. El otro problema es la trisección del ángulo, que tampoco es posible en general (aunque para algunos ángulos específicos, como el de 90º, sí existe una trisección clásica con regla y compás, mientras que para un ángulo tan simple como 60º resulta imposible). Como curiosidad final, hay otro teorema, el de Gelfond-Schneider, que garantiza que $a^b$ es trascendente si $a$ y $b$ son algebraicos, con $a \neq 0, 1$ y $b$ irracional. Junto con el Teorema de Lindemann sería consecuencia de la Conjetura de Schanuel, que por elmomento no es más que eso, una conjetura. De hecho, el teorema de Gelfond es el resultado del séptimo problema de Hilbert, una lista de 23 problemas matemáticos enunciada por Hilbert a principios del siglo pasado, de los cuales se han resuelto gran parte.
 
