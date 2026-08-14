@@ -221,7 +221,7 @@ AUTHORS = {
     "Gabriel Sánchez Pérez": {
         "url": "https://www.linkedin.com/in/gasape21/",
         "role": "Editor, Responsable de Redes Sociales",
-        "blurb": "Gabriel es doctor en física teórica, un explorador obsesionado con la arquitectura matemática que sostiene el tejido del universo. En sus textos, se propone un desafío constante: traducir la complejidad de la física y la geometría a un lenguaje accesible, sin sacrificar ni un ápice de elegancia ni de rigor. Su enfoque busca desentrañar cómo las leyes fundamentales dan forma a nuestra realidad, convirtiendo abstracciones matemáticas en puentes hacia una comprensión profunda de la naturaleza.",
+        "blurb": "Gabriel es profesor e investigador del Departamento de Matemática Aplicada de la Universidad Pontificia de Comillas, doctor en física teórica, y un explorador obsesionado con la arquitectura matemática que sostiene el tejido del universo. En sus textos, se propone un desafío constante: traducir la complejidad de la física y la geometría a un lenguaje accesible, sin sacrificar ni un ápice de elegancia ni de rigor. Su enfoque busca desentrañar cómo las leyes fundamentales dan forma a nuestra realidad, convirtiendo abstracciones matemáticas en puentes hacia una comprensión profunda de la naturaleza.", 
         "avatar": "images/gabriel.jpeg",
         "caricature": "images/gabriel_caricatura.png",
         "articles_url": "autor/gabriel-sanchez-perez",       
