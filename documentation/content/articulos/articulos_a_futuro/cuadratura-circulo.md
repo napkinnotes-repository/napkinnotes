@@ -8,20 +8,19 @@ status: hidden
 category: Matemáticas
 tags: 
    - geometría
-summary: "Desde pequeños, nos han enseñado que hay tareas fáciles, otras menos sencillas, y otras que
-directamente son imposibles. En la Napkin de hoy hablaremos de una de estas últimas, más
-concretamente sobre la imposibilidad de la cuadratura del círculo."
+summary: "Desde pequeños nos han enseñado que hay tareas fáciles, otras menos sencillas, y otras que
+directamente son imposibles. En la *Napkin* de hoy hablaremos de una de estas últimas: la imposibilidad de cuadrar el círculo."
 image: images/cuadratura-circulo-gabri.jpeg
 ---
 
 [TOC]
 
-Muchos han sido los intentos de cuadrar un círculo con las "reglas clásicas de la antigüedad", es decir, construir con "regla y compás" un cuadrado de área igual a un círculo dado. Desde hace 150 años se sabe que es una tarea completamente imposible, al igual que muchas otras, como la trisección del ángulo o la duplicación del cubo (los tres problemas délicos). ¡Comencemos!
+Muchos han sido los intentos de cuadrar un círculo con los métodos de la Antigüedad clásica, es decir, construir con "regla y compás" un cuadrado de área igual a la de un círculo dado. Desde hace casi 150 años se sabe que es una tarea completamente imposible, al igual que muchas otras, como la trisección del ángulo o la duplicación del cubo (los tres problemas délicos). ¡Comencemos!
 
 
 ## Trascendencia de $\pi$ y Teorema de Lindemann-Weierstrass
 
-Como paso previo imprescindible para demostrar la imposibilidad de la cuadratura del círculo, primero vamos a demostrar que el número $\pi$ es irracional y trascendente sobre $\mathbb{Q}$. Esta parte del artículo es técnica, pero muy recomendable para aquellos lectores que seáis tan amantes de las matemáticas como yo. Si os parece demasiado engorrosa, podéis saltar directamente a la Sección 2.
+Como paso previo imprescindible para demostrar la imposibilidad de la cuadratura del círculo, primero vamos a demostrar que el número $\pi$ es irracional y trascendente sobre $\mathbb{Q}$. Esta parte del artículo es técnica, pero muy recomendable para aquellos lectores que seáis tan amantes de las matemáticas como yo. Si os parece demasiado engorrosa, podéis saltar directamente a la [Sección 2](#imposibilidad-de-cuadrar-un-círculo).
 
 Como sabéis, que un número sea irracional significa que no se puede poner como cociente de dos números enteros. La trascendencia es una propiedad algo menos conocida, pero viene a significar que el número en cuestión no es solución de ninguna ecuación algebraica sobre cierto cuerpo (en nuestro caso, $\mathbb{Q}$). Lo contrario a ser trascendente es ser algebraico. Fijémonos que todo número trascendente es necesariamente irracional. En efecto, supongamos que un número trascendente $p$ es racional. Entonces $p=\displaystyle\frac{a}{b}$ para ciertos enteros $a$ y $b$. Construimos el polinomio $P(x)=bx-a$, y como tiene por raíz a $p$, entonces $p$ es algebraico. Habiendo llegado a una contradicción, es claro que todo número trascendente es irracional. Por consiguiente, es suficiente con que probemos la trascendencia de $\pi$, la cual una vez demostrada veremos en la Sección 2 que implica la imposibilidad de cuadrar un círculo con regla y compás.
 
