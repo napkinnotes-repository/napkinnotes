@@ -123,9 +123,9 @@ Además de la imposibilidad de cuadrar el círculo, existen otros dos problemas 
 
 Artículos históricos originales:
 
-Lindemann, F. (1882). "Über die Zahl $\pi$". Mathematische Annalen, 20(2), 213-225. (El articulo original en el que Ferdinand von Lindemann demostro la trascendencia de \pi).
+Lindemann, F. (1882). "Über die Zahl $\pi$". Mathematische Annalen, 20(2), 213-225. (El articulo original en el que Ferdinand von Lindemann demostró la trascendencia de \pi).
 
-Wantzel, L. (1837). "Recherches sur les moyens de reconnaître si un Problème de Géométrie peut se résoudre avec la regla et le compas". Journal de Mathématiques Pures et Appliquées, 1, 366-372. (Trabajo fundamental donde Pierre Wantzel demostro los criterios de construibilidad con regla y compas, imposibilitando la duplicacion del cubo y la trisección del ángulo).
+Wantzel, L. (1837). "Recherches sur les moyens de reconnaître si un Problème de Géométrie peut se résoudre avec la regla et le compas". Journal de Mathématiques Pures et Appliquées, 1, 366-372. (Trabajo fundamental donde Pierre Wantzel demostró los criterios de construibilidad con regla y compás, imposibilitando la duplicación del cubo y la trisección del ángulo).
 
 Libros sobre trascendencia y teoría de números:
 
@@ -135,9 +135,9 @@ Niven, I. (1956). Irrational Numbers. Carus Mathematical Monographs, Mathematica
 
 Libros sobre Teoría de Galois y construcciones geométricas
 
-Cox, D. A. (2012). Galois Theory (2.ª ed.). John Wiley & Sons. (Trata con gran detalle y rigor la relacion entre extensiones de cuerpos, polinomios minimos, numeros construibles y la imposibilidad de los tres problemas delicos).
+Cox, D. A. (2012). Galois Theory (2.ª ed.). John Wiley & Sons. (Trata con gran detalle y rigor la relación entre extensiones de cuerpos, polinomios mínimos, números construibles y la imposibilidad de los tres problemas délicos).
 
-Stewart, I. (2015). Galois Theory (4.ª ed.). CRC Press. (Un manual clásico, pedagogico y formal que explica la teoría de cuerpos aplicada a los problemas clásicos de la geometría antigua).
+Stewart, I. (2015). Galois Theory (4.ª ed.). CRC Press. (Un manual clásico, pedagógico y formal que explica la teoría de cuerpos aplicada a los problemas clásicos de la geometría antigua).
 
 Historia y Problemas de Hilbert
 
