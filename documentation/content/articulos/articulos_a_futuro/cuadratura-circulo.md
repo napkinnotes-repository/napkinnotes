@@ -54,9 +54,9 @@ $J_i=\sum_{k=1}^n \beta_k I_i(\alpha_k)=\sum_{j=0}^{np-1}f_i^{(j)}(0)\sum_{k=1}^
 
 por lo que $J_i=-\sum_{k=1}^n\sum_{j=0}^{np-1}\beta_kf_i^{(j)}(\alpha_k)$, donde en la última igualdad hemos usado la hipótesis del absurdo. 
 
-Si $j\geq p$ entonces $f_i^{(j)}(\alpha_k)$ es un entero algebraico múltiplo de $p!$. Si $j<p-1$ es claro que $f_i^{(j)}(\alpha_k)=0$. Si $j=p-1$ y $k=i$ entonces $f_i^{(j)}(\alpha_k)=l^{np}(p-1)!\prod_{m\neq i}(\alpha_m-\alpha_i)$. Este entero no es divisible por $p$ haciendo uso del famoso Pequeño Teorema de Fermat. Por tanto $J_i$ es divisible por $(p-1)!$. A
+Si $j\geq p$ entonces $f_i^{(j)}(\alpha_k)$ es un entero algebraico múltiplo de $p!$. Si $j<p-1$ es claro que $f_i^{(j)}(\alpha_k)=0$. Si $j=p-1$ y $k=i$ entonces $f_i^{(j)}(\alpha_k)=l^{np}(p-1)!\prod_{m\neq i}(\alpha_m-\alpha_i)$. Este entero no es divisible por $p$ haciendo uso del famoso Pequeño Teorema de Fermat. Por tanto $J_i$ es divisible por $(p-1)!$. 
 
-hora, reescribiendo $J_i$ como sigue:
+Ahora, reescribiendo $J_i$ como sigue:
 
 $J_i=-\sum_{j=0}^{np-1}\sum_{t=0}^{r-1}c(t+1)(f_i^{(j)}(\alpha_{n_t+1})+...+f_i^{(j)}(\alpha_{n_{t+1}})),$
 
@@ -70,7 +70,7 @@ Si $b(1),...,b(n)$ son naturales y $y(1),...,y(n)$ son algebraicos y diferentes,
 
 *Demostración*
 
-Construyamos un polinomio con coeficientes enteros cuyas raíces sean$y(1),...,y(n),y(n+1),...,y(N)$ y definamos $b(n+1)=...=b(N)=0$. 
+Construyamos un polinomio con coeficientes enteros cuyas raíces sean $y(1),...,y(n),y(n+1),...,y(N)$ y definamos $b(n+1)=...=b(N)=0$. 
 
 Si suponemos que el enunciado es falso, es claro que $\prod_{\sigma\in S_N}(b(1)e^{y(\sigma(1))}+...+b(N)e^{y(\sigma(N))})=0$, donde estamos considerando todas las permutaciones. Pero si expandimos ese productorio nos aparecen términos en exponenciales simétricas y al agrupar nos vamos a encontrar con una suma semejante a la del enunciado del Lema 1. Puede probarse que se satisfacen dichas hipótesis, lo cual es contradictorio y prueba el Lema 2.
 
