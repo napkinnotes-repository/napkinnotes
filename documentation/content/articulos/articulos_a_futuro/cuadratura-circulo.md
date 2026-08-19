@@ -29,6 +29,7 @@ Fijémonos que todo número trascendente es necesariamente irracional. En efecto
 Antes de enunciar y demostrar el Teorema de Lindemann-Weierstrass comenzaremos por dos resultados intermedios previos.
 
 **Lema 1**
+
 Dados $c(i) \neq 0 \ \forall i\in\mathbb{Z}\cap [1,r]$, sean $\{y(k)_1,..., y(k)_{m(k)}\}$ las raíces de un polinomio con coeficientes enteros $T_k(x)=v(k) x^{m(k)}+...+u(k)$ $\forall k\in[1,r]$ y con $u(k), v(k)\neq 0$. Entonces si $y(k)_i\neq y(u)_v$ con $(k, i)\neq (u, v)$, se tiene que $\sum_{i=1}^r{c(i)(e^{y(i)_1}+...+e^{y(i)_{m(i)}})}\neq 0$.
 
 *Demostración*
@@ -45,6 +46,7 @@ $J_i=-\sum_{j=0}^{np-1}\sum_{t=0}^{r-1}c(t+1)(f_i^{(j)}(\alpha_{n_t+1})+...+f_i^
 y usando el Teorema Fundamental de polinomios simétricos, se puede probar que $J_i$ es un polinomio $G(\alpha_i)$, por lo que $\vert{}J_1...J_n\vert{}$ es un entero divisible por $(p-1)!^n$. La contradicción llega del hecho de que $\vert{}I_i(\alpha_k)\vert{}\leq \vert{}\alpha_k\vert{} e^{\vert{}\alpha_k\vert{}}F_i(\vert{}\alpha_k\vert{})$ donde $F_i(x)$ es el polinomio cuyos coeficientes son los de $f_i(x)$ en valor absoluto. Pero entonces $J_i\leq\sum_{k=1}^n\vert{}\alpha_k\beta_k\vert{}e^{\vert{}\alpha_k\vert{}}F_i(\vert{}\alpha_k\vert{})$ por lo que de alguna forma $\vert{}J_1...J_n\vert{}$ está acotado superiormente por cierto $N^p$, lo cual contradice la desigualdad anterior ya que $p$ es arbitrario y la cota inferior supera a la superior para $p$ suficientemente grande.
 
 **Lema 2** 
+
 Si $b(1),...,b(n)$ son naturales y $y(1),...,y(n)$ son algebraicos y diferentes, entonces $b(1)e^{y(1)}+...+b(n)e^{y(n)}\neq 0$.
 
 *Demostración*
@@ -54,6 +56,7 @@ Construyamos un polinomio con coeficientes enteros cuyas raíces sean $y(1),...,
 Ahora sí, estamos en disposición de demostrar el Teorema fundamental de esta sección.
 
 **Teorema de Lindemann-Weierstrass**
+
 Si $\alpha_1,...,\alpha_n$ son números algebraicos no nulos y $\beta_1,...,\beta_n$ son números algebraicos distintos, entonces $\alpha_1e^{\beta_1}+...+\alpha_ne^{\beta_n}\neq 0$.
 
 *Demostración*
@@ -63,6 +66,7 @@ Se deja como ejercicio a los lectores más aventureros. Como pista, os diré que
 Por último, veamos que $\pi$ es un número trascendente.
 
 **Corolario** 
+
 El número $\pi$ es trascendente.
 
 *Demostración* 
