@@ -34,16 +34,35 @@ Dados $c(i) \neq 0 \ \forall i\in\mathbb{Z}\cap [1,r]$, sean $\{y(k)_1,..., y(k)
 
 *Demostración*
 
-En primer lugar la expresión final del enunciado puede ser escrita como
+En primer lugar, la expresión final del enunciado puede ser escrita como
 $S=\sum_{k=1}^n\beta_k e^{\alpha_k}\neq 0,$
-donde $n_0=0$, $n=n_r$, $n_i=\sum_{k=1}^i m(k)$ con $i=1, ..., r$, $\alpha_{n_i+j}=y(i+1)_j$ con $0\leq i\leq r-1$, $1\leq j\leq m(i+1)$ y $\beta_{n_i+j}=c(i+1)$. Supongamos que $S=0$ para llegar a una contradicción. Sea ahora
+donde $n_0=0$, $n=n_r$, $n_i=\sum_{k=1}^i m(k)$ con $i=1, ..., r$, $\alpha_{n_i+j}=y(i+1)_j$ con $0\leq i\leq r-1$, $1\leq j\leq m(i+1)$ y $\beta_{n_i+j}=c(i+1)$. 
+
+Supongamos que $S=0$ para llegar a una contradicción. 
+
+Sea ahora
 $f_i(x):=\frac{l^{np}(x-\alpha_1)^p...(x-\alpha_n)^p}{(x-\alpha_i)},$
-con $l$ entero y construyamos $I_i(s)=\int_0^s e^{s-x}f_i(x) dx=e^s\sum_{j=0}^{np-1}f_i^{(j)}(0)-\sum_{j=0}^{np-1}f_i^{(j)}(s)$ integrando por partes. En caso de que $s$ sea complejo integramos en un contorno cerrado que pase por la recta real y usamos el Teorema de Cauchy. Ahora evaluemos la suma
+con $l$ entero y construyamos:
+
+$I_i(s)=\int_0^s e^{s-x}f_i(x) dx=e^s\sum_{j=0}^{np-1}f_i^{(j)}(0)-\sum_{j=0}^{np-1}f_i^{(j)}(s)$ 
+
+integrando por partes. En caso de que $s$ sea complejo integramos en un contorno cerrado que pase por la recta real y usamos el Teorema de Cauchy.
+
+Ahora evaluemos la suma:
+
 $J_i=\sum_{k=1}^n \beta_k I_i(\alpha_k)=\sum_{j=0}^{np-1}f_i^{(j)}(0)\sum_{k=1}^n\beta_ke^{\alpha_k}-\sum_{k=1}^n\sum_{j=0}^{np-1}\beta_k f_i^{(j)}(\alpha_k),$
-por lo que
-$J_i=-\sum_{k=1}^n\sum_{j=0}^{np-1}\beta_kf_i^{(j)}(\alpha_k)$, donde en la última igualdad hemos usado la hipótesis del absurdo. Si $j\geq p$ entonces $f_i^{(j)}(\alpha_k)$ es un entero algebraico múltiplo de $p!$. Si $j<p-1$ es claro que $f_i^{(j)}(\alpha_k)=0$ y si $j=p-1$ y $k=i$ entonces $f_i^{(j)}(\alpha_k)=l^{np}(p-1)!\prod_{m\neq i}(\alpha_m-\alpha_i)$. Este entero no es divisible por $p$ haciendo uso del famoso Pequeño Teorema de Fermat. Por tanto $J_i$ es divisible por $(p-1)!$. Ahora, reescribiendo $J_i$ como sigue:
+
+por lo que $J_i=-\sum_{k=1}^n\sum_{j=0}^{np-1}\beta_kf_i^{(j)}(\alpha_k)$, donde en la última igualdad hemos usado la hipótesis del absurdo. 
+
+Si $j\geq p$ entonces $f_i^{(j)}(\alpha_k)$ es un entero algebraico múltiplo de $p!$. Si $j<p-1$ es claro que $f_i^{(j)}(\alpha_k)=0$. Si $j=p-1$ y $k=i$ entonces $f_i^{(j)}(\alpha_k)=l^{np}(p-1)!\prod_{m\neq i}(\alpha_m-\alpha_i)$. Este entero no es divisible por $p$ haciendo uso del famoso Pequeño Teorema de Fermat. Por tanto $J_i$ es divisible por $(p-1)!$. A
+
+hora, reescribiendo $J_i$ como sigue:
+
 $J_i=-\sum_{j=0}^{np-1}\sum_{t=0}^{r-1}c(t+1)(f_i^{(j)}(\alpha_{n_t+1})+...+f_i^{(j)}(\alpha_{n_{t+1}})),$
-y usando el Teorema Fundamental de polinomios simétricos, se puede probar que $J_i$ es un polinomio $G(\alpha_i)$, por lo que $\vert{}J_1...J_n\vert{}$ es un entero divisible por $(p-1)!^n$. La contradicción llega del hecho de que $\vert{}I_i(\alpha_k)\vert{}\leq \vert{}\alpha_k\vert{} e^{\vert{}\alpha_k\vert{}}F_i(\vert{}\alpha_k\vert{})$ donde $F_i(x)$ es el polinomio cuyos coeficientes son los de $f_i(x)$ en valor absoluto. Pero entonces $J_i\leq\sum_{k=1}^n\vert{}\alpha_k\beta_k\vert{}e^{\vert{}\alpha_k\vert{}}F_i(\vert{}\alpha_k\vert{})$ por lo que de alguna forma $\vert{}J_1...J_n\vert{}$ está acotado superiormente por cierto $N^p$, lo cual contradice la desigualdad anterior ya que $p$ es arbitrario y la cota inferior supera a la superior para $p$ suficientemente grande.
+
+y usando el Teorema Fundamental de polinomios simétricos, se puede probar que $J_i$ es un polinomio $G(\alpha_i)$, por lo que $\vert{}J_1...J_n\vert{}$ es un entero divisible por $(p-1)!^n$. 
+
+La contradicción llega del hecho de que $\vert{}I_i(\alpha_k)\vert{}\leq \vert{}\alpha_k\vert{} e^{\vert{}\alpha_k\vert{}}F_i(\vert{}\alpha_k\vert{})$ donde $F_i(x)$ es el polinomio cuyos coeficientes son los de $f_i(x)$ en valor absoluto. Pero entonces $J_i\leq\sum_{k=1}^n\vert{}\alpha_k\beta_k\vert{}e^{\vert{}\alpha_k\vert{}}F_i(\vert{}\alpha_k\vert{})$ por lo que de alguna forma $\vert{}J_1...J_n\vert{}$ está acotado superiormente por cierto $N^p$, lo cual contradice la desigualdad anterior ya que $p$ es arbitrario y la cota inferior supera a la superior para $p$ suficientemente grande.
 
 **Lema 2** 
 
@@ -51,7 +70,9 @@ Si $b(1),...,b(n)$ son naturales y $y(1),...,y(n)$ son algebraicos y diferentes,
 
 *Demostración*
 
-Construyamos un polinomio con coeficientes enteros cuyas raíces sean $y(1),...,y(n),y(n+1),...,y(N)$ y definamos $b(n+1)=...=b(N)=0$. Si suponemos que el enunciado es falso, es claro que $\prod_{\sigma\in S_N}(b(1)e^{y(\sigma(1))}+...+b(N)e^{y(\sigma(N))})=0$, donde estamos considerando todas las permutaciones. Pero si expandimos ese productorio nos aparecen términos en exponenciales simétricas y al agrupar nos vamos a encontrar con una suma semejante a la del enunciado del Lema 1. Puede probarse que se satisfacen dichas hipótesis, lo cual es contradictorio y prueba el Lema 2.
+Construyamos un polinomio con coeficientes enteros cuyas raíces sean$y(1),...,y(n),y(n+1),...,y(N)$ y definamos $b(n+1)=...=b(N)=0$. 
+
+Si suponemos que el enunciado es falso, es claro que $\prod_{\sigma\in S_N}(b(1)e^{y(\sigma(1))}+...+b(N)e^{y(\sigma(N))})=0$, donde estamos considerando todas las permutaciones. Pero si expandimos ese productorio nos aparecen términos en exponenciales simétricas y al agrupar nos vamos a encontrar con una suma semejante a la del enunciado del Lema 1. Puede probarse que se satisfacen dichas hipótesis, lo cual es contradictorio y prueba el Lema 2.
 
 Ahora sí, estamos en disposición de demostrar el Teorema fundamental de esta sección.
 
@@ -63,7 +84,7 @@ Si $\alpha_1,...,\alpha_n$ son números algebraicos no nulos y $\beta_1,...,\bet
 
 Se deja como ejercicio a los lectores más aventureros. Como pista, os diré que se prueba de forma muy parecida al Lema 2.
 
-Por último, veamos que $\pi$ es un número trascendente.
+Por último, veamos que $\pi$ es un número trascendente:
 
 **Corolario** 
 
