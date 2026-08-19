@@ -9,7 +9,7 @@ category: Matemáticas
 tags: 
    - geometría
 summary: "Desde pequeños nos han enseñado que hay tareas fáciles, otras menos sencillas, y otras que
-directamente son imposibles. En la *Napkin* de hoy hablaremos de una de estas últimas: la imposibilidad de cuadrar el círculo."
+directamente son imposibles. En la *napkin* de hoy hablaremos de una de estas últimas: la imposibilidad de cuadrar el círculo."
 image: images/cuadratura-circulo-gabri.jpeg
 ---
 
