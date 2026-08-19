@@ -123,7 +123,7 @@ Además de la imposibilidad de cuadrar el círculo, existen otros dos problemas 
 
 Artículos históricos originales:
 
-Lindemann, F. (1882). "Über die Zahl $\pi$". Mathematische Annalen, 20(2), 213-225. (El articulo original en el que Ferdinand von Lindemann demostró la trascendencia de \pi).
+Lindemann, F. (1882). "Über die Zahl $\pi$". Mathematische Annalen, 20(2), 213-225. (El artículo original en el que Ferdinand von Lindemann demostró la trascendencia de \pi).
 
 Wantzel, L. (1837). "Recherches sur les moyens de reconnaître si un Problème de Géométrie peut se résoudre avec la regla et le compas". Journal de Mathématiques Pures et Appliquées, 1, 366-372. (Trabajo fundamental donde Pierre Wantzel demostró los criterios de construibilidad con regla y compás, imposibilitando la duplicación del cubo y la trisección del ángulo).
 
