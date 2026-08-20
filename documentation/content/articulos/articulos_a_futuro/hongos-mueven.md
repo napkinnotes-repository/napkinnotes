@@ -8,8 +8,8 @@ status: hidden
 category: Micología
 tags:
  - hongos
-summary: "Los hongos filamentosos se mueven desplazando su propio contenido citoplasmático u organelas a través de sus hifas mediante el proceso de ciclosis. De este modo, mueven sus "vísceras" internamente hacia sus extremos activos para interactuar, alimentarse y crecer en su entorno."
-image: imeges/DSC_4918.jpeg
+summary: "Los hongos filamentosos se mueven desplazando su propio contenido citoplasmático u organelas a través de sus hifas mediante el proceso de ciclosis. De este modo, mueven sus vísceras internamente hacia sus extremos activos para interactuar, alimentarse y crecer en su entorno."
+image: images/DSC_4918.jpeg
 ---
 
 [TOC]
