@@ -3,8 +3,7 @@ title: Sobre la imposibilidad de cuadrar el círculo
 author: Gabriel Sánchez Pérez
 date:  2026-08-20
 layout: articles
-slug: prueba-articulo-gabri
-status: hidden
+status: published
 category: Matemáticas
 tags: 
    - geometría
