@@ -1,5 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-08-13T00:00:00+02:00</updated><entry><title>¿Por qué es naranja el atardecer?</title><link href="https://napkinnotes.es/el-atardecer" rel="alternate"/><published>2026-08-13T00:00:00+02:00</published><updated>2026-08-13T00:00:00+02:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-08-13:/el-atardecer</id><summary type="html">&lt;p&gt;El cielo cambia de color a lo largo del día. Comenzamos el día con un precioso color anaranjado, después se tiñe de azul y, cuando llega el atardecer, volvemos a ver los colores cálidos en el ocaso. Detrás de este festival cromático se esconde un fenómeno físico interesantísimo. Lo explicamos en esta&amp;nbsp;servilleta.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-08-20T00:00:00+02:00</updated><entry><title>Sobre la imposibilidad de cuadrar el círculo</title><link href="https://napkinnotes.es/sobre-la-imposibilidad-de-cuadrar-el-circulo" rel="alternate"/><published>2026-08-20T00:00:00+02:00</published><updated>2026-08-20T00:00:00+02:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-08-20:/sobre-la-imposibilidad-de-cuadrar-el-circulo</id><summary type="html">&lt;p&gt;Desde pequeños nos han enseñado que hay tareas fáciles, otras menos sencillas, y otras que directamente son imposibles. En la &lt;em&gt;napkin&lt;/em&gt; de hoy hablaremos de una de estas últimas: la imposibilidad de cuadrar el&amp;nbsp;círculo.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#trascendencia-de-pi-y-teorema-de-lindemann-weierstrass"&gt;Trascendencia de \(\pi\) y Teorema de&amp;nbsp;Lindemann-Weierstrass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#imposibilidad-de-cuadrar-un-circulo"&gt;Imposibilidad de cuadrar un&amp;nbsp;círculo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#otros-problemas-delicos"&gt;Otros problemas&amp;nbsp;délicos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#bibliografia"&gt;Bibliografía&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Muchos han sido los intentos de cuadrar un círculo con los métodos de la Antigüedad clásica, es decir, construir con &amp;#8220;regla y compás&amp;#8221; un cuadrado de área igual a la de un círculo dado. Desde hace casi 150 años se sabe que es una tarea completamente imposible, al igual que muchas otras, como la trisección del ángulo o la duplicación del cubo (los tres problemas délicos).&amp;nbsp;¡Comencemos!&lt;/p&gt;
+&lt;h2 id="trascendencia-de-pi-y-teorema-de-lindemann-weierstrass"&gt;Trascendencia&amp;nbsp;de &lt;span class="math"&gt;\(\pi\)&lt;/span&gt; y Teorema de Lindemann-Weierstrass&lt;a class="headerlink" href="#trascendencia-de-pi-y-teorema-de-lindemann-weierstrass" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Como paso previo imprescindible para demostrar la imposibilidad de la cuadratura del círculo, primero vamos a demostrar que el&amp;nbsp;número &lt;span class="math"&gt;\(\pi\)&lt;/span&gt; es irracional y trascendente&amp;nbsp;sobre &lt;span class="math"&gt;\(\mathbb{Q}\)&lt;/span&gt;. Esta parte del artículo es técnica, pero muy recomendable para aquellos lectores que seáis tan amantes de las matemáticas como yo. Si os parece demasiado engorrosa, podéis saltar directamente a la &lt;a href="#imposibilidad-de-cuadrar-un-círculo"&gt;Sección 2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Como sabéis, que un número sea irracional significa que no se puede poner como cociente de dos números enteros. La trascendencia es una propiedad algo menos conocida, pero viene a significar que el número en cuestión no es solución de ninguna ecuación algebraica sobre cierto cuerpo (en nuestro&amp;nbsp;caso, &lt;span class="math"&gt;\(\mathbb{Q}\)&lt;/span&gt;). Lo contrario a ser trascendente es ser&amp;nbsp;algebraico. &lt;/p&gt;
+&lt;p&gt;Fijémonos que todo número trascendente es necesariamente irracional. En efecto, supongamos que un número&amp;nbsp;trascendente &lt;span class="math"&gt;\(p\)&lt;/span&gt; es racional.&amp;nbsp;Entonces &lt;span class="math"&gt;\(p=\displaystyle\frac{a}{b}\)&lt;/span&gt; para ciertos&amp;nbsp;enteros &lt;span class="math"&gt;\(a\)&lt;/span&gt; y &lt;span class="math"&gt;\(b\)&lt;/span&gt;. Construimos el&amp;nbsp;polinomio &lt;span class="math"&gt;\(P(x)=bx-a\)&lt;/span&gt;, y como tiene por raíz&amp;nbsp;a &lt;span class="math"&gt;\(p\)&lt;/span&gt;,&amp;nbsp;entonces &lt;span class="math"&gt;\(p\)&lt;/span&gt; es algebraico. Habiendo llegado a una contradicción, es claro que todo número trascendente es irracional. Por consiguiente, es suficiente con que probemos la trascendencia&amp;nbsp;de &lt;span class="math"&gt;\(\pi\)&lt;/span&gt;, la cual una vez demostrada veremos en la Sección 2 que implica la imposibilidad de cuadrar un círculo con regla y&amp;nbsp;compás.&lt;/p&gt;
+&lt;p&gt;Antes de enunciar y demostrar el Teorema de Lindemann-Weierstrass comenzaremos por dos resultados intermedios&amp;nbsp;previos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lema&amp;nbsp;1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dados &lt;span class="math"&gt;\(c(i) \neq 0 \ \forall i\in\mathbb{Z}\cap [1,r]\)&lt;/span&gt;,&amp;nbsp;sean &lt;span class="math"&gt;\(\{y(k)_1,..., y(k)_{m(k)}\}\)&lt;/span&gt; las raíces de un polinomio con coeficientes&amp;nbsp;enteros &lt;span class="math"&gt;\(T_k(x)=v(k) x^{m(k)}+...+u(k)\)&lt;/span&gt; &lt;span class="math"&gt;\(\forall k\in[1,r]\)&lt;/span&gt; y&amp;nbsp;con &lt;span class="math"&gt;\(u(k), v(k)\neq 0\)&lt;/span&gt;. Entonces&amp;nbsp;si &lt;span class="math"&gt;\(y(k)_i\neq y(u)_v\)&lt;/span&gt; con &lt;span class="math"&gt;\((k, i)\neq (u, v)\)&lt;/span&gt;, se tiene&amp;nbsp;que &lt;span class="math"&gt;\(\sum_{i=1}^r{c(i)(e^{y(i)_1}+...+e^{y(i)_{m(i)}})}\neq 0\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Demostración&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;En primer lugar, la expresión final del enunciado puede ser escrita&amp;nbsp;como
+&lt;span class="math"&gt;\(S=\sum_{k=1}^n\beta_k e^{\alpha_k}\neq 0,\)&lt;/span&gt;
+donde &lt;span class="math"&gt;\(n_0=0\)&lt;/span&gt;, &lt;span class="math"&gt;\(n=n_r\)&lt;/span&gt;, &lt;span class="math"&gt;\(n_i=\sum_{k=1}^i m(k)\)&lt;/span&gt; con &lt;span class="math"&gt;\(i=1, ..., r\)&lt;/span&gt;, &lt;span class="math"&gt;\(\alpha_{n_i+j}=y(i+1)_j\)&lt;/span&gt; con &lt;span class="math"&gt;\(0\leq i\leq r-1\)&lt;/span&gt;, &lt;span class="math"&gt;\(1\leq j\leq m(i+1)\)&lt;/span&gt; y &lt;span class="math"&gt;\(\beta_{n_i+j}=c(i+1)\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;Supongamos&amp;nbsp;que &lt;span class="math"&gt;\(S=0\)&lt;/span&gt; para llegar a una&amp;nbsp;contradicción. &lt;/p&gt;
+&lt;p&gt;Sea&amp;nbsp;ahora
+&lt;span class="math"&gt;\(f_i(x):=\frac{l^{np}(x-\alpha_1)^p...(x-\alpha_n)^p}{(x-\alpha_i)},\)&lt;/span&gt;
+con &lt;span class="math"&gt;\(l\)&lt;/span&gt; entero y&amp;nbsp;construyamos:&lt;/p&gt;
+&lt;p&gt;&lt;span class="math"&gt;\(I_i(s)=\int_0^s e^{s-x}f_i(x) dx=e^s\sum_{j=0}^{np-1}f_i^{(j)}(0)-\sum_{j=0}^{np-1}f_i^{(j)}(s)\)&lt;/span&gt; &lt;/p&gt;
+&lt;p&gt;integrando por partes. En caso de&amp;nbsp;que &lt;span class="math"&gt;\(s\)&lt;/span&gt; sea complejo integramos en un contorno cerrado que pase por la recta real y usamos el Teorema de&amp;nbsp;Cauchy.&lt;/p&gt;
+&lt;p&gt;Ahora evaluemos la&amp;nbsp;suma:&lt;/p&gt;
+&lt;p&gt;&lt;span class="math"&gt;\(J_i=\sum_{k=1}^n \beta_k I_i(\alpha_k)=\sum_{j=0}^{np-1}f_i^{(j)}(0)\sum_{k=1}^n\beta_ke^{\alpha_k}-\sum_{k=1}^n\sum_{j=0}^{np-1}\beta_k f_i^{(j)}(\alpha_k),\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;por lo&amp;nbsp;que &lt;span class="math"&gt;\(J_i=-\sum_{k=1}^n\sum_{j=0}^{np-1}\beta_kf_i^{(j)}(\alpha_k)\)&lt;/span&gt;, donde en la última igualdad hemos usado la hipótesis del&amp;nbsp;absurdo. &lt;/p&gt;
+&lt;p&gt;Si &lt;span class="math"&gt;\(j\geq p\)&lt;/span&gt; entonces &lt;span class="math"&gt;\(f_i^{(j)}(\alpha_k)\)&lt;/span&gt; es un entero algebraico múltiplo&amp;nbsp;de &lt;span class="math"&gt;\(p!\)&lt;/span&gt;.&amp;nbsp;Si &lt;span class="math"&gt;\(j&amp;lt;p-1\)&lt;/span&gt; es claro&amp;nbsp;que &lt;span class="math"&gt;\(f_i^{(j)}(\alpha_k)=0\)&lt;/span&gt;.&amp;nbsp;Si &lt;span class="math"&gt;\(j=p-1\)&lt;/span&gt; y &lt;span class="math"&gt;\(k=i\)&lt;/span&gt; entonces &lt;span class="math"&gt;\(f_i^{(j)}(\alpha_k)=l^{np}(p-1)!\prod_{m\neq i}(\alpha_m-\alpha_i)\)&lt;/span&gt;. Este entero no es divisible&amp;nbsp;por &lt;span class="math"&gt;\(p\)&lt;/span&gt; haciendo uso del famoso Pequeño Teorema de Fermat. Por&amp;nbsp;tanto &lt;span class="math"&gt;\(J_i\)&lt;/span&gt; es divisible&amp;nbsp;por &lt;span class="math"&gt;\((p-1)!\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;Ahora,&amp;nbsp;reescribiendo &lt;span class="math"&gt;\(J_i\)&lt;/span&gt; como&amp;nbsp;sigue:&lt;/p&gt;
+&lt;p&gt;&lt;span class="math"&gt;\(J_i=-\sum_{j=0}^{np-1}\sum_{t=0}^{r-1}c(t+1)(f_i^{(j)}(\alpha_{n_t+1})+...+f_i^{(j)}(\alpha_{n_{t+1}})),\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;y usando el Teorema Fundamental de polinomios simétricos, se puede probar&amp;nbsp;que &lt;span class="math"&gt;\(J_i\)&lt;/span&gt; es un&amp;nbsp;polinomio &lt;span class="math"&gt;\(G(\alpha_i)\)&lt;/span&gt;, por lo&amp;nbsp;que &lt;span class="math"&gt;\(\vert{}J_1...J_n\vert{}\)&lt;/span&gt; es un entero divisible&amp;nbsp;por &lt;span class="math"&gt;\((p-1)!^n\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;La contradicción llega del hecho de&amp;nbsp;que &lt;span class="math"&gt;\(\vert{}I_i(\alpha_k)\vert{}\leq \vert{}\alpha_k\vert{} e^{\vert{}\alpha_k\vert{}}F_i(\vert{}\alpha_k\vert{})\)&lt;/span&gt; donde &lt;span class="math"&gt;\(F_i(x)\)&lt;/span&gt; es el polinomio cuyos coeficientes son los&amp;nbsp;de &lt;span class="math"&gt;\(f_i(x)\)&lt;/span&gt; en valor absoluto. Pero&amp;nbsp;entonces &lt;span class="math"&gt;\(J_i\leq\sum_{k=1}^n\vert{}\alpha_k\beta_k\vert{}e^{\vert{}\alpha_k\vert{}}F_i(\vert{}\alpha_k\vert{})\)&lt;/span&gt; por lo que de alguna&amp;nbsp;forma &lt;span class="math"&gt;\(\vert{}J_1...J_n\vert{}\)&lt;/span&gt; está acotado superiormente por&amp;nbsp;cierto &lt;span class="math"&gt;\(N^p\)&lt;/span&gt;, lo cual contradice la desigualdad anterior ya&amp;nbsp;que &lt;span class="math"&gt;\(p\)&lt;/span&gt; es arbitrario y la cota inferior supera a la superior&amp;nbsp;para &lt;span class="math"&gt;\(p\)&lt;/span&gt; suficientemente&amp;nbsp;grande.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lema&amp;nbsp;2&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;Si &lt;span class="math"&gt;\(b(1),...,b(n)\)&lt;/span&gt; son naturales&amp;nbsp;y &lt;span class="math"&gt;\(y(1),...,y(n)\)&lt;/span&gt; son algebraicos y diferentes,&amp;nbsp;entonces &lt;span class="math"&gt;\(b(1)e^{y(1)}+...+b(n)e^{y(n)}\neq 0\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Demostración&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Construyamos un polinomio con coeficientes enteros cuyas raíces&amp;nbsp;sean &lt;span class="math"&gt;\(y(1),...,y(n),y(n+1),...,y(N)\)&lt;/span&gt; y&amp;nbsp;definamos &lt;span class="math"&gt;\(b(n+1)=...=b(N)=0\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;Si suponemos que el enunciado es falso, es claro&amp;nbsp;que &lt;span class="math"&gt;\(\prod_{\sigma\in S_N}(b(1)e^{y(\sigma(1))}+...+b(N)e^{y(\sigma(N))})=0\)&lt;/span&gt;, donde estamos considerando todas las permutaciones. Pero si expandimos ese productorio nos aparecen términos en exponenciales simétricas y al agrupar nos vamos a encontrar con una suma semejante a la del enunciado del Lema 1. Puede probarse que se satisfacen dichas hipótesis, lo cual es contradictorio y prueba el Lema&amp;nbsp;2.&lt;/p&gt;
+&lt;p&gt;Ahora sí, estamos en disposición de demostrar el Teorema fundamental de esta&amp;nbsp;sección.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Teorema de&amp;nbsp;Lindemann-Weierstrass&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Si &lt;span class="math"&gt;\(\alpha_1,...,\alpha_n\)&lt;/span&gt; son números algebraicos no nulos&amp;nbsp;y &lt;span class="math"&gt;\(\beta_1,...,\beta_n\)&lt;/span&gt; son números algebraicos distintos,&amp;nbsp;entonces &lt;span class="math"&gt;\(\alpha_1e^{\beta_1}+...+\alpha_ne^{\beta_n}\neq 0\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Demostración&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Se deja como ejercicio a los lectores más aventureros. Como pista, os diré que se prueba de forma muy parecida al Lema&amp;nbsp;2.&lt;/p&gt;
+&lt;p&gt;Por último, veamos&amp;nbsp;que &lt;span class="math"&gt;\(\pi\)&lt;/span&gt; es un número&amp;nbsp;trascendente:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Corolario&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;El&amp;nbsp;número &lt;span class="math"&gt;\(\pi\)&lt;/span&gt; es&amp;nbsp;trascendente.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Demostración&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;Basta contemplar la bella ecuación de&amp;nbsp;Euler &lt;span class="math"&gt;\(e^{i\pi}+1=0\)&lt;/span&gt; y usar el teorema anterior.&amp;nbsp;Si &lt;span class="math"&gt;\(\pi\)&lt;/span&gt; fuera algebraico,&amp;nbsp;entonces &lt;span class="math"&gt;\(i\pi\)&lt;/span&gt; también sería algebraico (por&amp;nbsp;ser &lt;span class="math"&gt;\(i\)&lt;/span&gt; algebraico).&amp;nbsp;Tomando &lt;span class="math"&gt;\(\beta_1 = i\pi\)&lt;/span&gt;, &lt;span class="math"&gt;\(\beta_2 = 0\)&lt;/span&gt;, &lt;span class="math"&gt;\(\alpha_1 = 1\)&lt;/span&gt;, &lt;span class="math"&gt;\(\alpha_2 = 1\)&lt;/span&gt;, el teorema diría&amp;nbsp;que &lt;span class="math"&gt;\(1 \cdot e^{i\pi} + 1 \cdot e^0 \neq 0\)&lt;/span&gt;, lo cual contradice la identidad de Euler. Por lo&amp;nbsp;tanto, &lt;span class="math"&gt;\(\pi\)&lt;/span&gt; debe ser&amp;nbsp;trascendente.&lt;/p&gt;
+&lt;p&gt;A continuación vamos a estudiar la relación entre la trascendencia&amp;nbsp;de &lt;span class="math"&gt;\(\pi\)&lt;/span&gt; y el hecho de&amp;nbsp;que &lt;span class="math"&gt;\(\pi\)&lt;/span&gt; no sea “construible” con regla y&amp;nbsp;compás.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="imposibilidad-de-cuadrar-un-circulo"&gt;Imposibilidad de cuadrar un círculo&lt;a class="headerlink" href="#imposibilidad-de-cuadrar-un-circulo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Para el tema que nos concierne, es suficiente con entender que&amp;nbsp;si &lt;span class="math"&gt;\(a\)&lt;/span&gt; y &lt;span class="math"&gt;\(b\)&lt;/span&gt; son dos puntos construibles con regla y compás, entonces su cociente es construible. Esto será clave para demostrar que es imposible cuadrar el&amp;nbsp;círculo.&lt;/p&gt;
+&lt;p&gt;Otro resultado fundamental es que un número real es construible si y sólo si es algebraico y el grado de su polinomio mínimo irreducible&amp;nbsp;sobre &lt;span class="math"&gt;\(\mathbb{Q}\)&lt;/span&gt; es una potencia de 2. En efecto, supongamos&amp;nbsp;que &lt;span class="math"&gt;\(\alpha \in \mathbb{R}\)&lt;/span&gt; es un número construible con regla y compás. En la geometría analítica del plano, partir de un conjunto de puntos iniciales equivale a trabajar en el&amp;nbsp;cuerpo &lt;span class="math"&gt;\(\mathbb{Q}\)&lt;/span&gt;. Cada paso de construcción con regla (intersección de rectas) implica resolver ecuaciones de primer grado, lo que no extiende el cuerpo de coeficientes. En cambio, cada paso con compás (intersección de recta y circunferencia o de dos circunferencias) requiere resolver ecuaciones de segundo grado. Por tanto, el punto o&amp;nbsp;distancia &lt;span class="math"&gt;\(\alpha\)&lt;/span&gt; se alcanza tras un número&amp;nbsp;finito &lt;span class="math"&gt;\(k\)&lt;/span&gt; de operaciones cuadráticas. Esto da lugar a una torre de extensiones de&amp;nbsp;cuerpos: &lt;/p&gt;
+&lt;div class="math"&gt;$$\mathbb{Q} = F_0 \subset F_1 \subset F_2 \subset \dots \subset F_k,$$&lt;/div&gt;
+&lt;p&gt; donde &lt;span class="math"&gt;\(\alpha \in F_k\)&lt;/span&gt; y cada extensión es de grado 2, es&amp;nbsp;decir, &lt;span class="math"&gt;\([F_i : F_{i-1}] = 2\)&lt;/span&gt; para&amp;nbsp;todo &lt;span class="math"&gt;\(i = 1, \dots, k\)&lt;/span&gt;. Por la propiedad multiplicativa del grado de las extensiones de cuerpo, se deduce&amp;nbsp;que: &lt;/p&gt;
+&lt;div class="math"&gt;$$[F_k : \mathbb{Q}] = [F_k : F_{k-1}] [F_{k-1} : F_{k-2}] \cdots [F_1 : F_0] = 2^k.$$&lt;/div&gt;
+&lt;p&gt; Puesto&amp;nbsp;que &lt;span class="math"&gt;\(\mathbb{Q} \subseteq \mathbb{Q}(\alpha) \subseteq F_k\)&lt;/span&gt;, el&amp;nbsp;grado &lt;span class="math"&gt;\([\mathbb{Q}(\alpha) : \mathbb{Q}]\)&lt;/span&gt; debe dividir&amp;nbsp;a &lt;span class="math"&gt;\([F_k : \mathbb{Q}] = 2^k\)&lt;/span&gt;. En&amp;nbsp;consecuencia, &lt;span class="math"&gt;\(\alpha\)&lt;/span&gt; debe ser un número algebraico y el grado de su polinomio mínimo irreducible&amp;nbsp;sobre &lt;span class="math"&gt;\(\mathbb{Q}\)&lt;/span&gt; es de la&amp;nbsp;forma &lt;span class="math"&gt;\(2^m\)&lt;/span&gt; para algún&amp;nbsp;entero &lt;span class="math"&gt;\(m \leq k\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Recíprocamente,&amp;nbsp;si &lt;span class="math"&gt;\(\alpha\)&lt;/span&gt; es un número algebraico tal que su cuerpo de descomposición se puede obtener mediante una sucesión finita de extensiones cuadráticas (es decir, expresable mediante un número finito de sumas, restas, multiplicaciones, divisiones y raíces cuadradas). Geométricamente, cada raíz cuadrada equivale a la construcción del segmento medio proporcional entre dos longitudes dadas mediante regla y compás. Por&amp;nbsp;ende, &lt;span class="math"&gt;\(\alpha\)&lt;/span&gt; es&amp;nbsp;construible.&lt;/p&gt;
+&lt;p&gt;Para concluir, supongamos que es posible cuadrar el círculo con regla y compás. Es decir, dado un círculo de&amp;nbsp;radio &lt;span class="math"&gt;\(R\)&lt;/span&gt;, podemos construir un cuadrado de&amp;nbsp;lado &lt;span class="math"&gt;\(L\)&lt;/span&gt; con regla y compás tal&amp;nbsp;que &lt;span class="math"&gt;\(\pi R^2=L^2\)&lt;/span&gt;, y&amp;nbsp;que &lt;span class="math"&gt;\(R\)&lt;/span&gt; y &lt;span class="math"&gt;\(L\)&lt;/span&gt; son construibles.&amp;nbsp;Como &lt;span class="math"&gt;\(\pi R^2=L^2\)&lt;/span&gt; entonces &lt;span class="math"&gt;\(\sqrt{\pi}=L/R\)&lt;/span&gt; es construible por&amp;nbsp;serlo &lt;span class="math"&gt;\(R\)&lt;/span&gt; y &lt;span class="math"&gt;\(L\)&lt;/span&gt;.&amp;nbsp;Si &lt;span class="math"&gt;\(\sqrt{\pi}\)&lt;/span&gt; fuera construible, tendría que ser un número algebraico, lo que implicaría que su&amp;nbsp;cuadrado &lt;span class="math"&gt;\((\sqrt{\pi})^2 = \pi\)&lt;/span&gt; también sería algebraico. Pero esto es falso por&amp;nbsp;ser &lt;span class="math"&gt;\(\pi\)&lt;/span&gt; trascendente. Con lo cual queda probada la imposibilidad de cuadrar el&amp;nbsp;círculo.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="otros-problemas-delicos"&gt;Otros problemas délicos&lt;a class="headerlink" href="#otros-problemas-delicos" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Además de la imposibilidad de cuadrar el círculo, existen otros dos problemas clásicos que se han demostrado imposibles. El primero es la duplicación del cubo, la cual no es posible porque el polinomio mínimo irreducible&amp;nbsp;de &lt;span class="math"&gt;\(\sqrt[3]{2}\)&lt;/span&gt; es &lt;span class="math"&gt;\(x^3-2=0\)&lt;/span&gt;, cuyo grado es 3, y 3 no es una potencia de 2. El otro problema es la trisección del ángulo, que tampoco es posible en general (aunque para algunos ángulos específicos, como el de 90º, sí existe una trisección clásica con regla y compás, mientras que para un ángulo tan simple como 60º resulta imposible). Como curiosidad final, hay otro teorema, el de Gelfond-Schneider, que garantiza&amp;nbsp;que &lt;span class="math"&gt;\(a^b\)&lt;/span&gt; es trascendente&amp;nbsp;si &lt;span class="math"&gt;\(a\)&lt;/span&gt; y &lt;span class="math"&gt;\(b\)&lt;/span&gt; son algebraicos,&amp;nbsp;con &lt;span class="math"&gt;\(a \neq 0, 1\)&lt;/span&gt; y &lt;span class="math"&gt;\(b\)&lt;/span&gt; irracional. Junto con el Teorema de Lindemann sería consecuencia de la Conjetura de Schanuel, que por el momento no es más que eso, una conjetura. De hecho, el teorema de Gelfond es el resultado del séptimo problema de Hilbert, una lista de 23 problemas matemáticos enunciada por David Hilbert a principios del siglo pasado, de los cuales aún quedan algunos por&amp;nbsp;resolver.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="bibliografia"&gt;Bibliografía&lt;a class="headerlink" href="#bibliografia" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Artículos históricos&amp;nbsp;originales:&lt;/p&gt;
+&lt;p&gt;Lindemann, F. (1882). &amp;#8220;Über die&amp;nbsp;Zahl &lt;span class="math"&gt;\(\pi\)&lt;/span&gt;&amp;#8221;. Mathematische Annalen, 20(2), 213-225. (El artículo original en el que Ferdinand von Lindemann demostró la trascendencia de&amp;nbsp;\pi).&lt;/p&gt;
+&lt;p&gt;Wantzel, L. (1837). &amp;#8220;Recherches sur les moyens de reconnaître si un Problème de Géométrie peut se résoudre avec la regla et le compas&amp;#8221;. Journal de Mathématiques Pures et Appliquées, 1, 366-372. (Trabajo fundamental donde Pierre Wantzel demostró los criterios de construibilidad con regla y compás, imposibilitando la duplicación del cubo y la trisección del&amp;nbsp;ángulo).&lt;/p&gt;
+&lt;p&gt;Libros sobre trascendencia y teoría de&amp;nbsp;números:&lt;/p&gt;
+&lt;p&gt;Baker, A. (1975). Transcendental Number Theory. Cambridge University Press. (Texto de referencia avanzado que cubre en profundidad el Teorema de Lindemann-Weierstrass, el Teorema de Gelfond-Schneider y la Conjetura de&amp;nbsp;Schanuel).&lt;/p&gt;
+&lt;p&gt;Niven, I. (1956). Irrational Numbers. Carus Mathematical Monographs, Mathematical Association of America. (Una introducción muy clara y accesible sobre números irracionales y trascendentes, ideal para profundizar en las demostraciones&amp;nbsp;clásicas).&lt;/p&gt;
+&lt;p&gt;Libros sobre Teoría de Galois y construcciones&amp;nbsp;geométricas&lt;/p&gt;
+&lt;p&gt;Cox, &lt;span class="caps"&gt;D. A.&lt;/span&gt;(2012). Galois Theory (2.ª ed.). John Wiley &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Sons. (Trata con gran detalle y rigor la relación entre extensiones de cuerpos, polinomios mínimos, números construibles y la imposibilidad de los tres problemas&amp;nbsp;délicos).&lt;/p&gt;
+&lt;p&gt;Stewart, I. (2015). Galois Theory (4.ª ed.). &lt;span class="caps"&gt;CRC&lt;/span&gt; Press. (Un manual clásico, pedagógico y formal que explica la teoría de cuerpos aplicada a los problemas clásicos de la geometría&amp;nbsp;antigua).&lt;/p&gt;
+&lt;p&gt;Historia y Problemas de&amp;nbsp;Hilbert&lt;/p&gt;
+&lt;p&gt;Yandell, &lt;span class="caps"&gt;B. H.&lt;/span&gt;(2001). The Honors Class: Hilbert&amp;#8217;s Problems and Their Solvers. &lt;span class="caps"&gt;AK&lt;/span&gt; Peters/&lt;span class="caps"&gt;CRC&lt;/span&gt; Press. (Libro enfocado en la historia y resolución de los 23 problemas propuestos por David Hilbert, incluyendo el séptimo problema resuelto por Gelfond y&amp;nbsp;Schneider).&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Matemáticas"/><category term="geometría"/></entry><entry><title>¿Por qué es naranja el atardecer?</title><link href="https://napkinnotes.es/el-atardecer" rel="alternate"/><published>2026-08-13T00:00:00+02:00</published><updated>2026-08-13T00:00:00+02:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-08-13:/el-atardecer</id><summary type="html">&lt;p&gt;El cielo cambia de color a lo largo del día. Comenzamos el día con un precioso color anaranjado, después se tiñe de azul y, cuando llega el atardecer, volvemos a ver los colores cálidos en el ocaso. Detrás de este festival cromático se esconde un fenómeno físico interesantísimo. Lo explicamos en esta&amp;nbsp;servilleta.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#la-ecuacion-para-la-dispersion-de-rayleigh"&gt;La ecuación para la dispersión de&amp;nbsp;Rayleigh&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#los-colores-del-cielo"&gt;Los colores del cielo&lt;/a&gt;&lt;ul&gt;
