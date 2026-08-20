@@ -264,6 +264,13 @@ AUTHORS = {
         "avatar": "images/Diego.png",
         "articles_url": "autor/diego-martin-gonzalez",       
     },
+    "Gonzalo Matias Romano": {
+        "url": "https://produccioncientifica.usal.es/investigadores/2396788/detalle",
+        "role": "Colaborador",
+        "blurb": "Nacido contrero, criado curioso, educado científico. La micología apareció como su área de especialidad y no sorprendió a nadie más que a él mismo. La experiencia con formas de vida diferentes a la nuestra lo conmueve tanto que quiere compartir ese mundo para resignificar el nuestro.",
+        "avatar": "images/gonzalo.jpeg",
+        "articles_url": "autor/gonzalo-matias-romano",       
+    },
 }
 
 # Orden automático de autores por número de artículos publicados.
