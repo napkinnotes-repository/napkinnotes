@@ -294,6 +294,7 @@ AUTHOR_BOTTOM_DYNAMIC = [
     "Ruchika",
     "David Barba González",
     "Diego Martín González",
+    "Gonzalo Matias Romano",
 ]
 
 
