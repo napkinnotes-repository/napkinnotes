@@ -1,9 +1,9 @@
 ---
-title: ¿De qué color es realmente el mundo cuando nadie lo está mirando?
-author: Paz Albares Vicente
-date: 2026-08-21
+title: "¿De qué color es realmente el mundo cuando nadie lo está mirando?"
+author: David Figueruelo Hernán
+date: 2026-09-03
 layout: articles
-slug: de-que-color-es-realmente-el-mundo-cuando-nadie-lo-esta-mirando
+slug: prueba-david
 status: hidden
 category: Física
 tags:
@@ -14,7 +14,7 @@ tags:
   - neurociencia
   - filosofía
   - animales
-summary: Una pregunta aparentemente sencilla sobre el color termina llevándonos desde la luz y la retina hasta los animales que ven un mundo distinto al nuestro y una pregunta incómoda: ¿dónde aparece realmente el color?
+summary: "Una pregunta aparentemente sencilla sobre el color termina llevándonos desde la luz y la retina hasta los animales que ven un mundo distinto al nuestro y una pregunta incómoda: ¿dónde aparece realmente el color?"
 image: images/color.jpeg
 certificate: true
 ---
@@ -22,49 +22,26 @@ certificate: true
 [TOC]
 
 
-## Una aldea casi vacía
 
-Hay lugares en los que uno tiene la sensación de haber llegado al final de algo.
-
-La carretera se estrecha, el valle se hunde entre las montañas y las casas empiezan a aparecer de piedra y pizarra, agarradas a la ladera como si llevaran allí mucho más tiempo que nosotros.
+Hay lugares en los que uno tiene la sensación de haber llegado al final de algo. La carretera se estrecha, el valle se hunde entre las montañas y las casas empiezan a aparecer de piedra y pizarra, agarradas a la ladera como si llevaran allí mucho más tiempo que nosotros. Como si fuera un lugar que existiría antes de nosotros y que existira después.
 
 Aldeia da Pena es uno de esos lugares.
 
 Está escondida en la Serra de São Macário, en el centro de Portugal, al fondo de un valle profundo. Durante años apenas unas pocas personas han vivido aquí de forma permanente. Hoy sigue siendo una aldea diminuta, con muy pocas casas habitadas y una tranquilidad que resulta casi extraña cuando uno viene de cualquier ciudad. <a class="nn-cite" href="#ref-1">[1]</a>
 
-Yo me imagino llegando una tarde de verano, cuando el sol todavía ilumina las laderas pero ya empieza a bajar detrás de las montañas.
+Imagínate llegando una tarde de verano, cuando el sol todavía ilumina las laderas pero ya empieza a bajar detrás de las montañas. No hay tráfico. No hay grandes edificios.  No hay demasiada gente. Solo piedra, árboles, una pequeña corriente de agua y el sonido lejano de alguna casa que todavía sigue habitada.
 
-No hay tráfico.
+Y entonces miras alrededor.
 
-No hay grandes edificios.
-
-No hay demasiada gente.
-
-Solo piedra, árboles, una pequeña corriente de agua y el sonido lejano de alguna casa que todavía sigue habitada.
-
-Y entonces miro alrededor.
-
-Las paredes de pizarra son grises. La vegetación es verde. El cielo es azul. Algunas flores salpican el camino con colores que parecen tan evidentes que ni siquiera me paro a pensarlos.
-
-Hasta que se me ocurre una pregunta un poco absurda.
+Las paredes de pizarra son grises. La vegetación es verde. El cielo es azul. Algunas flores salpican el camino con colores que parecen tan evidentes que ni siquiera te paras a pensarlos. 
+Pero entonces te preguntas:
 
 > **¿De qué color es realmente el mundo cuando nadie lo está mirando?**
 
-A primera vista parece una pregunta filosófica inventada para complicar una cosa que funciona perfectamente bien.
+A primera vista parece una pregunta filosófica inventada para complicar una cosa que funciona perfectamente bien.  Si miro una pared roja, la pared es roja. Punto. La explicación física parece sencilla. La luz, que está formada de muchas longitudes de onda (es decir de muchos colores) llega desde una fuente, ilumina la superficie y la materia absorbe unas partes del espectro mientras refleja otras. La radiación reflejada alcanza nuestros ojos y nuestro sistema visual la interpreta como un determinado color.
 
-Si miro una pared roja, la pared es roja.
-
-Punto.
-
-La explicación física parece sencilla. La luz llega desde una fuente, ilumina la superficie y la materia absorbe unas partes del espectro mientras refleja otras. La radiación reflejada alcanza nuestros ojos y nuestro sistema visual la interpreta como un determinado color.
-
-Podría dejarlo ahí.
-
-Pero hay un pequeño problema.
-
-Acabo de explicar qué ocurre con **la luz**.
-
-Todavía no he explicado qué es **el rojo**.
+Podrías dejarlo ahí. Pero hay un pequeño problema. Eso es la explicación de qué ocurre con **la luz**.
+Todavía no se ha explicado qué es **el rojo**.
 
 ---
 
@@ -230,7 +207,7 @@ Ahora tenemos que preguntar qué luz, qué observador y qué condiciones de obse
 
 ## La pared cambia de color sin cambiar
 
-Si salgo de la casa y vuelvo a mirar la misma pared al atardecer, algo extraño puede pasar.
+Si salgo de la casa y vuelvo a mirar la misma pared al atardecer, algo extraño puede pasar. Ya hablamos de esto en [un artículo previo para el atardecer.](https://napkinnotes.es/el-atardecer)
 
 La iluminación ha cambiado.
 
@@ -272,7 +249,7 @@ Volvamos al camino de la aldea.
 
 Hay una flor a un lado de la carretera.
 
-Yo la miro.
+Yo la miro. Tu la miras.
 
 Y, en algún lugar cercano, una abeja también la mira.
 
@@ -294,7 +271,7 @@ Y aquí la pregunta empieza a ponerse realmente incómoda.
 
 Para mí, uno.
 
-Para la abeja, el estímulo puede organizarse de otra manera.
+Para la abeja, otro.
 
 La flor no ha elegido una de las dos respuestas.
 
