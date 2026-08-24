@@ -23,7 +23,7 @@ certificate: true
 
 
 
-Hay lugares en los que uno tiene la sensación de haber llegado al final de algo. La carretera se estrecha, el valle se hunde entre las montañas y las casas empiezan a aparecer de piedra y pizarra, agarradas a la ladera como si llevaran allí mucho más tiempo que nosotros. Como si fuera un lugar que existió antes que nosotros y que existirá después.
+Hay lugares en los que uno tiene la sensación de haber llegado al final de algo. La carretera se estrecha, el valle se hunde entre las montañas y las casas empiezan a aparecer de piedra y pizarra, agarradas a la tierra como si llevaran allí mucho más tiempo que nosotros. Como si fuera un lugar que existió antes que nosotros y que existirá después.
 
 La Alberca es uno de esos lugares.
 
@@ -556,7 +556,7 @@ Sino para preguntarte **dónde empezó ese color**.
 
 <ol class="nn-references">
   <li id="ref-1">
-    <a href="https://laalberca.com/oficina-de-turismo/">https://24noticias.sapo.pt/atualidade/artigos/a-aldeia-da-pena-tem-apenas-seis-moradores-mas-projetos-nao-lhe-faltam</a>
+    <a href="https://laalberca.com/oficina-de-turismo/">Sede de Turismo en La Alberca</a>
   </li>
 
   <li id="ref-2">
