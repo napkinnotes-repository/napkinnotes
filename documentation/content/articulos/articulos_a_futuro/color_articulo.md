@@ -38,7 +38,7 @@ Pero entonces te preguntas:
 
 > **¿De qué color es realmente el mundo cuando nadie lo está mirando?**
 
-A primera vista parece una pregunta filosófica, inventada para complicar una cosa que funciona perfectamente bien. Si miro una pared roja, la pared es roja. Punto. La explicación física parece sencilla. La luz, que está formada de muchas longitudes de onda (es decir, de muchos colores), llega desde una fuente, ilumina la superficie y la materia absorbe unas partes del espectro mientras refleja otras. La radiación reflejada alcanza nuestros ojos y nuestro sistema visual la interpreta como un determinado color.
+A primera vista parece una pregunta filosófica, inventada para complicar una cosa que funciona perfectamente bien. Si miro una pared roja, la pared es roja. Punto. La explicación física parece sencilla. La luz, que generalmente está formada de muchas longitudes de onda (es decir, de muchos colores), llega desde una fuente, ilumina la superficie y la materia absorbe unas partes del espectro mientras refleja otras. La radiación reflejada alcanza nuestros ojos y nuestro sistema visual la interpreta como un determinado color.
 
 Podrías dejarlo ahí. Pero hay un pequeño problema. Eso es la explicación de qué ocurre con **la luz**.
 Todavía no se ha explicado qué es **el rojo**.
@@ -59,7 +59,7 @@ Podemos medir la luz que sale de la pared con un espectrómetro. Podemos dibujar
 Podemos escribirlo incluso de una forma bastante limpia:
 
 $$
-L(\lambda)=E(\lambda)R(\lambda),
+L(\lambda)  \propto E(\lambda)R(\lambda),
 $$
 
 al menos en el caso simplificado de una superficie iluminada, donde $E(\lambda)$ representa la distribución espectral de la iluminación y $R(\lambda)$ la reflectancia espectral de la superficie.
