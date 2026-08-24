@@ -14,7 +14,7 @@ tags:
   - neurociencia
   - filosofía
   - animales
-summary: "Una pregunta aparentemente sencilla sobre el color termina llevándonos desde la luz y la retina hasta los animales que ven un mundo distinto al nuestro y una pregunta incómoda: ¿dónde aparece realmente el color?"
+summary: "Si nadie está mirando, ¿el mundo tiene color?. Dicho de otra forma, ¿dónde aparece realmente el color? o ¿es real el color?."
 image: images/color.jpeg
 certificate: true
 ---
