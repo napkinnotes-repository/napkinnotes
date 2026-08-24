@@ -29,7 +29,7 @@ La Alberca es uno de esos lugares.
 
 Está escondida en la Sierra de Francia, al sur de Salamanca, entre bosques de castaños y robles. Sus calles estrechas y empedradas se retuercen entre casas de piedra, madera y adobe, formando un entramado en el que las fachadas parecen apoyarse unas sobre otras y apenas dejan entrever el cielo. Durante siglos, este pequeño pueblo serrano ha conservado buena parte de su arquitectura y sus tradiciones. Hoy sigue siendo un lugar tranquilo, especialmente cuando uno se aleja de la plaza y se pierde por sus calles. <a class="nn-cite" href="#ref-1">[1]</a>
 
-Imagínate llegando una tarde de verano, cuando el sol todavía ilumina las laderas pero ya empieza a bajar detrás de las montañas. No hay tráfico. No hay grandes edificios.  No hay demasiada gente. Solo piedra, árboles, una pequeña corriente de agua y el sonido lejano de alguna casa que todavía sigue habitada.
+Imagínate llegando una tarde de otoño, cuando el sol todavía ilumina las laderas pero ya empieza a bajar detrás de las montañas. No hay tráfico. No hay grandes edificios.  No hay demasiada gente. Solo piedra, árboles, una pequeña corriente de agua y el sonido lejano de algun bar.
 
 Y entonces miras alrededor.
 
@@ -81,29 +81,19 @@ Porque ahora hemos separado dos cosas que durante toda la vida solemos tratar co
 ## El rojo no entra en los ojos
 
 Cuando miro esa pared, la luz reflejada atraviesa primero la córnea, pasa por el cristalino y llega a la retina.
-
 Y aquí aparece una de las partes más interesantes de toda la historia.
-
 En la retina no hay un receptor cuyo trabajo sea detectar el rojo.
-
 Hay tres tipos principales de conos en la visión humana normal: los llamados S, M y L, con sensibilidades espectrales que se solapan y cubren distintas regiones del espectro visible. <a class="nn-cite" href="#ref-2">[2]</a>
-
-Los nombres son deliberadamente aburridos: short, medium y long wavelength. Cortas, medias y largas.
-
+Los nombres son deliberadamente aburridos: short, medium y long wavelength. En español: cortas, medias y largas longitudes de onda.
 Ni siquiera los hemos llamado azul, verde y rojo, porque hacerlo sería engañoso.
 
 Cada tipo de cono responde a un rango relativamente amplio de longitudes de onda. Un solo cono, por sí mismo, no puede decirnos cuál era exactamente la distribución espectral de los fotones que lo estimularon. La misma respuesta puede producirse con estímulos espectralmente diferentes. Para obtener información cromática necesitamos comparar las señales de distintos tipos de receptores. <a class="nn-cite" href="#ref-3">[3]</a>
 
 Eso significa que el sistema visual no funciona como una pequeña cámara que recibe un color ya terminado.
-
 Funciona más bien como un sistema de medición.
-
 Recibe luz.
-
 La descompone en varias respuestas.
-
 Las compara.
-
 Y a partir de ahí construye una señal cromática que continúa su viaje por la retina, el tálamo y las distintas áreas visuales del cerebro. <a class="nn-cite" href="#ref-4">[4]</a>
 
 En las primeras etapas aparecen mecanismos de oposición cromática que comparan la actividad de distintos conos. Hay canales que, de forma simplificada, enfrentan señales asociadas a longitudes de onda largas y medias y otros que comparan las respuestas de las señales de onda corta con combinaciones de las demás. <a class="nn-cite" href="#ref-2">[2]</a> <a class="nn-cite" href="#ref-4">[4]</a>
@@ -117,15 +107,10 @@ Es más bien:
 **luz → fotoreceptores → comparaciones → procesamiento neuronal → percepción.**
 
 Y entonces vuelve la pregunta.
-
 ¿En qué punto de esa cadena aparece el rojo?
-
 No parece estar en la pared.
-
 No está en la luz como una propiedad independiente de cualquier observador.
-
 Y tampoco podemos señalar una neurona concreta y decir: “ahí está el rojo”.
-
 El rojo aparece como una experiencia de todo un sistema.
 
 ---
@@ -134,20 +119,39 @@ El rojo aparece como una experiencia de todo un sistema.
 
 Aquí hay otra pequeña trampa.
 
-Si pienso en los colores que encontramos en un arcoíris, puedo asociarlos aproximadamente con distintas regiones del espectro visible.
+<div style="display: flex; gap: 25px; justify-content: center; text-align: center; margin: 20px 0;">
 
-Rojo.
+  <div>
+    <div>Rojo</div>
+    <div style="width: 45px; height: 45px; background: red; border-radius: 6px; margin: 6px auto 0;"></div>
+  </div>
 
-Naranja.
+  <div>
+    <div>Naranja</div>
+    <div style="width: 45px; height: 45px; background: orange; border-radius: 6px; margin: 6px auto 0;"></div>
+  </div>
 
-Amarillo.
+  <div>
+    <div>Amarillo</div>
+    <div style="width: 45px; height: 45px; background: yellow; border-radius: 6px; margin: 6px auto 0;"></div>
+  </div>
 
-Verde.
+  <div>
+    <div>Verde</div>
+    <div style="width: 45px; height: 45px; background: green; border-radius: 6px; margin: 6px auto 0;"></div>
+  </div>
 
-Azul.
+  <div>
+    <div>Azul</div>
+    <div style="width: 45px; height: 45px; background: blue; border-radius: 6px; margin: 6px auto 0;"></div>
+  </div>
 
-Violeta.
+  <div>
+    <div>Violeta</div>
+    <div style="width: 45px; height: 45px; background: violet; border-radius: 6px; margin: 6px auto 0;"></div>
+  </div>
 
+</div>
 Pero no todos los colores que podemos experimentar corresponden a una única longitud de onda.
 
 El magenta es un ejemplo muy sencillo.
