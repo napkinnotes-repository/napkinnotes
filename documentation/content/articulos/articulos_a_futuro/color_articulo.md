@@ -87,7 +87,7 @@ Hay tres tipos principales de conos en la visión humana normal: los llamados S,
 Los nombres son deliberadamente aburridos: short, medium y long wavelength. En español: cortas, medias y largas longitudes de onda.
 Ni siquiera los hemos llamado azul, verde y rojo, porque hacerlo sería engañoso.
 
-Cada tipo de cono responde a un rango relativamente amplio de longitudes de onda. Un solo cono, por sí mismo, no puede decirnos cuál era exactamente la distribución espectral de los fotones que lo estimularon. La misma respuesta puede producirse con estímulos espectralmente diferentes. Para obtener información cromática necesitamos comparar las señales de distintos tipos de receptores. <a class="nn-cite" href="#ref-3">[3]</a>
+Cada tipo de cono responde a un rango relativamente amplio de longitudes de onda. Un solo cono, por sí mismo, no puede decirnos cuál era exactamente la distribución espectral de los fotones que lo estimularon. La misma respuesta puede producirse con estímulos espectralmente diferentes. Para obtener información cromática necesitamos comparar las señales de distintos tipos de receptores. 
 
 Eso significa que el sistema visual no funciona como una pequeña cámara que recibe un color ya terminado.
 Funciona más bien como un sistema de medición.
@@ -96,7 +96,7 @@ La descompone en varias respuestas.
 Las compara.
 Y a partir de ahí construye una señal cromática que continúa su viaje por la retina, el tálamo y las distintas áreas visuales del cerebro. <a class="nn-cite" href="#ref-4">[4]</a>
 
-En las primeras etapas aparecen mecanismos de oposición cromática que comparan la actividad de distintos conos. Hay canales que, de forma simplificada, enfrentan señales asociadas a longitudes de onda largas y medias y otros que comparan las respuestas de las señales de onda corta con combinaciones de las demás. <a class="nn-cite" href="#ref-2">[2]</a> <a class="nn-cite" href="#ref-4">[4]</a>
+En las primeras etapas aparecen mecanismos de oposición cromática que comparan la actividad de distintos conos. Hay canales que, de forma simplificada, enfrentan señales asociadas a longitudes de onda largas y medias y otros que comparan las respuestas de las señales de onda corta con combinaciones de las demás <a class="nn-cite" href="#ref-4">[3]</a>.
 
 Por eso la historia del color no es simplemente:
 
@@ -117,7 +117,7 @@ El rojo aparece como una experiencia de todo un sistema.
 
 ## Los colores que no están en el arcoíris
 
-Aquí hay otra pequeña trampa.
+Aquí hay otra pequeña trampa. Si pienso en los colores que encontramos en un arcoíris, puedo asociarlos aproximadamente con distintas regiones del espectro visible.
 
 <div style="display: flex; gap: 25px; justify-content: center; text-align: center; margin: 20px 0;">
 
@@ -153,87 +153,61 @@ Aquí hay otra pequeña trampa.
 
 </div>
 Pero no todos los colores que podemos experimentar corresponden a una única longitud de onda.
-
 El magenta es un ejemplo muy sencillo.
-
 No existe una longitud de onda única que sea “magenta”.
-
 Podemos producir una percepción magenta combinando luz de regiones distintas del espectro, sin necesidad de que exista una radiación monocromática equivalente a ese color.
 
 Esto ya debería hacer que la palabra “color” nos resulte un poco sospechosa.
-
 Un espectro físico es una cosa.
-
 El espacio de colores que construimos a partir de él es otra.
-
 Y la ciencia del color lleva más de un siglo intentando relacionar ambas cosas de una manera cuantitativa.
 
-La Comisión Internacional de Iluminación, la CIE, desarrolló sistemas colorimétricos que permiten representar estímulos cromáticos mediante valores como los tristímulos y las coordenadas de cromaticidad. <a class="nn-cite" href="#ref-5">[5]</a>
-
-Es una herramienta extraordinariamente útil.
-
+La Comisión Internacional de Iluminación, la CIE, desarrolló sistemas colorimétricos que permiten representar estímulos cromáticos mediante valores como los tristímulos y las coordenadas de cromaticidad <a class="nn-cite" href="#ref-5">[4]</a>.
+Sí, esto nos da una herramienta extraordinariamente útil.
 Podemos especificar colores.
-
 Podemos comparar muestras.
-
 Podemos diseñar pantallas y fuentes de luz.
-
 Podemos calcular diferencias de color.
-
 Pero hay una curiosidad.
-
 Un sistema de coordenadas del color no demuestra que el color sea una propiedad fundamental de la materia.
-
 Solo nos da una forma extremadamente buena de describir y predecir cómo determinados estímulos se relacionan con determinados observadores y condiciones de observación.
-
 De hecho, una de las propiedades más importantes de la ciencia del color es precisamente el **metamerismo**.
 
-Dos luces físicamente distintas pueden producir la misma respuesta en nuestro sistema visual y, bajo determinadas condiciones, parecer del mismo color. <a class="nn-cite" href="#ref-5">[5]</a>
+Dos luces físicamente distintas pueden producir la misma respuesta en nuestro sistema visual y, bajo determinadas condiciones, parecer del mismo color. 
 
 Es decir:
 
-**dos espectros diferentes pueden producir el mismo color.**
+**Dos espectros diferentes pueden producir el mismo color.**
 
 Ya no estamos preguntando solo qué color tiene una cosa.
-
 Ahora tenemos que preguntar qué luz, qué observador y qué condiciones de observación estamos considerando.
 
 ---
 
 ## La pared cambia de color sin cambiar
 
-Si salgo de la casa y vuelvo a mirar la misma pared al atardecer, algo extraño puede pasar. Ya hablamos de esto en [un artículo previo para el atardecer.](https://napkinnotes.es/el-atardecer)
-
+Si salgo de la casa y vuelvo a mirar la misma pared al atardecer, algo extraño puede pasar. Ya hablamos de esto en [un artículo previo sobre el atardecer.](https://napkinnotes.es/el-atardecer)
 La iluminación ha cambiado.
 
 La luz del Sol ya no tiene exactamente la misma composición espectral que a mediodía. Si estoy bajo una lámpara, la diferencia puede ser todavía mayor.
-
 Y, sin embargo, la pared continúa pareciéndome roja.
-
 No exactamente del mismo rojo, por supuesto. El color puede cambiar. Pero normalmente sigo reconociendo la superficie como roja aunque la luz que llega a mis ojos haya cambiado de forma considerable.
 
 Eso se llama **constancia del color**.
 
-Nuestro sistema visual intenta estimar qué parte de la señal procede de la iluminación y qué parte está relacionada con las propiedades de la superficie. Para hacerlo utiliza información procedente del conjunto de la escena, adapta la sensibilidad de los receptores y combina las señales en distintas etapas del procesamiento visual. <a class="nn-cite" href="#ref-6">[6]</a> <a class="nn-cite" href="#ref-7">[7]</a>
+Nuestro sistema visual intenta estimar qué parte de la señal procede de la iluminación y qué parte está relacionada con las propiedades de la superficie. Para hacerlo utiliza información procedente del conjunto de la escena, adapta la sensibilidad de los receptores y combina las señales en distintas etapas del procesamiento visual. <a class="nn-cite" href="#ref-6">[5]</a> <a class="nn-cite" href="#ref-7">[5]</a>
 
-Esto tiene una consecuencia curiosa.
+Esto tiene una consecuencia curiosa:
 
-El color que percibo no depende simplemente de la luz que llega desde un objeto.
+**El color que percibo no depende simplemente de la luz que llega desde un objeto.**
 
 Depende también de lo que hay alrededor.
-
 De la iluminación.
-
 Del contraste.
-
 De la adaptación de mis ojos.
+Y de la historia visual que mi cerebro tiene detrás. Que te lo digan, si no, a ti, cuando sales de modelo de portada en una foto y de sospechoso habitual de la INTERPOL en la siguiente, con el mismo móvil y cambiando sólo la luz.
 
-Y de la historia visual que mi cerebro tiene detrás.
-
-Una misma superficie puede producir experiencias cromáticas distintas en condiciones diferentes, y nuestra percepción trata constantemente de descubrir qué parte de ese cambio pertenece al mundo y cuál pertenece a la iluminación.
-
-Cuando digo que “la pared es roja”, estoy haciendo una afirmación sobre el mundo.
-
+Una misma superficie puede producir experiencias cromáticas distintas en condiciones diferentes, y nuestra percepción trata constantemente de descubrir qué parte de ese cambio pertenece al mundo y cuál pertenece a la iluminación. Entonces, cuando digo que “la pared es roja”, estoy haciendo una afirmación sobre el mundo.
 Pero para poder hacerla, mi cerebro ha tenido que realizar una cantidad enorme de trabajo sin que yo me dé cuenta.
 
 ---
@@ -241,43 +215,30 @@ Pero para poder hacerla, mi cerebro ha tenido que realizar una cantidad enorme d
 ## Ahora entra una abeja
 
 Volvamos al camino de la aldea.
-
 Hay una flor a un lado de la carretera.
-
-Yo la miro. Tu la miras.
-
+Yo la miro. Tú la miras.
 Y, en algún lugar cercano, una abeja también la mira.
-
 La flor no ha cambiado.
-
 La luz que llega a sus alrededores sigue las mismas leyes físicas.
-
 Pero la abeja no tiene exactamente nuestro sistema visual.
 
-Las abejas son sensibles al ultravioleta, una región del espectro que nuestros ojos no pueden detectar. Su sistema cromático utiliza tres tipos principales de fotorreceptores distribuidos desde el ultravioleta hasta el extremo rojo del rango sensible de los himenópteros. <a class="nn-cite" href="#ref-8">[8]</a> <a class="nn-cite" href="#ref-9">[9]</a>
-
+Las abejas son sensibles al ultravioleta, una región del espectro que nuestros ojos no pueden detectar. Su sistema cromático utiliza tres tipos principales de fotorreceptores distribuidos desde el ultravioleta hasta el extremo rojo del rango sensible de los himenópteros. <a class="nn-cite" href="#ref-8">[7]</a> <a class="nn-cite" href="#ref-9">[8]</a>
 Eso significa que una flor que para mí parece simplemente amarilla puede contener para una abeja información adicional que yo no puedo experimentar como color.
 
-Muchas flores presentan patrones en el ultravioleta que pueden ayudar a dirigir a los polinizadores hacia sus recursos. Es una especie de señalización que está literalmente fuera de nuestro rango visual. <a class="nn-cite" href="#ref-8">[8]</a>
+Muchas flores presentan patrones en el ultravioleta que pueden ayudar a dirigir a los polinizadores hacia sus recursos. Es una especie de señalización que está literalmente fuera de nuestro rango visual. <a class="nn-cite" href="#ref-8">[7]</a>
 
 Y aquí la pregunta empieza a ponerse realmente incómoda.
 
-¿Qué color tiene la flor?
+> **¿Qué color tiene la flor?**
 
 Para mí, uno.
-
 Para la abeja, otro.
-
 La flor no ha elegido una de las dos respuestas.
-
 Es la misma flor.
-
 Lo que cambia es el observador.
 
 Podríamos construir una cámara sensible al ultravioleta y representar esa información en una pantalla para que nosotros pudiéramos verla, pero eso no significaría que de repente hubiéramos empezado a experimentar el ultravioleta como lo experimenta una abeja. Habríamos traducido una variable física a una señal visible para nuestro sistema.
-
 No habríamos abierto una ventana mágica al mundo de la abeja.
-
 Solo habríamos construido un traductor.
 
 ---
@@ -285,25 +246,17 @@ Solo habríamos construido un traductor.
 ## Y no todas las retinas son iguales
 
 La abeja no es una excepción.
-
 La evolución ha producido sistemas visuales muy distintos.
-
-Hay mamíferos con visión dicromática. Hay primates con tricromacia. Hay vertebrados con cuatro tipos de pigmentos visuales y sistemas cromáticos mucho más ricos que el nuestro. En distintos grupos de animales aparecen sensibilidades espectrales ajustadas a los ambientes y problemas ecológicos de cada especie. <a class="nn-cite" href="#ref-10">[10]</a>
-
+Hay mamíferos con visión dicromática. Hay primates con tricromacia. Hay vertebrados con cuatro tipos de pigmentos visuales y sistemas cromáticos mucho más ricos que el nuestro. En distintos grupos de animales aparecen sensibilidades espectrales ajustadas a los ambientes y problemas ecológicos de cada especie. 
 Algunas aves, por ejemplo, poseen sistemas visuales tetracromáticos y pueden utilizar sensibilidad al ultravioleta o al violeta para extraer información que nosotros no vemos directamente.
-
 Y aquí conviene evitar una frase demasiado tentadora:
 
 “Las aves ven cuatro veces más colores que nosotros.”
 
 No.
-
 El número de tipos de fotorreceptores no se traduce de manera tan sencilla en “número de colores”.
-
 Un sistema de visión cromática no es un cajón con cierto número de lápices dentro.
-
 Lo importante es qué sensibilidades tiene, cómo se combinan, qué circuitos neuronales existen, qué información necesita el animal y cómo todo eso se integra con el resto del sistema visual.
-
 Y si buscamos un ejemplo verdaderamente extraño, podemos mirar al fondo del mar.
 
 ---
@@ -311,25 +264,16 @@ Y si buscamos un ejemplo verdaderamente extraño, podemos mirar al fondo del mar
 ## El animal de los doce receptores
 
 Los estomatópodos, conocidos popularmente como camarones mantis, tienen uno de los sistemas visuales más sorprendentes que conocemos.
-
-Algunas especies poseen doce tipos distintos de fotorreceptores espectrales, con sensibilidades que van desde el ultravioleta profundo hasta el rojo. <a class="nn-cite" href="#ref-11">[11]</a>
-
-Doce.
-
+Algunas especies poseen doce tipos distintos de fotorreceptores espectrales, con sensibilidades que van desde el ultravioleta profundo hasta el rojo <a class="nn-cite" href="#ref-11">[9]</a>.
+**Doce**.
 La primera vez que uno oye esto, la conclusión parece evidente.
-
 Si nosotros tenemos tres, ellos deben ver una explosión de colores completamente inimaginable.
 
 Pero la realidad es bastante más interesante.
+Los experimentos de discriminación espectral han mostrado que, pese a tener muchos receptores, estos animales no distinguen pequeñas diferencias de longitud de onda con una precisión extraordinaria. Su sistema parece estar diseñado para algo distinto de la discriminación cromática fina que solemos imaginar. Se ha propuesto que utilizan una estrategia de reconocimiento cromático basada en señales temporales y movimientos de los ojos, más que una comparación fina de longitudes de onda <a class="nn-cite" href="#ref-11">[9]</a> <a class="nn-cite" href="#ref-12">[10]</a>.
 
-Los experimentos de discriminación espectral han mostrado que, pese a tener muchos receptores, estos animales no distinguen pequeñas diferencias de longitud de onda con una precisión extraordinaria. Su sistema parece estar diseñado para algo distinto de la discriminación cromática fina que solemos imaginar. Se ha propuesto que utilizan una estrategia de reconocimiento cromático basada en señales temporales y movimientos de los ojos, más que una comparación fina de longitudes de onda. <a class="nn-cite" href="#ref-11">[11]</a> <a class="nn-cite" href="#ref-12">[12]</a>
-
-Y esto es una lección importante.
-
-**Tener más receptores no significa simplemente tener más colores.**
-
+Y esto nos da una lección importante.**Tener más receptores no significa simplemente tener más colores.**
 La percepción no está escrita directamente en la retina.
-
 La retina es solo una parte de una máquina mucho más grande.
 
 ---
@@ -337,49 +281,28 @@ La retina es solo una parte de una máquina mucho más grande.
 ## Quizá cada uno vea un mundo ligeramente distinto
 
 Ni siquiera hace falta irnos a una abeja o a un camarón de doce receptores.
-
 Podemos quedarnos aquí.
-
 Conmigo.
-
 Contigo.
-
 Con cualquiera que esté leyendo esto.
 
-Incluso entre seres humanos con visión cromática normal existen diferencias en la percepción del color. Las curvas de sensibilidad de nuestros conos no son idénticas, su distribución en la retina puede variar y nuestra experiencia visual está influida por la adaptación y por otros mecanismos del sistema nervioso. <a class="nn-cite" href="#ref-13">[13]</a>
-
+Incluso entre seres humanos con visión cromática normal existen diferencias en la percepción del color. Las curvas de sensibilidad de nuestros conos no son idénticas, su distribución en la retina puede variar y nuestra experiencia visual está influida por la adaptación y por otros mecanismos del sistema nervioso <a class="nn-cite" href="#ref-13">[11]</a>.
 Y luego están las distintas formas de deficiencia de visión cromática.
-
 Una persona puede carecer de una de las señales que yo utilizo para distinguir determinados colores y, por tanto, organizar una parte del espacio cromático de una manera diferente.
-
 No es simplemente que vea el mundo “en menos colores”.
-
 Ve el mundo con otro sistema de medición.
-
 Esto me lleva a una idea que me parece bastante extraña.
-
 Cuando dos personas miramos una manzana, podemos estar de acuerdo en llamarla roja.
-
 Podemos elegir la misma pintura para pintar una pared.
-
 Podemos pasar un examen de visión y coincidir en nuestras respuestas.
-
 Podemos incluso describir de forma muy parecida todo lo que ocurre físicamente.
-
 Pero hay algo que no podemos comprobar directamente.
-
 No podemos comparar mi experiencia del rojo con la tuya.
-
 Podemos comparar nuestras respuestas.
-
 Podemos comparar nuestro comportamiento.
-
 Podemos comparar nuestros ojos.
-
 Podemos medir nuestras retinas.
-
 Podemos registrar nuestra actividad cerebral.
-
 Pero no puedo entrar en tu cabeza y mirar cómo se siente el rojo desde dentro.
 
 ---
@@ -387,170 +310,88 @@ Pero no puedo entrar en tu cabeza y mirar cómo se siente el rojo desde dentro.
 ## El experimento del espectro invertido
 
 Aquí es donde la física empieza a rozar la filosofía.
-
 Imaginemos algo imposible.
-
 Supongamos que un día despierto y descubro que, de alguna manera, todas mis experiencias cromáticas se han intercambiado internamente.
-
 Lo que antes experimentaba como rojo ahora se siente como lo que antes experimentaba como verde.
-
 Pero hay una condición importante: todo lo demás permanece exactamente igual.
-
 Mis palabras no cambian.
-
 Mi memoria no cambia.
-
 Mis asociaciones no cambian.
-
 Si antes decía que una manzana era roja, sigo diciendo que es roja.
-
 Si me preguntas de qué color es un semáforo, respondo correctamente.
-
 Si me enseñas dos objetos que antes distinguía, sigo distinguiéndolos.
-
 Desde fuera, no notarías nada.
-
 El experimento mental del **espectro invertido** intenta precisamente poner sobre la mesa esta posibilidad: que dos personas pudieran tener experiencias fenomenales diferentes aunque sus disposiciones de comportamiento y sus respuestas a los estímulos fueran las mismas. Es uno de los clásicos problemas filosóficos sobre la relación entre el color y la experiencia consciente. <a class="nn-cite" href="#ref-14">[14]</a>
-
 No sabemos si un caso así es físicamente realizable de la forma ingenua en que se imagina.
-
 De hecho, el experimento tiene muchas dificultades cuando intentamos convertirlo en una hipótesis científica concreta.
-
 Pero sirve para señalar una cosa.
-
 Hay una diferencia entre **saber qué estímulo recibe un observador** y **saber cómo se siente ese estímulo para él**.
-
 Y esa diferencia es exactamente la que llevamos persiguiendo desde el principio.
-
+Quizá lo que tu has llamado toda la vida rojo, yo lo he visto como tu ves el verde. Pero como mis padres me decian que eso se llama rojo lo llamo rojo. Pero lo veo como tu ves el verde. Y lo llamo rojo. Nunca sabrás que yo lo veo así. Yo nunca sabré que tu lo ves de otra forma. Lo llamamos igual, lo vemos distinto.
 ---
 
 ## Entonces, ¿existe el color?
 
 Después de todo este viaje, sería muy tentador dar una respuesta contundente.
-
 Podría decir:
 
-“Los colores no existen. Solo son una ilusión del cerebro.”
+**Los colores no existen. Solo son una ilusión del cerebro.**
 
 Pero no estoy seguro de que eso sea una buena respuesta.
-
-Porque una ilusión también es algo que ocurre.
+Porque una ilusión también es algo que ocurre. De ilusiones se vive que dice aquel.
 
 El rojo que experimento cuando miro una amapola no es una propiedad fundamental de la radiación electromagnética. Pero mi experiencia de rojo es real como experiencia. Está producida por un sistema físico real: mis ojos, mis neuronas y mi cerebro. Que una propiedad dependa de un observador no significa necesariamente que sea falsa.
 
-La filosofía del color lleva mucho tiempo discutiendo precisamente esto. Hay teorías que consideran los colores propiedades objetivas de las cosas; otras los entienden como propiedades disposicionales o relacionales, dependientes de cómo un objeto interactúa con un observador; otras tratan los colores como propiedades de la experiencia y algunas posiciones llegan a negar que los colores existan en el mundo del modo en que normalmente pensamos. <a class="nn-cite" href="#ref-15">[15]</a>
-
-Y quizá el problema esté precisamente en querer elegir una sola de esas posibilidades.
-
-Porque cuando digo que la pared es roja, puedo estar hablando de varias cosas a la vez.
-
-Puedo hablar de su reflectancia espectral.
-
-Puedo hablar de la luz que refleja bajo una determinada iluminación.
-
-Puedo hablar de la respuesta de mis conos.
-
-Puedo hablar de la percepción que construye mi cerebro.
-
-Y puedo usar la misma palabra para todas ellas.
-
-“Rojo”.
-
-Es una palabra extraordinariamente eficiente.
-
-También es una palabra que esconde una cantidad absurda de física y biología detrás.
 
 ---
 
 ## Volver a mirar la aldea
 
-Cuando vuelvo a pensar en aquella aldea portuguesa, la escena inicial ya no me parece tan sencilla.
-
+Cuando vuelvo a pensar en aquella aldea serrana, la escena inicial ya no me parece tan sencilla.
 Las casas siguen siendo grises.
-
 Los tejados siguen cubiertos de pizarra.
-
 Los árboles siguen siendo verdes.
-
 El cielo sigue siendo azul.
-
 Eso no ha cambiado.
-
 Lo que ha cambiado es la pregunta con la que los miro.
 
 Ahora sé que la luz que llega desde esas montañas puede describirse con un espectro.
-
 Sé que las superficies tienen propiedades físicas que determinan cómo absorben, reflejan y dispersan esa luz.
-
 Sé que mis tres tipos principales de conos convierten esa radiación en señales nerviosas.
-
 Sé que la retina y el cerebro comparan esas señales y las transforman muchas veces antes de que yo tenga la experiencia consciente de estar viendo una cosa roja, verde o azul.
-
 Sé que una abeja puede acceder a información ultravioleta que para mí no existe como experiencia visual.
-
 Sé que un ave puede tener un sistema cromático distinto.
-
 Sé que un camarón mantis puede tener doce clases de fotorreceptores y, sin embargo, no ver simplemente “cuatro veces más colores”.
-
 Y sé que todo esto todavía no me permite responder la pregunta que empezó la historia.
 
 Porque puedo describir con una precisión extraordinaria **qué ocurre en el mundo cuando miro una flor**.
-
 Puedo medir la luz.
-
 Puedo medir la retina.
-
 Puedo medir las neuronas.
-
 Puedo modelizar las respuestas.
-
 Puedo construir un espacio matemático para representar los colores.
-
 Pero cuando cierro los ojos, no puedo mirar dentro de tu cabeza para comprobar si el rojo que tú experimentas es exactamente el mismo rojo que experimento yo.
-
-Y entonces vuelvo a la pequeña aldea.
+Y entonces vuelvo allí entre montañas.
 
 Casi nadie está mirando.
-
 Las casas continúan allí.
-
 La montaña continúa allí.
-
 La luz continúa viajando aunque no haya ojos para recibirla.
-
 Las ondas electromagnéticas siguen teniendo sus longitudes de onda.
-
 Las superficies siguen teniendo sus propiedades.
-
 Los fotones siguen golpeando la materia.
-
 Todo eso puede existir sin nosotros.
-
 Pero el rojo...
-
 El rojo necesita algo más.
-
 Necesita un sistema capaz de convertir toda esa física en una experiencia.
 
-Y quizá esa sea la parte más extraña de los colores.
-
-Que no son simplemente una propiedad que encontramos en el mundo.
-
-Son el lugar en el que **el mundo físico y nuestra experiencia se encuentran**.
-
 Así que quizá la pregunta del principio no tenga una respuesta sencilla.
-
 Quizá el mundo, cuando nadie lo mira, no sea rojo, ni verde, ni azul.
-
 Quizá solo haya luz, materia y radiación.
-
 Y quizá los colores aparezcan cuando todo eso encuentra unos ojos capaces de verlos.
-
 La próxima vez que mires una pared roja, una flor o el cielo al atardecer, quizá merezca la pena detenerse un instante.
-
 No para preguntarte de qué color es.
-
-Sino para preguntarte **dónde empezó ese color**.
+Sino para preguntarte:
 
 > **¿De qué color es realmente el mundo cuando nadie lo está mirando?**
 
@@ -566,11 +407,6 @@ Sino para preguntarte **dónde empezó ese color**.
   <li id="ref-2">
     Solomon, S. G., &amp; Lennie, P. (2007). The machinery of colour vision. <em>Nature Reviews Neuroscience</em>, 8, 276–286.
     <a href="https://doi.org/10.1038/nrn2094" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/nrn2094</a>
-  </li>
-
-  <li id="ref-3">
-    Baden, T., &amp; Osorio, D. (2019). The retinal basis of vertebrate color vision. <em>Annual Review of Vision Science</em>, 5, 177–200.
-    <a href="https://doi.org/10.1146/annurev-vision-091718-014926" target="_blank" rel="noopener noreferrer">https://doi.org/10.1146/annurev-vision-091718-014926</a>
   </li>
 
   <li id="ref-4">
@@ -601,11 +437,6 @@ Sino para preguntarte **dónde empezó ese color**.
     Chittka, L. (1992). The colour hexagon: a chromaticity diagram based on photoreceptor excitations as a generalized representation of colour opponency. <em>Journal of Comparative Physiology A</em>, 170, 533–543.
   </li>
 
-  <li id="ref-10">
-    Baden, T., &amp; Osorio, D. (2019). The retinal basis of vertebrate color vision. <em>Annual Review of Vision Science</em>, 5, 177–200.
-    <a href="https://doi.org/10.1146/annurev-vision-091718-014926" target="_blank" rel="noopener noreferrer">https://doi.org/10.1146/annurev-vision-091718-014926</a>
-  </li>
-
   <li id="ref-11">
     Thoen, H. H. et al. (2014). A different form of color vision in mantis shrimp. <em>Science</em>, 343(6169), 411–413.
     <a href="https://doi.org/10.1126/science.1245824" target="_blank" rel="noopener noreferrer">https://doi.org/10.1126/science.1245824</a>
@@ -621,13 +452,5 @@ Sino para preguntarte **dónde empezó ese color**.
     <a href="https://doi.org/10.1146/annurev-vision-121921-083326" target="_blank" rel="noopener noreferrer">https://doi.org/10.1146/annurev-vision-121921-083326</a>
   </li>
 
-  <li id="ref-14">
-    Stanford Encyclopedia of Philosophy (2024). Color. <em>Stanford Encyclopedia of Philosophy</em>.
-    <a href="https://plato.stanford.edu/entries/color/" target="_blank" rel="noopener noreferrer">https://plato.stanford.edu/entries/color/</a>
-  </li>
-
-  <li id="ref-15">
-    Stanford Encyclopedia of Philosophy (2024). Color: theories of color and the problem of color realism. <em>Stanford Encyclopedia of Philosophy</em>.
-    <a href="https://plato.stanford.edu/entries/color/" target="_blank" rel="noopener noreferrer">https://plato.stanford.edu/entries/color/</a>
-  </li>
+ 
 </ol>
