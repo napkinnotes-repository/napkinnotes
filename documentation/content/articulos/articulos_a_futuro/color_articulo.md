@@ -14,7 +14,7 @@ tags:
   - neurociencia
   - filosofía
   - animales
-summary: "Si nadie está mirando, ¿el mundo tiene color?. Dicho de otra forma, ¿dónde aparece realmente el color? o ¿es real el color?."
+summary: "Si nadie está mirando, ¿el mundo tiene color? Dicho de otra forma, ¿dónde aparece realmente el color? o ¿es real el color?"
 image: images/color.jpeg
 certificate: true
 ---
@@ -38,7 +38,7 @@ Pero entonces te preguntas:
 
 > **¿De qué color es realmente el mundo cuando nadie lo está mirando?**
 
-A primera vista parece una pregunta filosófica inventada para complicar una cosa que funciona perfectamente bien.  Si miro una pared roja, la pared es roja. Punto. La explicación física parece sencilla. La luz, que está formada de muchas longitudes de onda (es decir de muchos colores) llega desde una fuente, ilumina la superficie y la materia absorbe unas partes del espectro mientras refleja otras. La radiación reflejada alcanza nuestros ojos y nuestro sistema visual la interpreta como un determinado color.
+A primera vista parece una pregunta filosófica, inventada para complicar una cosa que funciona perfectamente bien.  Si miro una pared roja, la pared es roja. Punto. La explicación física parece sencilla. La luz, que está formada de muchas longitudes de onda (es decir de muchos colores) llega desde una fuente, ilumina la superficie y la materia absorbe unas partes del espectro mientras refleja otras. La radiación reflejada alcanza nuestros ojos y nuestro sistema visual la interpreta como un determinado color.
 
 Podrías dejarlo ahí. Pero hay un pequeño problema. Eso es la explicación de qué ocurre con **la luz**.
 Todavía no se ha explicado qué es **el rojo**.
@@ -55,8 +55,7 @@ Cuando la luz llega a una superficie, su composición puede cambiar. Una parte p
 
 Hasta aquí, todo es física.
 
-Podemos medir la luz que sale de la pared con un espectrómetro. Podemos dibujar una curva. Podemos decir cuánta radiación hay alrededor de cada longitud de onda.
-
+Podemos medir la luz que sale de la pared con un espectrómetro. Podemos dibujar una curva. Podemos decir cuánta radiación hay alrededor de cada longitud de onda que vamos a denotar por $\lambda$.
 Podemos escribirlo incluso de una forma bastante limpia:
 
 $$
@@ -66,24 +65,16 @@ $$
 al menos en el caso simplificado de una superficie iluminada, donde $E(\lambda)$ representa la distribución espectral de la iluminación y $R(\lambda)$ la reflectancia espectral de la superficie.
 
 La luz que llega hasta nuestros ojos es el resultado de esa combinación.
-
 Pero ninguna de esas letras significa rojo.
-
 No existe una $R$ pequeña escondida en la pared diciendo “soy roja”.
-
 No hay un fotón que lleve escrito “rojo” en la etiqueta.
 
 La radiación puede tener una longitud de onda alrededor de 650 nanómetros y nosotros podemos asociarla a una sensación rojiza. Pero 650 nm es una longitud de onda. No es una experiencia.
+La diferencia parece pequeña cuando la escribimos así. Pero es enorme.
+Porque ahora hemos separado dos cosas que durante toda la vida solemos tratar como si fueran la misma:
 
-La diferencia parece pequeña cuando la escribimos así.
-
-Pero es enorme.
-
-Porque ahora hemos separado dos cosas que durante toda la vida solemos tratar como si fueran la misma.
-
-La descripción física de un estímulo.
-
-Y la experiencia que ese estímulo produce en nosotros.
+  1. La descripción física de un estímulo.
+  2. Y la experiencia que ese estímulo produce en nosotros.
 
 ---
 
