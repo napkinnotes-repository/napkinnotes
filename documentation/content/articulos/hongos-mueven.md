@@ -3,7 +3,6 @@ title: Movimiento y vísceras
 author: Gonzalo Matias Romano
 date: 2026-08-27
 layout: articles
-slug: prueba-gonza
 status: published
 category: Micología
 tags:
