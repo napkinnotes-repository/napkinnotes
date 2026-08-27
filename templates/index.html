@@ -106,7 +106,6 @@
     class="nn-mini-author-carousel__item"
     href="{{ SITEURL }}/{{ article.url }}"
     data-carousel-item
-    style="border: 2px solid {{ article.audience|default('var(--line)') }};"
 >
                     <img class="nn-mini-author-carousel__image" src="{{ SITEURL }}/{{ author_data.caricature }}" alt="{{ author_name }}">
                     <span class="nn-mini-author-carousel__name">{{ author_name }}</span>
@@ -138,10 +137,11 @@
             {% for article in articles %}
                 {% if loop.index0 < 7 %}
                 <a
-                    class="nn-mini-author-carousel__item"
-                    href="{{ SITEURL }}/{{ article.url }}"
-                    data-carousel-item
-                >
+    class="nn-mini-author-carousel__item"
+    href="{{ SITEURL }}/{{ article.url }}"
+    data-carousel-item
+    style="border: 2px solid {{ article.audience|default('var(--line)') }};"
+>
                     {% if article.image %}
                         {% if article.image.startswith('http') %}
                         <img class="nn-mini-author-carousel__image" src="{{ article.image }}" alt="{{ article.title }}">
