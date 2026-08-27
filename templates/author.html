@@ -75,6 +75,7 @@ Artículos escritos por {{ author }} en {{ SITENAME|striptags|e }}.
 
       <article
         class="article-card"
+        style="border: 2px solid {{ article.audience|default('var(--line)') }};"
         data-href="{{ SITEURL }}/{{ article.url }}"
         role="link"
         tabindex="0"
