@@ -103,10 +103,11 @@
             {% for author_name, author_data in AUTHORS.items() %}
                 {% if author_data.caricature is defined and author_data.caricature %}
                 <a
-                    class="nn-mini-author-carousel__item"
-                    href="{{ SITEURL }}/{{ author_data.articles_url }}"
-                    data-carousel-item
-                >
+    class="nn-mini-author-carousel__item"
+    href="{{ SITEURL }}/{{ article.url }}"
+    data-carousel-item
+    style="border: 2px solid {{ article.audience|default('var(--line)') }};"
+>
                     <img class="nn-mini-author-carousel__image" src="{{ SITEURL }}/{{ author_data.caricature }}" alt="{{ author_name }}">
                     <span class="nn-mini-author-carousel__name">{{ author_name }}</span>
                 </a>
