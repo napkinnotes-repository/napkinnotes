@@ -13,6 +13,8 @@ image: images/DSC_4918.jpeg
 
 [TOC]
 
+## Una historia de hongos
+
 Es curioso como uno observa el mundo desde su realidad. Estamos acostumbrados a ver a los animales moverse de determinadas maneras. Si menciono el movimiento de una serpiente, todos visualizamos su forma de reptar por el terreno. Lo mismo ocurre si menciono a un delfín, una hormiga y una hiena. Nuestros movimientos definen nuestra forma de interactuar con el mundo, ese que se encuentra a unos escasos milímetros de nuestro propio interior.
 
 Ahora, si pensamos en los movimientos de otros organismos, ¿qué ocurre? Sabemos que es poco probable que una enredadera nos salte al cuello para ahorcarnos o que una seta nos persiga a los saltos por el campo, pero poco más.
