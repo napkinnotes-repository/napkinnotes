@@ -71,7 +71,8 @@ Recorre todos los artículos de {{ SITENAME|striptags|e }} en orden cronológico
         {% endif %}
       {% endif %}
 
-      <article class="article-card">
+      <article class="article-card"
+         style="border: 2px solid {{ article.audience|default('var(--line)') }};">
         <a class="card-media-link"
            href="{{ SITEURL }}/{{ article.url }}"
            aria-label="Leer {{ article.title }}">
