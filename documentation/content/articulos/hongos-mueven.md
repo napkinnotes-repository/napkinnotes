@@ -4,7 +4,7 @@ author: Gonzalo Matias Romano
 date: 2026-08-27
 layout: articles
 slug: prueba-gonza
-status: hidden
+status: published
 category: Micología
 tags:
  - hongos
