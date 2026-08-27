@@ -17,6 +17,7 @@ tags:
 summary: "Si nadie está mirando, ¿el mundo tiene color? Dicho de otra forma, ¿dónde aparece realmente el color? o ¿es real el color?"
 image: images/color.jpeg
 certificate: true
+audience: yellow
 ---
 
 [TOC]
