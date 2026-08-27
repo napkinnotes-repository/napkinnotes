@@ -40,8 +40,8 @@ Pero entonces te preguntas:
 
 A primera vista parece una pregunta filosófica, inventada para complicar una cosa que funciona perfectamente bien. Si miro una pared roja, la pared es roja. Punto. La explicación física parece sencilla. La luz, que generalmente está formada de muchas longitudes de onda (es decir, de muchos colores), llega desde una fuente, ilumina la superficie y la materia absorbe unas partes del espectro mientras refleja otras. La radiación reflejada alcanza nuestros ojos y nuestro sistema visual la interpreta como un determinado color.
 
-Podrías dejarlo ahí. Pero hay un pequeño problema. Eso es la explicación de qué ocurre con **la luz**.
-Todavía no se ha explicado qué es **el rojo**.
+Podrías dejarlo ahí. Pero hay un pequeño problema. Eso es la explicación de **qué ocurre con** la luz.
+Todavía no se ha explicado **qué es** el rojo.
 
 ---
 
@@ -50,12 +50,10 @@ Todavía no se ha explicado qué es **el rojo**.
 Vamos a empezar por lo más sencillo.
 
 La luz visible es una pequeña región del espectro electromagnético. Podemos describirla mediante una longitud de onda, una frecuencia o una distribución de energía en función de la longitud de onda.
-
 Cuando la luz llega a una superficie, su composición puede cambiar. Una parte puede ser absorbida, otra reflejada, otra transmitida y otra dispersada. En el caso de una pintura roja, por ejemplo, la materia tiene unas propiedades que hacen que la luz que regresa hacia nosotros tenga una distribución espectral determinada.
 
 Hasta aquí, todo es física.
-
-Podemos medir la luz que sale de la pared con un espectrómetro. Podemos dibujar una curva. Podemos decir cuánta radiación hay alrededor de cada longitud de onda que vamos a denotar por $\lambda$.
+Podemos medir la luz que sale de la pared con un espectrómetro. Podemos dibujar una curva. Podemos decir cuánta radiación hay alrededor de cada longitud de onda, que vamos a denotar por $\lambda$.
 Podemos escribirlo incluso de una forma bastante limpia:
 
 $$
@@ -95,9 +93,7 @@ Recibe luz.
 La convierte en varias respuestas.
 Las compara.
 Y a partir de ahí construye una señal cromática que continúa su viaje por la retina, el tálamo y las distintas áreas visuales del cerebro <a class="nn-cite" href="#ref-3">[3]</a>.
-
 En las primeras etapas aparecen mecanismos de oposición cromática que comparan la actividad de distintos conos. Hay canales que, de forma simplificada, enfrentan señales asociadas a longitudes de onda largas y medias y otros que comparan las respuestas de las señales de onda corta con combinaciones de las demás <a class="nn-cite" href="#ref-2">[2]</a> <a class="nn-cite" href="#ref-3">[3]</a>.
-
 Por eso la historia del color no es simplemente:
 
 **luz → retina → color.**
@@ -170,16 +166,14 @@ Podemos diseñar pantallas y fuentes de luz.
 Podemos calcular diferencias de color.
 Pero hay una curiosidad.
 Un sistema de coordenadas del color no demuestra que el color sea una propiedad fundamental de la materia.
-Solo nos da una forma extremadamente buena de describir y predecir cómo determinados estímulos se relacionan con determinados observadores y condiciones de observación.
+Sólo nos da una forma extremadamente buena de describir y predecir cómo determinados estímulos se relacionan con determinados observadores y condiciones de observación.
 De hecho, una de las propiedades más importantes de la ciencia del color es precisamente el **metamerismo**.
-
 Dos luces físicamente distintas pueden producir la misma respuesta en nuestro sistema visual y, bajo determinadas condiciones, parecer del mismo color <a class="nn-cite" href="#ref-3">[3]</a> <a class="nn-cite" href="#ref-4">[4]</a>.
-
 Es decir:
 
 **Dos espectros diferentes pueden producir el mismo color.**
 
-Ya no estamos preguntando solo qué color tiene una cosa.
+Ya no estamos preguntando sólo qué color tiene una cosa.
 Ahora tenemos que preguntar qué luz, qué observador y qué condiciones de observación estamos considerando.
 
 ---
@@ -192,11 +186,8 @@ La iluminación ha cambiado.
 La luz del Sol ya no tiene exactamente la misma composición espectral que a mediodía. Si estoy bajo una lámpara, la diferencia puede ser todavía mayor.
 Y, sin embargo, la pared continúa pareciéndome roja.
 No exactamente del mismo rojo, por supuesto. El color puede cambiar. Pero normalmente sigo reconociendo la superficie como roja aunque la luz que llega a mis ojos haya cambiado de forma considerable.
-
 Eso se llama **constancia del color**.
-
 Nuestro sistema visual intenta estimar qué parte de la señal procede de la iluminación y qué parte está relacionada con las propiedades de la superficie. Para hacerlo utiliza información procedente del conjunto de la escena, adapta la sensibilidad de los receptores y combina las señales en distintas etapas del procesamiento visual <a class="nn-cite" href="#ref-5">[5]</a> <a class="nn-cite" href="#ref-6">[6]</a>.
-
 Esto tiene una consecuencia curiosa:
 
 **El color que percibo no depende simplemente de la luz que llega desde un objeto.**
@@ -205,7 +196,7 @@ Depende también de lo que hay alrededor.
 De la iluminación.
 Del contraste.
 De la adaptación de mis ojos.
-Y de la historia visual que mi cerebro tiene detrás. Que te lo digan, si no, a ti, cuando sales de modelo de portada en una foto y de sospechoso habitual de la INTERPOL en la siguiente, con el mismo móvil y cambiando sólo la luz.
+Y de la historia visual que mi cerebro tiene detrás. Que te lo digan, si no, a ti, cuando sales como modelo de portada en una foto y de sospechoso habitual de la INTERPOL en la siguiente, con el mismo móvil y cambiando sólo la luz.
 
 Una misma superficie puede producir experiencias cromáticas distintas en condiciones diferentes, y nuestra percepción trata constantemente de descubrir qué parte de ese cambio pertenece al mundo y cuál pertenece a la iluminación. Entonces, cuando digo que “la pared es roja”, estoy haciendo una afirmación sobre el mundo.
 Pero para poder hacerla, mi cerebro ha tenido que realizar una cantidad enorme de trabajo sin que yo me dé cuenta.
@@ -224,9 +215,7 @@ Pero la abeja no tiene exactamente nuestro sistema visual.
 
 Las abejas son sensibles al ultravioleta, una región del espectro que nuestros ojos no pueden detectar. Su sistema cromático utiliza tres tipos principales de fotorreceptores, uno de ellos sensible al ultravioleta <a class="nn-cite" href="#ref-7">[7]</a> <a class="nn-cite" href="#ref-8">[8]</a>.
 Eso significa que una flor que para mí parece simplemente amarilla puede contener para una abeja información adicional que yo no puedo experimentar como color.
-
 Muchas flores presentan patrones en el ultravioleta que pueden ayudar a dirigir a los polinizadores hacia sus recursos. Es una especie de señalización que está literalmente fuera de nuestro rango visual <a class="nn-cite" href="#ref-7">[7]</a>.
-
 Y aquí la pregunta empieza a ponerse realmente incómoda.
 
 > **¿Qué color tiene la flor?**
