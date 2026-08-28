@@ -11,7 +11,7 @@ tags:
   - "viking"
   - "nasa"
 summary: "Hace cincuenta años, el 3 de septiembre de 1976, la NASA lanzaba la Viking 2 la segunda de dos sondas destinadas a estudiar la composición de la atmósfera Marciana. Hoy, en Napkin Notes te explicamos el proceso que utilizaron la misiones Viking para amartizar sus sondas y sobrevivir a una atmósfera capaz de calentar una nave brutalmente, pero incapaz de frenarla por sí sola."
-image: "viking/proyecto-viking.jepg"
+image: "images/viking/proyecto-viking.jepg"
 ---
 
 [TOC]
@@ -32,7 +32,7 @@ El problema aparece cuando la nave ya ha perdido buena parte de su velocidad. La
 
 Viking respondió a esa contradicción con una cadena de mecanismos, cada uno eficaz en un intervalo distinto de velocidad y altura:  resistencia aerodinámica con escudo térmico, paracaídas supersónico,  retrocohete regulables y patas amortiguadas. Todos este mecanismo fue automático pues debido a la distancia a la que se encontraba martes el retraso en las señales no permitían maniobrar a control de misión.
 
-![Esquema de la secuencia de entrada, descenso y aterrizaje de Viking, mostrando aeroshell, despliegue del paracaídas, separación del escudo y descenso propulsado.](viking/viking2.png)
+![Esquema de la secuencia de entrada, descenso y aterrizaje de Viking, mostrando aeroshell, despliegue del paracaídas, separación del escudo y descenso propulsado.](images/viking/viking2.png)
 
 *Figura 1. Esquema de la secuencia de entrada, descenso y aterrizaje de Viking, mostrando *aeroshell*, despliegue del paracaídas, separación del escudo y descenso propulsado.*
 
@@ -70,7 +70,7 @@ Para Viking 2, NASA reconstruye un máximo de calentamiento convectivo cercano a
 
 El escudo frontal estaba recubierto con SLA-561V, un ablador ligero basado en silicona, microesferas, corcho y fibras dentro de una estructura de panal. Protegía degradándose y expulsando material antes de que el calor alcanzara la estructura interna. En ingeniería térmica, perder dignamente una capa puede ser mejor que conservar heroicamente toda la nave durante tres segundos.
 
-![Vista detonada y corte transversal de la cápsula del aterrizador Viking. El diagrama detalla la integración del sistema EDL (Entrada, Descenso y Aterrizaje), mostrando la posición de almacenamiento del aterrizador (Lander), la cubierta de base, la aerocubierta de protección térmica y el punto de separación de la cápsula.](viking/capsula.png)
+![Vista detonada y corte transversal de la cápsula del aterrizador Viking. El diagrama detalla la integración del sistema EDL (Entrada, Descenso y Aterrizaje), mostrando la posición de almacenamiento del aterrizador (Lander), la cubierta de base, la aerocubierta de protección térmica y el punto de separación de la cápsula.](images/viking/capsula.png)
 
 *Figura 2. Vista detonada y corte transversal de la cápsula del aterrizador Viking. El diagrama detalla la integración del sistema EDL (Entrada, Descenso y Aterrizaje), mostrando la posición de almacenamiento del aterrizador (Lander), la cubierta de base, la aerocubierta de protección térmica y el punto de separación de la cápsula.*
 
@@ -98,7 +98,7 @@ $$
 
 Los tres motores modulaban entonces su empuje para llevar ese error hacia cero. Al mismo tiempo, el control de actitud orientaba el empuje aproximadamente en sentido contrario al vector velocidad, produciendo un *gravity turn* que eliminaba conjuntamente las componentes horizontal y vertical. Las curvas $V_d(H)$ habían sido obtenidas previamente mediante simulaciones detalladas que incluían el consumo de hidrazina, el caudal de propelente, el impulso específico y la caída de presión de los depósitos. Bajo condiciones nominales, el sistema llevaba a Viking hasta unos $2.44,\mathrm{m/s}$ a aproximadamente $16.8,\mathrm{m}$ de altura, y desde allí mantenía prácticamente esa velocidad hasta el contacto con el suelo.
 
-![Captura real del Viking 2 sobre Planitia Uthopia, la bandera se uso para calibrar los colores](viking/captura-real-vikingo-2.png)
+![Captura real del Viking 2 sobre Planitia Uthopia, la bandera se uso para calibrar los colores](images/viking/captura-real-vikingo-2.png)
 
 *Figura 3. Captura real del Viking 2 sobre Planitia Uthopia, la bandera se uso para calibrar los colores*
 
@@ -113,7 +113,7 @@ Actualmente amartizar continua siendo un desafío ya que su dificultad, crece co
 
 El cielo nos llama y hemos empezado a responder con acento Vikingo.
 
-![Carl Sagan junto a un modelo a escala real del módulo Viking fotografiado en Death Valley, California](viking/sagan-viking.jpg)
+![Carl Sagan junto a un modelo a escala real del módulo Viking fotografiado en Death Valley, California](images/viking/sagan-viking.jpg)
 
 *Figura 4. Carl Sagan junto a un modelo a escala real del módulo Viking fotografiado en Death Valley, California. Antes de que las Viking convirtieran el paisaje marciano en un lugar conocido, sus ingenieros y científicos tuvieron que imaginar, ensayar y explicar cómo una máquina terrestre podría sobrevivir a la caída sobre otro mundo. Crédito: NASA/JPL.*
 
