@@ -113,7 +113,7 @@ Actualmente amartizar continua siendo un desafío ya que su dificultad, crece co
 
 El cielo nos llama y hemos empezado a responder con acento Vikingo.
 
-![Carl Sagan junto a un modelo a escala real del módulo Viking fotografiado en Death Valley, California](images/viking/sagan_viking.jpg)
+![Carl Sagan junto a un modelo a escala real del módulo Viking fotografiado en Death Valley, California](images/viking/sagan_viking.jpeg)
 
 *Figura 4. Carl Sagan junto a un modelo a escala real del módulo Viking fotografiado en Death Valley, California. Antes de que las Viking convirtieran el paisaje marciano en un lugar conocido, sus ingenieros y científicos tuvieron que imaginar, ensayar y explicar cómo una máquina terrestre podría sobrevivir a la caída sobre otro mundo. Crédito: NASA/JPL.*
 
