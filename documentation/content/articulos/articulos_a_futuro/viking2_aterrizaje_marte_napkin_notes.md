@@ -11,7 +11,7 @@ tags:
   - "viking"
   - "nasa"
 summary: "Hace cincuenta años, el 3 de septiembre de 1976, la NASA lanzaba la Viking 2 la segunda de dos sondas destinadas a estudiar la composición de la atmósfera Marciana. Hoy, en Napkin Notes te explicamos el proceso que utilizaron la misiones Viking para amartizar sus sondas y sobrevivir a una atmósfera capaz de calentar una nave brutalmente, pero incapaz de frenarla por sí sola."
-image: "viking/proyecto-viking.jepg"
+image: "proyecto-viking.jepg"
 ---
 
 [TOC]
