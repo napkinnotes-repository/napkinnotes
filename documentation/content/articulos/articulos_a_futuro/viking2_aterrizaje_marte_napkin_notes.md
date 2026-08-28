@@ -11,7 +11,7 @@ tags:
   - "viking"
   - "nasa"
 summary: "Hace cincuenta años, el 3 de septiembre de 1976, la NASA lanzaba la Viking 2 la segunda de dos sondas destinadas a estudiar la composición de la atmósfera Marciana. Hoy, en Napkin Notes te explicamos el proceso que utilizaron la misiones Viking para amartizar sus sondas y sobrevivir a una atmósfera capaz de calentar una nave brutalmente, pero incapaz de frenarla por sí sola."
-image: "images/viking/proyecto-viking.jepg"
+image: "images/viking/proyecto-viking.jpeg"
 ---
 
 [TOC]
@@ -113,7 +113,7 @@ Actualmente amartizar continua siendo un desafío ya que su dificultad, crece co
 
 El cielo nos llama y hemos empezado a responder con acento Vikingo.
 
-![Carl Sagan junto a un modelo a escala real del módulo Viking fotografiado en Death Valley, California](images/viking/sagan-viking.jpg)
+![Carl Sagan junto a un modelo a escala real del módulo Viking fotografiado en Death Valley, California](images/viking/sagan_viking.jpg)
 
 *Figura 4. Carl Sagan junto a un modelo a escala real del módulo Viking fotografiado en Death Valley, California. Antes de que las Viking convirtieran el paisaje marciano en un lugar conocido, sus ingenieros y científicos tuvieron que imaginar, ensayar y explicar cómo una máquina terrestre podría sobrevivir a la caída sobre otro mundo. Crédito: NASA/JPL.*
 
