@@ -70,7 +70,7 @@ Para Viking 2, NASA reconstruye un máximo de calentamiento convectivo cercano a
 
 El escudo frontal estaba recubierto con SLA-561V, un ablador ligero basado en silicona, microesferas, corcho y fibras dentro de una estructura de panal. Protegía degradándose y expulsando material antes de que el calor alcanzara la estructura interna. En ingeniería térmica, perder dignamente una capa puede ser mejor que conservar heroicamente toda la nave durante tres segundos.
 
-![Vista detonada y corte transversal de la cápsula del aterrizador Viking. El diagrama detalla la integración del sistema EDL (Entrada, Descenso y Aterrizaje), mostrando la posición de almacenamiento del aterrizador (Lander), la cubierta de base, la aerocubierta de protección térmica y el punto de separación de la cápsula.](images/viking/capsula.png)
+![Vista detonada y corte transversal de la cápsula del aterrizador Viking. El diagrama detalla la integración del sistema EDL (Entrada, Descenso y Aterrizaje), mostrando la posición de almacenamiento del aterrizador (Lander), la cubierta de base, la aerocubierta de protección térmica y el punto de separación de la cápsula.](images/viking/capsula.jpeg)
 
 *Figura 2. Vista detonada y corte transversal de la cápsula del aterrizador Viking. El diagrama detalla la integración del sistema EDL (Entrada, Descenso y Aterrizaje), mostrando la posición de almacenamiento del aterrizador (Lander), la cubierta de base, la aerocubierta de protección térmica y el punto de separación de la cápsula.*
 
