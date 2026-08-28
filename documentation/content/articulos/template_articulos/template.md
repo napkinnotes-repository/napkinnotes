@@ -11,7 +11,7 @@ tags: # tags con minúscula inicial
   - blabla
   - bli bli
 summary: aaaaa # 1-2 frases cortas para la tarjeta del artículo
-image: images/nombre_de_la_imagen.jpeg # imagen principal del artículo TIENE QUE SER JPEG EL FORMATO
+image: images/nombre_de_la_imagen.jpeg # imagen principal del artículo  ¡¡¡¡¡¡¡¡TIENE QUE SER JPEG EL FORMATO!!!!!
 certificate: true
 ---
 
