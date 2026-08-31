@@ -919,7 +919,7 @@ N(t)=A\,e^{bt}.
 $$&lt;/div&gt;
 &lt;p&gt;Aquí &lt;span class="math"&gt;\(N(t)\)&lt;/span&gt; representa el número de nuevos envíos durante el&amp;nbsp;mes &lt;span class="math"&gt;\(t\)&lt;/span&gt;. &lt;span class="math"&gt;\(A\)&lt;/span&gt;, &lt;span class="math"&gt;\(a\)&lt;/span&gt; y &lt;span class="math"&gt;\(b\)&lt;/span&gt; son parámetros de&amp;nbsp;ajuste. &lt;/p&gt;
 &lt;p&gt;El modelo exponencial se adoptó como referencia principal, no porque sea «la verdad», sino porque incorpora una idea razonable. Cuanto mayor es una comunidad científica, mayor puede ser también su capacidad de producir nuevos trabajos. En términos menos elegantes, mientras más somos, más publicamos. El modelo lineal se mantuvo como prueba de&amp;nbsp;sensibilidad.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Envíos mensuales a arXiv frente a la trayectoria contrafactual exponencial." src="images/01_contrafactual_global_exponential.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Envíos mensuales a arXiv frente a la trayectoria contrafactual exponencial." src="images/260730-duvier-arxiv/01_contrafactual_global_exponential.png" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Figura 1. Envíos mensuales observados en arXiv y tendencia exponencial ajustada únicamente con datos hasta octubre de 2022. La banda sombreada representa una incertidumbre exploratoria obtenida mediante&amp;nbsp;bootstrap.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id="la-curva-cambio-de-ritmo"&gt;La curva cambió de ritmo&lt;a class="headerlink" href="#la-curva-cambio-de-ritmo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;El resultado más importante es el cambio en la &lt;strong&gt;tasa de crecimiento&lt;/strong&gt;. Si los envíos mensuales siguen aproximadamente el&amp;nbsp;modelo &lt;span class="math"&gt;\(N(t)=Ae^{bt}\)&lt;/span&gt;, la&amp;nbsp;pendiente &lt;span class="math"&gt;\(b\)&lt;/span&gt; puede transformarse en una tasa porcentual mensual&amp;nbsp;mediante:&lt;/p&gt;
@@ -957,10 +957,10 @@ $$&lt;/div&gt;
 &lt;p&gt;Si ChatGPT hubiera actuado como un interruptor mágico de productividad, esperaríamos un salto abrupto en diciembre de 2022 o enero de 2023. Los datos, menos aficionados al espectáculo, no muestran algo tan&amp;nbsp;limpio. &lt;/p&gt;
 &lt;p&gt;Durante buena parte de 2023 y comienzos de 2024, los envíos observados se situaron con frecuencia por debajo del contrafactual exponencial. Como consecuencia, el exceso acumulado fue inicialmente negativo. Esto puede tener varias explicaciones: el modelo pudo sobreestimar temporalmente la tendencia, la comunidad científica necesitó tiempo para incorporar las nuevas herramientas o la señal solo se hizo visible al acumular suficientes&amp;nbsp;meses.&lt;/p&gt;
 &lt;p&gt;A partir de 2025, los meses con exceso positivo se vuelven más frecuentes y el exceso de mayor magnitud. El acumulado cruza el cero durante ese año y continúa aumentando hasta alcanzar los 43.670 envíos adicionales al cierre del&amp;nbsp;periodo.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Exceso acumulado de envíos respecto al contrafactual exponencial desde enero de 2023." src="images/03_exceso_acumulado_exponential.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Exceso acumulado de envíos respecto al contrafactual exponencial desde enero de 2023." src="images/260730-duvier-arxiv/03_exceso_acumulado_exponential.png" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Figura 2. La desviación acumulada respecto al modelo exponencial no aparece de inmediato: primero es negativa, después cambia de signo y aumenta con rapidez en la parte final de la&amp;nbsp;serie.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;El gráfico mensual permite ver que el resultado no procede de una subida uniforme. Surge de la combinación entre oscilaciones estacionales y varios meses recientes con un número de envíos claramente superior al&amp;nbsp;esperado.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Exceso mensual de envíos respecto al contrafactual exponencial." src="images/02_exceso_mensual_exponential.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Exceso mensual de envíos respecto al contrafactual exponencial." src="images/260730-duvier-arxiv/02_exceso_mensual_exponential.png" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Figura 3. Diferencia mensual entre el número de envíos observado y el estimado por el modelo exponencial. Las barras positivas indican meses por encima del contrafactual; las negativas, meses por&amp;nbsp;debajo.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id="el-contrafactual-importa"&gt;El contrafactual importa&lt;a class="headerlink" href="#el-contrafactual-importa" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;La extrapolación, por útil que sea, no es una máquina del tiempo. El resultado depende de cómo describamos la tendencia&amp;nbsp;anterior.&lt;/p&gt;
@@ -990,7 +990,7 @@ $$&lt;/div&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;img alt="Comparación de los datos observados con un contrafactual lineal." src="images/01_contrafactual_global_linear.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Comparación de los datos observados con un contrafactual lineal." src="images/260730-duvier-arxiv/01_contrafactual_global_linear.png" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Figura 4. El contrafactual lineal predice un crecimiento más lento y, por tanto, genera una estimación mayor del exceso. La comparación muestra la sensibilidad del acumulado a la forma funcional&amp;nbsp;elegida.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id="conclusiones-con-una-gran-imaginacion"&gt;Conclusiones con una gran imaginación&lt;a class="headerlink" href="#conclusiones-con-una-gran-imaginacion" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Los envíos mensuales a &lt;strong&gt;&lt;a href="https://arxiv.org/"&gt;arXiv&lt;/a&gt;&lt;/strong&gt; muestran un cambio cuantitativo claro después de 2023. Bajo el ajuste exponencial, la tasa de crecimiento pasó del &lt;strong&gt;0,768 %&lt;/strong&gt; al &lt;strong&gt;1,435 %&lt;/strong&gt; mensual, representando un incremento relativo cercano al &lt;strong&gt;87 %&lt;/strong&gt;. Esa aceleración dejó, hasta junio de 2026, una diferencia acumulada de &lt;strong&gt;43.670 envíos&lt;/strong&gt; respecto a la tendencia exponencial&amp;nbsp;anterior. &lt;/p&gt;
@@ -2894,7 +2894,7 @@ $$&lt;/div&gt;
 &lt;p&gt;que relaciona la fuerza de arrastre con la densidad del aire. En este modelo de servilleta, &lt;strong&gt;si cambia la densidad del aire, cambia casi directamente cuánto se frena el balón&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;La densidad del aire no es igual en todas partes. Disminuye con la altitud y la temperatura, y varía ligeramente con la humedad &lt;a class="nn-cite" href="#ref-6"&gt;[6]&lt;/a&gt;&lt;a class="nn-cite" href="#ref-7"&gt;[7]&lt;/a&gt;. Entre estos tres, la altitud resulta ser el efecto dominante. Por eso en la Fig. 1 la densidad del aire en Ciudad de México y Guadalajara se encuentra tan por debajo de la&amp;nbsp;media.&lt;/p&gt;
 &lt;figure class="nn-article-figure"&gt;
-  &lt;img src="https://napkinnotes.es/images/01_densidad_aire_corregida_arregladaDFH.png" alt="Densidad estimada del aire por sede"&gt;
+  &lt;img src="https://napkinnotes.es/images/260611-duvier-futbol/01_densidad_aire_corregida_arregladaDFH.png" alt="Densidad estimada del aire por sede"&gt;
   &lt;figcaption&gt;
     Figura 1. La densidad estimada del aire separa claramente a Ciudad de México y Guadalajara del resto de sedes. Menor densidad implica menor arrastre y menor fuerza lateral de Magnus.
   &lt;/figcaption&gt;
@@ -2910,7 +2910,7 @@ $$&lt;/div&gt;
 &lt;/ul&gt;
 &lt;p&gt;La diferencia entre Ciudad de México y Vancouver ronda el &lt;strong&gt;24%&lt;/strong&gt;. En el fútbol esa no es una corrección decorativa, puede afectar el alcance del balón, el tiempo de caída y la sensación de&amp;nbsp;golpeo.&lt;/p&gt;
 &lt;figure class="nn-article-figure"&gt;
-  &lt;img src="https://napkinnotes.es/images/02_arrastre_disparo_corregido_arregladaDFH.png" alt="Arrastre aerodinámico estimado para un disparo de 30 m/s"&gt;
+  &lt;img src="https://napkinnotes.es/images/260611-duvier-futbol/02_arrastre_disparo_corregido_arregladaDFH.png" alt="Arrastre aerodinámico estimado para un disparo de 30 m/s"&gt;
   &lt;figcaption&gt;
     Figura 2. Fuerza de arrastre estimada para un disparo fuerte. El Azteca aparece como el escenario donde el balón debería sentir el menor frenado.
   &lt;/figcaption&gt;
@@ -2922,7 +2922,7 @@ L \sim \frac{1}{2}\rho C_L A v^2.
 $$&lt;/div&gt;
 &lt;p&gt;Así que el estadio donde el balón vuela más fácil no tiene por qué ser donde su trayectoria se curva más. En aire menos denso, a igualdad de golpeo y giro, el balón debería conservar mejor su velocidad, pero también curvarse algo&amp;nbsp;menos.&lt;/p&gt;
 &lt;figure class="nn-article-figure"&gt;
-  &lt;img src="https://napkinnotes.es/images/17_alcance_vs_curva_cuadrantes.png" alt="Mapa relativo del comportamiento del balón en las sedes del Mundial 2026"&gt;
+  &lt;img src="https://napkinnotes.es/images/260611-duvier-futbol/17_alcance_vs_curva_cuadrantes.png" alt="Mapa relativo del comportamiento del balón en las sedes del Mundial 2026"&gt;
   &lt;figcaption&gt;
     Figura 3. Mapa relativo del comportamiento del balón en las sedes del Mundial 2026. El eje horizontal mide penetración aerodinámica o alcance relativo; el eje vertical mide deriva lateral efectiva. El modelo compara el mismo disparo bajo distintas condiciones atmosféricas.
   &lt;/figcaption&gt;
@@ -2932,7 +2932,7 @@ $$&lt;/div&gt;
 &lt;h2 id="un-indice-de-rareza-fisica-para-las-sedes-del-mundial"&gt;Un índice de &amp;#8220;rareza física&amp;#8221; para las sedes del Mundial&lt;a class="headerlink" href="#un-indice-de-rareza-fisica-para-las-sedes-del-mundial" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Podemos ordenar las sedes con ayuda de un índice comparativo de &amp;#8220;rareza física&amp;#8221; definido a lo &lt;em&gt;Napkin Notes&lt;/em&gt;: sin un rigor excesivo, pero que nos permita tener una estimación de cuán diferente (o raro) será el vuelo del balón respecto a la media de los estadios en una sede concreta. Lo denotaremos&amp;nbsp;por &lt;span class="math"&gt;\(R\)&lt;/span&gt; y combinará seis ingredientes: altitud, temperatura, humedad, viento, tipo de estadio y superficie del&amp;nbsp;terreno. &lt;/p&gt;
 &lt;figure class="nn-article-figure"&gt;
-  &lt;img src="https://napkinnotes.es/images/04_indice_rareza_corregido_arregladoDFH.png" alt="Índice de rareza física del balón"&gt;
+  &lt;img src="https://napkinnotes.es/images/260611-duvier-futbol/04_indice_rareza_corregido_arregladoDFH.png" alt="Índice de rareza física del balón"&gt;
   &lt;figcaption&gt;
     Figura 4. Ranking de rareza física. México domina la parte atmosférica; varias sedes estadounidenses y canadienses aparecen por la combinación de superficie, techo o condiciones locales.
   &lt;/figcaption&gt;
@@ -2942,7 +2942,7 @@ $$&lt;/div&gt;
 &lt;p&gt;La desviación será mayor cuanto mayor&amp;nbsp;sea &lt;span class="math"&gt;\(R\)&lt;/span&gt;. Por tanto, la respuesta es clara: el comportamiento más alejado de la media se ve en &lt;strong&gt;el Estadio Azteca, en Ciudad de México&lt;/strong&gt;, donde se esperan vuelos de mayor alcance y trayectoria más recta. En general, los estadios de México dominan en la rareza debido a sus condiciones atmosféricas y de altitud, mientras que varias sedes estadounidenses y canadienses también tienen un índice relativamente alto gracias a la combinación del clima local con otros factores como la superficie o el techado del estadio. Estos últimos añaden al problema matices más inciertos, pero también más interesantes acerca de cómo la ubicación geográfica influye en el comportamiento del&amp;nbsp;balón. &lt;/p&gt;
 &lt;p&gt;Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, revisa antes la densidad del aire para esa sede. Admitámoslo, sigue siendo una excusa, pero es bastante más elegante cuando viene&amp;nbsp;con &lt;span class="math"&gt;\(\rho\)&lt;/span&gt;, &lt;span class="math"&gt;\(C_d\)&lt;/span&gt; y &lt;em&gt;Napkin Notes&lt;/em&gt;.   &lt;/p&gt;
 &lt;figure class="nn-article-figure"&gt;
-  &lt;img src="https://napkinnotes.es/images/05_mapa_rareza_estatico.png" alt="Mapa físico del Mundial 2026: índice de rareza del balón por sede"&gt;
+  &lt;img src="https://napkinnotes.es/images/260611-duvier-futbol/05_mapa_rareza_estatico.png" alt="Mapa físico del Mundial 2026: índice de rareza del balón por sede"&gt;
   &lt;figcaption&gt;
     Figura 5. Las 16 sedes del Mundial 2026 y sus índices de rareza.
   &lt;/figcaption&gt;
