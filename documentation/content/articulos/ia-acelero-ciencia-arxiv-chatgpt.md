@@ -14,7 +14,7 @@ tags:
   - producción científica
   - datos
 summary: "Los envíos mensuales de artículos a arXiv crecieron un 87% más rápido tras ChatGPT, pero la cifra necesita contexto."
-image: images/01_contrafactual_global_exponential.jpeg
+image: images/260730-duvier-arxiv/01_contrafactual_global_exponential.jpeg
 ---
 
 [TOC]
@@ -61,7 +61,7 @@ Aquí $N(t)$ representa el número de nuevos envíos durante el mes $t$. $A$, $a
 
 El modelo exponencial se adoptó como referencia principal, no porque sea «la verdad», sino porque incorpora una idea razonable. Cuanto mayor es una comunidad científica, mayor puede ser también su capacidad de producir nuevos trabajos. En términos menos elegantes, mientras más somos, más publicamos. El modelo lineal se mantuvo como prueba de sensibilidad.
 
-![Envíos mensuales a arXiv frente a la trayectoria contrafactual exponencial.](images/01_contrafactual_global_exponential.png)
+![Envíos mensuales a arXiv frente a la trayectoria contrafactual exponencial.](images/260730-duvier-arxiv/01_contrafactual_global_exponential.png)
 
 *Figura 1. Envíos mensuales observados en arXiv y tendencia exponencial ajustada únicamente con datos hasta octubre de 2022. La banda sombreada representa una incertidumbre exploratoria obtenida mediante bootstrap.*
 
@@ -119,13 +119,13 @@ Durante buena parte de 2023 y comienzos de 2024, los envíos observados se situa
 
 A partir de 2025, los meses con exceso positivo se vuelven más frecuentes y el exceso de mayor magnitud. El acumulado cruza el cero durante ese año y continúa aumentando hasta alcanzar los 43.670 envíos adicionales al cierre del periodo.
 
-![Exceso acumulado de envíos respecto al contrafactual exponencial desde enero de 2023.](images/03_exceso_acumulado_exponential.png)
+![Exceso acumulado de envíos respecto al contrafactual exponencial desde enero de 2023.](images/260730-duvier-arxiv/03_exceso_acumulado_exponential.png)
 
 *Figura 2. La desviación acumulada respecto al modelo exponencial no aparece de inmediato: primero es negativa, después cambia de signo y aumenta con rapidez en la parte final de la serie.*
 
 El gráfico mensual permite ver que el resultado no procede de una subida uniforme. Surge de la combinación entre oscilaciones estacionales y varios meses recientes con un número de envíos claramente superior al esperado.
 
-![Exceso mensual de envíos respecto al contrafactual exponencial.](images/02_exceso_mensual_exponential.png)
+![Exceso mensual de envíos respecto al contrafactual exponencial.](images/260730-duvier-arxiv/02_exceso_mensual_exponential.png)
 
 *Figura 3. Diferencia mensual entre el número de envíos observado y el estimado por el modelo exponencial. Las barras positivas indican meses por encima del contrafactual; las negativas, meses por debajo.*
 
@@ -162,7 +162,7 @@ Con el modelo lineal, el número esperado entre enero de 2023 y junio de 2026 se
 </table>
 
 
-![Comparación de los datos observados con un contrafactual lineal.](images/01_contrafactual_global_linear.png)
+![Comparación de los datos observados con un contrafactual lineal.](images/260730-duvier-arxiv/01_contrafactual_global_linear.png)
 
 *Figura 4. El contrafactual lineal predice un crecimiento más lento y, por tanto, genera una estimación mayor del exceso. La comparación muestra la sensibilidad del acumulado a la forma funcional elegida.*
 

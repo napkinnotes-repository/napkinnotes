@@ -13,7 +13,7 @@ tags:
   - aerodinámica
   - datos
 summary: Una estimación sobre cómo la altitud, la temperatura y la densidad del aire afectan el vuelo del balón en las sedes del Mundial de Fútbol 2026, todo ello para que tengas una buena excusa si tu equipo no llega a la final.
-image: images/mundial-2026-fisica-balon-aire_cover.jpeg
+image: images/260611-duvier-futbol/mundial-2026-fisica-balon-aire_cover.jpeg
 ---
 
 [TOC]
@@ -57,7 +57,7 @@ que relaciona la fuerza de arrastre con la densidad del aire. En este modelo de 
 La densidad del aire no es igual en todas partes. Disminuye con la altitud y la temperatura, y varía ligeramente con la humedad <a class="nn-cite" href="#ref-6">[6]</a><a class="nn-cite" href="#ref-7">[7]</a>. Entre estos tres, la altitud resulta ser el efecto dominante. Por eso en la Fig. 1 la densidad del aire en Ciudad de México y Guadalajara se encuentra tan por debajo de la media.
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/01_densidad_aire_corregida_arregladaDFH.png" alt="Densidad estimada del aire por sede">
+  <img src="{static}/images/260611-duvier-futbol/01_densidad_aire_corregida_arregladaDFH.png" alt="Densidad estimada del aire por sede">
   <figcaption>
     Figura 1. La densidad estimada del aire separa claramente a Ciudad de México y Guadalajara del resto de sedes. Menor densidad implica menor arrastre y menor fuerza lateral de Magnus.
   </figcaption>
@@ -76,7 +76,7 @@ Un balón que se mueve por un medio menos denso encuentra una menor resistencia,
 La diferencia entre Ciudad de México y Vancouver ronda el **24%**. En el fútbol esa no es una corrección decorativa, puede afectar el alcance del balón, el tiempo de caída y la sensación de golpeo.
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/02_arrastre_disparo_corregido_arregladaDFH.png" alt="Arrastre aerodinámico estimado para un disparo de 30 m/s">
+  <img src="{static}/images/260611-duvier-futbol/02_arrastre_disparo_corregido_arregladaDFH.png" alt="Arrastre aerodinámico estimado para un disparo de 30 m/s">
   <figcaption>
     Figura 2. Fuerza de arrastre estimada para un disparo fuerte. El Azteca aparece como el escenario donde el balón debería sentir el menor frenado.
   </figcaption>
@@ -91,7 +91,7 @@ $$
 Así que el estadio donde el balón vuela más fácil no tiene por qué ser donde su trayectoria se curva más. En aire menos denso, a igualdad de golpeo y giro, el balón debería conservar mejor su velocidad, pero también curvarse algo menos.
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/17_alcance_vs_curva_cuadrantes.png" alt="Mapa relativo del comportamiento del balón en las sedes del Mundial 2026">
+  <img src="{static}/images/260611-duvier-futbol/17_alcance_vs_curva_cuadrantes.png" alt="Mapa relativo del comportamiento del balón en las sedes del Mundial 2026">
   <figcaption>
     Figura 3. Mapa relativo del comportamiento del balón en las sedes del Mundial 2026. El eje horizontal mide penetración aerodinámica o alcance relativo; el eje vertical mide deriva lateral efectiva. El modelo compara el mismo disparo bajo distintas condiciones atmosféricas.
   </figcaption>
@@ -104,7 +104,7 @@ Así que el estadio donde el balón vuela más fácil no tiene por qué ser dond
 Podemos ordenar las sedes con ayuda de un índice comparativo de "rareza física" definido a lo *Napkin Notes*: sin un rigor excesivo, pero que nos permita tener una estimación de cuán diferente (o raro) será el vuelo del balón respecto a la media de los estadios en una sede concreta. Lo denotaremos por $R$ y combinará seis ingredientes: altitud, temperatura, humedad, viento, tipo de estadio y superficie del terreno. 
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/04_indice_rareza_corregido_arregladoDFH.png" alt="Índice de rareza física del balón">
+  <img src="{static}/images/260611-duvier-futbol/04_indice_rareza_corregido_arregladoDFH.png" alt="Índice de rareza física del balón">
   <figcaption>
     Figura 4. Ranking de rareza física. México domina la parte atmosférica; varias sedes estadounidenses y canadienses aparecen por la combinación de superficie, techo o condiciones locales.
   </figcaption>
@@ -117,7 +117,7 @@ La desviación será mayor cuanto mayor sea $R$. Por tanto, la respuesta es clar
 Así que si en este Mundial tu equipo pierde, no corras a culpar al delantero, revisa antes la densidad del aire para esa sede. Admitámoslo, sigue siendo una excusa, pero es bastante más elegante cuando viene con $\rho$, $C_d$ y *Napkin Notes*.   
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/05_mapa_rareza_estatico.png" alt="Mapa físico del Mundial 2026: índice de rareza del balón por sede">
+  <img src="{static}/images/260611-duvier-futbol/05_mapa_rareza_estatico.png" alt="Mapa físico del Mundial 2026: índice de rareza del balón por sede">
   <figcaption>
     Figura 5. Las 16 sedes del Mundial 2026 y sus índices de rareza.
   </figcaption>
