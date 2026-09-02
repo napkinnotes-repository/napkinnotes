@@ -99,7 +99,7 @@ Los tres motores modulaban entonces su empuje para llevar ese error hacia cero. 
 
 ![Captura real del Viking 2 sobre Planitia Uthopia, la bandera se uso para calibrar los colores](images/viking/captura-real-vikingo-2.png)
 
-*Figura 3. Captura del Viking 2 sobre Planitia Uthopia, la bandera se usó para calibrar los colores*
+*Figura 3. Captura del Viking 2 sobre Planitia Uthopia, la bandera se usó para calibrar los colores.*
 
 ---
 
