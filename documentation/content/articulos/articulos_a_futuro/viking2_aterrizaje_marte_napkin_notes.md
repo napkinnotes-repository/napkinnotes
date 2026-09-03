@@ -1,10 +1,9 @@
 ---
 title: "Un vikingo en Martes"
 author: "Duvier Suárez Fontanella"
-date: "2026-08-26"
+date: "2026-09-03"
 layout: "articles"
-slug: "prueba-duvier"
-status: "hidden"
+status: "published"
 category: "Astronáutica"
 tags:
   - "marte"
@@ -57,7 +56,7 @@ De manera general, la idea de un buen aterrizaje es saber disipar la energía ci
 La guía de vehículos de entrada planetaria de la NASA estima para Viking 2 una masa de unos $982\,\mathrm{kg}$ al entrar en la atmósfera y una velocidad relativa de $4.48\,\mathrm{km\,s^{-1}}$. Por tanto: 
 
 $$E_k=\frac{1}{2}mv^2\approx \frac{1}{2}(982)(4480)^2
-      \approx 9.9\times10^9\ {\rm J}$$.
+      \approx 9.9\times10^9\ {\rm J}.$$
 
 Este valor equivale a unas 2,4 toneladas de TNT. El escudo no absorbió completamente los diez gigajulios, gran parte de esa energía se disipó por calor alrededor de la nave.
 
