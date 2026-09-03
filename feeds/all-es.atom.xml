@@ -1,5 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-08-27T00:00:00+02:00</updated><entry><title>Movimiento y vísceras</title><link href="https://napkinnotes.es/movimiento-y-visceras" rel="alternate"/><published>2026-08-27T00:00:00+02:00</published><updated>2026-08-27T00:00:00+02:00</updated><author><name>Gonzalo Matias Romano</name></author><id>tag:napkinnotes.es,2026-08-27:/movimiento-y-visceras</id><summary type="html">&lt;p&gt;Los hongos filamentosos se mueven desplazando su propio contenido citoplasmático u organelas a través de sus hifas mediante el proceso de ciclosis. De este modo, mueven sus vísceras internamente hacia sus extremos activos para interactuar, alimentarse y crecer en su&amp;nbsp;entorno.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-09-03T00:00:00+02:00</updated><entry><title>Un vikingo en Martes</title><link href="https://napkinnotes.es/un-vikingo-en-martes" rel="alternate"/><published>2026-09-03T00:00:00+02:00</published><updated>2026-09-03T00:00:00+02:00</updated><author><name>Duvier Suárez Fontanella</name></author><id>tag:napkinnotes.es,2026-09-03:/un-vikingo-en-martes</id><summary type="html">&lt;p&gt;Hace cincuenta años, el 3 de septiembre de 1976, la &lt;span class="caps"&gt;NASA&lt;/span&gt; lanzó la Viking 2, la segunda de dos sondas destinadas a estudiar la composición de la atmósfera marciana. Hoy, en Napkin Notes, te explicamos el proceso que utilizaron la misiones Viking para amartizar sus sondas y sobrevivir a una atmósfera capaz de calentar una nave brutalmente, pero incapaz de frenarla por sí&amp;nbsp;sola.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#una-breve-introduccion"&gt;Una breve&amp;nbsp;introducción&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-desafio-del-amartizaje"&gt;El desafío del&amp;nbsp;amartizaje&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#frenado-aerodinamico"&gt;Frenado aerodinámico&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#por-que-un-escudo-termico"&gt;¿Por qué un escudo&amp;nbsp;térmico?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#paracaidas-supersonico"&gt;Paracaídas&amp;nbsp;supersónico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#retrocohetes"&gt;Retrocohetes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#la-caida-que-enseno-a-llegar"&gt;La caída que enseñó a&amp;nbsp;llegar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="una-breve-introduccion"&gt;Una breve introducción&lt;a class="headerlink" href="#una-breve-introduccion" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Las misiones Viking (1, 2), lanzadas en 1975, fueron el primer intento de la &lt;span class="caps"&gt;NASA&lt;/span&gt; de estudiar Marte de manera sistemática combinando un orbitador con un laboratorio científico en superficie. Cada misión estaba formada por dos vehículos: un orbitador encargado de cartografiar el planeta y seleccionar zonas de interés, y un módulo de descenso diseñado para atravesar la atmósfera marciana, amartizar de forma autónoma y analizar directamente el entorno. Estos últimos transportaron los célebres experimentos biológicos diseñados para buscar indicios de metabolismo microbiano, cuyos resultados siguen siendo objeto de&amp;nbsp;discusión.&lt;/p&gt;
+&lt;p&gt;Viking 1 llegó a la superficie de &lt;em&gt;Chryse Planitia&lt;/em&gt; el 20 de julio de 1976, mientras que Viking 2 amartizó el 3 de septiembre a la 22:37:50 &lt;span class="caps"&gt;UTC&lt;/span&gt; sobre &lt;em&gt;Utopia Planitia&lt;/em&gt;, una enorme llanura situada en las latitudes medias-altas del hemisferio norte de Marte, cerca de los 48° N, al oeste del cráter Mie. Se escogió este lugar por dos motivos principales. El primero, la seguridad, pues las imágenes orbitales de esta región sugerían la existencia un terreno relativamente suave y uniforme. De hecho, el sitio inicialmente previsto fue descartado porque parecía demasiado accidentado. El segundo, el interés científico: esa latitud norte estaba cerca de regiones donde se esperaba encontrar agua o hielo y, por tanto, se consideraba especialmente interesante para buscar posibles indicios de&amp;nbsp;vida.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="el-desafio-del-amartizaje"&gt;El desafío del amartizaje&lt;a class="headerlink" href="#el-desafio-del-amartizaje" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Aterrizar en Marte es un problema especialmente delicado porque su atmósfera se encuentra en un régimen poco favorable para una nave. Es mucho menos densa que la terrestre, pero no lo bastante tenue como para ignorarla. Durante la entrada, una nave puede alcanzar una velocidad de varios kilómetros por segundo y comprir violentamente el dióxido de carbono que encuentra delante de ella, generando una onda de choque y un intenso calentamiento&amp;nbsp;aerodinámico.&lt;/p&gt;
+&lt;p&gt;El problema aparece cuando la nave ya ha perdido buena parte de su velocidad. La densidad atmosférica marciana cerca de la superficie es apenas del orden del uno por ciento de la terrestre, de modo que un paracaídas puede reducir considerablemente la velocidad, pero no suele ser suficiente para conseguir un aterrizaje suave de vehículos pesados. Marte presenta así una situación incómoda; tiene suficiente atmósfera para exigir un escudo térmico, pero demasiado poca para permitir que un paracaídas complete por sí solo el&amp;nbsp;descenso.&lt;/p&gt;
+&lt;p&gt;Viking respondió a esa contradicción con una cadena de mecanismos, cada uno eficaz en un intervalo distinto de velocidad y altura:  resistencia aerodinámica con escudo térmico, paracaídas supersónico, retrocohetes regulables y patas amortiguadas. Todo esto regulado de forma automática, pues debido a la distancia a la que se encuentra Marte el retraso en las señales electromagnéticas no permite realizar maniobras en tiempo&amp;nbsp;real.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Esquema de la secuencia de entrada, descenso y aterrizaje de Viking, mostrando aeroshell, despliegue del paracaídas, separación del escudo y descenso propulsado." src="images/viking/viking2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figura 1. Esquema de la secuencia de entrada, descenso y aterrizaje de Viking, mostrando &lt;/em&gt;aeroshell&lt;em&gt;, despliegue del paracaídas, separación del escudo y descenso&amp;nbsp;propulsado.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="frenado-aerodinamico"&gt;Frenado aerodinámico&lt;a class="headerlink" href="#frenado-aerodinamico" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;En principio, menos atmósfera parece una buena noticia, hasta recordar que Viking 2 entró con una velocidad relativa de&amp;nbsp;unos &lt;span class="math"&gt;\(4.48\,\mathrm{km\,s^{-1}}\)&lt;/span&gt;. La presión dinámica que se usa para medir y calcular la fuerza del impacto del aire sobre la estructura de un cohete a medida que este se mueve se calcula&amp;nbsp;como:&lt;/p&gt;
+&lt;div class="math"&gt;$$q=\frac{1}{2}\rho v^2.$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(\rho\)&lt;/span&gt; es la densidad que determina cuánto gas encuentra la nave a su paso&amp;nbsp;y &lt;span class="math"&gt;\(v\)&lt;/span&gt; la velocidad de la nave, por lo que inlcuso una atmósfera tenue puede ejercer una fuerzas considerables a velocidad supersónica. Luego, la resistencia aerodinámica puede escribirse, en primera aproximación,&amp;nbsp;como:&lt;/p&gt;
+&lt;div class="math"&gt;$$F_D=\frac{1}{2}\rho v^2 C_D A.$$&lt;/div&gt;
+&lt;p&gt;El área&amp;nbsp;frontal &lt;span class="math"&gt;\(A\)&lt;/span&gt; de la nave y el coeficiente de&amp;nbsp;resistencia &lt;span class="math"&gt;\(C_D\)&lt;/span&gt; convierten el aire marciano en un freno. La Viking utilizaba un &lt;em&gt;aeroshell&lt;/em&gt; de&amp;nbsp;unos &lt;span class="math"&gt;\(3.5\,\mathrm{m}\)&lt;/span&gt; de diámetro con un frontal romo, aproximadamente un cono de 70 grados con la punta redondeada. Una geometría así genera una onda de choque separada de la superficie y mantiene buena parte del gas extremadamente caliente a cierta distancia del vehículo (Figura&amp;nbsp;1).&lt;/p&gt;
+&lt;h3 id="por-que-un-escudo-termico"&gt;¿Por qué un escudo térmico?&lt;a class="headerlink" href="#por-que-un-escudo-termico" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;De manera general, la idea de un buen aterrizaje es saber disipar la energía&amp;nbsp;cinética &lt;span class="math"&gt;\(E_k\)&lt;/span&gt; sin destruir la nave (con este consejo ya casi eres 30 % un &lt;em&gt;rocket scientist&lt;/em&gt;), la cuestión es que esta energía es inmensa, un simple cálculo de servilleta muestra la&amp;nbsp;escala.&lt;/p&gt;
+&lt;p&gt;La guía de vehículos de entrada planetaria de la &lt;span class="caps"&gt;NASA&lt;/span&gt; estima para Viking 2 una masa de&amp;nbsp;unos &lt;span class="math"&gt;\(982\,\mathrm{kg}\)&lt;/span&gt; al entrar en la atmósfera y una velocidad relativa&amp;nbsp;de &lt;span class="math"&gt;\(4.48\,\mathrm{km\,s^{-1}}\)&lt;/span&gt;. Por&amp;nbsp;tanto: &lt;/p&gt;
+&lt;div class="math"&gt;$$E_k=\frac{1}{2}mv^2\approx \frac{1}{2}(982)(4480)^2
+      \approx 9.9\times10^9\ {\rm J}.$$&lt;/div&gt;
+&lt;p&gt;Este valor equivale a unas 2,4 toneladas de &lt;span class="caps"&gt;TNT&lt;/span&gt;. El escudo no absorbió completamente los diez gigajulios, gran parte de esa energía se disipó por calor alrededor de la&amp;nbsp;nave.&lt;/p&gt;
+&lt;p&gt;El calentamiento convectivo cerca del punto de estancamiento, que es, esencialmente, el punto de la superficie frontal de la nave donde el flujo atmosférico que viene hacia ella termina teniendo velocidad tangencial nula respecto a la superficie, puede estimarse mediante relaciones del tipo&amp;nbsp;Sutton&amp;#8212;Graves:&lt;/p&gt;
+&lt;div class="math"&gt;$$\dot q \propto \sqrt{\frac{\rho}{R_n}}\,v^3.$$&lt;/div&gt;
+&lt;p&gt;El radio de curvatura de la parte frontal del escudo&amp;nbsp;térmico &lt;span class="math"&gt;\(R_n\)&lt;/span&gt; aparece en el denominador y la velocidad aproximadamente al cubo, por eso unos pocos kilómetros por segundo son un asunto térmico serio incluso con poca&amp;nbsp;atmósfera.&lt;/p&gt;
+&lt;p&gt;Para la Viking 2, la &lt;span class="caps"&gt;NASA&lt;/span&gt; reconstruye un máximo de calentamiento convectivo cercano&amp;nbsp;a &lt;span class="math"&gt;\(21.95\,\mathrm{W\,cm^{-2}}\)&lt;/span&gt;, es decir,&amp;nbsp;unos &lt;span class="math"&gt;\(220\,\mathrm{kW\,m^{-2}}\)&lt;/span&gt;. Es más de cien veces el flujo de radiación solar que recibe una superficie orientada al Sol cerca de la Tierra. El máximo ocurrió cuando la nave todavía viajaba con alrededor&amp;nbsp;de &lt;span class="math"&gt;\(4.1\,\mathrm{km\,s^{-1}}.\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;El escudo frontal estaba recubierto con &lt;span class="caps"&gt;SLA&lt;/span&gt;-561V, un ablador ligero basado en silicona, microesferas, corcho y fibras dentro de una estructura de panal. Protegía degradándose y expulsando material antes de que el calor alcanzara la estructura interna. En ingeniería térmica, perder dignamente una capa puede ser mejor que conservar heroicamente toda la nave durante tres&amp;nbsp;segundos.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Vista detonada y corte transversal de la cápsula del aterrizador Viking. El diagrama detalla la integración del sistema EDL (Entrada, Descenso y Aterrizaje), mostrando la posición de almacenamiento del aterrizador (Lander), la cubierta de base, la aerocubierta de protección térmica y el punto de separación de la cápsula." src="images/viking/capsula.jpeg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figura 2. Vista detonada y corte transversal de la cápsula del aterrizador Viking. El diagrama detalla la integración del sistema &lt;span class="caps"&gt;EDL&lt;/span&gt; (Entrada, Descenso y Aterrizaje), mostrando la posición de almacenamiento del aterrizador (lander), la cubierta de base, la aerocubierta de protección térmica y el punto de separación de la&amp;nbsp;cápsula.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="paracaidas-supersonico"&gt;Paracaídas supersónico&lt;a class="headerlink" href="#paracaidas-supersonico" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Tras perder gran parte de su velocidad, la Viking 2 pudo desplegar su paracaídas &lt;em&gt;disk-gap-band&lt;/em&gt;, una geometría ensayada extensamente por la &lt;span class="caps"&gt;NASA&lt;/span&gt; para funcionamiento supersónico y heredada por misiones marcianas&amp;nbsp;posteriores.&lt;/p&gt;
+&lt;p&gt;El paracaídas tenía&amp;nbsp;unos &lt;span class="math"&gt;\(16.2\,\mathrm{m}\)&lt;/span&gt; de diámetro. Los datos reconstruidos sitúan su despliegue alrededor de Mach 1,1 y con una presión dinámica de&amp;nbsp;aproximadamente &lt;span class="math"&gt;\(408\,\mathrm{Pa}\)&lt;/span&gt;. Abrir demasiado pronto habría impuesto cargas enormes; demasiado tarde habría dejado poca altura para completar el frenado. Pero, de cualquier modo, debido a la velocidad de la nave y la ligereza de la atmósfera marciana, el paracaídas fue en estos amartizajes solo una etapa intermedia, no el&amp;nbsp;final.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="retrocohetes"&gt;Retrocohetes&lt;a class="headerlink" href="#retrocohetes" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Aproximadamente a un kilómetro y medio de altura comenzaba la fase decisiva. La Viking soltaba el paracaídas y encendía tres motores de descenso alimentados con hidrazina. Un radar altímetro y un radar Doppler proporcionaban altura y velocidad, mientras el sistema de control ajustaba el&amp;nbsp;empuje.&lt;/p&gt;
+&lt;p&gt;La dinámica del descenso podía describirse&amp;nbsp;mediante &lt;span class="math"&gt;\(\dot mv + m\dot v=T-mg-D\)&lt;/span&gt;, con una masa que disminuía al consumir hidrazina, pero Viking no resolvía esta ecuación en tiempo real para decidir cuánto empuje aplicar. Su ordenador seguía una estrategia más robusta, llevaba almacenadas unas curvas precalculadas que indicaban qué velocidad debía tener la nave a cada&amp;nbsp;altura, &lt;span class="math"&gt;\(V_d(H)\)&lt;/span&gt;. El radar Doppler y el altímetro estimaban continuamente la velocidad&amp;nbsp;axial &lt;span class="math"&gt;\(u\)&lt;/span&gt; y la&amp;nbsp;altura &lt;span class="math"&gt;\(H\)&lt;/span&gt;, y el sistema calculaba el&amp;nbsp;error&lt;/p&gt;
+&lt;div class="math"&gt;$$
+V_e=u-V_d(H).
+$$&lt;/div&gt;
+&lt;p&gt;Los tres motores modulaban entonces su empuje para llevar ese error hacia cero. Al mismo tiempo, el control de altitud orientaba el empuje aproximadamente en sentido contrario al vector velocidad, produciendo un &lt;em&gt;gravity turn&lt;/em&gt; que eliminaba conjuntamente las componentes horizontal y vertical. Las&amp;nbsp;curvas &lt;span class="math"&gt;\(V_d(H)\)&lt;/span&gt; habían sido obtenidas previamente mediante simulaciones detalladas que incluían el consumo de hidrazina, el caudal de propelente, el impulso específico y la caída de presión de los depósitos. Bajo condiciones nominales, el sistema llevaba a la Viking hasta&amp;nbsp;unos &lt;span class="math"&gt;\(2.44,\mathrm{m/s}\)&lt;/span&gt; a&amp;nbsp;aproximadamente &lt;span class="math"&gt;\(16.8,\mathrm{m}\)&lt;/span&gt; de altura, y desde allí mantenía prácticamente esa velocidad hasta el contacto con el&amp;nbsp;suelo.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Captura real del Viking 2 sobre Planitia Uthopia, la bandera se uso para calibrar los colores" src="images/viking/captura-real-vikingo-2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figura 3. Captura del Viking 2 sobre Planitia Uthopia, la bandera se usó para calibrar los&amp;nbsp;colores.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="la-caida-que-enseno-a-llegar"&gt;La caída que enseñó a llegar&lt;a class="headerlink" href="#la-caida-que-enseno-a-llegar" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;La misiones Viking consolidaron una arquitectura esencial: atmósfera como freno hipersónico, después paracaídas y finalmente propulsión. Las misiones posteriores modificaron esa receta; Pathfinder, Spirit y Opportunity añadieron airbags; Phoenix e InSight confiaron en motores de descenso; Curiosity y Perseverance llevaron el concepto hasta el &lt;em&gt;sky crane&lt;/em&gt;; sin embaargo mantuvieron la misma lógica: una secuencia de mecanismos automáticamente desplegados para diferentes intervalos del amartizaje y en gran medida construidos con el conocimiento heredado de las&amp;nbsp;Viking.&lt;/p&gt;
+&lt;p&gt;Actualmente amartizar continua siendo un desafío ya que su dificultad crece con la ambición. Cuanto mayor es la masa que queremos llevar a Marte, más difícil resulta disipar su energía antes de tocar el suelo. Los escudos térmicos no pueden aumentar de tamaño indefinidamente y los paracaídas encuentran límites estructurales y aerodinámicos cada vez más severos. Por eso una futura misión humana no será simplemente una Viking más grande, exigirá nuevas soluciones para controlar toneladas de masa atravesando el tenue muro de&amp;nbsp;Marte.&lt;/p&gt;
+&lt;p&gt;El cielo nos llama y hemos empezado a responder con acento&amp;nbsp;vikingo.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Carl Sagan junto a un modelo a escala real del módulo Viking fotografiado en Death Valley, California" src="images/viking/sagan_viking.jpeg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figura 4. Carl Sagan junto a un modelo a tamaño real del módulo Viking fotografiado en Death Valley, California. Antes de que las Viking convirtieran el paisaje marciano en un lugar conocido, sus ingenieros y científicos tuvieron que imaginar, ensayar y explicar cómo una máquina terrestre podría sobrevivir a la caída sobre otro mundo. Crédito: &lt;span class="caps"&gt;NASA&lt;/span&gt;/&lt;span class="caps"&gt;JPL&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+  &lt;li id="ref-1"&gt;
+    &lt;span class="caps"&gt;NASA&lt;/span&gt; Science, &lt;em&gt;Viking 2&lt;/em&gt;. &lt;a href="https://science.nasa.gov/mission/viking-2/" target="_blank" rel="noopener noreferrer"&gt;https://science.nasa.gov/mission/viking-2/&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-2"&gt;
+    &lt;span class="caps"&gt;NASA&lt;/span&gt; Science, &lt;em&gt;How We Land on Mars&lt;/em&gt;. &lt;a href="https://science.nasa.gov/planetary-science/programs/mars-exploration/mission-timeline/how-we-land-on-mars/" target="_blank" rel="noopener noreferrer"&gt;https://science.nasa.gov/planetary-science/programs/mars-exploration/mission-timeline/how-we-land-on-mars/&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-3"&gt;
+    &lt;span class="caps"&gt;W. R.&lt;/span&gt; Corliss, &lt;em&gt;The Viking Mission to Mars&lt;/em&gt;, &lt;span class="caps"&gt;NASA&lt;/span&gt; &lt;span class="caps"&gt;SP&lt;/span&gt;-334 (1974). &lt;a href="https://ntrs.nasa.gov/citations/19740026174" target="_blank" rel="noopener noreferrer"&gt;https://ntrs.nasa.gov/citations/19740026174&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-4"&gt;
+    K. Parcero et al., &lt;em&gt;Planetary Mission Entry Vehicles: Quick Reference Guide, Version 4.1&lt;/em&gt;, &lt;span class="caps"&gt;NASA&lt;/span&gt;/&lt;span class="caps"&gt;SP&lt;/span&gt;-20230010341. &lt;a href="https://www.nasa.gov/wp-content/uploads/2023/08/final-planetary-mission-entry-vehicles-quick-reference-guide-v4.1-.pdf" target="_blank" rel="noopener noreferrer"&gt;https://www.nasa.gov/wp-content/uploads/2023/08/final-planetary-mission-entry-vehicles-quick-reference-guide-v4.1-.pdf&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-5"&gt;
+    &lt;span class="caps"&gt;C. G.&lt;/span&gt; Cooley, &lt;em&gt;Viking 75 Project: Viking Lander System Primary Mission Performance Report&lt;/em&gt;, &lt;span class="caps"&gt;NASA&lt;/span&gt;-&lt;span class="caps"&gt;CR&lt;/span&gt;-145148 (1977). &lt;a href="https://ntrs.nasa.gov/citations/19770022101" target="_blank" rel="noopener noreferrer"&gt;https://ntrs.nasa.gov/citations/19770022101&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-6"&gt;
+    &lt;span class="caps"&gt;R. J.&lt;/span&gt; Bendura, &lt;span class="caps"&gt;R. R.&lt;/span&gt; Lundstrom, &lt;span class="caps"&gt;P. G.&lt;/span&gt; Renfroe y &lt;span class="caps"&gt;S. R.&lt;/span&gt; Lecroy, &lt;em&gt;Flight Tests of Viking Parachute System in Three Mach Number Regimes. &lt;span class="caps"&gt;II&lt;/span&gt;: Parachute Test Results&lt;/em&gt;, &lt;span class="caps"&gt;NASA&lt;/span&gt; &lt;span class="caps"&gt;TN&lt;/span&gt; D-7734 (1974). &lt;a href="https://ntrs.nasa.gov/citations/19750002913" target="_blank" rel="noopener noreferrer"&gt;https://ntrs.nasa.gov/citations/19750002913&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-7"&gt;
+    K. Sutton y &lt;span class="caps"&gt;R. A.&lt;/span&gt; Graves Jr., &lt;em&gt;A General Stagnation-Point Convective Heating Equation for Arbitrary Gas Mixtures&lt;/em&gt;, &lt;span class="caps"&gt;NASA&lt;/span&gt; &lt;span class="caps"&gt;TR&lt;/span&gt; R-376 (1971). &lt;a href="https://ntrs.nasa.gov/citations/19720003329" target="_blank" rel="noopener noreferrer"&gt;https://ntrs.nasa.gov/citations/19720003329&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-8"&gt;
+    &lt;span class="caps"&gt;C. R.&lt;/span&gt; Cunningham y &lt;span class="caps"&gt;D. C.&lt;/span&gt; Morrisey, &lt;em&gt;Viking Mars Hydrazine Terminal Descent Engine Thermal Design Considerations&lt;/em&gt;, Journal of Spacecraft and Rockets &lt;strong&gt;14&lt;/strong&gt; (1977). &lt;a href="https://ntrs.nasa.gov/citations/19770036025" target="_blank" rel="noopener noreferrer"&gt;https://ntrs.nasa.gov/citations/19770036025&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-9"&gt;
+    &lt;span class="caps"&gt;G. L.&lt;/span&gt; Romine, &lt;span class="caps"&gt;T. D.&lt;/span&gt; Reisert y J. Gliozzi, &lt;em&gt;Site Alteration Effects from Rocket Exhaust Impingement During a Simulated Viking Mars Landing. Part I&lt;/em&gt;, &lt;span class="caps"&gt;NASA&lt;/span&gt;-&lt;span class="caps"&gt;CR&lt;/span&gt;-2252 (1973). &lt;a href="https://ntrs.nasa.gov/citations/19730019005" target="_blank" rel="noopener noreferrer"&gt;https://ntrs.nasa.gov/citations/19730019005&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-10"&gt;
+    &lt;span class="caps"&gt;NASA&lt;/span&gt; Ames Research Center, &lt;em&gt;&lt;span class="caps"&gt;SLA&lt;/span&gt;-561V &amp;#8212;- Thermal Protection Materials Database&lt;/em&gt;. &lt;a href="https://tpsx.arc.nasa.gov/Material?id=39" target="_blank" rel="noopener noreferrer"&gt;https://tpsx.arc.nasa.gov/Material?id=39&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Astronáutica"/><category term="marte"/><category term="viking"/><category term="nasa"/></entry><entry><title>Movimiento y vísceras</title><link href="https://napkinnotes.es/movimiento-y-visceras" rel="alternate"/><published>2026-08-27T00:00:00+02:00</published><updated>2026-08-27T00:00:00+02:00</updated><author><name>Gonzalo Matias Romano</name></author><id>tag:napkinnotes.es,2026-08-27:/movimiento-y-visceras</id><summary type="html">&lt;p&gt;Los hongos filamentosos se mueven desplazando su propio contenido citoplasmático u organelas a través de sus hifas mediante el proceso de ciclosis. De este modo, mueven sus vísceras internamente hacia sus extremos activos para interactuar, alimentarse y crecer en su&amp;nbsp;entorno.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#una-historia-de-hongos"&gt;Una historia de&amp;nbsp;hongos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
