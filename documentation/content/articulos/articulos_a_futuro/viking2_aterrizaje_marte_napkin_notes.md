@@ -1,5 +1,5 @@
 ---
-title: "Un vikingo en Martes"
+title: "Un vikingo en Marte"
 author: "Duvier Suárez Fontanella"
 date: "2026-09-03"
 layout: "articles"
