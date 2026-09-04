@@ -155,10 +155,10 @@ Aquí hay otra pequeña trampa. Si pienso en los colores que encontramos en un a
 
 </div>
 Pero no todos los colores que podemos experimentar corresponden a una única longitud de onda.
-El magenta es un ejemplo muy sencillo.
-No existe una longitud de onda única que sea “magenta”.
-Podemos producir una percepción magenta combinando luz de regiones distintas del espectro, sin necesidad de que exista una radiación monocromática equivalente a ese color.
+El magenta es un ejemplo muy sencillo. No existe una longitud de onda única que sea “magenta”. Podemos producir una percepción magenta combinando luz de regiones distintas del espectro, aunque no exista ninguna radiación monocromática equivalente a ese color.
+Y no es el único caso. Tampoco existe una longitud de onda que sea “blanca”, “gris” o “marrón”. Podemos percibir todos esos colores, pero ninguno de ellos puede identificarse simplemente con una longitud de onda concreta.
 
+Así que, si una longitud de onda no es un color, ¿qué es entonces el color?
 Esto ya debería hacer que la palabra “color” nos resulte un poco sospechosa.
 Un espectro físico es una cosa.
 El espacio de colores que construimos a partir de él es otra.
