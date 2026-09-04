@@ -90,7 +90,7 @@ Hay tres tipos principales de conos en la visión humana normal: los llamados S,
 Los nombres son deliberadamente aburridos: short, medium y long wavelength. En español: cortas, medias y largas longitudes de onda $\lambda$.
 Ni siquiera los hemos llamado azul, verde y rojo, porque hacerlo sería engañoso.
 
-Cada tipo de cono responde a un rango bastante amplio de longitudes de onda. Eso significa que un cono aislado no puede saber exactamente qué luz lo ha estimulado: distintas combinaciones de longitudes de onda pueden producir en él una respuesta muy parecida. Para obtener información sobre el color, nuestro sistema visual necesita comparar las respuestas de los distintos tipos de conos <a class="nn-cite" href="#ref-2">[2]</a>.
+Cada tipo de cono responde a un rango bastante amplio de longitudes de onda. Eso significa que un cono aislado no puede saber exactamente qué luz lo ha estimulado: distintas combinaciones de longitudes de onda pueden producir en él una respuesta muy parecida. Para obtener información sobre el color, nuestro sistema visual necesita comparar las respuestas de los distintos tipos de conos.
 
 
 Eso significa que el sistema visual no funciona como una pequeña cámara que recibe un color ya terminado.
@@ -171,7 +171,7 @@ Y la ciencia del color lleva más de un siglo intentando relacionar ambas cosas 
 Si salgo de la casa y vuelvo a mirar la misma pared al atardecer, algo extraño puede pasar. Ya hablamos de esto en [un artículo previo sobre el atardecer](https://napkinnotes.es/el-atardecer).
 La iluminación ha cambiado.
 
-La luz del Sol ya no tiene exactamente la misma composición espectral que a mediodía. Si estoy bajo una lámpara, la diferencia puede ser todavía mayor.
+La luz del Sol  que nos llega ya no tiene exactamente la misma composición espectral que a mediodía. Si estoy bajo una lámpara, la diferencia puede ser todavía mayor.
 Y, sin embargo, la pared continúa pareciéndome roja.
 No exactamente del mismo rojo, por supuesto. El color puede cambiar. Pero normalmente sigo reconociendo la superficie como roja aunque la luz que llega a mis ojos haya cambiado de forma considerable.
 Eso se llama **constancia del color**.
@@ -193,7 +193,7 @@ Pero para poder hacerla, mi cerebro ha tenido que realizar una cantidad enorme d
 
 ## Ahora aparece una abeja
 
-Volvamos al camino de la aldea.
+Volvamos al camino del pueblo.
 Hay una flor a un lado de la carretera.
 Yo la miro. Tú la miras.
 Y, en algún lugar cercano, una abeja también la mira.
@@ -237,7 +237,7 @@ Algunas especies de estomatópodos, los llamados camarones mantis, poseen hasta 
 
 Doce.
 
-Y, sin embargo, los experimentos muestran que no distinguen pequeñas diferencias de longitud de onda con una precisión extraordinaria. Su sistema parece utilizar una estrategia distinta a la nuestra para reconocer los colores <a class="nn-cite" href="#ref-8">[8]</a>.
+Y, sin embargo, los experimentos muestran que no distinguen pequeñas diferencias de longitud de onda con una precisión extraordinaria. Su sistema parece utilizar una estrategia distinta a la nuestra para reconocer los colores.
 Así que la lección es bastante clara: **tener más receptores no significa simplemente ver más colores.**
 La retina es solo una parte de una máquina mucho más grande.
 
@@ -385,11 +385,11 @@ Sino para preguntarte:
 
   <li id="ref-5">
     Foster, D. H. (2008). Sensory, computational and cognitive components of colour constancy. <em>Philosophical Transactions of the Royal Society B</em>, 363, 1963–1981.
-    <a href="https://doi.org/10.1098/rstb.2007.2131" target="_blank" rel="noopener noreferrer">https://doi.org/10.1098/rstb.2007.2131</a>
+    <a href="https://doi.org/10.1098/rstb.2005.1633" target="_blank" rel="noopener noreferrer">https://doi.org/10.1098/rstb.2005.1633</a>
   </li>
 
   <li id="ref-6">
-    Lunau, K. (2025). Bees, flowers and UV. <em>Plant Biology</em>.
+    Lunau, K., Camargo, M. G. G., & Ren, Z.-X. (2025). Bees, flowers and UV. <em>Plant Biology</em>, 27(6), 948–961..
     <a href="https://doi.org/10.1111/plb.70050" target="_blank" rel="noopener noreferrer">https://doi.org/10.1111/plb.70050</a>
   </li>
 
