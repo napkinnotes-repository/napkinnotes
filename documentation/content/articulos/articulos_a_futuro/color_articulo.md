@@ -191,7 +191,7 @@ Pero para poder hacerla, mi cerebro ha tenido que realizar una cantidad enorme d
 
 ---
 
-## Ahora entra una abeja
+## Ahora aparece una abeja
 
 Volvamos al camino de la aldea.
 Hay una flor a un lado de la carretera.
@@ -237,8 +237,7 @@ Algunas especies de estomatópodos, los llamados camarones mantis, poseen hasta 
 
 Doce.
 
-Y, sin embargo, los experimentos muestran que no distinguen pequeñas diferencias de longitud de onda con una precisión extraordinaria. Su sistema parece utilizar una estrategia distinta a la nuestra para reconocer los colores <a class="nn-cite" href="#ref-9">[9]</a> <a class="nn-cite" href="#ref-10">[10]</a>.
-
+Y, sin embargo, los experimentos muestran que no distinguen pequeñas diferencias de longitud de onda con una precisión extraordinaria. Su sistema parece utilizar una estrategia distinta a la nuestra para reconocer los colores <a class="nn-cite" href="#ref-10">[10]</a>.
 Así que la lección es bastante clara: **Tener más receptores no significa simplemente ver más colores.**
 La retina es solo una parte de una máquina mucho más grande.
 
@@ -269,7 +268,7 @@ Podemos comparar nuestro comportamiento.
 Podemos comparar nuestros ojos.
 Podemos medir nuestras retinas.
 Podemos registrar nuestra actividad cerebral.
-Pero no puedo entrar en tu cabeza y mirar cómo se siente el rojo desde dentro.
+Pero no puedo entrar en tu cabeza y mirar cómo ves el rojo desde tus ojos, quizá lo ves como yo veo el verde pero desde pequeño eso era llamado rojo en las pegatinas de colores de tu colegio de infantil.
 
 ---
 
@@ -308,10 +307,6 @@ Porque una ilusión también es algo que ocurre. De ilusiones se vive que dice a
 
 El rojo que experimento cuando miro una amapola no es una propiedad fundamental de la radiación electromagnética. Pero mi experiencia de rojo es real como experiencia. Está producida por un sistema físico real: mis ojos, mis neuronas y mi cerebro. Que una propiedad dependa de un observador no significa necesariamente que sea falsa.
 
-
----
-
-## Volver a mirar la aldea
 
 Cuando vuelvo a pensar en aquella aldea serrana, la escena inicial ya no me parece tan sencilla.
 Las casas siguen siendo grises.
@@ -354,7 +349,7 @@ Necesita un sistema capaz de convertir toda esa física en una experiencia.
 Así que quizá la pregunta del principio no tenga una respuesta sencilla.
 Quizá el mundo, cuando nadie lo mira, no sea rojo, ni verde, ni azul.
 Quizá solo haya luz, materia y radiación.
-Y quizá los colores aparezcan cuando todo eso encuentra unos ojos capaces de verlos.
+Y quizá los colores aparezcan cuando todo eso encuentra unos ojos capaces de verlos, los tuyos por ejemplo.
 La próxima vez que mires una pared roja, una flor o el cielo al atardecer, quizá merezca la pena detenerse un instante.
 No para preguntarte de qué color es.
 Sino para preguntarte:
