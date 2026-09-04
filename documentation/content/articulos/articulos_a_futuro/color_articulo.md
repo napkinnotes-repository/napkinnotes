@@ -13,11 +13,8 @@ tags:
   - visión
   - neurociencia
   - filosofía
-  - animales
 summary: "Si nadie está mirando, ¿el mundo tiene color? Dicho de otra forma, ¿dónde aparece realmente el color? o ¿es real el color?"
 image: images/color.jpeg
-certificate: true
-audience: yellow
 ---
 
 [TOC]
@@ -56,7 +53,7 @@ Cuando la luz llega a una superficie, su composición puede cambiar. Una parte p
 <figure class="nn-article-figure">
   <img src="{static}/images/Electromagnetic_spectrum,_NASA_illustration.jpeg" alt="Espectro electromagnético">
   <figcaption>
-    Figura 1. Espectro electromagnético. Autor: NASA - <a href="https://science.nasa.gov/ems/">.
+   Figura 1. Espectro electromagnético. Autor: <a href="https://science.nasa.gov/ems/" target="_blank" rel="noopener noreferrer">NASA</a>.
   </figcaption>
 </figure>
 
