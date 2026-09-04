@@ -24,11 +24,11 @@ audience: yellow
 
 
 
-Hay lugares en los que uno tiene la sensación de haber llegado al final de algo. La carretera se estrecha, el valle se hunde entre las montañas y las casas empiezan a aparecer de piedra y pizarra, agarradas a la tierra como si llevaran allí mucho más tiempo que nosotros. Como si fuera un lugar que existió antes que nosotros y que existirá después.
+Hay lugares en los que uno tiene la sensación de haber llegado al final de algo. La carretera se estrecha, el valle se hunde entre las montañas y las casas empiezan a aparecer de piedra y pizarra, agarradas a la tierra como si llevaran allí mucho tiempo, mucho más que nosotros. Como si fuera un lugar que existió antes que nosotros y que existirá después.
 
-La Alberca es uno de esos lugares.
+La Alberca es uno de esos lugares  <a class="nn-cite" href="#ref-1">[1]</a>.
 
-Está escondida en la Sierra de Francia, al sur de Salamanca, entre bosques de castaños y robles. Sus calles estrechas y empedradas se retuercen entre casas de piedra, madera y adobe, formando un entramado en el que las fachadas parecen apoyarse unas sobre otras y apenas dejan entrever el cielo. Durante siglos, este pequeño pueblo serrano ha conservado buena parte de su arquitectura y sus tradiciones. Hoy sigue siendo un lugar tranquilo, especialmente cuando uno se aleja de la plaza y se pierde por sus calles <a class="nn-cite" href="#ref-1">[1]</a>.
+Está escondida en la Sierra de Francia, al sur de Salamanca, entre bosques de castaños y robles. Sus calles estrechas y empedradas se retuercen entre casas de piedra, madera y adobe, formando un entramado en el que las fachadas parecen apoyarse unas sobre otras y apenas dejan entrever el cielo. Durante siglos, este pequeño pueblo serrano ha conservado buena parte de su arquitectura y sus tradiciones. Hoy sigue siendo un lugar tranquilo, especialmente cuando uno se aleja de la plaza llena de bares y se pierde por sus calles.
 
 Imagínate llegando una tarde de otoño, cuando el sol todavía ilumina las laderas pero ya empieza a bajar detrás de las montañas. No hay tráfico. No hay grandes edificios. No hay demasiada gente. Solo piedra, árboles, una pequeña corriente de agua y el sonido lejano de algún bar.
 
@@ -52,6 +52,13 @@ Vamos a empezar por lo más sencillo.
 
 La luz visible es una pequeña región del espectro electromagnético. Podemos describirla mediante una longitud de onda, una frecuencia o una distribución de energía en función de la longitud de onda.
 Cuando la luz llega a una superficie, su composición puede cambiar. Una parte puede ser absorbida, otra reflejada, otra transmitida y otra dispersada. En el caso de una pintura roja, por ejemplo, la materia tiene unas propiedades que hacen que la luz que regresa hacia nosotros tenga una distribución espectral determinada.
+
+<figure class="nn-article-figure">
+  <img src="{static}/images/Electromagnetic_spectrum,_NASA_illustration.jpeg" alt="Espectro electromagnético">
+  <figcaption>
+    Figura 1. Espectro electromagnético
+  </figcaption>
+</figure>
 
 Hasta aquí, todo es física.
 Podemos medir la luz que sale de la pared con un espectrómetro. Podemos dibujar una curva. Podemos decir cuánta radiación hay alrededor de cada longitud de onda, que vamos a denotar por $\lambda$.
