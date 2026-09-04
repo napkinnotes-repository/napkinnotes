@@ -65,19 +65,19 @@ $$
 L(\lambda)  \propto E(\lambda)R(\lambda),
 $$
 
-al menos en el caso simplificado de una superficie iluminada, donde $E(\lambda)$ representa la distribución espectral de la iluminación y $R(\lambda)$ la reflectancia espectral de la superficie.
+al menos en el caso simplificado de una superficie iluminada, donde $E(\lambda)$ representa la distribución espectral de la iluminación, es decir, cómo se reparte la energía de la luz entre las distintas longitudes de onda, y $R(\lambda)$ la reflectancia espectral de la superficie.
 
 La luz que llega hasta nuestros ojos es el resultado de esa combinación.
 Pero ninguna de esas letras significa rojo.
-No existe una $R$ pequeña escondida en la pared diciendo “soy roja”.
+No existe una $R$ pequeña escondida en la pared diciendo “hola soy roja”.
 No hay un fotón que lleve escrito “rojo” en la etiqueta.
 
 La radiación puede tener una longitud de onda alrededor de 650 nanómetros y nosotros podemos asociarla a una sensación rojiza. Pero 650 nm es una longitud de onda. No es una experiencia.
 La diferencia parece pequeña cuando la escribimos así. Pero es enorme.
-Porque ahora hemos separado dos cosas que durante toda la vida solemos tratar como si fueran la misma:
+Porque ahora hemos separado dos cosas que durante toda nuestra vida solemos tratar como si fueran la misma:
 
   1. La descripción física de un estímulo.
-  2. Y la experiencia que ese estímulo produce en nosotros.
+  2. La experiencia que ese estímulo produce en nosotros.
 
 ---
 
@@ -86,11 +86,12 @@ Porque ahora hemos separado dos cosas que durante toda la vida solemos tratar co
 Cuando miro esa pared, la luz reflejada atraviesa primero la córnea, pasa por el cristalino y llega a la retina.
 Y aquí aparece una de las partes más interesantes de toda la historia.
 En la retina no hay un receptor cuyo trabajo sea detectar el rojo.
-Hay tres tipos principales de conos en la visión humana normal: los llamados S, M y L, con sensibilidades espectrales que se solapan y cubren distintas regiones del espectro visible <a class="nn-cite" href="#ref-2">[2]</a>.
-Los nombres son deliberadamente aburridos: short, medium y long wavelength. En español: cortas, medias y largas longitudes de onda.
+Hay tres tipos principales de conos en la visión humana normal: los llamados S, M y L, con sensibilidades espectrales que se solapan y cubren distintas regiones del espectro visible, es decir distintas longitudes de onda <a class="nn-cite" href="#ref-2">[2]</a>.
+Los nombres son deliberadamente aburridos: short, medium y long wavelength. En español: cortas, medias y largas longitudes de onda $\lambda$.
 Ni siquiera los hemos llamado azul, verde y rojo, porque hacerlo sería engañoso.
 
-Cada tipo de cono responde a un rango relativamente amplio de longitudes de onda. Un solo cono, por sí mismo, no puede decirnos cuál era exactamente la distribución espectral de los fotones que lo estimularon. La misma respuesta puede producirse con estímulos espectralmente diferentes. Para obtener información cromática necesitamos comparar las señales de distintos tipos de receptores <a class="nn-cite" href="#ref-2">[2]</a>.
+Cada tipo de cono responde a un rango bastante amplio de longitudes de onda. Eso significa que un cono aislado no puede saber exactamente qué luz lo ha estimulado: distintas combinaciones de longitudes de onda pueden producir en él una respuesta muy parecida. Para obtener información sobre el color, nuestro sistema visual necesita comparar las respuestas de los distintos tipos de conos <a class="nn-cite" href="#ref-2">[2]</a>.
+
 
 Eso significa que el sistema visual no funciona como una pequeña cámara que recibe un color ya terminado.
 Funciona más bien como un sistema de medición.
@@ -98,7 +99,7 @@ Recibe luz.
 La convierte en varias respuestas.
 Las compara.
 Y a partir de ahí construye una señal cromática que continúa su viaje por la retina, el tálamo y las distintas áreas visuales del cerebro <a class="nn-cite" href="#ref-3">[3]</a>.
-En las primeras etapas aparecen mecanismos de oposición cromática que comparan la actividad de distintos conos. Hay canales que, de forma simplificada, enfrentan señales asociadas a longitudes de onda largas y medias y otros que comparan las respuestas de las señales de onda corta con combinaciones de las demás <a class="nn-cite" href="#ref-2">[2]</a> <a class="nn-cite" href="#ref-3">[3]</a>.
+En las primeras etapas aparecen mecanismos de oposición cromática que comparan la actividad de distintos conos. Hay canales que, de forma simplificada, enfrentan señales asociadas a longitudes de onda largas y medias y otros que comparan las respuestas de las señales de onda corta con combinaciones de las demás.
 Por eso la historia del color no es simplemente:
 
 **luz → retina → color.**
