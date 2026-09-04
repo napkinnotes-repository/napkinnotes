@@ -36,7 +36,7 @@ Pero entonces te preguntas:
 
 > **¿De qué color es realmente el mundo cuando nadie lo está mirando?**
 
-A primera vista parece una pregunta filosófica, inventada para complicar una cosa que funciona perfectamente bien. Si miro una pared roja, la pared es roja. Punto. La explicación física parece sencilla. La luz, que generalmente está formada de muchas longitudes de onda (es decir, de muchos colores), llega desde una fuente, ilumina la superficie y la materia absorbe unas partes del espectro mientras refleja otras. La radiación reflejada alcanza nuestros ojos y nuestro sistema visual la interpreta como un determinado color.
+A primera vista parece una pregunta filosófica, inventada para complicar una cosa que funciona perfectamente bien. Si miro una pared roja, la pared es roja. Punto. La explicación física parece sencilla. La luz, que generalmente está formada por muchas longitudes de onda (es decir, de muchos colores), llega desde una fuente, ilumina la superficie y la materia absorbe unas partes del espectro mientras refleja otras. La radiación reflejada alcanza nuestros ojos y nuestro sistema visual la interpreta como un determinado color.
 
 Podrías dejarlo ahí. Pero hay un pequeño problema. Eso es la explicación de **qué ocurre con** la luz.
 Todavía no se ha explicado **qué es** el rojo.
@@ -72,7 +72,7 @@ Pero ninguna de esas letras significa rojo.
 No existe una $R$ pequeña escondida en la pared diciendo “hola soy roja”.
 No hay un fotón que lleve escrito “rojo” en la etiqueta.
 
-La radiación puede tener una longitud de onda alrededor de 650 nanómetros y nosotros podemos asociarla a una sensación rojiza. Pero 650 nm es una longitud de onda. No es una experiencia.
+La radiación puede tener una longitud de onda de alrededor de 650 nanómetros y nosotros podemos asociarla a una sensación rojiza. Pero 650 nm es una longitud de onda. No es una experiencia.
 La diferencia parece pequeña cuando la escribimos así. Pero es enorme.
 Porque ahora hemos separado dos cosas que durante toda nuestra vida solemos tratar como si fueran la misma:
 
@@ -86,7 +86,7 @@ Porque ahora hemos separado dos cosas que durante toda nuestra vida solemos trat
 Cuando miro esa pared, la luz reflejada atraviesa primero la córnea, pasa por el cristalino y llega a la retina.
 Y aquí aparece una de las partes más interesantes de toda la historia.
 En la retina no hay un receptor cuyo trabajo sea detectar el rojo.
-Hay tres tipos principales de conos en la visión humana normal: los llamados S, M y L, con sensibilidades espectrales que se solapan y cubren distintas regiones del espectro visible, es decir distintas longitudes de onda <a class="nn-cite" href="#ref-2">[2]</a>.
+Hay tres tipos principales de conos en la visión humana normal: los llamados S, M y L, con sensibilidades espectrales que se solapan y cubren distintas regiones del espectro visible, es decir, distintas longitudes de onda <a class="nn-cite" href="#ref-2">[2]</a>.
 Los nombres son deliberadamente aburridos: short, medium y long wavelength. En español: cortas, medias y largas longitudes de onda $\lambda$.
 Ni siquiera los hemos llamado azul, verde y rojo, porque hacerlo sería engañoso.
 
@@ -99,7 +99,7 @@ Recibe luz.
 La convierte en varias respuestas.
 Las compara.
 Y a partir de ahí construye una señal cromática que continúa su viaje por la retina, el tálamo y las distintas áreas visuales del cerebro <a class="nn-cite" href="#ref-3">[3]</a>.
-En las primeras etapas aparecen mecanismos de oposición cromática que comparan la actividad de distintos conos. Hay canales que, de forma simplificada, enfrentan señales asociadas a longitudes de onda largas y medias y otros que comparan las respuestas de las señales de onda corta con combinaciones de las demás.
+En las primeras etapas aparecen mecanismos de oposición cromática que comparan la actividad de distintos conos. Hay canales que, de forma simplificada, enfrentan señales asociadas a longitudes de onda largas y medias, y otros que comparan las respuestas de las señales de onda corta con combinaciones de las demás.
 Por eso la historia del color no es simplemente:
 
 **luz → retina → color.**
@@ -168,7 +168,7 @@ Y la ciencia del color lleva más de un siglo intentando relacionar ambas cosas 
 
 ## La pared cambia de color sin cambiar
 
-Si salgo de la casa y vuelvo a mirar la misma pared al atardecer, algo extraño puede pasar. Ya hablamos de esto en [un artículo previo sobre el atardecer.](https://napkinnotes.es/el-atardecer)
+Si salgo de la casa y vuelvo a mirar la misma pared al atardecer, algo extraño puede pasar. Ya hablamos de esto en [un artículo previo sobre el atardecer](https://napkinnotes.es/el-atardecer).
 La iluminación ha cambiado.
 
 La luz del Sol ya no tiene exactamente la misma composición espectral que a mediodía. Si estoy bajo una lámpara, la diferencia puede ser todavía mayor.
@@ -187,7 +187,7 @@ De la adaptación de mis ojos.
 Y de la historia visual que mi cerebro tiene detrás. Que te lo digan, si no, a ti, cuando sales como modelo de portada en una foto y de sospechoso habitual de la INTERPOL en la siguiente, con el mismo móvil y cambiando sólo la luz.
 
 Una misma superficie puede producir experiencias cromáticas distintas en condiciones diferentes, y nuestra percepción trata constantemente de descubrir qué parte de ese cambio pertenece al mundo y cuál pertenece a la iluminación. Entonces, cuando digo que “la pared es roja”, estoy haciendo una afirmación sobre el mundo.
-Pero para poder hacerla, mi cerebro ha tenido que realizar una cantidad enorme de trabajo sin que yo me dé cuenta. Quizá, entonces, es una afirmación sobre MI mundo.
+Pero para poder hacerla, mi cerebro ha tenido que realizar una cantidad enorme de trabajo sin que yo me dé cuenta. Quizá, entonces, sea una afirmación sobre MI mundo.
 
 ---
 
@@ -238,7 +238,7 @@ Algunas especies de estomatópodos, los llamados camarones mantis, poseen hasta 
 Doce.
 
 Y, sin embargo, los experimentos muestran que no distinguen pequeñas diferencias de longitud de onda con una precisión extraordinaria. Su sistema parece utilizar una estrategia distinta a la nuestra para reconocer los colores <a class="nn-cite" href="#ref-10">[10]</a>.
-Así que la lección es bastante clara: **Tener más receptores no significa simplemente ver más colores.**
+Así que la lección es bastante clara: **tener más receptores no significa simplemente ver más colores.**
 La retina es solo una parte de una máquina mucho más grande.
 
 ---
@@ -257,7 +257,7 @@ Una persona puede carecer de una de las señales que yo utilizo para distinguir 
 No es simplemente que vea el mundo “en menos colores”.
 Ve el mundo con otro sistema de medición.
 Esto me lleva a una idea que me parece bastante extraña.
-Cuando dos personas miramos una manzana, podemos estar de acuerdo en llamarla roja.
+Cuando tú y yo miramos una manzana, podemos estar de acuerdo en llamarla roja.
 Podemos elegir la misma pintura para pintar una pared.
 Podemos pasar un examen de visión y coincidir en nuestras respuestas.
 Podemos incluso describir de forma muy parecida todo lo que ocurre físicamente.
@@ -268,7 +268,7 @@ Podemos comparar nuestro comportamiento.
 Podemos comparar nuestros ojos.
 Podemos medir nuestras retinas.
 Podemos registrar nuestra actividad cerebral.
-Pero no puedo entrar en tu cabeza y mirar cómo ves el rojo desde tus ojos, quizá lo ves como yo veo el verde pero desde pequeño eso era llamado rojo en las pegatinas de colores de tu colegio de infantil.
+Pero no puedo entrar en tu cabeza y saber cómo experimentas tú el rojo. Quizá lo ves como yo veo el verde, pero desde pequeño aprendiste a llamar “rojo” a esa sensación porque así aparecía escrito en las pegatinas de colores del colegio de infantil.
 
 ---
 
@@ -323,7 +323,7 @@ Sé que la retina y el cerebro comparan esas señales y las transforman muchas v
 Sé que una abeja puede acceder a información ultravioleta que para mí no existe como experiencia visual.
 Sé que un ave puede tener un sistema cromático distinto.
 Sé que un camarón mantis puede tener doce clases de fotorreceptores y, sin embargo, no ver simplemente “cuatro veces más colores”.
-Y sé que todo esto todavía no me permite responder la pregunta que empezó la historia.
+Y sé que todo esto todavía no me permite responder la pregunta que empezó con esta historia.
 
 Porque puedo describir con una precisión extraordinaria **qué ocurre en el mundo cuando miro una flor**.
 Puedo medir la luz.
@@ -349,7 +349,7 @@ Necesita un sistema capaz de convertir toda esa física en una experiencia.
 Así que quizá la pregunta del principio no tenga una respuesta sencilla.
 Quizá el mundo, cuando nadie lo mira, no sea rojo, ni verde, ni azul.
 Quizá solo haya luz, materia y radiación.
-Y quizá los colores aparezcan cuando todo eso encuentra unos ojos capaces de verlos, los tuyos por ejemplo.
+Y quizá los colores aparezcan cuando todo eso encuentra unos ojos capaces de verlos, los tuyos, por ejemplo.
 La próxima vez que mires una pared roja, una flor o el cielo al atardecer, quizá merezca la pena detenerse un instante.
 No para preguntarte de qué color es.
 Sino para preguntarte:
