@@ -364,7 +364,7 @@ Sino para preguntarte:
   <strong>Imagen de portada:</strong>
   Luis Daniel Carbia Cabeza,
   <a href="https://commons.wikimedia.org/wiki/File:La_Alberca_-_Plaza_Mayor_reviewed.jpg" target="_blank" rel="noopener noreferrer"><em>La Alberca - Plaza Mayor reviewed</em></a>,
-  Wikimedia Commons, licencia
+  Wikimedia Commons,
   <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a>.
 </p>
 
