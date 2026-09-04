@@ -1,7 +1,7 @@
 ---
 title: "¿De qué color es realmente el mundo cuando nadie lo está mirando?"
 author: David Figueruelo Hernán
-date: 2026-09-03
+date: 2026-09-10
 layout: articles
 slug: prueba-david
 status: hidden
@@ -56,7 +56,7 @@ Cuando la luz llega a una superficie, su composición puede cambiar. Una parte p
 <figure class="nn-article-figure">
   <img src="{static}/images/Electromagnetic_spectrum,_NASA_illustration.jpeg" alt="Espectro electromagnético">
   <figcaption>
-    Figura 1. Espectro electromagnético
+    Figura 1. Espectro electromagnético. Autor: NASA - <a href="https://science.nasa.gov/ems/">.
   </figcaption>
 </figure>
 
