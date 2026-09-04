@@ -303,20 +303,7 @@ Summary: Prueba privada del minijuego Científica del mes de Napkin Notes.
   text-decoration: underline;
 }
 
-.nn-scientist-test-tools {
-  margin-top: 18px;
-  text-align: center;
-}
 
-.nn-scientist-reset {
-  border: 0;
-  background: transparent;
-  color: var(--nn-muted);
-  font: inherit;
-  font-size: .8rem;
-  text-decoration: underline;
-  cursor: pointer;
-}
 
 .nn-scientist-unavailable {
   max-width: 580px;
@@ -423,9 +410,7 @@ Summary: Prueba privada del minijuego Científica del mes de Napkin Notes.
     </div>
   </section>
 
-  <div class="nn-scientist-test-tools">
-    <button class="nn-scientist-reset" id="nnScientistReset" type="button">Reiniciar prueba</button>
-  </div>
+
 </div>
 
 <script>
@@ -448,7 +433,6 @@ Summary: Prueba privada del minijuego Científica del mes de Napkin Notes.
   const scientistName = document.getElementById("nnScientistName");
   const bio = document.getElementById("nnScientistBio");
   const more = document.getElementById("nnScientistMore");
-  const reset = document.getElementById("nnScientistReset");
 
   function currentSlug() {
     const path = window.location.pathname.replace(/\/+$/, "");
@@ -801,22 +785,6 @@ Summary: Prueba privada del minijuego Científica del mes de Napkin Notes.
     input.focus();
   });
 
-  reset.addEventListener("click", function () {
-    try {
-      localStorage.removeItem(storageKey);
-    } catch (error) {}
-
-    state = {
-      guesses: [],
-      status: "playing"
-    };
-
-    message.textContent = "";
-    input.value = "";
-    result.hidden = true;
-
-    renderState(state);
-    input.focus();
-  });
+  
 })();
 </script>
