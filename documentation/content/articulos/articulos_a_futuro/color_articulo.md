@@ -175,7 +175,7 @@ La luz del Sol ya no tiene exactamente la misma composición espectral que a med
 Y, sin embargo, la pared continúa pareciéndome roja.
 No exactamente del mismo rojo, por supuesto. El color puede cambiar. Pero normalmente sigo reconociendo la superficie como roja aunque la luz que llega a mis ojos haya cambiado de forma considerable.
 Eso se llama **constancia del color**.
-Nuestro sistema visual intenta estimar qué parte de la señal procede de la iluminación y qué parte está relacionada con las propiedades de la superficie. Para hacerlo utiliza información procedente del conjunto de la escena, adapta la sensibilidad de los receptores y combina las señales en distintas etapas del procesamiento visual <a class="nn-cite" href="#ref-5">[5]</a> <a class="nn-cite" href="#ref-6">[6]</a>.
+Nuestro sistema visual intenta estimar qué parte de la señal procede de la iluminación y qué parte está relacionada con las propiedades de la superficie. Para hacerlo utiliza información procedente del conjunto de la escena, adapta la sensibilidad de los receptores y combina las señales en distintas etapas del procesamiento visual <a class="nn-cite" href="#ref-4">[4]</a> <a class="nn-cite" href="#ref-5">[5]</a>.
 Esto tiene una consecuencia curiosa:
 
 **El color que percibo no depende simplemente de la luz que llega desde un objeto.**
@@ -201,7 +201,7 @@ La flor no ha cambiado.
 La luz que llega a sus alrededores sigue las mismas leyes físicas.
 Pero la abeja no tiene exactamente nuestro sistema visual.
 
-Las abejas pueden detectar radiación ultravioleta, una región del espectro que nuestros ojos no perciben. Esto se debe a que su sistema visual cuenta con tres tipos principales de fotorreceptores, uno de ellos sensible precisamente al ultravioleta <a class="nn-cite" href="#ref-7">[7]</a> <a class="nn-cite" href="#ref-8">[8]</a>.
+Las abejas pueden detectar radiación ultravioleta, una región del espectro que nuestros ojos no perciben. Esto se debe a que su sistema visual cuenta con tres tipos principales de fotorreceptores, uno de ellos sensible precisamente al ultravioleta <a class="nn-cite" href="#ref-6">[6]</a> <a class="nn-cite" href="#ref-7">[7]</a>.
 Eso significa que una flor que para mí parece simplemente amarilla puede contener para una abeja información adicional que yo no puedo experimentar como color, pero ellas sí.
 Muchas flores presentan patrones en el ultravioleta que pueden ayudar a dirigir a los polinizadores hacia sus recursos. Es una especie de señalización que está literalmente fuera de nuestro rango visual.
 Y aquí la pregunta empieza a ponerse realmente incómoda.
@@ -221,7 +221,7 @@ Lo que cambia es el observador.
 
 La abeja no es una excepción.
 La evolución ha producido sistemas visuales muy distintos.
-Hay mamíferos con visión dicromática. Hay primates con tricromacia. Hay vertebrados con cuatro tipos de pigmentos visuales y sistemas cromáticos mucho más ricos que el nuestro. En distintos grupos de animales aparecen sensibilidades espectrales ajustadas a los ambientes y problemas ecológicos de cada especie <a class="nn-cite" href="#ref-10">[10]</a>.
+Hay mamíferos con visión dicromática. Hay primates con tricromacia. Hay vertebrados con cuatro tipos de pigmentos visuales y sistemas cromáticos mucho más ricos que el nuestro. En distintos grupos de animales aparecen sensibilidades espectrales ajustadas a los ambientes y problemas ecológicos de cada especie <a class="nn-cite" href="#ref-8">[8]</a>.
 Algunas aves, por ejemplo, poseen sistemas visuales tetracromáticos y pueden utilizar sensibilidad al ultravioleta o al violeta para extraer información que nosotros no vemos directamente.
 Y aquí conviene evitar una frase demasiado tentadora:
 
@@ -237,7 +237,7 @@ Algunas especies de estomatópodos, los llamados camarones mantis, poseen hasta 
 
 Doce.
 
-Y, sin embargo, los experimentos muestran que no distinguen pequeñas diferencias de longitud de onda con una precisión extraordinaria. Su sistema parece utilizar una estrategia distinta a la nuestra para reconocer los colores <a class="nn-cite" href="#ref-10">[10]</a>.
+Y, sin embargo, los experimentos muestran que no distinguen pequeñas diferencias de longitud de onda con una precisión extraordinaria. Su sistema parece utilizar una estrategia distinta a la nuestra para reconocer los colores <a class="nn-cite" href="#ref-8">[8]</a>.
 Así que la lección es bastante clara: **tener más receptores no significa simplemente ver más colores.**
 La retina es solo una parte de una máquina mucho más grande.
 
@@ -251,7 +251,7 @@ Conmigo.
 Contigo.
 Con cualquiera que esté leyendo esto.
 
-Incluso entre seres humanos con visión cromática normal existen diferencias en la percepción del color. Las curvas de sensibilidad de nuestros conos no son idénticas, su distribución en la retina puede variar y nuestra experiencia visual está influida por la adaptación y por otros mecanismos del sistema nervioso <a class="nn-cite" href="#ref-11">[11]</a>.
+Incluso entre seres humanos con visión cromática normal existen diferencias en la percepción del color. Las curvas de sensibilidad de nuestros conos no son idénticas, su distribución en la retina puede variar y nuestra experiencia visual está influida por la adaptación y por otros mecanismos del sistema nervioso <a class="nn-cite" href="#ref-10">[10]</a>.
 Y luego están las distintas formas de deficiencia de visión cromática.
 Una persona puede carecer de una de las señales que yo utilizo para distinguir determinados colores y, por tanto, organizar una parte del espacio cromático de una manera diferente.
 No es simplemente que vea el mundo “en menos colores”.
@@ -286,7 +286,7 @@ Si antes decía que una manzana era roja, sigo diciendo que es roja.
 Si me preguntas de qué color es un semáforo, respondo correctamente.
 Si me enseñas dos objetos que antes distinguía, sigo distinguiéndolos.
 Desde fuera, no notarías nada.
-El experimento mental del **espectro invertido** intenta precisamente poner sobre la mesa esta posibilidad: que dos personas pudieran tener experiencias fenomenales diferentes aunque sus disposiciones de comportamiento y sus respuestas a los estímulos fueran las mismas. Es uno de los clásicos problemas filosóficos sobre la relación entre el color y la experiencia consciente <a class="nn-cite" href="#ref-12">[12]</a>.
+El experimento mental del **espectro invertido** intenta precisamente poner sobre la mesa esta posibilidad: que dos personas pudieran tener experiencias fenomenales diferentes aunque sus disposiciones de comportamiento y sus respuestas a los estímulos fueran las mismas. Es uno de los clásicos problemas filosóficos sobre la relación entre el color y la experiencia consciente <a class="nn-cite" href="#ref-11">[11]</a>.
 No sabemos si un caso así es físicamente realizable de la forma ingenua en que se imagina.
 De hecho, el experimento tiene muchas dificultades cuando intentamos convertirlo en una hipótesis científica concreta.
 Pero sirve para señalar una cosa.
@@ -378,24 +378,29 @@ Sino para preguntarte:
 
 
 
-  <li id="ref-5">
+  <li id="ref-4">
     Foster, D. H. (2003). Does colour constancy exist? <em>Trends in Cognitive Sciences</em>, 7(10), 439–443.
     <a href="https://personalpages.manchester.ac.uk/staff/d.h.foster/Research/My_PDFs/Foster_TiCS_03.pdf" target="_blank" rel="noopener noreferrer">https://personalpages.manchester.ac.uk/staff/d.h.foster/Research/My_PDFs/Foster_TiCS_03.pdf</a>
   </li>
 
-  <li id="ref-6">
+  <li id="ref-5">
     Foster, D. H. (2008). Sensory, computational and cognitive components of colour constancy. <em>Philosophical Transactions of the Royal Society B</em>, 363, 1963–1981.
     <a href="https://doi.org/10.1098/rstb.2007.2131" target="_blank" rel="noopener noreferrer">https://doi.org/10.1098/rstb.2007.2131</a>
   </li>
 
-  <li id="ref-7">
+  <li id="ref-6">
     Lunau, K. (2025). Bees, flowers and UV. <em>Plant Biology</em>.
     <a href="https://doi.org/10.1111/plb.70050" target="_blank" rel="noopener noreferrer">https://doi.org/10.1111/plb.70050</a>
   </li>
 
-  <li id="ref-8">
+  <li id="ref-7">
     Hempel de Ibarra, N., Vorobyev, M., &amp; Menzel, R. (2014). Mechanisms, functions and ecology of colour vision in the honeybee. <em>Journal of Comparative Physiology A</em>, 200, 411–433.
     <a href="https://doi.org/10.1007/s00359-014-0915-1" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/s00359-014-0915-1</a>
+  </li>
+
+  <li id="ref-8">
+    Marshall, J. N., &amp; Arikawa, K. (2014). Unconventional colour vision. <em>Current Biology</em>, 24(24), R1150–R1154.
+    <a href="https://doi.org/10.1016/j.cub.2014.10.025" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.cub.2014.10.025</a>
   </li>
 
   <li id="ref-9">
@@ -404,16 +409,11 @@ Sino para preguntarte:
   </li>
 
   <li id="ref-10">
-    Marshall, J. N., &amp; Arikawa, K. (2014). Unconventional colour vision. <em>Current Biology</em>, 24(24), R1150–R1154.
-    <a href="https://doi.org/10.1016/j.cub.2014.10.025" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.cub.2014.10.025</a>
-  </li>
-
-  <li id="ref-11">
     Bosten, J. M. (2022). Do You See What I See? Diversity in Human Color Perception. <em>Annual Review of Vision Science</em>, 8, 101–133.
     <a href="https://doi.org/10.1146/annurev-vision-093020-112820" target="_blank" rel="noopener noreferrer">https://doi.org/10.1146/annurev-vision-093020-112820</a>
   </li>
 
-  <li id="ref-12">
+  <li id="ref-11">
     Shoemaker, S. (1982). The Inverted Spectrum. <em>The Journal of Philosophy</em>, 79(7), 357–381.
     <a href="https://doi.org/10.2307/2026213" target="_blank" rel="noopener noreferrer">https://doi.org/10.2307/2026213</a>
   </li>
