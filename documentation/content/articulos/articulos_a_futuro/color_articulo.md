@@ -160,27 +160,9 @@ Y no es el único caso. Tampoco existe una longitud de onda que sea “blanca”
 
 Así que, si una longitud de onda no es un color, ¿qué es entonces el color?
 Esto ya debería hacer que la palabra “color” nos resulte un poco sospechosa.
-Un espectro físico es una cosa.
+Un espectro físico es una cosa, una cosa medible.
 El espacio de colores que construimos a partir de él es otra.
 Y la ciencia del color lleva más de un siglo intentando relacionar ambas cosas de una manera cuantitativa.
-
-La Comisión Internacional de Iluminación, la CIE, desarrolló sistemas colorimétricos que permiten representar estímulos cromáticos mediante valores como los tristímulos y las coordenadas de cromaticidad <a class="nn-cite" href="#ref-4">[4]</a>.
-Sí, esto nos da una herramienta extraordinariamente útil.
-Podemos especificar colores.
-Podemos comparar muestras.
-Podemos diseñar pantallas y fuentes de luz.
-Podemos calcular diferencias de color.
-Pero hay una curiosidad.
-Un sistema de coordenadas del color no demuestra que el color sea una propiedad fundamental de la materia.
-Sólo nos da una forma extremadamente buena de describir y predecir cómo determinados estímulos se relacionan con determinados observadores y condiciones de observación.
-De hecho, una de las propiedades más importantes de la ciencia del color es precisamente el **metamerismo**.
-Dos luces físicamente distintas pueden producir la misma respuesta en nuestro sistema visual y, bajo determinadas condiciones, parecer del mismo color <a class="nn-cite" href="#ref-3">[3]</a> <a class="nn-cite" href="#ref-4">[4]</a>.
-Es decir:
-
-**Dos espectros diferentes pueden producir el mismo color.**
-
-Ya no estamos preguntando sólo qué color tiene una cosa.
-Ahora tenemos que preguntar qué luz, qué observador y qué condiciones de observación estamos considerando.
 
 ---
 
@@ -205,7 +187,7 @@ De la adaptación de mis ojos.
 Y de la historia visual que mi cerebro tiene detrás. Que te lo digan, si no, a ti, cuando sales como modelo de portada en una foto y de sospechoso habitual de la INTERPOL en la siguiente, con el mismo móvil y cambiando sólo la luz.
 
 Una misma superficie puede producir experiencias cromáticas distintas en condiciones diferentes, y nuestra percepción trata constantemente de descubrir qué parte de ese cambio pertenece al mundo y cuál pertenece a la iluminación. Entonces, cuando digo que “la pared es roja”, estoy haciendo una afirmación sobre el mundo.
-Pero para poder hacerla, mi cerebro ha tenido que realizar una cantidad enorme de trabajo sin que yo me dé cuenta.
+Pero para poder hacerla, mi cerebro ha tenido que realizar una cantidad enorme de trabajo sin que yo me dé cuenta. Quizá, entonces, es una afirmación sobre MI mundo.
 
 ---
 
@@ -219,9 +201,9 @@ La flor no ha cambiado.
 La luz que llega a sus alrededores sigue las mismas leyes físicas.
 Pero la abeja no tiene exactamente nuestro sistema visual.
 
-Las abejas son sensibles al ultravioleta, una región del espectro que nuestros ojos no pueden detectar. Su sistema cromático utiliza tres tipos principales de fotorreceptores, uno de ellos sensible al ultravioleta <a class="nn-cite" href="#ref-7">[7]</a> <a class="nn-cite" href="#ref-8">[8]</a>.
-Eso significa que una flor que para mí parece simplemente amarilla puede contener para una abeja información adicional que yo no puedo experimentar como color.
-Muchas flores presentan patrones en el ultravioleta que pueden ayudar a dirigir a los polinizadores hacia sus recursos. Es una especie de señalización que está literalmente fuera de nuestro rango visual <a class="nn-cite" href="#ref-7">[7]</a>.
+Las abejas pueden detectar radiación ultravioleta, una región del espectro que nuestros ojos no perciben. Esto se debe a que su sistema visual cuenta con tres tipos principales de fotorreceptores, uno de ellos sensible precisamente al ultravioleta <a class="nn-cite" href="#ref-7">[7]</a> <a class="nn-cite" href="#ref-8">[8]</a>.
+Eso significa que una flor que para mí parece simplemente amarilla puede contener para una abeja información adicional que yo no puedo experimentar como color, pero ellas sí.
+Muchas flores presentan patrones en el ultravioleta que pueden ayudar a dirigir a los polinizadores hacia sus recursos. Es una especie de señalización que está literalmente fuera de nuestro rango visual.
 Y aquí la pregunta empieza a ponerse realmente incómoda.
 
 > **¿Qué color tiene la flor?**
@@ -232,18 +214,15 @@ La flor no ha elegido una de las dos respuestas.
 Es la misma flor.
 Lo que cambia es el observador.
 
-Podríamos construir una cámara sensible al ultravioleta y representar esa información en una pantalla para que nosotros pudiéramos verla, pero eso no significaría que de repente hubiéramos empezado a experimentar el ultravioleta como lo experimenta una abeja. Habríamos traducido una variable física a una señal visible para nuestro sistema.
-No habríamos abierto una ventana mágica al mundo de la abeja.
-Solo habríamos construido un traductor.
 
 ---
 
-## Y no todas las retinas son iguales
+## No todas las retinas son iguales y el curioso caso del animal de los doce receptores
 
 La abeja no es una excepción.
 La evolución ha producido sistemas visuales muy distintos.
 Hay mamíferos con visión dicromática. Hay primates con tricromacia. Hay vertebrados con cuatro tipos de pigmentos visuales y sistemas cromáticos mucho más ricos que el nuestro. En distintos grupos de animales aparecen sensibilidades espectrales ajustadas a los ambientes y problemas ecológicos de cada especie <a class="nn-cite" href="#ref-10">[10]</a>.
-Algunas aves, por ejemplo, poseen sistemas visuales tetracromáticos y pueden utilizar sensibilidad al ultravioleta o al violeta para extraer información que nosotros no vemos directamente <a class="nn-cite" href="#ref-10">[10]</a>.
+Algunas aves, por ejemplo, poseen sistemas visuales tetracromáticos y pueden utilizar sensibilidad al ultravioleta o al violeta para extraer información que nosotros no vemos directamente.
 Y aquí conviene evitar una frase demasiado tentadora:
 
 “Las aves ven cuatro veces más colores que nosotros.”
@@ -252,24 +231,15 @@ No.
 El número de tipos de fotorreceptores no se traduce de manera tan sencilla en “número de colores”.
 Un sistema de visión cromática no es un cajón con cierto número de lápices dentro.
 Lo importante es qué sensibilidades tiene, cómo se combinan, qué circuitos neuronales existen, qué información necesita el animal y cómo todo eso se integra con el resto del sistema visual.
+
 Y si buscamos un ejemplo verdaderamente extraño, podemos mirar al fondo del mar.
+Algunas especies de estomatópodos, los llamados camarones mantis, poseen hasta doce tipos de fotorreceptores espectrales, con sensibilidades que van desde el ultravioleta profundo hasta el rojo <a class="nn-cite" href="#ref-9">[9]</a>.
 
----
+Doce.
 
-## El animal de los doce receptores
+Y, sin embargo, los experimentos muestran que no distinguen pequeñas diferencias de longitud de onda con una precisión extraordinaria. Su sistema parece utilizar una estrategia distinta a la nuestra para reconocer los colores <a class="nn-cite" href="#ref-9">[9]</a> <a class="nn-cite" href="#ref-10">[10]</a>.
 
-Los estomatópodos, conocidos popularmente como camarones mantis, tienen uno de los sistemas visuales más sorprendentes que conocemos.
-Algunas especies poseen doce tipos distintos de fotorreceptores espectrales, con sensibilidades que van desde el ultravioleta profundo hasta el rojo <a class="nn-cite" href="#ref-9">[9]</a>.
-**Doce**.
-La primera vez que uno oye esto, la conclusión parece evidente.
-Si nosotros tenemos tres, ellos deben ver una explosión de colores completamente inimaginable.
-
-Pero la realidad es bastante más interesante.
-Los experimentos de discriminación espectral han mostrado que, pese a tener muchos receptores, estos animales no distinguen pequeñas diferencias de longitud de onda con una precisión extraordinaria. Su sistema parece estar diseñado para algo distinto de la discriminación cromática fina que solemos imaginar. Se ha propuesto que utilizan una estrategia de reconocimiento cromático basada en señales temporales y movimientos de los ojos, más que una comparación fina de longitudes de onda <a class="nn-cite" href="#ref-9">[9]</a> <a class="nn-cite" href="#ref-10">[10]</a>.
-
-Y esto nos da una lección importante.
-**Tener más receptores no significa simplemente tener más colores.**
-La percepción no está escrita directamente en la retina.
+Así que la lección es bastante clara: **Tener más receptores no significa simplemente ver más colores.**
 La retina es solo una parte de una máquina mucho más grande.
 
 ---
@@ -411,10 +381,7 @@ Sino para preguntarte:
     <a href="https://doi.org/10.1038/nrn1138" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/nrn1138</a>
   </li>
 
-  <li id="ref-4">
-    International Commission on Illumination (CIE). (2018). <em>Colorimetry, 4th Edition</em>. CIE 015:2018.
-    <a href="https://doi.org/10.25039/TR.015.2018" target="_blank" rel="noopener noreferrer">https://doi.org/10.25039/TR.015.2018</a>
-  </li>
+
 
   <li id="ref-5">
     Foster, D. H. (2003). Does colour constancy exist? <em>Trends in Cognitive Sciences</em>, 7(10), 439–443.
