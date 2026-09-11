@@ -1,5 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-09-10T00:00:00+02:00</updated><entry><title>¿De qué color es el mundo cuando nadie lo está mirando?</title><link href="https://napkinnotes.es/de-que-color-es-el-mundo-cuando-nadie-lo-esta-mirando" rel="alternate"/><published>2026-09-10T00:00:00+02:00</published><updated>2026-09-10T00:00:00+02:00</updated><author><name>David Figueruelo Hernán</name></author><id>tag:napkinnotes.es,2026-09-10:/de-que-color-es-el-mundo-cuando-nadie-lo-esta-mirando</id><summary type="html">&lt;p&gt;Si nadie está mirando, ¿tiene color el mundo? Dicho de otra forma, ¿dónde aparece realmente el color o es una propiedad de la naturaleza o simplemente parte de nuestra&amp;nbsp;percepción?&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-09-12T00:00:00+02:00</updated><entry><title>Navier-Stokes: el problema del milenio ante la inteligencia artificial</title><link href="https://napkinnotes.es/navier-stokes-milenio" rel="alternate"/><published>2026-09-12T00:00:00+02:00</published><updated>2026-09-12T00:00:00+02:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-09-12:/navier-stokes-milenio</id><summary type="html">&lt;p&gt;Con motivo del reciente anuncio sobre la supuesta resolución del problema de existencia y regularidad de las ecuaciones de Navier-Stokes (uno de los siete Problemas del Milenio del Instituto Clay de Matemáticas) mediante el despliegue de sistemas de inteligencia artificial, en esta entrega de Napkin Notes profundizamos en la estructura de estas ecuaciones, los principios físicos de conservación sobre los que se erigen, las herramientas del análisis de ecuaciones en derivadas parciales involucradas y el alcance de la controversia científica que sacude a la comunidad matemática&amp;nbsp;internacional.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#las-ecuaciones-de-navier-stokes"&gt;Las ecuaciones de&amp;nbsp;Navier-Stokes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-problema-del-milenio"&gt;El problema del&amp;nbsp;Milenio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="las-ecuaciones-de-navier-stokes"&gt;Las ecuaciones de Navier-Stokes&lt;a class="headerlink" href="#las-ecuaciones-de-navier-stokes" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;La mecánica de fluidos es la rama de la física de medios continuos que estudia el comportamiento cinemático y dinámico de líquidos y gases. A diferencia de los sólidos, los fluidos no pueden mantener una forma fija cuando están en reposo: ante una fuerza lateral, como empujar su superficie, se desplazan y se adaptan al recipiente que los&amp;nbsp;contiene.&lt;/p&gt;
+&lt;p&gt;Su modelización formal es un pilar fundamental de la ingeniería y la física moderna: abarca desde el diseño aerodinámico de aeronaves y la predicción meteorológica hasta el modelado del transporte de masa en astrofísica, o el movimiento de la sangre en nuestras arterias. Para predecir la evolución temporal del campo de velocidades y presiones de un fluido, que es como los matemáticos y físicos los describen, es imprescindible formular un sistema cerrado de ecuaciones en derivadas parciales basado en leyes de conservación fundamentales. Eso viene  a ser un conjunto de reglas matemáticas que permite describir y predecir de forma certera y precisa cómo cambiará el fluido con el&amp;nbsp;tiempo.&lt;/p&gt;
+&lt;p&gt;Aunque los principios hidrostáticos se remontan a Arquímedes con su ¡&lt;em&gt;Eureka&lt;/em&gt;! y los desarrollos pioneros del siglo &lt;span class="caps"&gt;XVIII&lt;/span&gt; los integraron a la mecánica newtoniana gracias a los trabajos de Daniel Bernoulli (quien estableció el principio de conservación de energía en flujos continuos) y Leonhard Euler (quien formuló en 1757 las ecuaciones para fluidos no viscosos e incompresibles), la incorporación de los efectos disipativos por fricción interna, es decir, el rozamiento que hace que parte de la energía del fluido se disipe, requirió un salto conceptual&amp;nbsp;ulterior.&lt;/p&gt;
+&lt;p&gt;A principios del siglo &lt;span class="caps"&gt;XIX&lt;/span&gt;, Claude-Louis Navier (1822) derivó las primeras expresiones introduciendo fuerzas intermoleculares disipativas, mientras que George Gabriel Stokes (1845) dotó al sistema de un rigor matemático definitivo mediante el análisis del llamado tensor de esfuerzos viscosos en fluidos newtonianos isotrópicos, explicando cómo esa fricción interna o viscosidad afecta al movimiento de fluidos como el agua o el&amp;nbsp;aire.&lt;/p&gt;
+&lt;p&gt;El marco analítico de Navier-Stokes descansa sobre la hipótesis del medio continuo, una simplificación en la cual se entiende  el fluido como si fuera una sustancia continua en lugar de seguir el movimiento de cada una de sus moléculas. Formalemnte esto quiere decir que la escala de&amp;nbsp;observación &lt;span class="math"&gt;\(L\)&lt;/span&gt; es infinitamente superior al recorrido libre medio&amp;nbsp;molecular &lt;span class="math"&gt;\(\lambda\)&lt;/span&gt; (número de&amp;nbsp;Knudsen &lt;span class="math"&gt;\(Kn = \lambda/L \ll 1\)&lt;/span&gt;), omitiéndose así la naturaleza discreta de la materia para definir campos escalares y vectoriales continuos que representan la densidad, la presión y la velocidad del fluido en cada punto&amp;nbsp;(&lt;span class="math"&gt;\(\rho\)&lt;/span&gt;, &lt;span class="math"&gt;\(p\)&lt;/span&gt;, &lt;span class="math"&gt;\(\vec{v}\)&lt;/span&gt;). Dicho de forma sencilla, miramos el agua o el aire a una escala tan grande que no necesitamos seguir molécula a&amp;nbsp;molécula. &lt;/p&gt;
+&lt;p&gt;Las ecuaciones de Navier-Stokes se derivan de tres ecuaciones de balance&amp;nbsp;fundamentales:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Conservación de la masa (Ecuación de&amp;nbsp;continuidad)&lt;/li&gt;
+&lt;li&gt;Conservación de la cantidad de movimiento (Segunda ley de Newton&amp;nbsp;continua)&lt;/li&gt;
+&lt;li&gt;Conservación de la energía (Primer principio de la&amp;nbsp;termodinámica)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;En la descripción euleriana del fluido, estudiamos qué ocurre en una pequeña región fija del espacio, en lugar de seguir una gota de fluido en su recorrido. Matemáticamente, observamos cada&amp;nbsp;posición &lt;span class="math"&gt;\(\vec{x} \in \mathbb{R}^3\)&lt;/span&gt; a lo largo del&amp;nbsp;tiempo &lt;span class="math"&gt;\(t\)&lt;/span&gt;. Así, el balance de masa dentro de un volumen de&amp;nbsp;control &lt;span class="math"&gt;\(V\)&lt;/span&gt;, delimitado por su&amp;nbsp;frontera &lt;span class="math"&gt;\(\partial V\)&lt;/span&gt;, conduce a la ecuación de continuidad en forma&amp;nbsp;diferencial:&lt;/p&gt;
+&lt;div class="math"&gt;$${\frac {\partial \rho }{\partial t}}+\nabla \cdot (\rho \vec{v}) = 0,$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(\rho(\vec{x},t)\)&lt;/span&gt; representa la densidad escalar del&amp;nbsp;fluido, &lt;span class="math"&gt;\(\vec{v}(\vec{x},t)\)&lt;/span&gt; es el campo vectorial de velocidades&amp;nbsp;y &lt;span class="math"&gt;\(\nabla \cdot\)&lt;/span&gt; denota el operador divergencia. Físicamente, expresa que el ritmo de variación de la masa en un punto es igual al flujo neto de masa entrante o saliente a través de la superficie límite. O, dicho de otro modo, la masa no se crea ni se destruye: si entra más fluido del que sale, la densidad aumenta; si sale más del que entra, disminuye. Para un fluido incompresible&amp;nbsp;(&lt;span class="math"&gt;\(\rho = \text{constante}\)&lt;/span&gt;), esta condición se reduce&amp;nbsp;a:&lt;/p&gt;
+&lt;div class="math"&gt;$$\nabla \cdot \vec{v} = 0.$$&lt;/div&gt;
+&lt;p&gt;El balance de la cantidad de movimiento por unidad de volumen da lugar a la forma vectorial completa de la ecuación de Navier-Stokes para un fluido newtoniano e&amp;nbsp;incompresible:&lt;/p&gt;
+&lt;div class="math"&gt;$$\frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla)\vec{v} = -\frac{1}{\rho}\nabla p + \nu \nabla^2 \vec{v} + \frac{1}{\rho}\vec{f}.$$&lt;/div&gt;
+&lt;p&gt;En esta&amp;nbsp;ecuación, &lt;span class="math"&gt;\(\frac{\partial \vec{v}}{\partial t}\)&lt;/span&gt; mide la variación temporal del campo de velocidades en una posición espacial&amp;nbsp;fija, &lt;span class="math"&gt;\((\vec{v} \cdot \nabla)\vec{v}\)&lt;/span&gt; representa el transporte de cantidad de movimiento debido al propio movimiento del&amp;nbsp;fluido, &lt;span class="math"&gt;\(-\frac{1}{\rho}\nabla p\)&lt;/span&gt; representa el gradiente de&amp;nbsp;presión, &lt;span class="math"&gt;\(\nu \nabla^2 \vec{v}\)&lt;/span&gt; describe la difusión del momento debido al rozamiento molecular interno (viscosidad),&amp;nbsp;y &lt;span class="math"&gt;\(\frac{1}{\rho}\vec{f}\)&lt;/span&gt; tiene en cuenta las fuerzas externas aplicadas (como la&amp;nbsp;gravedad &lt;span class="math"&gt;\(\vec{g}\)&lt;/span&gt;, fuerzas electromagnéticas o términos de forzamiento estocástico).
+A grandes rasgos, esta ecuación indica que un elemento de volumen que se mueve con el fluido es acelerado por las fuerzas que actúan sobre él; por lo tanto, el balance de cantidad de movimiento es una forma de la Segunda Ley de&amp;nbsp;Newton. &lt;/p&gt;
+&lt;p&gt;Cuando la viscosidad se considera nula&amp;nbsp;(&lt;span class="math"&gt;\(\nu = 0\)&lt;/span&gt;), el término disipativo desaparece y la ecuación de Navier-Stokes se reduce a la ecuación de Euler, que gobierna la dinámica de fluidos ideales no&amp;nbsp;viscosos.&lt;/p&gt;
+&lt;div class="math"&gt;$$\frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla)\vec{v} = -\frac{1}{\rho}\nabla p  + \frac{1}{\rho}\vec{f}.$$&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2 id="el-problema-del-milenio"&gt;El problema del Milenio&lt;a class="headerlink" href="#el-problema-del-milenio" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Consideremos el llamado problema de Cauchy, que es básicamente conocer el estado inicial del fluido y preguntar qué ocurrirá después, para las ecuaciones de Navier-Stokes incompresibles en tres dimensiones. Supongamos que conocemos cómo se mueve el fluido en cada punto al comienzo del experimento. O sea, que en el instante&amp;nbsp;inicial &lt;span class="math"&gt;\(t=0\)&lt;/span&gt; se conoce el campo de velocidades&amp;nbsp;inicial &lt;span class="math"&gt;\(\vec{v}_0(\vec{x})\)&lt;/span&gt; y que este es infinitamente diferenciable&amp;nbsp;(&lt;span class="math"&gt;\(C^\infty\)&lt;/span&gt;), es decir, suave y sin irregularidades, y con energía cinética total&amp;nbsp;finita:&lt;/p&gt;
+&lt;div class="math"&gt;$$E(0) = \frac{1}{2} \int_{\mathbb{R}^3} \vert{}\vec{v}_0(\vec{x})\vert{}^2 \, d\vec{x} &amp;lt; \infty.$$&lt;/div&gt;
+&lt;p&gt;La cuestión central planteada por el Instituto Clay de Matemáticas (formulada oficialmente por Charles Fefferman &lt;a class="nn-cite" href="#ref-3"&gt;[3]&lt;/a&gt;) consiste en determinar cuál de los siguientes comportamientos puede presentar la solución de las ecuaciones de&amp;nbsp;Navier–Stokes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Existencia y regularidad global: Existe una solución&amp;nbsp;única &lt;span class="math"&gt;\(\vec{v}(\vec{x},t) \in C^\infty(\mathbb{R}^3 \times [0, \infty))\)&lt;/span&gt; que permanece suave y acotada para todo&amp;nbsp;tiempo &lt;span class="math"&gt;\(t \ge 0\)&lt;/span&gt;. Es decir, que dadas unas condiciones iniciales suaves, el fluido tiene una única evolución posible que nunca desarrolla valores infinitos, discontinuidades ni comportamientos fuera de control, por más tiempo que&amp;nbsp;transcurra.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Formación de singularidades en tiempo finito (Blow-up): Existen condiciones iniciales suaves y de energía finita tales que la solución desarrolla una singularidad en un tiempo&amp;nbsp;finito &lt;span class="math"&gt;\(T^* &amp;lt; \infty\)&lt;/span&gt;. Es decir, aunque al principio todo parezca normal, el modelo podría llegar a “romperse” de repente y dar resultados imposibles, como una velocidad infinita. Desde la perspectiva física, la aparición de una singularidad implicaría la ruptura de la hipótesis del medio continuo: las ecuaciones predecirían velocidades infinitas o gradientes infinitos en un tiempo finito, señalando el límite donde el modelo hidrodinámico pierde validez y deben intervenir efectos cuánticos o moleculares&amp;nbsp;discretos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;En mayo del año 2000, el Instituto Clay de Matemáticas seleccionó siete problemas matemáticos considerados especialmente importantes y difíciles, conocidos como los Problemas del Milenio, ofreciendo un premio de un millón de dólares por la resolución contrastada de cada uno. Mientras que en dos dimensiones espacio-temporales la existencia global de soluciones suaves para Navier-Stokes fue demostrada en la década de 1960 (por matemáticos de la talla de Olga Ladyzhenskaya), el caso tridimensional ha permanecido&amp;nbsp;inalcanzable. &lt;/p&gt;
+&lt;p&gt;La búsqueda analítica de singularidades ha avanzado aceleradamente en la última década. Un hito decisivo fue desarrollado por los matemáticos españoles Diego Córdoba (&lt;span class="caps"&gt;ICMAT&lt;/span&gt;-&lt;span class="caps"&gt;CSIC&lt;/span&gt;) y Luis Martínez-Zoroa (&lt;span class="caps"&gt;CUNEF&lt;/span&gt;), quienes diseñaron un conjunto de técnicas iterativas de corrección de alta frecuencia para generar inestabilidades y pérdidas de regularidad en modelos simplificados de fluidos &lt;a class="nn-cite" href="#ref-4"&gt;[4]&lt;/a&gt;. En términos sencillos, construyeron perturbaciones cada vez más pequeñas y rápidas para estudiar cuándo un modelo puede dejar de comportarse de forma suave. Pues bien, estas herramientas analíticas sirvieron de base directa para los trabajos de Levent Alpöge (Anthropic) y Tristan Buckmaster (&lt;span class="caps"&gt;NYU&lt;/span&gt;), quienes adaptaron y expandieron el esquema de Córdoba y Martínez-Zoroa para probar rigurosamente la formación de singularidades en tiempo finito (blow-up) con término de forzamiento suave en la ecuación de Euler tridimensional y otros sistemas&amp;nbsp;relacionados.&lt;/p&gt;
+&lt;p&gt;El panorama dio un giro de enorme impacto mediático y académico recientemente. OpenAI comunicó que un sistema interno compuesto por miles de agentes de inteligencia artificial coordinados logró derivar analíticamente una solución candidata que desarrolla una singularidad en tiempo finito para las ecuaciones de Navier-Stokes tridimensionales incompresibles &lt;a class="nn-cite" href="#ref-5"&gt;[5]&lt;/a&gt;.  La estructura matemática reportada describe un vórtice autosimilar que se contrae en espiral, donde la aceleración local y los gradientes de presión entran en un régimen de amplificación no lineal conservando la energía total finita. Para hacernos una idea de este proceso, la figura de cabecera muestra una representación de la solución: puede imaginarse como un remolino que se encoge conservando aproximadamente la misma forma, mientras sus movimientos se vuelven cada vez más intensos en una región muy&amp;nbsp;pequeña.&lt;/p&gt;
+&lt;p&gt;El anuncio ha desencadenado un intenso debate en la comunidad por dos aspectos críticos: En primer lugar, la demostración de OpenAI incluye fuerzas externas suaves, representadas&amp;nbsp;por &lt;span class="math"&gt;\(\vec{f} \ne 0\)&lt;/span&gt;, que son influencias añadidas desde fuera del fluido, como empujes o fuerzas aplicadas de forma gradual y sin cambios bruscos. Esto abre una cuestión importante: la versión más estricta del Problema del Milenio estudia el caso sin esas fuerzas externas, es decir,&amp;nbsp;con &lt;span class="math"&gt;\(\vec{f} = 0\)&lt;/span&gt;. Asimismo, en matemáticas, una declaración de prensa por sí sola no permite evaluar un resultado: la demostración debe publicarse con suficiente detalle para que la comunidad pueda estudiarla, aunque según OpenAI, en este caso la prueba ha sido formalizada y verificada mecánicamente en Lean. Y en segundo lugar, por una supuesta alegación de autoría y ética de datos. Los matemáticos Tristan Buckmaster y Levent Alpöge han señalado coincidencias estructurales entre la vía analítica explorada por el sistema automatizado y los borradores no publicados de sus propias investigaciones sobre las técnicas de Córdoba y Martínez-Zoroa, los cuales habían sido compartidos previamente en entornos de código de OpenAI &lt;a class="nn-cite" href="#ref-6"&gt;[6]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matemáticos de renombre internacional, como Terence Tao &lt;a class="nn-cite" href="#ref-7"&gt;[7]&lt;/a&gt;, han subrayado que esta situación marca un punto de inflexión histórico en la interacción entre la inteligencia artificial y la investigación pura, remarcando que la transparencia en las pruebas formalizadas y la auditoría abierta del código son requisitos indispensables antes de decretar el cierre definitivo de uno de los grandes enigmas de la física&amp;nbsp;matemática.&lt;/p&gt;
+&lt;p&gt;¡En Napkin Notes continuaremos atentos al dictamen de las revisiones formales! Nos vemos en la próxima&amp;nbsp;servilleta.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+  &lt;li id="ref-1"&gt;
+    Landau, L. D., Ajiezer, A., &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Lifshitz, E. (1973). Curso de Física general: mecánica y Física molecular.&amp;nbsp;Mir.
+  &lt;/li&gt;
+
+  &lt;li id="ref-2"&gt;
+    Faber, &lt;span class="caps"&gt;T. E.&lt;/span&gt;(1995). Fluid dynamics for physicists. Cambridge University&amp;nbsp;Press.
+  &lt;/li&gt;
+
+  &lt;li id="ref-3"&gt;
+    Problema de Navier-Stokes formulado por C. Fefferman 
+    &lt;a href="https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf" target="_blank" rel="noopener noreferrer"&gt;https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-4"&gt;
+    Artículo original de Diego Córdoba y Luis Martínez-Zoroa 
+    &lt;a href="https://arxiv.org/abs/2309.08495" target="_blank" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2309.08495&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-5"&gt;
+    Artículo de OpenAI &lt;a href="https://openai.com/index/navier-stokes-solution/" target="_blank" rel="noopener noreferrer"&gt;https://openai.com/index/navier-stokes-solution/&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-6"&gt;
+    Carta de Buckmaster sobre la polémica &lt;a href="https://cims.nyu.edu/~tristanb/statement.pdf" target="_blank" rel="noopener noreferrer"&gt;https://cims.nyu.edu/~tristanb/statement.pdf&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-7"&gt;
+    Artículo de Terrence Tao sobre el tema &lt;a href="https://terrytao.wordpress.com/2026/09/07/finite-time-blowup-with-smooth-forcing-term-for-the-incompressible-porous-medium-boussinesq-and-incompressible-euler-equations/" target="_blank" rel="noopener noreferrer"&gt;https://terrytao.wordpress.com/2026/09/07/finite-time-blowup-with-smooth-forcing-term-for-the-incompressible-porous-medium-boussinesq-and-incompressible-euler-equations/&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Inteligencia Artificial"/><category term="matemáticas"/><category term="física"/><category term="mecánica de fluidos"/><category term="navier-stokes"/></entry><entry><title>¿De qué color es el mundo cuando nadie lo está mirando?</title><link href="https://napkinnotes.es/de-que-color-es-el-mundo-cuando-nadie-lo-esta-mirando" rel="alternate"/><published>2026-09-10T00:00:00+02:00</published><updated>2026-09-10T00:00:00+02:00</updated><author><name>David Figueruelo Hernán</name></author><id>tag:napkinnotes.es,2026-09-10:/de-que-color-es-el-mundo-cuando-nadie-lo-esta-mirando</id><summary type="html">&lt;p&gt;Si nadie está mirando, ¿tiene color el mundo? Dicho de otra forma, ¿dónde aparece realmente el color o es una propiedad de la naturaleza o simplemente parte de nuestra&amp;nbsp;percepción?&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#la-pared-roja"&gt;La pared&amp;nbsp;roja&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#el-rojo-no-entra-en-los-ojos"&gt;El rojo no entra en los&amp;nbsp;ojos&lt;/a&gt;&lt;/li&gt;
