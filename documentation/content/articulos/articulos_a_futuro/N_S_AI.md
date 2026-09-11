@@ -80,7 +80,7 @@ Matemáticos de renombre internacional, como Terence Tao <a class="nn-cite" href
 
 ---
 
-## REFERENCIAS
+## Referencias
 
 <ol class="nn-references">
   <li id="ref-1">
