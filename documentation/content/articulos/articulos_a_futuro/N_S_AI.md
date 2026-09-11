@@ -3,7 +3,7 @@ title: "Navier-Stokes: el problema del milenio ante la inteligencia artificial"
 author: Gabriel Sánchez Pérez
 date: 2026-09-17
 layout: articles
-slug: prueba-gabri_vis
+slug: Navier-Stokes
 status: hidden
 category: Inteligencia Artificial
 tags:
