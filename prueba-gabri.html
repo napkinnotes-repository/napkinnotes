@@ -179,10 +179,12 @@
             
             <div class="toc">
 <ul>
-<li><a href="#el-problema-del-milenio"><span class="caps">EL</span> <span class="caps">PROBLEMA</span> <span class="caps">DEL</span> <span class="caps">MILENIO</span></a></li>
+<li><a href="#las-ecuaciones-de-navier-stokes">Las ecuaciones de&nbsp;Navier-Stokes</a></li>
+<li><a href="#el-problema-del-milenio">El problema del&nbsp;Milenio</a></li>
 <li><a href="#referencias"><span class="caps">REFERENCIAS</span></a></li>
 </ul>
 </div>
+<h2 id="las-ecuaciones-de-navier-stokes">Las ecuaciones de Navier-Stokes<a class="headerlink" href="#las-ecuaciones-de-navier-stokes" title="Permanent link"> </a></h2>
 <p>La mecánica de fluidos es la rama de la física de medios continuos que estudia el comportamiento cinemático y dinámico de líquidos y gases. A diferencia de los sólidos, los fluidos no pueden mantener una forma fija cuando están en reposo: ante una fuerza lateral, como empujar su superficie, se desplazan y se adaptan al recipiente que los&nbsp;contiene.</p>
 <p>Su modelización formal es un pilar fundamental de la ingeniería y la física moderna: abarca desde el diseño aerodinámico de aeronaves y la predicción meteorológica hasta el modelado del transporte de masa en astrofísica o el movimiento de la sangre en nuestras arterias. Para predecir la evolución temporal del campo de velocidades y presiones de un fluido, que es como los matemáticos y físicos los describen, es imprescindible formular un sistema cerrado de ecuaciones en derivadas parciales basado en leyes de conservación fundamentales. Eso viene  a ser un conjunto de reglas matemáticas que permite describir y predecir de forma certera y precisa cómo cambiará el fluido con el&nbsp;tiempo</p>
 <p>Aunque los principios hidrostáticos se remontan a Arquímedes con su <em>Eureka</em> los desarrollos pioneros del siglo <span class="caps">XVIII</span> integraron la mecánica newtoniana gracias a Daniel Bernoulli (principio de conservación de energía en flujos continuos) y Leonhard Euler (quien formuló en 1757 las ecuaciones para fluidos no viscosos e incompresibles), la incorporación de los efectos disipativos por fricción interna, es decir el rozamiento que hace que parte de su energía se disipe, requirió un salto conceptual&nbsp;ulterior.</p>
@@ -204,7 +206,7 @@ A grandes rasgos, esta ecuación indica que un elemento de volumen que se mueve 
 <p>Cuando la viscosidad se considera nula&nbsp;(<span class="math">\(\nu = 0\)</span>), el término disipativo desaparece y la expresión se simplifica a la ecuación de Euler, que gobierna la dinámica de fluidos ideales no&nbsp;viscosos.</p>
 <div class="math">$$\frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla)\vec{v} = -\frac{1}{\rho}\nabla p  + \frac{1}{\rho}\vec{f}.$$</div>
 <hr />
-<h2 id="el-problema-del-milenio"><span class="caps">EL</span> <span class="caps">PROBLEMA</span> <span class="caps">DEL</span> <span class="caps">MILENIO</span><a class="headerlink" href="#el-problema-del-milenio" title="Permanent link"> </a></h2>
+<h2 id="el-problema-del-milenio">El problema del Milenio<a class="headerlink" href="#el-problema-del-milenio" title="Permanent link"> </a></h2>
 <p>Consideremos el llamado problema de Cauchy, que es básicamente conocer el estado inicial del fluido y preguntar qué ocurrirá después, para las ecuaciones de Navier-Stokes incompresibles en tres dimensiones. Supongamos que conocemos cómo se mueve el fluido en cada punto al comienzo del experimento, es decir que se conoce en el instante&nbsp;inicial <span class="math">\(t=0\)</span> el campo de velocidades&nbsp;inicial <span class="math">\(\vec{v}_0(\vec{x})\)</span> infinitamente diferenciable&nbsp;(<span class="math">\(C^\infty\)</span>), es decir suave y sin irregularidades, y con energía cinética total&nbsp;finita:</p>
 <div class="math">$$E(0) = \frac{1}{2} \int_{\mathbb{R}^3} \vert{}\vec{v}_0(\vec{x})\vert{}^2 \, d\vec{x} &lt; \infty.$$</div>
 <p>La cuestión central planteada por el Instituto Clay de Matemáticas (formulada oficialmente por Charles Fefferman <a class="nn-cite" href="#ref-3">[3]</a>) consiste en determinar&nbsp;si:</p>
