@@ -17,6 +17,8 @@ image: images/navier-stokes-solucion.jpeg
 
 [TOC]
 
+## Las ecuaciones de Navier-Stokes 
+
 
 La mecánica de fluidos es la rama de la física de medios continuos que estudia el comportamiento cinemático y dinámico de líquidos y gases. A diferencia de los sólidos, los fluidos no pueden mantener una forma fija cuando están en reposo: ante una fuerza lateral, como empujar su superficie, se desplazan y se adaptan al recipiente que los contiene.
 
@@ -53,7 +55,7 @@ $$\frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla)\vec{v} = -\frac{1
 
 ---
 
-## EL PROBLEMA DEL MILENIO
+## El problema del Milenio
 
 Consideremos el llamado problema de Cauchy, que es básicamente conocer el estado inicial del fluido y preguntar qué ocurrirá después, para las ecuaciones de Navier-Stokes incompresibles en tres dimensiones. Supongamos que conocemos cómo se mueve el fluido en cada punto al comienzo del experimento, es decir que se conoce en el instante inicial $t=0$ el campo de velocidades inicial $\vec{v}_0(\vec{x})$ infinitamente diferenciable ($C^\infty$), es decir suave y sin irregularidades, y con energía cinética total finita:
 
