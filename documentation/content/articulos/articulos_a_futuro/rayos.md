@@ -3,8 +3,7 @@ title: "Tormentas y rayos: el poder de Zeus"
 author: "David Barba González"
 date: 2026-09-10
 layout: articles
-#slug: dunas-y-desiertos-t
-status: draft 
+status: hiddent 
 category: Meteorología
 tags:
   - tormentas
@@ -12,7 +11,7 @@ tags:
   - atmósfera
   - granizo
 summary: "Hagamos que las tormentas sean menos negras y amenazadoras, entendiendo cómo se forman y de dónde vienen los rayos."
-image: images/portada.jpeg
+image: images/barba-rayos/portada.jpeg
 ---
 
 [TOC]
@@ -27,7 +26,7 @@ Las imágenes existentes de la superficie de Venus han revelado la existencia de
 Las tormentas eléctricas pueden aparecer en cualquier lugar del planeta, aunque son más comunes en las regiones 50º al norte y al sur del ecuador, y son especialmente frecuentes en selvas tropicales, ver la Figura 1. Esta distribución geográfica se debe, fundamentalmente, a las características que necesita una tormenta para crearse: humedad, inestabilidad y un mecanismo de elevación.
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/fig1.jpg" alt="">
+  <img src="{static}/images/barba-rayos//fig1.jpeg" alt="">
   <figcaption>
     Figura 1. La barra de color muestra el número de horas que un lugar ha alojado un “ambiente tormentoso”, definido mediante una métrica llamada “energía potencial convectiva disponible”. Figura tomada de <a class="nn-cite" href="#fig">[2]</a>
   </figcaption>
@@ -53,7 +52,7 @@ En primer lugar, porque entre los 11 y 12 kilómetros de altitud hay un cambio d
 Y en segundo lugar porque llega un punto en que la acumulación de agua y cristales de hielo es tan alta que simplemente la nube comienza a disiparse.  Las gotas de agua comienzan a caer y, al interaccionar con la corriente ascendente, la enfrían por tanto inhibiendo la inestabilidad, que recordemos requiere que haya una capa caliente por debajo de una fría.
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/fig2.jpg" alt="">
+  <img src="{static}/images/barba-rayos//fig2.jpeg" alt="">
   <figcaption>
     Figura 2: cumulonimbo formándose debido a las corrientes ascendentes de aire caliente, indicadas con flechas naranjas.
   </figcaption>
@@ -68,7 +67,7 @@ La aparición de rayos en el interior de las nubes tormentosas es consecuencia d
 
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/fig3.jpg" alt="">
+  <img src="{static}/images/fig3.jpeg" alt="">
   <figcaption>
     Figura 3: Distribución de cargas en una nube tipo cumulonimbo.
   </figcaption>
