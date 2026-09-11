@@ -4,7 +4,7 @@ author: Gabriel Sánchez Pérez
 date: 2026-09-12
 layout: articles
 slug: navier-stokes-milenio
-status: hidden
+status: published
 category: Inteligencia Artificial
 tags:
   - matemáticas
