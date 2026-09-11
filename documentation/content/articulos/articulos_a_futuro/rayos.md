@@ -1,7 +1,7 @@
 ---
 title: "Tormentas y rayos: el poder de Zeus" 
 author: "David Barba González"
-date: 2026-09-10
+date: 2026-09-24
 layout: articles
 status: hidden
 slug: prueba-david
