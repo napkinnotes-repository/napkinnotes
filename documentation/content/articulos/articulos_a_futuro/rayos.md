@@ -26,7 +26,7 @@ Las imágenes existentes de la superficie de Venus han revelado la existencia de
 Las tormentas eléctricas pueden aparecer en cualquier lugar del planeta, aunque son más comunes en las regiones 50º al norte y al sur del ecuador, y son especialmente frecuentes en selvas tropicales, ver la Figura 1. Esta distribución geográfica se debe, fundamentalmente, a las características que necesita una tormenta para crearse: humedad, inestabilidad y un mecanismo de elevación.
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/barba-rayos//fig1.jpeg" alt="">
+  <img src="{static}/images/barba-rayos/fig1.jpeg" alt="">
   <figcaption>
     Figura 1. La barra de color muestra el número de horas que un lugar ha alojado un “ambiente tormentoso”, definido mediante una métrica llamada “energía potencial convectiva disponible”. Figura tomada de <a class="nn-cite" href="#fig">[2]</a>
   </figcaption>
@@ -52,7 +52,7 @@ En primer lugar, porque entre los 11 y 12 kilómetros de altitud hay un cambio d
 Y en segundo lugar porque llega un punto en que la acumulación de agua y cristales de hielo es tan alta que simplemente la nube comienza a disiparse.  Las gotas de agua comienzan a caer y, al interaccionar con la corriente ascendente, la enfrían por tanto inhibiendo la inestabilidad, que recordemos requiere que haya una capa caliente por debajo de una fría.
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/barba-rayos//fig2.jpeg" alt="">
+  <img src="{static}/images/barba-rayos/fig2.jpeg" alt="">
   <figcaption>
     Figura 2: cumulonimbo formándose debido a las corrientes ascendentes de aire caliente, indicadas con flechas naranjas.
   </figcaption>
@@ -79,7 +79,22 @@ Esta estructura de dipolo es conocida desde principios del siglo XX. Pero lo que
 
 Actualmente, se tiene ya claro que la electrificación de una nube tormentosa es debido a la interacción entre granizo blando (graupel en inglés) y cristales de hielo. El granizo blando aparece por la acreción de gotas de agua superenfriadas —se mantienen líquidas debido a la presión aunque su temperatura sea menor a 0 ºC— sobre bolas de granizo. Las gotas de agua se congelan al instante tras contactar con el hielo, y forman una capa blanda alrededor del mismo. Lo que se ha propuesto muy recientemente, aunque todavía no hay consenso en la comunidad, es que iones $H^{+}$ se trasladan desde (hacia) estas motas de granizo blando, que forman parte de la precipitación, hacia (desde) cristales de hielo que están en la corriente ascendente. Lo bonito de este nuevo modelo <a class="nn-cite" href="#kang">[4]</a> es que las condiciones de la nube son las que indican la dirección del flujo de carga positiva. Concretamente, el modelo predice que una cantidad baja de agua líquida en la nube hace que el granizo blando se lleve carga negativa hacia abajo, mientras que en el caso contrario el desequilibrio hace que dichas partículas arrastren carga negativa hacia el suelo. Estas predicciones coinciden con las observaciones de tormentas en la naturaleza.
 
-Una vez entendemos la diferencia de potencial, solo queda saber por qué se forma un rayo. La atmósfera que está entre una sección con carga positiva y la otra negativa actúa como aislante. Pero cuando el campo eléctrico entre dos nubes, o entre la nube y el suelo, es demasiado grande, el rayo aparece reduciéndolo, transportando carga de una región a otra. Las temperaturas alcanzadas en la región de transporte —el rayo— son enormes, de hasta 50,000 K (10 veces la temperatura superficial del sol). Esta descarga de energía térmica produce una onda de choque que se expande muy rápidamente, aunque la temperatura se reduce muy rápido con la distancia al rayo hasta que simplemente acaba siendo una onda sonora, que es lo que escuchamos como un trueno [Audio de un trueno][Vídeo de un trueno].
+Una vez entendemos la diferencia de potencial, solo queda saber por qué se forma un rayo. La atmósfera que está entre una sección con carga positiva y la otra negativa actúa como aislante. Pero cuando el campo eléctrico entre dos nubes, o entre la nube y el suelo, es demasiado grande, el rayo aparece reduciéndolo, transportando carga de una región a otra. Las temperaturas alcanzadas en la región de transporte —el rayo— son enormes, de hasta 50,000 K (10 veces la temperatura superficial del sol). Esta descarga de energía térmica produce una onda de choque que se expande muy rápidamente, aunque la temperatura se reduce muy rápido con la distancia al rayo hasta que simplemente acaba siendo una onda sonora, que es lo que escuchamos como un trueno.
+
+<figure class="nn-article-figure">
+  <video controls preload="metadata">
+    <source src="{static}/images/barba-rayos/video.mp4" type="video/mp4">
+    Tu navegador no puede reproducir este vídeo.
+  </video>
+  <figcaption>
+    Vídeo de un rayo durante una tormenta.
+  </figcaption>
+</figure>
+
+<audio controls preload="metadata">
+  <source src="{static}/images/barba-rayos/Rain_and_thunder.ogg" type="audio/ogg">
+  Tu navegador no puede reproducir este audio.
+</audio>
 
 
 
