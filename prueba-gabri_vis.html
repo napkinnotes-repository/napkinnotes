@@ -26,7 +26,7 @@
 <meta name="keywords" content="matemáticas, física, mecánica de fluidos, navier-stokes, Inteligencia Artificial, " />
 
 <meta property="og:title" content="Navier-Stokes: el problema del milenio ante la inteligencia artificial" />
-<meta property="og:url" content="https://napkinnotes.es/prueba-gabri" />
+<meta property="og:url" content="https://napkinnotes.es/prueba-gabri_vis" />
 <meta property="og:description" content="Con motivo del reciente anuncio sobre la supuesta resolución del problema de existencia y regularidad de las ecuaciones de Navier-Stokes (uno de los siete Problemas del Milenio del Instituto Clay de Matemáticas) mediante el despliegue de sistemas de inteligencia artificial, en esta entrega de Napkin Notes profundizamos en la estructura de estas ecuaciones, los principios físicos de conservación sobre los que se erigen, las herramientas del análisis de ecuaciones en derivadas parciales involucradas y el alcance de la controversia científica que sacude a la comunidad matemática internacional." />
 <meta property="og:site_name" content="Napkin Notes" />
 <meta property="og:type" content="article" />
@@ -158,7 +158,7 @@
             <div class="nn-article-hero__heading">
                 <div class="nn-article-hero__title-wrap">
                     <h1 class="nn-article-hero__title">
-                        <a href="https://napkinnotes.es/prueba-gabri">Navier-Stokes: el problema del milenio ante la inteligencia&nbsp;artificial</a>
+                        <a href="https://napkinnotes.es/prueba-gabri_vis">Navier-Stokes: el problema del milenio ante la inteligencia&nbsp;artificial</a>
                     </h1>
                 </div>
 
@@ -186,10 +186,10 @@
 </div>
 <h2 id="las-ecuaciones-de-navier-stokes">Las ecuaciones de Navier-Stokes<a class="headerlink" href="#las-ecuaciones-de-navier-stokes" title="Permanent link"> </a></h2>
 <p>La mecánica de fluidos es la rama de la física de medios continuos que estudia el comportamiento cinemático y dinámico de líquidos y gases. A diferencia de los sólidos, los fluidos no pueden mantener una forma fija cuando están en reposo: ante una fuerza lateral, como empujar su superficie, se desplazan y se adaptan al recipiente que los&nbsp;contiene.</p>
-<p>Su modelización formal es un pilar fundamental de la ingeniería y la física moderna: abarca desde el diseño aerodinámico de aeronaves y la predicción meteorológica hasta el modelado del transporte de masa en astrofísica o el movimiento de la sangre en nuestras arterias. Para predecir la evolución temporal del campo de velocidades y presiones de un fluido, que es como los matemáticos y físicos los describen, es imprescindible formular un sistema cerrado de ecuaciones en derivadas parciales basado en leyes de conservación fundamentales. Eso viene  a ser un conjunto de reglas matemáticas que permite describir y predecir de forma certera y precisa cómo cambiará el fluido con el&nbsp;tiempo</p>
-<p>Aunque los principios hidrostáticos se remontan a Arquímedes con su <em>Eureka</em> los desarrollos pioneros del siglo <span class="caps">XVIII</span> integraron la mecánica newtoniana gracias a Daniel Bernoulli (principio de conservación de energía en flujos continuos) y Leonhard Euler (quien formuló en 1757 las ecuaciones para fluidos no viscosos e incompresibles), la incorporación de los efectos disipativos por fricción interna, es decir el rozamiento que hace que parte de su energía se disipe, requirió un salto conceptual&nbsp;ulterior.</p>
+<p>Su modelización formal es un pilar fundamental de la ingeniería y la física moderna: abarca desde el diseño aerodinámico de aeronaves y la predicción meteorológica hasta el modelado del transporte de masa en astrofísica o el movimiento de la sangre en nuestras arterias. Para predecir la evolución temporal del campo de velocidades y presiones de un fluido, que es como los matemáticos y físicos los describen, es imprescindible formular un sistema cerrado de ecuaciones en derivadas parciales basado en leyes de conservación fundamentales. Eso viene  a ser un conjunto de reglas matemáticas que permite describir y predecir de forma certera y precisa cómo cambiará el fluido con el&nbsp;tiempo.</p>
+<p>Aunque los principios hidrostáticos se remontan a Arquímedes con su <em>Eureka</em> y los desarrollos pioneros del siglo <span class="caps">XVIII</span> integraron la mecánica newtoniana gracias a Daniel Bernoulli (principio de conservación de energía en flujos continuos) y Leonhard Euler (quien formuló en 1757 las ecuaciones para fluidos no viscosos e incompresibles), la incorporación de los efectos disipativos por fricción interna, es decir el rozamiento que hace que parte de su energía se disipe, requirió un salto conceptual&nbsp;ulterior.</p>
 <p>A principios del siglo <span class="caps">XIX</span>, Claude-Louis Navier (1822) derivó las primeras expresiones introduciendo fuerzas intermoleculares disipativas, mientras que George Gabriel Stokes (1845) dotó al sistema de un rigor matemático definitivo mediante el análisis del llamado tensor de esfuerzos viscosos en fluidos newtonianos isotrópicos, explicando cómo esa fricción interna o viscosidad afecta al movimiento de fluidos como el agua o el&nbsp;aire.</p>
-<p>El marco analítico de Navier-Stokes descansa sobre la hipótesis del medio continuo, una simplificación en la cual se entiende  el fluido como si fuera una sustancia continua, en lugar de seguir el movimiento de cada una de sus moléculas. Formalemnte esto es que la escala de&nbsp;observación <span class="math">\(L\)</span> es infinitamente superior al recorrido libre medio&nbsp;molecular <span class="math">\(\lambda\)</span> (número de&nbsp;Knudsen <span class="math">\(Kn = \lambda/L \ll 1\)</span>), omitiendo la naturaleza discreta de la materia para definir campos escalares y vectoriales continuos&nbsp;(<span class="math">\(\rho\)</span>, <span class="math">\(p\)</span>, \vec{v}$). Dicho de forma sencilla, miramos el agua o el aire a una escala tan grande que no necesitamos seguir molécula a molécula. Las ecuaciones se derivan de tres ecuaciones de balance&nbsp;fundamentales:</p>
+<p>El marco analítico de Navier-Stokes descansa sobre la hipótesis del medio continuo, una simplificación en la cual se entiende  el fluido como si fuera una sustancia continua, en lugar de seguir el movimiento de cada una de sus moléculas. Formalemnte esto es que la escala de&nbsp;observación <span class="math">\(L\)</span> es infinitamente superior al recorrido libre medio&nbsp;molecular <span class="math">\(\lambda\)</span> (número de&nbsp;Knudsen <span class="math">\(Kn = \lambda/L \ll 1\)</span>), omitiendo la naturaleza discreta de la materia para definir campos escalares y vectoriales continuos&nbsp;(<span class="math">\(\rho\)</span>, <span class="math">\(p\)</span>, <span class="math">\(\vec{v}\)</span>). Dicho de forma sencilla, miramos el agua o el aire a una escala tan grande que no necesitamos seguir molécula a molécula. Las ecuaciones se derivan de tres ecuaciones de balance&nbsp;fundamentales:</p>
 <ol>
 <li>Conservación de la masa (Ecuación de&nbsp;continuidad)</li>
 <li>Conservación de la cantidad de movimiento (Segunda ley de Newton&nbsp;continua)</li>
@@ -217,7 +217,7 @@ A grandes rasgos, esta ecuación indica que un elemento de volumen que se mueve 
 <p>En mayo del año 2000, el Instituto Clay de Matemáticas seleccionó siete Problemas del Milenio, ofreciendo un premio de un millón de dólares por la resolución contrastada de cada uno. Mientras que en dos dimensiones espacio-temporales la existencia global de soluciones suaves para Navier-Stokes fue demostrada en la década de 1960 (por matemáticas de la talla de Olga Ladyzhenskaya), el caso tridimensional ha permanecido&nbsp;inalcanzable. </p>
 <p>La búsqueda analítica de singularidades ha avanzado aceleradamente en la última década. Un hito decisivo fue desarrollado por los matemáticos españoles Diego Córdoba (<span class="caps">ICMAT</span>-<span class="caps">CSIC</span>) y Luis Martínez-Zoroa (<span class="caps">CUNEF</span>), quienes diseñaron un conjunto de técnicas iterativas de corrección de alta frecuencia para generar inestabilidades y pérdidas de regularidad en modelos simplificados de fluidos <a class="nn-cite" href="#ref-4">[4]</a>. En términos sencillos, construyeron perturbaciones cada vez más pequeñas y rápidas para estudiar cuándo un modelo puede dejar de comportarse de forma suave. Pues bien, estas herramientas analíticas sirvieron de base directa para los trabajos de Levent Alpöge (Anthropic) y Tristan Buckmaster (<span class="caps">NYU</span>), quienes adaptaron y expandieron el esquema de Córdoba y Martínez-Zoroa para probar rigurosamente la formación de singularidades en tiempo finito (blow-up) con término de forzamiento suave en la ecuación de Euler tridimensional y otros sistemas&nbsp;relacionados.</p>
 <p>El panorama dio un giro de enorme impacto mediático y académico recientemente. OpenAI comunicó que un sistema interno compuesto por miles de agentes de inteligencia artificial coordinados logró derivar analíticamente una solución candidata que desarrolla una singularidad en tiempo finito para las ecuaciones de Navier-Stokes tridimensionales incompresibles <a class="nn-cite" href="#ref-5">[5]</a>.  La estructura matemática reportada describe un vórtice autosimilar que se contrae en espiral, donde la aceleración local y los gradientes de presión entran en un régimen de amplificación no lineal conservando la energía total finita. Para hacernos una idea de este proceso, la figura de cabecera muestra una representación de la solución: puede imaginarse como un remolino que se encoge conservando aproximadamente la misma forma, mientras sus movimientos se vuelven cada vez más intensos en una región muy&nbsp;pequeña.</p>
-<p>El anuncio ha desencadenado un intenso debate en la comunidad por dos aspectos críticos: En primer lugar, la demostración de OpenAI incluye fuerzas externas suaves, representadas&nbsp;por <span class="math">\(\vec{f} \ne 0\)</span>, que son influencias añadidas desde fuera del fluido, como empujes o fuerzas aplicadas de forma gradual y sin cambios bruscos. Esto abre una cuestión importante: la versión más estricta del Problema del Milenio estudia el caso sin esas fuerzas externas, es decir,&nbsp;con <span class="math">\(\vec{f} = 0\)</span>. Asimismo, en matemática, una declaración de prensa no constituye un resultado hasta su formalización y verificación por pares (o su validación asistida en asistentes de pruebas como Lean). Y en segundo lugar, por una supuesta alegación de autoría y ética de datos. Los matemáticos Tristan Buckmaster y Levent Alpöge han señalado coincidencias estructurales entre la vía analítica explorada por el sistema automatizado y los borradores no publicados de sus propias investigaciones sobre las técnicas de Córdoba y Martínez-Zoroa, los cuales habían sido compartidos previamente en entornos de código de OpenAI <a class="nn-cite" href="#ref-6">[6]</a>.</p>
+<p>El anuncio ha desencadenado un intenso debate en la comunidad por dos aspectos críticos: En primer lugar, la demostración de OpenAI incluye fuerzas externas suaves, representadas&nbsp;por <span class="math">\(\vec{f} \ne 0\)</span>, que son influencias añadidas desde fuera del fluido, como empujes o fuerzas aplicadas de forma gradual y sin cambios bruscos. Esto abre una cuestión importante: la versión más estricta del Problema del Milenio estudia el caso sin esas fuerzas externas, es decir,&nbsp;con <span class="math">\(\vec{f} = 0\)</span>. Asimismo, en matemáticas, una declaración de prensa por sí sola no permite evaluar un resultado: la demostración debe publicarse con suficiente detalle para que la comunidad pueda estudiarla. Según OpenAI, en este caso la prueba ha sido formalizada y verificada mecánicamente en Lean. Y en segundo lugar, por una supuesta alegación de autoría y ética de datos. Los matemáticos Tristan Buckmaster y Levent Alpöge han señalado coincidencias estructurales entre la vía analítica explorada por el sistema automatizado y los borradores no publicados de sus propias investigaciones sobre las técnicas de Córdoba y Martínez-Zoroa, los cuales habían sido compartidos previamente en entornos de código de OpenAI <a class="nn-cite" href="#ref-6">[6]</a>.</p>
 <p>Matemáticos de renombre internacional, como Terence Tao <a class="nn-cite" href="#ref-7">[7]</a>, han subrayado que esta situación marca un punto de inflexión histórico en la interacción entre la inteligencia artificial y la investigación pura, remarcando que la transparencia en las pruebas formalizadas y la auditoría abierta del código son requisitos indispensables antes de decretar el cierre definitivo de uno de los grandes enigmas de la física&nbsp;matemática.</p>
 <p>¡En Napkin Notes continuaremos atentos al dictamen de las revisiones formales! Nos vemos en la próxima&nbsp;servilleta.</p>
 <hr />
@@ -321,7 +321,7 @@ A grandes rasgos, esta ecuación indica que un elemento de volumen que se mueve 
 
 
 <div class="applause_button">
-    <applause-button url=https://napkinnotes.es/prueba-gabri> </applause-button>
+    <applause-button url=https://napkinnotes.es/prueba-gabri_vis> </applause-button>
 </div>
 
  
@@ -377,8 +377,8 @@ A grandes rasgos, esta ecuación indica que un elemento de volumen que se mueve 
 
                 <input type="hidden" name="_subject" value="Nuevo comentario en Napkin Notes">
                 <input type="hidden" name="articulo" value="Navier-Stokes: el problema del milenio ante la inteligencia artificial">
-                <input type="hidden" name="article_key" value="prueba-gabri">
-                <input type="hidden" name="url_articulo" value="https://napkinnotes.es/prueba-gabri">
+                <input type="hidden" name="article_key" value="prueba-gabri_vis">
+                <input type="hidden" name="url_articulo" value="https://napkinnotes.es/prueba-gabri_vis">
                 <input id="nn-comment-type" type="hidden" name="tipo_comentario" value="comentario">
                 <input id="nn-comment-reply-to-author" type="hidden" name="respuesta_a_autor" value="">
                 <input id="nn-comment-reply-to-id" type="hidden" name="respuesta_a_id" value="">
@@ -467,7 +467,7 @@ A grandes rasgos, esta ecuación indica que un elemento de volumen que se mueve 
 
                 <div class="nn-share-actions">
                     <a class="nn-share-actions__button"
-                       href="https://twitter.com/intent/tweet?url=https%3A//napkinnotes.es/prueba-gabri&text=Navier-Stokes%3A%20el%20problema%20del%20milenio%20ante%20la%20inteligencia%C2%A0artificial"
+                       href="https://twitter.com/intent/tweet?url=https%3A//napkinnotes.es/prueba-gabri_vis&text=Navier-Stokes%3A%20el%20problema%20del%20milenio%20ante%20la%20inteligencia%C2%A0artificial"
                        target="_blank"
                        rel="noopener noreferrer">
                         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
@@ -477,7 +477,7 @@ A grandes rasgos, esta ecuación indica que un elemento de volumen que se mueve 
                     </a>
 
                     <a class="nn-share-actions__button"
-                       href="https://www.facebook.com/sharer/sharer.php?u=https%3A//napkinnotes.es/prueba-gabri%3Fv%3D20260917"
+                       href="https://www.facebook.com/sharer/sharer.php?u=https%3A//napkinnotes.es/prueba-gabri_vis%3Fv%3D20260917"
                        target="_blank"
                        rel="noopener noreferrer">
                         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
@@ -487,7 +487,7 @@ A grandes rasgos, esta ecuación indica que un elemento de volumen que se mueve 
                     </a>
 
                     <a class="nn-share-actions__button"
-                       href="https://api.whatsapp.com/send?text=Navier-Stokes%3A%20el%20problema%20del%20milenio%20ante%20la%20inteligencia%C2%A0artificial%20https%3A//napkinnotes.es/prueba-gabri%3Fv%3D20260917"
+                       href="https://api.whatsapp.com/send?text=Navier-Stokes%3A%20el%20problema%20del%20milenio%20ante%20la%20inteligencia%C2%A0artificial%20https%3A//napkinnotes.es/prueba-gabri_vis%3Fv%3D20260917"
                        target="_blank"
                        rel="noopener noreferrer">
                         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
@@ -498,7 +498,7 @@ A grandes rasgos, esta ecuación indica que un elemento de volumen que se mueve 
 
                     <button class="nn-share-actions__button nn-share-actions__button--copy"
                             type="button"
-                            data-copy-url="https://napkinnotes.es/prueba-gabri">
+                            data-copy-url="https://napkinnotes.es/prueba-gabri_vis">
                         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
                             <path fill="currentColor" d="M16 1H6a2 2 0 0 0-2 2v12h2V3h10V1Zm3 4H10a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H10V7h9v14Z"/>
                         </svg>
