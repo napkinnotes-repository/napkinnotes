@@ -68,7 +68,7 @@ La aparición de rayos en el interior de las nubes tormentosas es consecuencia d
 
 
 <figure class="nn-article-figure">
-  <img src="{static}/images/fig3.jpeg" alt="">
+  <img src="{static}/images/barba-rayos/fig3.jpeg" alt="">
   <figcaption>
     Figura 3: Distribución de cargas en una nube tipo cumulonimbo.
   </figcaption>
@@ -83,10 +83,10 @@ Actualmente, se tiene ya claro que la electrificación de una nube tormentosa es
 Una vez entendemos la diferencia de potencial, solo queda saber por qué se forma un rayo. La atmósfera que está entre una sección con carga positiva y la otra negativa actúa como aislante. Pero cuando el campo eléctrico entre dos nubes, o entre la nube y el suelo, es demasiado grande, el rayo aparece reduciéndolo, transportando carga de una región a otra. Las temperaturas alcanzadas en la región de transporte —el rayo— son enormes, de hasta 50,000 K (10 veces la temperatura superficial del sol). Esta descarga de energía térmica produce una onda de choque que se expande muy rápidamente, aunque la temperatura se reduce muy rápido con la distancia al rayo hasta que simplemente acaba siendo una onda sonora, que es lo que escuchamos como un trueno.
 
 <figure class="nn-article-figure">
-  <video controls preload="metadata">
-    <source src="{static}/images/barba-rayos/video.mp4" type="video/mp4">
-    Tu navegador no puede reproducir este vídeo.
-  </video>
+ <video controls preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto;">
+  <source src="{static}/images/video.mp4" type="video/mp4">
+  Tu navegador no puede reproducir este vídeo.
+</video>
   <figcaption>
     Vídeo de un rayo durante una tormenta.
   </figcaption>
