@@ -84,7 +84,7 @@ Una vez entendemos la diferencia de potencial, solo queda saber por qué se form
 
 <figure class="nn-article-figure">
  <video controls preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto;">
-  <source src="{static}/images/video.mp4" type="video/mp4">
+  <source src="{static}/images/barba-rayos/video.mp4" type="video/mp4">
   Tu navegador no puede reproducir este vídeo.
 </video>
   <figcaption>
