@@ -129,6 +129,53 @@
                 <div class="site-main__inner">
 <style>
 /* =========================================================
+   PRUEBA AVATAR ANIMADO
+   Solo afecta a autores con animated_avatar.
+   ========================================================= */
+
+.nn-player-card__media,
+.nn-player-card__expanded-media {
+    position: relative;
+}
+
+.nn-player-card__image--static,
+.nn-player-card__image--animated {
+    transition: opacity .18s ease;
+}
+
+.nn-player-card__image--animated {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Escritorio: cambia de foto a animación al hacer hover */
+@media (min-width: 981px) {
+    .nn-player-card:hover .nn-player-card__image--static {
+        opacity: 0;
+    }
+
+    .nn-player-card:hover .nn-player-card__image--animated {
+        opacity: 1;
+    }
+}
+
+/* Móvil: cambia al tocar y desplegar la tarjeta */
+@media (max-width: 980px) {
+    .nn-player-card.is-mobile-open .nn-player-card__image--static {
+        opacity: 0;
+    }
+
+    .nn-player-card.is-mobile-open .nn-player-card__image--animated {
+        opacity: 1;
+    }
+}
+   
+/* =========================================================
    ABOUT — SOLO VERSIÓN MÓVIL
    Escritorio queda exactamente con el comportamiento actual.
    ========================================================= */
@@ -343,7 +390,18 @@
                 aria-label="Ver información de Duvier Suárez Fontanella"
             >
                 <div class="nn-player-card__media">
-                    <img class="nn-player-card__image" src="https://napkinnotes.es/images/duvier.png" alt="Duvier Suárez Fontanella">
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/duvier.png"
+    alt="Duvier Suárez Fontanella"
+>
+
+<img
+    class="nn-player-card__image nn-player-card__image--animated"
+    src="https://napkinnotes.es/images/duvier_movimiento.webp"
+    alt=""
+    aria-hidden="true"
+>
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -357,7 +415,18 @@
 
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
-                    <img class="nn-player-card__expanded-image" src="https://napkinnotes.es/images/duvier.png" alt="Duvier Suárez Fontanella">
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/duvier.png"
+    alt="Duvier Suárez Fontanella"
+>
+
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--animated"
+    src="https://napkinnotes.es/images/duvier_movimiento.webp"
+    alt=""
+    aria-hidden="true"
+>
                 </div>
 
                 <div class="nn-player-card__expanded-content">
@@ -391,7 +460,12 @@
                 aria-label="Ver información de Gabriel Sánchez Pérez"
             >
                 <div class="nn-player-card__media">
-                    <img class="nn-player-card__image" src="https://napkinnotes.es/images/gabriel.jpeg" alt="Gabriel Sánchez Pérez">
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/gabriel.jpeg"
+    alt="Gabriel Sánchez Pérez"
+>
+
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -405,7 +479,12 @@
 
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
-                    <img class="nn-player-card__expanded-image" src="https://napkinnotes.es/images/gabriel.jpeg" alt="Gabriel Sánchez Pérez">
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/gabriel.jpeg"
+    alt="Gabriel Sánchez Pérez"
+>
+
                 </div>
 
                 <div class="nn-player-card__expanded-content">
@@ -439,7 +518,12 @@
                 aria-label="Ver información de David Figueruelo Hernán"
             >
                 <div class="nn-player-card__media">
-                    <img class="nn-player-card__image" src="https://napkinnotes.es/images/david.jpg" alt="David Figueruelo Hernán">
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/david.jpg"
+    alt="David Figueruelo Hernán"
+>
+
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -453,7 +537,12 @@
 
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
-                    <img class="nn-player-card__expanded-image" src="https://napkinnotes.es/images/david.jpg" alt="David Figueruelo Hernán">
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/david.jpg"
+    alt="David Figueruelo Hernán"
+>
+
                 </div>
 
                 <div class="nn-player-card__expanded-content">
@@ -487,7 +576,12 @@
                 aria-label="Ver información de Gretel Quintero Angulo"
             >
                 <div class="nn-player-card__media">
-                    <img class="nn-player-card__image" src="https://napkinnotes.es/images/gretel.png" alt="Gretel Quintero Angulo">
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/gretel.png"
+    alt="Gretel Quintero Angulo"
+>
+
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -501,7 +595,12 @@
 
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
-                    <img class="nn-player-card__expanded-image" src="https://napkinnotes.es/images/gretel.png" alt="Gretel Quintero Angulo">
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/gretel.png"
+    alt="Gretel Quintero Angulo"
+>
+
                 </div>
 
                 <div class="nn-player-card__expanded-content">
@@ -535,7 +634,12 @@
                 aria-label="Ver información de María Pérez Garrote"
             >
                 <div class="nn-player-card__media">
-                    <img class="nn-player-card__image" src="https://napkinnotes.es/images/maria.jpeg" alt="María Pérez Garrote">
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/maria.jpeg"
+    alt="María Pérez Garrote"
+>
+
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -549,7 +653,12 @@
 
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
-                    <img class="nn-player-card__expanded-image" src="https://napkinnotes.es/images/maria.jpeg" alt="María Pérez Garrote">
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/maria.jpeg"
+    alt="María Pérez Garrote"
+>
+
                 </div>
 
                 <div class="nn-player-card__expanded-content">
@@ -583,7 +692,12 @@
                 aria-label="Ver información de David Barba González"
             >
                 <div class="nn-player-card__media">
-                    <img class="nn-player-card__image" src="https://napkinnotes.es/images/barba.jpeg" alt="David Barba González">
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/barba.jpeg"
+    alt="David Barba González"
+>
+
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -597,7 +711,12 @@
 
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
-                    <img class="nn-player-card__expanded-image" src="https://napkinnotes.es/images/barba.jpeg" alt="David Barba González">
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/barba.jpeg"
+    alt="David Barba González"
+>
+
                 </div>
 
                 <div class="nn-player-card__expanded-content">
@@ -631,7 +750,12 @@
                 aria-label="Ver información de Paz Albares Vicente"
             >
                 <div class="nn-player-card__media">
-                    <img class="nn-player-card__image" src="https://napkinnotes.es/images/paz.jpg" alt="Paz Albares Vicente">
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/paz.jpg"
+    alt="Paz Albares Vicente"
+>
+
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -645,7 +769,12 @@
 
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
-                    <img class="nn-player-card__expanded-image" src="https://napkinnotes.es/images/paz.jpg" alt="Paz Albares Vicente">
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/paz.jpg"
+    alt="Paz Albares Vicente"
+>
+
                 </div>
 
                 <div class="nn-player-card__expanded-content">
@@ -679,7 +808,12 @@
                 aria-label="Ver información de Ruchika"
             >
                 <div class="nn-player-card__media">
-                    <img class="nn-player-card__image" src="https://napkinnotes.es/images/Ruchika.jpeg" alt="Ruchika">
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/Ruchika.jpeg"
+    alt="Ruchika"
+>
+
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -693,7 +827,12 @@
 
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
-                    <img class="nn-player-card__expanded-image" src="https://napkinnotes.es/images/Ruchika.jpeg" alt="Ruchika">
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/Ruchika.jpeg"
+    alt="Ruchika"
+>
+
                 </div>
 
                 <div class="nn-player-card__expanded-content">
@@ -727,7 +866,12 @@
                 aria-label="Ver información de Gonzalo Matias Romano"
             >
                 <div class="nn-player-card__media">
-                    <img class="nn-player-card__image" src="https://napkinnotes.es/images/gonzalo.jpeg" alt="Gonzalo Matias Romano">
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/gonzalo.jpeg"
+    alt="Gonzalo Matias Romano"
+>
+
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -741,7 +885,12 @@
 
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
-                    <img class="nn-player-card__expanded-image" src="https://napkinnotes.es/images/gonzalo.jpeg" alt="Gonzalo Matias Romano">
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/gonzalo.jpeg"
+    alt="Gonzalo Matias Romano"
+>
+
                 </div>
 
                 <div class="nn-player-card__expanded-content">
@@ -775,7 +924,12 @@
                 aria-label="Ver información de Diego Martín González"
             >
                 <div class="nn-player-card__media">
-                    <img class="nn-player-card__image" src="https://napkinnotes.es/images/Diego.png" alt="Diego Martín González">
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/Diego.png"
+    alt="Diego Martín González"
+>
+
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -789,7 +943,12 @@
 
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
-                    <img class="nn-player-card__expanded-image" src="https://napkinnotes.es/images/Diego.png" alt="Diego Martín González">
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/Diego.png"
+    alt="Diego Martín González"
+>
+
                 </div>
 
                 <div class="nn-player-card__expanded-content">
@@ -823,7 +982,12 @@
                 aria-label="Ver información de Alejandro Peñuela Díaz"
             >
                 <div class="nn-player-card__media">
-                    <img class="nn-player-card__image" src="https://napkinnotes.es/images/alejandro.jpeg" alt="Alejandro Peñuela Díaz">
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/alejandro.jpeg"
+    alt="Alejandro Peñuela Díaz"
+>
+
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -837,7 +1001,12 @@
 
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
-                    <img class="nn-player-card__expanded-image" src="https://napkinnotes.es/images/alejandro.jpeg" alt="Alejandro Peñuela Díaz">
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="https://napkinnotes.es/images/alejandro.jpeg"
+    alt="Alejandro Peñuela Díaz"
+>
+
                 </div>
 
                 <div class="nn-player-card__expanded-content">
