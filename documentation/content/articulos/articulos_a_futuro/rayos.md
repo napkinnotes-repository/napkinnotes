@@ -20,9 +20,9 @@ image: images/barba-rayos/portada.jpeg
    
 Probablemente el lector, este verano, haya vivido en primera persona una tormenta eléctrica. Es uno de los fenómenos más impactantes que un ser humano puede experimentar con sus sentidos —al menos cuatro de ellos. A pesar de ello, y de que vemos tormentas continuamente en muchísimas partes del mundo, todavía no está del todo claro cuál es el mecanismo que origina no la tormenta, sino los protagonistas de esta entrega de Napkin Notes: los rayos.
 
-# Tormentas eléctricas
+## Tormentas eléctricas
 
-Las imágenes existentes de la superficie de Venus han revelado la existencia de dos zonas de dunas, ocupando un total de unos 18.000 kilómetros cuadrados, el 0.0039% de la superficie total del planeta. Han sido identificadas mediante imágenes de radar en radiofrecuencias, capaces de atravesar la densa y opaca atmósfera de Venus. Tenemos pocos datos sobre estas dunas, aparte de su tamaño (hasta 10 km de largo, 0,5 km de ancho) y su orientación con respecto del viento (transversales). Solamente contamos con unas cuantas fotografías de la superficie de Venus, provenientes de las misiones soviéticas Venera, que muestran la existencia de material granular, pero no permiten analizar la composición del mismo <a class="nn-cite" href="#glossary">[1]</a>.
+
 
 Las tormentas eléctricas pueden aparecer en cualquier lugar del planeta, aunque son más comunes en las regiones 50º al norte y al sur del ecuador, y son especialmente frecuentes en selvas tropicales, ver la Figura 1. Esta distribución geográfica se debe, fundamentalmente, a las características que necesita una tormenta para crearse: humedad, inestabilidad y un mecanismo de elevación.
 
@@ -33,7 +33,7 @@ Las tormentas eléctricas pueden aparecer en cualquier lugar del planeta, aunque
   </figcaption>
 </figure>
 
-# Formación de una tormenta eléctrica
+## Formación de una tormenta eléctrica
 
 El aspecto más importante de los tres es la inestabilidad. Una tormenta necesita que una celda de aire, al ser empujada muy ligeramente (infinitesimalmente) hacia arriba, continúe ascendiendo. El golpe inicial, o mecanismo de elevación, puede venir dado por diferencias abruptas de temperatura superficial, geografía (montañas) o discontinuidades horizontales en la humedad del aire. La inestabilidad, en cambio, proviene de discontinuidades verticales, es decir capas de aire caliente por debajo de capas de aire frío. La ley de los gases ideales
 
@@ -50,7 +50,7 @@ Durante todo este tiempo el agua continúa condensando en gotas más grandes, o 
 Nuestra nube de tormenta se está entonces expandiendo hacia arriba debido a la inestabilidad, formando lo que se conoce como un cumulonimbo. Estas nubes son enormes, pueden llegar a tener una altura de hasta 12 kilómetros. ¿Cuándo y por qué se detienen las corrientes ascendentes? 
 
 En primer lugar, porque entre los 11 y 12 kilómetros de altitud hay un cambio de capa atmosférica, de la troposfera a la estratosfera. Donde en aquella la temperatura desciende con la altitud, en esta aumenta. Nuestra inestabilidad murió. Descanse en paz. Este es el “techo” de la nube que vemos en la Figura 2.
-Y en segundo lugar porque llega un punto en que la acumulación de agua y cristales de hielo es tan alta que simplemente la nube comienza a disiparse.  Las gotas de agua comienzan a caer y, al interaccionar con la corriente ascendente, la enfrían por tanto inhibiendo la inestabilidad, que recordemos requiere que haya una capa caliente por debajo de una fría.
+Y en segundo lugar porque llega un punto en que la acumulación de agua y cristales de hielo es tan alta que simplemente la nube comienza a disiparse.  Las gotas de agua comienzan a caer y, al interaccionar con la corriente ascendente, la enfrían por tanto inhibiendo la inestabilidad, que recordemos requiere que haya una capa caliente por debajo de una fría <a class="nn-cite" href="#nuevaref">[3]</a>.
 
 <figure class="nn-article-figure">
   <img src="{static}/images/barba-rayos/fig2.jpeg" alt="">
@@ -60,7 +60,7 @@ Y en segundo lugar porque llega un punto en que la acumulación de agua y crista
 </figure>
 
 
-# Formación de rayos. Teoría macro y microscópica.
+## Formación de rayos. Teoría macro y microscópica.
 
 La aparición de rayos en el interior de las nubes tormentosas es consecuencia directa de la existencia de enormes diferencias de potencial entre distintas regiones de la nube, y entre la nube y el suelo. Que dichas diferencias de potencial existan requiere acumulación de cargas negativas y positivas en diferentes zonas, dando lugar a un dipolo eléctrico. Los rayos aparecen cuando estas asimetrías de carga son muy grandes, y las alivian, transportando carga de un signo a una región dominada por carga del signo contrario <a class="nn-cite" href="#old">[3]</a>. 
 
@@ -82,6 +82,8 @@ Actualmente, se tiene ya claro que la electrificación de una nube tormentosa es
 
 Una vez entendemos la diferencia de potencial, solo queda saber por qué se forma un rayo. La atmósfera que está entre una sección con carga positiva y la otra negativa actúa como aislante. Pero cuando el campo eléctrico entre dos nubes, o entre la nube y el suelo, es demasiado grande, el rayo aparece reduciéndolo, transportando carga de una región a otra. Las temperaturas alcanzadas en la región de transporte —el rayo— son enormes, de hasta 50,000 K (10 veces la temperatura superficial del sol). Esta descarga de energía térmica produce una onda de choque que se expande muy rápidamente, aunque la temperatura se reduce muy rápido con la distancia al rayo hasta que simplemente acaba siendo una onda sonora, que es lo que escuchamos como un trueno.
 
+Podéis ver y escuchar un rayo en el vídeo y audio justo debajo. ¡Nos vemos en la siguiente entrega de Napkin Notes!"
+
 <figure class="nn-article-figure">
  <video controls preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto;">
   <source src="{static}/images/barba-rayos/video.mp4" type="video/mp4">
@@ -99,7 +101,7 @@ Una vez entendemos la diferencia de potencial, solo queda saber por qué se form
 
 
 
-# Referencias
+## Referencias
 
 <ol class="nn-references">
   <li id="extraTdunes">
@@ -129,4 +131,14 @@ Una vez entendemos la diferencia de potencial, solo queda saber por qué se form
   </li>
 </ol>
 
-Las tres imágenes de este artículo son cortesía de NASA/JPL-Caltech/University of Arizona.
+<ol class="nn-references">
+  <li id="nuevaref">
+    W. R. Cotton y R. A. Anthes (1992). Cumulonimbus Clouds and Severe Convective Storms. <em>International Geophysics, Academic Press,
+</em> Volume 44, 1992, Pages 455-592, ISSN 0074-6142, ISBN 9780121925314.
+    <a href="https://doi.org/10.1016/S0074-6142(08)60548-3" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/qj.49710745202</a>
+  </li>
+</ol>
+
+La figura 1 ha sido tomada de <a class="nn-cite" href="#fig">[2]</a> publicadaa bajo licencia CC BY-NC 4.0. Se han realizado modificaciones. La licencia puede consultarse en:
+ https://creativecommons.org/licenses/by-nc/4.0/.
+El vídeo incluido en el artículo ha sido tomado por AlexPhoto83 y publicado bajo Content License de Pixabay. La licencia puede consultarse en: https://pixabay.com/service/license-summary/.
