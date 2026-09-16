@@ -271,6 +271,13 @@ AUTHORS = {
         "avatar": "images/gonzalo.jpeg",
         "articles_url": "autor/gonzalo-matias-romano",       
     },
+    "Alejandro Peñuela Díaz": {
+        "url": "https://orcid.org/0000-0002-5686-5973",
+        "role": "Colaborador",
+        "blurb": "Alejandro Peñuela Díaz es físico y matemático, y trabaja en la Universidad de Rostock, en Alemania. Aunque su día a día gira en torno a la ciencia, siempre ha tenido un gran interés por la historia.",
+        "avatar": "images/alejandro.jpeg",
+        "articles_url": "autor/alejandro-penuela-diaz",       
+    },
 }
 
 # Orden automático de autores por número de artículos publicados.
@@ -295,6 +302,7 @@ AUTHOR_BOTTOM_DYNAMIC = [
     "David Barba González",
     "Diego Martín González",
     "Gonzalo Matias Romano",
+    "Alejandro Peñuela Díaz",
 ]
 
 
