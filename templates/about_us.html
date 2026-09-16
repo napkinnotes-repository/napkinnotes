@@ -3,6 +3,53 @@
 {% block content %}
 <style>
 /* =========================================================
+   PRUEBA AVATAR ANIMADO
+   Solo afecta a autores con animated_avatar.
+   ========================================================= */
+
+.nn-player-card__media,
+.nn-player-card__expanded-media {
+    position: relative;
+}
+
+.nn-player-card__image--static,
+.nn-player-card__image--animated {
+    transition: opacity .18s ease;
+}
+
+.nn-player-card__image--animated {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Escritorio: cambia de foto a animación al hacer hover */
+@media (min-width: 981px) {
+    .nn-player-card:hover .nn-player-card__image--static {
+        opacity: 0;
+    }
+
+    .nn-player-card:hover .nn-player-card__image--animated {
+        opacity: 1;
+    }
+}
+
+/* Móvil: cambia al tocar y desplegar la tarjeta */
+@media (max-width: 980px) {
+    .nn-player-card.is-mobile-open .nn-player-card__image--static {
+        opacity: 0;
+    }
+
+    .nn-player-card.is-mobile-open .nn-player-card__image--animated {
+        opacity: 1;
+    }
+}
+   
+/* =========================================================
    ABOUT — SOLO VERSIÓN MÓVIL
    Escritorio queda exactamente con el comportamiento actual.
    ========================================================= */
@@ -218,9 +265,22 @@
                 aria-label="Ver información de {{ author_name }}"
             >
                 <div class="nn-player-card__media">
-                    {% if author_data.avatar %}
-                    <img class="nn-player-card__image" src="{{ SITEURL }}/{{ author_data.avatar }}" alt="{{ author_name }}">
-                    {% endif %}
+                   {% if author_data.avatar %}
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="{{ SITEURL }}/{{ author_data.avatar }}"
+    alt="{{ author_name }}"
+>
+
+{% if author_data.animated_avatar %}
+<img
+    class="nn-player-card__image nn-player-card__image--animated"
+    src="{{ SITEURL }}/{{ author_data.animated_avatar }}"
+    alt=""
+    aria-hidden="true"
+>
+{% endif %}
+{% endif %}
                     <div class="nn-player-card__overlay"></div>
                 </div>
 
@@ -235,8 +295,21 @@
             <div class="nn-player-card__expanded">
                 <div class="nn-player-card__expanded-media">
                     {% if author_data.avatar %}
-                    <img class="nn-player-card__expanded-image" src="{{ SITEURL }}/{{ author_data.avatar }}" alt="{{ author_name }}">
-                    {% endif %}
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="{{ SITEURL }}/{{ author_data.avatar }}"
+    alt="{{ author_name }}"
+>
+
+{% if author_data.animated_avatar %}
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--animated"
+    src="{{ SITEURL }}/{{ author_data.animated_avatar }}"
+    alt=""
+    aria-hidden="true"
+>
+{% endif %}
+{% endif %}
                 </div>
 
                 <div class="nn-player-card__expanded-content">
