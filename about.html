@@ -155,22 +155,22 @@
 
 /* Escritorio: cambia de foto a animación al hacer hover */
 @media (min-width: 981px) {
-    .nn-player-card:hover .nn-player-card__image--static {
+    .nn-player-card--has-animated-avatar:hover .nn-player-card__image--static {
         opacity: 0;
     }
 
-    .nn-player-card:hover .nn-player-card__image--animated {
+    .nn-player-card--has-animated-avatar:hover .nn-player-card__image--animated {
         opacity: 1;
     }
 }
 
 /* Móvil: cambia al tocar y desplegar la tarjeta */
 @media (max-width: 980px) {
-    .nn-player-card.is-mobile-open .nn-player-card__image--static {
+    .nn-player-card--has-animated-avatar.is-mobile-open .nn-player-card__image--static {
         opacity: 0;
     }
 
-    .nn-player-card.is-mobile-open .nn-player-card__image--animated {
+    .nn-player-card--has-animated-avatar.is-mobile-open .nn-player-card__image--animated {
         opacity: 1;
     }
 }
