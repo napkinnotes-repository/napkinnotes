@@ -1,5 +1,5 @@
 ---  
-title: Coincidencias matemáticas: ¿Vivimos en un agujero negro?  
+title: "Coincidencias matemáticas: ¿Vivimos en un agujero negro?"  
 author: Elena Calle Clemente  
 date: 2026-09-14  
 layout: articles  
