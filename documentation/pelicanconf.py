@@ -278,6 +278,13 @@ AUTHORS = {
         "avatar": "images/alejandro.jpeg",
         "articles_url": "autor/alejandro-penuela-diaz",       
     },
+    #"Elena Calle Clemente": {
+    #    "url": "",
+    #    "role": "Colaborador",
+    #    "blurb": "N",
+    #    "avatar": "images/elena.jpeg",
+    #    "articles_url": "autor/elena-calle-clemente",       
+    #},
 }
 
 # Orden automático de autores por número de artículos publicados.
