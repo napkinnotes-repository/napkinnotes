@@ -3,8 +3,7 @@ title: "Tormentas y rayos: el poder de Zeus"
 author: "David Barba González"
 date: 2026-09-17
 layout: articles
-status: hidden
-slug: prueba-david
+status: published
 category: Meteorología
 tags:
   - tormentas
