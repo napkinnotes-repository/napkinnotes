@@ -11,8 +11,8 @@ tags: # tags con minúscula inicial
   - áfrica
   - heródoto
 summary: Un detalle astronómico que Heródoto consideró absurdo podría respaldar la posible circunnavegación fenicia de África. El texto explora por qué conservar lo extraño puede revelar nueva evidencia. 
-image: images/alejandro-historia/Rutafenecia.jpeg # imagen principal del artículo  ¡¡¡¡¡¡¡¡TIENE QUE SER JPEG EL FORMATO!!!!!
-certificate: true
+image: images/alejandro-historia/Imagen-portada.jpeg # imagen principal del artículo  ¡¡¡¡¡¡¡¡TIENE QUE SER JPEG EL FORMATO!!!!!
+certificate: false
 ---
 
 [TOC]
