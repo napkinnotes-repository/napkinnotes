@@ -141,7 +141,7 @@ $$
 Nos escupe un valor de $1,30 \times 10^{26} \text{ m}$ de radio aproximado, y ahora viene la magia, si tomamos esa medida enorme, y la dividimos entre un año luz, que equivale a $9,46 \times 10^{15} \text{ m}$, nos da EXACTAMENTE:  
   
 $$  
-\frac{1,30 \times 10^{26}}{9,46 \times 10^{15}} = \text{\textbf{13.700 millones de años luz}}  
+\frac{1,30 \times 10^{26}}{9,46 \times 10^{15}}= \mathbf{13.700}\ \text{millones de años luz}
 $$  
   
 que es, casualmente, la edad actual de nuestro universo desde la explosión del Big Bang. Esto quiere decir, que el radio de un agujero negro de esa masa tiene exactamente el mismo tamaño que nuestro universo actual, quedando asi demostrado, nuestra pregunta inicial.   
