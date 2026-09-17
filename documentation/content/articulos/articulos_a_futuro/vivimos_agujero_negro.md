@@ -1,7 +1,7 @@
 ---  
 title: "Coincidencias matemáticas: ¿Vivimos en un agujero negro?"  
 author: Elena Calle Clemente  
-date: 2026-09-14  
+date: 2026-10-08  
 layout: articles  
 slug: prueba-elena  
 status: hidden  
@@ -12,13 +12,12 @@ tags:
   - cosmología  
   - agujeros negros  
   - relatividad  
-summary: Un análisis físico paso a paso sobre el radio de Schwarzschild y la sorprendente posibilidad de que nuestro universo observable sea el interior de un agujero negro, explicado desde cero.  
+summary: "Un análisis físico paso a paso sobre el radio de Schwarzschild y la sorprendente posibilidad de que nuestro universo observable sea el interior de un agujero negro, explicado desde cero.  "
 image: images/portada_universo.png  
 ---  
   
 [TOC]  
   
-## Introducción  
   
 Desde tiempos inmemoriales hemos tratado de entender lo que existe fuera de este planeta... Así empezaría Copérnico, pero yo soy Elena, o como les gusta llamarme, Elenasa, soy muy fan de temas como las coincidencias matemáticas, en especial, siento cierta debilidad por un tema algo abstracto de entender para los mortales, como el radio de Schwarzschild, así que en este artículo veremos cómo desmembrar la física detrás de estos misterios no es tan complicada si sabes cómo.  
   
