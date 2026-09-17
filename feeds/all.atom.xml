@@ -1,5 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-09-12T00:00:00+02:00</updated><entry><title>Navier-Stokes: el problema del milenio ante la inteligencia artificial</title><link href="https://napkinnotes.es/navier-stokes-milenio" rel="alternate"/><published>2026-09-12T00:00:00+02:00</published><updated>2026-09-12T00:00:00+02:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-09-12:/navier-stokes-milenio</id><summary type="html">&lt;p&gt;Con motivo del reciente anuncio sobre la supuesta resolución del problema de existencia y regularidad de las ecuaciones de Navier-Stokes (uno de los siete Problemas del Milenio del Instituto Clay de Matemáticas) mediante el despliegue de sistemas de inteligencia artificial, en esta entrega de Napkin Notes profundizamos en la estructura de estas ecuaciones, los principios físicos de conservación sobre los que se erigen, las herramientas del análisis de ecuaciones en derivadas parciales involucradas y el alcance de la controversia científica que sacude a la comunidad matemática&amp;nbsp;internacional.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-09-17T00:00:00+02:00</updated><entry><title>Tormentas y rayos: el poder de Zeus</title><link href="https://napkinnotes.es/tormentas-y-rayos-el-poder-de-zeus" rel="alternate"/><published>2026-09-17T00:00:00+02:00</published><updated>2026-09-17T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-09-17:/tormentas-y-rayos-el-poder-de-zeus</id><summary type="html">&lt;p&gt;Hagamos que las tormentas sean menos amenazadoras, entendiendo cómo se forman y de dónde vienen los&amp;nbsp;rayos.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#tormentas-electricas"&gt;Tormentas&amp;nbsp;eléctricas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#formacion-de-una-tormenta-electrica"&gt;Formación de una tormenta&amp;nbsp;eléctrica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#formacion-de-rayos-teoria-macro-y-microscopica"&gt;Formación de rayos. Teoría macro y&amp;nbsp;microscópica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Probablemente el lector, este verano, haya vivido en primera persona una tormenta eléctrica. Es uno de los fenómenos más impactantes que un ser humano puede experimentar con sus sentidos —al con menos cuatro de ellos. A pesar de esto, y de que vemos tormentas continuamente en muchísimas partes del mundo, todavía no está del todo claro cuál es el mecanismo que origina no a la tormenta, sino a los protagonistas de esta entrega de &lt;em&gt;Napkin Notes&lt;/em&gt;: los&amp;nbsp;rayos.&lt;/p&gt;
+&lt;h2 id="tormentas-electricas"&gt;Tormentas eléctricas&lt;a class="headerlink" href="#tormentas-electricas" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Las tormentas eléctricas pueden aparecer en cualquier lugar del planeta, aunque son más comunes en las regiones 50º al norte y al sur del ecuador, y son especialmente frecuentes en selvas tropicales (Figura 1). Esta distribución geográfica se debe, fundamentalmente, a las condiciones que necesita una tormenta para producirse: humedad, inestabilidad y un mecanismo de&amp;nbsp;elevación.&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/barba-rayos/fig1.jpeg" alt=""&gt;
+  &lt;figcaption&gt;
+    Figura 1. La barra de color muestra el número de horas que un lugar ha alojado un “ambiente tormentoso”, definido mediante una métrica llamada “energía potencial convectiva disponible”. Figura tomada de &lt;a class="nn-cite" href="#fig"&gt;[2]&lt;/a&gt;.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="formacion-de-una-tormenta-electrica"&gt;Formación de una tormenta eléctrica&lt;a class="headerlink" href="#formacion-de-una-tormenta-electrica" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El aspecto más importante de los tres es la inestabilidad. Una tormenta necesita que una celda de aire, al ser empujada muy ligeramente (infinitesimalmente) hacia arriba, continúe ascendiendo. El golpe inicial, o mecanismo de elevación, puede venir dado por diferencias abruptas de temperatura superficial, geografía (montañas) o discontinuidades horizontales en la humedad del aire. La inestabilidad, en cambio, proviene de discontinuidades verticales, es decir capas de aire caliente por debajo de capas de aire&amp;nbsp;frío. &lt;/p&gt;
+&lt;p&gt;La ley de los gases&amp;nbsp;ideales:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+P = n k T,
+$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(n\)&lt;/span&gt; es la densidad en número de partículas en el&amp;nbsp;aire, &lt;span class="math"&gt;\(T\)&lt;/span&gt; la temperatura&amp;nbsp;y &lt;span class="math"&gt;\(k\)&lt;/span&gt; la constante de Boltzmann, nos dice que a presión constante, la temperatura y la densidad son inversamente proporcionales. Es decir, en la transición entre aire caliente y frío en la atmósfera, el aire caliente es menos denso que el aire frío. Nuestra experiencia con los patitos de goma en la bañera nos dice que los cuerpos —en este caso una capa de aire— experimentan una fuerza ascendente, es decir, flotan, al estar inmersos en un medio más denso. Esto es justo lo que le ocurre al aire en el proceso de formación de la&amp;nbsp;tormenta.&lt;/p&gt;
+&lt;p&gt;La diferencia fundamental entre un patito de goma en la bañera y el aire en la atmósfera es que en la segunda la densidad no es independiente de su entorno. Cuando la capa de aire memos denso asciende, se enfría por contacto con el aire frío, pero como la presión atmosférica disminuye rápido con la altura, esperamos también que el gas se expanda y por tanto su densidad disminuya. Si dicha capa ascendente se enfría más despacio con la altura que las capas de aire que se va encontrando (por debajo&amp;nbsp;de &lt;span class="math"&gt;\(9,8 K \, km^{-1}\)&lt;/span&gt;), seguirá experimentando una aceleración positiva. Aquí está nuestra inestabilidad. Pero, incluso si este efecto no se produce, hay otra manera de generarla: la condensación. El agua, al ascender y enfriarse, se condensa en gotas muy pequeñas que flotan en el aire. Durante este cambio de fase de gas a líquido, se libera calor que retrasa el enfriamiento y por tanto intensifica la&amp;nbsp;inestabilidad.&lt;/p&gt;
+&lt;p&gt;Durante todo este tiempo el agua se continúa condensando en gotas más grandes, o incluso en cristales de hielo, que no pueden soportar la gravedad, y que por tanto ya están produciendo precipitación en forma de lluvia intensa.
+Nuestra nube de tormenta se está entonces expandiendo hacia arriba debido a la inestabilidad, formando lo que se conoce como un cumulonimbo. Estas nubes son enormes, pueden llegar a tener una altura de hasta 12 kilómetros. ¿Cuándo y por qué se detienen las corrientes&amp;nbsp;ascendentes? &lt;/p&gt;
+&lt;p&gt;En primer lugar, porque entre los 11 y 12 kilómetros de altitud hay un cambio de capa atmosférica, de la troposfera a la estratosfera. En la primera la temperatura desciende con la altitud; en la segunda, aumenta. De modo que al llegar a la segunda capa nuestra inestabilidad murió. Descanse en paz. Este es el “techo” de la nube que vemos en la Figura 2.
+En segundo lugar, porque llega a un punto en que la acumulación de agua y cristales de hielo es tan alta que simplemente la nube comienza a disiparse.  Las gotas de agua comienzan a caer y, al interactuar con la corriente ascendente, la enfrían inhibiendo la inestabilidad, que recordemos requiere que haya una capa caliente por debajo de una fría &lt;a class="nn-cite" href="#nuevaref"&gt;[3]&lt;/a&gt;.&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/barba-rayos/fig2.jpeg" alt=""&gt;
+  &lt;figcaption&gt;
+    Figura 2: Cumulonimbo formándose debido a las corrientes ascendentes de aire caliente, indicadas con flechas naranjas.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="formacion-de-rayos-teoria-macro-y-microscopica"&gt;Formación de rayos. Teoría macro y microscópica&lt;a class="headerlink" href="#formacion-de-rayos-teoria-macro-y-microscopica" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;La aparición de rayos en el interior de las nubes tormentosas es consecuencia directa de la existencia de enormes diferencias de potencial entre distintas regiones de la nube, y entre la nube y el suelo. Que dichas diferencias de potencial existan requiere acumulación de cargas negativas y positivas en diferentes zonas, dando lugar a un dipolo eléctrico. Los rayos aparecen cuando estas asimetrías de carga son muy grandes, y las alivian, transportando carga de un signo a una región dominada por carga del signo contrario &lt;a class="nn-cite" href="#old"&gt;[3]&lt;/a&gt;. &lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+  &lt;img src="https://napkinnotes.es/images/barba-rayos/fig3.jpeg" alt=""&gt;
+  &lt;figcaption&gt;
+    Figura 3: Distribución de cargas en una nube tipo cumulonimbo.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Esta estructura de dipolo es conocida desde principios del siglo &lt;span class="caps"&gt;XX&lt;/span&gt;. Pero lo que no está nada claro, y a día de hoy sigue sin estarlo, es por qué rayos (&lt;em&gt;see what I did there?&lt;/em&gt;) ocurre esta separación de cargas. Durante los años se han sugerido distintos mecanismos: rotura de las gotas de agua en la nube en distintos pedazos que tendrían carga asimétrica, ionización debida a rayos cósmicos o radiactividad en la superficie de la&amp;nbsp;Tierra. &lt;/p&gt;
+&lt;p&gt;Actualmente, se tiene claro que la electrificación de una nube tormentosa es debido a la interacción entre granizo blando (&lt;em&gt;graupel&lt;/em&gt; en inglés) y cristales de hielo. El granizo blando aparece por la acreción de gotas de agua superenfriadas —se mantienen líquidas debido a la presión aunque su temperatura sea menor a 0 ºC— sobre bolas de granizo. Las gotas de agua se congelan al instante tras contactar con el hielo, y forman una capa blanda alrededor del mismo. Lo que se ha propuesto muy recientemente, aunque todavía no hay consenso en la comunidad, es que&amp;nbsp;iones &lt;span class="math"&gt;\(H^{+}\)&lt;/span&gt; se trasladan desde (hacia) estas motas de granizo blando, que forman parte de la precipitación, hacia (desde) cristales de hielo que están en la corriente ascendente. Lo bonito de este nuevo modelo &lt;a class="nn-cite" href="#kang"&gt;[4]&lt;/a&gt; es que las condiciones de la nube son las que indican la dirección del flujo de carga positiva. Concretamente, el modelo predice que una cantidad baja de agua líquida en la nube hace que el granizo blando se lleve carga negativa hacia abajo, mientras que en el caso contrario el desequilibrio hace que dichas partículas arrastren carga negativa hacia el suelo. Estas predicciones coinciden con las observaciones de tormentas en la&amp;nbsp;naturaleza.&lt;/p&gt;
+&lt;p&gt;Una vez entendemos la diferencia de potencial, solo queda saber por qué se forma un rayo. La atmósfera que está entre una sección con carga positiva y la otra negativa actúa como aislante. Pero cuando el campo eléctrico entre dos nubes, o entre la nube y el suelo, es demasiado grande, el rayo aparece reduciéndolo, transportando carga de una región a otra. Las temperaturas alcanzadas en la región de transporte —el rayo— son enormes, de hasta 50,000 K (10 veces la temperatura superficial del sol). Esta descarga de energía térmica produce una onda de choque que se expande muy rápidamente, aunque la temperatura se reduce muy rápido con la distancia al rayo hasta que simplemente acaba siendo una onda sonora, que es lo que escuchamos como un&amp;nbsp;trueno.&lt;/p&gt;
+&lt;p&gt;Podéis ver y escuchar un rayo en el vídeo y audio justo debajo. ¡Nos vemos en la siguiente entrega de &lt;em&gt;Napkin Notes&lt;/em&gt;!&amp;#8221;&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+ &lt;video controls preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto;"&gt;
+  &lt;source src="https://napkinnotes.es/images/barba-rayos/video.mp4" type="video/mp4"&gt;
+  Tu navegador no puede reproducir este vídeo.
+&lt;/video&gt;
+  &lt;figcaption&gt;
+    Vídeo de un rayo durante una tormenta.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;audio controls preload="metadata"&gt;
+  &lt;source src="https://napkinnotes.es/images/barba-rayos/Rain_and_thunder.ogg" type="audio/ogg"&gt;
+  Tu navegador no puede reproducir este audio.
+&lt;/audio&gt;&lt;/p&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+  &lt;li id="extraTdunes"&gt;
+    Glossary of Meteorology of the American Meteorological Society (consultado el 9 de septiembre de 2026).
+    &lt;a href="https://glossary.ametsoc.org/wiki/thunderstorm/" target="_blank" rel="noopener noreferrer"&gt;https://glossary.ametsoc.org/wiki/thunderstorm/&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="fig"&gt;
+    L. Rubanenko et al. (2021). A global climatology and trends in convective environments from &lt;span class="caps"&gt;ERA5&lt;/span&gt; and rawinsonde data. &lt;em&gt;npj Climate and Atmospheric Science&lt;/em&gt;, 4, 35.
+    &lt;a href="https://doi.org/10.1038/s41612-021-00190-x" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1038/s41612-021-00190-x&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="old"&gt;
+    Latham, J. (1981). The electrification of thunderstorms. &lt;em&gt;Quarterly Journal of the Royal Meteorological Society&lt;/em&gt;, 107(452), 277–298.
+    &lt;a href="https://doi.org/10.1002/qj.49710745202" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1002/qj.49710745202&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="kang"&gt;
+    Kang, H., Williams, E., &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Jayaratne, R. (2026). A microscopic mechanism for the separation of charge in thunderstorms. &lt;em&gt;Journal of Geophysical Research: Atmospheres&lt;/em&gt;, 131, e2025JD046158.
+    &lt;a href="https://doi.org/10.1029/2025JD046158" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1029/&lt;span class="caps"&gt;2025JD046158&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="nuevaref"&gt;
+    &lt;span class="caps"&gt;W. R.&lt;/span&gt; Cotton y &lt;span class="caps"&gt;R. A.&lt;/span&gt; Anthes (1992). Cumulonimbus Clouds and Severe Convective Storms. &lt;em&gt;International Geophysics&lt;/em&gt;, volumen 44, pp. 455–592.
+    &lt;a href="https://doi.org/10.1016/S0074-6142(08)60548-3" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1016/S0074-6142(08)60548-3&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;La Figura 1 ha sido tomada de &lt;a class="nn-cite" href="#fig"&gt;[2]&lt;/a&gt;, donde está publicada bajo licencia &lt;span class="caps"&gt;CC&lt;/span&gt; &lt;span class="caps"&gt;BY&lt;/span&gt;-&lt;span class="caps"&gt;NC&lt;/span&gt; 4.0. Se han realizado modificaciones. La licencia puede consultarse &lt;a href="https://creativecommons.org/licenses/by-nc/4.0/"&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;El vídeo incluido en el artículo ha sido tomado por AlexPhoto83 y publicado bajo Content License de Pixabay. La licencia puede consultarse &lt;a href="https://pixabay.com/service/license-summary/"&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Meteorología"/><category term="tormentas"/><category term="rayos"/><category term="atmósfera"/><category term="granizo"/></entry><entry><title>Navier-Stokes: el problema del milenio ante la inteligencia artificial</title><link href="https://napkinnotes.es/navier-stokes-milenio" rel="alternate"/><published>2026-09-12T00:00:00+02:00</published><updated>2026-09-12T00:00:00+02:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-09-12:/navier-stokes-milenio</id><summary type="html">&lt;p&gt;Con motivo del reciente anuncio sobre la supuesta resolución del problema de existencia y regularidad de las ecuaciones de Navier-Stokes (uno de los siete Problemas del Milenio del Instituto Clay de Matemáticas) mediante el despliegue de sistemas de inteligencia artificial, en esta entrega de Napkin Notes profundizamos en la estructura de estas ecuaciones, los principios físicos de conservación sobre los que se erigen, las herramientas del análisis de ecuaciones en derivadas parciales involucradas y el alcance de la controversia científica que sacude a la comunidad matemática&amp;nbsp;internacional.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#las-ecuaciones-de-navier-stokes"&gt;Las ecuaciones de&amp;nbsp;Navier-Stokes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#el-problema-del-milenio"&gt;El problema del&amp;nbsp;Milenio&lt;/a&gt;&lt;/li&gt;
