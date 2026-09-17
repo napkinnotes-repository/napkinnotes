@@ -310,6 +310,7 @@ AUTHOR_BOTTOM_DYNAMIC = [
     "Diego Martín González",
     "Gonzalo Matias Romano",
     "Alejandro Peñuela Díaz",
+    "Elena Calle Clemente",
 ]
 
 
