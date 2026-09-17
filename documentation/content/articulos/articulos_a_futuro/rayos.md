@@ -11,60 +11,58 @@ tags:
   - rayos
   - atmósfera
   - granizo
-summary: "Hagamos que las tormentas sean menos negras y amenazadoras, entendiendo cómo se forman y de dónde vienen los rayos."
+summary: "Hagamos que las tormentas sean menos amenazadoras, entendiendo cómo se forman y de dónde vienen los rayos."
 image: images/barba-rayos/portada.jpeg
 ---
 
 [TOC]
 
    
-Probablemente el lector, este verano, haya vivido en primera persona una tormenta eléctrica. Es uno de los fenómenos más impactantes que un ser humano puede experimentar con sus sentidos —al menos cuatro de ellos. A pesar de ello, y de que vemos tormentas continuamente en muchísimas partes del mundo, todavía no está del todo claro cuál es el mecanismo que origina no la tormenta, sino los protagonistas de esta entrega de Napkin Notes: los rayos.
+Probablemente el lector, este verano, haya vivido en primera persona una tormenta eléctrica. Es uno de los fenómenos más impactantes que un ser humano puede experimentar con sus sentidos —al con menos cuatro de ellos. A pesar de esto, y de que vemos tormentas continuamente en muchísimas partes del mundo, todavía no está del todo claro cuál es el mecanismo que origina no a la tormenta, sino a los protagonistas de esta entrega de *Napkin Notes*: los rayos.
 
 ## Tormentas eléctricas
 
 
-
-Las tormentas eléctricas pueden aparecer en cualquier lugar del planeta, aunque son más comunes en las regiones 50º al norte y al sur del ecuador, y son especialmente frecuentes en selvas tropicales, ver la Figura 1. Esta distribución geográfica se debe, fundamentalmente, a las características que necesita una tormenta para crearse: humedad, inestabilidad y un mecanismo de elevación.
+Las tormentas eléctricas pueden aparecer en cualquier lugar del planeta, aunque son más comunes en las regiones 50º al norte y al sur del ecuador, y son especialmente frecuentes en selvas tropicales (Figura 1). Esta distribución geográfica se debe, fundamentalmente, a las condiciones que necesita una tormenta para producirse: humedad, inestabilidad y un mecanismo de elevación.
 
 <figure class="nn-article-figure">
   <img src="{static}/images/barba-rayos/fig1.jpeg" alt="">
   <figcaption>
-    Figura 1. La barra de color muestra el número de horas que un lugar ha alojado un “ambiente tormentoso”, definido mediante una métrica llamada “energía potencial convectiva disponible”. Figura tomada de <a class="nn-cite" href="#fig">[2]</a>
+    Figura 1. La barra de color muestra el número de horas que un lugar ha alojado un “ambiente tormentoso”, definido mediante una métrica llamada “energía potencial convectiva disponible”. Figura tomada de <a class="nn-cite" href="#fig">[2]</a>.
   </figcaption>
 </figure>
 
 ## Formación de una tormenta eléctrica
 
-El aspecto más importante de los tres es la inestabilidad. Una tormenta necesita que una celda de aire, al ser empujada muy ligeramente (infinitesimalmente) hacia arriba, continúe ascendiendo. El golpe inicial, o mecanismo de elevación, puede venir dado por diferencias abruptas de temperatura superficial, geografía (montañas) o discontinuidades horizontales en la humedad del aire. La inestabilidad, en cambio, proviene de discontinuidades verticales, es decir capas de aire caliente por debajo de capas de aire frío. La ley de los gases ideales
+El aspecto más importante de los tres es la inestabilidad. Una tormenta necesita que una celda de aire, al ser empujada muy ligeramente (infinitesimalmente) hacia arriba, continúe ascendiendo. El golpe inicial, o mecanismo de elevación, puede venir dado por diferencias abruptas de temperatura superficial, geografía (montañas) o discontinuidades horizontales en la humedad del aire. La inestabilidad, en cambio, proviene de discontinuidades verticales, es decir capas de aire caliente por debajo de capas de aire frío. 
+
+La ley de los gases ideales:
 
 $$
-P=n k T,
+P = n k T,
 $$
 
-donde $n$ es la densidad en número de partículas en el aire, $T$ la temperatura y $k$ la constante de Boltzmann; nos dice que a presión constante la temperatura y la densidad son inversamente proporcionales. Es decir, en la transición entre aire caliente y frío en la atmósfera, el aire caliente es menos denso que el aire frío.
-Nuestra experiencia con los patitos de goma en la bañera nos dice que los cuerpos —en este caso una capa de aire— experimentan una fuerza ascendente, flotan, al estar inmersos en un medio más denso. Esto es justo lo que le ocurre al aire en el proceso de formación de la tormenta.
+donde $n$ es la densidad en número de partículas en el aire, $T$ la temperatura y $k$ la constante de Boltzmann, nos dice que a presión constante, la temperatura y la densidad son inversamente proporcionales. Es decir, en la transición entre aire caliente y frío en la atmósfera, el aire caliente es menos denso que el aire frío. Nuestra experiencia con los patitos de goma en la bañera nos dice que los cuerpos —en este caso una capa de aire— experimentan una fuerza ascendente, es decir, flotan, al estar inmersos en un medio más denso. Esto es justo lo que le ocurre al aire en el proceso de formación de la tormenta.
 
-La diferencia fundamental entre un patito de goma en la bañera y el aire en la atmósfera es que en la segunda la densidad no es independiente de su entorno. Cuando la capa de aire más denso asciende, se enfría por contacto con el aire frío, pero como la presión atmosférica disminuye rápido con la altura, esperamos también que el gas se expanda y por tanto su densidad disminuya. Si dicha capa ascendente se enfría más despacio con la altura que las capas de aire que se va encontrando (por debajo de $9,8 K \, km^{-1}$), seguirá experimentando una aceleración positiva. Aquí está nuestra inestabilidad. Pero, incluso si este efecto no se produce, hay otro que produce inestabilidad: la condensación. El agua, al ascender y enfriarse, se condensa en gotas de agua muy pequeñas que flotan en el aire. Durante este cambio de fase de gas a líquido, se libera calor latente que retrasa el enfriamiento y por tanto intensifica la inestabilidad.
+La diferencia fundamental entre un patito de goma en la bañera y el aire en la atmósfera es que en la segunda la densidad no es independiente de su entorno. Cuando la capa de aire memos denso asciende, se enfría por contacto con el aire frío, pero como la presión atmosférica disminuye rápido con la altura, esperamos también que el gas se expanda y por tanto su densidad disminuya. Si dicha capa ascendente se enfría más despacio con la altura que las capas de aire que se va encontrando (por debajo de $9,8 K \, km^{-1}$), seguirá experimentando una aceleración positiva. Aquí está nuestra inestabilidad. Pero, incluso si este efecto no se produce, hay otra manera de generarla: la condensación. El agua, al ascender y enfriarse, se condensa en gotas muy pequeñas que flotan en el aire. Durante este cambio de fase de gas a líquido, se libera calor que retrasa el enfriamiento y por tanto intensifica la inestabilidad.
 
-Durante todo este tiempo el agua continúa condensando en gotas más grandes, o incluso cristales de hielo, que no pueden soportar la gravedad, y que por tanto ya están produciendo precipitación en forma de lluvia intensa.
+Durante todo este tiempo el agua se continúa condensando en gotas más grandes, o incluso en cristales de hielo, que no pueden soportar la gravedad, y que por tanto ya están produciendo precipitación en forma de lluvia intensa.
 Nuestra nube de tormenta se está entonces expandiendo hacia arriba debido a la inestabilidad, formando lo que se conoce como un cumulonimbo. Estas nubes son enormes, pueden llegar a tener una altura de hasta 12 kilómetros. ¿Cuándo y por qué se detienen las corrientes ascendentes? 
 
-En primer lugar, porque entre los 11 y 12 kilómetros de altitud hay un cambio de capa atmosférica, de la troposfera a la estratosfera. Donde en aquella la temperatura desciende con la altitud, en esta aumenta. Nuestra inestabilidad murió. Descanse en paz. Este es el “techo” de la nube que vemos en la Figura 2.
-Y en segundo lugar porque llega un punto en que la acumulación de agua y cristales de hielo es tan alta que simplemente la nube comienza a disiparse.  Las gotas de agua comienzan a caer y, al interaccionar con la corriente ascendente, la enfrían por tanto inhibiendo la inestabilidad, que recordemos requiere que haya una capa caliente por debajo de una fría <a class="nn-cite" href="#nuevaref">[3]</a>.
+En primer lugar, porque entre los 11 y 12 kilómetros de altitud hay un cambio de capa atmosférica, de la troposfera a la estratosfera. En la primera la temperatura desciende con la altitud; en la segunda, aumenta. De modo que al llegar a la segunda capa nuestra inestabilidad murió. Descanse en paz. Este es el “techo” de la nube que vemos en la Figura 2.
+En segundo lugar, porque llega a un punto en que la acumulación de agua y cristales de hielo es tan alta que simplemente la nube comienza a disiparse.  Las gotas de agua comienzan a caer y, al interactuar con la corriente ascendente, la enfrían inhibiendo la inestabilidad, que recordemos requiere que haya una capa caliente por debajo de una fría <a class="nn-cite" href="#nuevaref">[3]</a>.
 
 <figure class="nn-article-figure">
   <img src="{static}/images/barba-rayos/fig2.jpeg" alt="">
   <figcaption>
-    Figura 2: cumulonimbo formándose debido a las corrientes ascendentes de aire caliente, indicadas con flechas naranjas.
+    Figura 2: Cumulonimbo formándose debido a las corrientes ascendentes de aire caliente, indicadas con flechas naranjas.
   </figcaption>
 </figure>
 
 
-## Formación de rayos. Teoría macro y microscópica.
+## Formación de rayos. Teoría macro y microscópica
 
 La aparición de rayos en el interior de las nubes tormentosas es consecuencia directa de la existencia de enormes diferencias de potencial entre distintas regiones de la nube, y entre la nube y el suelo. Que dichas diferencias de potencial existan requiere acumulación de cargas negativas y positivas en diferentes zonas, dando lugar a un dipolo eléctrico. Los rayos aparecen cuando estas asimetrías de carga son muy grandes, y las alivian, transportando carga de un signo a una región dominada por carga del signo contrario <a class="nn-cite" href="#old">[3]</a>. 
-
-
 
 
 <figure class="nn-article-figure">
@@ -74,15 +72,14 @@ La aparición de rayos en el interior de las nubes tormentosas es consecuencia d
   </figcaption>
 </figure>
 
-Esta estructura de dipolo es conocida desde principios del siglo XX. Pero lo que no está nada claro, y a día de hoy sigue sin estarlo, es por qué rayos (see what I did there?) ocurre esta separación de cargas. Durante los años se han sugerido distintos mecanismos: rotura de las gotas de agua en la nube en distintos pedazos que tendrían carga asimétrica, ionización debida a rayos cósmicos o radiactividad en la superficie de la Tierra. 
+Esta estructura de dipolo es conocida desde principios del siglo XX. Pero lo que no está nada claro, y a día de hoy sigue sin estarlo, es por qué rayos (*see what I did there?*) ocurre esta separación de cargas. Durante los años se han sugerido distintos mecanismos: rotura de las gotas de agua en la nube en distintos pedazos que tendrían carga asimétrica, ionización debida a rayos cósmicos o radiactividad en la superficie de la Tierra. 
 
 
-
-Actualmente, se tiene ya claro que la electrificación de una nube tormentosa es debido a la interacción entre granizo blando (graupel en inglés) y cristales de hielo. El granizo blando aparece por la acreción de gotas de agua superenfriadas —se mantienen líquidas debido a la presión aunque su temperatura sea menor a 0 ºC— sobre bolas de granizo. Las gotas de agua se congelan al instante tras contactar con el hielo, y forman una capa blanda alrededor del mismo. Lo que se ha propuesto muy recientemente, aunque todavía no hay consenso en la comunidad, es que iones $H^{+}$ se trasladan desde (hacia) estas motas de granizo blando, que forman parte de la precipitación, hacia (desde) cristales de hielo que están en la corriente ascendente. Lo bonito de este nuevo modelo <a class="nn-cite" href="#kang">[4]</a> es que las condiciones de la nube son las que indican la dirección del flujo de carga positiva. Concretamente, el modelo predice que una cantidad baja de agua líquida en la nube hace que el granizo blando se lleve carga negativa hacia abajo, mientras que en el caso contrario el desequilibrio hace que dichas partículas arrastren carga negativa hacia el suelo. Estas predicciones coinciden con las observaciones de tormentas en la naturaleza.
+Actualmente, se tiene claro que la electrificación de una nube tormentosa es debido a la interacción entre granizo blando (*graupel* en inglés) y cristales de hielo. El granizo blando aparece por la acreción de gotas de agua superenfriadas —se mantienen líquidas debido a la presión aunque su temperatura sea menor a 0 ºC— sobre bolas de granizo. Las gotas de agua se congelan al instante tras contactar con el hielo, y forman una capa blanda alrededor del mismo. Lo que se ha propuesto muy recientemente, aunque todavía no hay consenso en la comunidad, es que iones $H^{+}$ se trasladan desde (hacia) estas motas de granizo blando, que forman parte de la precipitación, hacia (desde) cristales de hielo que están en la corriente ascendente. Lo bonito de este nuevo modelo <a class="nn-cite" href="#kang">[4]</a> es que las condiciones de la nube son las que indican la dirección del flujo de carga positiva. Concretamente, el modelo predice que una cantidad baja de agua líquida en la nube hace que el granizo blando se lleve carga negativa hacia abajo, mientras que en el caso contrario el desequilibrio hace que dichas partículas arrastren carga negativa hacia el suelo. Estas predicciones coinciden con las observaciones de tormentas en la naturaleza.
 
 Una vez entendemos la diferencia de potencial, solo queda saber por qué se forma un rayo. La atmósfera que está entre una sección con carga positiva y la otra negativa actúa como aislante. Pero cuando el campo eléctrico entre dos nubes, o entre la nube y el suelo, es demasiado grande, el rayo aparece reduciéndolo, transportando carga de una región a otra. Las temperaturas alcanzadas en la región de transporte —el rayo— son enormes, de hasta 50,000 K (10 veces la temperatura superficial del sol). Esta descarga de energía térmica produce una onda de choque que se expande muy rápidamente, aunque la temperatura se reduce muy rápido con la distancia al rayo hasta que simplemente acaba siendo una onda sonora, que es lo que escuchamos como un trueno.
 
-Podéis ver y escuchar un rayo en el vídeo y audio justo debajo. ¡Nos vemos en la siguiente entrega de Napkin Notes!"
+Podéis ver y escuchar un rayo en el vídeo y audio justo debajo. ¡Nos vemos en la siguiente entrega de *Napkin Notes*!"
 
 <figure class="nn-article-figure">
  <video controls preload="metadata" style="display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto;">
@@ -130,6 +127,6 @@ Podéis ver y escuchar un rayo en el vídeo y audio justo debajo. ¡Nos vemos en
   </li>
 </ol>
 
-La figura 1 ha sido tomada de <a class="nn-cite" href="#fig">[2]</a> publicadaa bajo licencia CC BY-NC 4.0. Se han realizado modificaciones. La licencia puede consultarse en:
- https://creativecommons.org/licenses/by-nc/4.0/.
-El vídeo incluido en el artículo ha sido tomado por AlexPhoto83 y publicado bajo Content License de Pixabay. La licencia puede consultarse en: https://pixabay.com/service/license-summary/.
+La Figura 1 ha sido tomada de <a class="nn-cite" href="#fig">[2]</a>, donde está publicada bajo licencia CC BY-NC 4.0. Se han realizado modificaciones. La licencia puede consultarse [aquí](https://creativecommons.org/licenses/by-nc/4.0/).
+
+El vídeo incluido en el artículo ha sido tomado por AlexPhoto83 y publicado bajo Content License de Pixabay. La licencia puede consultarse [aquí](https://pixabay.com/service/license-summary/).
