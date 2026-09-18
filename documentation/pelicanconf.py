@@ -281,7 +281,7 @@ AUTHORS = {
     #"Elena Calle Clemente": {
     #    "url": "",
     #    "role": "Colaborador",
-    #    "blurb": "N",
+    #    "blurb": "**Elena Calle Clemente** (Elenasa) es astrónoma y estudiante de Física en la Universidad de Salamanca. Vinculada a la ciencia desde pequeña, lleva más de cinco años volcada en proyectos de divulgación científica, ejerce profesionalmente como astrónoma con Astroiberia, ademas es secretaria de la asociación universitaria *Supernova* y lidera como pionera el proyecto de accesibilidad *Clarity Blind* junto a la ONCE. Apasionada de las coincidencias matemáticas y de explicar el cosmos de forma cercana y apasionante.",
     #    "avatar": "images/elena.jpeg",
     #    "articles_url": "autor/elena-calle-clemente",       
     #},
