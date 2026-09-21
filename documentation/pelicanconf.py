@@ -278,13 +278,13 @@ AUTHORS = {
         "avatar": "images/alejandro.jpeg",
         "articles_url": "autor/alejandro-penuela-diaz",       
     },
-    #"Elena Calle Clemente": {
-    #    "url": "",
-    #    "role": "Colaborador",
-    #    "blurb": "<strong>Elena Calle Clemente</strong> (Elenasa) es astrónoma y estudiante de Física en la Universidad de Salamanca. Vinculada a la ciencia desde pequeña, lleva más de cinco años volcada en proyectos de divulgación científica, ejerce profesionalmente como astrónoma con Astroiberia, ademas es secretaria de la asociación universitaria <strong>Supernova</strong> y lidera como pionera el proyecto de accesibilidad <strong>Clarity Blind</strong> junto a la ONCE. Apasionada de las coincidencias matemáticas y de explicar el cosmos de forma cercana y apasionante.",
-    #    "avatar": "images/elena.jpeg",
-    #    "articles_url": "autor/elena-calle-clemente",       
-    #},
+    "Elena Calle Clemente": {
+        "url": "https://www.linkedin.com/in/elena-calle-clemente-26774b329?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+        "role": "Colaborador",
+        "blurb": "<strong>Elena Calle Clemente</strong> (Elenasa) es astrónoma y estudiante de Física en la Universidad de Salamanca. Vinculada a la ciencia desde pequeña, lleva más de cinco años volcada en proyectos de divulgación científica, ejerce profesionalmente como astrónoma con Astroiberia, ademas es secretaria de la asociación universitaria <strong>Supernova</strong> y lidera como pionera el proyecto de accesibilidad <strong>Clarity Blind</strong> junto a la ONCE. Apasionada de las coincidencias matemáticas y de explicar el cosmos de forma cercana y apasionante.",
+        "avatar": "images/elena.jpeg",
+        "articles_url": "autor/elena-calle-clemente",       
+    },
 }
 
 # Orden automático de autores por número de artículos publicados.
