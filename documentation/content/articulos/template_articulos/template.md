@@ -1,16 +1,16 @@
 ---
-title: aaa # vuestro título
-author: aaa # mismo nombre que en la tarjeta de autor
-date: 2026-03-15 # formato YYYY-MM-DD
+title: aaa                # vuestro título
+author: aaa               # mismo nombre que en la tarjeta de autor
+date: 2026-03-15          # formato YYYY-MM-DD
 layout: articles
 slug: prueba-articulo
-status: hidden # published si ya está listo
-category: aaa # categoría con mayúscula inicial
-tags: # tags con minúscula inicial
+status: hidden            # published si ya está listo
+category: Aaa             # categoría con mayúscula inicial
+tags:                     # tags con minúscula inicial
   - bla
   - blabla
   - bli bli
-summary: aaaaa # 1-2 frases cortas para la tarjeta del artículo
+summary: aaaaa                         # 1-2 frases cortas para la tarjeta del artículo
 image: images/nombre_de_la_imagen.jpeg # imagen principal del artículo  ¡¡¡¡¡¡¡¡TIENE QUE SER JPEG EL FORMATO!!!!!
 certificate: true
 ---
@@ -28,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Sub-Sección
 
 <!-- Preguntas con recuadro bonito -->
-> **¿Cuánta el gramo quillo?**
+> **¿Cuánta estrellas hay en el cielo?**
 <!-- Fin pregunta con recuadro bonito -->
 
 
