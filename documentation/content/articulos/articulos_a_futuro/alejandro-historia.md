@@ -23,7 +23,7 @@ En 1497, Vasco da Gama zarpó de Lisboa con cuatro barcos y una misión
 que podía cambiar el destino de Portugal: encontrar una ruta marítima
 hasta la India rodeando África. 
 
-No era una empresa menor. El océano Atlántico seguía siendo un lugar inmenso y peligroso. Las
+No era una empresa menor, el océano Atlántico seguía siendo un lugar inmenso y peligroso. Las
 distancias eran difíciles de calcular, las enfermedades podían diezmar
 una tripulación y nadie sabía con certeza qué encontraría después de
 doblar el extremo sur del continente.
@@ -40,10 +40,10 @@ con el tiempo, incluso hasta Japón. Por eso aquel viaje ocupa un lugar
 tan importante en la historia portuguesa.
 
 Incluso visto desde nuestra época, cuesta no maravillarse ante semejante aventura. Precisamente por eso resulta difícil creer la historia que viene
-ahora, porque según un escritor griego que vivió casi dos mil años antes, alguien ya había rodeado África. Lo más extraordinario
+ahora, porque según un escritor griego que vivió casi dos mil años antes, alguien ya había circunnavegado África. Lo más extraordinario
 es que existe un pequeño detalle en el relato que parece absurdo, tan
 absurdo que el propio escritor que nos transmitió la historia la consideraba falsa. Pero precisamente ese detalle es el que hoy en día nos lleva
-a pensar que es posible que esta narración sea cierta.
+a pensar que es posible que dicha narración sea cierta.
 
 ## El padre de la historia 
 
@@ -55,14 +55,14 @@ geógrafo, de viajero y de periodista.
 En su gran obra, "*Historias*", relata guerras, describe las
 costumbres de pueblos lejanos y recoge relatos que escuchó durante sus
 viajes. A veces daba por bueno lo que le contaban; en otras ocasiones tenía
-dudas, pero lo documentaba igual simplemente porque le parecía demasiado
+dudas, pero lo documentaba simplemente porque le parecía demasiado
 interesante como para dejarlo fuera de sus crónicas, aunque él mismo sospechara que
 podía ser falso. 
 
 En el cuarto libro de las "*Historias*" aparece uno de
 esos relatos de los que el historiador dudaba. Heródoto habla de África y menciona una expedición extraordinaria que
 habría ocurrido mucho antes de su nacimiento. Según el relato, el faraón
-egipcio Necao II quiso averiguar si África estaba rodeada por el mar y
+egipcio Necao II quiso averiguar si África estaba rodeada por mar y
 para ello envió a unos navegantes fenicios a comprobarlo.
 
 Los fenicios fueron unos de los grandes navegantes del Mediterráneo
@@ -80,9 +80,8 @@ actual estrecho de Gibraltar. ¡Habían regresado al Mediterráneo!
 alrededor de África.</figcaption>
 </figure>
 
-Si la historia es cierta, este grupo de fenicios habría circunavegado África entera hacia el año 600 antes de nuestra era, mucho antes de que existiera el Imperio romano e, incluso, antes de la Grecia clásica de
-Sócrates y Platón. El relato en sí mismo ya resulta extraordinario, y aún no he contado el detalle que Heródoto consideraba más extraño: Según el relato, en cierto momento, mientras navegaban, 
-los fenicios decían haber tenido el Sol a su derecha. Heródoto lo dejó escrito y añadió,
+Si la historia es cierta, este grupo de fenicios habría circunnavegado África hacia el año 600 antes de nuestra era, mucho antes de que existiera el Imperio romano e incluso, antes de la Grecia clásica de
+Sócrates y Platón. El relato en sí mismo ya resulta extraordinario, y aún no he contado el detalle que Heródoto consideraba más extraño: Según sus autores, en cierto tramo del trayecto, habían navegado hacia el oeste con el Sol a la derecha. Heródoto lo dejó escrito y añadió,
 básicamente, que quien quisiera creer aquello podía hacerlo, pero que él no. 
 
 La frase parece casi trivial: el Sol estaba a su derecha, ¿y qué? Pero
@@ -110,13 +109,10 @@ Sol del mediodía aparece hacia el norte.
 
 Ahora coloquemos el barco. Los fenicios ya han rodeado África y navegan
 hacia el oeste. Si el oeste está delante de ellos, el norte queda a su
-derecha. Y allí está el Sol. A su derecha. Exactamente como habían
-contado.
-
-Y así, aquello que a Heródoto le parecía una señal de que la historia era falsa,
+derecha. Y allí está el Sol, a su derecha, exactamente como habían
+contado. Y así, aquello que a Heródoto le parecía una señal de que la historia era falsa,
 se convierte, para nosotros, en una razón para pensar que al menos una
-parte del relato podría ser auténtica. No porque Heródoto entendiera lo
-que estaba describiendo, sino precisamente porque no lo entendía.
+parte del relato podría ser auténtica. 
 
 <figure id="fig:sol-norte-sur" data-latex-placement="ht">
 <img  src="{static}/images/alejandro-historia/EsquemaSol.jpeg" />
@@ -127,34 +123,33 @@ en el extremo meridional de África aparece hacia el norte.</figcaption>
 ## Una pista involuntaria 
 
 La precisión del detalle que hizo dudar a Heródoto no significa que podamos afirmar que la circunnavegación de África ocurrió cuando y cómo el la narra. Sobre ella solo tenemos este relato, escrito mucho después de los hechos
-que describe, y algunas partes de la historia plantean preguntas bien
+que describe, y algunas partes de la historia plantean preguntas
 difíciles, entre ellas: ¿Cómo sobrevivieron los navegantes durante tres años? y ¿hasta qué punto
 podían navegar por costas completamente desconocidas? 
 
-El texto de Heródoto no es una demostración, pero el detalle astronómico es difícil de ignorar. Si alguien hubiera inventado la historia, ¿por qué introducir precisamente un elemento que la hacía parecer menos creíble? ¿Por qué
+El texto de Heródoto no es una demostración, pero el detalle astronómico es difícil de ignorar. Si alguien hubiera inventado la historia, ¿por qué introducir un elemento que la hacía parecer menos creíble? ¿Por qué
 añadir una observación absurda para alguien acostumbrado al cielo del
 Mediterráneo, pero perfectamente razonable para quien hubiera navegado
 suficientemente lejos hacia el sur?
 
 No sabemos cómo llegó aquella frase hasta Heródoto. Quizá pasó de
 marinero en marinero durante generaciones. Quizá el relato cambió muchas
-veces antes de que él lo escuchara. Pero el detalle sobrevivió. Y hay una pequeña lección científica escondida en esta historia.
+veces antes de que él lo escuchara. Pero el detalle sobrevivió y hay una pequeña lección científica escondida en esta historia.
 
 Cuando algo no encaja con lo que creemos saber, la tentación natural es
-descartarlo. A veces es lo correcto. Las personas se equivocan, los
+descartarlo. A veces es lo correcto; las personas se equivocan, los
 relatos se exageran y las observaciones pueden ser incorrectas. Pero
 otras, lo extraño no está en la observación, sino en nuestra manera
 de entender el mundo. 
 
 Heródoto escuchó que unos navegantes habían visto el Sol donde, según su
 experiencia, no debía estar. No lo creyó, pero hizo algo
-extraordinariamente valioso: lo escribió. No corrigió la historia para hacerla más razonable, no hizo desaparecer
-el detalle incómodo, lo dejó allí y más de dos mil años después la misma frase que lo hizo
-desconfiar nos lleva hacia la conclusión contraria. No
+extraordinariamente valioso: lo escribió. No corrigió la historia para hacerla más razonable; no hizo desaparecer
+el detalle incómodo, lo dejó allí y más de dos mil años después la misma frase que lo llevó a
+desconfiar nos conduce hacia la conclusión contraria. No
 sabemos con certeza si aquellos hombres rodearon África, pero sí que si llegaron lo suficientemente lejos
 hacia el sur, lo que describieron en el cielo es justamente lo que
-deberían haber visto. Tal vez Heródoto pensó que había encontrado el punto débil de la
-historia y puede que, sin darse cuenta, haya conservado su mejor
+deberían haber visto. Tal vez Heródoto pensó que había encontrado el punto débil del relato y puede que, sin darse cuenta, haya conservado su mejor
 evidencia.
 
 ## Referencias
