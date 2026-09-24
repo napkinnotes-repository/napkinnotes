@@ -3,8 +3,7 @@ title: El valor de no ignorar lo extraño
 author: Alejandro Peñuela Díaz
 date: 2026-09-24 # formato YYYY-MM-DD
 layout: articles
-slug: prueba-alex
-status: hidden # published si ya está listo
+status: published # published si ya está listo
 category: Historia # categoría con mayúscula inicial
 tags: # tags con minúscula inicial
   - astronomía
