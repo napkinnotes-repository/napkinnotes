@@ -11,7 +11,7 @@ tags:
   - ingeniería
   - materiales
 summary: "Siempre he sido una persona de asiento junto a la ventana. Me gusta acercar la frente al cristal mientras la ciudad se hace pequeña allá abajo, los campos se convierten en un mosaico y las nubes empiezan a parecer lo bastante sólidas como para caminar sobre ellas."
-image: images/ventana_avion.jpeg
+image: images/ruchika-ventana/ventana_avion.jpeg
 certificate: false
 ---
 
