@@ -66,37 +66,36 @@ Y aquí reside precisamente el reto: no basta con encontrar muchos ceros sobre l
 <ol class="nn-references">
   <li id="ref-1">
     L.J. Garay, Lecture notes: Differential geometry.
-    <a href="https://sites.google.com/site/luisjgaray" >https://sites.google.com/site/luisjgaray</a>
+    <a href="https://sites.google.com/site/luisjgaray">https://sites.google.com/site/luisjgaray</a>
   </li>
 
   <li id="ref-2">
     The Mathematical Papers of Georg Friedrich Bernhard Riemann (1826-1866).
-    <a href="https://www.emis.de/classics/Riemann/" >https://www.emis.de/classics/Riemann/</a>
+    <a href="https://www.emis.de/classics/Riemann/">https://www.emis.de/classics/Riemann/</a>
   </li>
 
   <li id="ref-3">
-    Riemann, B. (1859). Über die Anzahl der Primzahlen unter einer gegebenen Grösse. <em>Monatsberichte der Berliner Akademie, 136-144.<em>
+    Riemann, B. (1859). Über die Anzahl der Primzahlen unter einer gegebenen Grösse. <em>Monatsberichte der Berliner Akademie, 136-144.</em>
     <a href="https://doi.org/10.1017/cbo9781139568050.008" target="_blank" rel="noopener noreferrer">https://doi.org/10.1017/cbo9781139568050.008</a>
   </li>
 
   <li id="ref-4">
-    Carroll, S. M. (2003). Spacetime and Geometry: An Introduction to General Relativity. <em>Addison-Wesley.<em>
-    <a href=" https://doi.org/10.1017/9781108770385 " target="_blank" rel="noopener noreferrer"> https://doi.org/10.1017/9781108770385 </a>
+    Carroll, S. M. (2003). Spacetime and Geometry: An Introduction to General Relativity. <em>Addison-Wesley.</em>
+    <a href="https://doi.org/10.1017/9781108770385" target="_blank" rel="noopener noreferrer"> https://doi.org/10.1017/9781108770385 </a>
   </li>
 
   <li id="ref-5">
-    C.W. Misner, K.S. Thorne, and J.A. Wheeler (1973). Gravitation. <em>W. H. Freeman and Company.<em>
+    C.W. Misner, K.S. Thorne, and J.A. Wheeler (1973). Gravitation. <em>W. H. Freeman and Company.</em>
   </li>
 
   <li id="ref-6">
-    Schumayer, D. and Hutchinson, D. A. W.(2011). Physics of the Riemann Hypothesis. <em>Rev.Mod.Phys. 83, 307-330.<em>
+    Schumayer, D. and Hutchinson, D. A. W.(2011). Physics of the Riemann Hypothesis. <em>Rev.Mod.Phys. 83, 307-330.</em>
     <a href="https://doi.org/10.1103/RevModPhys.83.307" target="_blank" rel="noopener noreferrer"> https://doi.org/10.1103/RevModPhys.83.307 </a>
   </li>
 
   <li id="ref-7">
     The Millennium Prize Problems.
-    <a href="https://www.claymath.org/millennium/riemann-hypothesis/ >https://www.claymath.org/millennium/riemann-hypothesis/</a>
+    <a href="https://www.claymath.org/millennium/riemann-hypothesis/">https://www.claymath.org/millennium/riemann-hypothesis/</a>
   </li>
 </ol>
-
 
