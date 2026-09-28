@@ -25,7 +25,7 @@ Fue allí donde Riemann conoció a otros grandes matemáticos. En ese momento en
 
 Las contribuciones de Riemann sentaron algunas de las bases de la geometría diferencial moderna, que más de medio siglo después desempeñaría un papel fundamental en la formulación matemática de la relatividad general. En su célebre conferencia de 1854, Riemann propuso una visión profundamente novedosa de la geometría, generalizando las ideas de la geometría euclídea a espacios de un número arbitrario de dimensiones y dotados de una noción de distancia determinada por una métrica. Entre los objetos fundamentales de esta teoría se encuentran la métrica riemanniana y el tensor de curvatura de Riemann, $R^i_{jkl}$, que permite caracterizar intrínsecamente la curvatura de una variedad en cualquier número de dimensiones.
 
-Riemann también realizó importantes contribuciones a la teoría analítica de números, la rama de la teoría de números que emplea herramientas del análisis matemático para estudiar propiedades de los números enteros. En su artículo \textit{Über die Anzahl der Primzahlen unter einer gegebenen Größe}, publicado en 1859, estudió la función zeta que hoy lleva su nombre y descubrió una profunda conexión entre sus propiedades y la distribución de los números primos. En este trabajo apareció también una de las conjeturas más famosas de las matemáticas: la hipótesis de Riemann.
+Riemann también realizó importantes contribuciones a la teoría analítica de números, la rama de la teoría de números que emplea herramientas del análisis matemático para estudiar propiedades de los números enteros. En su artículo *Über die Anzahl der Primzahlen unter einer gegebenen Größe*, publicado en 1859, estudió la función zeta que hoy lleva su nombre y descubrió una profunda conexión entre sus propiedades y la distribución de los números primos. En este trabajo apareció también una de las conjeturas más famosas de las matemáticas: la hipótesis de Riemann.
 
 ## Los ceros de la función zeta de Riemann
 Detengámonos un momento para entender una función que, a simple vista, parece bastante inocente. La función zeta de Riemann se define, para un número complejo $s$ con parte real mayor que uno, como
@@ -42,9 +42,11 @@ $$
 
 Riemann fue más allá extendiendo analíticamente esta función al plano complejo, salvo en el caso $s=1$ donde la función posee un polo simple. Escribiendo $s=\sigma + it$, siendo $\sigma$ y $t$ números reales e $i$ la unidad imaginaria, la función adquiere una estructura mucho más sugerente: posee unos ceros llamados triviales, situados en los enteros pares negativos, y otros ceros no triviales que se encuentran en la región $0\leq\sigma\leq1$, conocida como la franja crítica. Además, la ecuación funcional de la función zeta revela una simetría alrededor de la recta $\sigma=1/2$, conocida como línea crítica. En la figura 1 se representan todas estas regiones.
 Y es precisamente aquí donde aparece el misterio que hizo famosa a esta función. La distribución de los ceros no triviales es uno de los misterios matemáticos más enigmáticos del pasado siglo y medio. Riemann conjeturó que todos los ceros no triviales de $\zeta(s)$ tienen la forma
+
 $$
 s=\frac{1}{2}+it \, ,
 $$
+
 Esta afirmación, aparentemente sencilla de formular, es la famosa hipótesis de Riemann.
 
 
@@ -52,9 +54,9 @@ Esta afirmación, aparentemente sencilla de formular, es la famosa hipótesis de
 ![El polo y la estructura de ceros de la función zeta de Riemann en el plano complejo. Sobre el eje $t=0$ se representan los ceros triviales y el polo simple $s=1$. La línea crítica $\sigma=1/2$ se representa mediante una línea punteada. Los ceros no triviales (puntos negros en la región sombreada) se encuentran en la región $0\leq\sigma\leq1$. Créditos: Daniel Schumayer y David A.W. Hutchinson](images/maria-riemann/riemann.png)
 
 ## La hipótesis del millón de dólares
-La hipótesis de Riemann es sencilla: \textbf{todos los ceros no triviales de $\zeta(s)$ se encuentran sobre la línea crítica}. Detrás de esta aparentemente inocente afirmación se esconde una de las grandes preguntas abiertas de las matemáticas. La razón de su importancia está en la profunda conexión entre los ceros de $\zeta(s)$ y la distribución de los números primos: cuanto más cerca están estos ceros de la línea crítica, más regular resulta la distribución de los primos alrededor de su comportamiento medio.
+La hipótesis de Riemann es sencilla: **todos los ceros no triviales de $\zeta(s)$ se encuentran sobre la línea crítica**. Detrás de esta aparentemente inocente afirmación se esconde una de las grandes preguntas abiertas de las matemáticas. La razón de su importancia está en la profunda conexión entre los ceros de $\zeta(s)$ y la distribución de los números primos: cuanto más cerca están estos ceros de la línea crítica, más regular resulta la distribución de los primos alrededor de su comportamiento medio.
 
-La conjetura fue formulada por Riemann en 1859 y, más de un siglo después, en el año 2000, el Clay Mathematics Institute la incluyó entre sus siete \textit{Millennium Prize Problems}. Cada uno de estos problemas lleva asociado un premio de un millón de dólares para quien consiga demostrarlo o refutarlo. La hipótesis de Riemann continúa sin resolverse: se han comprobado computacionalmente cantidades enormes de ceros y todos los examinados hasta los límites alcanzados satisfacen la conjetura, pero en matemáticas la evidencia numérica no sustituye a una demostración.
+La conjetura fue formulada por Riemann en 1859 y, más de un siglo después, en el año 2000, el Clay Mathematics Institute la incluyó entre sus siete *Millennium Prize Problems*. Cada uno de estos problemas lleva asociado un premio de un millón de dólares para quien consiga demostrarlo o refutarlo. La hipótesis de Riemann continúa sin resolverse: se han comprobado computacionalmente cantidades enormes de ceros y todos los examinados hasta los límites alcanzados satisfacen la conjetura, pero en matemáticas la evidencia numérica no sustituye a una demostración.
 
 Y aquí reside precisamente el reto: no basta con encontrar muchos ceros sobre la línea crítica; habría que demostrar que todos los infinitos ceros no triviales de la función zeta tienen parte real exactamente igual a $1/2$. Una demostración de esta afirmación no solo resolvería uno de los Problemas del Milenio, sino que proporcionaría una comprensión mucho más profunda de cómo se distribuyen los números primos.
 
