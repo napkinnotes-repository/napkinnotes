@@ -3,10 +3,10 @@ title: "Riemann y el millón de dólares: los secretos de los números primos"
 author: María Pérez Garrote
 date: 2026-10-01
 layout: articles
-status: hidden <!-- (published si ya está listo)-->
+status: hidden 
 slug: prueba-maria
-category: Matemáticas <!-- Matemáticas -->
-tags:  <!-- (si ya existe una en https://napkinnotes.es/explorar esa sino una nueva, en minúscula la primera letra)-->
+category: Matemáticas 
+tags:  
   - matemáticas
   - Riemann
 summary: "En 2026 se cumplen 200 años del nacimiento de Bernhard Riemann, el matemático que sentó las bases de la geometría diferencial moderna y cuyo nombre está ligado a uno de los problemas de un millón de dólares. En estas napkin notes daremos unas pinceladas sobre la vida de este brillante matemático, hablaremos sobre su famosa función zeta y nos aventuraremos en uno de los grandes problemas abiertos de las matemáticas: la elegante, pero compleja, hipótesis de Riemann"
