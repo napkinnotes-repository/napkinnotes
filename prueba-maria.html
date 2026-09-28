@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="https://napkinnotes.es/theme/css/elegant.prod.9e9d5ce754.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://napkinnotes.es/theme/css/custom.css" media="screen">
+
+
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+        <meta name="author" content="María Pérez Garrote" />
+
+        <meta name="description" content="En 2026 se cumplen 200 años del nacimiento de Bernhard Riemann, el matemático que sentó las bases de la geometría diferencial moderna y cuyo nombre está ligado a uno de los problemas de un millón de dólares. En estas napkin notes daremos unas pinceladas sobre la vida de este brillante matemático, hablaremos sobre su famosa función zeta y nos aventuraremos en uno de los grandes problemas abiertos de las matemáticas: la elegante, pero compleja, hipótesis de Riemann
+" />
+
+
+<meta name="twitter:creator" content="@napkiinnotes">
+
+
+<meta name="keywords" content="matemáticas, Riemann, Matemáticas, " />
+
+<meta property="og:title" content="Riemann y el millón de dólares: los secretos de los números primos" />
+<meta property="og:url" content="https://napkinnotes.es/prueba-maria" />
+<meta property="og:description" content="En 2026 se cumplen 200 años del nacimiento de Bernhard Riemann, el matemático que sentó las bases de la geometría diferencial moderna y cuyo nombre está ligado a uno de los problemas de un millón de dólares. En estas napkin notes daremos unas pinceladas sobre la vida de este brillante matemático, hablaremos sobre su famosa función zeta y nos aventuraremos en uno de los grandes problemas abiertos de las matemáticas: la elegante, pero compleja, hipótesis de Riemann" />
+<meta property="og:site_name" content="Napkin Notes" />
+<meta property="og:type" content="article" />
+<meta property="og:article:author" content="María Pérez Garrote" />
+
+<meta property="og:article:published_time" content="2026-10-01T00:00:00+02:00" />
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Riemann y el millón de dólares: los secretos de los números primos">
+<meta name="twitter:description" content="En 2026 se cumplen 200 años del nacimiento de Bernhard Riemann, el matemático que sentó las bases de la geometría diferencial moderna y cuyo nombre está ligado a uno de los problemas de un millón de dólares. En estas napkin notes daremos unas pinceladas sobre la vida de este brillante matemático, hablaremos sobre su famosa función zeta y nos aventuraremos en uno de los grandes problemas abiertos de las matemáticas: la elegante, pero compleja, hipótesis de Riemann">
+
+
+
+<meta property="og:image" content="https://napkinnotes.es/images/maria-riemann/riemann.jpeg" />
+<meta property="og:image:secure_url" content="https://napkinnotes.es/images/maria-riemann/riemann.jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Riemann y el millón de dólares: los secretos de los números primos" />
+<meta name="twitter:image" content="https://napkinnotes.es/images/maria-riemann/riemann.jpeg">
+<meta name="twitter:image:alt" content="Riemann y el millón de dólares: los secretos de los números primos">
+
+
+        <title>Riemann y el millón de dólares: los secretos de los números primos  · Napkin Notes
+</title>
+<link rel="shortcut icon" href="https://napkinnotes.es/images/Logo.jpg" type="image/jpeg" />
+<link rel="icon" href="https://napkinnotes.es/images/Logo.jpg" type="image/jpeg" />
+<link rel="apple-touch-icon" href="https://napkinnotes.es/images/Logo.jpg" type="image/jpeg" />        <link rel="icon" type="image/png" href="https://napkinnotes.es/favicon.png">
+
+        <link href="https://napkinnotes.es/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Napkin Notes - Full Atom Feed" />
+
+
+
+
+    </head>
+   
+    <body>
+        <div class="site-shell">
+            <header class="site-header">
+                <div class="site-header__inner">
+                    <a class="site-brand" href="https://napkinnotes.es">
+                             <img class="site-brand__logo" src="https://napkinnotes.es/images/Logo.jpg" alt="Logo de Napkin Notes">
+                             <span class="site-brand__name">Napkin Notes</span>
+                    </a>
+
+                   <nav class="site-nav">
+
+                       
+    <ul class="site-nav__list">
+        <li >
+            <a href="https://napkinnotes.es">Portada</a>
+        </li>
+
+
+        <li >
+            <a href="https://napkinnotes.es/archives">Artículos</a>
+        </li>
+        <li >
+            <a href="https://napkinnotes.es/explorar">Explorar</a>
+        </li>
+        <li >
+            <a href="https://napkinnotes.es/about">Nosotros</a>
+        </li>
+
+
+        <li>
+            <a class="site-nav__instagram"
+               href="https://www.instagram.com/napk.innotes"
+               target="_blank"
+               rel="me noopener noreferrer"
+               aria-label="Seguir a Napkin Notes en Instagram">
+                <svg class="site-social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Zm0 2A3.76 3.76 0 0 0 4 7.75v8.5A3.76 3.76 0 0 0 7.75 20h8.5A3.76 3.76 0 0 0 20 16.25v-8.5A3.76 3.76 0 0 0 16.25 4h-8.5ZM12 7.35A4.65 4.65 0 1 1 7.35 12 4.65 4.65 0 0 1 12 7.35Zm0 2A2.65 2.65 0 1 0 14.65 12 2.65 2.65 0 0 0 12 9.35Zm5.1-2.7a1.1 1.1 0 1 1-1.1 1.1 1.1 1.1 0 0 1 1.1-1.1Z"/>
+                </svg>
+            </a>
+        </li>
+
+            <li>
+                <a class="site-nav__x"
+                   href="https://twitter.com/napkiinnotes"
+                   target="_blank"
+                   rel="me noopener noreferrer"
+                   aria-label="Seguir a Napkin Notes en X">
+                    𝕏
+                </a>
+            </li>
+    </ul>
+</nav>
+
+                    <div class="site-search-row">
+    <a class="site-mobile-instagram"
+       href="https://www.instagram.com/napk.innotes"
+       target="_blank"
+       rel="me noopener noreferrer"
+       aria-label="Seguir a Napkin Notes en Instagram">
+        <svg class="site-social-svg" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Zm0 2A3.76 3.76 0 0 0 4 7.75v8.5A3.76 3.76 0 0 0 7.75 20h8.5A3.76 3.76 0 0 0 20 16.25v-8.5A3.76 3.76 0 0 0 16.25 4h-8.5ZM12 7.35A4.65 4.65 0 1 1 7.35 12 4.65 4.65 0 0 1 12 7.35Zm0 2A2.65 2.65 0 1 0 14.65 12 2.65 2.65 0 0 0 12 9.35Zm5.1-2.7a1.1 1.1 0 1 1-1.1 1.1 1.1 1.1 0 0 1 1.1-1.1Z"/>
+            </svg>
+    </a>
+
+    <form class="site-search" action="https://napkinnotes.es/search" onsubmit="return validateForm(this.elements['q'].value);">
+        <input type="text" placeholder="Buscar" name="q" id="tipue_search_input">
+    </form>
+
+    <a class="site-mobile-x"
+       href="https://twitter.com/napkiinnotes"
+       target="_blank"
+       rel="me noopener noreferrer"
+       aria-label="Seguir a Napkin Notes en X">
+        𝕏
+    </a>
+</div>
+                </div>
+            </header>
+
+            <main class="site-main">
+                <div class="site-main__inner">
+<article itemscope class="nn-article-page">
+
+<div class="nn-article-hero">
+    <div class="nn-article-hero__inner">
+        <div class="nn-article-hero__content">
+            <div class="nn-article-hero__meta">
+                <span class="nn-article-hero__category">Matemáticas</span>
+                <span class="nn-article-hero__dot">•</span>
+                <time itemprop="dateCreated" datetime="2026-10-01T00:00:00+02:00">1 de octubre de 2026</time>
+            </div>
+
+            <div class="nn-article-hero__heading">
+                <div class="nn-article-hero__title-wrap">
+                    <h1 class="nn-article-hero__title">
+                        <a href="https://napkinnotes.es/prueba-maria">Riemann y el millón de dólares: los secretos de los números&nbsp;primos</a>
+                    </h1>
+                </div>
+
+            </div>
+
+            <p class="nn-article-hero__summary"><p>En 2026 se cumplen 200 años del nacimiento de Bernhard Riemann, el matemático que sentó las bases de la geometría diferencial moderna y cuyo nombre está ligado a uno de los problemas de un millón de dólares. En estas napkin notes daremos unas pinceladas sobre la vida de este brillante matemático, hablaremos sobre su famosa función zeta y nos aventuraremos en uno de los grandes problemas abiertos de las matemáticas: la elegante, pero compleja, hipótesis de&nbsp;Riemann</p></p>
+
+            <figure class="nn-article-hero__figure">
+                <img class="nn-article-hero__image" src="https://napkinnotes.es/images/maria-riemann/riemann.jpeg" alt="Riemann y el millón de dólares: los secretos de los números primos">
+            </figure>
+        </div>
+    </div>
+</div>
+
+<div class="nn-article-layout nn-article-layout--no-toc">
+    <div class="nn-article-main">
+        <div class="nn-article-content">
+            
+            <div class="toc">
+<ul>
+<li><a href="#bernhard-riemann-el-complejo-matematico">Bernhard Riemann, el complejo&nbsp;matemático</a></li>
+<li><a href="#los-ceros-de-la-funcion-zeta-de-riemann">Los ceros de la función zeta de&nbsp;Riemann</a></li>
+<li><a href="#la-hipotesis-del-millon-de-dolares">La hipótesis del millón de&nbsp;dólares</a></li>
+<li><a href="#referencias">Referencias</a></li>
+</ul>
+</div>
+<h2 id="bernhard-riemann-el-complejo-matematico">Bernhard Riemann, el complejo matemático<a class="headerlink" href="#bernhard-riemann-el-complejo-matematico" title="Permanent link"> </a></h2>
+<p>Riemann nació el 17 de septiembre de 1826 en Breselenz, un pequeño municipio del entonces Reino de Hannover. Su padre, pastor luterano en Breselenz, influyó notablemente en su educación. De hecho, Riemann comenzó sus estudios universitarios orientado hacia la teología, con la intención de seguir los pasos de su padre. Sin embargo, pronto descubrió su verdadera vocación por las matemáticas. En 1846 se trasladó a la Universidad de Göttingen, donde tuvo como profesor a Carl Friedrich Gauss, y posteriormente continuó sus estudios en&nbsp;Berlín.</p>
+<p>Fue allí donde Riemann conoció a otros grandes matemáticos. En ese momento en Berlín impartían clase grandes nombres como Carl Gustav Jacob Jacobi, Peter Gustav Lejeune Dirichlet, Jakob Steiner, y Gotthold Eisenstein. Sin duda, los años que nuestro estudiante pasó asistiendo a estas clases magistrales influyó en su posterior&nbsp;investigación.</p>
+<p>Las contribuciones de Riemann sentaron algunas de las bases de la geometría diferencial moderna, que más de medio siglo después desempeñaría un papel fundamental en la formulación matemática de la relatividad general. En su célebre conferencia de 1854, Riemann propuso una visión profundamente novedosa de la geometría, generalizando las ideas de la geometría euclídea a espacios de un número arbitrario de dimensiones y dotados de una noción de distancia determinada por una métrica. Entre los objetos fundamentales de esta teoría se encuentran la métrica riemanniana y el tensor de curvatura de&nbsp;Riemann, <span class="math">\(R^i_{jkl}\)</span>, que permite caracterizar intrínsecamente la curvatura de una variedad en cualquier número de&nbsp;dimensiones.</p>
+<p>Riemann también realizó importantes contribuciones a la teoría analítica de números, la rama de la teoría de números que emplea herramientas del análisis matemático para estudiar propiedades de los números enteros. En su artículo \textit{Über die Anzahl der Primzahlen unter einer gegebenen Größe}, publicado en 1859, estudió la función zeta que hoy lleva su nombre y descubrió una profunda conexión entre sus propiedades y la distribución de los números primos. En este trabajo apareció también una de las conjeturas más famosas de las matemáticas: la hipótesis de&nbsp;Riemann.</p>
+<h2 id="los-ceros-de-la-funcion-zeta-de-riemann">Los ceros de la función zeta de Riemann<a class="headerlink" href="#los-ceros-de-la-funcion-zeta-de-riemann" title="Permanent link"> </a></h2>
+<p>Detengámonos un momento para entender una función que, a simple vista, parece bastante inocente. La función zeta de Riemann se define, para un número&nbsp;complejo <span class="math">\(s\)</span> con parte real mayor que uno,&nbsp;como
+</p>
+<div class="math">$$
+\zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s} \, .
+$$</div>
+<p>
+Esta expresión ya había sido estudiada por Leonhard Euler en el siglo <span class="caps">XVIII</span>, quien descubrió que la función puede escribirse también como un producto infinito que recorre todos los números&nbsp;primos <span class="math">\(p\)</span>
+</p>
+<div class="math">$$
+\zeta(s)=\prod_{p}^\infty \frac{1}{1-p^{-s}} \, .
+$$</div>
+<p>Riemann fue más allá extendiendo analíticamente esta función al plano complejo, salvo en el&nbsp;caso <span class="math">\(s=1\)</span> donde la función posee un polo simple.&nbsp;Escribiendo <span class="math">\(s=\sigma + it\)</span>,&nbsp;siendo <span class="math">\(\sigma\)</span> y <span class="math">\(t\)</span> números reales&nbsp;e <span class="math">\(i\)</span> la unidad imaginaria, la función adquiere una estructura mucho más sugerente: posee unos ceros llamados triviales, situados en los enteros pares negativos, y otros ceros no triviales que se encuentran en la&nbsp;región <span class="math">\(0\leq\sigma\leq1\)</span>, conocida como la franja crítica. Además, la ecuación funcional de la función zeta revela una simetría alrededor de la&nbsp;recta <span class="math">\(\sigma=1/2\)</span>, conocida como línea crítica. En la figura 1 se representan todas estas regiones.
+Y es precisamente aquí donde aparece el misterio que hizo famosa a esta función. La distribución de los ceros no triviales es uno de los misterios matemáticos más enigmáticos del pasado siglo y medio. Riemann conjeturó que todos los ceros no triviales&nbsp;de <span class="math">\(\zeta(s)\)</span> tienen la&nbsp;forma
+</p>
+<div class="math">$$
+s=\frac{1}{2}+it \, ,
+$$</div>
+<p>
+Esta afirmación, aparentemente sencilla de formular, es la famosa hipótesis de&nbsp;Riemann.</p>
+<!-- AQUÍ INSERTAR FIGURA FUNCIÓN ZETA-->
+<p><img alt="El polo y la estructura de ceros de la función zeta de Riemann en el plano complejo. Sobre el eje \(t=0\) se representan los ceros triviales y el polo simple \(s=1\). La línea crítica \(\sigma=1/2\) se representa mediante una línea punteada. Los ceros no triviales (puntos negros en la región sombreada) se encuentran en la región \(0\leq\sigma\leq1\). Créditos: Daniel Schumayer y David A.W. Hutchinson" src="images/maria-riemann/riemann.png" /></p>
+<h2 id="la-hipotesis-del-millon-de-dolares">La hipótesis del millón de dólares<a class="headerlink" href="#la-hipotesis-del-millon-de-dolares" title="Permanent link"> </a></h2>
+<p>La hipótesis de Riemann es sencilla: \textbf{todos los ceros no triviales&nbsp;de <span class="math">\(\zeta(s)\)</span> se encuentran sobre la línea crítica}. Detrás de esta aparentemente inocente afirmación se esconde una de las grandes preguntas abiertas de las matemáticas. La razón de su importancia está en la profunda conexión entre los ceros&nbsp;de <span class="math">\(\zeta(s)\)</span> y la distribución de los números primos: cuanto más cerca están estos ceros de la línea crítica, más regular resulta la distribución de los primos alrededor de su comportamiento&nbsp;medio.</p>
+<p>La conjetura fue formulada por Riemann en 1859 y, más de un siglo después, en el año 2000, el Clay Mathematics Institute la incluyó entre sus siete \textit{Millennium Prize Problems}. Cada uno de estos problemas lleva asociado un premio de un millón de dólares para quien consiga demostrarlo o refutarlo. La hipótesis de Riemann continúa sin resolverse: se han comprobado computacionalmente cantidades enormes de ceros y todos los examinados hasta los límites alcanzados satisfacen la conjetura, pero en matemáticas la evidencia numérica no sustituye a una&nbsp;demostración.</p>
+<p>Y aquí reside precisamente el reto: no basta con encontrar muchos ceros sobre la línea crítica; habría que demostrar que todos los infinitos ceros no triviales de la función zeta tienen parte real exactamente igual&nbsp;a <span class="math">\(1/2\)</span>. Una demostración de esta afirmación no solo resolvería uno de los Problemas del Milenio, sino que proporcionaría una comprensión mucho más profunda de cómo se distribuyen los números&nbsp;primos.</p>
+<h2 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link"> </a></h2>
+<ol class="nn-references">
+  <li id="ref-1">
+    <span class="caps">L.J.</span> Garay, Lecture notes: Differential geometry.
+    <a href="https://sites.google.com/site/luisjgaray" >https://sites.google.com/site/luisjgaray</a>
+  </li>
+
+  <li id="ref-2">
+    The Mathematical Papers of Georg Friedrich Bernhard Riemann (1826-1866).
+    <a href="https://www.emis.de/classics/Riemann/" >https://www.emis.de/classics/Riemann/</a>
+  </li>
+
+  <li id="ref-3">
+    Riemann, B. (1859). Über die Anzahl der Primzahlen unter einer gegebenen Grösse. <em>Monatsberichte der Berliner Akademie, 136-144.<em>
+    <a href="https://doi.org/10.1017/cbo9781139568050.008" target="_blank" rel="noopener noreferrer">https://doi.org/10.1017/cbo9781139568050.008</a>
+  </li>
+
+  <li id="ref-4">
+    Carroll, <span class="caps">S. M.</span>(2003). Spacetime and Geometry: An Introduction to General Relativity. <em>Addison-Wesley.<em>
+    <a href=" https://doi.org/10.1017/9781108770385 " target="_blank" rel="noopener noreferrer">&nbsp;https://doi.org/10.1017/9781108770385 </a>
+  </li>
+
+  <li id="ref-5">
+    <span class="caps">C.W.</span> Misner, <span class="caps">K.S.</span> Thorne, and <span class="caps">J.A.</span> Wheeler (1973). Gravitation. <em><span class="caps">W. H.</span> Freeman and Company.<em>
+  </li>
+
+  <li id="ref-6">
+    Schumayer, D. and Hutchinson, <span class="caps">D. A.</span> W.(2011). Physics of the Riemann Hypothesis. <em>Rev.Mod.Phys. 83, 307-330.<em>
+    <a href="https://doi.org/10.1103/RevModPhys.83.307" target="_blank" rel="noopener noreferrer">&nbsp;https://doi.org/10.1103/RevModPhys.83.307 </a>
+  </li>
+
+  <li id="ref-7">
+    The Millennium Prize Problems.
+    <a href="https://www.claymath.org/millennium/riemann-hypothesis/ >https://www.claymath.org/millennium/riemann-hypothesis/</a>
+  </li>
+</ol>
+
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+
+             
+
+
+<div class="applause_button">
+    <applause-button url=https://napkinnotes.es/prueba-maria> </applause-button>
+</div>
+
+ 
+            
+            
+    <div class="nn-author-box">
+        <div class="nn-author-box__avatar">
+            <img src="https://napkinnotes.es/images/maria.jpeg" alt="María Pérez Garrote">
+        </div>
+
+        <div class="nn-author-box__content">
+            <div class="nn-author-box__label">Autor</div>
+            <h3 class="nn-author-box__name">María Pérez Garrote</h3>
+
+            <p class="nn-author-box__bio">María es estudiante de doctorado en cosmología, y le apasiona intentar desentrañar los misterios del cosmos y de la vida en general. Su trabajo consiste en estudiar los ingredientes fundamentales que conforman el universo, y de qué manera interactúan para dar lugar a las formaciones de galaxias que observamos hoy en día. Sus textos aspiran a arrojar un poco de luz sobre ese sector todavía oscuro del universo, despertando la curiosidad y el pensamiento crítico en quienes se acercan a explorarlo.</p>
+
+            <div class="nn-author-box__links">
+                <a class="nn-author-box__link" href="https://produccioncientifica.usal.es/investigadores/1222882/detalle" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-author-box__link" href="https://napkinnotes.es/autor/maria-perez-garrote">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+
+            
+<section class="nn-comments">
+    <h2 class="nn-comments__title">Comentarios</h2>
+
+
+<div class="nn-comments__form-block">
+    <h2 class="nn-comments__form-title">Enviar un comentario</h2>
+
+    <p class="nn-comments__intro">
+        ¿Qué te ha parecido? Déjanos tu comentario.
+        <span class="nn-comments__note">
+            Todos los comentarios serán revisados antes de su publicación a fin de mantener un espacio respetuoso, libre de spam y acorde a las normas editoriales.
+        </span>
+    </p>
+        <div id="nn-reply-notice" class="nn-reply-notice" hidden>
+    Respondiendo a <strong id="nn-reply-author"></strong>.
+    <button id="nn-reply-cancel" type="button">Cancelar respuesta</button>
+</div>
+        <div class="nn-comments__box">
+            <form
+                class="nn-comment-form"
+                id="nn-comment-form"
+                action="https://formspree.io/f/mkokjgka"
+                method="POST">
+
+                <input type="hidden" name="_subject" value="Nuevo comentario en Napkin Notes">
+                <input type="hidden" name="articulo" value="Riemann y el millón de dólares: los secretos de los números primos">
+                <input type="hidden" name="article_key" value="prueba-maria">
+                <input type="hidden" name="url_articulo" value="https://napkinnotes.es/prueba-maria">
+                <input id="nn-comment-type" type="hidden" name="tipo_comentario" value="comentario">
+                <input id="nn-comment-reply-to-author" type="hidden" name="respuesta_a_autor" value="">
+                <input id="nn-comment-reply-to-id" type="hidden" name="respuesta_a_id" value="">
+
+                
+                <div class="nn-comment-form__row">
+                    <label for="comment-name">Nombre</label>
+                    <input id="comment-name" type="text" name="nombre" required>
+                </div>
+
+                <div class="nn-comment-form__row">
+                    <label for="comment-email">Email (opcional)</label>
+                    <input id="comment-email" type="email" name="email">
+                </div>
+
+                <div class="nn-comment-form__row">
+                    <label for="comment-text">Comentario</label>
+                    <textarea id="comment-text" name="comentario" rows="6" required></textarea>
+                </div>
+
+                <p id="nn-comment-form-status" class="nn-comment-form__status"></p>
+
+                <button class="nn-home-sidebar__button" type="submit">Enviar comentario</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+            <hr/>
+         </div>
+    </div>
+</div>
+
+<aside id="article-sidebar" class="nn-article-sidebar">
+    <div class="nn-sticky-card">
+
+        <div class="nn-article-meta-card">
+            <div class="nn-article-meta-card__section">
+                <div class="nn-article-meta-card__eyebrow">Ficha del artículo</div>
+
+                <div class="nn-article-meta-row">
+                    <span class="nn-article-meta-row__label">Publicado</span>
+                    <time class="nn-article-meta-row__value" itemprop="dateCreated" datetime="2026-10-01T00:00:00+02:00">
+                        1 de octubre de 2026
+                    </time>
+                </div>
+
+                <div class="nn-article-meta-row nn-article-meta-row--stack">
+                    <span class="nn-article-meta-row__label">Categoría</span>
+                    <div class="nn-article-meta-badges">
+                        <a class="nn-article-meta-badge nn-article-meta-badge--category"
+                           href="https://napkinnotes.es/categories#matematicas-ref">
+                            Matemáticas
+                        </a>
+                    </div>
+                </div>
+
+                <div class="nn-article-meta-row nn-article-meta-row--stack">
+                    <span class="nn-article-meta-row__label">Tags</span>
+                    <div class="nn-article-meta-tags">
+                        <a class="nn-article-meta-tag"
+                           href="https://napkinnotes.es/tags#matematicas-ref">
+                            matemáticas
+                            <span class="nn-article-meta-tag__count">4</span>
+                        </a>
+                        <a class="nn-article-meta-tag"
+                           href="https://napkinnotes.es/tags#riemann-ref">
+                            Riemann
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nn-article-meta-card__section nn-article-meta-card__section--share">
+                <div class="nn-article-meta-card__eyebrow">¿Te ha gustado este artículo?</div>
+                <p class="nn-article-meta-card__share-text">Compártelo</p>
+
+                <div class="nn-share-actions">
+                    <a class="nn-share-actions__button"
+                       href="https://twitter.com/intent/tweet?url=https%3A//napkinnotes.es/prueba-maria&text=Riemann%20y%20el%20mill%C3%B3n%20de%20d%C3%B3lares%3A%20los%20secretos%20de%20los%20n%C3%BAmeros%C2%A0primos"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+                            <path fill="currentColor" d="M18.244 2H21l-6.56 7.498L22.16 22h-6.05l-4.738-6.197L5.95 22H3.192l7.017-8.018L2 2h6.203l4.283 5.658L18.244 2Zm-1.06 18.174h1.527L7.378 3.73H5.74l11.443 16.444Z"/>
+                        </svg>
+                        <span>X</span>
+                    </a>
+
+                    <a class="nn-share-actions__button"
+                       href="https://www.facebook.com/sharer/sharer.php?u=https%3A//napkinnotes.es/prueba-maria%3Fv%3D20261001"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+                            <path fill="currentColor" d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6h1.7V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.4V11H8v3h2.6v8h2.9Z"/>
+                        </svg>
+                        <span>Facebook</span>
+                    </a>
+
+                    <a class="nn-share-actions__button"
+                       href="https://api.whatsapp.com/send?text=Riemann%20y%20el%20mill%C3%B3n%20de%20d%C3%B3lares%3A%20los%20secretos%20de%20los%20n%C3%BAmeros%C2%A0primos%20https%3A//napkinnotes.es/prueba-maria%3Fv%3D20261001"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+                            <path fill="currentColor" d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.16 1.6 5.98L0 24l6.28-1.65a11.84 11.84 0 0 0 5.78 1.47h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.17-3.45-8.44ZM12.07 21.8h-.01a9.86 9.86 0 0 1-5.02-1.37l-.36-.21-3.73.98 1-3.63-.23-.37a9.82 9.82 0 0 1-1.5-5.28c0-5.45 4.43-9.88 9.88-9.88 2.64 0 5.12 1.03 6.98 2.9a9.8 9.8 0 0 1 2.88 6.98c0 5.45-4.43 9.88-9.88 9.88Zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.46-.15-.66.15-.2.3-.76.97-.93 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.46-2.4-1.47a9.03 9.03 0 0 1-1.67-2.07c-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.66-1.6-.9-2.19-.24-.58-.48-.5-.66-.5h-.56c-.2 0-.5.08-.76.38-.27.3-1.02 1-1.02 2.44 0 1.43 1.05 2.82 1.2 3.02.15.2 2.06 3.15 5 4.42.7.3 1.24.48 1.67.61.7.22 1.33.19 1.83.12.56-.08 1.76-.72 2-1.42.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.56-.35Z"/>
+                        </svg>
+                        <span>WhatsApp</span>
+                    </a>
+
+                    <button class="nn-share-actions__button nn-share-actions__button--copy"
+                            type="button"
+                            data-copy-url="https://napkinnotes.es/prueba-maria">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
+                            <path fill="currentColor" d="M16 1H6a2 2 0 0 0-2 2v12h2V3h10V1Zm3 4H10a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H10V7h9v14Z"/>
+                        </svg>
+                        <span>Copiar enlace</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+
+</article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>                </div>
+            </main>
+        </div>
+
+<footer>
+    <div class="nn-footer-inner">
+        <div class="nn-footer-copy">
+            <div>
+                Contenido publicado bajo licencia <a rel="license nofollow noopener noreferrer"
+    href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+    Creative Commons Atribución 4.0 Internacional</a>.
+            </div>
+
+
+
+
+            <div class="web-developers">
+                Web creada y desarrollada por <strong>David Figueruelo Hernán</strong> y <strong>Duvier Suarez Fontanella</strong>
+            </div>
+
+            <div id="fpowered">
+                Funciona con <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>
+                · Tema <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>
+            </div>
+        </div>
+
+        <div class="nn-footer-contact">
+
+            <a class="nn-footer-contact__link"
+               href="https://www.instagram.com/napk.innotes"
+               target="_blank"
+               rel="me noopener noreferrer"
+               aria-label="Seguir a Napkin Notes en Instagram">
+                <span class="nn-footer-contact__icon">
+                    <svg class="nn-footer-contact__svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="currentColor" d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Zm0 2A3.76 3.76 0 0 0 4 7.75v8.5A3.76 3.76 0 0 0 7.75 20h8.5A3.76 3.76 0 0 0 20 16.25v-8.5A3.76 3.76 0 0 0 16.25 4h-8.5ZM12 7.35A4.65 4.65 0 1 1 7.35 12 4.65 4.65 0 0 1 12 7.35Zm0 2A2.65 2.65 0 1 0 14.65 12 2.65 2.65 0 0 0 12 9.35Zm5.1-2.7a1.1 1.1 0 1 1-1.1 1.1 1.1 1.1 0 0 1 1.1-1.1Z"/>
+                    </svg>
+                </span>
+                <span>Síguenos en Instagram</span>
+                <strong>@napk.innotes</strong>
+            </a>
+
+            <a class="nn-footer-contact__link"
+               href="https://twitter.com/napkiinnotes"
+               target="_blank"
+               rel="me noopener noreferrer"
+               aria-label="Seguir a Napkin Notes en X">
+                <span class="nn-footer-contact__icon">𝕏</span>
+                <span>Síguenos en X</span>
+                <strong>@napkiinnotes</strong>
+            </a>
+
+            <a class="nn-footer-contact__link"
+               href="mailto:napkiin.notes@proton.me"
+               aria-label="Enviar correo a Napkin Notes">
+                <span class="nn-footer-contact__icon">✉</span>
+                <span>Contacto</span>
+                <strong>napkiin.notes@proton.me</strong>
+            </a>
+        </div>
+    </div>
+</footer>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="https://napkinnotes.es/theme/js/elegant.prod.9e9d5ce754.js"></script>
+<script>
+    function validateForm(query)
+    {
+        return (query.length > 0);
+    }
+</script>
+<script>
+    let bgShift = 0;
+
+    window.addEventListener("scroll", () => {
+      bgShift = Math.min(window.scrollY * 0.08, 60);
+      document.documentElement.style.setProperty('--bg-shift', bgShift + 'px');
+    });
+</script>
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("nn-comment-form");
+    const status = document.getElementById("nn-comment-form-status");
+
+    if (!form || !status) return;
+
+    const subjectInput = document.getElementById("nn-comment-subject");
+    const typeInput = document.getElementById("nn-comment-type");
+    const replyToAuthorInput = document.getElementById("nn-comment-reply-to-author");
+    const replyToIdInput = document.getElementById("nn-comment-reply-to-id");
+
+    const replyNotice = document.getElementById("nn-reply-notice");
+    const replyAuthorLabel = document.getElementById("nn-reply-author");
+    const replyCancel = document.getElementById("nn-reply-cancel");
+    const commentTextarea = document.getElementById("comment-text");
+
+    function clearReplyMode() {
+        if (subjectInput) subjectInput.value = "Nuevo comentario en Napkin Notes";
+        if (typeInput) typeInput.value = "comentario";
+        if (replyToAuthorInput) replyToAuthorInput.value = "";
+        if (replyToIdInput) replyToIdInput.value = "";
+
+        if (replyNotice) replyNotice.hidden = true;
+        if (replyAuthorLabel) replyAuthorLabel.textContent = "";
+    }
+
+    document.querySelectorAll(".nn-comment__reply-button").forEach(function (button) {
+        button.addEventListener("click", function () {
+            const author = button.getAttribute("data-reply-author") || "";
+            const replyId = button.getAttribute("data-reply-id") || "";
+
+            if (subjectInput) subjectInput.value = "Nueva respuesta a un comentario en Napkin Notes";
+            if (typeInput) typeInput.value = "respuesta";
+            if (replyToAuthorInput) replyToAuthorInput.value = author;
+            if (replyToIdInput) replyToIdInput.value = replyId;
+
+            if (replyAuthorLabel) replyAuthorLabel.textContent = author;
+            if (replyNotice) replyNotice.hidden = false;
+
+            form.scrollIntoView({ behavior: "smooth", block: "start" });
+
+            if (commentTextarea) {
+                commentTextarea.focus();
+            }
+        });
+    });
+
+    if (replyCancel) {
+        replyCancel.addEventListener("click", clearReplyMode);
+    }
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+
+        const data = new FormData(form);
+        status.textContent = "Enviando...";
+
+        try {
+            const response = await fetch(form.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    "Accept": "application/json"
+                }
+            });
+
+            if (response.ok) {
+                if (typeInput && typeInput.value === "respuesta") {
+                    status.textContent = "Respuesta enviada. La revisaremos antes de publicarla.";
+                } else {
+                    status.textContent = "Comentario enviado. Lo revisaremos antes de publicarlo.";
+                }
+
+                form.reset();
+                clearReplyMode();
+            } else {
+                const result = await response.json();
+                if (result && result.errors) {
+                    status.textContent = result.errors.map(error => error.message).join(", ");
+                } else {
+                    status.textContent = "No se pudo enviar el comentario.";
+                }
+            }
+        } catch (error) {
+            status.textContent = "No se pudo enviar el comentario.";
+        }
+    }
+
+    form.addEventListener("submit", handleSubmit);
+});
+</script>
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toc = document.querySelector(".nn-article-content > .toc");
+        if (!toc) return;
+
+        const tocLinks = Array.from(toc.querySelectorAll("a[href^='#']"));
+        if (!tocLinks.length) return;
+
+        const headings = tocLinks
+            .map(link => {
+                const id = decodeURIComponent(link.getAttribute("href").slice(1));
+                const target = document.getElementById(id);
+                return target ? { link, target } : null;
+            })
+            .filter(Boolean);
+
+        if (!headings.length) return;
+
+        function setActive(id) {
+           tocLinks.forEach(link => link.classList.remove("is-active"));
+
+           if (window.innerWidth <= 980) return;
+
+           const activeLink = toc.querySelector(`a[href="#${CSS.escape(id)}"]`);
+           if (activeLink) activeLink.classList.add("is-active");
+        }
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                const visible = entries
+                    .filter(entry => entry.isIntersecting)
+                    .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+
+                if (visible.length) {
+                    setActive(visible[0].target.id);
+                }
+            },
+            {
+                rootMargin: "-18% 0px -62% 0px",
+                threshold: [0.15, 0.35, 0.6]
+            }
+        );
+
+        headings.forEach(({ target }) => observer.observe(target));
+
+        tocLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                tocLinks.forEach(item => item.classList.remove("is-active"));
+                link.classList.add("is-active");
+            });
+        });
+
+        setActive(headings[0].target.id);
+    });
+    </script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const copyButton = document.querySelector(".nn-share-actions__button--copy");
+        if (!copyButton) return;
+
+        copyButton.addEventListener("click", async function () {
+            const url = copyButton.getAttribute("data-copy-url");
+            const originalText = copyButton.textContent;
+
+            try {
+                await navigator.clipboard.writeText(url);
+                copyButton.textContent = "Copiado";
+                setTimeout(() => {
+                    copyButton.textContent = originalText;
+                }, 1600);
+            } catch (error) {
+                copyButton.textContent = "No se pudo copiar";
+                setTimeout(() => {
+                    copyButton.textContent = originalText;
+                }, 1600);
+            }
+        });
+    });
+    </script>
+
+
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e8c5c528a6c9464ab6b495a375bc1c70"}'>
+</script><!-- End Cloudflare Web Analytics -->
+
+    </body>
+</html>
