@@ -4,6 +4,7 @@ author: María Pérez Garrote
 date: 2026-10-01
 layout: articles
 status: hidden <!-- (published si ya está listo)-->
+slug: prueba-maria
 category: Matemáticas <!-- Matemáticas -->
 tags:  <!-- (si ya existe una en https://napkinnotes.es/explorar esa sino una nueva, en minúscula la primera letra)-->
   - matemáticas
