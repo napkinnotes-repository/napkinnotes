@@ -29,10 +29,13 @@ Riemann también realizó importantes contribuciones a la teoría analítica de 
 
 ## Los ceros de la función zeta de Riemann
 Detengámonos un momento para entender una función que, a simple vista, parece bastante inocente. La función zeta de Riemann se define, para un número complejo $s$ con parte real mayor que uno, como
+
 $$
 \zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s} \, .
 $$
+
 Esta expresión ya había sido estudiada por Leonhard Euler en el siglo XVIII, quien descubrió que la función puede escribirse también como un producto infinito que recorre todos los números primos $p$
+
 $$
 \zeta(s)=\prod_{p}^\infty \frac{1}{1-p^{-s}} \, .
 $$
