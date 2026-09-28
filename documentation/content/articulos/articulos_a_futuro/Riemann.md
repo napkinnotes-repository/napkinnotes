@@ -11,6 +11,7 @@ tags:
   - Riemann
 summary: "En 2026 se cumplen 200 años del nacimiento de Bernhard Riemann, el matemático que sentó las bases de la geometría diferencial moderna y cuyo nombre está ligado a uno de los problemas de un millón de dólares. En estas napkin notes daremos unas pinceladas sobre la vida de este brillante matemático, hablaremos sobre su famosa función zeta y nos aventuraremos en uno de los grandes problemas abiertos de las matemáticas: la elegante, pero compleja, hipótesis de Riemann"
 image: images/maria-riemann/riemann.jpeg
+certificate: false
 ---
 
 [TOC]
