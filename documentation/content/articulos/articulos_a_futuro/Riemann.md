@@ -31,20 +31,20 @@ Riemann también realizó importantes contribuciones a la teoría analítica de 
 Detengámonos un momento para entender una función que, a simple vista, parece bastante inocente. La función zeta de Riemann se define, para un número complejo $s$ con parte real mayor que uno, como
 
 $$
-\zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s} \, .
+\zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s}  .
 $$
 
 Esta expresión ya había sido estudiada por Leonhard Euler en el siglo XVIII, quien descubrió que la función puede escribirse también como un producto infinito que recorre todos los números primos $p$
 
 $$
-\zeta(s)=\prod_{p}^\infty \frac{1}{1-p^{-s}} \, .
+\zeta(s)=\prod_{p}^\infty \frac{1}{1-p^{-s}}  .
 $$
 
 Riemann fue más allá extendiendo analíticamente esta función al plano complejo, salvo en el caso $s=1$ donde la función posee un polo simple. Escribiendo $s=\sigma + it$, siendo $\sigma$ y $t$ números reales e $i$ la unidad imaginaria, la función adquiere una estructura mucho más sugerente: posee unos ceros llamados triviales, situados en los enteros pares negativos, y otros ceros no triviales que se encuentran en la región $0\leq\sigma\leq1$, conocida como la franja crítica. Además, la ecuación funcional de la función zeta revela una simetría alrededor de la recta $\sigma=1/2$, conocida como línea crítica. En la figura 1 se representan todas estas regiones.
 Y es precisamente aquí donde aparece el misterio que hizo famosa a esta función. La distribución de los ceros no triviales es uno de los misterios matemáticos más enigmáticos del pasado siglo y medio. Riemann conjeturó que todos los ceros no triviales de $\zeta(s)$ tienen la forma
 
 $$
-s=\frac{1}{2}+it \, ,
+s=\frac{1}{2}+it  ,
 $$
 
 Esta afirmación, aparentemente sencilla de formular, es la famosa hipótesis de Riemann.
