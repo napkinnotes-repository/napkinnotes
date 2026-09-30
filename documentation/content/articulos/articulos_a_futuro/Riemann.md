@@ -9,7 +9,7 @@ category: Matemáticas
 tags:  
   - matemáticas
   - Riemann
-summary: "En 2026 se cumplen 200 años del nacimiento de Bernhard Riemann, el matemático que sentó las bases de la geometría diferencial moderna y cuyo nombre está ligado a uno de los problemas de un millón de dólares. En estas napkin notes daremos unas pinceladas sobre la vida de este brillante matemático, hablaremos sobre su famosa función zeta y nos aventuraremos en uno de los grandes problemas abiertos de las matemáticas: la elegante, pero compleja, hipótesis de Riemann"
+summary: "En 2026 se cumplen 200 años del nacimiento de Bernhard Riemann, el matemático que sentó las bases de la geometría diferencial moderna y cuyo nombre está ligado a uno de los Problemas del Milenio. En esta *napkin note* daremos unas pinceladas sobre la vida de este brillante matemático, hablaremos sobre su famosa función zeta y nos aventuraremos en uno de los grandes problemas abiertos de las matemáticas: la elegante, pero compleja, hipótesis de Riemann"
 image: images/maria-riemann/riemann.jpeg
 certificate: false
 ---
@@ -19,42 +19,41 @@ certificate: false
 
 
 ## Bernhard Riemann, el complejo matemático
-Riemann nació el 17 de septiembre de 1826 en Breselenz, un pequeño municipio del entonces Reino de Hannover. Su padre, pastor luterano en Breselenz, influyó notablemente en su educación. De hecho, Riemann comenzó sus estudios universitarios orientado hacia la teología, con la intención de seguir los pasos de su padre. Sin embargo, pronto descubrió su verdadera vocación por las matemáticas. En 1846 se trasladó a la Universidad de Göttingen, donde tuvo como profesor a Carl Friedrich Gauss, y posteriormente continuó sus estudios en Berlín.
+Riemann nació el 17 de septiembre de 1826 en Breselenz, un pequeño municipio del entonces Reino de Hannover. Su padre, pastor luterano, influyó notablemente en su educación. De hecho, Riemann comenzó sus estudios universitarios orientado hacia la teología con la intención de seguir los pasos de su padre. Sin embargo, pronto descubrió su verdadera vocación por las matemáticas. En 1846 se trasladó a la Universidad de Göttingen, donde tuvo como profesor a Carl Friedrich Gauss, y posteriormente continuó sus estudios en Berlín.
 
 Fue allí donde Riemann conoció a otros grandes matemáticos. En ese momento en Berlín impartían clase grandes nombres como Carl Gustav Jacob Jacobi, Peter Gustav Lejeune Dirichlet, Jakob Steiner, y Gotthold Eisenstein. Sin duda, los años que nuestro estudiante pasó asistiendo a estas clases magistrales influyó en su posterior investigación.
 
-Las contribuciones de Riemann sentaron algunas de las bases de la geometría diferencial moderna, que más de medio siglo después desempeñaría un papel fundamental en la formulación matemática de la relatividad general. En su célebre conferencia de 1854, Riemann propuso una visión profundamente novedosa de la geometría, generalizando las ideas de la geometría euclídea a espacios de un número arbitrario de dimensiones y dotados de una noción de distancia determinada por una métrica. Entre los objetos fundamentales de esta teoría se encuentran la métrica riemanniana y el tensor de curvatura de Riemann, $R^i_{jkl}$, que permite caracterizar intrínsecamente la curvatura de una variedad en cualquier número de dimensiones.
+Las contribuciones de Riemann sentaron algunas de las bases de la geometría diferencial moderna, que más de medio siglo después desempeñaría un papel fundamental en la formulación matemática de la teoría de la relatividad general. En su célebre conferencia de 1854, Riemann propuso una visión profundamente novedosa de la geometría, generalizando las ideas de la geometría euclídea a espacios de un número arbitrario de dimensiones y dotados de una noción de distancia determinada por una métrica. Entre los objetos fundamentales de esta teoría se encuentran la métrica riemanniana y el tensor de curvatura de Riemann, $R^i_{jkl}$, que permite caracterizar intrínsecamente la curvatura de una variedad en cualquier número de dimensiones.
 
 Riemann también realizó importantes contribuciones a la teoría analítica de números, la rama de la teoría de números que emplea herramientas del análisis matemático para estudiar propiedades de los números enteros. En su artículo *Über die Anzahl der Primzahlen unter einer gegebenen Größe*, publicado en 1859, estudió la función zeta que hoy lleva su nombre y descubrió una profunda conexión entre sus propiedades y la distribución de los números primos. En este trabajo apareció también una de las conjeturas más famosas de las matemáticas: la hipótesis de Riemann.
 
 ## Los ceros de la función zeta de Riemann
-Detengámonos un momento para entender una función que, a simple vista, parece bastante inocente. La función zeta de Riemann se define, para un número complejo $s$ con parte real mayor que uno, como
+Detengámonos un momento para entender una función que, a simple vista, parece bastante inocente. La función zeta de Riemann se define, para un número complejo $s$ con parte real mayor que uno, como:
 
 $$
-\zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s}  .
+\zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s}.
 $$
 
-Esta expresión ya había sido estudiada por Leonhard Euler en el siglo XVIII, quien descubrió que la función puede escribirse también como un producto infinito que recorre todos los números primos $p$
+Esta expresión ya había sido estudiada por Leonhard Euler en el siglo XVIII, quien descubrió que la función puede escribirse también como un producto infinito que recorre todos los números primos $p$:
 
 $$
-\zeta(s)=\prod_{p}^\infty \frac{1}{1-p^{-s}}  .
+\zeta(s)=\prod_{p}^\infty \frac{1}{1-p^{-s}}.
 $$
 
-Riemann fue más allá extendiendo analíticamente esta función al plano complejo, salvo en el caso $s=1$ donde la función posee un polo simple. Escribiendo $s=\sigma + it$, siendo $\sigma$ y $t$ números reales e $i$ la unidad imaginaria, la función adquiere una estructura mucho más sugerente: posee unos ceros llamados triviales, situados en los enteros pares negativos, y otros ceros no triviales que se encuentran en la región $0\leq\sigma\leq1$, conocida como la franja crítica. Además, la ecuación funcional de la función zeta revela una simetría alrededor de la recta $\sigma=1/2$, conocida como línea crítica. En la figura 1 se representan todas estas regiones.
-Y es precisamente aquí donde aparece el misterio que hizo famosa a esta función. La distribución de los ceros no triviales es uno de los misterios matemáticos más enigmáticos del pasado siglo y medio. Riemann conjeturó que todos los ceros no triviales de $\zeta(s)$ tienen la forma
+Riemann fue más allá extendiendo analíticamente esta función al plano complejo, salvo en el caso $s=1$ donde la función posee un polo simple. Escribiendo $s=\sigma + it$, siendo $\sigma$ y $t$ números reales e $i$ la unidad imaginaria, la función adquiere una estructura mucho más sugerente: posee unos ceros llamados triviales, situados en los enteros pares negativos, y otros ceros no triviales que se encuentran en la región $0\leq\sigma\leq1$, conocida como la franja crítica. Además, la ecuación funcional de la función zeta revela una simetría alrededor de la recta $\sigma=1/2$, conocida como línea crítica (Fig. 1). Y es precisamente aquí donde aparece el misterio que hizo famosa a esta función. La distribución de los ceros no triviales es una de las preguntas matemáticas más enigmáticas del pasado siglo y medio. Riemann conjeturó que todos los ceros no triviales de $\zeta(s)$ tienen la forma:
 
 $$
-s=\frac{1}{2}+it  ,
+s=\frac{1}{2}+it.
 $$
 
-Esta afirmación, aparentemente sencilla de formular, es la famosa hipótesis de Riemann.
+Esta afirmación, aparentemente sencilla, es la famosa hipótesis de Riemann.
 
 
 <!-- AQUÍ INSERTAR FIGURA FUNCIÓN ZETA-->
 ![El polo y la estructura de ceros de la función zeta de Riemann en el plano complejo. Sobre el eje $t=0$ se representan los ceros triviales y el polo simple $s=1$. La línea crítica $\sigma=1/2$ se representa mediante una línea punteada. Los ceros no triviales (puntos negros en la región sombreada) se encuentran en la región $0\leq\sigma\leq1$. Créditos: Daniel Schumayer y David A.W. Hutchinson](images/maria-riemann/riemann.png)
 
 ## La hipótesis del millón de dólares
-La hipótesis de Riemann es sencilla: **todos los ceros no triviales de $\zeta(s)$ se encuentran sobre la línea crítica**. Detrás de esta aparentemente inocente afirmación se esconde una de las grandes preguntas abiertas de las matemáticas. La razón de su importancia está en la profunda conexión entre los ceros de $\zeta(s)$ y la distribución de los números primos: cuanto más cerca están estos ceros de la línea crítica, más regular resulta la distribución de los primos alrededor de su comportamiento medio.
+La hipótesis de Riemann es sencilla: **todos los ceros no triviales de $\zeta(s)$ se encuentran sobre la línea crítica**. Detrás de ella se esconde una de las grandes preguntas abiertas de las matemáticas. La razón de su importancia está en la profunda conexión entre los ceros de $\zeta(s)$ y la distribución de los números primos: cuanto más cerca están estos ceros de la línea crítica, más regular resulta la distribución de los primos alrededor de su comportamiento medio.
 
 La conjetura fue formulada por Riemann en 1859 y, más de un siglo después, en el año 2000, el Clay Mathematics Institute la incluyó entre sus siete *Millennium Prize Problems*. Cada uno de estos problemas lleva asociado un premio de un millón de dólares para quien consiga demostrarlo o refutarlo. La hipótesis de Riemann continúa sin resolverse: se han comprobado computacionalmente cantidades enormes de ceros y todos los examinados hasta los límites alcanzados satisfacen la conjetura, pero en matemáticas la evidencia numérica no sustituye a una demostración.
 
