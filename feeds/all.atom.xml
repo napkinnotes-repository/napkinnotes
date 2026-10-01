@@ -1,5 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-09-24T00:00:00+02:00</updated><entry><title>El valor de no ignorar lo extraño</title><link href="https://napkinnotes.es/el-valor-de-no-ignorar-lo-extrano" rel="alternate"/><published>2026-09-24T00:00:00+02:00</published><updated>2026-09-24T00:00:00+02:00</updated><author><name>Alejandro Peñuela Díaz</name></author><id>tag:napkinnotes.es,2026-09-24:/el-valor-de-no-ignorar-lo-extrano</id><summary type="html">&lt;p&gt;Un detalle astronómico que Heródoto consideró absurdo podría respaldar la posible circunnavegación fenicia de África. El texto explora por qué conservar lo extraño puede revelar nueva&amp;nbsp;evidencia.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-10-01T00:00:00+02:00</updated><entry><title>Riemann y el millón de dólares: los secretos de los números primos</title><link href="https://napkinnotes.es/riemann-y-el-millon-de-dolares-los-secretos-de-los-numeros-primos" rel="alternate"/><published>2026-10-01T00:00:00+02:00</published><updated>2026-10-01T00:00:00+02:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-10-01:/riemann-y-el-millon-de-dolares-los-secretos-de-los-numeros-primos</id><summary type="html">&lt;p&gt;En 2026 se cumplen 200 años del nacimiento de Bernhard Riemann, el matemático que sentó las bases de la geometría diferencial moderna y cuyo nombre está ligado a uno de los Problemas del Milenio. En esta &lt;em&gt;napkin note&lt;/em&gt; daremos unas pinceladas sobre la vida de este brillante matemático, hablaremos sobre su famosa función zeta y nos aventuraremos en uno de los grandes problemas abiertos de las matemáticas: la elegante, pero compleja, hipótesis de&amp;nbsp;Riemann&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#bernhard-riemann-el-complejo-matematico"&gt;Bernhard Riemann, el complejo&amp;nbsp;matemático&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#los-ceros-de-la-funcion-zeta-de-riemann"&gt;Los ceros de la función zeta de&amp;nbsp;Riemann&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#la-hipotesis-del-millon-de-dolares"&gt;La hipótesis del millón de&amp;nbsp;dólares&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="bernhard-riemann-el-complejo-matematico"&gt;Bernhard Riemann, el complejo matemático&lt;a class="headerlink" href="#bernhard-riemann-el-complejo-matematico" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Riemann nació el 17 de septiembre de 1826 en Breselenz, un pequeño municipio del entonces Reino de Hannover. Su padre, pastor luterano, influyó notablemente en su educación. De hecho, Riemann comenzó sus estudios universitarios orientado hacia la teología con la intención de seguir los pasos de su padre. Sin embargo, pronto descubrió su verdadera vocación por las matemáticas. En 1846 se trasladó a la Universidad de Göttingen, donde tuvo como profesor a Carl Friedrich Gauss, y posteriormente continuó sus estudios en&amp;nbsp;Berlín.&lt;/p&gt;
+&lt;p&gt;Fue allí donde Riemann conoció a otros grandes matemáticos. En ese momento en Berlín impartían clase grandes nombres como Carl Gustav Jacob Jacobi, Peter Gustav Lejeune Dirichlet, Jakob Steiner, y Gotthold Eisenstein. Sin duda, los años que nuestro estudiante pasó asistiendo a estas clases magistrales influyó en su posterior&amp;nbsp;investigación.&lt;/p&gt;
+&lt;p&gt;Las contribuciones de Riemann sentaron algunas de las bases de la geometría diferencial moderna, que más de medio siglo después desempeñaría un papel fundamental en la formulación matemática de la teoría de la relatividad general. En su célebre conferencia de 1854, Riemann propuso una visión profundamente novedosa de la geometría, generalizando las ideas de la geometría euclídea a espacios de un número arbitrario de dimensiones y dotados de una noción de distancia determinada por una métrica. Entre los objetos fundamentales de esta teoría se encuentran la métrica riemanniana y el tensor de curvatura de&amp;nbsp;Riemann, &lt;span class="math"&gt;\(R^i_{jkl}\)&lt;/span&gt;, que permite caracterizar intrínsecamente la curvatura de una variedad en cualquier número de&amp;nbsp;dimensiones.&lt;/p&gt;
+&lt;p&gt;Riemann también realizó importantes contribuciones a la teoría analítica de números, la rama de la teoría de números que emplea herramientas del análisis matemático para estudiar propiedades de los números enteros. En su artículo &lt;em&gt;Über die Anzahl der Primzahlen unter einer gegebenen Größe&lt;/em&gt;, publicado en 1859, estudió la función zeta que hoy lleva su nombre y descubrió una profunda conexión entre sus propiedades y la distribución de los números primos. En este trabajo apareció también una de las conjeturas más famosas de las matemáticas: la hipótesis de&amp;nbsp;Riemann.&lt;/p&gt;
+&lt;h2 id="los-ceros-de-la-funcion-zeta-de-riemann"&gt;Los ceros de la función zeta de Riemann&lt;a class="headerlink" href="#los-ceros-de-la-funcion-zeta-de-riemann" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Detengámonos un momento para entender una función que, a simple vista, parece bastante inocente. La función zeta de Riemann se define, para un número&amp;nbsp;complejo &lt;span class="math"&gt;\(s\)&lt;/span&gt; con parte real mayor que uno,&amp;nbsp;como:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s}.
+$$&lt;/div&gt;
+&lt;p&gt;Esta expresión ya había sido estudiada por Leonhard Euler en el siglo &lt;span class="caps"&gt;XVIII&lt;/span&gt;, quien descubrió que la función puede escribirse también como un producto infinito que recorre todos los números&amp;nbsp;primos &lt;span class="math"&gt;\(p\)&lt;/span&gt;:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\zeta(s)=\prod_{p}^\infty \frac{1}{1-p^{-s}}.
+$$&lt;/div&gt;
+&lt;p&gt;Riemann fue más allá extendiendo analíticamente esta función al plano complejo, salvo en el&amp;nbsp;caso &lt;span class="math"&gt;\(s=1\)&lt;/span&gt; donde la función posee un polo simple.&amp;nbsp;Escribiendo &lt;span class="math"&gt;\(s=\sigma + it\)&lt;/span&gt;,&amp;nbsp;siendo &lt;span class="math"&gt;\(\sigma\)&lt;/span&gt; y &lt;span class="math"&gt;\(t\)&lt;/span&gt; números reales&amp;nbsp;e &lt;span class="math"&gt;\(i\)&lt;/span&gt; la unidad imaginaria, la función adquiere una estructura mucho más sugerente: posee unos ceros llamados triviales, situados en los enteros pares negativos, y otros ceros no triviales que se encuentran en la&amp;nbsp;región &lt;span class="math"&gt;\(0\leq\sigma\leq1\)&lt;/span&gt;, conocida como la franja crítica. Además, la ecuación funcional de la función zeta revela una simetría alrededor de la&amp;nbsp;recta &lt;span class="math"&gt;\(\sigma=1/2\)&lt;/span&gt;, conocida como línea crítica (Fig. 1). Y es precisamente aquí donde aparece el misterio que hizo famosa a esta función. La distribución de los ceros no triviales es una de las preguntas matemáticas más enigmáticas del pasado siglo y medio. Riemann conjeturó que todos los ceros no triviales&amp;nbsp;de &lt;span class="math"&gt;\(\zeta(s)\)&lt;/span&gt; tienen la&amp;nbsp;forma:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+s=\frac{1}{2}+it.
+$$&lt;/div&gt;
+&lt;p&gt;Esta afirmación, aparentemente sencilla, es la famosa hipótesis de&amp;nbsp;Riemann.&lt;/p&gt;
+&lt;!-- AQUÍ INSERTAR FIGURA FUNCIÓN ZETA--&gt;
+&lt;p&gt;&lt;img alt="El polo y la estructura de ceros de la función zeta de Riemann en el plano complejo. Sobre el eje \(t=0\) se representan los ceros triviales y el polo simple \(s=1\). La línea crítica \(\sigma=1/2\) se representa mediante una línea punteada. Los ceros no triviales (puntos negros en la región sombreada) se encuentran en la región \(0\leq\sigma\leq1\). Créditos: Daniel Schumayer y David A.W. Hutchinson" src="images/maria-riemann/riemann.png" /&gt;&lt;/p&gt;
+&lt;h2 id="la-hipotesis-del-millon-de-dolares"&gt;La hipótesis del millón de dólares&lt;a class="headerlink" href="#la-hipotesis-del-millon-de-dolares" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;La hipótesis de Riemann es sencilla: &lt;strong&gt;todos los ceros no triviales&amp;nbsp;de &lt;span class="math"&gt;\(\zeta(s)\)&lt;/span&gt; se encuentran sobre la línea crítica&lt;/strong&gt;. Detrás de ella se esconde una de las grandes preguntas abiertas de las matemáticas. La razón de su importancia está en la profunda conexión entre los ceros&amp;nbsp;de &lt;span class="math"&gt;\(\zeta(s)\)&lt;/span&gt; y la distribución de los números primos: cuanto más cerca están estos ceros de la línea crítica, más regular resulta la distribución de los primos alrededor de su comportamiento&amp;nbsp;medio.&lt;/p&gt;
+&lt;p&gt;La conjetura fue formulada por Riemann en 1859 y, más de un siglo después, en el año 2000, el Clay Mathematics Institute la incluyó entre sus siete &lt;em&gt;Millennium Prize Problems&lt;/em&gt;. Cada uno de estos problemas lleva asociado un premio de un millón de dólares para quien consiga demostrarlo o refutarlo. La hipótesis de Riemann continúa sin resolverse: se han comprobado computacionalmente cantidades enormes de ceros y todos los examinados hasta los límites alcanzados satisfacen la conjetura, pero en matemáticas la evidencia numérica no sustituye a una&amp;nbsp;demostración.&lt;/p&gt;
+&lt;p&gt;Y aquí reside precisamente el reto: no basta con encontrar muchos ceros sobre la línea crítica; habría que demostrar que todos los infinitos ceros no triviales de la función zeta tienen parte real exactamente igual&amp;nbsp;a &lt;span class="math"&gt;\(1/2\)&lt;/span&gt;. Una demostración de esta afirmación no solo resolvería uno de los Problemas del Milenio, sino que proporcionaría una comprensión mucho más profunda de cómo se distribuyen los números&amp;nbsp;primos.&lt;/p&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+  &lt;li id="ref-1"&gt;
+    &lt;span class="caps"&gt;L.J.&lt;/span&gt; Garay, Lecture notes: Differential geometry.
+    &lt;a href="https://sites.google.com/site/luisjgaray"&gt;https://sites.google.com/site/luisjgaray&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-2"&gt;
+    The Mathematical Papers of Georg Friedrich Bernhard Riemann (1826-1866).
+    &lt;a href="https://www.emis.de/classics/Riemann/"&gt;https://www.emis.de/classics/Riemann/&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-3"&gt;
+    Riemann, B. (1859). Über die Anzahl der Primzahlen unter einer gegebenen Grösse. &lt;em&gt;Monatsberichte der Berliner Akademie, 136-144.&lt;/em&gt;
+    &lt;a href="https://doi.org/10.1017/cbo9781139568050.008" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1017/cbo9781139568050.008&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-4"&gt;
+    Carroll, &lt;span class="caps"&gt;S. M.&lt;/span&gt;(2003). Spacetime and Geometry: An Introduction to General Relativity. &lt;em&gt;Addison-Wesley.&lt;/em&gt;
+    &lt;a href="https://doi.org/10.1017/9781108770385" target="_blank" rel="noopener noreferrer"&gt;&amp;nbsp;https://doi.org/10.1017/9781108770385 &lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-5"&gt;
+    &lt;span class="caps"&gt;C.W.&lt;/span&gt; Misner, &lt;span class="caps"&gt;K.S.&lt;/span&gt; Thorne, and &lt;span class="caps"&gt;J.A.&lt;/span&gt; Wheeler (1973). Gravitation. &lt;em&gt;&lt;span class="caps"&gt;W. H.&lt;/span&gt; Freeman and&amp;nbsp;Company.&lt;/em&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-6"&gt;
+    Schumayer, D. and Hutchinson, &lt;span class="caps"&gt;D. A.&lt;/span&gt; W.(2011). Physics of the Riemann Hypothesis. &lt;em&gt;Rev.Mod.Phys. 83, 307-330.&lt;/em&gt;
+    &lt;a href="https://doi.org/10.1103/RevModPhys.83.307" target="_blank" rel="noopener noreferrer"&gt;&amp;nbsp;https://doi.org/10.1103/RevModPhys.83.307 &lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-7"&gt;
+    The Millennium Prize Problems.
+    &lt;a href="https://www.claymath.org/millennium/riemann-hypothesis/"&gt;https://www.claymath.org/millennium/riemann-hypothesis/&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Matemáticas"/><category term="matemáticas"/><category term="Riemann"/></entry><entry><title>El valor de no ignorar lo extraño</title><link href="https://napkinnotes.es/el-valor-de-no-ignorar-lo-extrano" rel="alternate"/><published>2026-09-24T00:00:00+02:00</published><updated>2026-09-24T00:00:00+02:00</updated><author><name>Alejandro Peñuela Díaz</name></author><id>tag:napkinnotes.es,2026-09-24:/el-valor-de-no-ignorar-lo-extrano</id><summary type="html">&lt;p&gt;Un detalle astronómico que Heródoto consideró absurdo podría respaldar la posible circunnavegación fenicia de África. El texto explora por qué conservar lo extraño puede revelar nueva&amp;nbsp;evidencia.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#el-padre-de-la-historia"&gt;El padre de la&amp;nbsp;historia&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#cambiemos-de-hemisferio"&gt;Cambiemos de&amp;nbsp;hemisferio&lt;/a&gt;&lt;/li&gt;
