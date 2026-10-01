@@ -3,8 +3,7 @@ title: "Riemann y el millón de dólares: los secretos de los números primos"
 author: María Pérez Garrote
 date: 2026-10-01
 layout: articles
-status: hidden 
-slug: prueba-maria
+status: published 
 category: Matemáticas 
 tags:  
   - matemáticas
