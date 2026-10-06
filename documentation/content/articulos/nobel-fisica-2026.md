@@ -4,7 +4,7 @@ author: Duvier Suárez Fontanella
 date: 2026-10-06
 layout: articles
 slug: nobel-fisica-2026-francis-halzen-icecube
-status: hidden
+status: published
 category: Física
 tags:
   - neutrinos
