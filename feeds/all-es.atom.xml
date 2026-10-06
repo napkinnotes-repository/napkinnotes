@@ -1,5 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-10-01T00:00:00+02:00</updated><entry><title>Riemann y el millón de dólares: los secretos de los números primos</title><link href="https://napkinnotes.es/riemann-y-el-millon-de-dolares-los-secretos-de-los-numeros-primos" rel="alternate"/><published>2026-10-01T00:00:00+02:00</published><updated>2026-10-01T00:00:00+02:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-10-01:/riemann-y-el-millon-de-dolares-los-secretos-de-los-numeros-primos</id><summary type="html">&lt;p&gt;En 2026 se cumplen 200 años del nacimiento de Bernhard Riemann, el matemático que sentó las bases de la geometría diferencial moderna y cuyo nombre está ligado a uno de los Problemas del Milenio. En esta &lt;em&gt;napkin note&lt;/em&gt; daremos unas pinceladas sobre la vida de este brillante matemático, hablaremos sobre su famosa función zeta y nos aventuraremos en uno de los grandes problemas abiertos de las matemáticas: la elegante, pero compleja, hipótesis de&amp;nbsp;Riemann&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-10-06T00:00:00+02:00</updated><entry><title>El Universo bajo el hielo y el Nobel de Física 2026</title><link href="https://napkinnotes.es/nobel-fisica-2026-francis-halzen-icecube" rel="alternate"/><published>2026-10-06T00:00:00+02:00</published><updated>2026-10-06T00:00:00+02:00</updated><author><name>Duvier Suárez Fontanella</name></author><id>tag:napkinnotes.es,2026-10-06:/nobel-fisica-2026-francis-halzen-icecube</id><summary type="html">&lt;p&gt;Francis Halzen recibe el Nobel de Física 2026 por convertir el hielo del Polo Sur en un gigantesco telescopio capaz de detectar neutrinos de las regiones más energéticas del&amp;nbsp;Universo.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#un-mensajero-casi-invisible"&gt;Un mensajero casi&amp;nbsp;invisible&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#la-solucion-hacer-el-detector-absurdamente-grande"&gt;La solución: hacer el detector absurdamente&amp;nbsp;grande&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#ver-un-neutrino-sin-ver-el-neutrino"&gt;Ver un neutrino sin ver el&amp;nbsp;neutrino&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#veintiocho-senales-que-no-deberian-estar-alli"&gt;Veintiocho señales que no deberían estar&amp;nbsp;allí&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#un-neutrino-apunta-hacia-un-agujero-negro"&gt;Un neutrino apunta hacia un agujero&amp;nbsp;negro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#entonces-que-premia-exactamente-el-nobel"&gt;Entonces, ¿qué premia exactamente el&amp;nbsp;Nobel?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#un-telescopio-que-mira-hacia-todas-partes"&gt;Un telescopio que mira hacia todas&amp;nbsp;partes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;La forma habitual de mirar el Universo es esperar a que algo nos envíe luz. Puede ser luz visible, ondas de radio, infrarrojo, rayos X o rayos gamma, pero el principio es casi siempre el mismo, un objeto lejano emite fotones y nosotros construimos un telescopio para&amp;nbsp;recogerlos.&lt;/p&gt;
+&lt;p&gt;El &lt;strong&gt;Premio Nobel de Física 2026&lt;/strong&gt; reconoce una idea mucho más extraña: observar el cosmos con partículas que pueden atravesar planetas enteros casi sin darse cuenta de que están ahí. El 6 de octubre de 2026, la Real Academia Sueca de Ciencias concedió el premio a &lt;strong&gt;Francis Halzen&lt;/strong&gt; por sus contribuciones decisivas al observatorio &lt;strong&gt;IceCube&lt;/strong&gt; y al descubrimiento de neutrinos de alta energía de origen astrofísico &lt;a class="nn-cite" href="#ref-1"&gt;[1]&lt;/a&gt;&lt;a class="nn-cite" href="#ref-2"&gt;[2]&lt;/a&gt;. Para conseguirlo hubo que construir uno de los telescopios más peculiares de la historia: &lt;strong&gt;un kilómetro cúbico de hielo antártico lleno de sensores de luz&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Un neutrino cósmico y el observatorio IceCube" src="images/261006-duvier-nobel/nobel-fisica-2026-neutrino-icecube.jpeg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figura 1. Los neutrinos permiten observar regiones del Universo a las que otros mensajeros no siempre pueden acceder. Ilustración: © Johan Jarnestad/The Royal Swedish Academy of&amp;nbsp;Sciences.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="un-mensajero-casi-invisible"&gt;Un mensajero casi invisible&lt;a class="headerlink" href="#un-mensajero-casi-invisible" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Los neutrinos son partículas elementales sin carga eléctrica y con una masa extremadamente pequeña. Interaccionan tan débilmente con la materia que alrededor de &lt;strong&gt;100 billones de neutrinos atraviesan nuestro cuerpo cada segundo&lt;/strong&gt; sin producir ningún efecto perceptible &lt;a class="nn-cite" href="#ref-3"&gt;[3]&lt;/a&gt;. Esa indiferencia hacia la materia es una pesadilla si queremos detectarlos, pero es precisamente lo que los hace extraordinarios como mensajeros&amp;nbsp;astronómicos.&lt;/p&gt;
+&lt;p&gt;Los fotones pueden ser absorbidos o dispersados por la materia que rodea una fuente. Los rayos cósmicos, protones y núcleos atómicos de altísima energía, tienen carga eléctrica, por lo que los campos magnéticos galácticos e intergalácticos van curvando sus trayectorias durante el viaje. Cuando uno de ellos llega a la Tierra, reconstruir el lugar exacto del que salió puede ser muy&amp;nbsp;difícil.&lt;/p&gt;
+&lt;p&gt;Un neutrino de alta energía juega con otras reglas. Como no tiene carga eléctrica, los campos magnéticos no desvían apreciablemente su camino, y como interatúa muy poco puede escapar de entornos extremadamente densos. Si conseguimos detectar uno y reconstruir su dirección de llegada, obtenemos una pista casi directa hacia la región del cielo donde nació &lt;a class="nn-cite" href="#ref-1"&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;¿Por qué interesan tanto los neutrinos de alta energía?&lt;/strong&gt;&lt;br /&gt;
+Porque actúan como mensajeros de algunos de los aceleradores más extremos del Universo, capaces de impulsar partículas hasta energías inalcanzables para nuestros aceleradores&amp;nbsp;terrestres.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Los grandes aceleradores cósmicos pueden encontrarse alrededor de agujeros negros, núcleos activos de galaxias, explosiones estelares y otros ambientes violentos. Allí, protones y núcleos acelerados pueden colisionar con gas o radiación. Esas interacciones producen partículas inestables, como los piones, cuyos decaimientos generan neutrinos. Detectar estos neutrinos nos permite estudiar indirectamente el motor que está acelerando las partículas &lt;a class="nn-cite" href="#ref-2"&gt;[2]&lt;/a&gt;. Sin embargo, &lt;strong&gt;¿cómo se detecta una partícula cuya principal característica es que casi nunca interacciona con&amp;nbsp;nada?&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="la-solucion-hacer-el-detector-absurdamente-grande"&gt;La solución: hacer el detector absurdamente grande&lt;a class="headerlink" href="#la-solucion-hacer-el-detector-absurdamente-grande" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Si una interacción es extremadamente improbable, una estrategia posible es aumentar brutalmente la cantidad de materia que vigilamos. Esta es la idea que llevó, tras décadas de desarrollo y el precedente del experimento &lt;span class="caps"&gt;AMANDA&lt;/span&gt; (Antarctic Muon And Neutrino Detector Array), al observatorio &lt;strong&gt;IceCube&lt;/strong&gt; en el Polo Sur. En lugar de construir un recipiente gigantesco y llenarlo de algún material transparente, los investigadores aprovecharon algo que ya estaba allí, el hielo profundo de la Antártida &lt;a class="nn-cite" href="#ref-1"&gt;[1]&lt;/a&gt;&lt;a class="nn-cite" href="#ref-2"&gt;[2]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;IceCube instrumenta aproximadamente &lt;strong&gt;un kilómetro cúbico de hielo&lt;/strong&gt;. En su configuración original se instalaron &lt;strong&gt;5.160 módulos ópticos digitales&lt;/strong&gt;, distribuidos en &lt;strong&gt;86 cables verticales&lt;/strong&gt;, los llamados &lt;em&gt;strings&lt;/em&gt;, entre unos &lt;strong&gt;1.450 y 2.450 metros de profundidad&lt;/strong&gt; &lt;a class="nn-cite" href="#ref-3"&gt;[3]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para colocar los sensores fue necesario perforar el hielo con agua caliente y bajar cada cadena de detectores antes de que el agujero volviera a congelarse. Una vez allí, los módulos quedaron atrapados permanentemente en el glaciar. Y aquí aparece uno de los detalles más interesantes: &lt;strong&gt;IceCube no ve directamente el neutrino&lt;/strong&gt;, espera a que ocurra algo muchísimo menos&amp;nbsp;frecuente.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Esquema del observatorio de neutrinos IceCube" src="images/261006-duvier-nobel/nobel-fisica-2026-icecube-esquema.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figura 2. IceCube utiliza aproximadamente un kilómetro cúbico de hielo antártico como volumen detector. Miles de sensores ópticos permanecen congelados a profundidades que llegan hasta unos 2,5 kilómetros. Ilustración: © Johan Jarnestad/The Royal Swedish Academy of&amp;nbsp;Sciences.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="ver-un-neutrino-sin-ver-el-neutrino"&gt;Ver un neutrino sin ver el neutrino&lt;a class="headerlink" href="#ver-un-neutrino-sin-ver-el-neutrino" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;De vez en cuando, un neutrino choca con un núcleo atómico del hielo y la interacción puede producir una partícula cargada, por ejemplo, un muón o un electrón, que atraviesa el&amp;nbsp;detector. &lt;/p&gt;
+&lt;p&gt;La luz se propaga en el hielo más despacio que en el vacío. Por eso una partícula cargada suficientemente energética puede desplazarse por el hielo a una velocidad mayor que la velocidad de la luz &lt;strong&gt;en ese medio&lt;/strong&gt;, sin superar nunca el límite relativista de la velocidad de la luz en el vacío por supuesto. Cuando ocurre esto se emite &lt;strong&gt;radiación Cherenkov&lt;/strong&gt;, un destello característico de luz azul y la condición para que se produzca puede escribirse de forma muy&amp;nbsp;sencilla:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+v &amp;gt; \frac{c}{n},
+$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(v\)&lt;/span&gt; es la velocidad de la partícula&amp;nbsp;cargada, &lt;span class="math"&gt;\(c\)&lt;/span&gt; es la velocidad de la luz en el vacío&amp;nbsp;y &lt;span class="math"&gt;\(n\)&lt;/span&gt; es el índice de refracción del&amp;nbsp;hielo.&lt;/p&gt;
+&lt;p&gt;Los módulos ópticos registran cuándo llega esa luz y cuánta recibe cada sensor. A partir del patrón tridimensional de tiempos e intensidades, los investigadores pueden reconstruir la energía del evento y, en muchos casos, la dirección de llegada del neutrino original &lt;a class="nn-cite" href="#ref-3"&gt;[3]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Es una idea bastante hermosa: una partícula &amp;#8220;invisible ¨ atraviesa el hielo produce otra partícula y esa segunda partícula deja durante unos instantes un rastro de luz. &lt;strong&gt;El telescopio reconstruye el mensajero a partir de su sombra&amp;nbsp;luminosa.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="veintiocho-senales-que-no-deberian-estar-alli"&gt;Veintiocho señales que no deberían estar allí&lt;a class="headerlink" href="#veintiocho-senales-que-no-deberian-estar-alli" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Construir IceCube era solo la primera mitad del problema. Después había que demostrar que realmente podía encontrar neutrinos procedentes del cosmos y distinguirlos del enorme fondo de partículas generado en la atmósfera terrestre. En 2013 llegó el resultado decisivo. La colaboración analizó datos tomados entre mayo de 2010 y mayo de 2012 y encontró &lt;strong&gt;28 eventos de muy alta energía&lt;/strong&gt;. Sus energías, direcciones y características no eran compatibles con una explicación basada únicamente en muones y neutrinos atmosféricos. El resultado constituyó la primera evidencia sólida de una población de neutrinos de alta energía de origen extraterrestre &lt;a class="nn-cite" href="#ref-4"&gt;[4]&lt;/a&gt;. Entre ellos se encontraban dos eventos particularmente energéticos, del orden del petaelectronvoltio, que dentro de la colaboración recibieron los nombres informales de &lt;strong&gt;Bert&lt;/strong&gt; y &lt;strong&gt;Ernie&lt;/strong&gt; &lt;a class="nn-cite" href="#ref-6"&gt;[6]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Un petaelectronvoltio&amp;nbsp;es&lt;/p&gt;
+&lt;div class="math"&gt;$$
+1\ \mathrm{PeV}=10^{15}\ \mathrm{eV}.
+$$&lt;/div&gt;
+&lt;p&gt;Un petaelectronvoltio equivale aproximadamente a &lt;strong&gt;0,16 milijulios&lt;/strong&gt;. En nuestra escala cotidiana, esta sigue siendo muy poca energía; lo extraordinario es que esté concentrada en &lt;strong&gt;una única partícula subatómica&lt;/strong&gt;. Por primera vez, IceCube estaba viendo con claridad una población de neutrinos producida fuera del Sistema Solar, pero todavía faltaba una pregunta aún más difícil. &lt;strong&gt;¿Podemos saber qué objeto concreto produjo uno de esos&amp;nbsp;neutrinos?&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="un-neutrino-apunta-hacia-un-agujero-negro"&gt;Un neutrino apunta hacia un agujero negro&lt;a class="headerlink" href="#un-neutrino-apunta-hacia-un-agujero-negro" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El 22 de septiembre de 2017 IceCube detectó un neutrino de muy alta energía y envió una alerta automática a otros observatorios. El evento, conocido como &lt;strong&gt;IceCube-170922A&lt;/strong&gt;, llegó desde una dirección en la que los telescopios de rayos gamma observaron al blázar &lt;strong&gt;&lt;span class="caps"&gt;TXS&lt;/span&gt; 0506+056&lt;/strong&gt; en un estado de intensa actividad &lt;a class="nn-cite" href="#ref-5"&gt;[5]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Un blázar es una galaxia activa cuyo agujero negro supermasivo central produce chorros de partículas relativistas, uno de los cuales apunta aproximadamente hacia nosotros. Estos objetos son excelentes candidatos a aceleradores cósmicos. La coincidencia temporal y espacial entre el neutrino y la actividad electromagnética del blázar proporcionó una evidencia especialmente importante de que este tipo de fuentes puede producir neutrinos de altísima energía. Cuando los investigadores revisaron además los datos anteriores de IceCube encontraron un exceso de neutrinos procedente de la misma dirección durante 2014 y 2015 &lt;a class="nn-cite" href="#ref-5"&gt;[5]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aquí la historia deja de ser solamente física de partículas y se convierte en &lt;strong&gt;astronomía multimensajero&lt;/strong&gt;. Para estudiar un mismo objeto podemos combinar información transportada por fotones, neutrinos, rayos cósmicos e incluso ondas gravitacionales. Cada mensajero responde a procesos físicos diferentes y puede atravesar regiones que resultan opacas para los demás. No estamos construyendo simplemente telescopios mejores, estamos aprendiendo a mirar el Universo con sentidos completamente&amp;nbsp;nuevos.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="entonces-que-premia-exactamente-el-nobel"&gt;Entonces, ¿qué premia exactamente el Nobel?&lt;a class="headerlink" href="#entonces-que-premia-exactamente-el-nobel" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El Nobel de 2026 no recompensa el descubrimiento de los neutrinos, a ellos los conocemos desde hace décadas, sino que reconoce el papel decisivo de Francis Halzen en el desarrollo científico de &lt;strong&gt;IceCube como observatorio de neutrinos de alta energía&lt;/strong&gt; y en el descubrimiento de esa nueva población astrofísica &lt;a class="nn-cite" href="#ref-1"&gt;[1]&lt;/a&gt;&lt;a class="nn-cite" href="#ref-2"&gt;[2]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Y conviene hacer aquí una precisión importante: IceCube es el resultado del trabajo de una enorme colaboración internacional de físicos, ingenieros, técnicos y personal especializado. La ciencia que desembocó en el premio se construyó durante décadas y sobre resultados anteriores de numerosos experimentos. El Nobel señala a una persona concreta, pero el instrumento y sus descubrimientos pertenecen a una empresa científica&amp;nbsp;colectiva.&lt;/p&gt;
+&lt;p&gt;Lo que sí representa especialmente bien la trayectoria de Halzen es la capacidad de llevar una idea que parecía desmesurada, convertir el hielo del Polo Sur en un detector de partículas, hasta una escala en la que pudiera transformar una&amp;nbsp;disciplina.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="un-telescopio-que-mira-hacia-todas-partes"&gt;Un telescopio que mira hacia todas partes&lt;a class="headerlink" href="#un-telescopio-que-mira-hacia-todas-partes" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;La imagen clásica de un telescopio es un tubo, un espejo o una antena orientados hacia una región concreta del cielo pero IceCube no se parece a nada de eso. Está enterrado bajo el hielo y no tiene una lente ni posee un espejo principal. Sus sensores miran la oscuridad que los rodea esperando destellos que duran instantes y una parte de los neutrinos que detecta ha atravesado incluso la Tierra antes de llegar al observatorio. Pero conceptualmente sigue haciendo lo mismo que hizo Galileo cuando apuntó su telescopio al cielo, &lt;strong&gt;convertir algo que nuestros sentidos no pueden percibir en información sobre el Universo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Durante siglos ampliamos nuestra visión añadiendo nuevas longitudes de onda, radio, infrarrojo, ultravioleta, rayos X, gamma. El siguiente salto fue comprender que no todo lo que merece ser observado es luz. El Nobel de Física de 2026 reconoce precisamente ese cambio de perspectiva. Quizá, después de todo, observar el Universo no consista únicamente en aprender a ver más lejos, sino en aprender a detectar aquello que nuestros ojos nunca podrán&amp;nbsp;ver.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+  &lt;li id="ref-1"&gt;
+    The Royal Swedish Academy of Sciences (2026). &lt;em&gt;Popular science background: Nobel Prize in Physics 2026&lt;/em&gt;.
+    &lt;a href="https://www.nobelprize.org/prizes/physics/2026/popular-information/" target="_blank" rel="noopener noreferrer"&gt;https://www.nobelprize.org/prizes/physics/2026/popular-information/&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-2"&gt;
+    The Nobel Committee for Physics (2026). &lt;em&gt;Scientific Background to the Nobel Prize in Physics 2026&lt;/em&gt;. The Royal Swedish Academy of Sciences.
+    &lt;a href="https://www.nobelprize.org/uploads/2026/10/advanced-physicsprize2026.pdf" target="_blank" rel="noopener noreferrer"&gt;https://www.nobelprize.org/uploads/2026/10/advanced-physicsprize2026.pdf&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-3"&gt;
+    IceCube Collaboration. &lt;em&gt;IceCube Quick Facts&lt;/em&gt;. IceCube Neutrino Observatory.
+    &lt;a href="https://icecube.wisc.edu/about-us/facts/" target="_blank" rel="noopener noreferrer"&gt;https://icecube.wisc.edu/about-us/facts/&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-4"&gt;
+    IceCube Collaboration (2013). Evidence for High-Energy Extraterrestrial Neutrinos at the IceCube Detector. &lt;em&gt;Science&lt;/em&gt;, 342, 1242856.
+    &lt;a href="https://doi.org/10.1126/science.1242856" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1126/science.1242856&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-5"&gt;
+    IceCube Collaboration et al. (2018). Multimessenger observations of a flaring blazar coincident with high-energy neutrino IceCube-170922A. &lt;em&gt;Science&lt;/em&gt;, 361, eaat1378.
+    &lt;a href="https://doi.org/10.1126/science.aat1378" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1126/science.aat1378&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="ref-6"&gt;
+    IceCube Neutrino Observatory. &lt;em&gt;Timeline: May 2013 — Bert and Ernie&lt;/em&gt;.
+    &lt;a href="https://icecube.wisc.edu/about-us/icecube10/timeline/" target="_blank" rel="noopener noreferrer"&gt;https://icecube.wisc.edu/about-us/icecube10/timeline/&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Física"/><category term="neutrinos"/><category term="astrofísica"/><category term="icecube"/><category term="nobel"/></entry><entry><title>Riemann y el millón de dólares: los secretos de los números primos</title><link href="https://napkinnotes.es/riemann-y-el-millon-de-dolares-los-secretos-de-los-numeros-primos" rel="alternate"/><published>2026-10-01T00:00:00+02:00</published><updated>2026-10-01T00:00:00+02:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-10-01:/riemann-y-el-millon-de-dolares-los-secretos-de-los-numeros-primos</id><summary type="html">&lt;p&gt;En 2026 se cumplen 200 años del nacimiento de Bernhard Riemann, el matemático que sentó las bases de la geometría diferencial moderna y cuyo nombre está ligado a uno de los Problemas del Milenio. En esta &lt;em&gt;napkin note&lt;/em&gt; daremos unas pinceladas sobre la vida de este brillante matemático, hablaremos sobre su famosa función zeta y nos aventuraremos en uno de los grandes problemas abiertos de las matemáticas: la elegante, pero compleja, hipótesis de&amp;nbsp;Riemann&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#bernhard-riemann-el-complejo-matematico"&gt;Bernhard Riemann, el complejo&amp;nbsp;matemático&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#los-ceros-de-la-funcion-zeta-de-riemann"&gt;Los ceros de la función zeta de&amp;nbsp;Riemann&lt;/a&gt;&lt;/li&gt;
