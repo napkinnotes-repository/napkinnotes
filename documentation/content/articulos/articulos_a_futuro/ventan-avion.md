@@ -45,15 +45,15 @@ Y aquí viene la parte que más me sorprendió: en realidad, no son de vidrio. E
 
 Este fue mi momento de revelación.
 
-Cuando vuelas a una altitud de entre 10 y 12 kilómetros, el aire exterior es demasiado fino como para respirar cómodamente. Por eso el avión bombea aire hacia la cabina para que se sienta como si estuvieras a unos 1.800–2.400 metros de altura, más o menos la altitud de un pueblo de montaña.
+Cuando vuelas a una altitud de entre 10 y 12 kilómetros, la presión atmosférica exterior es demasiado baja como para respirar cómodamente. Por eso el avión bombea aire hacia la cabina, es decir presuriza la cabina, para que se sienta como si estuvieras a unos 1.800–2.400 metros de altura, más o menos la altitud de un pueblo de montaña.
 
-Por eso también se infla tu bolsa de papas fritas y se te tapan los oídos.
+Por eso también se infla tu bolsa de patatas fritas y se te tapan los oídos.
 
-Eso significa que el aire dentro del avión está empujando constantemente hacia afuera, intentando escapar hacia el aire más fino del exterior. En una sola ventana pequeña, esa presión suma cientos de kilogramos de fuerza en cada vuelo.
+Debido a esta diferencia de presiones, el aire dentro del avión está empujando constantemente hacia afuera, intentando escapar hacia la zona de aire menos denso del exterior. En una sola ventana pequeña, esa presión puede ejercer una fuerza equivalente al peso de cientos de kilogramos en cada vuelo.
 
 Cuando supe eso, aparté la frente de la ventana por un segundo.
 
-Luego descubrí lo del respaldo.
+Luego descubrí lo del panel intermedio.
 
 
 ---
@@ -75,11 +75,11 @@ Esa idea está presente en toda la aviación: nunca permitir que un solo fallo s
 
 Ah, el agujero que empezó todo.
 
-Se llama **orificio de respiración** o **orificio de purga**, y es sorprendentemente inteligente.
+Se llama **orificio de respiración** u **orificio de purga**, y es sorprendentemente inteligente.
 
-### 1. Mantiene fresco el panel de respaldo
+### 1. Mantiene fresco el panel intermedio de respaldo
 
-El agujero permite que el aire de la cabina entre en el espacio entre el panel intermedio y el exterior, de modo que el panel exterior soporta casi toda la presión. El panel intermedio puede “descansar” y reservar toda su resistencia para una emergencia.
+El agujero permite que el aire de la cabina entre en el espacio entre el panel intermedio y el exterior, de modo que el panel exterior soporta casi toda la diferencia de presiones. El panel intermedio puede “descansar” y reservar toda su resistencia para una emergencia.
 
 ### 2. Mantiene despejada tu vista
 
@@ -89,7 +89,7 @@ En el exterior, las temperaturas pueden bajar hasta –50 °C o incluso menos. S
 
 Eso es el sistema haciendo su trabajo.
 
-Admito que me sentí un poco tonto por haberme preocupado. Lo que pensé que era un defecto era, en realidad, una de las partes más inteligentes de la ventana.
+Admito que me dio un poco de vergüenza haberme preocupado. Lo que pensé que era un defecto era, en realidad, una de las partes más inteligentes de la ventana.
 
 
 ---
@@ -111,13 +111,13 @@ Cuando se raya, las aerolíneas simplemente lo reemplazan. Es barato, fácil y p
 
 Eso viene de una lección dolorosa.
 
-En la década de 1950, el de Havilland Comet, el primer avión comercial a reacción del mundo, sufrió accidentes trágicos. Los investigadores descubrieron que la fatiga del metal había provocado grietas, con tensión acumulándose alrededor de las aberturas con esquinas afiladas en el fuselaje.
+En la década de 1950, el de Havilland Comet, el primer avión comercial con motores a reacción del mundo, sufrió accidentes trágicos. Los investigadores descubrieron que la fatiga del metal había provocado grietas, con tensión acumulándose alrededor de las aberturas de las ventanas con esquinas afiladas en el fuselaje.
 
-Las esquinas puntiagudas concentran la tensión en un solo punto. Las curvas la distribuyen.
+Las esquinas puntiagudas concentran la tensión en un solo punto. Los bordes curvos la distribuyen.
 
 Desde entonces, las ventanas de los pasajeros tienen formas redondeadas.
 
-Cada vez que veo ahora esa suave forma ovalada, pienso en cuánto se aprendió, y a qué costo, para hacer que volar sea tan seguro como lo es hoy.
+Cada vez que veo ahora esa forma ovalada, pienso en cuánto se aprendió, y a qué costo, para hacer que volar sea tan seguro como lo es hoy.
 
 
 ---
@@ -126,7 +126,7 @@ Cada vez que veo ahora esa suave forma ovalada, pienso en cuánto se aprendió, 
 
 Sinceramente, no.
 
-Las fallas en las ventanas son extremadamente raras, y cuando un panel exterior se agrieta, el respaldo normalmente resiste y los pilotos simplemente descienden y aterrizan como medida de precaución.
+Los fallos en las ventanas son extremadamente raras, y cuando un panel exterior se agrieta, el respaldo normalmente resiste y los pilotos simplemente descienden y aterrizan como medida de precaución.
 
 Las ventanas se inspeccionan regularmente, y los paneles que muestran desgaste o grietas finas se reemplazan mucho antes de que se conviertan en un problema.
 
@@ -137,13 +137,13 @@ Las ventanas se inspeccionan regularmente, y los paneles que muestran desgaste o
 
 Hoy en día, cuando me acomodo en mi asiento junto a la ventana, me descubro mirando ese pequeño agujero y sonriendo un poco.
 
-Lo que antes parecía una falla ahora se siente como un pequeño recordatorio de cuántas personas, durante muchas décadas, han trabajado para mantenerme seguro allá arriba.
+Lo que antes parecía una falla ahora se siente como un pequeño recordatorio de cuántas personas, durante muchas décadas, han trabajado para mantenerme segura allá arriba.
 
 Tres capas. Un pequeño agujero. Una forma redondeada nacida de lecciones difíciles.
 
 Es solo una ventana.
 
-Pero también es una pequeña pieza de ingeniería que me permite sentarme tranquilamente a 35.000 pies de altura y ver el amanecer sobre las nubes.
+Pero también es una pequeña pieza de ingeniería que me permite sentarme tranquilamente a 35.000 pies, unos 10000 metros, de altura y ver el amanecer sobre las nubes.
 
 Así que la próxima vez que vueles, mira más de cerca.
 
