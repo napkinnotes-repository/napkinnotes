@@ -1,7 +1,7 @@
 ---
 title: "Mirar más de cerca: la vida secreta de una ventana de avión"
 author: Ruchika
-date:  2026-12-01
+date:  2026-10-08
 layout: articles
 slug: prueba-ruchika
 status: hidden
