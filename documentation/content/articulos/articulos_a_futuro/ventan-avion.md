@@ -146,7 +146,7 @@ Tres capas. Un pequeño agujero. Una forma redondeada nacida de lecciones difíc
 
 Es solo una ventana.
 
-Pero también es una pequeña pieza de ingeniería que me permite sentarme tranquilamente a 35.000 pies, unos 10000 metros, de altura y ver el amanecer sobre las nubes.
+Pero también es una pequeña pieza de ingeniería que me permite sentarme tranquilamente a 35.000 pies de altura, unos 10000 metros, y ver el amanecer sobre las nubes.
 
 Así que la próxima vez que vueles, mira más de cerca.
 
