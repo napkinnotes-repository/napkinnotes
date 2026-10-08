@@ -44,6 +44,8 @@ es que existe un pequeño detalle en el relato que parece absurdo, tan
 absurdo que el propio escritor que nos transmitió la historia la consideraba falsa. Pero precisamente ese detalle es el que hoy en día nos lleva
 a pensar que es posible que dicha narración sea cierta.
 
+---
+
 ## El padre de la historia 
 
 Heródoto vivió en el siglo V antes de nuestra era. Es conocido
@@ -94,6 +96,8 @@ siempre lo has conocido. Y de repente llegan unos marineros fenicios y nos dicen
 mucho tiempo, el Sol apareció donde no debería estar. Para Heródoto
 aquello sonaba como una buena razón para desconfiar.
 
+---
+
 ## Cambiemos de hemisferio 
 
 Imaginemos la Tierra vista desde fuera y sigamos la ruta de los
@@ -118,6 +122,8 @@ parte del relato podría ser auténtica.
 <figcaption> En el Mediterráneo, al mediodía, el Sol aparece hacia el sur;
 en el extremo meridional de África aparece hacia el norte.</figcaption>
 </figure>
+
+---
 
 ## Una pista involuntaria 
 
@@ -150,6 +156,8 @@ sabemos con certeza si aquellos hombres rodearon África, pero sí que si llegar
 hacia el sur, lo que describieron en el cielo es justamente lo que
 deberían haber visto. Tal vez Heródoto pensó que había encontrado el punto débil del relato y puede que, sin darse cuenta, haya conservado su mejor
 evidencia.
+
+---
 
 ## Referencias
 
