@@ -44,7 +44,7 @@ $$
 W = \int m \frac{dv}{dt} \, dx.  
 $$  
   
-Aquí aplicamos el cambio de variable. Como la velocidad es el cambio de posición del tiempo, $v = dx/dt$, podemos reordenar los diferenciales para que $dv/dt \, dx$ sea igual a $v \, dv$. Nos queda que el trabajo es igual a la integral entre $0$ y $v$ de $m \, v \, dv$:  
+Aquí aplicamos el cambio de variable. Como la velocidad es el cambio de posición del tiempo, $v = dx/dt$, podemos "reordenar los diferenciales" para que $dv/dt \, dx$ sea igual a $v \, dv$. Nos queda que el trabajo es igual a la integral entre $0$ y $v$ de $m \, v \, dv$:  
   
 $$  
 W = \int_{0}^{v} m v \, dv  
