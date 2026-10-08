@@ -129,7 +129,7 @@ Cada vez que veo ahora esa forma ovalada, pienso en cuánto se aprendió, y a qu
 
 Sinceramente, no.
 
-Los fallos en las ventanas son extremadamente raras, y cuando un panel exterior se agrieta, el respaldo normalmente resiste y los pilotos simplemente descienden y aterrizan como medida de precaución.
+Los fallos en las ventanas son extremadamente raros, y cuando un panel exterior se agrieta, el respaldo normalmente resiste y los pilotos simplemente descienden y aterrizan como medida de precaución.
 
 Las ventanas se inspeccionan regularmente, y los paneles que muestran desgaste o grietas finas se reemplazan mucho antes de que se conviertan en un problema.
 
