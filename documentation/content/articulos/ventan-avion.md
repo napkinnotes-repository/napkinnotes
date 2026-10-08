@@ -3,8 +3,7 @@ title: "Mirar más de cerca: la vida secreta de una ventana de avión"
 author: Ruchika
 date:  2026-10-08
 layout: articles
-slug: prueba-ruchika
-status: hidden
+status: published
 category: Aviación
 tags:
   - presión
@@ -146,7 +145,7 @@ Tres capas. Un pequeño agujero. Una forma redondeada nacida de lecciones difíc
 
 Es solo una ventana.
 
-Pero también es una pequeña pieza de ingeniería que me permite sentarme tranquilamente a 35.000 pies de altura, unos 10000 metros, y ver el amanecer sobre las nubes.
+Pero también es una pequeña pieza de ingeniería que me permite sentarme tranquilamente a 35.000 pies de altura, unos 10.000 metros, y ver el amanecer sobre las nubes.
 
 Así que la próxima vez que vueles, mira más de cerca.
 
