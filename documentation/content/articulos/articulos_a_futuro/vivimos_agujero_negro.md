@@ -4,7 +4,7 @@ author: Elena Calle Clemente
 date: 2026-10-08
 layout: articles
 status: hidden
-slug: borrado
+slug: borrado-elena
 category: Astrofísica
 tags:
   - astrofísica
