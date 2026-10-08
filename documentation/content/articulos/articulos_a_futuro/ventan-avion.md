@@ -29,6 +29,8 @@ No lo estaba.
 
 Ese pequeño agujero me llevó por un camino de curiosidad, y lo que aprendí hizo que respetara mucho más aquel pequeño óvalo de “cristal”. Así que esto es lo que me habría gustado que alguien me contara hace años.
 
+---
+
 ## No es una sola ventana. Son tres.
 
 Lo que parece un único panel es, en realidad, un equipo de tres capas:
@@ -36,6 +38,7 @@ Lo que parece un único panel es, en realidad, un equipo de tres capas:
 - El panel exterior mira hacia el cielo y hace la mayor parte del trabajo pesado.
 - El panel intermedio es el respaldo, el héroe silencioso que esperas que nunca tenga que intervenir.
 - El panel interior es la capa fina que realmente puedes tocar.
+  
 Y aquí viene la parte que más me sorprendió: en realidad, no son de vidrio. Están hechos de acrílico estirado, un plástico transparente, resistente, más ligero que el vidrio y mucho menos propenso a hacerse añicos. En un avión, donde cada kilogramo afecta al consumo de combustible, esa elección tiene mucho sentido.
 
 
