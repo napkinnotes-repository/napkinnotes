@@ -3,7 +3,7 @@ title: "Coincidencias matemáticas: ¿Vivimos en un agujero negro?"
 author: Elena Calle Clemente
 date: 2026-10-08
 layout: articles
-status: published
+status: hidden
 category: Astrofísica
 tags:
   - astrofísica
