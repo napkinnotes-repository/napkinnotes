@@ -24,7 +24,7 @@ $$&lt;/div&gt;
 &lt;div class="math"&gt;$$  
 W = \int m \frac{dv}{dt} \, dx.  
 $$&lt;/div&gt;
-&lt;p&gt;Aquí aplicamos el cambio de variable. Como la velocidad es el cambio de posición del&amp;nbsp;tiempo, &lt;span class="math"&gt;\(v = dx/dt\)&lt;/span&gt;, podemos reordenar los diferenciales para&amp;nbsp;que &lt;span class="math"&gt;\(dv/dt \, dx\)&lt;/span&gt; sea igual&amp;nbsp;a &lt;span class="math"&gt;\(v \, dv\)&lt;/span&gt;. Nos queda que el trabajo es igual a la integral&amp;nbsp;entre &lt;span class="math"&gt;\(0\)&lt;/span&gt; y &lt;span class="math"&gt;\(v\)&lt;/span&gt; de &lt;span class="math"&gt;\(m \, v \, dv\)&lt;/span&gt;:  &lt;/p&gt;
+&lt;p&gt;Aquí aplicamos el cambio de variable. Como la velocidad es el cambio de posición del&amp;nbsp;tiempo, &lt;span class="math"&gt;\(v = dx/dt\)&lt;/span&gt;, podemos &amp;#8220;reordenar los diferenciales&amp;#8221; para&amp;nbsp;que &lt;span class="math"&gt;\(dv/dt \, dx\)&lt;/span&gt; sea igual&amp;nbsp;a &lt;span class="math"&gt;\(v \, dv\)&lt;/span&gt;. Nos queda que el trabajo es igual a la integral&amp;nbsp;entre &lt;span class="math"&gt;\(0\)&lt;/span&gt; y &lt;span class="math"&gt;\(v\)&lt;/span&gt; de &lt;span class="math"&gt;\(m \, v \, dv\)&lt;/span&gt;:  &lt;/p&gt;
 &lt;div class="math"&gt;$$  
 W = \int_{0}^{v} m v \, dv  
 $$&lt;/div&gt;
