@@ -26,6 +26,8 @@ Las contribuciones de Riemann sentaron algunas de las bases de la geometría dif
 
 Riemann también realizó importantes contribuciones a la teoría analítica de números, la rama de la teoría de números que emplea herramientas del análisis matemático para estudiar propiedades de los números enteros. En su artículo *Über die Anzahl der Primzahlen unter einer gegebenen Größe*, publicado en 1859, estudió la función zeta que hoy lleva su nombre y descubrió una profunda conexión entre sus propiedades y la distribución de los números primos. En este trabajo apareció también una de las conjeturas más famosas de las matemáticas: la hipótesis de Riemann.
 
+---
+
 ## Los ceros de la función zeta de Riemann
 Detengámonos un momento para entender una función que, a simple vista, parece bastante inocente. La función zeta de Riemann se define, para un número complejo $s$ con parte real mayor que uno, como:
 
@@ -51,6 +53,8 @@ Esta afirmación, aparentemente sencilla, es la famosa hipótesis de Riemann.
 <!-- AQUÍ INSERTAR FIGURA FUNCIÓN ZETA-->
 ![El polo y la estructura de ceros de la función zeta de Riemann en el plano complejo. Sobre el eje $t=0$ se representan los ceros triviales y el polo simple $s=1$. La línea crítica $\sigma=1/2$ se representa mediante una línea punteada. Los ceros no triviales (puntos negros en la región sombreada) se encuentran en la región $0\leq\sigma\leq1$. Créditos: Daniel Schumayer y David A.W. Hutchinson](images/maria-riemann/riemann.png)
 
+---
+
 ## La hipótesis del millón de dólares
 La hipótesis de Riemann es sencilla: **todos los ceros no triviales de $\zeta(s)$ se encuentran sobre la línea crítica**. Detrás de ella se esconde una de las grandes preguntas abiertas de las matemáticas. La razón de su importancia está en la profunda conexión entre los ceros de $\zeta(s)$ y la distribución de los números primos: cuanto más cerca están estos ceros de la línea crítica, más regular resulta la distribución de los primos alrededor de su comportamiento medio.
 
@@ -58,6 +62,7 @@ La conjetura fue formulada por Riemann en 1859 y, más de un siglo después, en 
 
 Y aquí reside precisamente el reto: no basta con encontrar muchos ceros sobre la línea crítica; habría que demostrar que todos los infinitos ceros no triviales de la función zeta tienen parte real exactamente igual a $1/2$. Una demostración de esta afirmación no solo resolvería uno de los Problemas del Milenio, sino que proporcionaría una comprensión mucho más profunda de cómo se distribuyen los números primos.
 
+---
 
 ## Referencias
 
