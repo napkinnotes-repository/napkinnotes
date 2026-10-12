@@ -12,7 +12,7 @@ tags:                     # tags con minúscula inicial
   - bli bli
 summary: aaaaa                         # 1-2 frases cortas para la tarjeta del artículo
 image: images/nombre_de_la_imagen.jpeg # imagen principal del artículo  ¡¡¡¡¡¡¡¡TIENE QUE SER JPEG EL FORMATO!!!!!
-certificate: true
+certificate: false
 ---
 
 [TOC]
@@ -21,13 +21,8 @@ certificate: true
 
 ## HTML A
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <title>Combinaciones</title>
   <style>
-    body {
+    #nn-combinaciones {
       font-family: Arial, sans-serif;
       background: #f4f4f4;
       display: flex;
@@ -36,7 +31,7 @@ certificate: true
       padding: 40px;
     }
 
-    .card {
+    #nn-combinaciones .card {
       width: 340px;
       border: 1px solid #ccc;
       border-radius: 8px;
@@ -45,13 +40,13 @@ certificate: true
       box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     }
 
-    .card h3 {
+    #nn-combinaciones .card h3 {
       margin-top: 0;
       margin-bottom: 8px;
       font-size: 20px;
     }
 
-    .buttons button {
+    #nn-combinaciones .buttons button {
       padding: 6px 12px;
       margin-right: 10px;
       border: 1px solid #888;
@@ -61,46 +56,46 @@ certificate: true
       font-size: 14px;
     }
 
-    .buttons button:hover:enabled {
+    #nn-combinaciones .buttons button:hover:enabled {
       background: #e4e4e4;
     }
 
-    .buttons button:disabled {
+    #nn-combinaciones .buttons button:disabled {
       cursor: not-allowed;
       opacity: 0.6;
     }
 
-    #counter {
+    #nn-combinaciones #counter {
       margin-top: 10px;
       font-size: 14px;
       line-height: 1.4;
     }
 
-    #step {
+    #nn-combinaciones #step {
       margin-top: 10px;
       font-size: 14px;
       font-weight: bold;
       min-height: 20px;
     }
 
-    #multiplication {
+    #nn-combinaciones #multiplication {
       margin-top: 10px;
       font-size: 14px;
     }
 
-    #permutations-count {
+    #nn-combinaciones #permutations-count {
       margin-top: 8px;
       font-size: 14px;
       font-weight: bold;
     }
 
-    .slots {
+    #nn-combinaciones .slots {
       display: flex;
       gap: 8px;
       margin-top: 16px;
     }
 
-    .slot {
+    #nn-combinaciones .slot {
       width: 40px;
       height: 40px;
       border: 1px solid #aaa;
@@ -115,18 +110,18 @@ certificate: true
       box-sizing: border-box;
     }
 
-    .cara1 { background: #ff4d4d; color: #fff; }
-    .cara2 { background: #4caf50; color: #fff; }
-    .cara3 { background: #2196f3; color: #fff; }
-    .cruz1 { background: #ffeb3b; color: #000; }
-    .cruz2 { background: #9c27b0; color: #fff; }
+    #nn-combinaciones .cara1 { background: #ff4d4d; color: #fff; }
+    #nn-combinaciones .cara2 { background: #4caf50; color: #fff; }
+    #nn-combinaciones .cara3 { background: #2196f3; color: #fff; }
+    #nn-combinaciones .cruz1 { background: #ffeb3b; color: #000; }
+    #nn-combinaciones .cruz2 { background: #9c27b0; color: #fff; }
 
-    .neutral {
+    #nn-combinaciones .neutral {
       background: #e0e0e0 !important;
       color: #000 !important;
     }
 
-    #explanation {
+    #nn-combinaciones #explanation {
       margin-top: 16px;
       font-size: 14px;
       color: #444;
@@ -134,12 +129,12 @@ certificate: true
       min-height: 80px;
     }
 
-    .control-buttons {
+    #nn-combinaciones .control-buttons {
       margin-top: 16px;
       display: none;
     }
 
-    .control-buttons button {
+    #nn-combinaciones .control-buttons button {
       margin-right: 10px;
       padding: 6px 10px;
       font-size: 13px;
@@ -149,12 +144,11 @@ certificate: true
       cursor: pointer;
     }
 
-    .control-buttons button:hover {
+    #nn-combinaciones .control-buttons button:hover {
       background: #e4e4e4;
     }
   </style>
-</head>
-<body>
+<div id="nn-combinaciones">
   <div class="card">
     <h3>Combinaciones</h3>
 
@@ -195,6 +189,7 @@ certificate: true
       <button id="btn-reset">Reiniciar</button>
     </div>
   </div>
+</div>
 
   <script>
     let remainingCara = 3;
@@ -379,8 +374,6 @@ certificate: true
       location.reload();
     };
   </script>
-</body>
-</html>
 
 
 --- 
