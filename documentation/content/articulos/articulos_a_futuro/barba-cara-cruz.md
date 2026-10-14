@@ -1,5 +1,5 @@
 ---
-title: Cara o cruz, o como el azar también tiene sesgos          # vuestro título
+title: Cara o cruz, o como el azar también tiene sesgos           # vuestro título
 author: David Barba González               # mismo nombre que en la tarjeta de autor
 date: 2026-10-15          # formato YYYY-MM-DD
 layout: articles
