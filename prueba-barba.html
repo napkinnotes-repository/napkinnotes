@@ -14,7 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 
-        <meta name="author" content="aaa" />
+        <meta name="author" content="David Barba González" />
 
         <meta name="description" content="aaaaa
 " />
@@ -23,34 +23,34 @@
 <meta name="twitter:creator" content="@napkiinnotes">
 
 
-<meta name="keywords" content="bla, blabla, bli bli, Aaa, " />
+<meta name="keywords" content="probabilidad, estadística, bli bli, Estadística, " />
 
-<meta property="og:title" content="aaa" />
+<meta property="og:title" content="Cara o cruz, o como el azar también tiene sesgos" />
 <meta property="og:url" content="https://napkinnotes.es/prueba-barba" />
 <meta property="og:description" content="aaaaa" />
 <meta property="og:site_name" content="Napkin Notes" />
 <meta property="og:type" content="article" />
-<meta property="og:article:author" content="aaa" />
+<meta property="og:article:author" content="David Barba González" />
 
-<meta property="og:article:published_time" content="2026-03-15T00:00:00+01:00" />
+<meta property="og:article:published_time" content="2026-10-15T00:00:00+02:00" />
 
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="aaa">
+<meta name="twitter:title" content="Cara o cruz, o como el azar también tiene sesgos">
 <meta name="twitter:description" content="aaaaa">
 
 
 
-<meta property="og:image" content="https://napkinnotes.es/images/nombre_de_la_imagen.jpeg" />
-<meta property="og:image:secure_url" content="https://napkinnotes.es/images/nombre_de_la_imagen.jpeg" />
+<meta property="og:image" content="https://napkinnotes.es/images/shekel.jpeg" />
+<meta property="og:image:secure_url" content="https://napkinnotes.es/images/shekel.jpeg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="aaa" />
-<meta name="twitter:image" content="https://napkinnotes.es/images/nombre_de_la_imagen.jpeg">
-<meta name="twitter:image:alt" content="aaa">
+<meta property="og:image:alt" content="Cara o cruz, o como el azar también tiene sesgos" />
+<meta name="twitter:image" content="https://napkinnotes.es/images/shekel.jpeg">
+<meta name="twitter:image:alt" content="Cara o cruz, o como el azar también tiene sesgos">
 
 
-        <title>aaa  · Napkin Notes
+        <title>Cara o cruz, o como el azar también tiene sesgos  · Napkin Notes
 </title>
 <link rel="shortcut icon" href="https://napkinnotes.es/images/Logo.jpg" type="image/jpeg" />
 <link rel="icon" href="https://napkinnotes.es/images/Logo.jpg" type="image/jpeg" />
@@ -150,15 +150,15 @@
     <div class="nn-article-hero__inner">
         <div class="nn-article-hero__content">
             <div class="nn-article-hero__meta">
-                <span class="nn-article-hero__category">Aaa</span>
+                <span class="nn-article-hero__category">Estadística</span>
                 <span class="nn-article-hero__dot">•</span>
-                <time itemprop="dateCreated" datetime="2026-03-15T00:00:00+01:00">15 de marzo de 2026</time>
+                <time itemprop="dateCreated" datetime="2026-10-15T00:00:00+02:00">15 de octubre de 2026</time>
             </div>
 
             <div class="nn-article-hero__heading">
                 <div class="nn-article-hero__title-wrap">
                     <h1 class="nn-article-hero__title">
-                        <a href="https://napkinnotes.es/prueba-barba">aaa</a>
+                        <a href="https://napkinnotes.es/prueba-barba">Cara o cruz, o como el azar también tiene&nbsp;sesgos</a>
                     </h1>
                 </div>
 
@@ -167,7 +167,7 @@
             <p class="nn-article-hero__summary"><p>aaaaa</p></p>
 
             <figure class="nn-article-hero__figure">
-                <img class="nn-article-hero__image" src="https://napkinnotes.es/images/nombre_de_la_imagen.jpeg" alt="aaa">
+                <img class="nn-article-hero__image" src="https://napkinnotes.es/images/shekel.jpeg" alt="Cara o cruz, o como el azar también tiene sesgos">
             </figure>
         </div>
     </div>
@@ -179,12 +179,29 @@
             
             <div class="toc">
 <ul>
-<li><a href="#html-a"><span class="caps">HTML</span>&nbsp;A</a></li>
-<li><a href="#html-b"><span class="caps">HTML</span>&nbsp;B</a></li>
-<li><a href="#referencias">Referencias</a></li>
+<li><a href="#distribucion-binomial-de-probabilidad">Distribución binomial de&nbsp;probabilidad</a></li>
 </ul>
 </div>
-<h2 id="html-a"><span class="caps">HTML</span> A<a class="headerlink" href="#html-a" title="Permanent link"> </a></h2>
+<p>¿Cuántas situaciones de nuestra vida se deciden por azar? Decisiones profesionales o financieras; resultados electorales en los que la victoria se decide por un puñado de votos; enfermedades causadas por mutaciones genéticas aleatorias; o algunos resultados deportivos en caso de empate; son muestra de que el azar está muy presente en nuestra vida diaria. Sin ir más lejos, estáis leyendo esta servilleta, acerca del azar, porque un algoritmo me enseñó un vídeo corto sobre el&nbsp;tema.</p>
+<p>El caso más paradigmático de fortuna, en este caso binaria, es el lanzamiento de una moneda al aire. Ponemos una moneda en el pulgar, la lanzamos al aire girando sobre sí misma, y la cazamos con la mano, sin que caiga al suelo. El resultado viene dado por qué lado de la moneda mira hacia arriba. En este juego, que se utiliza para decidir muchísimas situaciones en el mundo humano, todos asumimos que la probabilidad de que salga cara (o cruz) es exactamente 0.5. Si lanzamos la moneda un número enorme de veces, el número de veces que sale cara se aproximará cada vez más al 50\% cuantas más veces la&nbsp;lancemos.  </p>
+<p>Pero, ¿y si eso no es así? ¿Podría existir un sesgo que, independientemente de la moneda, hiciese que uno de los lados esté ligeramente favorecido?&nbsp;Veámoslo.</p>
+<h2 id="distribucion-binomial-de-probabilidad">Distribución binomial de probabilidad<a class="headerlink" href="#distribucion-binomial-de-probabilidad" title="Permanent link"> </a></h2>
+<p>Lo primero que vamos a hacer es entender el modelo matemático que explica una apuesta a cara o cruz. El juego consiste en un experimento (aleatorio) con dos posibles resultados: A (cara) y B (cruz).&nbsp;Llamemos <span class="math">\(p\)</span> a la probabilidad de que el resultado sea A. Uno de los axiomas de la teoría de la probabilidad &#8212;aunque no los llamemos así, ya los aplicamos en nuestra vida diaria&#8212;, nos dice&nbsp;que
+</p>
+<div class="math">$$
+0\leq p \leq 1,
+$$</div>
+<p>
+donde&nbsp;si <span class="math">\(p=0\)</span> nunca puede salir cara, y&nbsp;si <span class="math">\(p=1\)</span> siempre sale cara. El segundo axioma impone que cuando lanzamos una moneda al aire, siempre sale algo, ya sea cara o cruz. Por&nbsp;tanto,
+</p>
+<div class="math">$$
+p+q=1
+$$</div>
+<p>
+donde <span class="math">\(q\geq0\)</span> es la probabilidad de que salga&nbsp;cruz.</p>
+<p>Ahora nos hacemos la siguiente pregunta: ¿cuál es la probabilidad de que, si&nbsp;lanzo <span class="math">\(M\)</span> monedas al aire seguidas,&nbsp;salga <span class="math">\(N\)</span> veces cara? Trabajemos un ejemplo concreto, en el que&nbsp;tiramos <span class="math">\(M=5\)</span> veces una moneda. ¿Cuál es la probabilidad de que salga&nbsp;cara <span class="math">\(N=3\)</span> veces? Para calcularla tendríamos que escribir todos los resultados posibles (<span class="caps">AAAAA</span>, <span class="caps">AAAAB</span>, <span class="caps">AAABA</span>, etc.), contar todos  los que tienen 3 veces la letra A (por ejemplo <span class="caps">ABABA</span>), y después multiplicar por la probabilidad de cada&nbsp;uno. </p>
+<p>La probabilidad de que la secuencia <span class="caps">ABABA</span> se dé&nbsp;es <span class="math">\(P(ABABA)=pqpqp=p^3 q^2\)</span>. En realidad, cualquier secuencia con 3 caras y 2 cruces tiene la misma probabilidad de ocurrir si lanzamos una moneda 5 veces, porque nos da igual el orden de aparición de caras o&nbsp;cruces. </p>
+<p>Para entender el número de opciones que hay, vamos a jugar a un juego, en el que vais a tirar una moneda 5 veces y vais a elegir el resultado de cada tirada, sabiendo que en total vamos a tener 3 caras y 2 cruces. Después de crear nuestra secuencia de monedas, vamos a ir viendo cómo contar el número posible de combinaciones con 3 caras en una tirada de 5 monedas. Para ello, debéis seleccionar &#8220;Continuar&#8221; hasta obtener el resultado. Ten en cuenta que el factorial está definido&nbsp;como <span class="math">\(M!=M(M-1)(M-2)...1\)</span>.</p>
 <style>
     #nn-combinaciones {
       font-family: Arial, sans-serif;
@@ -539,8 +556,14 @@
     };
   </script>
 
-<hr />
-<h2 id="html-b"><span class="caps">HTML</span> B<a class="headerlink" href="#html-b" title="Permanent link"> </a></h2>
+<p>Ahora, si generalizamos esta cuenta, y&nbsp;tiramos <span class="math">\(M\)</span> veces la moneda, la probabilidad de que salga&nbsp;cara <span class="math">\(N\)</span> veces&nbsp;es
+</p>
+<div class="math">$$
+P_M(N)=\frac{M!}{N!(M-N)!}p^Nq^{M-N}.
+$$</div>
+<p>
+Esta expresión es conocida como la distribución binomial de probabilidad y <a href="https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial">ya hablamos de ella en un artículo anterior</a>. Podéis comprobar justo debajo la probabilidad de una secuencia con cualquier número de monedas, y también podéis sesgar la moneda, es decir forzar que la&nbsp;probabilidad  <span class="math">\(p\)</span> de que salga cara sea distinta&nbsp;de <span class="math">\(0.5\)</span>.</p>
+<div style="display: flex; justify-content: center; width: 100%;">
 <div id="coin-probability-sidebar" 
      style="border:1px solid #ddd;
             padding:16px;
@@ -584,14 +607,16 @@
 </div>
 
 <script>
-function factorial(n) {
-  let result = 1;
-  for (let i = 2; i <= n; i++) result *= i;
-  return result;
+function logFactorial(n) {
+  let sum = 0;
+  for (let i = 1; i <= n; i++) {
+    sum += Math.log(i);
+  }
+  return sum;
 }
 
-function binomial(n, k) {
-  return factorial(n) / (factorial(k) * factorial(n - k));
+function logBinomial(n, k) {
+  return logFactorial(n) - logFactorial(k) - logFactorial(n - k);
 }
 
 function calcBinomialProb() {
@@ -604,26 +629,125 @@ function calcBinomialProb() {
     return;
   }
 
-  // Fórmula general: P = C(n,k) * p^k * (1-p)^(n-k)
-  const prob = binomial(n, k) * Math.pow(p, k) * Math.pow(1 - p, n - k);
+  // log(P) = log(C(n,k)) + k log(p) + (n-k) log(1-p)
+  const logP =
+    logBinomial(n, k) +
+    k * Math.log(p) +
+    (n - k) * Math.log(1 - p);
+
+  const P = Math.exp(logP);
 
   document.getElementById("result").innerText =
-    `P(${k} caras en ${n} lanzamientos con p=${p}) = ${prob} (${(prob * 100).toFixed(6)}%).`;
+    `P(${k} caras en ${n} lanzamientos con p=${p}) = ${P} (${(P * 100).toFixed(6)}%).`;
 }
 </script>
-<hr />
-<h2 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link"> </a></h2>
-<ol class="nn-references">
-  <li id="ref-1">
-    Autor, A. (Año). Título del artículo. <em>Revista o libro</em>.
-    <a href="https://doi.org/..." target="_blank" rel="noopener noreferrer">https://doi.org/&#8230;</a>
+
+
+## Determinismo
+En realidad, el lanzamiento de una moneda es un proceso determinista, gobernado por la mecánica clásica. Si conocemos las condiciones iniciales y las características físicas de la moneda (masa y tamaño), podemos predecir con un 100\% de precisión el resultado del lanzamiento. La aleatoriedad que le asignamos a este proceso proviene de una variabilidad enorme al producirse un pequeño cambio en las condiciones iniciales del lanzamiento. 
+
+El modelo predictivo clásico del lanzamiento de una moneda fue desarrollado por Diaconis, Holmes y Montgomery (<span class="caps">DHM</span>)[1]. La cadena argumental es la siguiente: la probabilidad de que al capturar la moneda con la mano el resultado sea cara es proporcional al porcentaje del tiempo de vuelo que la moneda pasa con ese lado mirando hacia arriba. A su vez, este tiempo viene dado por el ángulo $\psi_0$ que forma el vector normal a la superficie de la moneda $\vec{n}$ con el vector momento angular $\vec{M}$; en el momento de lanzamiento de la moneda.
+
+En ausencia de rozamiento con el aire, el vector $\vec{M}$ no depende del tiempo, debido al principio de conservación del momento angular. Sin embargo, en general $\vec{n}$ sí varía con el tiempo durante el vuelo (excepto si $\psi_0=0$), y va a precesar alrededor de $\vec{M}$. Para entender el modelo <span class="caps">DHM</span> vamos a comentar dos valores extremos del ángulo $\psi_0$:
+
+- Si $\psi_0=0$, entonces la moneda está girando sobre su propia normal (como un paraguas cuando gira alrededor de su mástil), es decir $\vec{n}\parallel\vec{M}$. Si lanzamos así la moneda, el resultado va a ser siempre el mismo: vamos a obtener aquel lado que estuviera hacia arriba en el lanzamiento.
+
+- Si $\psi_0=\pi/2$, la moneda gira sobre un eje perpendicular a la normal, $\vec{n}\perp\vec{M}$. En este caso, la probabilidad de ambos resultados es exactamente 0.5.
+
+<figure class="nn-article-figure">
+  <img src="https://napkinnotes.es/PATH_TO_IMAGEFOLDER/coin.jpeg" alt="">
+  <figcaption>
+    Figura 1. Condiciones iniciales del lanzamiento de una moneda precesante, incluyendo el vector normal a la superficie de la moneda y el vector momento angular..
+  </figcaption>
+</figure>
+
+En valores intermedios $0<\psi_0<\pi/2$, la probabilidad es variable (ver figura 3 de [1]). En particular, si $\psi_0<\pi/4$ la probabilidad de que salga el mismo lado desde que se lanzó es igual a 1, resultado utilizado por magos y aficionados a las apuestas desde tiempos inmemoriales.
+
+Un corolario interesante de este resultado es que, si los seres humanos no somos perfectamente precisos al lanzar una moneda al aire, y ocurre que $\psi_0\neq\pi/2$, esperamos que haya un sesgo: si la moneda enseñaba el lado cara, es más probable que el resultado sea cara. Utilizando cámaras de alta resolución, y utilizando 27 lanzamientos hechos por humanos, Diaconis, Holmes y Montgomery midieron el ángulo inicial $\psi_0$ y usando su modelo, infirieron una probabilidad $p(\textrm{mismo lado})\approx0.51$.
+
+## El experimento
+En 2023, F. Bartoš et al. [2] lanzaron 350.757 monedas al aire y anotaron el lado inicial y el resultado final. Se aseguraron de utilizar muchos lanzadores, distintos tipos de moneda y denominación, para asegurar variabilidad tanto en el lanzamiento como en las caractarísticas físicas de la moneda. Curiosamente, no encontraron ningún tipo de sesgo que favorezca cara o cruz en el lanzamiento, en ese sentido el azar exacto del 50\% sigue vigente.   Sin embargo, obtuvieron 178.079 resultados en los que el lado inicial y el final eran el mismo. Podéis comprobar vosotros mismos en la aplicación de arriba la probabilidad de que eso ocurra, asumiendo que el resultado final es independiente del lado inicial ($p(\textrm{mismo lado})=0.5$). Es un resultado prácticamente imposible, sobre todo comparado con los resultados más probables que están en torno a 175.378 veces ($M/2$) en las que coincide el lado inicial con el final. En otras palabras, $p(\textrm{mismo lado})=0.5077$. La evidencia bayesiana --este concepto lo dejamos para otra servilleta-- es enorme a favor de que existe un sesgo a favor de conservar el lado inicial.
+
+Otro resultado interesante es que el sesgo --según DHS el ángulo $\psi_0$-- varía en función del lanzador, y en general observan que los lanzadores aprenden, y mejoran, acercándose más a $\psi_0=\pi/2$ cuantas más monedas lancen.
+
+Este experimento ha confirmado la existencia de un sesgo favorable al lado inicial que ya había sido predicho por [1]. Lo que no ha sucedido todavía es una confirmación experimental del modelo DHS. Para lo cual haría falta lanzar una cantidad de monedas similar a la de [2], pero no solo medir el resultado del lanzamiento sino también medir --o controlar usando una máquina que lance la moneda de forma automática-- el ángulo $\psi_0$. Solo así podríamos evaluar experimentalmente la relación entre la probabilidad y el ángulo inicial. 
+
+## Referencias
+
+  <li id="dhs">
+    P. Diaconis, S. Holmes y R. Montgomery (2007). Dynamical Bias in the Coin Toss, <em>Society for Industrial and Applied Mathematics review</em>, 49, 2, 211-235. 
+    <a href="https://www.stat.berkeley.edu/~aldous/157/Papers/diaconis_coinbias.pdf" target="_blank" rel="noopener noreferrer">https://www.stat.berkeley.edu/~aldous/157/Papers/diaconis_coinbias.pdf</a>
   </li>
 
-  <li id="ref-2">
-    Autor, B. (Año). Otro título. <em>Revista o libro</em>.
-    <a href="https://doi.org/..." target="_blank" rel="noopener noreferrer">https://doi.org/&#8230;</a>
+  <li id="cointossers">
+    F. Bartoš et al. (2025). Fair Coins Tend to Land on the Same Side They Started: Evidence from 350,757 Flips. <em>Journal of the American Statistical Association</em>, 120, 552, 2118-2127.
+    <a href="https://doi.org/10.1080/01621459.2025.2516210" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/01621459.2025.2516210</a>
   </li>
-</ol>
+
+
+
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
 
              
 
@@ -636,14 +760,24 @@ function calcBinomialProb() {
             
             
     <div class="nn-author-box">
+        <div class="nn-author-box__avatar">
+            <img src="https://napkinnotes.es/images/barba.jpeg" alt="David Barba González">
+        </div>
 
         <div class="nn-author-box__content">
             <div class="nn-author-box__label">Autor</div>
-            <h3 class="nn-author-box__name">aaa</h3>
+            <h3 class="nn-author-box__name">David Barba González</h3>
 
+            <p class="nn-author-box__bio">David es doctor en astrofísica, y actualmente trabaja como investigador postdoctoral en la Universidad Hebrea de Jerusalén. Es experto en metalurgia galáctica, es decir, en las propiedades de los sólidos y líquidos más densos y poderosos del universo, que se encuentran en los corazones de estrellas muertas. Su trabajo de investigación intenta entender cómo podemos aprender más de estos materiales a través de observaciones astronómicas, tanto a través de la luz como de otros mensajeros, como neutrinos u ondas gravitacionales.</p>
 
             <div class="nn-author-box__links">
+                <a class="nn-author-box__link" href="https://www.linkedin.com/in/david-barba-gonz%C3%A1lez-854101215/" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
 
+                <a class="nn-author-box__link" href="https://napkinnotes.es/autor/david-barba-gonzalez">
+                    Ver artículos
+                </a>
             </div>
         </div>
     </div>
@@ -674,7 +808,7 @@ function calcBinomialProb() {
                 method="POST">
 
                 <input type="hidden" name="_subject" value="Nuevo comentario en Napkin Notes">
-                <input type="hidden" name="articulo" value="aaa">
+                <input type="hidden" name="articulo" value="Cara o cruz, o como el azar también tiene sesgos">
                 <input type="hidden" name="article_key" value="prueba-barba">
                 <input type="hidden" name="url_articulo" value="https://napkinnotes.es/prueba-barba">
                 <input id="nn-comment-type" type="hidden" name="tipo_comentario" value="comentario">
@@ -719,8 +853,8 @@ function calcBinomialProb() {
 
                 <div class="nn-article-meta-row">
                     <span class="nn-article-meta-row__label">Publicado</span>
-                    <time class="nn-article-meta-row__value" itemprop="dateCreated" datetime="2026-03-15T00:00:00+01:00">
-                        15 de marzo de 2026
+                    <time class="nn-article-meta-row__value" itemprop="dateCreated" datetime="2026-10-15T00:00:00+02:00">
+                        15 de octubre de 2026
                     </time>
                 </div>
 
@@ -728,8 +862,8 @@ function calcBinomialProb() {
                     <span class="nn-article-meta-row__label">Categoría</span>
                     <div class="nn-article-meta-badges">
                         <a class="nn-article-meta-badge nn-article-meta-badge--category"
-                           href="https://napkinnotes.es/categories#aaa-ref">
-                            Aaa
+                           href="https://napkinnotes.es/categories#estadistica-ref">
+                            Estadística
                         </a>
                     </div>
                 </div>
@@ -738,16 +872,18 @@ function calcBinomialProb() {
                     <span class="nn-article-meta-row__label">Tags</span>
                     <div class="nn-article-meta-tags">
                         <a class="nn-article-meta-tag"
-                           href="https://napkinnotes.es/tags#bla-ref">
-                            bla
-                        </a>
-                        <a class="nn-article-meta-tag"
-                           href="https://napkinnotes.es/tags#blabla-ref">
-                            blabla
-                        </a>
-                        <a class="nn-article-meta-tag"
                            href="https://napkinnotes.es/tags#bli-bli-ref">
                             bli bli
+                        </a>
+                        <a class="nn-article-meta-tag"
+                           href="https://napkinnotes.es/tags#estadistica-ref">
+                            estadística
+                            <span class="nn-article-meta-tag__count">1</span>
+                        </a>
+                        <a class="nn-article-meta-tag"
+                           href="https://napkinnotes.es/tags#probabilidad-ref">
+                            probabilidad
+                            <span class="nn-article-meta-tag__count">1</span>
                         </a>
                     </div>
                 </div>
@@ -759,7 +895,7 @@ function calcBinomialProb() {
 
                 <div class="nn-share-actions">
                     <a class="nn-share-actions__button"
-                       href="https://twitter.com/intent/tweet?url=https%3A//napkinnotes.es/prueba-barba&text=aaa"
+                       href="https://twitter.com/intent/tweet?url=https%3A//napkinnotes.es/prueba-barba&text=Cara%20o%20cruz%2C%20o%20como%20el%20azar%20tambi%C3%A9n%20tiene%C2%A0sesgos"
                        target="_blank"
                        rel="noopener noreferrer">
                         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
@@ -769,7 +905,7 @@ function calcBinomialProb() {
                     </a>
 
                     <a class="nn-share-actions__button"
-                       href="https://www.facebook.com/sharer/sharer.php?u=https%3A//napkinnotes.es/prueba-barba%3Fv%3D20260315"
+                       href="https://www.facebook.com/sharer/sharer.php?u=https%3A//napkinnotes.es/prueba-barba%3Fv%3D20261015"
                        target="_blank"
                        rel="noopener noreferrer">
                         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
@@ -779,7 +915,7 @@ function calcBinomialProb() {
                     </a>
 
                     <a class="nn-share-actions__button"
-                       href="https://api.whatsapp.com/send?text=aaa%20https%3A//napkinnotes.es/prueba-barba%3Fv%3D20260315"
+                       href="https://api.whatsapp.com/send?text=Cara%20o%20cruz%2C%20o%20como%20el%20azar%20tambi%C3%A9n%20tiene%C2%A0sesgos%20https%3A//napkinnotes.es/prueba-barba%3Fv%3D20261015"
                        target="_blank"
                        rel="noopener noreferrer">
                         <svg viewBox="0 0 24 24" aria-hidden="true" class="nn-share-actions__icon">
