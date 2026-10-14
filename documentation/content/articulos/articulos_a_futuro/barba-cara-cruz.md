@@ -1,14 +1,14 @@
 ---
-title: aaa                # vuestro título
+title: Cara o cruz, o como el azar también tiene sesgos          # vuestro título
 author: David Barba González               # mismo nombre que en la tarjeta de autor
 date: 2026-10-15          # formato YYYY-MM-DD
 layout: articles
-slug: davidbarba-caraocruz
+slug: prueba-barba
 status: hidden            # published si ya está listo
-category: estadística             # categoría con mayúscula inicial
+category: Estadística             # categoría con mayúscula inicial
 tags:                     # tags con minúscula inicial
-  - bla
-  - blabla
+  - probabilidad
+  - estadística
   - bli bli
 summary: aaaaa                         # 1-2 frases cortas para la tarjeta del artículo
 image: images/shekel.jpeg # imagen principal del artículo  ¡¡¡¡¡¡¡¡TIENE QUE SER JPEG EL FORMATO!!!!!
@@ -398,7 +398,7 @@ Ahora, si generalizamos esta cuenta, y tiramos $M$ veces la moneda, la probabili
 $$
 P_M(N)=\frac{M!}{N!(M-N)!}p^Nq^{M-N}.
 $$
-Esta expresión es conocida como la distribución binomial de probabilidad. Podéis comprobar justo debajo la probabilidad de una secuencia con cualquier número de monedas, y también podéis sesgar la moneda, es decir forzar que la probabilidad  $p$ de que salga cara sea distinta de $0.5$.
+Esta expresión es conocida como la distribución binomial de probabilidad y [ya hablamos de ella en un artículo anterior](https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial). Podéis comprobar justo debajo la probabilidad de una secuencia con cualquier número de monedas, y también podéis sesgar la moneda, es decir forzar que la probabilidad  $p$ de que salga cara sea distinta de $0.5$.
 
 <div style="display: flex; justify-content: center; width: 100%;">
 <div id="coin-probability-sidebar" 
