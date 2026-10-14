@@ -478,6 +478,7 @@ function calcBinomialProb() {
     `P(${k} caras en ${n} lanzamientos con p=${p}) = ${P} (${(P * 100).toFixed(6)}%).`;
 }
 </script>
+</div>
 
 
 ## Determinismo
@@ -511,6 +512,7 @@ Este experimento ha confirmado la existencia de un sesgo favorable al lado inici
 
 ## Referencias
 
+<ol class="nn-references">
   <li id="dhs">
     P. Diaconis, S. Holmes y R. Montgomery (2007). Dynamical Bias in the Coin Toss, <em>Society for Industrial and Applied Mathematics review</em>, 49, 2, 211-235. 
     <a href="https://www.stat.berkeley.edu/~aldous/157/Papers/diaconis_coinbias.pdf" target="_blank" rel="noopener noreferrer">https://www.stat.berkeley.edu/~aldous/157/Papers/diaconis_coinbias.pdf</a>
@@ -520,3 +522,4 @@ Este experimento ha confirmado la existencia de un sesgo favorable al lado inici
     F. Bartoš et al. (2025). Fair Coins Tend to Land on the Same Side They Started: Evidence from 350,757 Flips. <em>Journal of the American Statistical Association</em>, 120, 552, 2118-2127.
     <a href="https://doi.org/10.1080/01621459.2025.2516210" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/01621459.2025.2516210</a>
   </li>
+</ol>
