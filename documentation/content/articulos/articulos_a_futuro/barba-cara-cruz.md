@@ -66,17 +66,22 @@ Para entender el número de opciones que hay, vamos a jugar a un juego, en el qu
     }
 
     #nn-combinaciones .buttons button {
-      padding: 6px 12px;
+      padding: 11px 18px;
       margin-right: 10px;
-      border: 1px solid #888;
-      border-radius: 4px;
-      background: #f0f0f0;
-      cursor: pointer;
+      border: 0;
+      border-radius: 999px;
+      background: var(--richcarmine);
+      color: #fff;
+      font-family: inherit;
       font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s ease, opacity 0.2s ease;
     }
 
     #nn-combinaciones .buttons button:hover:enabled {
-      background: #e4e4e4;
+      opacity: 0.92;
+      transform: translateY(-1px);
     }
 
     #nn-combinaciones .buttons button:disabled {
@@ -155,16 +160,27 @@ Para entender el número de opciones que hay, vamos a jugar a un juego, en el qu
 
     #nn-combinaciones .control-buttons button {
       margin-right: 10px;
-      padding: 6px 10px;
-      font-size: 13px;
-      border-radius: 4px;
-      border: 1px solid #666;
-      background: #f0f0f0;
+      padding: 11px 18px;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 600;
+      border: 0;
+      border-radius: 999px;
+      background: var(--richcarmine);
+      color: #fff;
       cursor: pointer;
+      transition: transform 0.2s ease, opacity 0.2s ease;
     }
 
-    #nn-combinaciones .control-buttons button:hover {
-      background: #e4e4e4;
+    #nn-combinaciones .control-buttons button:hover:enabled {
+      opacity: 0.92;
+      transform: translateY(-1px);
+    }
+
+    #nn-combinaciones .control-buttons button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
     }
   </style>
 <div id="nn-combinaciones">
@@ -400,6 +416,28 @@ P_M(N)=\frac{M!}{N!(M-N)!}p^Nq^{M-N}.
 $$
 Esta expresión es conocida como la distribución binomial de probabilidad y [ya hablamos de ella en un artículo anterior](https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial). Podéis comprobar justo debajo la probabilidad de una secuencia con cualquier número de monedas, y también podéis sesgar la moneda, es decir forzar que la probabilidad  $p$ de que salga cara sea distinta de $0.5$.
 
+<style>
+  #coin-probability-sidebar .nn-coin-calculate {
+    margin-top: 10px;
+    width: 100%;
+    padding: 11px 18px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--richcarmine);
+    color: #fff;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  #coin-probability-sidebar .nn-coin-calculate:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+  }
+</style>
+
 <div style="display: flex; justify-content: center; width: 100%;">
 <div id="coin-probability-sidebar" 
      style="border:1px solid #ddd;
@@ -434,8 +472,7 @@ Esta expresión es conocida como la distribución binomial de probabilidad y [ya
     <option value="1">1.0</option>
   </select>
 
-  <button onclick="calcBinomialProb()" 
-          style="margin-top:10px;width:100%;padding:8px;font-size:14px;">
+  <button onclick="calcBinomialProb()" class="nn-coin-calculate">
     Calcular
   </button>
 
