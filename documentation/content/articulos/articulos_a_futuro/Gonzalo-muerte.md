@@ -3,8 +3,7 @@ title: "Hasta que la muerte los separe"
 author: Gonzalo Matias Romano
 date: 2026-10-15
 layout: articles
-slug: prueba-gonza
-status: hidden
+status: published
 category: Micología
 tags:
   - hongos
