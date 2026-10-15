@@ -530,7 +530,7 @@ En ausencia de rozamiento con el aire, el vector $\vec{M}$ no depende del tiempo
 - Si $\psi_0=\pi/2$, la moneda gira sobre un eje perpendicular a la normal, $\vec{n}\perp\vec{M}$. En este caso, la probabilidad de ambos resultados es exactamente 0.5.
 
 <figure class="nn-article-figure">
-  <img src="{static}/barba-caracruz/coin.jpeg" alt="">
+    <img src="{static}/images/barba-caracruz/coin.jpeg" alt="">
   <figcaption>
     Figura 1. Condiciones iniciales del lanzamiento de una moneda precesante, incluyendo el vector normal a la superficie de la moneda y el vector momento angular..
   </figcaption>
