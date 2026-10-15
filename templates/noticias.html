@@ -5,7 +5,7 @@ Noticias · {{ super() }}
 {% endblock title %}
 
 {% block head_description %}
-Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
+Noticias en titulares de ciencia y actualidad seleccionadas por Napkin Notes.
 {% endblock head_description %}
 
 {% block meta_tags_in_head %}
@@ -84,8 +84,20 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
     border-radius: 18px;
     background: var(--paper);
     box-shadow: 0 5px 18px rgba(45, 35, 25, 0.05);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, background 0.22s ease;
 }
 
+.nn-news-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(149, 11, 14, 0.18);
+    background: var(--satinsheengold);
+    box-shadow: 0 18px 40px rgba(16, 16, 16, 0.13);
+}
+.nn-news-card:hover .nn-news-card__title,
+.nn-news-card:hover .nn-news-card__text {
+    color: var(--richcarmine);
+}
+    
 .nn-news-card__title {
     margin: 0 0 7px;
     color: var(--ink);
