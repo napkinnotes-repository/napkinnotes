@@ -1,0 +1,253 @@
+{% extends "base.html" %}
+
+{% block title %}
+Noticias · {{ super() }}
+{% endblock title %}
+
+{% block head_description %}
+Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
+{% endblock head_description %}
+
+{% block meta_tags_in_head %}
+{{ super() }}
+<meta name="robots" content="noindex, nofollow">
+{% endblock meta_tags_in_head %}
+
+{% block content %}
+
+<style>
+.nn-news-page {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 34px 0 80px;
+    box-sizing: border-box;
+}
+
+.nn-news-hero {
+    margin-bottom: 44px;
+    padding: 34px 36px;
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    background: var(--paper);
+    box-shadow: var(--shadow);
+}
+
+.nn-news-kicker {
+    margin-bottom: 8px;
+    color: var(--richcarmine);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.nn-news-title {
+    margin: 0;
+    color: var(--ink);
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(2.4rem, 5vw, 4.4rem);
+    line-height: 0.96;
+}
+
+.nn-news-subtitle {
+    max-width: 720px;
+    margin: 16px 0 0;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.65;
+}
+
+.nn-news-feed {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.nn-news-day {
+    display: grid;
+    grid-template-columns: 104px minmax(0, 1fr);
+    gap: 22px;
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+.nn-news-date {
+    display: flex;
+    min-height: 104px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(196, 154, 102, 0.55);
+    border-radius: 18px;
+    background: #fbf5ee;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.nn-news-date__day {
+    color: var(--richcarmine);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.nn-news-date__month {
+    margin-top: 6px;
+    color: var(--richcarmine);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.13em;
+}
+
+.nn-news-date__year {
+    margin-top: 3px;
+    color: var(--muted);
+    font-size: 0.72rem;
+}
+
+.nn-news-day__items {
+    display: grid;
+    gap: 12px;
+}
+
+.nn-news-card {
+    padding: 19px 22px 20px;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background: var(--paper);
+    box-shadow: 0 5px 18px rgba(45, 35, 25, 0.05);
+}
+
+.nn-news-card__title {
+    margin: 0 0 7px;
+    color: var(--ink);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.55rem;
+    line-height: 1.12;
+}
+
+.nn-news-card__text {
+    margin: 0;
+    color: var(--ink);
+    font-size: 0.96rem;
+    line-height: 1.62;
+}
+
+.nn-news-empty {
+    padding: 24px;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background: var(--paper);
+    color: var(--muted);
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    .nn-news-page {
+        padding-top: 18px;
+    }
+
+    .nn-news-hero {
+        margin-bottom: 28px;
+        padding: 25px 20px;
+        border-radius: 20px;
+    }
+
+    .nn-news-day {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 26px;
+    }
+
+    .nn-news-date {
+        width: 86px;
+        min-height: 76px;
+        padding: 10px 8px;
+        border-radius: 15px;
+    }
+
+    .nn-news-date__day {
+        font-size: 1.8rem;
+    }
+
+    .nn-news-date__month {
+        margin-top: 4px;
+        font-size: 0.7rem;
+    }
+
+    .nn-news-card {
+        padding: 17px 18px 18px;
+        border-radius: 16px;
+    }
+
+    .nn-news-card__title {
+        font-size: 1.38rem;
+    }
+}
+</style>
+
+<section class="nn-news-page">
+
+    <header class="nn-news-hero">
+        <div class="nn-news-kicker">Actualidad científica</div>
+        <h1 class="nn-news-title">{{ page.title }}</h1>
+        <p class="nn-news-subtitle">
+            Noticias breves, resultados y acontecimientos científicos que merece la pena tener en el radar.
+        </p>
+    </header>
+
+    <div class="nn-news-feed">
+
+        {% if page.noticias %}
+
+            {% set meses = {
+                "01": "ENE",
+                "02": "FEB",
+                "03": "MAR",
+                "04": "ABR",
+                "05": "MAY",
+                "06": "JUN",
+                "07": "JUL",
+                "08": "AGO",
+                "09": "SEP",
+                "10": "OCT",
+                "11": "NOV",
+                "12": "DIC"
+            } %}
+
+            {% for fecha, grupo in page.noticias|groupby("fecha")|reverse %}
+            <section class="nn-news-day">
+
+                <time class="nn-news-date" datetime="{{ fecha }}">
+                    <span class="nn-news-date__day">{{ fecha[8:10]|int }}</span>
+                    <span class="nn-news-date__month">{{ meses[fecha[5:7]] }}</span>
+                    <span class="nn-news-date__year">{{ fecha[0:4] }}</span>
+                </time>
+
+                <div class="nn-news-day__items">
+                    {% for noticia in grupo %}
+                    <article class="nn-news-card">
+                        <h2 class="nn-news-card__title">{{ noticia.titulo }}</h2>
+                        <p class="nn-news-card__text">{{ noticia.texto }}</p>
+                    </article>
+                    {% endfor %}
+                </div>
+
+            </section>
+            {% endfor %}
+
+        {% else %}
+
+            <div class="nn-news-empty">
+                Todavía no hay noticias publicadas.
+            </div>
+
+        {% endif %}
+
+    </div>
+
+</section>
+
+{% endblock content %}
