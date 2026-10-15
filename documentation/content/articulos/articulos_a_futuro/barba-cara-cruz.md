@@ -38,7 +38,7 @@ Ahora nos hacemos la siguiente pregunta: ¿cuál es la probabilidad de que, si l
 
 La probabilidad de que la secuencia ABABA se dé es $P(ABABA)=pqpqp=p^3 q^2$. En realidad, cualquier secuencia con 3 caras y 2 cruces tiene la misma probabilidad de ocurrir si lanzamos una moneda 5 veces, porque nos da igual el orden de aparición de caras o cruces. 
 
-Para entender el número de opciones que hay con $N=3$, vamos a usar una pequeña aplicación justo debajo. Vuestra tarea es "tirar" una moneda 5 veces, aunque en este caso vais a elegir el resultado de cada tirada, sabiendo que en total vamos a tener 3 caras y 2 cruces. Después de crear nuestra secuencia de monedas, vamos a ir viendo cómo contar el número total de combinaciones posibles. Para ello, debéis seleccionar "Continuar" y la propia aplicación os irá explicando el razonamiento. Tened en cuenta que en un grupo de $M$ elementos, el número posible de permutaciones entre ellos es $M!=M(M-1)\allowbreak(M-2)\allowbreak\cdots 1$, donde $M!$ es el factorial de $M$.
+Para entender el número de opciones que hay con $N=3$, vamos a usar una pequeña aplicación justo debajo. Vuestra tarea es "tirar" una moneda 5 veces, aunque en este caso vais a elegir el resultado de cada tirada, sabiendo que en total vamos a tener 3 caras y 2 cruces. Después de crear nuestra secuencia de monedas, vamos a ir viendo cómo contar el número total de combinaciones posibles. Para ello, debéis seleccionar "Continuar" y la propia aplicación os irá explicando el razonamiento. Tened en cuenta que en un grupo de $M$ elementos, el número posible de permutaciones entre ellos es $M!=M(M-1)$ $(M-2)\cdots 1$, donde $M!$ es el factorial de $M$.
 
 <style>
     #nn-combinaciones {
