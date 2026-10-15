@@ -41,12 +41,12 @@
 
 
 
-<meta property="og:image" content="https://napkinnotes.es/images/shekel.jpeg" />
-<meta property="og:image:secure_url" content="https://napkinnotes.es/images/shekel.jpeg" />
+<meta property="og:image" content="https://napkinnotes.es/images/barba-caracruz/shekel.jpeg" />
+<meta property="og:image:secure_url" content="https://napkinnotes.es/images/barba-caracruz/shekel.jpeg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="Cara o cruz, o como el azar también tiene sesgos" />
-<meta name="twitter:image" content="https://napkinnotes.es/images/shekel.jpeg">
+<meta name="twitter:image" content="https://napkinnotes.es/images/barba-caracruz/shekel.jpeg">
 <meta name="twitter:image:alt" content="Cara o cruz, o como el azar también tiene sesgos">
 
 
@@ -167,7 +167,7 @@
             <p class="nn-article-hero__summary"><p>aaaaa</p></p>
 
             <figure class="nn-article-hero__figure">
-                <img class="nn-article-hero__image" src="https://napkinnotes.es/images/shekel.jpeg" alt="Cara o cruz, o como el azar también tiene sesgos">
+                <img class="nn-article-hero__image" src="https://napkinnotes.es/images/barba-caracruz/shekel.jpeg" alt="Cara o cruz, o como el azar también tiene sesgos">
             </figure>
         </div>
     </div>
@@ -185,26 +185,26 @@
 <li><a href="#referencias">Referencias</a></li>
 </ul>
 </div>
-<p>¿Cuántas situaciones de nuestra vida se deciden por azar? Decisiones profesionales o financieras; resultados electorales en los que la victoria se decide por un puñado de votos; enfermedades causadas por mutaciones genéticas aleatorias; o algunos resultados deportivos en caso de empate; son muestra de que el azar está muy presente en nuestra vida diaria. Sin ir más lejos, estáis leyendo esta servilleta, acerca del azar, porque un algoritmo me enseñó un vídeo corto sobre el&nbsp;tema.</p>
-<p>El caso más paradigmático de fortuna, en este caso binaria, es el lanzamiento de una moneda al aire. Ponemos una moneda en el pulgar, la lanzamos al aire girando sobre sí misma, y la cazamos con la mano, sin que caiga al suelo. El resultado viene dado por qué lado de la moneda mira hacia arriba. En este juego, que se utiliza para decidir muchísimas situaciones en el mundo humano, todos asumimos que la probabilidad de que salga cara (o cruz) es exactamente 0.5. Si lanzamos la moneda un número enorme de veces, el número de veces que sale cara se aproximará cada vez más al 50\% cuantas más veces la&nbsp;lancemos.  </p>
+<p>¿Cuántas situaciones de nuestra vida se deciden por azar? Decisiones profesionales o financieras; resultados electorales en los que la victoria se decide por un puñado de votos; enfermedades causadas por mutaciones genéticas aleatorias; o algunos resultados deportivos en caso de empate; son muestra de que el azar está muy presente en nuestra vida diaria. Sin ir más lejos, estáis leyendo esta servilleta, acerca del azar, porque un algoritmo me enseñó un vídeo corto que despertó mi&nbsp;interés.</p>
+<p>El caso más paradigmático de fortuna, en este caso binaria, es el lanzamiento de una moneda al aire. Ponemos una moneda en el pulgar, la lanzamos al aire girando sobre sí misma, y la cazamos con la mano, sin que caiga al suelo. El resultado viene dado por qué lado de la moneda mira hacia arriba. En este juego, que se utiliza para decidir muchísimas situaciones en el mundo humano, todos asumimos que la probabilidad de que salga cara (o cruz) es exactamente 0.5. El número de veces que sale cara se aproximará cada vez más al 50% cuantas más veces la&nbsp;lancemos.  </p>
 <p>Pero, ¿y si eso no es así? ¿Podría existir un sesgo que, independientemente de la moneda, hiciese que uno de los lados esté ligeramente favorecido?&nbsp;Veámoslo.</p>
 <h2 id="distribucion-binomial-de-probabilidad">Distribución binomial de probabilidad<a class="headerlink" href="#distribucion-binomial-de-probabilidad" title="Permanent link"> </a></h2>
-<p>Lo primero que vamos a hacer es entender el modelo matemático que explica una apuesta a cara o cruz. El juego consiste en un experimento (aleatorio) con dos posibles resultados: A (cara) y B (cruz).&nbsp;Llamemos <span class="math">\(p\)</span> a la probabilidad de que el resultado sea A. Uno de los axiomas de la teoría de la probabilidad &#8212;aunque no los llamemos así, ya los aplicamos en nuestra vida diaria&#8212;, nos dice&nbsp;que
+<p>Lo primero que vamos a hacer es entender el modelo matemático que explica una apuesta a cara o cruz. El juego consiste en un experimento (aleatorio) con dos posibles resultados: A (cara) y B (cruz).&nbsp;Llamemos <span class="math">\(p\)</span> a la probabilidad de que el resultado sea A. Uno de los axiomas de la teoría de la probabilidad afirma&nbsp;que
 </p>
 <div class="math">$$
 0\leq p \leq 1,
 $$</div>
 <p>
-donde&nbsp;si <span class="math">\(p=0\)</span> nunca puede salir cara, y&nbsp;si <span class="math">\(p=1\)</span> siempre sale cara. El segundo axioma impone que cuando lanzamos una moneda al aire, siempre sale algo, ya sea cara o cruz. Por&nbsp;tanto,
+donde&nbsp;si <span class="math">\(p=0\)</span> nunca puede salir cara, y&nbsp;si <span class="math">\(p=1\)</span> siempre sale cara. Un segundo axioma impone que cuando lanzamos una moneda al aire, siempre sale algo, ya sea cara o cruz. Por&nbsp;tanto,
 </p>
 <div class="math">$$
 p+q=1
 $$</div>
 <p>
 donde <span class="math">\(q\geq0\)</span> es la probabilidad de que salga&nbsp;cruz.</p>
-<p>Ahora nos hacemos la siguiente pregunta: ¿cuál es la probabilidad de que, si&nbsp;lanzo <span class="math">\(M\)</span> monedas al aire seguidas,&nbsp;salga <span class="math">\(N\)</span> veces cara? Trabajemos un ejemplo concreto, en el que&nbsp;tiramos <span class="math">\(M=5\)</span> veces una moneda. ¿Cuál es la probabilidad de que salga&nbsp;cara <span class="math">\(N=3\)</span> veces? Para calcularla tendríamos que escribir todos los resultados posibles (<span class="caps">AAAAA</span>, <span class="caps">AAAAB</span>, <span class="caps">AAABA</span>, etc.), contar todos  los que tienen 3 veces la letra A (por ejemplo <span class="caps">ABABA</span>), y después multiplicar por la probabilidad de cada&nbsp;uno. </p>
+<p>Ahora nos hacemos la siguiente pregunta: ¿cuál es la probabilidad de que, si lanzo una secuencia&nbsp;de <span class="math">\(M\)</span> monedas al aire,&nbsp;salga <span class="math">\(N\)</span> veces cara? Trabajemos un ejemplo concreto, en el que&nbsp;tiramos <span class="math">\(M=5\)</span> veces una moneda. ¿Cuál es la probabilidad de que salga&nbsp;cara <span class="math">\(N=3\)</span> veces? Para calcularla tendríamos que escribir todos los resultados posibles (<span class="caps">AAAAA</span>, <span class="caps">AAAAB</span>, <span class="caps">AAABA</span>, etc.), contar todos  los que tienen 3 veces la letra A (por ejemplo <span class="caps">ABABA</span>), y después multiplicar por la probabilidad de cada&nbsp;uno. </p>
 <p>La probabilidad de que la secuencia <span class="caps">ABABA</span> se dé&nbsp;es <span class="math">\(P(ABABA)=pqpqp=p^3 q^2\)</span>. En realidad, cualquier secuencia con 3 caras y 2 cruces tiene la misma probabilidad de ocurrir si lanzamos una moneda 5 veces, porque nos da igual el orden de aparición de caras o&nbsp;cruces. </p>
-<p>Para entender el número de opciones que hay, vamos a jugar a un juego, en el que vais a tirar una moneda 5 veces y vais a elegir el resultado de cada tirada, sabiendo que en total vamos a tener 3 caras y 2 cruces. Después de crear nuestra secuencia de monedas, vamos a ir viendo cómo contar el número posible de combinaciones con 3 caras en una tirada de 5 monedas. Para ello, debéis seleccionar &#8220;Continuar&#8221; hasta obtener el resultado. Ten en cuenta que el factorial está definido&nbsp;como <span class="math">\(M!=M(M-1)(M-2)...1\)</span>.</p>
+<p>Para entender el número de opciones que hay&nbsp;con <span class="math">\(N=3\)</span>, vamos a usar una pequeña aplicación justo debajo. Vuestra tarea es &#8220;tirar&#8221; una moneda 5 veces, aunque en este caso vais a elegir el resultado de cada tirada, sabiendo que en total vamos a tener 3 caras y 2 cruces. Después de crear nuestra secuencia de monedas, vamos a ir viendo cómo contar el número total de combinaciones posibles. Para ello, debéis seleccionar &#8220;Continuar&#8221; y la propia aplicación os irá explicando el razonamiento. Tened en cuenta que en un grupo&nbsp;de <span class="math">\(M\)</span> elementos, el número posible de permutaciones entre ellos&nbsp;es <span class="math">\(M!=M(M-1)(M-2)...1\)</span>,&nbsp;donde <span class="math">\(M!\)</span> es el factorial&nbsp;de <span class="math">\(M\)</span>.</p>
 <style>
     #nn-combinaciones {
       font-family: Arial, sans-serif;
@@ -581,7 +581,7 @@ donde <span class="math">\(q\geq0\)</span> es la probabilidad de que salga&nbsp;
 P_M(N)=\frac{M!}{N!(M-N)!}p^Nq^{M-N}.
 $$</div>
 <p>
-Esta expresión es conocida como la distribución binomial de probabilidad y <a href="https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial">ya hablamos de ella en un artículo anterior</a>. Podéis comprobar justo debajo la probabilidad de una secuencia con cualquier número de monedas, y también podéis sesgar la moneda, es decir forzar que la&nbsp;probabilidad  <span class="math">\(p\)</span> de que salga cara sea distinta&nbsp;de <span class="math">\(0.5\)</span>.</p>
+Esta expresión es conocida como la <a href="https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial">distribución binomial de probabilidad</a>. Podéis comprobar justo debajo la probabilidad de una secuencia con cualquier número de monedas, y también podéis sesgar la moneda, es decir forzar que la&nbsp;probabilidad  <span class="math">\(p\)</span> de que salga cara sea distinta&nbsp;de <span class="math">\(0.5\)</span>.</p>
 <style>
   #coin-probability-sidebar .nn-coin-calculate {
     margin-top: 10px;
@@ -684,9 +684,9 @@ function calcBinomialProb() {
 </div>
 
 <h2 id="determinismo">Determinismo<a class="headerlink" href="#determinismo" title="Permanent link"> </a></h2>
-<p>En realidad, el lanzamiento de una moneda es un proceso determinista, gobernado por la mecánica clásica. Si conocemos las condiciones iniciales y las características físicas de la moneda (masa y tamaño), podemos predecir con un 100\% de precisión el resultado del lanzamiento. La aleatoriedad que le asignamos a este proceso proviene de una variabilidad enorme al producirse un pequeño cambio en las condiciones iniciales del&nbsp;lanzamiento. </p>
-<p>El modelo predictivo clásico del lanzamiento de una moneda fue desarrollado por Diaconis, Holmes y Montgomery (<span class="caps">DHM</span>)[1]. La cadena argumental es la siguiente: la probabilidad de que al capturar la moneda con la mano el resultado sea cara es proporcional al porcentaje del tiempo de vuelo que la moneda pasa con ese lado mirando hacia arriba. A su vez, este tiempo viene dado por el&nbsp;ángulo <span class="math">\(\psi_0\)</span> que forma el vector normal a la superficie de la&nbsp;moneda <span class="math">\(\vec{n}\)</span> con el vector momento&nbsp;angular <span class="math">\(\vec{M}\)</span>; en el momento de lanzamiento de la&nbsp;moneda.</p>
-<p>En ausencia de rozamiento con el aire, el&nbsp;vector <span class="math">\(\vec{M}\)</span> no depende del tiempo, debido al principio de conservación del momento angular. Sin embargo, en&nbsp;general <span class="math">\(\vec{n}\)</span> sí varía con el tiempo durante el vuelo (excepto&nbsp;si <span class="math">\(\psi_0=0\)</span>), y va a precesar alrededor&nbsp;de <span class="math">\(\vec{M}\)</span>. Para entender el modelo <span class="caps">DHM</span> vamos a comentar dos valores extremos del&nbsp;ángulo <span class="math">\(\psi_0\)</span>:</p>
+<p>En realidad, el lanzamiento de una moneda es un proceso determinista, gobernado por la mecánica clásica. Si conocemos las condiciones iniciales y las características físicas de la moneda (masa y tamaño), podemos predecir con un 100% de precisión el resultado del lanzamiento. La aleatoriedad que le asignamos a este proceso proviene de una variabilidad enorme al producirse un pequeño cambio en las condiciones iniciales del&nbsp;lanzamiento. </p>
+<p>El modelo predictivo clásico del lanzamiento de una moneda fue desarrollado por Diaconis, Holmes y Montgomery (<span class="caps">DHM</span>)<a class="nn-cite" href="#dhs">[1]</a>. La cadena argumental es la siguiente: la probabilidad de que al capturar la moneda con la mano el resultado sea cara es proporcional al porcentaje del tiempo de vuelo que la moneda pasa con ese lado mirando hacia arriba. A su vez, este tiempo viene dado por el&nbsp;ángulo <span class="math">\(\psi_0\)</span> que forma el vector normal a la superficie de la&nbsp;moneda <span class="math">\(\vec{n}\)</span> con el vector momento&nbsp;angular <span class="math">\(\vec{M}\)</span> en el momento de lanzamiento de la moneda. Podéis ver ambos vectores en la Figura&nbsp;1.</p>
+<p>En ausencia de rozamiento con el aire, el&nbsp;vector <span class="math">\(\vec{M}\)</span> no depende del tiempo, debido al principio de conservación del momento angular. Sin embargo, en&nbsp;general <span class="math">\(\vec{n}\)</span> sí varía con el tiempo durante el vuelo (excepto&nbsp;si <span class="math">\(\psi_0=0\)</span>), y va a <a href="https://napkinnotes.es/eclipse-caza#que-es-un-eclipse">precesar</a> alrededor&nbsp;de <span class="math">\(\vec{M}\)</span>. Para entender el modelo <span class="caps">DHM</span> vamos a comentar dos valores extremos del&nbsp;ángulo <span class="math">\(\psi_0\)</span>:</p>
 <ul>
 <li>
 <p>Si <span class="math">\(\psi_0=0\)</span>, entonces la moneda está girando sobre su propia normal (como un paraguas cuando gira alrededor de su mástil), es&nbsp;decir <span class="math">\(\vec{n}\parallel\vec{M}\)</span>. Si lanzamos así la moneda, el resultado va a ser siempre el mismo: vamos a obtener aquel lado que estuviera hacia arriba en el&nbsp;lanzamiento.</p>
@@ -696,30 +696,28 @@ function calcBinomialProb() {
 </li>
 </ul>
 <figure class="nn-article-figure">
-  <img src="https://napkinnotes.es/PATH_TO_IMAGEFOLDER/coin.jpeg" alt="">
+  <img src="https://napkinnotes.es/barba-caracruz/coin.jpeg" alt="">
   <figcaption>
     Figura 1. Condiciones iniciales del lanzamiento de una moneda precesante, incluyendo el vector normal a la superficie de la moneda y el vector momento angular..
   </figcaption>
 </figure>
 
-<p>En valores&nbsp;intermedios <span class="math">\(0&lt;\psi_0&lt;\pi/2\)</span>, la probabilidad es variable (ver figura 3 de [1]). En particular,&nbsp;si <span class="math">\(\psi_0&lt;\pi/4\)</span> la probabilidad de que salga el mismo lado desde que se lanzó es igual a 1, resultado utilizado por magos y aficionados a las apuestas desde tiempos&nbsp;inmemoriales.</p>
+<p>En valores&nbsp;intermedios <span class="math">\(0&lt;\psi_0&lt;\pi/2\)</span>, la probabilidad es variable (ver figura 3 de <a class="nn-cite" href="#dhs">[1]</a>). En particular,&nbsp;si <span class="math">\(\psi_0&lt;\pi/4\)</span> la probabilidad de que salga el mismo lado desde que se lanzó es igual a 1, resultado utilizado por magos y aficionados a las apuestas desde tiempos&nbsp;inmemoriales.</p>
 <p>Un corolario interesante de este resultado es que, si los seres humanos no somos perfectamente precisos al lanzar una moneda al aire, y ocurre&nbsp;que <span class="math">\(\psi_0\neq\pi/2\)</span>, esperamos que haya un sesgo: si la moneda enseñaba el lado cara, es más probable que el resultado sea cara. Utilizando cámaras de alta resolución, y utilizando 27 lanzamientos hechos por humanos, Diaconis, Holmes y Montgomery midieron el ángulo&nbsp;inicial <span class="math">\(\psi_0\)</span> y usando su modelo, infirieron una&nbsp;probabilidad <span class="math">\(p(\textrm{mismo lado})\approx0.51\)</span>.</p>
 <h2 id="el-experimento">El experimento<a class="headerlink" href="#el-experimento" title="Permanent link"> </a></h2>
-<p>En 2023, F. Bartoš et al. [2] lanzaron 350.757 monedas al aire y anotaron el lado inicial y el resultado final. Se aseguraron de utilizar muchos lanzadores, distintos tipos de moneda y denominación, para asegurar variabilidad tanto en el lanzamiento como en las caractarísticas físicas de la moneda. Curiosamente, no encontraron ningún tipo de sesgo que favorezca cara o cruz en el lanzamiento, en ese sentido el azar exacto del 50\% sigue vigente.   Sin embargo, obtuvieron 178.079 resultados en los que el lado inicial y el final eran el mismo. Podéis comprobar vosotros mismos en la aplicación de arriba la probabilidad de que eso ocurra, asumiendo que el resultado final es independiente del lado inicial&nbsp;(<span class="math">\(p(\textrm{mismo lado})=0.5\)</span>). Es un resultado prácticamente imposible, sobre todo comparado con los resultados más probables que están en torno a 175.378 veces&nbsp;(<span class="math">\(M/2\)</span>) en las que coincide el lado inicial con el final. En otras&nbsp;palabras, <span class="math">\(p(\textrm{mismo lado})=0.5077\)</span>. La evidencia bayesiana &#8212;este concepto lo dejamos para otra servilleta&#8212; es enorme a favor de que existe un sesgo a favor de conservar el lado&nbsp;inicial.</p>
+<p>En 2023, F. Bartoš et al. <a class="nn-cite" href="#cointossers">[2]</a> lanzaron 350.757 monedas al aire y anotaron el lado inicial y el resultado final. Se aseguraron de utilizar muchos lanzadores, distintos tipos de moneda y denominación, para asegurar variabilidad tanto en el lanzamiento como en las caractarísticas físicas de la moneda. Curiosamente, no encontraron ningún tipo de sesgo que favorezca cara o cruz en el lanzamiento, en ese sentido el azar exacto del 50% sigue vigente.   Sin embargo, obtuvieron 178.079 resultados en los que el lado inicial y el final eran el mismo. Podéis comprobar vosotros mismos en la aplicación de arriba la probabilidad de que eso ocurra, asumiendo que el resultado final es independiente del lado inicial&nbsp;(<span class="math">\(p(\textrm{mismo lado})=0.5\)</span>). Es un resultado prácticamente imposible, sobre todo comparado con los resultados más probables que están en torno a 175.378 veces&nbsp;(<span class="math">\(M/2\)</span>) en las que coincide el lado inicial con el final. En otras&nbsp;palabras, <span class="math">\(p(\textrm{mismo lado})=0.5077\)</span>. La evidencia bayesiana &#8212;este concepto lo dejamos para otra servilleta&#8212; es enorme a favor de que existe un sesgo a favor de conservar el lado&nbsp;inicial.</p>
 <p>Otro resultado interesante es que el sesgo &#8212;según <span class="caps">DHS</span> el&nbsp;ángulo <span class="math">\(\psi_0\)</span>&#8212; varía en función del lanzador, y en general observan que los lanzadores aprenden, y mejoran, acercándose más&nbsp;a <span class="math">\(\psi_0=\pi/2\)</span> cuantas más monedas&nbsp;lancen.</p>
-<p>Este experimento ha confirmado la existencia de un sesgo favorable al lado inicial que ya había sido predicho por [1]. Lo que no ha sucedido todavía es una confirmación experimental del modelo <span class="caps">DHS</span>. Para lo cual haría falta lanzar una cantidad de monedas similar a la de [2], pero no solo medir el resultado del lanzamiento sino también medir &#8212;o controlar usando una máquina que lance la moneda de forma automática&#8212; el&nbsp;ángulo <span class="math">\(\psi_0\)</span>. Solo así podríamos evaluar experimentalmente la relación entre la probabilidad y el ángulo&nbsp;inicial. </p>
+<p>Este experimento ha confirmado la existencia de un sesgo favorable al lado inicial que ya había sido predicho por <a class="nn-cite" href="#dhs">[1]</a>. Lo que no ha sucedido todavía es una confirmación experimental del modelo <span class="caps">DHS</span>. Para lo cual haría falta lanzar una cantidad de monedas similar a la de <a class="nn-cite" href="#cointossers">[2]</a>, pero no solo medir el resultado del lanzamiento sino también medir &#8212;o controlar usando una máquina que lance la moneda de forma automática&#8212; el&nbsp;ángulo <span class="math">\(\psi_0\)</span>. Solo así podríamos evaluar experimentalmente la relación entre la probabilidad y el ángulo&nbsp;inicial. </p>
 <h2 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link"> </a></h2>
-<ol class="nn-references">
-  <li id="dhs">
+<li id="dhs">
     P. Diaconis, S. Holmes y R. Montgomery (2007). Dynamical Bias in the Coin Toss, <em>Society for Industrial and Applied Mathematics review</em>, 49, 2, 211-235. 
     <a href="https://www.stat.berkeley.edu/~aldous/157/Papers/diaconis_coinbias.pdf" target="_blank" rel="noopener noreferrer">https://www.stat.berkeley.edu/~aldous/157/Papers/diaconis_coinbias.pdf</a>
   </li>
 
-  <li id="cointossers">
+<li id="cointossers">
     F. Bartoš et al. (2025). Fair Coins Tend to Land on the Same Side They Started: Evidence from 350,757 Flips. <em>Journal of the American Statistical Association</em>, 120, 552, 2118-2127.
     <a href="https://doi.org/10.1080/01621459.2025.2516210" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/01621459.2025.2516210</a>
   </li>
-</ol>
 
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
