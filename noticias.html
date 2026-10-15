@@ -141,40 +141,6 @@
     box-sizing: border-box;
 }
 
-.nn-news-hero {
-    margin-bottom: 44px;
-    padding: 34px 36px;
-    border: 1px solid var(--line);
-    border-radius: 24px;
-    background: var(--paper);
-    box-shadow: var(--shadow);
-}
-
-.nn-news-kicker {
-    margin-bottom: 8px;
-    color: var(--richcarmine);
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-}
-
-.nn-news-title {
-    margin: 0;
-    color: var(--ink);
-    font-family: "Cormorant Garamond", serif;
-    font-size: clamp(2.4rem, 5vw, 4.4rem);
-    line-height: 0.96;
-}
-
-.nn-news-subtitle {
-    max-width: 720px;
-    margin: 16px 0 0;
-    color: var(--muted);
-    font-size: 1rem;
-    line-height: 1.65;
-}
-
 .nn-news-feed {
     width: 100%;
     max-width: 900px;
@@ -226,7 +192,7 @@
 
 .nn-news-day__items {
     display: grid;
-    gap: 12px;
+    gap: 4px;
 }
 
 .nn-news-card {
@@ -266,12 +232,6 @@
         padding-top: 18px;
     }
 
-    .nn-news-hero {
-        margin-bottom: 28px;
-        padding: 25px 20px;
-        border-radius: 20px;
-    }
-
     .nn-news-day {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -307,12 +267,14 @@
 
 <section class="nn-news-page">
 
-    <header class="nn-news-hero">
-        <div class="nn-news-kicker">Actualidad científica</div>
-        <h1 class="nn-news-title">Noticias</h1>
-        <p class="nn-news-subtitle">
-            Noticias breves, resultados y acontecimientos científicos que merece la pena tener en el radar.
-        </p>
+    <header class="nn-squad-hero">
+        <div class="nn-squad-hero__inner">
+            <div class="nn-kicker">Actualidad científica</div>
+            <h1 class="nn-squad-hero__title">Noticias</h1>
+            <p class="nn-squad-hero__subtitle">
+                Noticias breves, resultados y acontecimientos científicos que merece la pena tener en el radar.
+            </p>
+        </div>
     </header>
 
     <div class="nn-news-feed">
