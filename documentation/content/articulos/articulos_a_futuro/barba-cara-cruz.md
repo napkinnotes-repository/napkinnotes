@@ -1,5 +1,5 @@
 ---
-title: Cara o cruz, o como el azar también tiene sesgos          # vuestro título
+title: "Cara o cruz: instrucciones para fabricar vuestra propia suerte"          # vuestro título
 author: David Barba González               # mismo nombre que en la tarjeta de autor
 date: 2026-10-22          # formato YYYY-MM-DD
 layout: articles
@@ -10,7 +10,7 @@ tags:                     # tags con minúscula inicial
   - probabilidad
   - estadística
   - bli bli
-summary: "¿Es realmente justo lanzar una moneda al aire? Aunque solemos asumir que cara y cruz tienen la misma probabilidad, la física y la estadística revelan un pequeño sesgo que puede inclinar el resultado. Descubre por qué ocurre y compruébalo con dos aplicaciones interactivas."
+summary: "Lanzar una moneda al aire es un proceso totalmente determinista. Sin embargo, las usamos para decidir nuestra suerte. Si leéis este artículo, os iniciaréis en los secretos de los prestidigitadores, que fabrican su propia suerte."
 image: images/barba-caracruz/shekel.jpeg # imagen principal del artículo  ¡¡¡¡¡¡¡¡TIENE QUE SER JPEG EL FORMATO!!!!!
 certificate: false
 ---
