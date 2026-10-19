@@ -422,8 +422,9 @@
    ========================================================= */
 
 .nn-news-upcoming {
-    margin: 0 auto 28px;
-    max-width: 900px;
+    width: 100%;
+    margin: 0 0 28px;
+    max-width: none;
 }
 
 .nn-news-upcoming__title {
@@ -438,14 +439,34 @@
     gap: 4px;
 }
 
+.nn-news-upcoming__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 7px;
+}
+
+.nn-news-upcoming__head .nn-news-card__title {
+    margin: 0;
+}
+
+.nn-news-upcoming__date {
+    flex: 0 0 auto;
+    color: var(--muted);
+    font-size: 0.9rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
 /* =========================================================
    NOTICIAS
    ========================================================= */
 
 .nn-news-feed {
     width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: none;
+    margin: 0;
 }
 
 .nn-news-day {
@@ -639,6 +660,15 @@
 
     .nn-news-card__title {
         font-size: 1.38rem;
+    }
+
+    .nn-news-upcoming__head {
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nn-news-upcoming__date {
+        font-size: 0.82rem;
     }
 }
 </style>
@@ -856,10 +886,13 @@
 
         <div class="nn-news-upcoming__list">
             <article class="nn-news-card">
-                <h3 class="nn-news-card__title">Noticia futura de prueba</h3>
-                <p class="nn-news-card__text">
-                    <strong>2026-10-27</strong> · Este bloque sirve para anunciar una noticia o acontecimiento futuro sin crear una página individual.
-                </p>
+                <div class="nn-news-upcoming__head">
+                    <h3 class="nn-news-card__title">Noticia futura de prueba</h3>
+                    <time class="nn-news-upcoming__date" datetime="2026-10-27">
+                        27-10-2026
+                    </time>
+                </div>
+                <p class="nn-news-card__text">Este bloque sirve para anunciar una noticia o acontecimiento futuro sin crear una página individual.</p>
             </article>
         </div>
     </section>
