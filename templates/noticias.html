@@ -669,8 +669,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
     }
 
     const monthFormatter = new Intl.DateTimeFormat("es-ES", {
-        month: "long",
-        year: "numeric"
+        month: "long"
     });
 
     function pad(value) {
@@ -722,7 +721,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         const firstDay = new Date(currentYear, currentMonth, 1);
         const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
 
-        monthLabel.textContent = monthFormatter.format(firstDay);
+        monthLabel.textContent = monthFormatter.format(firstDay) + " " + currentYear;
 
         prevButton.disabled =
             currentYear === minimumYear &&
