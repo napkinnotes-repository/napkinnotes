@@ -909,8 +909,7 @@
     }
 
     const monthFormatter = new Intl.DateTimeFormat("es-ES", {
-        month: "long",
-        year: "numeric"
+        month: "long"
     });
 
     function pad(value) {
@@ -962,7 +961,7 @@
         const firstDay = new Date(currentYear, currentMonth, 1);
         const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
 
-        monthLabel.textContent = monthFormatter.format(firstDay);
+        monthLabel.textContent = monthFormatter.format(firstDay) + " " + currentYear;
 
         prevButton.disabled =
             currentYear === minimumYear &&
