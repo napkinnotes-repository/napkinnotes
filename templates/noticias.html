@@ -908,9 +908,11 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             });
 
             if (popoverItems.length) {
-                cell.addEventListener("mouseenter", function () {
-                    openPopover(cell, popoverItems);
-                });
+                if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+                    cell.addEventListener("mouseenter", function () {
+                        openPopover(cell, popoverItems);
+                    });
+                }
 
                 cell.addEventListener("click", function (event) {
                     event.stopPropagation();
