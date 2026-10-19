@@ -15,7 +15,7 @@
 
         <meta name="author" content="" />
 
-        <meta name="description" content="Noticias en titulares de ciencia y actualidad seleccionadas por Napkin Notes.
+        <meta name="description" content="Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
 " />
 
 
@@ -141,6 +141,233 @@
     box-sizing: border-box;
 }
 
+/* =========================================================
+   CALENDARIO
+   ========================================================= */
+
+.nn-news-calendar {
+    margin: 0 0 28px;
+    padding: 22px 24px 24px;
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    background: var(--paper);
+    box-shadow: var(--shadow);
+}
+
+.nn-news-calendar__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+.nn-news-calendar__heading {
+    margin: 0;
+    color: var(--ink);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.nn-news-calendar__nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nn-news-calendar__button {
+    display: inline-flex;
+    width: 38px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: #fbf5ee;
+    color: var(--richcarmine);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.nn-news-calendar__button:hover {
+    transform: translateY(-1px);
+    border-color: rgba(196, 154, 102, 0.55);
+    background: #f8ecdf;
+}
+
+.nn-news-calendar__month {
+    min-width: 160px;
+    color: var(--richcarmine);
+    font-size: 0.96rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.nn-news-calendar__weekdays,
+.nn-news-calendar__grid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 7px;
+}
+
+.nn-news-calendar__weekdays {
+    margin-bottom: 7px;
+}
+
+.nn-news-calendar__weekday {
+    padding: 3px 0;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nn-news-calendar__day {
+    position: relative;
+    min-height: 72px;
+    padding: 8px 7px;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    background: rgba(255, 253, 249, 0.42);
+    color: var(--ink);
+    text-align: left;
+    box-sizing: border-box;
+    transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+}
+
+.nn-news-calendar__day--empty {
+    background: transparent;
+}
+
+.nn-news-calendar__day:not(.nn-news-calendar__day--empty):hover {
+    transform: translateY(-2px);
+    border-color: rgba(196, 154, 102, 0.45);
+    background: #fbf5ee;
+    box-shadow: 0 10px 24px rgba(20, 10, 10, 0.08);
+}
+
+.nn-news-calendar__day-number {
+    display: block;
+    font-size: 0.84rem;
+    font-weight: 700;
+}
+
+.nn-news-calendar__day--today {
+    border-color: rgba(149, 11, 14, 0.32);
+}
+
+.nn-news-calendar__marker {
+    display: block;
+    margin-top: 7px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.nn-news-calendar__marker--article {
+    color: var(--richcarmine);
+}
+
+.nn-news-calendar__marker--future {
+    color: var(--satinsheengold);
+}
+
+.nn-news-calendar__day--article {
+    cursor: pointer;
+}
+
+.nn-news-calendar__day--article::after,
+.nn-news-calendar__day--future::after {
+    content: "";
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.nn-news-calendar__day--article::after {
+    background: var(--richcarmine);
+}
+
+.nn-news-calendar__day--future::after {
+    background: var(--satinsheengold);
+}
+
+/* Popover de artículos del día */
+.nn-news-calendar__popover {
+    position: fixed;
+    z-index: 2000;
+    display: none;
+    width: min(320px, calc(100vw - 32px));
+    padding: 13px 14px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--paper);
+    box-shadow: 0 18px 46px rgba(20, 10, 10, 0.18);
+}
+
+.nn-news-calendar__popover.is-open {
+    display: block;
+}
+
+.nn-news-calendar__popover-title {
+    margin: 0 0 8px;
+    color: var(--muted);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.nn-news-calendar__popover-link {
+    display: block;
+    padding: 7px 8px;
+    border-radius: 9px;
+    color: var(--richcarmine);
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-decoration: none !important;
+}
+
+.nn-news-calendar__popover-link:hover {
+    background: #f8ecdf;
+    color: var(--richcarmine);
+}
+
+/* =========================================================
+   PRÓXIMAMENTE
+   ========================================================= */
+
+.nn-news-upcoming {
+    margin: 0 auto 28px;
+    max-width: 900px;
+}
+
+.nn-news-upcoming__title {
+    margin: 0 0 10px;
+    color: var(--richcarmine);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.65rem;
+}
+
+.nn-news-upcoming__list {
+    display: grid;
+    gap: 4px;
+}
+
+/* =========================================================
+   NOTICIAS
+   ========================================================= */
+
 .nn-news-feed {
     width: 100%;
     max-width: 900px;
@@ -210,11 +437,12 @@
     background: var(--satinsheengold);
     box-shadow: 0 18px 40px rgba(16, 16, 16, 0.13);
 }
+
 .nn-news-card:hover .nn-news-card__title,
 .nn-news-card:hover .nn-news-card__text {
     color: var(--richcarmine);
 }
-    
+
 .nn-news-card__title {
     margin: 0 0 7px;
     color: var(--ink);
@@ -244,7 +472,53 @@
         padding-top: 18px;
     }
 
-     .nn-news-day {
+    .nn-news-calendar {
+        padding: 17px 13px 18px;
+        border-radius: 18px;
+    }
+
+    .nn-news-calendar__top {
+        align-items: flex-start;
+    }
+
+    .nn-news-calendar__heading {
+        font-size: 1.55rem;
+    }
+
+    .nn-news-calendar__month {
+        min-width: 110px;
+        font-size: 0.84rem;
+    }
+
+    .nn-news-calendar__weekdays,
+    .nn-news-calendar__grid {
+        gap: 3px;
+    }
+
+    .nn-news-calendar__day {
+        min-height: 55px;
+        padding: 6px 4px;
+        border-radius: 10px;
+    }
+
+    .nn-news-calendar__day-number {
+        font-size: 0.76rem;
+    }
+
+    .nn-news-calendar__marker {
+        margin-top: 4px;
+        font-size: 0.57rem;
+    }
+
+    .nn-news-calendar__day--article::after,
+    .nn-news-calendar__day--future::after {
+        right: 5px;
+        bottom: 5px;
+        width: 6px;
+        height: 6px;
+    }
+
+    .nn-news-day {
         grid-template-columns: 1fr;
         gap: 10px;
         margin-bottom: 26px;
@@ -295,6 +569,192 @@
         </div>
     </header>
 
+    <!-- Datos de artículos generados por Pelican. Se leen desde JS para construir el calendario. -->
+    <div id="nn-news-article-data" hidden>
+        <span
+            data-date="2026-10-15"
+            data-title="Hasta que la muerte los separe"
+            data-url="https://napkinnotes.es/hasta-que-la-muerte-los-separe"
+        ></span>
+        <span
+            data-date="2026-10-08"
+            data-title="Mirar más de cerca: la vida secreta de una ventana de avión"
+            data-url="https://napkinnotes.es/mirar-mas-de-cerca-la-vida-secreta-de-una-ventana-de-avion"
+        ></span>
+        <span
+            data-date="2026-10-06"
+            data-title="El Universo bajo el hielo y el Nobel de Física 2026"
+            data-url="https://napkinnotes.es/nobel-fisica-2026-francis-halzen-icecube"
+        ></span>
+        <span
+            data-date="2026-10-01"
+            data-title="Riemann y el millón de dólares: los secretos de los números primos"
+            data-url="https://napkinnotes.es/riemann-y-el-millon-de-dolares-los-secretos-de-los-numeros-primos"
+        ></span>
+        <span
+            data-date="2026-09-24"
+            data-title="El valor de no ignorar lo extraño"
+            data-url="https://napkinnotes.es/el-valor-de-no-ignorar-lo-extrano"
+        ></span>
+        <span
+            data-date="2026-09-17"
+            data-title="Tormentas y rayos: el poder de Zeus"
+            data-url="https://napkinnotes.es/tormentas-y-rayos-el-poder-de-zeus"
+        ></span>
+        <span
+            data-date="2026-09-12"
+            data-title="Navier-Stokes: el problema del milenio ante la inteligencia artificial"
+            data-url="https://napkinnotes.es/navier-stokes-milenio"
+        ></span>
+        <span
+            data-date="2026-09-10"
+            data-title="¿De qué color es el mundo cuando nadie lo está mirando?"
+            data-url="https://napkinnotes.es/de-que-color-es-el-mundo-cuando-nadie-lo-esta-mirando"
+        ></span>
+        <span
+            data-date="2026-09-03"
+            data-title="Un vikingo en Marte"
+            data-url="https://napkinnotes.es/un-vikingo-en-marte"
+        ></span>
+        <span
+            data-date="2026-08-27"
+            data-title="Movimiento y vísceras"
+            data-url="https://napkinnotes.es/movimiento-y-visceras"
+        ></span>
+        <span
+            data-date="2026-08-20"
+            data-title="Sobre la imposibilidad de cuadrar el círculo"
+            data-url="https://napkinnotes.es/sobre-la-imposibilidad-de-cuadrar-el-circulo"
+        ></span>
+        <span
+            data-date="2026-08-13"
+            data-title="¿Por qué es naranja el atardecer?"
+            data-url="https://napkinnotes.es/el-atardecer"
+        ></span>
+        <span
+            data-date="2026-08-11"
+            data-title="A la caza del eclipse total"
+            data-url="https://napkinnotes.es/eclipse-caza"
+        ></span>
+        <span
+            data-date="2026-08-06"
+            data-title="Dunas y desiertos I I I"
+            data-url="https://napkinnotes.es/dunas-y-desiertos-i-i-i"
+        ></span>
+        <span
+            data-date="2026-07-30"
+            data-title="¿Cuánto ha acelerado la producción de conocimiento la Inteligencia Artificial? Una estimación sobre ciencia en la era transChatGPTiana"
+            data-url="https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt"
+        ></span>
+        <span
+            data-date="2026-07-23"
+            data-title="El camino más corto no siempre es la línea recta"
+            data-url="https://napkinnotes.es/misterio-mezquita-washington-geometria"
+        ></span>
+        <span
+            data-date="2026-07-16"
+            data-title="La rebelión de los fractales I I: crea tu propio fractal y descubre su dimensión"
+            data-url="https://napkinnotes.es/la-rebelion-de-los-fractales-i-i-crea-tu-propio-fractal-y-descubre-su-dimension"
+        ></span>
+        <span
+            data-date="2026-07-09"
+            data-title="Dunas y desiertos I I"
+            data-url="https://napkinnotes.es/dunas-y-desiertos-ii"
+        ></span>
+        <span
+            data-date="2026-07-02"
+            data-title="Cuando las matemáticas desafinan"
+            data-url="https://napkinnotes.es/matematicas_desafinan"
+        ></span>
+        <span
+            data-date="2026-06-25"
+            data-title="¿Una moneda al aire decide Mundiales?: cómo la estadística se puede usar para lo que uno quiera si la muestra es pequeña"
+            data-url="https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial"
+        ></span>
+        <span
+            data-date="2026-06-11"
+            data-title="Perdimos por culpa del aire: una investigación casi seria sobre el Mundial de Fútbol 2026"
+            data-url="https://napkinnotes.es/mundial-2026-fisica-balon-aire"
+        ></span>
+        <span
+            data-date="2026-06-04"
+            data-title="Dunas y desiertos I"
+            data-url="https://napkinnotes.es/dunas-y-desiertos-i"
+        ></span>
+        <span
+            data-date="2026-06-04"
+            data-title="El poder de la catenaria"
+            data-url="https://napkinnotes.es/el-poder-de-la-catenaria"
+        ></span>
+        <span
+            data-date="2026-06-04"
+            data-title="La rebelión de los fractales I: ¿Y si las dimensiones tuvieran decimales?"
+            data-url="https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales"
+        ></span>
+        <span
+            data-date="2026-05-28"
+            data-title="El misterio del tiempo acelerado: ¿Por qué la vida “vuela” a medida que envejecemos?"
+            data-url="https://napkinnotes.es/el-misterio-del-tiempo-acelerado-por-que-la-vida-vuela-a-medida-que-envejecemos"
+        ></span>
+        <span
+            data-date="2026-05-28"
+            data-title="¡Tu arcoíris es solo tuyo!"
+            data-url="https://napkinnotes.es/tu-arcoiris-es-solo-tuyo"
+        ></span>
+        <span
+            data-date="2026-05-21"
+            data-title="El pintor y la trompeta"
+            data-url="https://napkinnotes.es/el-pintor-y-la-trompeta"
+        ></span>
+        <span
+            data-date="2026-05-21"
+            data-title="¿Por qué las palomitas revientan en el microondas?"
+            data-url="https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas"
+        ></span>
+    </div>
+
+    <section class="nn-news-calendar" aria-labelledby="nnNewsCalendarTitle">
+        <div class="nn-news-calendar__top">
+            <h2 class="nn-news-calendar__heading" id="nnNewsCalendarTitle">Calendario</h2>
+
+            <div class="nn-news-calendar__nav">
+                <button class="nn-news-calendar__button" id="nnCalendarPrev" type="button" aria-label="Mes anterior">‹</button>
+                <div class="nn-news-calendar__month" id="nnCalendarMonth"></div>
+                <button class="nn-news-calendar__button" id="nnCalendarNext" type="button" aria-label="Mes siguiente">›</button>
+            </div>
+        </div>
+
+        <div class="nn-news-calendar__weekdays" aria-hidden="true">
+            <div class="nn-news-calendar__weekday">L</div>
+            <div class="nn-news-calendar__weekday">M</div>
+            <div class="nn-news-calendar__weekday">X</div>
+            <div class="nn-news-calendar__weekday">J</div>
+            <div class="nn-news-calendar__weekday">V</div>
+            <div class="nn-news-calendar__weekday">S</div>
+            <div class="nn-news-calendar__weekday">D</div>
+        </div>
+
+        <div class="nn-news-calendar__grid" id="nnCalendarGrid"></div>
+    </section>
+
+    <div class="nn-news-calendar__popover" id="nnCalendarPopover" role="dialog" aria-live="polite">
+        <div class="nn-news-calendar__popover-title">Artículos publicados</div>
+        <div id="nnCalendarPopoverContent"></div>
+    </div>
+
+    <section class="nn-news-upcoming">
+        <h2 class="nn-news-upcoming__title">Próximamente</h2>
+
+        <div class="nn-news-upcoming__list">
+            <article class="nn-news-card">
+                <h3 class="nn-news-card__title">Noticia futura de prueba</h3>
+                <p class="nn-news-card__text">
+                    <strong>2026-10-27</strong> · Este bloque sirve para anunciar una noticia o acontecimiento futuro sin crear una página individual.
+                </p>
+            </article>
+        </div>
+    </section>
+
     <div class="nn-news-feed">
 
 
@@ -340,6 +800,224 @@
     </div>
 
 </section>
+
+<script>
+(function () {
+    "use strict";
+
+    const grid = document.getElementById("nnCalendarGrid");
+    const monthLabel = document.getElementById("nnCalendarMonth");
+    const prevButton = document.getElementById("nnCalendarPrev");
+    const nextButton = document.getElementById("nnCalendarNext");
+    const popover = document.getElementById("nnCalendarPopover");
+    const popoverContent = document.getElementById("nnCalendarPopoverContent");
+
+    if (!grid || !monthLabel || !prevButton || !nextButton || !popover || !popoverContent) {
+        return;
+    }
+
+    const articleNodes = Array.from(
+        document.querySelectorAll("#nn-news-article-data [data-date]")
+    );
+
+    const articlesByDate = {};
+
+    articleNodes.forEach(function (node) {
+        const date = node.dataset.date;
+
+        if (!articlesByDate[date]) {
+            articlesByDate[date] = [];
+        }
+
+        articlesByDate[date].push({
+            title: node.dataset.title,
+            url: node.dataset.url
+        });
+    });
+
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    let currentYear = today.getFullYear();
+    let currentMonth = today.getMonth();
+
+    const monthFormatter = new Intl.DateTimeFormat("es-ES", {
+        month: "long",
+        year: "numeric"
+    });
+
+    function pad(value) {
+        return String(value).padStart(2, "0");
+    }
+
+    function dateKey(year, month, day) {
+        return year + "-" + pad(month + 1) + "-" + pad(day);
+    }
+
+    function closePopover() {
+        popover.classList.remove("is-open");
+        popoverContent.innerHTML = "";
+    }
+
+    function openPopover(dayElement, articles) {
+        popoverContent.innerHTML = "";
+
+        articles.forEach(function (article) {
+            const link = document.createElement("a");
+            link.className = "nn-news-calendar__popover-link";
+            link.href = article.url;
+            link.textContent = article.title;
+            popoverContent.appendChild(link);
+        });
+
+        const rect = dayElement.getBoundingClientRect();
+        const width = Math.min(320, window.innerWidth - 32);
+
+        let left = rect.left + (rect.width / 2) - (width / 2);
+        left = Math.max(16, Math.min(left, window.innerWidth - width - 16));
+
+        let top = rect.bottom + 8;
+
+        if (top + 180 > window.innerHeight) {
+            top = Math.max(16, rect.top - 188);
+        }
+
+        popover.style.width = width + "px";
+        popover.style.left = left + "px";
+        popover.style.top = top + "px";
+        popover.classList.add("is-open");
+    }
+
+    function renderCalendar() {
+        closePopover();
+        grid.innerHTML = "";
+
+        const firstDay = new Date(currentYear, currentMonth, 1);
+        const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+
+        monthLabel.textContent = monthFormatter.format(firstDay);
+
+        // JS: domingo=0. Queremos lunes=0.
+        const leading = (firstDay.getDay() + 6) % 7;
+
+        for (let i = 0; i < leading; i++) {
+            const empty = document.createElement("div");
+            empty.className = "nn-news-calendar__day nn-news-calendar__day--empty";
+            grid.appendChild(empty);
+        }
+
+        for (let day = 1; day <= daysInMonth; day++) {
+            const date = new Date(currentYear, currentMonth, day);
+            date.setHours(0, 0, 0, 0);
+
+            const key = dateKey(currentYear, currentMonth, day);
+            const dayArticles = articlesByDate[key] || [];
+            const isPastOrToday = date <= today;
+            const isFuture = date > today;
+            const isThursday = date.getDay() === 4;
+
+            const cell = document.createElement("div");
+            cell.className = "nn-news-calendar__day";
+            cell.tabIndex = -1;
+
+            const number = document.createElement("span");
+            number.className = "nn-news-calendar__day-number";
+            number.textContent = day;
+            cell.appendChild(number);
+
+            if (date.getTime() === today.getTime()) {
+                cell.classList.add("nn-news-calendar__day--today");
+            }
+
+            // Solo mostramos títulos/enlaces de artículos ya publicados.
+            if (isPastOrToday && dayArticles.length) {
+                cell.classList.add("nn-news-calendar__day--article");
+                cell.tabIndex = 0;
+
+                const marker = document.createElement("span");
+                marker.className = "nn-news-calendar__marker nn-news-calendar__marker--article";
+                marker.textContent = dayArticles.length === 1 ? "Artículo" : dayArticles.length + " artículos";
+                cell.appendChild(marker);
+
+                cell.addEventListener("mouseenter", function () {
+                    openPopover(cell, dayArticles);
+                });
+
+                cell.addEventListener("mouseleave", function (event) {
+                    if (!popover.matches(":hover")) {
+                        closePopover();
+                    }
+                });
+
+                cell.addEventListener("click", function (event) {
+                    event.stopPropagation();
+
+                    if (popover.classList.contains("is-open")) {
+                        closePopover();
+                    } else {
+                        openPopover(cell, dayArticles);
+                    }
+                });
+
+                cell.addEventListener("keydown", function (event) {
+                    if (event.key === "Enter" || event.key === " ") {
+                        event.preventDefault();
+                        openPopover(cell, dayArticles);
+                    }
+                });
+            }
+
+            // Los jueves futuros solo anuncian que habrá nuevo artículo.
+            if (isFuture && isThursday) {
+                cell.classList.add("nn-news-calendar__day--future");
+
+                const marker = document.createElement("span");
+                marker.className = "nn-news-calendar__marker nn-news-calendar__marker--future";
+                marker.textContent = "Nuevo artículo";
+                cell.appendChild(marker);
+            }
+
+            grid.appendChild(cell);
+        }
+    }
+
+    popover.addEventListener("mouseleave", closePopover);
+
+    document.addEventListener("click", function (event) {
+        if (!event.target.closest(".nn-news-calendar__day--article") &&
+            !event.target.closest(".nn-news-calendar__popover")) {
+            closePopover();
+        }
+    });
+
+    window.addEventListener("resize", closePopover);
+    window.addEventListener("scroll", closePopover, { passive: true });
+
+    prevButton.addEventListener("click", function () {
+        currentMonth--;
+
+        if (currentMonth < 0) {
+            currentMonth = 11;
+            currentYear--;
+        }
+
+        renderCalendar();
+    });
+
+    nextButton.addEventListener("click", function () {
+        currentMonth++;
+
+        if (currentMonth > 11) {
+            currentMonth = 0;
+            currentYear++;
+        }
+
+        renderCalendar();
+    });
+
+    renderCalendar();
+})();
+</script>
 
                 </div>
             </main>
