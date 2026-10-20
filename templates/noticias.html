@@ -733,7 +733,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         <div id="nnCalendarPopoverContent"></div>
     </div>
 
-    <section class="nn-news-upcoming">
+    <section class="nn-news-upcoming" id="nnUpcomingSection">
         <h2 class="nn-news-upcoming__title">Próximamente <span id="nnUpcomingMonth"></span></h2>
         <div class="nn-news-upcoming__list" id="nnUpcomingList"></div>
     </section>
@@ -755,12 +755,13 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
     const nextButton = document.getElementById("nnCalendarNext");
     const popover = document.getElementById("nnCalendarPopover");
     const popoverContent = document.getElementById("nnCalendarPopoverContent");
+    const upcomingSection = document.getElementById("nnUpcomingSection");
     const upcomingList = document.getElementById("nnUpcomingList");
     const pastList = document.getElementById("nnPastList");
     const upcomingMonth = document.getElementById("nnUpcomingMonth");
     const pastMonth = document.getElementById("nnPastMonth");
 
-    if (!grid || !monthLabel || !prevButton || !nextButton || !popover || !popoverContent || !upcomingList || !pastList || !upcomingMonth || !pastMonth) {
+    if (!grid || !monthLabel || !prevButton || !nextButton || !popover || !popoverContent || !upcomingSection || !upcomingList || !pastList || !upcomingMonth || !pastMonth) {
         return;
     }
 
@@ -915,10 +916,10 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         const content = document.createElement("div");
         content.className = "nn-news-card__content";
 
-        if (item.kind === "news" || item.kind === "event") {
+        if (item.kind === "news") {
             const type = document.createElement("span");
-            type.className = "nn-news-card__type" + (item.kind === "event" ? " nn-news-card__type--event" : "");
-            type.textContent = item.kind === "event" ? "Evento" : "Noticia";
+            type.className = "nn-news-card__type";
+            type.textContent = "Noticia";
             content.appendChild(type);
         }
 
@@ -1051,10 +1052,17 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         upcomingMonth.textContent = sectionMonthLabel;
         pastMonth.textContent = sectionMonthLabel;
 
+        const visibleMonthStart = new Date(currentYear, currentMonth, 1);
+        const actualMonthStart = new Date(today.getFullYear(), today.getMonth(), 1);
+        const isPastMonth = visibleMonthStart < actualMonthStart;
+
+        upcomingSection.style.display = isPastMonth ? "none" : "";
+
         const visibleMonthItems = editorialItems.filter(itemIsInVisibleMonth);
 
         const upcomingItems = [];
 
+        if (!isPastMonth) {
         // El próximo artículo aparece como una entrada más, con el mismo formato.
         const nextArticle = nextArticleDate();
         if (
@@ -1089,6 +1097,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             upcomingList.appendChild(emptyUpcoming);
         } else {
             renderDateGroups(upcomingList, upcomingItems);
+        }
         }
 
         const pastItems = visibleMonthItems
