@@ -975,22 +975,39 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         return card;
     }
 
+    function itemIsInVisibleMonth(item) {
+        const date = parseLocalDate(item.date);
+        return date.getFullYear() === currentYear && date.getMonth() === currentMonth;
+    }
+
+    function visibleMonthLabel() {
+        const date = new Date(currentYear, currentMonth, 1);
+        return monthFormatter.format(date) + " " + currentYear;
+    }
+
     function renderEditorialSections() {
         upcomingList.innerHTML = "";
         pastList.innerHTML = "";
 
-        // El próximo artículo siempre aparece primero.
-        const nextArticle = nextArticleDate();
-        const nextArticleCard = createCard({
-            date: nextArticle.key,
-            title: "Nuevo artículo",
-            text: "Próximo artículo de Napkin Notes.",
-            kind: "article",
-            image: ""
-        }, true);
-        upcomingList.appendChild(nextArticleCard);
+        const visibleMonthItems = editorialItems.filter(itemIsInVisibleMonth);
 
-        const futureItems = editorialItems
+        // El próximo artículo solo aparece si pertenece al mes que se está viendo.
+        const nextArticle = nextArticleDate();
+        if (
+            nextArticle.date.getFullYear() === currentYear &&
+            nextArticle.date.getMonth() === currentMonth
+        ) {
+            const nextArticleCard = createCard({
+                date: nextArticle.key,
+                title: "Nuevo artículo",
+                text: "Próximo artículo de Napkin Notes.",
+                kind: "article",
+                image: ""
+            }, true);
+            upcomingList.appendChild(nextArticleCard);
+        }
+
+        const futureItems = visibleMonthItems
             .filter(function (item) {
                 return parseLocalDate(item.date) >= today;
             })
@@ -1002,7 +1019,14 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             upcomingList.appendChild(createCard(item, true));
         });
 
-        const pastItems = editorialItems
+        if (!upcomingList.children.length) {
+            const emptyUpcoming = document.createElement("div");
+            emptyUpcoming.className = "nn-news-empty";
+            emptyUpcoming.textContent = "No hay noticias ni eventos próximos en " + visibleMonthLabel() + ".";
+            upcomingList.appendChild(emptyUpcoming);
+        }
+
+        const pastItems = visibleMonthItems
             .filter(function (item) {
                 return parseLocalDate(item.date) < today;
             })
@@ -1013,7 +1037,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         if (!pastItems.length) {
             const empty = document.createElement("div");
             empty.className = "nn-news-empty";
-            empty.textContent = "Todavía no hay noticias ni eventos pasados.";
+            empty.textContent = "No hay noticias ni eventos anteriores en " + visibleMonthLabel() + ".";
             pastList.appendChild(empty);
             return;
         }
@@ -1331,6 +1355,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             currentMonth = minimumMonth;
         }
 
+        renderEditorialSections();
         renderCalendar();
     });
 
@@ -1342,6 +1367,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             currentYear++;
         }
 
+        renderEditorialSections();
         renderCalendar();
     });
 
