@@ -683,6 +683,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             data-title="{{ noticia.titulo|striptags|e }}"
             data-text="{{ noticia.texto|striptags|e }}"
             data-kind="news"
+            data-link="{% if noticia.link %}{{ noticia.link|e }}{% endif %}"
             data-image="{% if noticia.imagen %}{% if noticia.imagen.startswith('http') %}{{ noticia.imagen|e }}{% else %}{{ SITEURL }}/{{ noticia.imagen|e }}{% endif %}{% endif %}"
         ></span>
         {% endfor %}
@@ -695,6 +696,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             data-title="{{ evento.titulo|striptags|e }}"
             data-text="{{ evento.texto|striptags|e }}"
             data-kind="event"
+            data-link="{% if evento.link %}{{ evento.link|e }}{% endif %}"
             data-image="{% if evento.imagen %}{% if evento.imagen.startswith('http') %}{{ evento.imagen|e }}{% else %}{{ SITEURL }}/{{ evento.imagen|e }}{% endif %}{% endif %}"
         ></span>
         {% endfor %}
@@ -803,6 +805,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             title: node.dataset.title,
             text: node.dataset.text || "",
             kind: "news",
+            link: node.dataset.link || "",
             image: node.dataset.image || ""
         };
 
@@ -822,6 +825,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             title: node.dataset.title,
             text: node.dataset.text || "",
             kind: "event",
+            link: node.dataset.link || "",
             image: node.dataset.image || ""
         };
 
@@ -922,7 +926,17 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
 
             const title = document.createElement("h3");
             title.className = "nn-news-card__title";
-            title.textContent = item.title;
+
+            if (item.link) {
+                const titleLink = document.createElement("a");
+                titleLink.href = item.link;
+                titleLink.target = "_blank";
+                titleLink.rel = "noopener noreferrer";
+                titleLink.textContent = item.title;
+                title.appendChild(titleLink);
+            } else {
+                title.textContent = item.title;
+            }
 
             const time = document.createElement("time");
             time.className = "nn-news-upcoming__date";
@@ -935,7 +949,18 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         } else {
             const title = document.createElement("h2");
             title.className = "nn-news-card__title";
-            title.textContent = item.title;
+
+            if (item.link) {
+                const titleLink = document.createElement("a");
+                titleLink.href = item.link;
+                titleLink.target = "_blank";
+                titleLink.rel = "noopener noreferrer";
+                titleLink.textContent = item.title;
+                title.appendChild(titleLink);
+            } else {
+                title.textContent = item.title;
+            }
+
             content.appendChild(title);
         }
 
@@ -1061,6 +1086,10 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
 
             if (item.url) {
                 wrapper.href = item.url;
+                if (/^https?:\/\//.test(item.url)) {
+                    wrapper.target = "_blank";
+                    wrapper.rel = "noopener noreferrer";
+                }
             }
 
             if (item.image) {
@@ -1225,6 +1254,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             dayNews.forEach(function (news) {
                 popoverItems.push({
                     title: news.title,
+                    url: news.link || "",
                     image: news.image || ""
                 });
             });
@@ -1232,6 +1262,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             dayEvents.forEach(function (eventItem) {
                 popoverItems.push({
                     title: eventItem.title,
+                    url: eventItem.link || "",
                     image: eventItem.image || ""
                 });
             });
