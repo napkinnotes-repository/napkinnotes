@@ -496,6 +496,26 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
     text-transform: uppercase;
 }
 
+.nn-news-card__title--future,
+.nn-news-card__title--future a {
+    color: var(--satinsheengold);
+}
+
+.nn-news-card__title--event,
+.nn-news-card__title--event a {
+    color: #1769aa;
+}
+
+.nn-news-card__title--news,
+.nn-news-card__title--news a {
+    color: #111;
+}
+
+.nn-news-card__title--article,
+.nn-news-card__title--article a {
+    color: var(--richcarmine);
+}
+
 .nn-news-card__type--event {
     color: #1769aa;
 }
@@ -924,19 +944,19 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         const content = document.createElement("div");
         content.className = "nn-news-card__content";
 
-        if (item.kind === "news") {
-            const type = document.createElement("span");
-            type.className = "nn-news-card__type";
-            type.textContent = "Noticia";
-            content.appendChild(type);
-        }
-
         if (showDate) {
             const head = document.createElement("div");
             head.className = "nn-news-upcoming__head";
 
             const title = document.createElement("h3");
             title.className = "nn-news-card__title";
+            if (item.kind === "event") {
+                title.classList.add("nn-news-card__title--event");
+            } else if (item.kind === "news") {
+                title.classList.add("nn-news-card__title--news");
+            } else if (item.kind === "article") {
+                title.classList.add(item.isUpcomingArticle ? "nn-news-card__title--future" : "nn-news-card__title--article");
+            }
 
             if (item.link) {
                 const titleLink = document.createElement("a");
@@ -960,6 +980,13 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         } else {
             const title = document.createElement("h2");
             title.className = "nn-news-card__title";
+            if (item.kind === "event") {
+                title.classList.add("nn-news-card__title--event");
+            } else if (item.kind === "news") {
+                title.classList.add("nn-news-card__title--news");
+            } else if (item.kind === "article") {
+                title.classList.add(item.isUpcomingArticle ? "nn-news-card__title--future" : "nn-news-card__title--article");
+            }
 
             if (item.link) {
                 const titleLink = document.createElement("a");
@@ -1084,6 +1111,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
                 title: "Nuevo artículo",
                 text: "Próximo artículo de Napkin Notes.",
                 kind: "article",
+                isUpcomingArticle: true,
                 image: ""
             });
         }
