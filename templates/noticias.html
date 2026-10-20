@@ -738,7 +738,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         <div class="nn-news-upcoming__list" id="nnUpcomingList"></div>
     </section>
 
-    <div class="nn-news-feed">
+    <div class="nn-news-feed" id="nnPastSection">
         <h2 class="nn-news-upcoming__title">Noticias y eventos <span id="nnPastMonth"></span></h2>
         <div id="nnPastList"></div>
     </div>
@@ -757,11 +757,12 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
     const popoverContent = document.getElementById("nnCalendarPopoverContent");
     const upcomingSection = document.getElementById("nnUpcomingSection");
     const upcomingList = document.getElementById("nnUpcomingList");
+    const pastSection = document.getElementById("nnPastSection");
     const pastList = document.getElementById("nnPastList");
     const upcomingMonth = document.getElementById("nnUpcomingMonth");
     const pastMonth = document.getElementById("nnPastMonth");
 
-    if (!grid || !monthLabel || !prevButton || !nextButton || !popover || !popoverContent || !upcomingSection || !upcomingList || !pastList || !upcomingMonth || !pastMonth) {
+    if (!grid || !monthLabel || !prevButton || !nextButton || !popover || !popoverContent || !upcomingSection || !upcomingList || !pastSection || !pastList || !upcomingMonth || !pastMonth) {
         return;
     }
 
@@ -1055,8 +1056,10 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         const visibleMonthStart = new Date(currentYear, currentMonth, 1);
         const actualMonthStart = new Date(today.getFullYear(), today.getMonth(), 1);
         const isPastMonth = visibleMonthStart < actualMonthStart;
+        const isFutureMonth = visibleMonthStart > actualMonthStart;
 
         upcomingSection.style.display = isPastMonth ? "none" : "";
+        pastSection.style.display = isFutureMonth ? "none" : "";
 
         const visibleMonthItems = editorialItems.filter(itemIsInVisibleMonth);
 
