@@ -212,8 +212,13 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
     color: #111;
 }
 
+.nn-news-calendar__marker--event {
+    color: #1769aa;
+}
+
 .nn-news-calendar__day--article,
-.nn-news-calendar__day--news {
+.nn-news-calendar__day--news,
+.nn-news-calendar__day--event {
     cursor: pointer;
 }
 
@@ -247,6 +252,10 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
 
 .nn-news-calendar__dot--news {
     background: #111;
+}
+
+.nn-news-calendar__dot--event {
+    background: #1769aa;
 }
 
 /* Popover de artículos del día */
@@ -477,6 +486,20 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
     line-height: 1.12;
 }
 
+.nn-news-card__type {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.nn-news-card__type--event {
+    color: #1769aa;
+}
+
 .nn-news-card__text {
     margin: 0;
     color: var(--ink);
@@ -652,21 +675,27 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         {% endfor %}
     </div>
 
-    <!-- Noticias del propio noticias.md para mostrarlas también en el calendario. -->
+    <!-- Noticias y eventos del propio noticias.md. Las listas son independientes. -->
     <div id="nn-news-calendar-news-data" hidden>
         {% for noticia in page.noticias %}
         <span
             data-date="{{ noticia.fecha }}"
             data-title="{{ noticia.titulo|striptags|e }}"
+            data-text="{{ noticia.texto|striptags|e }}"
+            data-kind="news"
             data-image="{% if noticia.imagen %}{% if noticia.imagen.startswith('http') %}{{ noticia.imagen|e }}{% else %}{{ SITEURL }}/{{ noticia.imagen|e }}{% endif %}{% endif %}"
         ></span>
         {% endfor %}
+    </div>
 
-        {% for noticia in page.noticias_futuras %}
+    <div id="nn-news-calendar-event-data" hidden>
+        {% for evento in page.eventos %}
         <span
-            data-date="{{ noticia.fecha }}"
-            data-title="{{ noticia.titulo|striptags|e }}"
-            data-image="{% if noticia.imagen %}{% if noticia.imagen.startswith('http') %}{{ noticia.imagen|e }}{% else %}{{ SITEURL }}/{{ noticia.imagen|e }}{% endif %}{% endif %}"
+            data-date="{{ evento.fecha }}"
+            data-title="{{ evento.titulo|striptags|e }}"
+            data-text="{{ evento.texto|striptags|e }}"
+            data-kind="event"
+            data-image="{% if evento.imagen %}{% if evento.imagen.startswith('http') %}{{ evento.imagen|e }}{% else %}{{ SITEURL }}/{{ evento.imagen|e }}{% endif %}{% endif %}"
         ></span>
         {% endfor %}
     </div>
@@ -702,100 +731,14 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         <div id="nnCalendarPopoverContent"></div>
     </div>
 
-    {% if page.noticias_futuras %}
     <section class="nn-news-upcoming">
         <h2 class="nn-news-upcoming__title">Próximamente</h2>
-
-        <div class="nn-news-upcoming__list">
-            {% for noticia in page.noticias_futuras|sort(attribute='fecha') %}
-            <article class="nn-news-card">
-                {% if noticia.imagen %}
-                <div class="nn-news-card__media">
-                    <img
-                        class="nn-news-card__image"
-                        src="{% if noticia.imagen.startswith('http') %}{{ noticia.imagen }}{% else %}{{ SITEURL }}/{{ noticia.imagen }}{% endif %}"
-                        alt="{{ noticia.titulo|striptags|e }}"
-                    >
-                </div>
-                {% endif %}
-
-                <div class="nn-news-card__content">
-                    <div class="nn-news-upcoming__head">
-                        <h3 class="nn-news-card__title">{{ noticia.titulo }}</h3>
-                        <time class="nn-news-upcoming__date" datetime="{{ noticia.fecha }}">
-                            {{ noticia.fecha[8:10] }}-{{ noticia.fecha[5:7] }}-{{ noticia.fecha[0:4] }}
-                        </time>
-                    </div>
-                    <p class="nn-news-card__text">{{ noticia.texto }}</p>
-                </div>
-            </article>
-            {% endfor %}
-        </div>
+        <div class="nn-news-upcoming__list" id="nnUpcomingList"></div>
     </section>
-    {% endif %}
 
     <div class="nn-news-feed">
-
         <h2 class="nn-news-upcoming__title">Noticias y eventos</h2>
-
-        {% if page.noticias %}
-
-            {% set meses = {
-                "01": "ENE",
-                "02": "FEB",
-                "03": "MAR",
-                "04": "ABR",
-                "05": "MAY",
-                "06": "JUN",
-                "07": "JUL",
-                "08": "AGO",
-                "09": "SEP",
-                "10": "OCT",
-                "11": "NOV",
-                "12": "DIC"
-            } %}
-
-            {% for fecha, grupo in page.noticias|groupby("fecha")|reverse %}
-            <section class="nn-news-day">
-
-                <time class="nn-news-date" datetime="{{ fecha }}">
-                    <span class="nn-news-date__day">{{ fecha[8:10]|int }}</span>
-                    <span class="nn-news-date__month">{{ meses[fecha[5:7]] }}</span>
-                    <span class="nn-news-date__year">{{ fecha[0:4] }}</span>
-                </time>
-
-                <div class="nn-news-day__items">
-                    {% for noticia in grupo %}
-                    <article class="nn-news-card">
-                        {% if noticia.imagen %}
-                        <div class="nn-news-card__media">
-                            <img
-                                class="nn-news-card__image"
-                                src="{% if noticia.imagen.startswith('http') %}{{ noticia.imagen }}{% else %}{{ SITEURL }}/{{ noticia.imagen }}{% endif %}"
-                                alt="{{ noticia.titulo|striptags|e }}"
-                            >
-                        </div>
-                        {% endif %}
-
-                        <div class="nn-news-card__content">
-                            <h2 class="nn-news-card__title">{{ noticia.titulo }}</h2>
-                            <p class="nn-news-card__text">{{ noticia.texto }}</p>
-                        </div>
-                    </article>
-                    {% endfor %}
-                </div>
-
-            </section>
-            {% endfor %}
-
-        {% else %}
-
-            <div class="nn-news-empty">
-                Todavía no hay noticias publicadas.
-            </div>
-
-        {% endif %}
-
+        <div id="nnPastList"></div>
     </div>
 
 </section>
@@ -810,8 +753,10 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
     const nextButton = document.getElementById("nnCalendarNext");
     const popover = document.getElementById("nnCalendarPopover");
     const popoverContent = document.getElementById("nnCalendarPopoverContent");
+    const upcomingList = document.getElementById("nnUpcomingList");
+    const pastList = document.getElementById("nnPastList");
 
-    if (!grid || !monthLabel || !prevButton || !nextButton || !popover || !popoverContent) {
+    if (!grid || !monthLabel || !prevButton || !nextButton || !popover || !popoverContent || !upcomingList || !pastList) {
         return;
     }
 
@@ -823,8 +768,14 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         document.querySelectorAll("#nn-news-calendar-news-data [data-date]")
     );
 
+    const eventNodes = Array.from(
+        document.querySelectorAll("#nn-news-calendar-event-data [data-date]")
+    );
+
     const articlesByDate = {};
     const newsByDate = {};
+    const eventsByDate = {};
+    const editorialItems = [];
 
     articleNodes.forEach(function (node) {
         const date = node.dataset.date;
@@ -847,10 +798,35 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             newsByDate[date] = [];
         }
 
-        newsByDate[date].push({
+        const item = {
+            date: date,
             title: node.dataset.title,
+            text: node.dataset.text || "",
+            kind: "news",
             image: node.dataset.image || ""
-        });
+        };
+
+        newsByDate[date].push(item);
+        editorialItems.push(item);
+    });
+
+    eventNodes.forEach(function (node) {
+        const date = node.dataset.date;
+
+        if (!eventsByDate[date]) {
+            eventsByDate[date] = [];
+        }
+
+        const item = {
+            date: date,
+            title: node.dataset.title,
+            text: node.dataset.text || "",
+            kind: "event",
+            image: node.dataset.image || ""
+        };
+
+        eventsByDate[date].push(item);
+        editorialItems.push(item);
     });
 
     const today = new Date();
@@ -880,6 +856,193 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
 
     function dateKey(year, month, day) {
         return year + "-" + pad(month + 1) + "-" + pad(day);
+    }
+
+    function parseLocalDate(value) {
+        const parts = value.split("-").map(Number);
+        const date = new Date(parts[0], parts[1] - 1, parts[2]);
+        date.setHours(0, 0, 0, 0);
+        return date;
+    }
+
+    function formatDate(value) {
+        const parts = value.split("-");
+        return parts[2] + "-" + parts[1] + "-" + parts[0];
+    }
+
+    function nextArticleDate() {
+        const candidate = new Date(today);
+        const daysUntilThursday = (4 - candidate.getDay() + 7) % 7;
+        candidate.setDate(candidate.getDate() + daysUntilThursday);
+        candidate.setHours(0, 0, 0, 0);
+
+        let key = dateKey(candidate.getFullYear(), candidate.getMonth(), candidate.getDate());
+
+        if (candidate.getTime() === today.getTime() && (articlesByDate[key] || []).length) {
+            candidate.setDate(candidate.getDate() + 7);
+            key = dateKey(candidate.getFullYear(), candidate.getMonth(), candidate.getDate());
+        }
+
+        return {
+            date: candidate,
+            key: key
+        };
+    }
+
+    function createCard(item, showDate) {
+        const card = document.createElement("article");
+        card.className = "nn-news-card";
+
+        if (item.image) {
+            const media = document.createElement("div");
+            media.className = "nn-news-card__media";
+
+            const image = document.createElement("img");
+            image.className = "nn-news-card__image";
+            image.src = item.image;
+            image.alt = item.title || "";
+
+            media.appendChild(image);
+            card.appendChild(media);
+        }
+
+        const content = document.createElement("div");
+        content.className = "nn-news-card__content";
+
+        if (item.kind === "news" || item.kind === "event") {
+            const type = document.createElement("span");
+            type.className = "nn-news-card__type" + (item.kind === "event" ? " nn-news-card__type--event" : "");
+            type.textContent = item.kind === "event" ? "Evento" : "Noticia";
+            content.appendChild(type);
+        }
+
+        if (showDate) {
+            const head = document.createElement("div");
+            head.className = "nn-news-upcoming__head";
+
+            const title = document.createElement("h3");
+            title.className = "nn-news-card__title";
+            title.textContent = item.title;
+
+            const time = document.createElement("time");
+            time.className = "nn-news-upcoming__date";
+            time.dateTime = item.date;
+            time.textContent = formatDate(item.date);
+
+            head.appendChild(title);
+            head.appendChild(time);
+            content.appendChild(head);
+        } else {
+            const title = document.createElement("h2");
+            title.className = "nn-news-card__title";
+            title.textContent = item.title;
+            content.appendChild(title);
+        }
+
+        if (item.text) {
+            const text = document.createElement("p");
+            text.className = "nn-news-card__text";
+            text.textContent = item.text;
+            content.appendChild(text);
+        }
+
+        card.appendChild(content);
+        return card;
+    }
+
+    function renderEditorialSections() {
+        upcomingList.innerHTML = "";
+        pastList.innerHTML = "";
+
+        // El próximo artículo siempre aparece primero.
+        const nextArticle = nextArticleDate();
+        const nextArticleCard = createCard({
+            date: nextArticle.key,
+            title: "Nuevo artículo",
+            text: "Próximo artículo de Napkin Notes.",
+            kind: "article",
+            image: ""
+        }, true);
+        upcomingList.appendChild(nextArticleCard);
+
+        const futureItems = editorialItems
+            .filter(function (item) {
+                return parseLocalDate(item.date) >= today;
+            })
+            .sort(function (a, b) {
+                return a.date.localeCompare(b.date);
+            });
+
+        futureItems.forEach(function (item) {
+            upcomingList.appendChild(createCard(item, true));
+        });
+
+        const pastItems = editorialItems
+            .filter(function (item) {
+                return parseLocalDate(item.date) < today;
+            })
+            .sort(function (a, b) {
+                return b.date.localeCompare(a.date);
+            });
+
+        if (!pastItems.length) {
+            const empty = document.createElement("div");
+            empty.className = "nn-news-empty";
+            empty.textContent = "Todavía no hay noticias ni eventos pasados.";
+            pastList.appendChild(empty);
+            return;
+        }
+
+        const groups = {};
+
+        pastItems.forEach(function (item) {
+            if (!groups[item.date]) {
+                groups[item.date] = [];
+            }
+            groups[item.date].push(item);
+        });
+
+        Object.keys(groups)
+            .sort()
+            .reverse()
+            .forEach(function (dateValue) {
+                const section = document.createElement("section");
+                section.className = "nn-news-day";
+
+                const time = document.createElement("time");
+                time.className = "nn-news-date";
+                time.dateTime = dateValue;
+
+                const parts = dateValue.split("-");
+                const monthNames = ["ENE", "FEB", "MAR", "ABR", "MAY", "JUN", "JUL", "AGO", "SEP", "OCT", "NOV", "DIC"];
+
+                const daySpan = document.createElement("span");
+                daySpan.className = "nn-news-date__day";
+                daySpan.textContent = Number(parts[2]);
+
+                const monthSpan = document.createElement("span");
+                monthSpan.className = "nn-news-date__month";
+                monthSpan.textContent = monthNames[Number(parts[1]) - 1];
+
+                const yearSpan = document.createElement("span");
+                yearSpan.className = "nn-news-date__year";
+                yearSpan.textContent = parts[0];
+
+                time.appendChild(daySpan);
+                time.appendChild(monthSpan);
+                time.appendChild(yearSpan);
+
+                const items = document.createElement("div");
+                items.className = "nn-news-day__items";
+
+                groups[dateValue].forEach(function (item) {
+                    items.appendChild(createCard(item, false));
+                });
+
+                section.appendChild(time);
+                section.appendChild(items);
+                pastList.appendChild(section);
+            });
     }
 
     function closePopover() {
@@ -963,8 +1126,9 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             const key = dateKey(currentYear, currentMonth, day);
             const dayArticles = articlesByDate[key] || [];
             const dayNews = newsByDate[key] || [];
+            const dayEvents = eventsByDate[key] || [];
             const isPastOrToday = date <= today;
-            const isFuture = date > today;
+            const isFutureOrToday = date >= today;
             const isThursday = date.getDay() === 4;
 
             const cell = document.createElement("div");
@@ -1018,20 +1182,31 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
                 }
             }
 
-            // Todos los jueves futuros anuncian la publicación habitual.
-            if (isFuture && isThursday) {
+            // Jueves presentes o futuros sin artículo publicado: próximo artículo.
+            if (isFutureOrToday && isThursday && !dayArticles.length) {
                 addDot("future");
                 addMarker("Nuevo artículo", "future");
             }
 
-            // Noticias pasadas y futuras del noticias.md.
+            // Noticias: negro.
             if (dayNews.length) {
                 cell.classList.add("nn-news-calendar__day--news");
                 cell.tabIndex = 0;
                 addDot("news");
                 addMarker(
-                    dayNews.length === 1 ? "Noticia o evento" : dayNews.length + " noticias o eventos",
+                    dayNews.length === 1 ? "Noticia" : dayNews.length + " noticias",
                     "news"
+                );
+            }
+
+            // Eventos: azul.
+            if (dayEvents.length) {
+                cell.classList.add("nn-news-calendar__day--event");
+                cell.tabIndex = 0;
+                addDot("event");
+                addMarker(
+                    dayEvents.length === 1 ? "Evento" : dayEvents.length + " eventos",
+                    "event"
                 );
             }
 
@@ -1051,6 +1226,13 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
                 popoverItems.push({
                     title: news.title,
                     image: news.image || ""
+                });
+            });
+
+            dayEvents.forEach(function (eventItem) {
+                popoverItems.push({
+                    title: eventItem.title,
+                    image: eventItem.image || ""
                 });
             });
 
@@ -1086,6 +1268,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
     document.addEventListener("click", function (event) {
         if (!event.target.closest(".nn-news-calendar__day--article") &&
             !event.target.closest(".nn-news-calendar__day--news") &&
+            !event.target.closest(".nn-news-calendar__day--event") &&
             !event.target.closest(".nn-news-calendar__popover")) {
             closePopover();
         }
@@ -1131,6 +1314,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         renderCalendar();
     });
 
+    renderEditorialSections();
     renderCalendar();
 })();
 </script>
