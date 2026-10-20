@@ -5,10 +5,10 @@ template: noticias
 status: hidden
 summary: "Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes."
 
-# Noticias ya publicadas / pasadas
+# Noticias y eventos ya publicados / pasados
 # Campo opcional para imagen:
 # imagen: "images/noticias/nombre-del-archivo.jpeg"
-# Si se omite, la noticia se muestra sin imagen.
+# Si se omite, la noticia o evento se muestra sin imagen.
 noticias:
   - fecha: "2026-10-18"
     titulo: "Noticia de prueba"
@@ -28,7 +28,7 @@ noticias:
     texto: >-
       Esta noticia pertenece a otro día y aparecerá en un bloque separado.
 
-# Noticias futuras. Se muestran en el bloque "Próximamente".
+# Noticias y eventos futuros. Se muestran en el bloque "Próximamente".
 # Para añadir una nueva, copia uno de estos bloques y cambia fecha, título y texto.
 # La imagen también es opcional y, si se usa, debe guardarse en:
 # documentation/content/images/noticias/
