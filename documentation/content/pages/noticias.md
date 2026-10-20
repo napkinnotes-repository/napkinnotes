@@ -113,6 +113,13 @@ eventos:
     texto: >-
       Jornada dedicada al papel de la física en el diagnóstico, la imagen médica y los tratamientos.
 
+  - fecha: "2026-11-07"
+    titulo: "Taller y observación astronómica en Requejo"
+    link: "https://www.instagram.com/p/DegqvBqsdaY/"
+    texto: >-
+      Taller para aprender a identificar constelaciones, estrellas y otros cuerpos
+      celestes, seguido de una observación guiada del cielo en Requejo (Sanabria).
+
   - fecha: "2026-11-10"
     titulo: "Día Mundial de la Ciencia para la Paz y el Desarrollo"
     link: "https://www.unesco.org/en/days/science-peace-development"
