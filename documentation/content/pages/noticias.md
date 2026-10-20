@@ -72,7 +72,7 @@ eventos:
       Máximo de la lluvia de meteoros de las Oriónidas, asociada al cometa Halley.
 
   - fecha: "2026-10-23"
-    titulo: "Mole Day"
+    titulo: "Día del Mol"
     link: "https://www.moleday.org/"
     texto: >-
       Jornada divulgativa dedicada al número de Avogadro y a la química.
@@ -81,7 +81,7 @@ eventos:
     titulo: "Luna llena de octubre"
     link: "https://www.timeanddate.com/moon/phases/"
     texto: >-
-      Luna llena de octubre, tradicionalmente conocida como Hunter's Moon.
+      Luna llena de octubre, tradicionalmente conocida como Luna del Cazador.
 
   - fecha: "2026-10-29"
     titulo: "Día Mundial de la Codificación"
@@ -90,7 +90,7 @@ eventos:
       Jornada dedicada a la programación, la alfabetización digital y el pensamiento computacional.
 
   - fecha: "2026-10-31"
-    titulo: "Dark Matter Day"
+    titulo: "Día de la Materia Oscura"
     link: "https://www.interactions.org/dark-matter-day"
     texto: >-
       Día internacional de divulgación dedicado a la materia oscura y a las preguntas abiertas sobre su naturaleza.
@@ -157,7 +157,7 @@ eventos:
       Jornada dedicada al pensamiento crítico y a la reflexión filosófica, incluida su relación con la ciencia.
 
   - fecha: "2026-11-23"
-    titulo: "Fibonacci Day"
+    titulo: "Día de Fibonacci"
     link: "https://www.britannica.com/science/Fibonacci-number"
     texto: >-
       Fecha divulgativa asociada a la sucesión de Fibonacci por la escritura 11/23.
@@ -166,7 +166,7 @@ eventos:
     titulo: "Luna llena de noviembre"
     link: "https://www.timeanddate.com/moon/phases/"
     texto: >-
-      Luna llena de noviembre, tradicionalmente conocida como Beaver Moon.
+      Luna llena de noviembre, tradicionalmente conocida como Luna del Castor.
 
   - fecha: "2026-11-26"
     titulo: "Día Mundial del Olivo"
@@ -187,7 +187,7 @@ eventos:
       Día internacional dedicado al VIH y al sida, su prevención, investigación y tratamiento.
 
   - fecha: "2026-12-02"
-    titulo: "World Futures Day"
+    titulo: "Día Mundial de los Futuros"
     link: "https://www.unesco.org/en/futures-literacy"
     texto: >-
       Jornada para reflexionar sobre el futuro, la anticipación y los efectos sociales de la ciencia y la tecnología.
