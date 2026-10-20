@@ -670,6 +670,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             data-date="{{ article.date.strftime('%Y-%m-%d') }}"
             data-title="{{ article.title|striptags|e }}"
             data-url="{{ SITEURL }}/{{ article.url }}"
+            data-text="{% if article.summary %}{{ article.summary|striptags|e }}{% endif %}"
             data-image="{{ article_image|e }}"
         ></span>
         {% endfor %}
@@ -790,11 +791,17 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             articlesByDate[date] = [];
         }
 
-        articlesByDate[date].push({
+        const articleItem = {
+            date: date,
             title: node.dataset.title,
-            url: node.dataset.url,
+            text: node.dataset.text || "",
+            kind: "article",
+            link: node.dataset.url || "",
             image: node.dataset.image || ""
-        });
+        };
+
+        articlesByDate[date].push(articleItem);
+        editorialItems.push(articleItem);
     });
 
     newsNodes.forEach(function (node) {
