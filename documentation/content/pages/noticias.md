@@ -58,10 +58,10 @@ noticias:
 #     Descripción breve del evento.
 eventos:
   - fecha: "2026-09-24"
-    titulo: "Entrevista a David Figueruelo Hernán sobre materia y energía oscuras"
+    titulo: "Entrevista a David Figueruelo Hernán en el periódico Salamanca 24horas"
     link: "https://www.salamanca24horas.com/local/david-figueruelo-hernan-salmantino-busca-huellas-podemos-ver"
     texto: >-
-      Salamanca24horas entrevista a David Figueruelo Hernán sobre su trabajo
+      Salamanca24horas entrevista a nuestro  editor y desarrollador web jefe David Figueruelo Hernán sobre su trabajo
       en cosmología, materia oscura y energía oscura, así como sobre divulgación
       científica y Napkin Notes.
 
@@ -119,6 +119,7 @@ eventos:
     texto: >-
       Taller para aprender a identificar constelaciones, estrellas y otros cuerpos
       celestes, seguido de una observación guiada del cielo en Requejo (Sanabria).
+      Patrocinado por Napkin Notes.
 
   - fecha: "2026-11-10"
     titulo: "Día Mundial de la Ciencia para la Paz y el Desarrollo"
@@ -202,7 +203,8 @@ eventos:
     titulo: "Ceremonia de entrega de los Premios Nobel"
     link: "https://www.nobelprize.org/ceremonies/"
     texto: >-
-      Ceremonia anual de entrega de los Premios Nobel, incluidos los de Física, Química y Fisiología o Medicina.
+      Ceremonia anual de entrega de los Premios Nobel en Estocolmo (Suecia) para los premios de Física, Química, Medicina, Literatura
+      y Economía de manos del Rey de Suecia, y en Oslo (Noruega) para el premio Nobel de la Paz.
 
   - fecha: "2026-12-11"
     titulo: "Día Internacional de las Montañas"
@@ -220,7 +222,8 @@ eventos:
     titulo: "Solsticio de diciembre"
     link: "https://www.timeanddate.com/calendar/december-solstice.html"
     texto: >-
-      Solsticio de diciembre, que marca el inicio del invierno astronómico en el hemisferio norte.
+      Solsticio de diciembre, que marca el inicio del invierno astronómico en el hemisferio norte y
+      del verano astronómico en el hemisferio sur.
 
   - fecha: "2026-12-22"
     titulo: "Máximo de las Úrsidas"
@@ -234,10 +237,5 @@ eventos:
     texto: >-
       Luna llena de diciembre, que en 2026 coincide con una superluna.
 
-  - fecha: "2026-12-27"
-    titulo: "Día Internacional de Preparación ante las Epidemias"
-    link: "https://www.un.org/en/observances/epidemic-preparedness-day"
-    texto: >-
-      Jornada internacional dedicada a la prevención, preparación y respuesta frente a futuras epidemias.
 
 ---
