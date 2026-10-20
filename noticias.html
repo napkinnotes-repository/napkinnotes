@@ -1245,12 +1245,12 @@
     </div>
 
     <section class="nn-news-upcoming">
-        <h2 class="nn-news-upcoming__title">Próximamente</h2>
+        <h2 class="nn-news-upcoming__title">Próximamente <span id="nnUpcomingMonth"></span></h2>
         <div class="nn-news-upcoming__list" id="nnUpcomingList"></div>
     </section>
 
     <div class="nn-news-feed">
-        <h2 class="nn-news-upcoming__title">Noticias y eventos</h2>
+        <h2 class="nn-news-upcoming__title">Noticias y eventos <span id="nnPastMonth"></span></h2>
         <div id="nnPastList"></div>
     </div>
 
@@ -1268,8 +1268,10 @@
     const popoverContent = document.getElementById("nnCalendarPopoverContent");
     const upcomingList = document.getElementById("nnUpcomingList");
     const pastList = document.getElementById("nnPastList");
+    const upcomingMonth = document.getElementById("nnUpcomingMonth");
+    const pastMonth = document.getElementById("nnPastMonth");
 
-    if (!grid || !monthLabel || !prevButton || !nextButton || !popover || !popoverContent || !upcomingList || !pastList) {
+    if (!grid || !monthLabel || !prevButton || !nextButton || !popover || !popoverContent || !upcomingList || !pastList || !upcomingMonth || !pastMonth) {
         return;
     }
 
@@ -1499,6 +1501,10 @@
     function renderEditorialSections() {
         upcomingList.innerHTML = "";
         pastList.innerHTML = "";
+
+        const sectionMonthLabel = "(" + monthFormatter.format(new Date(currentYear, currentMonth, 1)) + ")";
+        upcomingMonth.textContent = sectionMonthLabel;
+        pastMonth.textContent = sectionMonthLabel;
 
         const visibleMonthItems = editorialItems.filter(itemIsInVisibleMonth);
 
