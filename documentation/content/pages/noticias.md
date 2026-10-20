@@ -53,7 +53,15 @@ noticias:
 # - fecha: "AAAA-MM-DD"
 #   titulo: "Nombre del evento"
 #   imagen: "images/noticias/imagen.jpeg"   # opcional
+#   link: "https://..."                      # opcional
 #   texto: >-
 #     Descripción breve del evento.
-eventos: []
+eventos:
+  - fecha: "2026-09-24"
+    titulo: "Entrevista a David Figueruelo Hernán sobre materia y energía oscuras"
+    link: "https://www.salamanca24horas.com/local/david-figueruelo-hernan-salmantino-busca-huellas-podemos-ver"
+    texto: >-
+      Salamanca24horas entrevista a David Figueruelo Hernán sobre su trabajo
+      en cosmología, materia oscura y energía oscura, así como sobre divulgación
+      científica y Napkin Notes.
 ---
