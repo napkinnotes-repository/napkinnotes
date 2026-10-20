@@ -65,6 +65,13 @@ eventos:
       en cosmología, materia oscura y energía oscura, así como sobre divulgación
       científica y Napkin Notes.
 
+  - fecha: "2026-12-10"
+    titulo: "Lanzamiento de Científica de la Semana"
+    texto: >-
+      Os traemos un nuevo juego para ir descubriendo a las mujeres científicas
+      de la historia. Cada semana tendréis que adivinar quién está detrás de
+      nuestra científica oculta.
+  
   - fecha: "2026-10-21"
     titulo: "Máximo de las Oriónidas"
     link: "https://www.timeanddate.com/astronomy/meteor-shower/orionid.html"
