@@ -1015,6 +1015,17 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         }
 
         card.appendChild(content);
+
+        if (item.kind === "article" && item.link && !item.isUpcomingArticle) {
+            card.style.cursor = "pointer";
+            card.addEventListener("click", function (event) {
+                if (event.target.closest("a")) {
+                    return;
+                }
+                window.location.href = item.link;
+            });
+        }
+
         return card;
     }
 
