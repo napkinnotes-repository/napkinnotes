@@ -12,6 +12,7 @@ summary: "Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes
 noticias:
   - fecha: "2026-10-18"
     titulo: "Noticia de prueba"
+    imagen: "images/noticias/images.jpeg"
     texto: >-
       Este es un texto corto de prueba para comprobar cómo se ve una noticia dentro
       de la nueva sección.
@@ -35,6 +36,7 @@ noticias:
 noticias_futuras:
   - fecha: "2026-10-27"
     titulo: "Noticia futura de prueba"
+    imagen: "images/noticias/images.jpeg"
     texto: >-
       Este bloque sirve para anunciar una noticia o acontecimiento futuro sin crear
       una página individual.
