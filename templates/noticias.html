@@ -987,6 +987,62 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
         return monthFormatter.format(date) + " " + currentYear;
     }
 
+    function renderDateGroups(container, items) {
+        if (!items.length) {
+            return;
+        }
+
+        const groups = {};
+        const monthNames = ["ENE", "FEB", "MAR", "ABR", "MAY", "JUN", "JUL", "AGO", "SEP", "OCT", "NOV", "DIC"];
+
+        items.forEach(function (item) {
+            if (!groups[item.date]) {
+                groups[item.date] = [];
+            }
+            groups[item.date].push(item);
+        });
+
+        Object.keys(groups)
+            .sort()
+            .forEach(function (dateValue) {
+                const section = document.createElement("section");
+                section.className = "nn-news-day";
+
+                const time = document.createElement("time");
+                time.className = "nn-news-date";
+                time.dateTime = dateValue;
+
+                const parts = dateValue.split("-");
+
+                const daySpan = document.createElement("span");
+                daySpan.className = "nn-news-date__day";
+                daySpan.textContent = Number(parts[2]);
+
+                const monthSpan = document.createElement("span");
+                monthSpan.className = "nn-news-date__month";
+                monthSpan.textContent = monthNames[Number(parts[1]) - 1];
+
+                const yearSpan = document.createElement("span");
+                yearSpan.className = "nn-news-date__year";
+                yearSpan.textContent = parts[0];
+
+                time.appendChild(daySpan);
+                time.appendChild(monthSpan);
+                time.appendChild(yearSpan);
+
+                const itemsContainer = document.createElement("div");
+                itemsContainer.className = "nn-news-day__items";
+
+                groups[dateValue].forEach(function (item) {
+                    itemsContainer.appendChild(createCard(item, false));
+                });
+
+                section.appendChild(time);
+                section.appendChild(itemsContainer);
+                container.appendChild(section);
+            });
+    }
+
     function renderEditorialSections() {
         upcomingList.innerHTML = "";
         pastList.innerHTML = "";
@@ -997,39 +1053,42 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
 
         const visibleMonthItems = editorialItems.filter(itemIsInVisibleMonth);
 
-        // El próximo artículo solo aparece si pertenece al mes que se está viendo.
+        const upcomingItems = [];
+
+        // El próximo artículo aparece como una entrada más, con el mismo formato.
         const nextArticle = nextArticleDate();
         if (
             nextArticle.date.getFullYear() === currentYear &&
             nextArticle.date.getMonth() === currentMonth
         ) {
-            const nextArticleCard = createCard({
+            upcomingItems.push({
                 date: nextArticle.key,
                 title: "Nuevo artículo",
                 text: "Próximo artículo de Napkin Notes.",
                 kind: "article",
                 image: ""
-            }, true);
-            upcomingList.appendChild(nextArticleCard);
+            });
         }
 
-        const futureItems = visibleMonthItems
+        visibleMonthItems
             .filter(function (item) {
                 return parseLocalDate(item.date) >= today;
             })
-            .sort(function (a, b) {
-                return a.date.localeCompare(b.date);
+            .forEach(function (item) {
+                upcomingItems.push(item);
             });
 
-        futureItems.forEach(function (item) {
-            upcomingList.appendChild(createCard(item, true));
+        upcomingItems.sort(function (a, b) {
+            return a.date.localeCompare(b.date);
         });
 
-        if (!upcomingList.children.length) {
+        if (!upcomingItems.length) {
             const emptyUpcoming = document.createElement("div");
             emptyUpcoming.className = "nn-news-empty";
             emptyUpcoming.textContent = "No hay noticias ni eventos próximos en " + visibleMonthLabel() + ".";
             upcomingList.appendChild(emptyUpcoming);
+        } else {
+            renderDateGroups(upcomingList, upcomingItems);
         }
 
         const pastItems = visibleMonthItems
@@ -1048,16 +1107,15 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             return;
         }
 
-        const groups = {};
-
+        const pastGroups = {};
         pastItems.forEach(function (item) {
-            if (!groups[item.date]) {
-                groups[item.date] = [];
+            if (!pastGroups[item.date]) {
+                pastGroups[item.date] = [];
             }
-            groups[item.date].push(item);
+            pastGroups[item.date].push(item);
         });
 
-        Object.keys(groups)
+        Object.keys(pastGroups)
             .sort()
             .reverse()
             .forEach(function (dateValue) {
@@ -1090,7 +1148,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
                 const items = document.createElement("div");
                 items.className = "nn-news-day__items";
 
-                groups[dateValue].forEach(function (item) {
+                pastGroups[dateValue].forEach(function (item) {
                     items.appendChild(createCard(item, false));
                 });
 
