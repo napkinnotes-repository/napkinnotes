@@ -1016,13 +1016,32 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
 
         card.appendChild(content);
 
-        if (item.kind === "article" && item.link && !item.isUpcomingArticle) {
+        if (item.link) {
             card.style.cursor = "pointer";
+            card.tabIndex = 0;
+            card.setAttribute("role", "link");
+
+            function openCardLink() {
+                const destination = new URL(item.link, window.location.href);
+                if (destination.origin === window.location.origin) {
+                    window.location.href = destination.href;
+                } else {
+                    window.open(destination.href, "_blank", "noopener,noreferrer");
+                }
+            }
+
             card.addEventListener("click", function (event) {
                 if (event.target.closest("a")) {
                     return;
                 }
-                window.location.href = item.link;
+                openCardLink();
+            });
+
+            card.addEventListener("keydown", function (event) {
+                if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    openCardLink();
+                }
             });
         }
 
@@ -1396,7 +1415,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
                 dayArticles.forEach(function (article) {
                     popoverItems.push({
                         title: article.title,
-                        url: article.url,
+                        url: article.link || "",
                         image: article.image || ""
                     });
                 });
