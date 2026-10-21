@@ -10,25 +10,25 @@ tags:                     # tags con minúscula inicial
   - probabilidad
   - estadística
   - bli bli
-summary: "Lanzar una moneda al aire es un proceso totalmente determinista. Sin embargo, las usamos para decidir nuestra suerte. Si leéis este artículo, os iniciaréis en los secretos de los prestidigitadores, que fabrican su propia suerte."
+summary: "Lanzar una moneda al aire es un proceso totalmente determinista. Sin embargo, las usamos para decidir nuestra suerte. Si leéis este artículo, os iniciaréis en los secretos de los prestidigitadores que fabrican su propia suerte."
 image: images/barba-caracruz/shekel.jpeg # imagen principal del artículo  ¡¡¡¡¡¡¡¡TIENE QUE SER JPEG EL FORMATO!!!!!
 certificate: false
 ---
 
 [TOC]
 
-¿Cuántas situaciones de nuestra vida se deciden por azar? Decisiones profesionales o financieras; resultados electorales en los que la victoria se decide por un puñado de votos; enfermedades causadas por mutaciones genéticas aleatorias; o algunos resultados deportivos en caso de empate; son muestra de que el azar está muy presente en nuestra vida diaria. Sin ir más lejos, estáis leyendo esta servilleta, acerca del azar, porque un algoritmo me enseñó un vídeo corto que despertó mi interés.
+¿Cuántas situaciones de nuestra vida se deciden por azar? Decisiones profesionales o financieras, resultados electorales en los que la victoria se decide por un puñado de votos, enfermedades causadas por mutaciones genéticas aleatorias o algunos resultados deportivos en caso de empate son muestra de que el azar está muy presente en nuestra vida diaria. Sin ir más lejos, estáis leyendo esta servilleta, acerca del azar, porque un algoritmo me enseñó un vídeo corto que despertó mi interés.
 
-El caso más paradigmático de fortuna, en este caso binaria, es el lanzamiento de una moneda al aire. Ponemos una moneda en el pulgar, la lanzamos al aire girando sobre sí misma, y la cazamos con la mano, sin que caiga al suelo. El resultado viene dado por qué lado de la moneda mira hacia arriba. En este juego, que se utiliza para decidir muchísimas situaciones en el mundo humano, todos asumimos que la probabilidad de que salga cara (o cruz) es exactamente 0.5. El número de veces que sale cara se aproximará cada vez más al 50% cuantas más veces la lancemos.  
+El caso más paradigmático de fortuna, en este caso binaria, es el lanzamiento de una moneda al aire. Ponemos una moneda en el pulgar, la lanzamos al aire girando sobre sí misma y la cazamos con la mano, sin que caiga al suelo. En este juego, que se utiliza para decidir muchísimas situaciones en el mundo humano, todos asumimos que la probabilidad de que salga cara (o cruz) es exactamente 0.5. El número de veces que sale cara se aproximará más al 50% cuantas más veces la lancemos.  
 
 Pero, ¿y si eso no es así? ¿Podría existir un sesgo que, independientemente de la moneda, hiciese que uno de los lados esté ligeramente favorecido? Veámoslo.
 
 ## Distribución binomial de probabilidad
-Lo primero que vamos a hacer es entender el modelo matemático que explica una apuesta a cara o cruz. El juego consiste en un experimento (aleatorio) con dos posibles resultados: A (cara) y B (cruz). Llamemos $p$ a la probabilidad de que el resultado sea A. Uno de los axiomas de la teoría de la probabilidad afirma que
+Lo primero que vamos a hacer es entender el modelo matemático que explica una apuesta a cara o cruz. El juego consiste en un experimento (aleatorio) con dos posibles resultados: A (cara) y B (cruz). Llamemos $p$ a la probabilidad de que el resultado sea A. Uno de los axiomas de la teoría de la probabilidad afirma que:
 $$
 0\leq p \leq 1,
 $$
-donde si $p=0$ nunca puede salir cara, y si $p=1$ siempre sale cara. Un segundo axioma impone que cuando lanzamos una moneda al aire, siempre sale algo, ya sea cara o cruz. Por tanto,
+donde si $p=0$ nunca puede salir cara, y si $p=1$ siempre sale cara. Un segundo axioma impone que cuando lanzamos una moneda al aire, siempre sale algo, ya sea cara o cruz. Por tanto:
 $$
 p+q=1
 $$
@@ -38,7 +38,7 @@ Ahora nos hacemos la siguiente pregunta: ¿cuál es la probabilidad de que, si l
 
 La probabilidad de que la secuencia ABABA se dé es $P(ABABA)=pqpqp=p^3 q^2$. En realidad, cualquier secuencia con 3 caras y 2 cruces tiene la misma probabilidad de ocurrir si lanzamos una moneda 5 veces, porque nos da igual el orden de aparición de caras o cruces. 
 
-Para entender el número de opciones que hay con $N=3$, vamos a usar una pequeña aplicación justo debajo. Vuestra tarea es "tirar" una moneda 5 veces, aunque en este caso vais a elegir el resultado de cada tirada, sabiendo que en total vamos a tener 3 caras y 2 cruces. Después de crear nuestra secuencia de monedas, vamos a ir viendo cómo contar el número total de combinaciones posibles. Para ello, debéis seleccionar "Continuar" y la propia aplicación os irá explicando el razonamiento. Tened en cuenta que en un grupo de $M$ elementos, el número posible de permutaciones entre ellos es $M!=M(M-1)$ $(M-2)\cdots 1$, donde $M!$ es el factorial de $M$.
+Para entender el número de opciones que hay con $N=3$, vamos a usar la pequeña aplicación que está justo debajo de este párrafo. Vuestra tarea es "tirar" una moneda 5 veces, aunque en este caso vais a elegir el resultado de una tirada, sabiendo que en total vamos a tener 3 caras y 2 cruces. Después de crear nuestra secuencia de monedas, vamos a ir viendo cómo contar el número total de combinaciones posibles. Para ello, debéis seleccionar "Continuar" y la propia aplicación os irá explicando el razonamiento. Tened en cuenta que en un grupo de $M$ elementos, el número posible de permutaciones entre ellos es $M!=M(M-1)$ $(M-2)\cdots 1$, donde $M!$ es el factorial de $M$.
 
 <style>
     #nn-combinaciones {
@@ -410,7 +410,7 @@ Para entender el número de opciones que hay con $N=3$, vamos a usar una pequeñ
     };
   </script>
 
-Ahora, si generalizamos esta cuenta, y tiramos $M$ veces la moneda, la probabilidad de que salga cara $N$ veces es
+Ahora, si generalizamos esta cuenta y tiramos $M$ veces la moneda, la probabilidad de que salga cara $N$ veces es:
 $$
 P_M(N)=\frac{M!}{N!(M-N)!}p^Nq^{M-N}.
 $$
@@ -519,7 +519,7 @@ function calcBinomialProb() {
 
 
 ## Determinismo
-En realidad, el lanzamiento de una moneda es un proceso determinista, gobernado por la mecánica clásica. Si conocemos las condiciones iniciales y las características físicas de la moneda (masa y tamaño), podemos predecir con un 100% de precisión el resultado del lanzamiento. La aleatoriedad que le asignamos a este proceso proviene de una variabilidad enorme al producirse un pequeño cambio en las condiciones iniciales del lanzamiento. 
+En realidad, el lanzamiento de una moneda es un proceso determinista, gobernado por la mecánica clásica. Si conocemos las condiciones iniciales y las características físicas de la moneda (masa y tamaño), podemos predecir con un 100% de precisión el resultado. La aleatoriedad que le asignamos a este proceso proviene de una variabilidad enorme al producirse un pequeño cambio en las condiciones iniciales del lanzamiento. 
 
 El modelo predictivo clásico del lanzamiento de una moneda fue desarrollado por Diaconis, Holmes y Montgomery (DHM)<a class="nn-cite" href="#dhs">[1]</a>. La cadena argumental es la siguiente: la probabilidad de que al capturar la moneda con la mano el resultado sea cara es proporcional al porcentaje del tiempo de vuelo que la moneda pasa con ese lado mirando hacia arriba. A su vez, este tiempo viene dado por el ángulo $\psi_0$ que forma el vector normal a la superficie de la moneda $\vec{n}$ con el vector momento angular $\vec{M}$ en el momento de lanzamiento de la moneda. Podéis ver ambos vectores en la Figura 1.
 
@@ -536,7 +536,7 @@ En ausencia de rozamiento con el aire, el vector $\vec{M}$ no depende del tiempo
   </figcaption>
 </figure>
 
-En valores intermedios $0<\psi_0<\pi/2$, la probabilidad es variable (ver figura 3 de <a class="nn-cite" href="#dhs">[1]</a>). En particular, si $\psi_0<\pi/4$ la probabilidad de que salga el mismo lado desde que se lanzó es igual a 1, resultado utilizado por magos y aficionados a las apuestas desde tiempos inmemoriales.
+Para valores intermedios $0<\psi_0<\pi/2$, la probabilidad es variable (ver la figura 3 de <a class="nn-cite" href="#dhs">[1]</a>). En particular, si $\psi_0<\pi/4$ la probabilidad de que salga el mismo lado desde que se lanzó es igual a 1, resultado utilizado por magos y aficionados a las apuestas desde tiempos inmemoriales.
 
 Un corolario interesante de este resultado es que, si los seres humanos no somos perfectamente precisos al lanzar una moneda al aire, y ocurre que $\psi_0\neq\pi/2$, esperamos que haya un sesgo: si la moneda enseñaba el lado cara, es más probable que el resultado sea cara. Utilizando cámaras de alta resolución, y utilizando 27 lanzamientos hechos por humanos, Diaconis, Holmes y Montgomery midieron el ángulo inicial $\psi_0$ y usando su modelo, infirieron una probabilidad $p(\textrm{mismo lado})\approx0.51$.
 
