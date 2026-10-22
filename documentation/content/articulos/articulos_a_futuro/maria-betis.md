@@ -1,4 +1,3 @@
-
 ---
 title:  El rayo verde de Julio Verne
 author: María Pérez Garrote
