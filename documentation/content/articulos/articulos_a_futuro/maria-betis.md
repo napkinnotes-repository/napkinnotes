@@ -1,7 +1,7 @@
 ---
 title:  El rayo verde de Julio Verne
 author: María Pérez Garrote
-date:  2026-29-10
+date:  2026-10-29
 layout: articles
 slug: prueba-maria
 status: hidden 
