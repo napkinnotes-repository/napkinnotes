@@ -1,5 +1,612 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-10-15T00:00:00+02:00</updated><entry><title>Hasta que la muerte los separe</title><link href="https://napkinnotes.es/hasta-que-la-muerte-los-separe" rel="alternate"/><published>2026-10-15T00:00:00+02:00</published><updated>2026-10-15T00:00:00+02:00</updated><author><name>Gonzalo Matias Romano</name></author><id>tag:napkinnotes.es,2026-10-15:/hasta-que-la-muerte-los-separe</id><summary type="html">&lt;p&gt;En otros Reinos, la expresión de amor es bastante más comprometida y puede parecernos incluso abrumadora; claro que hablo de los&amp;nbsp;hongos.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-10-22T00:00:00+02:00</updated><entry><title>Cara o cruz: instrucciones para fabricar vuestra propia suerte</title><link href="https://napkinnotes.es/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte" rel="alternate"/><published>2026-10-22T00:00:00+02:00</published><updated>2026-10-22T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-10-22:/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte</id><summary type="html">&lt;p&gt;Lanzar una moneda al aire es un proceso totalmente determinista. Sin embargo, las usamos para decidir nuestra suerte. Si leéis este artículo, os iniciaréis en los secretos de los prestidigitadores que fabrican su propia&amp;nbsp;suerte.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#distribucion-binomial-de-probabilidad"&gt;Distribución binomial de&amp;nbsp;probabilidad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#determinismo"&gt;Determinismo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-experimento"&gt;El&amp;nbsp;experimento&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;¿Cuántas situaciones de nuestra vida se deciden por azar? Decisiones profesionales o financieras, resultados electorales en los que la victoria se decide por un puñado de votos, enfermedades causadas por mutaciones genéticas aleatorias o algunos resultados deportivos en caso de empate son muestra de que el azar está muy presente en nuestra vida diaria. Sin ir más lejos, estáis leyendo esta servilleta, acerca del azar, porque un algoritmo me enseñó un vídeo corto que despertó mi&amp;nbsp;interés.&lt;/p&gt;
+&lt;p&gt;El caso más paradigmático de fortuna, en este caso binaria, es el lanzamiento de una moneda al aire. Ponemos una moneda en el pulgar, la lanzamos al aire girando sobre sí misma y la cazamos con la mano, sin que caiga al suelo. En este juego, que se utiliza para decidir muchísimas situaciones en el mundo humano, todos asumimos que la probabilidad de que salga cara (o cruz) es exactamente 0.5. El número de veces que sale cara se aproximará más al 50% cuantas más veces la&amp;nbsp;lancemos.  &lt;/p&gt;
+&lt;p&gt;Pero, ¿y si eso no es así? ¿Podría existir un sesgo que, independientemente de la moneda, hiciese que uno de los lados esté ligeramente favorecido?&amp;nbsp;Veámoslo.&lt;/p&gt;
+&lt;h2 id="distribucion-binomial-de-probabilidad"&gt;Distribución binomial de probabilidad&lt;a class="headerlink" href="#distribucion-binomial-de-probabilidad" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Lo primero que vamos a hacer es entender el modelo matemático que explica una apuesta a cara o cruz. El juego consiste en un experimento (aleatorio) con dos posibles resultados: A (cara) y B (cruz).&amp;nbsp;Llamemos &lt;span class="math"&gt;\(p\)&lt;/span&gt; a la probabilidad de que el resultado sea A. Uno de los axiomas de la teoría de la probabilidad afirma&amp;nbsp;que:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+0\leq p \leq 1,
+$$&lt;/div&gt;
+&lt;p&gt;
+donde&amp;nbsp;si &lt;span class="math"&gt;\(p=0\)&lt;/span&gt; nunca puede salir cara, y&amp;nbsp;si &lt;span class="math"&gt;\(p=1\)&lt;/span&gt; siempre sale cara. Un segundo axioma impone que cuando lanzamos una moneda al aire, siempre sale algo, ya sea cara o cruz. Por&amp;nbsp;tanto:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+p+q=1
+$$&lt;/div&gt;
+&lt;p&gt;
+donde &lt;span class="math"&gt;\(q\geq0\)&lt;/span&gt; es la probabilidad de que salga&amp;nbsp;cruz.&lt;/p&gt;
+&lt;p&gt;Ahora nos hacemos la siguiente pregunta: ¿cuál es la probabilidad de que, si lanzo una secuencia&amp;nbsp;de &lt;span class="math"&gt;\(M\)&lt;/span&gt; monedas al aire,&amp;nbsp;salga &lt;span class="math"&gt;\(N\)&lt;/span&gt; veces cara? Trabajemos un ejemplo concreto, en el que&amp;nbsp;tiramos &lt;span class="math"&gt;\(M=5\)&lt;/span&gt; veces una moneda. ¿Cuál es la probabilidad de que salga&amp;nbsp;cara &lt;span class="math"&gt;\(N=3\)&lt;/span&gt; veces? Para calcularla tendríamos que escribir todos los resultados posibles (&lt;span class="caps"&gt;AAAAA&lt;/span&gt;, &lt;span class="caps"&gt;AAAAB&lt;/span&gt;, &lt;span class="caps"&gt;AAABA&lt;/span&gt;, etc.), contar todos  los que tienen 3 veces la letra A (por ejemplo &lt;span class="caps"&gt;ABABA&lt;/span&gt;), y después multiplicar por la probabilidad de cada&amp;nbsp;uno. &lt;/p&gt;
+&lt;p&gt;La probabilidad de que la secuencia &lt;span class="caps"&gt;ABABA&lt;/span&gt; se dé&amp;nbsp;es &lt;span class="math"&gt;\(P(ABABA)=pqpqp=p^3 q^2\)&lt;/span&gt;. En realidad, cualquier secuencia con 3 caras y 2 cruces tiene la misma probabilidad de ocurrir si lanzamos una moneda 5 veces, porque nos da igual el orden de aparición de caras o&amp;nbsp;cruces. &lt;/p&gt;
+&lt;p&gt;Para entender el número de opciones que hay&amp;nbsp;con &lt;span class="math"&gt;\(N=3\)&lt;/span&gt;, vamos a usar la pequeña aplicación que está justo debajo de este párrafo. Vuestra tarea es &amp;#8220;tirar&amp;#8221; una moneda 5 veces, aunque en este caso vais a elegir el resultado de una tirada, sabiendo que en total vamos a tener 3 caras y 2 cruces. Después de crear nuestra secuencia de monedas, vamos a ir viendo cómo contar el número total de combinaciones posibles. Para ello, debéis seleccionar &amp;#8220;Continuar&amp;#8221; y la propia aplicación os irá explicando el razonamiento. Tened en cuenta que en un grupo&amp;nbsp;de &lt;span class="math"&gt;\(M\)&lt;/span&gt; elementos, el número posible de permutaciones entre ellos&amp;nbsp;es &lt;span class="math"&gt;\(M!=M(M-1)\)&lt;/span&gt; &lt;span class="math"&gt;\((M-2)\cdots 1\)&lt;/span&gt;,&amp;nbsp;donde &lt;span class="math"&gt;\(M!\)&lt;/span&gt; es el factorial&amp;nbsp;de &lt;span class="math"&gt;\(M\)&lt;/span&gt;.&lt;/p&gt;
+&lt;style&gt;
+    #nn-combinaciones {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+    }
+
+    #nn-combinaciones .card {
+      width: 340px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #ffffff;
+      padding: 16px 18px 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    #nn-combinaciones .card h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 20px;
+    }
+
+    #nn-combinaciones .buttons button {
+      padding: 11px 18px;
+      margin-right: 10px;
+      border: 0;
+      border-radius: 999px;
+      background: var(--richcarmine);
+      color: #fff;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    #nn-combinaciones .buttons button:hover:enabled {
+      opacity: 0.92;
+      transform: translateY(-1px);
+    }
+
+    #nn-combinaciones .buttons button:disabled {
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+
+    #nn-combinaciones #counter {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    #nn-combinaciones #step {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      min-height: 20px;
+    }
+
+    #nn-combinaciones #multiplication {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    #nn-combinaciones #permutations-count {
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    #nn-combinaciones .slots {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    #nn-combinaciones .slot {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      background: #fafafa;
+      text-align: center;
+      padding: 2px;
+      box-sizing: border-box;
+    }
+
+    #nn-combinaciones .cara1 { background: #ff4d4d; color: #fff; }
+    #nn-combinaciones .cara2 { background: #4caf50; color: #fff; }
+    #nn-combinaciones .cara3 { background: #2196f3; color: #fff; }
+    #nn-combinaciones .cruz1 { background: #ffeb3b; color: #000; }
+    #nn-combinaciones .cruz2 { background: #9c27b0; color: #fff; }
+
+    #nn-combinaciones .neutral {
+      background: #e0e0e0 !important;
+      color: #000 !important;
+    }
+
+    #nn-combinaciones #explanation {
+      margin-top: 16px;
+      font-size: 14px;
+      color: #444;
+      line-height: 1.5;
+      min-height: 80px;
+    }
+
+    #nn-combinaciones .control-buttons {
+      margin-top: 16px;
+      display: none;
+    }
+
+    #nn-combinaciones .control-buttons button {
+      margin-right: 10px;
+      padding: 11px 18px;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 600;
+      border: 0;
+      border-radius: 999px;
+      background: var(--richcarmine);
+      color: #fff;
+      cursor: pointer;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    #nn-combinaciones .control-buttons button:hover:enabled {
+      opacity: 0.92;
+      transform: translateY(-1px);
+    }
+
+    #nn-combinaciones .control-buttons button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+  &lt;/style&gt;
+&lt;div id="nn-combinaciones"&gt;
+  &lt;div class="card"&gt;
+    &lt;h3&gt;Combinaciones&lt;/h3&gt;
+
+    &lt;p&gt;&lt;strong&gt;Selecciona&amp;nbsp;resultado:&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;div class="buttons"&gt;
+      &lt;button id="btn-cara"&gt;Cara&lt;/button&gt;
+      &lt;button id="btn-cruz"&gt;Cruz&lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;p id="counter"&gt;
+      Caras restantes: &lt;strong&gt;3&lt;/strong&gt;&lt;br&gt;
+      Cruces restantes: &lt;strong&gt;2&lt;/strong&gt;
+    &lt;/p&gt;
+
+    &lt;p id="step"&gt;&lt;/p&gt;
+
+    &lt;p id="multiplication"&gt;
+      Construcción del factorial: &lt;strong&gt;&lt;/strong&gt;
+    &lt;/p&gt;
+
+    &lt;p id="permutations-count"&gt;
+      Permutaciones posibles (si todas fueran distintas): &lt;strong&gt;0&lt;/strong&gt;
+    &lt;/p&gt;
+
+    &lt;div class="slots" id="slots"&gt;
+      &lt;div class="slot"&gt;&lt;/div&gt;
+      &lt;div class="slot"&gt;&lt;/div&gt;
+      &lt;div class="slot"&gt;&lt;/div&gt;
+      &lt;div class="slot"&gt;&lt;/div&gt;
+      &lt;div class="slot"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;p id="explanation"&gt;&lt;/p&gt;
+
+    &lt;div class="control-buttons" id="control-buttons"&gt;
+      &lt;button id="btn-continue"&gt;Continuar&lt;/button&gt;
+      &lt;button id="btn-reset"&gt;Reiniciar&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+    let remainingCara = 3;
+    let remainingCruz = 2;
+    let nextSlot = 0;
+    let steps = [];
+    let placedPieces = [];
+    let currentStep = 0;
+
+    const counterEl = document.getElementById("counter");
+    const stepEl = document.getElementById("step");
+    const multiplicationEl = document.getElementById("multiplication");
+    const permutationsCountEl = document.getElementById("permutations-count");
+    const explanationEl = document.getElementById("explanation");
+    const slotsEl = document.getElementById("slots");
+    const btnCara = document.getElementById("btn-cara");
+    const btnCruz = document.getElementById("btn-cruz");
+    const controlButtons = document.getElementById("control-buttons");
+    const btnContinue = document.getElementById("btn-continue");
+    const btnReset = document.getElementById("btn-reset");
+
+    function updateCounter() {
+      counterEl.innerHTML =
+        `Caras restantes: &lt;strong&gt;${remainingCara}&lt;/strong&gt;&lt;br&gt;` +
+        `Cruces restantes: &lt;strong&gt;${remainingCruz}&lt;/strong&gt;`;
+    }
+
+    function updateMultiplication() {
+      const multText = steps.join(" × ");
+      multiplicationEl.innerHTML =
+        `Construcción del factorial: &lt;strong&gt;${multText}&lt;/strong&gt;`;
+      if (steps.length === 5) {
+        const total = steps.reduce((acc, v) =&gt; acc * v, 1);
+        permutationsCountEl.innerHTML =
+          `Permutaciones posibles (si todas fueran distintas): &lt;strong&gt;${total}&lt;/strong&gt;`;
+      }
+    }
+
+    function getCaraIndex() {
+      return placedPieces.filter(p =&gt; p.type === "cara").length + 1;
+    }
+
+    function getCruzIndex() {
+      return placedPieces.filter(p =&gt; p.type === "cruz").length + 1;
+    }
+
+    function applyPieceStyle(slot, type, index) {
+      slot.className = "slot";
+      if (type === "cara") {
+        slot.classList.add("cara" + index);
+        slot.textContent = `Cara ${index}`;
+      } else {
+        slot.classList.add("cruz" + index);
+        slot.textContent = `Cruz ${index}`;
+      }
+    }
+
+    function selectOption(type) {
+      const slots = slotsEl.getElementsByClassName("slot");
+
+      if (type === "cara" &amp;&amp; remainingCara === 0) {
+        stepEl.innerText = "Ya no quedan caras.";
+        return;
+      }
+      if (type === "cruz" &amp;&amp; remainingCruz === 0) {
+        stepEl.innerText = "Ya no quedan cruces.";
+        return;
+      }
+      if (nextSlot &gt;= slots.length) {
+        stepEl.innerText = "Todas las ranuras están llenas.";
+        return;
+      }
+
+      const slot = slots[nextSlot];
+      let index = type === "cara" ? getCaraIndex() : getCruzIndex();
+
+      applyPieceStyle(slot, type, index);
+      placedPieces.push({ type, index });
+
+      const remainingSlots = slots.length - nextSlot;
+      steps.push(remainingSlots);
+
+      stepEl.innerText =
+        `En este paso tenías ${remainingSlots} opciones para colocar esta ficha.`;
+
+      nextSlot++;
+
+      if (type === "cara") remainingCara--;
+      else remainingCruz--;
+
+      updateCounter();
+      updateMultiplication();
+
+      if (nextSlot === slots.length) {
+        btnCara.disabled = true;
+        btnCruz.disabled = true;
+        controlButtons.style.display = "block";
+      }
+    }
+
+    btnCara.onclick = () =&gt; selectOption("cara");
+    btnCruz.onclick = () =&gt; selectOption("cruz");
+
+    // --- PASOS A, B, C, D CONTROLADOS POR UN SOLO BOTÓN ---
+    btnContinue.onclick = () =&gt; {
+      currentStep++;
+
+      const total = steps.reduce((acc, v) =&gt; acc * v, 1);
+      const slots = slotsEl.getElementsByClassName("slot");
+
+      if (currentStep === 1) {
+        explanationEl.innerHTML = `
+          &lt;strong&gt;Paso A:&lt;/strong&gt;&lt;br&gt;
+          Cada ficha tiene su propio color e identidad (Cara 1 roja, Cara 2 verde, Cara 3 azul,
+          Cruz 1 amarilla, Cruz 2 lila).&lt;br&gt;&lt;br&gt;
+          Si todas fueran distintas, habría:&lt;br&gt;
+          &lt;strong&gt;${steps.join(" × ")} = ${total}&lt;/strong&gt; permutaciones posibles (5!).
+        `;
+        permutationsCountEl.innerHTML =
+          `Permutaciones posibles (si todas fueran distintas): &lt;strong&gt;${total}&lt;/strong&gt;`;
+      }
+
+      else if (currentStep === 2) {
+        explanationEl.innerHTML += `
+          &lt;br&gt;&lt;br&gt;&lt;strong&gt;Paso B:&lt;/strong&gt;&lt;br&gt;
+          Las &lt;strong&gt;3 caras&lt;/strong&gt; son idénticas entre sí. Si pierden su color,
+          todas las permutaciones que las intercambian representan el mismo patrón.&lt;br&gt;
+          Dividimos entre &lt;strong&gt;3! = 6&lt;/strong&gt;.
+        `;
+
+        for (let i = 0; i &lt; slots.length; i++) {
+          if (placedPieces[i].type === "cara") {
+            slots[i].classList.add("neutral");
+          }
+        }
+
+        const afterCara = total / 6;
+        permutationsCountEl.innerHTML =
+          `Permutaciones tras considerar caras idénticas: &lt;strong&gt;${afterCara}&lt;/strong&gt;`;
+      }
+
+      else if (currentStep === 3) {
+        explanationEl.innerHTML += `
+          &lt;br&gt;&lt;br&gt;&lt;strong&gt;Paso C:&lt;/strong&gt;&lt;br&gt;
+          Las &lt;strong&gt;2 cruces&lt;/strong&gt; también son idénticas. Si pierden su color,
+          las permutaciones que las intercambian representan el mismo patrón.&lt;br&gt;
+          Dividimos entre &lt;strong&gt;2! = 2&lt;/strong&gt;.
+        `;
+
+        for (let i = 0; i &lt; slots.length; i++) {
+          if (placedPieces[i].type === "cruz") {
+            slots[i].classList.add("neutral");
+          }
+        }
+
+        const afterCara = total / 6;
+        const afterCruz = afterCara / 2;
+
+        permutationsCountEl.innerHTML =
+          `Permutaciones tras considerar caras y cruces idénticas: &lt;strong&gt;${afterCruz}&lt;/strong&gt;`;
+      }
+
+      else if (currentStep === 4) {
+        const afterCara = total / 6;
+        const afterCruz = afterCara / 2;
+
+        explanationEl.innerHTML += `
+          &lt;br&gt;&lt;br&gt;&lt;strong&gt;Paso D (Conclusión):&lt;/strong&gt;&lt;br&gt;
+          Partimos de &lt;strong&gt;${total}&lt;/strong&gt; permutaciones posibles si todas fueran distintas.&lt;br&gt;
+          Al tener &lt;strong&gt;3 caras&lt;/strong&gt; idénticas y &lt;strong&gt;2 cruces&lt;/strong&gt; idénticas,
+          dividimos:&lt;br&gt;&lt;br&gt;
+          &lt;strong&gt;${total} / (3! × 2!) = ${afterCruz}&lt;/strong&gt;&lt;br&gt;&lt;br&gt;
+          Hay exactamente &lt;strong&gt;${afterCruz} combinaciones únicas&lt;/strong&gt;.
+        `;
+
+        btnContinue.disabled = true;
+      }
+    };
+
+    // --- REINICIAR ---
+    btnReset.onclick = () =&gt; {
+      location.reload();
+    };
+  &lt;/script&gt;
+
+&lt;p&gt;Ahora, si generalizamos esta cuenta y&amp;nbsp;tiramos &lt;span class="math"&gt;\(M\)&lt;/span&gt; veces la moneda, la probabilidad de que salga&amp;nbsp;cara &lt;span class="math"&gt;\(N\)&lt;/span&gt; veces&amp;nbsp;es:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+P_M(N)=\frac{M!}{N!(M-N)!}p^Nq^{M-N}.
+$$&lt;/div&gt;
+&lt;p&gt;
+Esta expresión es conocida como la &lt;a href="https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial"&gt;distribución binomial de probabilidad&lt;/a&gt;. Podéis comprobar justo debajo la probabilidad de una secuencia con cualquier número de monedas, y también podéis sesgar la moneda, es decir forzar que la&amp;nbsp;probabilidad  &lt;span class="math"&gt;\(p\)&lt;/span&gt; de que salga cara sea distinta&amp;nbsp;de &lt;span class="math"&gt;\(0.5\)&lt;/span&gt;.&lt;/p&gt;
+&lt;style&gt;
+  #coin-probability-sidebar .nn-coin-calculate {
+    margin-top: 10px;
+    width: 100%;
+    padding: 11px 18px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--richcarmine);
+    color: #fff;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  #coin-probability-sidebar .nn-coin-calculate:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+  }
+&lt;/style&gt;
+
+&lt;div style="display: flex; justify-content: center; width: 100%;"&gt;
+&lt;div id="coin-probability-sidebar" 
+     style="border:1px solid #ddd;
+            padding:16px;
+            width:260px;
+            background:#fafafa;
+            font-family:Arial, sans-serif;"&gt;
+
+  &lt;h3 style="margin-top:0;"&gt;Cara o&amp;nbsp;cruz&lt;/h3&gt;
+
+  &lt;label style="font-size:14px;"&gt;Número de lanzamientos:&lt;/label&gt;
+  &lt;input id="num-flips" type="number" min="0"
+         style="width:100%;box-sizing:border-box;padding:8px;font-size:14px;margin-bottom:10px;"&gt;
+
+  &lt;label style="font-size:14px;"&gt;Número de caras:&lt;/label&gt;
+  &lt;input id="num-heads" type="number" min="0"
+         style="width:100%;box-sizing:border-box;padding:8px;font-size:14px;margin-bottom:10px;"&gt;
+
+  &lt;label style="font-size:14px;"&gt;Probabilidad de que salga cara (p):&lt;/label&gt;
+  &lt;select id="prob-heads"
+          style="width:100%;box-sizing:border-box;padding:8px;font-size:14px;margin-bottom:10px;"&gt;
+    &lt;option value="0"&gt;0.0&lt;/option&gt;
+    &lt;option value="0.1"&gt;0.1&lt;/option&gt;
+    &lt;option value="0.2"&gt;0.2&lt;/option&gt;
+    &lt;option value="0.3"&gt;0.3&lt;/option&gt;
+    &lt;option value="0.4"&gt;0.4&lt;/option&gt;
+    &lt;option value="0.5" selected&gt;0.5&lt;/option&gt;
+    &lt;option value="0.6"&gt;0.6&lt;/option&gt;
+    &lt;option value="0.7"&gt;0.7&lt;/option&gt;
+    &lt;option value="0.8"&gt;0.8&lt;/option&gt;
+    &lt;option value="0.9"&gt;0.9&lt;/option&gt;
+    &lt;option value="1"&gt;1.0&lt;/option&gt;
+  &lt;/select&gt;
+
+  &lt;button onclick="calcBinomialProb()" class="nn-coin-calculate"&gt;
+    Calcular
+  &lt;/button&gt;
+
+  &lt;p id="result" 
+     style="margin-top:12px;font-weight:bold;font-size:14px;"&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function logFactorial(n) {
+  let sum = 0;
+  for (let i = 1; i &lt;= n; i++) {
+    sum += Math.log(i);
+  }
+  return sum;
+}
+
+function logBinomial(n, k) {
+  return logFactorial(n) - logFactorial(k) - logFactorial(n - k);
+}
+
+function calcBinomialProb() {
+  const n = parseInt(document.getElementById("num-flips").value);
+  const k = parseInt(document.getElementById("num-heads").value);
+  const p = parseFloat(document.getElementById("prob-heads").value);
+
+  if (isNaN(n) || isNaN(k) || k &gt; n || n &lt; 0 || k &lt; 0) {
+    document.getElementById("result").innerText = "Ingresa números válidos (k ≤ n).";
+    return;
+  }
+
+  // log(P) = log(C(n,k)) + k log(p) + (n-k) log(1-p)
+  const logP =
+    logBinomial(n, k) +
+    k * Math.log(p) +
+    (n - k) * Math.log(1 - p);
+
+  const P = Math.exp(logP);
+
+  document.getElementById("result").innerText =
+    `P(${k} caras en ${n} lanzamientos con p=${p}) = ${P} (${(P * 100).toFixed(6)}%).`;
+}
+&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h2 id="determinismo"&gt;Determinismo&lt;a class="headerlink" href="#determinismo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;En realidad, el lanzamiento de una moneda es un proceso determinista, gobernado por la mecánica clásica. Si conocemos las condiciones iniciales y las características físicas de la moneda (masa y tamaño), podemos predecir con un 100% de precisión el resultado. La aleatoriedad que le asignamos a este proceso proviene de una variabilidad enorme al producirse un pequeño cambio en las condiciones iniciales del&amp;nbsp;lanzamiento. &lt;/p&gt;
+&lt;p&gt;El modelo predictivo clásico del lanzamiento de una moneda fue desarrollado por Diaconis, Holmes y Montgomery (&lt;span class="caps"&gt;DHM&lt;/span&gt;)&lt;a class="nn-cite" href="#dhs"&gt;[1]&lt;/a&gt;. La cadena argumental es la siguiente: la probabilidad de que al capturar la moneda con la mano el resultado sea cara es proporcional al porcentaje del tiempo de vuelo que la moneda pasa con ese lado mirando hacia arriba. A su vez, este tiempo viene dado por el&amp;nbsp;ángulo &lt;span class="math"&gt;\(\psi_0\)&lt;/span&gt; que forma el vector normal a la superficie de la&amp;nbsp;moneda &lt;span class="math"&gt;\(\vec{n}\)&lt;/span&gt; con el vector momento&amp;nbsp;angular &lt;span class="math"&gt;\(\vec{M}\)&lt;/span&gt; en el momento de lanzamiento de la moneda. Podéis ver ambos vectores en la Figura&amp;nbsp;1.&lt;/p&gt;
+&lt;p&gt;En ausencia de rozamiento con el aire, el&amp;nbsp;vector &lt;span class="math"&gt;\(\vec{M}\)&lt;/span&gt; no depende del tiempo, debido al principio de conservación del momento angular. Sin embargo, en&amp;nbsp;general &lt;span class="math"&gt;\(\vec{n}\)&lt;/span&gt; sí varía con el tiempo durante el vuelo (excepto&amp;nbsp;si &lt;span class="math"&gt;\(\psi_0=0\)&lt;/span&gt;), y va a &lt;a href="https://napkinnotes.es/eclipse-caza#que-es-un-eclipse"&gt;precesar&lt;/a&gt; alrededor&amp;nbsp;de &lt;span class="math"&gt;\(\vec{M}\)&lt;/span&gt;. Para entender el modelo &lt;span class="caps"&gt;DHM&lt;/span&gt; vamos a comentar dos valores extremos del&amp;nbsp;ángulo &lt;span class="math"&gt;\(\psi_0\)&lt;/span&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Si &lt;span class="math"&gt;\(\psi_0=0\)&lt;/span&gt;, entonces la moneda está girando sobre su propia normal (como un paraguas cuando gira alrededor de su mástil), es&amp;nbsp;decir &lt;span class="math"&gt;\(\vec{n}\parallel\vec{M}\)&lt;/span&gt;. Si lanzamos así la moneda, el resultado va a ser siempre el mismo: vamos a obtener aquel lado que estuviera hacia arriba en el&amp;nbsp;lanzamiento.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si &lt;span class="math"&gt;\(\psi_0=\pi/2\)&lt;/span&gt;, la moneda gira sobre un eje perpendicular a la&amp;nbsp;normal, &lt;span class="math"&gt;\(\vec{n}\perp\vec{M}\)&lt;/span&gt;. En este caso, la probabilidad de ambos resultados es exactamente&amp;nbsp;0.5.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class="nn-article-figure"&gt;
+    &lt;img src="https://napkinnotes.es/images/barba-caracruz/coin.jpeg" alt=""&gt;
+  &lt;figcaption&gt;
+    Figura 1. Condiciones iniciales del lanzamiento de una moneda precesante, incluyendo el vector normal a la superficie de la moneda y el vector momento angular.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Para valores&amp;nbsp;intermedios &lt;span class="math"&gt;\(0&amp;lt;\psi_0&amp;lt;\pi/2\)&lt;/span&gt;, la probabilidad es variable (ver la figura 3 de &lt;a class="nn-cite" href="#dhs"&gt;[1]&lt;/a&gt;). En particular,&amp;nbsp;si &lt;span class="math"&gt;\(\psi_0&amp;lt;\pi/4\)&lt;/span&gt; la probabilidad de que salga el mismo lado desde que se lanzó es igual a 1, resultado utilizado por magos y aficionados a las apuestas desde tiempos&amp;nbsp;inmemoriales.&lt;/p&gt;
+&lt;p&gt;Un corolario interesante de este resultado es que, si los seres humanos no somos perfectamente precisos al lanzar una moneda al aire, y ocurre&amp;nbsp;que &lt;span class="math"&gt;\(\psi_0\neq\pi/2\)&lt;/span&gt;, esperamos que haya un sesgo: si la moneda enseñaba el lado cara, es más probable que el resultado sea cara. Utilizando cámaras de alta resolución, y utilizando 27 lanzamientos realizados por personas, Diaconis, Holmes y Montgomery midieron el ángulo&amp;nbsp;inicial &lt;span class="math"&gt;\(\psi_0\)&lt;/span&gt; y usando su modelo, infirieron una&amp;nbsp;probabilidad &lt;span class="math"&gt;\(p(\textrm{mismo lado})\approx0.51\)&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id="el-experimento"&gt;El experimento&lt;a class="headerlink" href="#el-experimento" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;En 2023, F. Bartoš et al. &lt;a class="nn-cite" href="#cointossers"&gt;[2]&lt;/a&gt; lanzaron 350.757 monedas al aire y anotaron el lado inicial y el resultado final. Se aseguraron de utilizar muchos lanzadores, distintos tipos de moneda y denominación, para asegurar variabilidad tanto en el lanzamiento como en las características físicas de la moneda. Curiosamente, no encontraron ningún tipo de sesgo que favorezca cara o cruz en el lanzamiento, en ese sentido el azar exacto del 50% sigue vigente.   Sin embargo, obtuvieron 178.079 resultados en los que el lado inicial y el final eran el mismo. Podéis comprobar vosotros mismos en la aplicación de arriba la probabilidad de que eso ocurra, asumiendo que el resultado final es independiente del lado inicial&amp;nbsp;(&lt;span class="math"&gt;\(p(\textrm{mismo lado})=0.5\)&lt;/span&gt;). Es un resultado prácticamente imposible, sobre todo comparado con los resultados más probables que están en torno a 175.378 veces&amp;nbsp;(&lt;span class="math"&gt;\(M/2\)&lt;/span&gt;) en las que coincide el lado inicial con el final. En otras&amp;nbsp;palabras, &lt;span class="math"&gt;\(p(\textrm{mismo lado})=0.5077\)&lt;/span&gt;. La evidencia bayesiana &amp;#8212;este concepto lo dejamos para otra servilleta&amp;#8212; es enorme a favor de que existe un sesgo a favor de conservar el lado&amp;nbsp;inicial.&lt;/p&gt;
+&lt;p&gt;Otro resultado interesante es que el sesgo &amp;#8212;según &lt;span class="caps"&gt;DHM&lt;/span&gt;, el&amp;nbsp;ángulo &lt;span class="math"&gt;\(\psi_0\)&lt;/span&gt;&amp;#8212; varía en función del lanzador, y en general observan que los lanzadores aprenden, y mejoran, acercándose más&amp;nbsp;a &lt;span class="math"&gt;\(\psi_0=\pi/2\)&lt;/span&gt; cuantas más monedas&amp;nbsp;lancen.&lt;/p&gt;
+&lt;p&gt;Este experimento ha confirmado la existencia de un sesgo favorable al lado inicial que ya había sido predicho por &lt;a class="nn-cite" href="#dhs"&gt;[1]&lt;/a&gt;. Lo que no ha sucedido todavía es una confirmación experimental del modelo &lt;span class="caps"&gt;DHS&lt;/span&gt;. Para lo cual haría falta lanzar una cantidad de monedas similar a la de &lt;a class="nn-cite" href="#cointossers"&gt;[2]&lt;/a&gt;, pero no solo medir el resultado del lanzamiento sino también medir &amp;#8212;o controlar usando una máquina que lance la moneda de forma automática&amp;#8212; el&amp;nbsp;ángulo &lt;span class="math"&gt;\(\psi_0\)&lt;/span&gt;. Solo así podríamos evaluar experimentalmente la relación entre la probabilidad y el ángulo&amp;nbsp;inicial. &lt;/p&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+
+  &lt;li id="dhs"&gt;
+    P. Diaconis, S. Holmes y R. Montgomery (2007). Dynamical Bias in the Coin Toss, &lt;em&gt;Society for Industrial and Applied Mathematics review&lt;/em&gt;, 49, 2, 211-235.
+    &lt;a href="https://www.stat.berkeley.edu/~aldous/157/Papers/diaconis_coinbias.pdf" target="_blank" rel="noopener noreferrer"&gt;https://www.stat.berkeley.edu/~aldous/157/Papers/diaconis_coinbias.pdf&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;li id="cointossers"&gt;
+    F. Bartoš et al. (2025). Fair Coins Tend to Land on the Same Side They Started: Evidence from 350,757 Flips. &lt;em&gt;Journal of the American Statistical Association&lt;/em&gt;, 120, 552, 2118-2127.
+    &lt;a href="https://doi.org/10.1080/01621459.2025.2516210" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1080/01621459.2025.2516210&lt;/a&gt;
+  &lt;/li&gt;
+
+&lt;/ol&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Estadística"/><category term="probabilidad"/><category term="estadística"/><category term="bli bli"/></entry><entry><title>Hasta que la muerte los separe</title><link href="https://napkinnotes.es/hasta-que-la-muerte-los-separe" rel="alternate"/><published>2026-10-15T00:00:00+02:00</published><updated>2026-10-15T00:00:00+02:00</updated><author><name>Gonzalo Matias Romano</name></author><id>tag:napkinnotes.es,2026-10-15:/hasta-que-la-muerte-los-separe</id><summary type="html">&lt;p&gt;En otros Reinos, la expresión de amor es bastante más comprometida y puede parecernos incluso abrumadora; claro que hablo de los&amp;nbsp;hongos.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#cuando-dos-se-convierten-en-uno"&gt;Cuando dos se convierten en&amp;nbsp;uno&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#el-sacrificio-final-la-formacion-de-las-setas"&gt;El sacrificio final: la formación de las&amp;nbsp;setas&lt;/a&gt;&lt;/li&gt;
