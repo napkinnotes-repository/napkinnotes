@@ -1,12 +1,13 @@
+
 ---
 title:  El rayo verde de Julio Verne
 author: María Pérez Garrote
 date:  2026-10-29
 layout: articles
 slug: prueba-maria
-status: hidden 
-category: Física 
-tags:  
+status: hidden
+category: Física
+tags:
   - física
   - óptica
 summary: "Habéis observado alguna vez el sol cuando se pone en el horizonte del mar? Sí, sin duda alguna. ¿Lo habéis seguido hasta el momento en que la parte superior del disco desaparece rozando la línea de agua del horizonte? Es muy posible. Pero ¿os habéis dado cuenta del fenómeno que se produce en el preciso instante en que el astro radiante lanza su último rayo, si el cielo, limpio de nubes, es entonces de una perfecta pureza? ¡No, seguramente no! Pues bien, la primera vez que tengáis ocasión -¡se presenta tan raramente!- de hacer esta observación, no será, como podría presumirse, un rayo rojo lo que herirá la retina de vuestros ojos, sino que será un rayo verde, pero un verde maravilloso, un verde que ningún pintor puede obtener en su paleta. Un verde cuya naturaleza no se encuentra ni en los variados verdes de los vegetales, ni en las tonalidades de las aguas más límpidas. Si existe el verde en el paraíso, no puede ser más que este verde, que es, sin duda, el verdadero verde de la Esperanza.» Hoy en Napkin Notes, hablamos del fenómeno físico del rayo verde de Julio Verne."
@@ -29,6 +30,11 @@ El rayo verde es considerada la novela más romántica del escritor francés Jul
        alt="Grabados de Léon Benett de la novela El rayo verde de Julio Verne"
        style="display: inline-block; max-width: 100%; height: auto;">
 </p>
+<p style="text-align: center; color: var(--muted); font-size: 0.92rem;">
+  Ilustración de Léon Benett para <em>El rayo verde</em> de Julio Verne (1882).
+  Obra original en dominio público.
+  Fuente: <a href="https://www.tiempo.com/noticias/ciencia/el-legendario-rayo-verde.html">Meteored</a>.
+</p>
 
 Lo más interesante desde un punto de vista científico es que el rayo verde es un fenómeno real producido por la refracción de la luz con la atmósfera. Veamos cómo se produce.
 
@@ -44,6 +50,14 @@ Cuando el Sol está cerca del horizonte, sus rayos atraviesan una cantidad mucho
 <!-- AQUÍ INSERTAR FIGURAS REFRACCIÓN-->
 ![](imagen/maria-betis/Atmospheric_refraction.jpeg)
 
+<p style="text-align: center; color: var(--muted); font-size: 0.92rem;">
+  Esquema de la refracción atmosférica y del desplazamiento aparente del Sol.
+  Autor: Sciencia58.
+  Fuente: <a href="https://commons.wikimedia.org/wiki/File:Atmospheric_refraction_-_sunset_and_sunrise.png">Wikimedia Commons</a>.
+  Licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+  Imagen convertida a formato JPEG.
+</p>
+
 Esto se debe a que el índice de refracción del aire depende ligeramente de la longitud de onda. En condiciones atmosféricas habituales, las longitudes de onda más cortas se refractan más que las largas. Esto significa que la luz azul se desvía más que la verde y esta, a su vez, más que la roja. Este fenómeno se denomina \textit{dispersión cromática} y es el mismo principio físico que permite a un prisma separar la luz blanca en los colores del espectro visible.
 
 Así, esta combinación de estos dos fenómenos ópticos es la que crea el rayo verde. Cuando el Sol se aproxima al horizonte la atmósfera refracta la luz solar y separa ligeramente los rayos correspondientes a las distintas longitudes de onda. Al ocultarse el tras el horizonte, dejamos de recibir luz de las partes de su imagen que ya no son visibles; pero no todos los colores desaparecen exactamente al mismo tiempo debido a su diferente refracción. En el instante final, puede quedar visible una estrecha franja de luz predominantemente verde en el borde superior del Sol. Si las condiciones atmosféricas son adecuadas, esa franja produce el famoso destello.
@@ -54,5 +68,12 @@ Así, esta combinación de estos dos fenómenos ópticos es la que crea el rayo 
 
 <!-- AQUÍ INSERTAR FIGURA NASA-->
 ![El rayo verde observado en el observatorio del Teide, en Tenerife.](images/maria-betis/greenflash_manzona_big.jpeg)
+
+<p style="text-align: center; color: var(--muted); font-size: 0.92rem;">
+  El rayo verde observado desde Tenerife.
+  Fotografía: © Juan José Manzano.
+  Publicada en <a href="https://science.nasa.gov/image-article/apod-2011-january-4-a-green-flash-from-the-sun/">Astronomy Picture of the Day (NASA), 4 de enero de 2011</a>.
+  Imagen protegida por derechos de autor.
+</p>
 
 <!-- Fin de Seccion-->
