@@ -3,6 +3,7 @@ title:  El rayo verde de Julio Verne
 author: María Pérez Garrote
 date:  2026-29-10
 layout: articles
+slug: prueba-maria
 status: hidden <!-- (published si ya está listo)-->
 category: Física <!-- Física -->
 tags:  <!-- (si ya existe una en https://napkinnotes.es/explorar esa sino una nueva, en minúscula la primera letra)-->
