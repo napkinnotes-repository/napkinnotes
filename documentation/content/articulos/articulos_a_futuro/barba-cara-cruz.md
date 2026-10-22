@@ -3,8 +3,7 @@ title: "Cara o cruz: instrucciones para fabricar vuestra propia suerte"         
 author: David Barba González               # mismo nombre que en la tarjeta de autor
 date: 2026-10-22          # formato YYYY-MM-DD
 layout: articles
-slug: prueba-barba
-status: hidden            # published si ya está listo
+status: published            # published si ya está listo
 category: Estadística             # categoría con mayúscula inicial
 tags:                     # tags con minúscula inicial
   - probabilidad
