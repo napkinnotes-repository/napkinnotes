@@ -8,7 +8,6 @@ category: Estadística             # categoría con mayúscula inicial
 tags:                     # tags con minúscula inicial
   - probabilidad
   - estadística
-  - bli bli
 summary: "Lanzar una moneda al aire es un proceso totalmente determinista. Sin embargo, las usamos para decidir nuestra suerte. Si leéis este artículo, os iniciaréis en los secretos de los prestidigitadores que fabrican su propia suerte."
 image: images/barba-caracruz/shekel.jpeg # imagen principal del artículo  ¡¡¡¡¡¡¡¡TIENE QUE SER JPEG EL FORMATO!!!!!
 certificate: false
