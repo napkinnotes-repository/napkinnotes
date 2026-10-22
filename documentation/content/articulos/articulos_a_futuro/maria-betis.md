@@ -47,8 +47,11 @@ Cuando el Sol está cerca del horizonte, sus rayos atraviesan una cantidad mucho
 
 
 <!-- AQUÍ INSERTAR FIGURAS REFRACCIÓN-->
-![](images/maria-betis/Atmospheric_refraction.jpeg)
-
+<p style="text-align: center;">
+  <img src="/images/maria-betis/Atmospheric_refraction.jpeg"
+       alt="Esquema de la refracción atmosférica"
+       style="display: block; width: auto; max-width: 100%; height: auto; margin: 0 auto;">
+</p>
 <p style="text-align: center; color: var(--muted); font-size: 0.92rem;">
   Esquema de la refracción atmosférica y del desplazamiento aparente del Sol.
   Autor: Sciencia58.
