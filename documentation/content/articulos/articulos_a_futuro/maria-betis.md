@@ -6,7 +6,7 @@ layout: articles
 slug: prueba-maria
 status: hidden <!-- (published si ya está listo)-->
 category: Física <!-- Física -->
-tags:  <!-- (si ya existe una en https://napkinnotes.es/explorar esa sino una nueva, en minúscula la primera letra)-->
+tags:  
   - física
   - óptica
 summary: "Habéis observado alguna vez el sol cuando se pone en el horizonte del mar? Sí, sin duda alguna. ¿Lo habéis seguido hasta el momento en que la parte superior del disco desaparece rozando la línea de agua del horizonte? Es muy posible. Pero ¿os habéis dado cuenta del fenómeno que se produce en el preciso instante en que el astro radiante lanza su último rayo, si el cielo, limpio de nubes, es entonces de una perfecta pureza? ¡No, seguramente no! Pues bien, la primera vez que tengáis ocasión -¡se presenta tan raramente!- de hacer esta observación, no será, como podría presumirse, un rayo rojo lo que herirá la retina de vuestros ojos, sino que será un rayo verde, pero un verde maravilloso, un verde que ningún pintor puede obtener en su paleta. Un verde cuya naturaleza no se encuentra ni en los variados verdes de los vegetales, ni en las tonalidades de las aguas más límpidas. Si existe el verde en el paraíso, no puede ser más que este verde, que es, sin duda, el verdadero verde de la Esperanza.» Hoy en Napkin Notes, hablamos del fenómeno físico del rayo verde de Julio Verne."
