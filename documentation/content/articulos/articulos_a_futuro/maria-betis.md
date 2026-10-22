@@ -4,8 +4,8 @@ author: María Pérez Garrote
 date:  2026-29-10
 layout: articles
 slug: prueba-maria
-status: hidden <!-- (published si ya está listo)-->
-category: Física <!-- Física -->
+status: hidden 
+category: Física 
 tags:  
   - física
   - óptica
