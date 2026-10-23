@@ -34,6 +34,7 @@ $$T(t) = \alpha \ln\left(\frac{t}{3}\right).$$
 ¡La percepción del tiempo es logarítmica! Si recuerdas cómo es la curva de un logaritmo sabrás que empieza subiendo de forma muy empinada y luego se aplana, avanzando de manera sumamente lenta. Eso es exactamente lo que le ocurre a nuestra vida sentida: acumulamos minutos psicológicos cada vez más despacio.
 
 ![Gráfica del logaritmo](images/janet.jpg)
+
 ---
 
 ## El gran cálculo: ¿A qué edad se agota la "mitad" de nuestra vida?
