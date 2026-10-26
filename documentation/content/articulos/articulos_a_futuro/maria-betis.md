@@ -37,6 +37,9 @@ El rayo verde es considerada la novela más romántica del escritor francés Jul
 
 Lo más interesante desde un punto de vista científico es que el rayo verde es un fenómeno real producido por la refracción de la luz con la atmósfera. Veamos cómo se produce.
 
+--
+
+
 ## Del mito a la física
 
 El rayo verde es un fenómeno óptico atmosférico que puede observarse, en condiciones favorables, justo cuando el Sol desaparece por el horizonte al atardecer o aparece al amanecer. Durante un instante, el borde superior del Sol puede adquirir un color verde intenso, como si se encendiera una pequeña luz esmeralda. Veamos la física que se esconde detrás de este destello.
@@ -78,4 +81,11 @@ Así, esta combinación de estos dos fenómenos ópticos es la que crea el rayo 
   Imagen protegida por derechos de autor.
 </p>
 
+--
 <!-- Fin de Seccion-->
+
+## Referencias y créditos de imágenes
+
+**Imagen de portada.** Fotografía del destello verde observado en Santa Cruz (California, 2006). Autora: Brocken Inaglory (Mila Zinkova). Fuente: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Inferior_Mirage_green_flash.jpg). Licencia [Creative Commons CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+
+
