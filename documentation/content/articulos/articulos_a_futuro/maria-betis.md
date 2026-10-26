@@ -37,7 +37,7 @@ El rayo verde es considerada la novela más romántica del escritor francés Jul
 
 Lo más interesante desde un punto de vista científico es que el rayo verde es un fenómeno real producido por la refracción de la luz con la atmósfera. Veamos cómo se produce.
 
---
+---
 
 
 ## Del mito a la física
@@ -81,7 +81,7 @@ Así, esta combinación de estos dos fenómenos ópticos es la que crea el rayo 
   Imagen protegida por derechos de autor.
 </p>
 
---
+---
 <!-- Fin de Seccion-->
 
 ## Referencias y créditos de imágenes
