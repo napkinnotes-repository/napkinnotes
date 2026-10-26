@@ -25,7 +25,7 @@ El rayo verde es considerada la novela más romántica del escritor francés Jul
 «Pero lo que la señorita Campbell no dijo, era que precisamente este rayo verde se refería a una vieja leyenda, cuyo íntimo sentido le había escapado hasta entonces, una leyenda inexplicable entre tantas otras, originarias del país de los Highlands, y que cuenta lo siguiente: Este rayo tiene la virtud de hacer que aquel que lo ha visto no pueda jamás equivocarse en las cosas del corazón; su aparición destruye las ilusiones y las mentiras; y el que ha tenido la dicha de verlo sólo una vez, ya puede ver claro en su corazón, y en el de los demás.»
 
 <p style="text-align: center;">
-  <img src="images/maria-betis/el_rayo_verde.jpeg"
+  <img src="images/maria-betis/grabados.jpeg"
        alt="Grabados de Léon Benett de la novela El rayo verde de Julio Verne"
        style="display: inline-block; max-width: 100%; height: auto;">
 </p>
