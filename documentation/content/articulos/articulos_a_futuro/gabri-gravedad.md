@@ -16,7 +16,6 @@ summary: "¿Podemos utilizar la gravedad para obtener energía sin gastar combus
 image: images/gabri-gravedad/Kerr3.jpeg
 certificate: false
 ---
-
 [TOC]
 
 Imaginad que queremos enviar una nave espacial hasta los confines del sistema solar. La manera más evidente de hacerlo consiste en construir un cohete suficientemente potente, cargarlo de combustible y acelerar hasta alcanzar la velocidad deseada. Sin embargo, existe una alternativa mucho más ingeniosa: aprovechar el movimiento de los planetas para acelerar nuestra nave sin necesidad de encender sus motores.
@@ -30,15 +29,11 @@ Este procedimiento, conocido como *asistencia gravitacional*, se ha utilizado en
   Asistencia gravitacional de la Voyager 1 a su paso por Júpiter. Marzo de 1979.
 </p>
 
-Pero aquí surge una pregunta interesante. Si nuestra nave aumenta su energía cinética sin utilizar sus motores, ¿de dónde procede esa energía? ¿Acaso podemos obtenerla gratuitamente gracias a la gravedad?
-
-La respuesta es que **la nave le roba una pequeñísima cantidad de energía orbital al planeta**. Y no se trata de una metáfora: el planeta pierde energía y la nave la gana, respetando escrupulosamente las leyes de conservación de la física.
+Pero aquí surge una pregunta interesante. Si nuestra nave aumenta su energía cinética sin utilizar sus motores, ¿de dónde procede esa energía? ¿Acaso podemos obtenerla gratuitamente gracias a la gravedad? La respuesta es que **la nave le roba una pequeñísima cantidad de energía orbital al planeta**. Y no se trata de una metáfora: el planeta pierde energía y la nave la gana, respetando escrupulosamente las leyes de conservación de la física.
 
 Lo verdaderamente sorprendente es que podemos llevar esta idea mucho más lejos. En 1969, el físico y matemático Roger Penrose propuso un mecanismo mediante el cual sería posible extraer energía de un agujero negro en rotación. En determinadas circunstancias, una partícula podría acercarse a un agujero negro y escapar con más energía de la que tenía inicialmente.
 
-¿Cómo es posible? ¿De dónde sale esa energía adicional? ¿Podemos utilizar un agujero negro como si fuera una gigantesca batería cósmica?
-
-En la napkin de hoy estudiaremos dos mecanismos que, aunque pertenecen a teorías físicas distintas, comparten una misma idea: **la gravedad puede permitirnos transferir energía desde un cuerpo masivo hacia otro mucho más pequeño**.
+¿Cómo es posible? ¿De dónde sale esa energía adicional? ¿Podemos utilizar un agujero negro como si fuera una gigantesca batería cósmica? En la napkin de hoy estudiaremos dos mecanismos que, aunque pertenecen a teorías físicas distintas, comparten una misma idea: **la gravedad puede permitirnos transferir energía desde un cuerpo masivo hacia otro mucho más pequeño**.
 
 Comencemos por el caso más familiar.
 
@@ -72,17 +67,13 @@ $$
 
 Parece que no hemos conseguido nada. La nave se aproxima al planeta, acelera, gira alrededor de él, vuelve a frenarse y termina alejándose con la misma rapidez con la que llegó.
 
-¿Dónde está entonces el truco?
-
-La clave consiste en recordar algo que hemos pasado por alto: **Júpiter no está quieto**.
+¿Dónde está entonces el truco? La clave consiste en recordar algo que hemos pasado por alto: **Júpiter no está quieto**.
 
 Júpiter se mueve alrededor del Sol a una velocidad aproximada de \(13\ \mathrm{km/s}\). Y, como veremos, este movimiento es precisamente lo que permite que nuestra nave gane energía.
 
 ### Todo depende del sistema de referencia
 
-Para simplificar los cálculos, consideremos un sistema de referencia heliocéntrico, es decir, uno en el que el Sol permanece aproximadamente en reposo.
-
-Llamemos \(\mathbf V\) a la velocidad orbital de Júpiter respecto al Sol y \(\mathbf v_i\) a la velocidad inicial de nuestra nave en ese mismo sistema de referencia.
+Para simplificar los cálculos, consideremos un sistema de referencia heliocéntrico, es decir, uno en el que el Sol permanece aproximadamente en reposo. Llamemos \(\mathbf V\) a la velocidad orbital de Júpiter respecto al Sol y \(\mathbf v_i\) a la velocidad inicial de nuestra nave en ese mismo sistema de referencia.
 
 La velocidad de la nave respecto a Júpiter será
 
@@ -138,9 +129,7 @@ $$
 \boxed{\Delta E=m\mathbf V\cdot(\mathbf u_f-\mathbf u_i).}
 $$
 
-**Esta es la ecuación fundamental de la asistencia gravitacional.**
-
-Fijémonos en que el resultado depende del producto escalar entre la velocidad del planeta y el cambio de velocidad relativa de la nave. Por tanto, son posibles tres situaciones:
+**Esta es la ecuación fundamental de la asistencia gravitacional.** Fijémonos en que el resultado depende del producto escalar entre la velocidad del planeta y el cambio de velocidad relativa de la nave. Por tanto, son posibles tres situaciones:
 
 - Si \(\Delta E>0\), la nave gana energía.
 - Si \(\Delta E<0\), la nave pierde energía.
@@ -194,17 +183,13 @@ $$
 \boxed{\Delta E=2.6\times10^{11}\ \mathrm J.}
 $$
 
-Para hacernos una idea, esta cantidad equivale aproximadamente a la energía liberada por unas 62 toneladas de TNT.
-
-Naturalmente, hemos considerado una situación idealizada. Una desviación exacta de \(180^\circ\) no se consigue mediante un sobrevuelo hiperbólico ordinario, y la geometría real del encuentro está limitada por el tamaño del planeta y por la distancia mínima a la que puede pasar nuestra nave.
+Para hacernos una idea, esta cantidad equivale aproximadamente a la energía liberada por unas 62 toneladas de TNT. Naturalmente, hemos considerado una situación idealizada. Una desviación exacta de \(180^\circ\) no se consigue mediante un sobrevuelo hiperbólico ordinario, y la geometría real del encuentro está limitada por el tamaño del planeta y por la distancia mínima a la que puede pasar nuestra nave.
 
 Aun así, el ejemplo ilustra perfectamente la enorme cantidad de energía que podemos obtener mediante este procedimiento.
 
 ### Pero ¿de dónde sale esa energía?
 
-Volvamos a la cuestión fundamental. Si la nave ha ganado energía, debe haber algún otro cuerpo que la haya perdido. Ese cuerpo es Júpiter.
-
-Durante el encuentro gravitacional, la nave no solo experimenta la atracción del planeta. Por la tercera ley de Newton, también ejerce una fuerza gravitatoria sobre él. Como consecuencia, Júpiter experimenta una variación extraordinariamente pequeña de su velocidad orbital.
+Volvamos a la cuestión fundamental. Si la nave ha ganado energía, debe haber algún otro cuerpo que la haya perdido. Ese cuerpo es Júpiter. Durante el encuentro gravitacional, la nave no solo experimenta la atracción del planeta. Por la tercera ley de Newton, también ejerce una fuerza gravitatoria sobre él. Como consecuencia, Júpiter experimenta una variación extraordinariamente pequeña de su velocidad orbital.
 
 Si consideramos el sistema formado por el planeta y la nave, la conservación del momento lineal implica
 
@@ -232,9 +217,7 @@ $$
 |\Delta V|\approx\frac{10^3}{1.9\times10^{27}}(2\times10^4)\approx10^{-20}\ \mathrm{m/s}.
 $$
 
-Es una cantidad ridículamente pequeña. Sin embargo, puesto que Júpiter posee una masa gigantesca, una variación minúscula de su velocidad puede corresponder a una cantidad considerable de energía.
-
-En efecto, para una pequeña variación de velocidad, el cambio de energía cinética del planeta es aproximadamente
+Es una cantidad ridículamente pequeña. Sin embargo, puesto que Júpiter posee una masa gigantesca, una variación minúscula de su velocidad puede corresponder a una cantidad considerable de energía. En efecto, para una pequeña variación de velocidad, el cambio de energía cinética del planeta es aproximadamente
 
 $$
 \Delta E_J\approx M\mathbf V\cdot\Delta\mathbf V.
@@ -264,9 +247,7 @@ La energía ganada por la nave procede de la energía orbital del planeta. Para 
 >
 > En principio, sí. Si enviáramos suficientes naves para realizar asistencias gravitacionales que extrajeran energía de Júpiter, podríamos modificar su órbita. En la práctica, necesitaríamos un número absolutamente descomunal de encuentros para producir un efecto apreciable.
 
-No obstante, la conclusión resulta fascinante: **una asistencia gravitacional no es simplemente una forma ingeniosa de cambiar la trayectoria de una nave, sino un auténtico mecanismo de transferencia de energía entre cuerpos celestes**.
-
-Y si podemos extraer energía del movimiento de un planeta, ¿podríamos hacer algo parecido con un objeto cuya gravedad es tan intensa que ni siquiera la luz puede escapar de su interior?
+No obstante, la conclusión resulta fascinante: **una asistencia gravitacional no es simplemente una forma ingeniosa de cambiar la trayectoria de una nave, sino un auténtico mecanismo de transferencia de energía entre cuerpos celestes**. Y si podemos extraer energía del movimiento de un planeta, ¿podríamos hacer algo parecido con un objeto cuya gravedad es tan intensa que ni siquiera la luz puede escapar de su interior?
 
 Sorprendentemente, la respuesta vuelve a ser afirmativa.
 
@@ -276,13 +257,9 @@ Sorprendentemente, la respuesta vuelve a ser afirmativa.
 
 ### ¿Puede un agujero negro perder energía?
 
-Los agujeros negros son probablemente los objetos más fascinantes de nuestro universo. Su campo gravitatorio es tan intenso que, una vez atravesado su horizonte de sucesos, nada puede regresar al exterior, ni siquiera la luz.
+Los agujeros negros son probablemente los objetos más fascinantes de nuestro universo. Su campo gravitatorio es tan intenso que, una vez atravesado su horizonte de sucesos, nada puede regresar al exterior, ni siquiera la luz. Podríamos pensar, por tanto, que un agujero negro constituye una especie de prisión cósmica: todo puede entrar, pero nada puede salir.
 
-Podríamos pensar, por tanto, que un agujero negro constituye una especie de prisión cósmica: todo puede entrar, pero nada puede salir.
-
-Sin embargo, esta afirmación no implica que sea imposible extraer energía de un agujero negro. De hecho, **un agujero negro en rotación almacena una enorme cantidad de energía que, al menos en principio, podemos aprovechar**.
-
-Para comprender cómo funciona este mecanismo, primero necesitamos recordar algunas ideas de la teoría de la relatividad general.
+Sin embargo, esta afirmación no implica que sea imposible extraer energía de un agujero negro. De hecho, **un agujero negro en rotación almacena una enorme cantidad de energía que, al menos en principio, podemos aprovechar**. Para comprender cómo funciona este mecanismo, primero necesitamos recordar algunas ideas de la teoría de la relatividad general.
 
 En 1915, Albert Einstein revolucionó nuestra comprensión de la gravedad al proponer que esta no es una fuerza convencional, sino una manifestación de la curvatura del espacio-tiempo. Los cuerpos masivos deforman la geometría que los rodea, y las partículas se mueven siguiendo las trayectorias determinadas por esa geometría.
 
@@ -294,9 +271,7 @@ $$
 
 relacionan precisamente la geometría del espacio-tiempo, descrita por el tensor de Ricci \(R_{\mu\nu}\), el escalar de curvatura \(R\) y el tensor métrico \(g_{\mu\nu}\), con el contenido de materia y energía, representado por \(T_{\mu\nu}\).
 
-Estas ecuaciones admiten distintas soluciones que describen diferentes configuraciones gravitatorias.
-
-Una de las más conocidas es la solución de Schwarzschild, que describe el espacio-tiempo exterior de un cuerpo esféricamente simétrico y sin rotación. Si dicho cuerpo es un agujero negro, su horizonte de sucesos se encuentra en el llamado radio de Schwarzschild,
+Estas ecuaciones admiten distintas soluciones que describen diferentes configuraciones gravitatorias. Una de las más conocidas es la solución de Schwarzschild, que describe el espacio-tiempo exterior de un cuerpo esféricamente simétrico y sin rotación. Si dicho cuerpo es un agujero negro, su horizonte de sucesos se encuentra en el llamado radio de Schwarzschild,
 
 $$
 \boxed{r_s=\frac{2GM}{c^2},}
@@ -304,21 +279,15 @@ $$
 
 donde \(M\) es la masa del agujero negro.
 
-Pero ¿qué ocurre si el agujero negro está girando?
-
-En ese caso, necesitamos una solución más general: la **métrica de Kerr**, descubierta por el matemático Roy Kerr en 1963.
+Pero ¿qué ocurre si el agujero negro está girando? En ese caso, necesitamos una solución más general: la **métrica de Kerr**, descubierta por el matemático Roy Kerr en 1963.
 
 Y aquí es donde comienza nuestra historia.
 
 ### Un agujero negro que arrastra el espacio-tiempo
 
-Una de las consecuencias más sorprendentes de la relatividad general es que un cuerpo en rotación puede arrastrar consigo el espacio-tiempo que lo rodea. Este fenómeno se conoce como *arrastre de referencia* o *frame dragging*.
+Una de las consecuencias más sorprendentes de la relatividad general es que un cuerpo en rotación puede arrastrar consigo el espacio-tiempo que lo rodea. Este fenómeno se conoce como *arrastre de referencia* o *frame dragging*. Imaginemos que estamos cerca de un agujero negro que gira sobre sí mismo. A diferencia de lo que ocurre con un agujero negro estático, el espacio-tiempo circundante también se ve afectado por su rotación.
 
-Imaginemos que estamos cerca de un agujero negro que gira sobre sí mismo. A diferencia de lo que ocurre con un agujero negro estático, el espacio-tiempo circundante también se ve afectado por su rotación.
-
-Para describir matemáticamente este fenómeno, consideremos la métrica de Kerr en coordenadas de Boyer-Lindquist.
-
-A partir de ahora utilizaremos unidades geométricas, en las que \(G=c=1\), algo habitual en relatividad general.
+Para describir matemáticamente este fenómeno, consideremos la métrica de Kerr en coordenadas de Boyer-Lindquist. A partir de ahora utilizaremos unidades geométricas, en las que \(G=c=1\), algo habitual en relatividad general.
 
 El elemento de línea viene dado por
 
@@ -349,21 +318,15 @@ $$
 
 representa el momento angular por unidad de masa del agujero negro.
 
-No os preocupéis si la expresión parece intimidante. No necesitamos estudiar todos sus términos para comprender lo que ocurre.
-
-Fijémonos únicamente en uno de ellos:
+No os preocupéis si la expresión parece intimidante. No necesitamos estudiar todos sus términos para comprender lo que ocurre. Fijémonos únicamente en uno de ellos:
 
 $$
 -\frac{4Mar\sin^2\theta}{\Sigma}\,dt\,d\phi.
 $$
 
-Este término mezcla la coordenada temporal \(t\) con la coordenada angular \(\phi\). Su presencia es fundamental: **la rotación del agujero negro introduce un acoplamiento entre el tiempo y el movimiento angular**.
+Este término mezcla la coordenada temporal \(t\) con la coordenada angular \(\phi\). Su presencia es fundamental: **la rotación del agujero negro introduce un acoplamiento entre el tiempo y el movimiento angular**. En particular, si \(a=0\), este término desaparece y recuperamos la solución de Schwarzschild.
 
-En particular, si \(a=0\), este término desaparece y recuperamos la solución de Schwarzschild.
-
-Pero cuando \(a\neq0\), el espacio-tiempo posee una propiedad extraordinaria: suficientemente cerca del agujero negro, resulta imposible permanecer inmóvil respecto a un observador situado muy lejos de él.
-
-Incluso aunque encendiéramos unos motores extremadamente potentes para intentar mantenernos en una posición angular fija, no podríamos conseguirlo en cierta región del espacio-tiempo.
+Pero cuando \(a\neq0\), el espacio-tiempo posee una propiedad extraordinaria: suficientemente cerca del agujero negro, resulta imposible permanecer inmóvil respecto a un observador situado muy lejos de él. Incluso aunque encendiéramos unos motores extremadamente potentes para intentar mantenernos en una posición angular fija, no podríamos conseguirlo en cierta región del espacio-tiempo.
 
 Esa región recibe el nombre de **ergosfera**.
 
@@ -427,9 +390,7 @@ $$
 r_{\mathrm{erg}}\left(\frac\pi2\right)=2M.
 $$
 
-Por consiguiente, la ergosfera se extiende más lejos del agujero negro en su región ecuatorial.
-
-Lo verdaderamente importante es que **la ergosfera se encuentra fuera del horizonte de sucesos**, salvo en los polos, donde ambas superficies se tocan.
+Por consiguiente, la ergosfera se extiende más lejos del agujero negro en su región ecuatorial. Lo verdaderamente importante es que **la ergosfera se encuentra fuera del horizonte de sucesos**, salvo en los polos, donde ambas superficies se tocan.
 
 <p style="text-align: center;">
   <img src="/images/gabri-gravedad/Kerr1.jpeg" alt="Imagen esquemática del horizonte de eventos del agujero negro de Kerr y su ergoesfera." style="display: block; max-width: 100%; height: auto; margin: 0 auto;">
@@ -438,9 +399,7 @@ Lo verdaderamente importante es que **la ergosfera se encuentra fuera del horizo
   Imagen esquemática del horizonte de eventos del agujero negro de Kerr y su ergoesfera.
 </p>
 
-Esto significa que una partícula situada en su interior todavía puede escapar hacia el infinito, siempre que siga una trayectoria adecuada.
-
-No obstante, todos los observadores físicos dentro de la ergosfera están obligados a girar en el mismo sentido que el agujero negro, como consecuencia del arrastre del espacio-tiempo.
+Esto significa que una partícula situada en su interior todavía puede escapar hacia el infinito, siempre que siga una trayectoria adecuada. No obstante, todos los observadores físicos dentro de la ergosfera están obligados a girar en el mismo sentido que el agujero negro, como consecuencia del arrastre del espacio-tiempo.
 
 Y es precisamente esta peculiar geometría la que hace posible el proceso de Penrose.
 
@@ -460,9 +419,7 @@ $$
 \gamma=\frac{1}{\sqrt{1-v^2/c^2}}.
 $$
 
-Esta cantidad es necesariamente positiva.
-
-¿Cómo es posible, entonces, que existan partículas con energía negativa cerca de un agujero negro?
+Esta cantidad es necesariamente positiva. ¿Cómo es posible, entonces, que existan partículas con energía negativa cerca de un agujero negro?
 
 La respuesta es que debemos distinguir entre la energía medida localmente por un observador y la energía conservada asociada a la simetría temporal del espacio-tiempo.
 
@@ -507,9 +464,7 @@ $$
 
 a lo largo de la trayectoria de una partícula libre.
 
-Ahora bien, existe un detalle crucial. Fuera de la ergosfera, el vector de Killing \(\xi^\mu\) es de tipo temporal. Esto garantiza que la energía conservada de una partícula física dirigida hacia el futuro sea positiva.
-
-Sin embargo, dentro de la ergosfera ocurre algo extraordinario: el vector \(\xi^\mu\) se vuelve de tipo espacial.
+Ahora bien, existe un detalle crucial. Fuera de la ergosfera, el vector de Killing \(\xi^\mu\) es de tipo temporal. Esto garantiza que la energía conservada de una partícula física dirigida hacia el futuro sea positiva. Sin embargo, dentro de la ergosfera ocurre algo extraordinario: el vector \(\xi^\mu\) se vuelve de tipo espacial.
 
 Por consiguiente, el producto
 
@@ -519,17 +474,13 @@ $$
 
 ya no tiene por qué ser positivo.
 
-Es decir, **dentro de la ergosfera pueden existir partículas con energía conservada negativa respecto al infinito**.
-
-Esto no significa que un observador local pueda medir una energía física negativa. La energía local de una partícula sigue siendo positiva. Lo que puede cambiar de signo es la cantidad conservada asociada a las traslaciones temporales del espacio-tiempo.
+Es decir, **dentro de la ergosfera pueden existir partículas con energía conservada negativa respecto al infinito**. Esto no significa que un observador local pueda medir una energía física negativa. La energía local de una partícula sigue siendo positiva. Lo que puede cambiar de signo es la cantidad conservada asociada a las traslaciones temporales del espacio-tiempo.
 
 Y esta distinción es exactamente lo que necesitamos para extraer energía del agujero negro.
 
 ### El ingenioso experimento de Roger Penrose
 
-Imaginemos que enviamos una partícula hacia un agujero negro de Kerr.
-
-La partícula posee una energía inicial \(E_0>0\), medida respecto al infinito.
+Imaginemos que enviamos una partícula hacia un agujero negro de Kerr. La partícula posee una energía inicial \(E_0>0\), medida respecto al infinito.
 
 Supongamos que, al penetrar en la ergosfera, la partícula se desintegra en dos fragmentos, que llamaremos \(A\) y \(B\).
 
@@ -545,9 +496,7 @@ $$
 \boxed{E_0=E_A+E_B.}
 $$
 
-Hasta aquí no parece haber nada especial.
-
-Pero recordemos que estamos dentro de la ergosfera, donde pueden existir trayectorias de energía negativa.
+Hasta aquí no parece haber nada especial. Pero recordemos que estamos dentro de la ergosfera, donde pueden existir trayectorias de energía negativa.
 
 Penrose propuso que uno de los fragmentos, por ejemplo \(B\), podría adquirir una energía
 
@@ -576,13 +525,9 @@ $$
 \boxed{E_A>E_0.}
 $$
 
-¡Acabamos de conseguir que una partícula escape con más energía de la que tenía inicialmente!
+¡Acabamos de conseguir que una partícula escape con más energía de la que tenía inicialmente! El fragmento \(A\) puede regresar al infinito transportando una cantidad de energía superior a la que introdujimos originalmente.
 
-El fragmento \(A\) puede regresar al infinito transportando una cantidad de energía superior a la que introdujimos originalmente.
-
-Por supuesto, el proceso no crea energía de la nada. La energía adicional procede de la rotación del agujero negro, que pierde masa y momento angular al absorber el fragmento de energía negativa.
-
-Este es el **proceso de Penrose**.
+Por supuesto, el proceso no crea energía de la nada. La energía adicional procede de la rotación del agujero negro, que pierde masa y momento angular al absorber el fragmento de energía negativa. Este es el **proceso de Penrose**.
 
 ### ¿Cuánta energía podemos extraer?
 
@@ -632,9 +577,7 @@ Este límite corresponde al proceso original bajo condiciones ideales. Existen o
 
 ### ¿De verdad pierde energía el agujero negro?
 
-Podemos demostrarlo utilizando las leyes de conservación.
-
-Además de la energía, un agujero negro de Kerr posee momento angular \(J\).
+Podemos demostrarlo utilizando las leyes de conservación. Además de la energía, un agujero negro de Kerr posee momento angular \(J\).
 
 Como consecuencia de la simetría axial del espacio-tiempo, existe otro vector de Killing,
 
@@ -666,17 +609,13 @@ $$
 \boxed{\Delta M=\frac{E_B}{c^2}<0.}
 $$
 
-Es decir, la masa del agujero negro disminuye.
-
-Además, el fragmento absorbido posee momento angular negativo respecto al sentido de rotación del agujero negro, por lo que
+Es decir, la masa del agujero negro disminuye. Además, el fragmento absorbido posee momento angular negativo respecto al sentido de rotación del agujero negro, por lo que
 
 $$
 \Delta J=L_B<0.
 $$
 
-De este modo, el agujero negro pierde tanto energía como momento angular.
-
-Existe, sin embargo, una restricción fundamental. La energía y el momento angular de la partícula absorbida deben satisfacer
+De este modo, el agujero negro pierde tanto energía como momento angular. Existe, sin embargo, una restricción fundamental. La energía y el momento angular de la partícula absorbida deben satisfacer
 
 $$
 E_B-\Omega_H L_B\geq0,
@@ -690,21 +629,15 @@ $$
 \Omega_H=\frac{a}{r_+^2+a^2}.
 $$
 
-Esta desigualdad garantiza que el proceso es compatible con las propiedades físicas del horizonte de sucesos y, en particular, con el teorema de aumento de su área.
+Esta desigualdad garantiza que el proceso es compatible con las propiedades físicas del horizonte de sucesos y, en particular, con el teorema de aumento de su área. Puesto que \(E_B<0\), también debe cumplirse \(L_B<0\) (tomando positivo el sentido de rotación del agujero negro).
 
-Puesto que \(E_B<0\), también debe cumplirse \(L_B<0\) (tomando positivo el sentido de rotación del agujero negro).
-
-Por tanto, **la extracción de energía está necesariamente acompañada de una disminución del momento angular del agujero negro**.
-
-En cierto sentido, estamos frenando su rotación.
+Por tanto, **la extracción de energía está necesariamente acompañada de una disminución del momento angular del agujero negro**. En cierto sentido, estamos frenando su rotación.
 
 Y esto nos lleva a una última pregunta.
 
 ### ¿Podemos extraer toda la energía de rotación de un agujero negro?
 
-Un agujero negro de Kerr posee una cantidad de energía asociada a su momento angular.
-
-Para estudiar cuánta energía podemos extraer, es útil introducir el concepto de *masa irreducible*, \(M_{\mathrm{irr}}\).
+Un agujero negro de Kerr posee una cantidad de energía asociada a su momento angular. Para estudiar cuánta energía podemos extraer, es útil introducir el concepto de *masa irreducible*, \(M_{\mathrm{irr}}\).
 
 Esta cantidad está relacionada con el área \(A\) del horizonte de sucesos mediante
 
@@ -712,9 +645,7 @@ $$
 \boxed{A=\frac{16\pi G^2}{c^4}M_{\mathrm{irr}}^2.}
 $$
 
-El teorema del área de Hawking establece que, bajo las hipótesis clásicas habituales, el área total de los horizontes de sucesos no puede disminuir.
-
-En consecuencia, la masa irreducible de un agujero negro no puede reducirse mediante un proceso clásico de extracción de energía.
+El teorema del área de Hawking establece que, bajo las hipótesis clásicas habituales, el área total de los horizontes de sucesos no puede disminuir. En consecuencia, la masa irreducible de un agujero negro no puede reducirse mediante un proceso clásico de extracción de energía.
 
 Para un agujero negro de Kerr, la masa irreducible viene dada por
 
@@ -794,9 +725,7 @@ $$
 \boxed{E_{\mathrm{ext}}\approx5.2\times10^{47}\ \mathrm J.}
 $$
 
-Una cantidad extraordinaria.
-
-Naturalmente, esto no significa que podamos construir una central energética alrededor de un agujero negro y recuperar fácilmente toda esa energía. Estamos hablando de un límite teórico, y los procesos físicos reales presentan restricciones adicionales.
+Una cantidad extraordinaria. Naturalmente, esto no significa que podamos construir una central energética alrededor de un agujero negro y recuperar fácilmente toda esa energía. Estamos hablando de un límite teórico, y los procesos físicos reales presentan restricciones adicionales.
 
 Pero el resultado es inequívoco: **la relatividad general permite extraer energía de rotación de un agujero negro sin violar ninguna ley de conservación**.
 
@@ -804,29 +733,17 @@ Pero el resultado es inequívoco: **la relatividad general permite extraer energ
 
 ## Conclusiones
 
-Hemos comenzado nuestro viaje con una nave espacial que se acerca a Júpiter y hemos terminado explorando una de las regiones más extremas del universo: la ergosfera de un agujero negro en rotación.
+Hemos comenzado nuestro viaje con una nave espacial que se acerca a Júpiter y hemos terminado explorando una de las regiones más extremas del universo: la ergosfera de un agujero negro en rotación. A primera vista, la asistencia gravitacional y el proceso de Penrose parecen fenómenos completamente distintos. El primero puede explicarse mediante la mecánica newtoniana, mientras que el segundo requiere recurrir a la geometría del espacio-tiempo descrita por la relatividad general.
 
-A primera vista, la asistencia gravitacional y el proceso de Penrose parecen fenómenos completamente distintos. El primero puede explicarse mediante la mecánica newtoniana, mientras que el segundo requiere recurrir a la geometría del espacio-tiempo descrita por la relatividad general.
+Sin embargo, existe una conexión conceptual entre ambos. En una asistencia gravitacional, una nave puede ganar energía a costa de modificar ligeramente el movimiento orbital de un planeta. El intercambio depende de la geometría del encuentro y del sistema de referencia desde el que describimos el movimiento.
 
-Sin embargo, existe una conexión conceptual entre ambos.
+En el proceso de Penrose, una partícula puede escapar de la ergosfera con más energía de la que tenía inicialmente, siempre que otra partícula con energía conservada negativa sea absorbida por el agujero negro. La energía adicional procede de la rotación del propio agujero negro. En ambos casos, la conservación de la energía permanece intacta.
 
-En una asistencia gravitacional, una nave puede ganar energía a costa de modificar ligeramente el movimiento orbital de un planeta. El intercambio depende de la geometría del encuentro y del sistema de referencia desde el que describimos el movimiento.
+Y es que, aunque pueda parecer sorprendente, **extraer energía de un sistema gravitatorio no significa crear energía, sino encontrar una manera de transferirla**. Esta es precisamente una de las ideas más hermosas de la física: mecanismos que, a primera vista, parecen imposibles terminan siendo consecuencias perfectamente legítimas de sus leyes fundamentales.
 
-En el proceso de Penrose, una partícula puede escapar de la ergosfera con más energía de la que tenía inicialmente, siempre que otra partícula con energía conservada negativa sea absorbida por el agujero negro. La energía adicional procede de la rotación del propio agujero negro.
+Así que ya sabéis la respuesta a las preguntas con las que comenzábamos. ¿Podemos robarle energía a un planeta? Sí, y llevamos décadas haciéndolo.
 
-En ambos casos, la conservación de la energía permanece intacta.
-
-Y es que, aunque pueda parecer sorprendente, **extraer energía de un sistema gravitatorio no significa crear energía, sino encontrar una manera de transferirla**.
-
-Esta es precisamente una de las ideas más hermosas de la física: mecanismos que, a primera vista, parecen imposibles terminan siendo consecuencias perfectamente legítimas de sus leyes fundamentales.
-
-Así que ya sabéis la respuesta a las preguntas con las que comenzábamos.
-
-¿Podemos robarle energía a un planeta? Sí, y llevamos décadas haciéndolo.
-
-¿Podemos robársela a un agujero negro? También, al menos en principio, y la relatividad general nos explica exactamente cómo.
-
-La gravedad no nos regala energía. Pero, si sabemos aprovecharla, puede ayudarnos a conseguirla de los lugares más insospechados del universo.
+¿Podemos robársela a un agujero negro? También, al menos en principio, y la relatividad general nos explica exactamente cómo. La gravedad no nos regala energía. Pero, si sabemos aprovecharla, puede ayudarnos a conseguirla de los lugares más insospechados del universo.
 
 ---
 
