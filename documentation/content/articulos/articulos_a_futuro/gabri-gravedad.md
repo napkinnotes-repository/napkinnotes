@@ -13,7 +13,7 @@ tags:
   - asistencia gravitacional
   - mecánica orbital
 summary: "¿Podemos utilizar la gravedad para obtener energía sin gastar combustible? Las sondas espaciales llevan décadas haciéndolo gracias a los planetas. Más sorprendente todavía: la relatividad general permite extraer energía de un agujero negro en rotación."
-image: gabri-gravedad/Kerr3.jpeg
+image: images/gabri-gravedad/Kerr3.jpeg
 certificate: false
 ---
 
