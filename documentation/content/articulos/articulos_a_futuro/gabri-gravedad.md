@@ -4,6 +4,7 @@ author: Gabriel Sánchez Pérez
 date: 2026-11-05
 layout: articles
 status: hidden
+slug: prueba-gabri
 category: Física
 tags:
   - gravitación
