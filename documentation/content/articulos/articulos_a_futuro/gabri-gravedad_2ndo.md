@@ -18,7 +18,7 @@ certificate: false
 ---
 [TOC]
 
-
+En la [primera parte de este artículo](https://napkinnotes.es/prueba-gabri1) vimos cómo una nave espacial puede ganar energía aprovechando el movimiento de un planeta mediante una asistencia gravitacional. Pero ¿podemos hacer algo parecido con un agujero negro? En esta segunda parte veremos cómo el proceso de Penrose permite extraer energía de un agujero negro en rotación.
 
 ## El proceso de Penrose
 
