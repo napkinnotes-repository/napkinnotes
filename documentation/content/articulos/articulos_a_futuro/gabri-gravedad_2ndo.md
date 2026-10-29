@@ -403,7 +403,7 @@ Y esto nos lleva a una última pregunta.
 
 ### ¿Podemos extraer toda la energía de rotación de un agujero negro?
 
-Un agujero negro de Kerr posee una cantidad de energía asociada a su momento angular. Para estudiar cuánta energía podemos extraer, es útil introducir el concepto de *masa irreducible*, \(M_{\mathrm{irr}}\).
+Un agujero negro de Kerr posee una cantidad de energía asociada a su momento angular. Para estudiar cuánta energía podemos extraer, es útil introducir el concepto de *masa irreducible*, $M_{\mathrm{irr}}$.
 
 Esta cantidad está relacionada con el área \(A\) del horizonte de sucesos mediante
 
