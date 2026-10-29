@@ -226,19 +226,19 @@ Napkin Notes        </h1>
                 </a>
                <a
                     class="nn-mini-author-carousel__item"
-                    href="https://napkinnotes.es/autor/david-barba-gonzalez"
-                    data-carousel-item
-               >
-                    <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/barba_caricatura.png" alt="David Barba González">
-                    <span class="nn-mini-author-carousel__name">David Barba González</span>
-                </a>
-               <a
-                    class="nn-mini-author-carousel__item"
                     href="https://napkinnotes.es/autor/maria-perez-garrote"
                     data-carousel-item
                >
                     <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/maria_caricatura.png" alt="María Pérez Garrote">
                     <span class="nn-mini-author-carousel__name">María Pérez Garrote</span>
+                </a>
+               <a
+                    class="nn-mini-author-carousel__item"
+                    href="https://napkinnotes.es/autor/david-barba-gonzalez"
+                    data-carousel-item
+               >
+                    <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/barba_caricatura.png" alt="David Barba González">
+                    <span class="nn-mini-author-carousel__name">David Barba González</span>
                 </a>
                <a
                     class="nn-mini-author-carousel__item"
@@ -272,6 +272,16 @@ Napkin Notes        </h1>
         </button>
 
         <div class="nn-mini-author-carousel__items">
+                <a
+    class="nn-mini-author-carousel__item"
+    href="https://napkinnotes.es/el-rayo-verde-de-julio-verne"
+    data-carousel-item
+    style="border: 2px solid var(--line);"
+>
+                        <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/maria-betis/el_rayo_verde.jpeg" alt="El rayo verde de Julio&nbsp;Verne">
+
+                    <span class="nn-mini-author-carousel__name">El rayo verde de Julio&nbsp;Verne</span>
+                </a>
                 <a
     class="nn-mini-author-carousel__item"
     href="https://napkinnotes.es/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte"
@@ -332,16 +342,6 @@ Napkin Notes        </h1>
 
                     <span class="nn-mini-author-carousel__name">El valor de no ignorar lo&nbsp;extraño</span>
                 </a>
-                <a
-    class="nn-mini-author-carousel__item"
-    href="https://napkinnotes.es/tormentas-y-rayos-el-poder-de-zeus"
-    data-carousel-item
-    style="border: 2px solid var(--line);"
->
-                        <img class="nn-mini-author-carousel__image" src="https://napkinnotes.es/images/barba-rayos/portada.jpeg" alt="Tormentas y rayos: el poder de&nbsp;Zeus">
-
-                    <span class="nn-mini-author-carousel__name">Tormentas y rayos</span>
-                </a>
         </div>
 
         <button class="nn-mini-author-carousel__control nn-author-carousel__control--next" type="button" aria-label="Artículo siguiente">
@@ -393,19 +393,19 @@ Boton de descarga aqui por facilidad pero luego lo podemos cambiar al html-->
             <span class="nn-kicker">Último</span>
 
             <div class="nn-sidebar-featured">
-                <a class="nn-sidebar-featured__title" href="https://napkinnotes.es/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte">
-                    Cara o cruz: instrucciones para fabricar vuestra propia&nbsp;suerte
+                <a class="nn-sidebar-featured__title" href="https://napkinnotes.es/el-rayo-verde-de-julio-verne">
+                    El rayo verde de Julio&nbsp;Verne
                 </a>
 
                 <div class="nn-sidebar-featured__meta">
-                    <span>22 de octubre de 2026</span>
+                    <span>29 de octubre de 2026</span>
                     <span>•</span>
-                    <span>Estadística</span>
+                    <span>Física</span>
                 </div>
 
-                <p class="nn-sidebar-featured__text">Lanzar una moneda al aire es un proceso totalmente determinista. Sin embargo, las usamos para decidir nuestra suerte. Si leéis este...</p>
+                <p class="nn-sidebar-featured__text">«¿Habéis observado alguna vez el sol cuando se pone en el horizonte del mar? Sí, sin duda alguna. ¿Lo habéis seguido hasta el momento en...</p>
 
-                <a class="nn-button nn-button--ghost nn-sidebar-featured__button nn-home-sidebar__button" href="https://napkinnotes.es/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte">
+                <a class="nn-button nn-button--ghost nn-sidebar-featured__button nn-home-sidebar__button" href="https://napkinnotes.es/el-rayo-verde-de-julio-verne">
                     Leer ahora
                 </a>
             </div>
@@ -414,7 +414,7 @@ Boton de descarga aqui por facilidad pero luego lo podemos cambiar al html-->
         <section class="nn-sidebar-card nn-reveal">
             <span class="nn-kicker">Descubre</span>
             <p>¿Te apetece una pregunta inesperada? Abre un artículo al azar y déjate sorprender.</p>
-            <a id="random-article-link" class="nn-button nn-button--ghost nn-home-sidebar__button" href="https://napkinnotes.es/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte">
+            <a id="random-article-link" class="nn-button nn-button--ghost nn-home-sidebar__button" href="https://napkinnotes.es/el-rayo-verde-de-julio-verne">
                 Sorpréndeme
             </a>
         </section>
@@ -578,7 +578,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!randomLink) return;
 
     const articleUrls = [
-        "https://napkinnotes.es/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte",        "https://napkinnotes.es/hasta-que-la-muerte-los-separe",        "https://napkinnotes.es/mirar-mas-de-cerca-la-vida-secreta-de-una-ventana-de-avion",        "https://napkinnotes.es/nobel-fisica-2026-francis-halzen-icecube",        "https://napkinnotes.es/riemann-y-el-millon-de-dolares-los-secretos-de-los-numeros-primos",        "https://napkinnotes.es/el-valor-de-no-ignorar-lo-extrano",        "https://napkinnotes.es/tormentas-y-rayos-el-poder-de-zeus",        "https://napkinnotes.es/navier-stokes-milenio",        "https://napkinnotes.es/de-que-color-es-el-mundo-cuando-nadie-lo-esta-mirando",        "https://napkinnotes.es/un-vikingo-en-marte",        "https://napkinnotes.es/movimiento-y-visceras",        "https://napkinnotes.es/sobre-la-imposibilidad-de-cuadrar-el-circulo",        "https://napkinnotes.es/el-atardecer",        "https://napkinnotes.es/eclipse-caza",        "https://napkinnotes.es/dunas-y-desiertos-i-i-i",        "https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt",        "https://napkinnotes.es/misterio-mezquita-washington-geometria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-i-crea-tu-propio-fractal-y-descubre-su-dimension",        "https://napkinnotes.es/dunas-y-desiertos-ii",        "https://napkinnotes.es/matematicas_desafinan",        "https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial",        "https://napkinnotes.es/mundial-2026-fisica-balon-aire",        "https://napkinnotes.es/dunas-y-desiertos-i",        "https://napkinnotes.es/el-poder-de-la-catenaria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales",        "https://napkinnotes.es/el-misterio-del-tiempo-acelerado-por-que-la-vida-vuela-a-medida-que-envejecemos",        "https://napkinnotes.es/tu-arcoiris-es-solo-tuyo",        "https://napkinnotes.es/el-pintor-y-la-trompeta",        "https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas"    ];
+        "https://napkinnotes.es/el-rayo-verde-de-julio-verne",        "https://napkinnotes.es/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte",        "https://napkinnotes.es/hasta-que-la-muerte-los-separe",        "https://napkinnotes.es/mirar-mas-de-cerca-la-vida-secreta-de-una-ventana-de-avion",        "https://napkinnotes.es/nobel-fisica-2026-francis-halzen-icecube",        "https://napkinnotes.es/riemann-y-el-millon-de-dolares-los-secretos-de-los-numeros-primos",        "https://napkinnotes.es/el-valor-de-no-ignorar-lo-extrano",        "https://napkinnotes.es/tormentas-y-rayos-el-poder-de-zeus",        "https://napkinnotes.es/navier-stokes-milenio",        "https://napkinnotes.es/de-que-color-es-el-mundo-cuando-nadie-lo-esta-mirando",        "https://napkinnotes.es/un-vikingo-en-marte",        "https://napkinnotes.es/movimiento-y-visceras",        "https://napkinnotes.es/sobre-la-imposibilidad-de-cuadrar-el-circulo",        "https://napkinnotes.es/el-atardecer",        "https://napkinnotes.es/eclipse-caza",        "https://napkinnotes.es/dunas-y-desiertos-i-i-i",        "https://napkinnotes.es/ia-acelero-ciencia-arxiv-chatgpt",        "https://napkinnotes.es/misterio-mezquita-washington-geometria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-i-crea-tu-propio-fractal-y-descubre-su-dimension",        "https://napkinnotes.es/dunas-y-desiertos-ii",        "https://napkinnotes.es/matematicas_desafinan",        "https://napkinnotes.es/la-moneda-que-no-queria-decidir-el-mundial",        "https://napkinnotes.es/mundial-2026-fisica-balon-aire",        "https://napkinnotes.es/dunas-y-desiertos-i",        "https://napkinnotes.es/el-poder-de-la-catenaria",        "https://napkinnotes.es/la-rebelion-de-los-fractales-i-y-si-las-dimensiones-tuvieran-decimales",        "https://napkinnotes.es/el-misterio-del-tiempo-acelerado-por-que-la-vida-vuela-a-medida-que-envejecemos",        "https://napkinnotes.es/tu-arcoiris-es-solo-tuyo",        "https://napkinnotes.es/el-pintor-y-la-trompeta",        "https://napkinnotes.es/por-que-las-palomitas-revientan-en-el-microondas"    ];
 
     if (!articleUrls.length) return;
 

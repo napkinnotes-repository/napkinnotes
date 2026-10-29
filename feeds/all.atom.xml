@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-10-22T00:00:00+02:00</updated><entry><title>Cara o cruz: instrucciones para fabricar vuestra propia suerte</title><link href="https://napkinnotes.es/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte" rel="alternate"/><published>2026-10-22T00:00:00+02:00</published><updated>2026-10-22T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-10-22:/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte</id><summary type="html">&lt;p&gt;Lanzar una moneda al aire es un proceso totalmente determinista. Sin embargo, las usamos para decidir nuestra suerte. Si leéis este artículo, os iniciaréis en los secretos de los prestidigitadores que fabrican su propia&amp;nbsp;suerte.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-10-29T00:00:00+01:00</updated><entry><title>El rayo verde de Julio Verne</title><link href="https://napkinnotes.es/el-rayo-verde-de-julio-verne" rel="alternate"/><published>2026-10-29T00:00:00+01:00</published><updated>2026-10-29T00:00:00+01:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-10-29:/el-rayo-verde-de-julio-verne</id><summary type="html">&lt;p&gt;«¿Habéis observado alguna vez el sol cuando se pone en el horizonte del mar? Sí, sin duda alguna. ¿Lo habéis seguido hasta el momento en que la parte superior del disco desaparece rozando la línea de agua del horizonte? Es muy posible. Pero ¿os habéis dado cuenta del fenómeno que se produce en el preciso instante en que el astro radiante lanza su último rayo, si el cielo, limpio de nubes, es entonces de una perfecta pureza? ¡No, seguramente no! Pues bien, la primera vez que tengáis ocasión -¡se presenta tan raramente!- de hacer esta observación, no será, como podría presumirse, un rayo rojo lo que herirá la retina de vuestros ojos, sino que será un rayo verde, pero un verde maravilloso, un verde que ningún pintor puede obtener en su paleta. Un verde cuya naturaleza no se encuentra ni en los variados verdes de los vegetales, ni en las tonalidades de las aguas más límpidas. Si existe el verde en el paraíso, no puede ser más que este verde, que es, sin duda, el verdadero verde de la Esperanza.» Hoy, en Napkin Notes, hablamos del fenómeno físico del rayo verde de Julio&amp;nbsp;Verne.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#el-rayo-verde"&gt;El rayo&amp;nbsp;verde&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#del-mito-a-la-fisica"&gt;Del mito a la&amp;nbsp;física&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias-y-creditos-de-imagenes"&gt;Referencias y créditos de&amp;nbsp;imágenes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="el-rayo-verde"&gt;El rayo verde&lt;a class="headerlink" href="#el-rayo-verde" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;«El rayo verde» es considerada la novela más romántica del escritor francés Julio Verne y a la vez una de las más desconocidas. Se publicó en 1881 por entregas y es una novela de aventuras y viajes apasionante, con mucho humor, amor y desamor, sostenida en una antigua leyenda escocesa. Su protagonista, Helen Campbell, no es sólo una mujer con ideas propias, sino que lleva la voz cantante en la historia. Ésta está a punto de cumplir los 18 años y sus tíos, dos hermanos viejos y solterones que viven en una finca en la Escocia profunda, le proponen casarse con el pedante científico Aristóbulo Ursiclos. Ella, sin embargo, no quiere casarse hasta que no haya visto el rayo verde y tenga la certeza de que sus sentimientos son&amp;nbsp;reales:&lt;/p&gt;
+&lt;p&gt;«Pero lo que la señorita Campbell no dijo, era que precisamente este rayo verde se refería a una vieja leyenda, cuyo íntimo sentido le había escapado hasta entonces, una leyenda inexplicable entre tantas otras, originarias del país de los &lt;em&gt;Highlands&lt;/em&gt;, y que cuenta lo siguiente: Este rayo tiene la virtud de hacer que aquel que lo ha visto no pueda jamás equivocarse en las cosas del corazón; su aparición destruye las ilusiones y las mentiras; y el que ha tenido la dicha de verlo sólo una vez, ya puede ver claro en su corazón, y en el de los&amp;nbsp;demás.»&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;
+  &lt;img src="images/maria-betis/grabados.jpeg"
+       alt="Grabados de Léon Benett de la novela El rayo verde de Julio Verne"
+       style="display: inline-block; max-width: 100%; height: auto;"&gt;
+&lt;/p&gt;
+&lt;p style="text-align: center; color: var(--muted); font-size: 0.92rem;"&gt;
+  Ilustración de Léon Benett para &lt;em&gt;El rayo verde&lt;/em&gt; de Julio Verne (1882).
+  Obra original en dominio público.
+  Fuente: &lt;a href="https://www.tiempo.com/noticias/ciencia/el-legendario-rayo-verde.html"&gt;Meteored&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;Lo más interesante desde un punto de vista científico es que el rayo verde es un fenómeno real producido por la refracción de la luz en la atmósfera. Veamos cómo se&amp;nbsp;produce.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="del-mito-a-la-fisica"&gt;Del mito a la física&lt;a class="headerlink" href="#del-mito-a-la-fisica" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El rayo verde es un fenómeno óptico atmosférico que puede observarse, en condiciones favorables, justo cuando el Sol desaparece por el horizonte al atardecer o aparece al amanecer. Durante un instante, el borde superior del Sol puede adquirir un color verde intenso, como si se encendiera una pequeña luz esmeralda. Veamos la física que se esconde detrás de este&amp;nbsp;destello.&lt;/p&gt;
+&lt;p&gt;La luz del Sol viaja prácticamente en línea recta por el vacío, pero cuando entra en la atmósfera terrestre atraviesa capas de aire con distintas densidades. Como el índice de refracción del aire depende de su densidad, y la densidad suele variar con la altura, la luz cambia progresivamente de dirección al atravesar la atmósfera. Este fenómeno se llama &lt;em&gt;refracción atmosférica&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Cuando el Sol está cerca del horizonte, sus rayos atraviesan una cantidad mucho mayor de atmósfera que cuando se encuentran sobre nuestras cabezas. Por ello, la refracción es especialmente importante al amanecer y al atardecer. La luz se curva al atravesar las diferentes capas de aire, de modo que vemos el Sol en una posición ligeramente más elevada que la que ocuparía si no existiera la atmósfera. Pero, ¿por qué vemos un destello&amp;nbsp;verde?&lt;/p&gt;
+&lt;!-- AQUÍ INSERTAR FIGURAS REFRACCIÓN--&gt;
+&lt;p style="text-align: center;"&gt;
+  &lt;img src="/images/maria-betis/Atmospheric_refraction.jpeg"
+       alt="Esquema de la refracción atmosférica"
+       style="display: block; width: auto; max-width: 100%; height: auto; margin: 0 auto;"&gt;
+&lt;/p&gt;
+&lt;p style="text-align: center; color: var(--muted); font-size: 0.92rem;"&gt;
+  Esquema de la refracción atmosférica y del desplazamiento aparente del Sol.
+  Autor: Sciencia58.
+  Fuente: &lt;a href="https://commons.wikimedia.org/wiki/File:Atmospheric_refraction_-_sunset_and_sunrise.png"&gt;Wikimedia Commons&lt;/a&gt;.
+  Licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;span class="caps"&gt;CC&lt;/span&gt; &lt;span class="caps"&gt;BY&lt;/span&gt;-&lt;span class="caps"&gt;SA&lt;/span&gt; 4.0&lt;/a&gt;.
+  Imagen convertida a formato &lt;span class="caps"&gt;JPEG&lt;/span&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;Esto se debe a que el índice de refracción del aire depende ligeramente de la longitud de onda. En condiciones atmosféricas habituales, las longitudes de onda más cortas se refractan más que las largas. Esto significa que la luz azul se desvía más que la verde y esta, a su vez, más que la roja. Este fenómeno se denomina &lt;em&gt;dispersión cromática&lt;/em&gt; y es el mismo principio físico que permite a un prisma separar la luz blanca en los colores del espectro&amp;nbsp;visible.&lt;/p&gt;
+&lt;p&gt;Así, la combinación de esos dos fenómenos ópticos es la que crea el rayo verde. Cuando el Sol se aproxima al horizonte la atmósfera refracta la luz solar y separa ligeramente los rayos correspondientes a las distintas longitudes de onda. Al ocultarse el Sol en el horizonte, dejamos de recibir luz de las partes de su imagen que ya no son visibles; pero no todos los colores desaparecen exactamente al mismo tiempo debido a su diferente índice de refracción. En el instante final, puede quedar visible una estrecha franja de luz predominantemente verde en el borde superior del Sol. Si las condiciones atmosféricas son adecuadas, esa franja produce el famoso&amp;nbsp;destello:&lt;/p&gt;
+&lt;p&gt;«No tardó en desaparecer la mitad del disco del Sol detrás de la línea del horizonte. Algunos rayos luminosos lanzados como flechas de oro, brillaron un momento sobre las rocas de Staffa. Detrás de ellos, los acantilados de la isla de Mull y el monte de Ben More se tiñeron de púrpura. Por fin sólo quedó un ligero segmento del arco superior flotando en el horizonte.
+-¡El rayo verde! ¡El rayo verde! -exclamaron al unísono los hermanos Melvill, la señora Bess y Partridge, cuyos ojos se habían impregnado por un cuarto de segundo con aquella incomparable tonalidad del último rayo de&amp;nbsp;Sol.»&lt;/p&gt;
+&lt;!-- AQUÍ INSERTAR FIGURA NASA--&gt;
+&lt;p&gt;&lt;img alt="El rayo verde observado en el observatorio del Teide, en Tenerife." src="images/maria-betis/greenflash_manzona_big.jpeg" /&gt;&lt;/p&gt;
+&lt;p style="text-align: center; color: var(--muted); font-size: 0.92rem;"&gt;
+  El rayo verde observado desde Tenerife.
+  Fotografía: © Juan José Manzano.
+  Publicada en &lt;a href="https://science.nasa.gov/image-article/apod-2011-january-4-a-green-flash-from-the-sun/"&gt;Astronomy Picture of the Day (&lt;span class="caps"&gt;NASA&lt;/span&gt;), 4 de enero de 2011&lt;/a&gt;.
+  Imagen protegida por derechos de&amp;nbsp;autor.
+&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;!-- Fin de Seccion--&gt;
+
+&lt;h2 id="referencias-y-creditos-de-imagenes"&gt;Referencias y créditos de imágenes&lt;a class="headerlink" href="#referencias-y-creditos-de-imagenes" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Imagen de portada.&lt;/strong&gt; Fotografía del destello verde observado en Santa Cruz (California, 2006). Autora: Brocken Inaglory (Mila Zinkova). Fuente: &lt;a href="https://commons.wikimedia.org/wiki/File:Inferior_Mirage_green_flash.jpg"&gt;Wikimedia Commons&lt;/a&gt;. Licencia &lt;a href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;Creative Commons &lt;span class="caps"&gt;CC&lt;/span&gt; &lt;span class="caps"&gt;BY&lt;/span&gt;-&lt;span class="caps"&gt;SA&lt;/span&gt; 3.0&lt;/a&gt;.&lt;/p&gt;</content><category term="Física"/><category term="física"/><category term="óptica"/></entry><entry><title>Cara o cruz: instrucciones para fabricar vuestra propia suerte</title><link href="https://napkinnotes.es/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte" rel="alternate"/><published>2026-10-22T00:00:00+02:00</published><updated>2026-10-22T00:00:00+02:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-10-22:/cara-o-cruz-instrucciones-para-fabricar-vuestra-propia-suerte</id><summary type="html">&lt;p&gt;Lanzar una moneda al aire es un proceso totalmente determinista. Sin embargo, las usamos para decidir nuestra suerte. Si leéis este artículo, os iniciaréis en los secretos de los prestidigitadores que fabrican su propia&amp;nbsp;suerte.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#distribucion-binomial-de-probabilidad"&gt;Distribución binomial de&amp;nbsp;probabilidad&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#determinismo"&gt;Determinismo&lt;/a&gt;&lt;/li&gt;
