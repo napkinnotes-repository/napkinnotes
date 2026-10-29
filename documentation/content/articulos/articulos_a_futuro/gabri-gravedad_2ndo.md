@@ -1,5 +1,5 @@
 ---
-title: "¿Es posible robarle energía a un planeta? ¿Y a un agujero negro?"
+title: "¿Es posible robarle energía a un agujero negro?"
 author: Gabriel Sánchez Pérez
 date: 2026-11-12
 layout: articles
@@ -12,7 +12,7 @@ tags:
   - agujeros negros
   - asistencia gravitacional
   - mecánica orbital
-summary: "¿Podemos utilizar la gravedad para obtener energía sin gastar combustible? Las sondas espaciales llevan décadas haciéndolo gracias a los planetas. Más sorprendente todavía: la relatividad general permite extraer energía de un agujero negro en rotación."
+summary: "¿Podemos utilizar la gravedad para obtener energía sin gastar combustible? Ya sabemos que las sondas espaciales llevan décadas haciéndolo gracias a los planetas, pero hay algo más sorprendente todavía: la relatividad general permite extraer energía de un agujero negro en rotación."
 image: images/gabri-gravedad/Kerr3.jpeg
 certificate: false
 ---
@@ -516,8 +516,6 @@ Así que ya sabéis la respuesta a las preguntas con las que comenzábamos. ¿Po
 
 ## Referencias
 
-- NASA, *Basics of Space Flight*, capítulo 4, «Trajectories»: [https://science.nasa.gov/learn/basics-of-space-flight/chapter4-1/](https://science.nasa.gov/learn/basics-of-space-flight/chapter4-1/)
-- Agencia Espacial Europea, «What are gravity assists?»: [https://www.esa.int/Enabling_Support/Operations/What_are_gravity_assists](https://www.esa.int/Enabling_Support/Operations/What_are_gravity_assists)
 - Schnittman, J. D. (2018), *The Collisional Penrose Process*, *General Relativity and Gravitation*, 50: [https://pmc.ncbi.nlm.nih.gov/articles/PMC6894168/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6894168/)
 - Stuchlík, Z., Kološ, M. y Tursunov, A. (2021), «Penrose Process: Its Variants and Astrophysical Applications», *Universe* 7(11), 416: [https://www.mdpi.com/2218-1997/7/11/416](https://www.mdpi.com/2218-1997/7/11/416)
 - Christodoulou, D. (1970), «Reversible and Irreversible Transformations in Black-Hole Physics», *Physical Review Letters* 25.
