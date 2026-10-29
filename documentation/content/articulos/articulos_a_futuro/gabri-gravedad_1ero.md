@@ -1,5 +1,5 @@
 ---
-title: "¿Es posible robarle energía a un planeta? ¿Y a un agujero negro?"
+title: "¿Es posible robarle energía a un planeta?"
 author: Gabriel Sánchez Pérez
 date: 2026-11-05
 layout: articles
@@ -12,8 +12,8 @@ tags:
   - agujeros negros
   - asistencia gravitacional
   - mecánica orbital
-summary: "¿Podemos utilizar la gravedad para obtener energía sin gastar combustible? Las sondas espaciales llevan décadas haciéndolo gracias a los planetas. Más sorprendente todavía: la relatividad general permite extraer energía de un agujero negro en rotación."
-image: images/gabri-gravedad/Kerr3.jpeg
+summary: "¿Podemos utilizar la gravedad para obtener energía sin gastar combustible? Las sondas espaciales llevan décadas haciéndolo gracias a los planetas.."
+image: images/gabri-gravedad/asistencia1.jpeg
 certificate: false
 ---
 [TOC]
@@ -256,17 +256,9 @@ Sorprendentemente, la respuesta vuelve a ser afirmativa.
 
 ## Conclusiones
 
-Hemos comenzado nuestro viaje con una nave espacial que se acerca a Júpiter y hemos terminado explorando una de las regiones más extremas del universo: la ergosfera de un agujero negro en rotación. A primera vista, la asistencia gravitacional y el proceso de Penrose parecen fenómenos completamente distintos. El primero puede explicarse mediante la mecánica newtoniana, mientras que el segundo requiere recurrir a la geometría del espacio-tiempo descrita por la relatividad general.
+Así que ya sabéis la respuesta a la pregunta con la que comenzábamos. ¿Podemos robarle energía a un planeta? Sí, y llevamos décadas haciéndolo mediante la asistencia gravitacional.
 
-Sin embargo, existe una conexión conceptual entre ambos. En una asistencia gravitacional, una nave puede ganar energía a costa de modificar ligeramente el movimiento orbital de un planeta. El intercambio depende de la geometría del encuentro y del sistema de referencia desde el que describimos el movimiento.
-
-En el proceso de Penrose, una partícula puede escapar de la ergosfera con más energía de la que tenía inicialmente, siempre que otra partícula con energía conservada negativa sea absorbida por el agujero negro. La energía adicional procede de la rotación del propio agujero negro. En ambos casos, la conservación de la energía permanece intacta.
-
-Y es que, aunque pueda parecer sorprendente, **extraer energía de un sistema gravitatorio no significa crear energía, sino encontrar una manera de transferirla**. Esta es precisamente una de las ideas más hermosas de la física: mecanismos que, a primera vista, parecen imposibles terminan siendo consecuencias perfectamente legítimas de sus leyes fundamentales.
-
-Así que ya sabéis la respuesta a las preguntas con las que comenzábamos. ¿Podemos robarle energía a un planeta? Sí, y llevamos décadas haciéndolo.
-
-¿Podemos robársela a un agujero negro? También, al menos en principio, y la relatividad general nos explica exactamente cómo. La gravedad no nos regala energía. Pero, si sabemos aprovecharla, puede ayudarnos a conseguirla de los lugares más insospechados del universo.
+Pero ¿podemos ir todavía más lejos? ¿Podríamos robarle energía incluso a un agujero negro? En la segunda parte veremos que la relatividad general tiene algo sorprendente que decirnos al respecto.
 
 ---
 
@@ -274,6 +266,3 @@ Así que ya sabéis la respuesta a las preguntas con las que comenzábamos. ¿Po
 
 - NASA, *Basics of Space Flight*, capítulo 4, «Trajectories»: [https://science.nasa.gov/learn/basics-of-space-flight/chapter4-1/](https://science.nasa.gov/learn/basics-of-space-flight/chapter4-1/)
 - Agencia Espacial Europea, «What are gravity assists?»: [https://www.esa.int/Enabling_Support/Operations/What_are_gravity_assists](https://www.esa.int/Enabling_Support/Operations/What_are_gravity_assists)
-- Schnittman, J. D. (2018), *The Collisional Penrose Process*, *General Relativity and Gravitation*, 50: [https://pmc.ncbi.nlm.nih.gov/articles/PMC6894168/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6894168/)
-- Stuchlík, Z., Kološ, M. y Tursunov, A. (2021), «Penrose Process: Its Variants and Astrophysical Applications», *Universe* 7(11), 416: [https://www.mdpi.com/2218-1997/7/11/416](https://www.mdpi.com/2218-1997/7/11/416)
-- Christodoulou, D. (1970), «Reversible and Irreversible Transformations in Black-Hole Physics», *Physical Review Letters* 25.
