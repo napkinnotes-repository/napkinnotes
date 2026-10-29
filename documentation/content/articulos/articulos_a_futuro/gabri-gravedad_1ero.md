@@ -32,7 +32,7 @@ Pero aquí surge una pregunta interesante. Si nuestra nave aumenta su energía c
 
 Lo verdaderamente sorprendente es que podemos llevar esta idea mucho más lejos. En 1969, el físico y matemático Roger Penrose propuso un mecanismo mediante el cual sería posible extraer energía de un agujero negro en rotación. En determinadas circunstancias, una partícula podría acercarse a un agujero negro y escapar con más energía de la que tenía inicialmente.
 
-¿Cómo es posible? ¿De dónde sale esa energía adicional? ¿Podemos utilizar un agujero negro como si fuera una gigantesca batería cósmica? En la napkin de hoy estudiaremos el mecanismo que nos da una porderosa idea: **la gravedad puede permitirnos transferir energía desde un cuerpo masivo hacia otro mucho más pequeño**.
+¿Cómo es posible? ¿De dónde sale esa energía adicional? ¿Podemos utilizar un agujero negro como si fuera una gigantesca batería cósmica? En la napkin de hoy estudiaremos el mecanismo que nos da una poderosa idea: **la gravedad puede permitirnos transferir energía desde un cuerpo masivo hacia otro mucho más pequeño**.
 
 Comencemos por el caso más familiar.
 
