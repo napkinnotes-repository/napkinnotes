@@ -34,8 +34,6 @@ Lo verdaderamente sorprendente es que podemos llevar esta idea mucho más lejos.
 
 ¿Cómo es posible? ¿De dónde sale esa energía adicional? ¿Podemos utilizar un agujero negro como si fuera una gigantesca batería cósmica? En la napkin de hoy estudiaremos el mecanismo que nos da una poderosa idea: **la gravedad puede permitirnos transferir energía desde un cuerpo masivo hacia otro mucho más pequeño**.
 
-Comencemos por el caso más familiar.
-
 ---
 
 ## Asistencia gravitacional
