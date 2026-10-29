@@ -35,7 +35,7 @@ $$
 \boxed{R_{\mu\nu}-\frac12 Rg_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu},}
 $$
 
-relacionan precisamente la geometría del espacio-tiempo, descrita por el tensor de Ricci \(R_{\mu\nu}\), el escalar de curvatura \(R\) y el tensor métrico \(g_{\mu\nu}\), con el contenido de materia y energía, representado por \(T_{\mu\nu}\).
+relacionan precisamente la geometría del espacio-tiempo, descrita por el tensor de Ricci $R_{\mu\nu}$, el escalar de curvatura $R$ y el tensor métrico $g_{\mu\nu}$, con el contenido de materia y energía, representado por $T_{\mu\nu}$.
 
 Estas ecuaciones admiten distintas soluciones que describen diferentes configuraciones gravitatorias. Una de las más conocidas es la solución de Schwarzschild, que describe el espacio-tiempo exterior de un cuerpo esféricamente simétrico y sin rotación. Si dicho cuerpo es un agujero negro, su horizonte de sucesos se encuentra en el llamado radio de Schwarzschild,
 
@@ -43,7 +43,7 @@ $$
 \boxed{r_s=\frac{2GM}{c^2},}
 $$
 
-donde \(M\) es la masa del agujero negro.
+donde $M$ es la masa del agujero negro.
 
 Pero ¿qué ocurre si el agujero negro está girando? En ese caso, necesitamos una solución más general: la **métrica de Kerr**, descubierta por el matemático Roy Kerr en 1963.
 
@@ -53,7 +53,7 @@ Y aquí es donde comienza nuestra historia.
 
 Una de las consecuencias más sorprendentes de la relatividad general es que un cuerpo en rotación puede arrastrar consigo el espacio-tiempo que lo rodea. Este fenómeno se conoce como *arrastre de referencia* o *frame dragging*. Imaginemos que estamos cerca de un agujero negro que gira sobre sí mismo. A diferencia de lo que ocurre con un agujero negro estático, el espacio-tiempo circundante también se ve afectado por su rotación.
 
-Para describir matemáticamente este fenómeno, consideremos la métrica de Kerr en coordenadas de Boyer-Lindquist. A partir de ahora utilizaremos unidades geométricas, en las que \(G=c=1\), algo habitual en relatividad general.
+Para describir matemáticamente este fenómeno, consideremos la métrica de Kerr en coordenadas de Boyer-Lindquist. A partir de ahora utilizaremos unidades geométricas, en las que $G=c=1$, algo habitual en relatividad general.
 
 El elemento de línea viene dado por
 
@@ -90,9 +90,9 @@ $$
 -\frac{4Mar\sin^2\theta}{\Sigma}\,dt\,d\phi.
 $$
 
-Este término mezcla la coordenada temporal \(t\) con la coordenada angular \(\phi\). Su presencia es fundamental: **la rotación del agujero negro introduce un acoplamiento entre el tiempo y el movimiento angular**. En particular, si \(a=0\), este término desaparece y recuperamos la solución de Schwarzschild.
+Este término mezcla la coordenada temporal $t$ con la coordenada angular $\phi$. Su presencia es fundamental: **la rotación del agujero negro introduce un acoplamiento entre el tiempo y el movimiento angular**. En particular, si $a=0$, este término desaparece y recuperamos la solución de Schwarzschild.
 
-Pero cuando \(a\neq0\), el espacio-tiempo posee una propiedad extraordinaria: suficientemente cerca del agujero negro, resulta imposible permanecer inmóvil respecto a un observador situado muy lejos de él. Incluso aunque encendiéramos unos motores extremadamente potentes para intentar mantenernos en una posición angular fija, no podríamos conseguirlo en cierta región del espacio-tiempo.
+Pero cuando $a\neq0$, el espacio-tiempo posee una propiedad extraordinaria: suficientemente cerca del agujero negro, resulta imposible permanecer inmóvil respecto a un observador situado muy lejos de él. Incluso aunque encendiéramos unos motores extremadamente potentes para intentar mantenernos en una posición angular fija, no podríamos conseguirlo en cierta región del espacio-tiempo.
 
 Esa región recibe el nombre de **ergosfera**.
 
@@ -150,7 +150,7 @@ $$
 
 es la ergosfera.
 
-Observemos que su tamaño depende de la latitud \(\theta\). En los polos, donde \(\cos^2\theta=1\), el límite estático coincide con el horizonte. En cambio, en el plano ecuatorial, donde \(\theta=\pi/2\), encontramos que
+Observemos que su tamaño depende de la latitud $\theta$. En los polos, donde $\cos^2\theta=1$, el límite estático coincide con el horizonte. En cambio, en el plano ecuatorial, donde $\theta=\pi/2$, encontramos que
 
 $$
 r_{\mathrm{erg}}\left(\frac\pi2\right)=2M.
@@ -173,7 +173,7 @@ Y es precisamente esta peculiar geometría la que hace posible el proceso de Pen
 
 Llegamos al punto más interesante del artículo.
 
-En nuestra experiencia cotidiana, la energía de una partícula libre siempre es positiva. Una partícula con masa \(m\) y velocidad \(v\), por ejemplo, posee una energía relativista
+En nuestra experiencia cotidiana, la energía de una partícula libre siempre es positiva. Una partícula con masa $m$ y velocidad $v$, por ejemplo, posee una energía relativista
 
 $$
 E=\gamma mc^2,
@@ -189,7 +189,7 @@ Esta cantidad es necesariamente positiva. ¿Cómo es posible, entonces, que exis
 
 La respuesta es que debemos distinguir entre la energía medida localmente por un observador y la energía conservada asociada a la simetría temporal del espacio-tiempo.
 
-En relatividad general, si la geometría es estacionaria, existe un campo vectorial de Killing temporal \(\xi^\mu\), que permite definir una energía conservada para una partícula de cuadrimomento \(p^\mu\):
+En relatividad general, si la geometría es estacionaria, existe un campo vectorial de Killing temporal $\xi^\mu$, que permite definir una energía conservada para una partícula de cuadrimomento $p^\mu$:
 
 $$
 \boxed{E=-p_\mu\xi^\mu.}
@@ -203,7 +203,7 @@ $$
 \nabla_\mu\xi_\nu+\nabla_\nu\xi_\mu=0.
 $$
 
-En efecto, si \(p^\mu\) es el cuadrimomento de una partícula libre, entonces
+En efecto, si $p^\mu$ es el cuadrimomento de una partícula libre, entonces
 
 $$
 p^\nu\nabla_\nu p^\mu=0.
@@ -220,7 +220,7 @@ p^\nu\nabla_\nu E
 \end{aligned}
 $$
 
-donde en la última igualdad hemos utilizado la simetría de \(p^\nu p^\mu\) y la antisimetría que impone la ecuación de Killing.
+donde en la última igualdad hemos utilizado la simetría de $p^\nu p^\mu$ y la antisimetría que impone la ecuación de Killing.
 
 Así pues,
 
@@ -230,7 +230,7 @@ $$
 
 a lo largo de la trayectoria de una partícula libre.
 
-Ahora bien, existe un detalle crucial. Fuera de la ergosfera, el vector de Killing \(\xi^\mu\) es de tipo temporal. Esto garantiza que la energía conservada de una partícula física dirigida hacia el futuro sea positiva. Sin embargo, dentro de la ergosfera ocurre algo extraordinario: el vector \(\xi^\mu\) se vuelve de tipo espacial.
+Ahora bien, existe un detalle crucial. Fuera de la ergosfera, el vector de Killing $\xi^\mu$ es de tipo temporal. Esto garantiza que la energía conservada de una partícula física dirigida hacia el futuro sea positiva. Sin embargo, dentro de la ergosfera ocurre algo extraordinario: el vector $\xi^\mu$ se vuelve de tipo espacial.
 
 Por consiguiente, el producto
 
@@ -246,9 +246,9 @@ Y esta distinción es exactamente lo que necesitamos para extraer energía del a
 
 ### El ingenioso experimento de Roger Penrose
 
-Imaginemos que enviamos una partícula hacia un agujero negro de Kerr. La partícula posee una energía inicial \(E_0>0\), medida respecto al infinito.
+Imaginemos que enviamos una partícula hacia un agujero negro de Kerr. La partícula posee una energía inicial $E_0>0$, medida respecto al infinito.
 
-Supongamos que, al penetrar en la ergosfera, la partícula se desintegra en dos fragmentos, que llamaremos \(A\) y \(B\).
+Supongamos que, al penetrar en la ergosfera, la partícula se desintegra en dos fragmentos, que llamaremos $A$ y $B$.
 
 La conservación del cuadrimomento exige que
 
@@ -264,7 +264,7 @@ $$
 
 Hasta aquí no parece haber nada especial. Pero recordemos que estamos dentro de la ergosfera, donde pueden existir trayectorias de energía negativa.
 
-Penrose propuso que uno de los fragmentos, por ejemplo \(B\), podría adquirir una energía
+Penrose propuso que uno de los fragmentos, por ejemplo $B$, podría adquirir una energía
 
 $$
 E_B<0
@@ -285,13 +285,13 @@ $$
 E_A=E_0-E_B.
 $$
 
-Y, puesto que \(E_B<0\), necesariamente se cumple
+Y, puesto que $E_B<0$, necesariamente se cumple
 
 $$
 \boxed{E_A>E_0.}
 $$
 
-¡Acabamos de conseguir que una partícula escape con más energía de la que tenía inicialmente! El fragmento \(A\) puede regresar al infinito transportando una cantidad de energía superior a la que introdujimos originalmente.
+¡Acabamos de conseguir que una partícula escape con más energía de la que tenía inicialmente! El fragmento $A$ puede regresar al infinito transportando una cantidad de energía superior a la que introdujimos originalmente.
 
 Por supuesto, el proceso no crea energía de la nada. La energía adicional procede de la rotación del agujero negro, que pierde masa y momento angular al absorber el fragmento de energía negativa. Este es el **proceso de Penrose**.
 
@@ -315,7 +315,7 @@ $$
 \boxed{\eta=-\frac{E_B}{E_0}.}
 $$
 
-Como \(E_B<0\), la eficiencia es positiva.
+Como $E_B<0$, la eficiencia es positiva.
 
 En el proceso original de Penrose, considerando la desintegración de una partícula en dos fragmentos y un agujero negro de Kerr en rotación extrema, la eficiencia máxima es
 
@@ -337,13 +337,13 @@ $$
 E_A\approx120.7\ \mathrm J.
 $$
 
-Los \(20.7\ \mathrm J\) adicionales procederían de la energía de rotación del agujero negro.
+Los $20.7\ \mathrm J$ adicionales procederían de la energía de rotación del agujero negro.
 
 Este límite corresponde al proceso original bajo condiciones ideales. Existen otras variantes, como el proceso de Penrose colisional o el magnético, que pueden presentar eficiencias diferentes. Además, conseguir una desintegración con las velocidades relativas necesarias resulta extremadamente difícil desde el punto de vista físico.
 
 ### ¿De verdad pierde energía el agujero negro?
 
-Podemos demostrarlo utilizando las leyes de conservación. Además de la energía, un agujero negro de Kerr posee momento angular \(J\).
+Podemos demostrarlo utilizando las leyes de conservación. Además de la energía, un agujero negro de Kerr posee momento angular $J$.
 
 Como consecuencia de la simetría axial del espacio-tiempo, existe otro vector de Killing,
 
@@ -387,7 +387,7 @@ $$
 E_B-\Omega_H L_B\geq0,
 $$
 
-donde \(\Omega_H\) es la velocidad angular del horizonte.
+donde $\Omega_H$ es la velocidad angular del horizonte.
 
 En unidades geométricas,
 
@@ -395,7 +395,7 @@ $$
 \Omega_H=\frac{a}{r_+^2+a^2}.
 $$
 
-Esta desigualdad garantiza que el proceso es compatible con las propiedades físicas del horizonte de sucesos y, en particular, con el teorema de aumento de su área. Puesto que \(E_B<0\), también debe cumplirse \(L_B<0\) (tomando positivo el sentido de rotación del agujero negro).
+Esta desigualdad garantiza que el proceso es compatible con las propiedades físicas del horizonte de sucesos y, en particular, con el teorema de aumento de su área. Puesto que $E_B<0$, también debe cumplirse $L_B<0$ (tomando positivo el sentido de rotación del agujero negro).
 
 Por tanto, **la extracción de energía está necesariamente acompañada de una disminución del momento angular del agujero negro**. En cierto sentido, estamos frenando su rotación.
 
@@ -405,7 +405,7 @@ Y esto nos lleva a una última pregunta.
 
 Un agujero negro de Kerr posee una cantidad de energía asociada a su momento angular. Para estudiar cuánta energía podemos extraer, es útil introducir el concepto de *masa irreducible*, $M_{\mathrm{irr}}$.
 
-Esta cantidad está relacionada con el área \(A\) del horizonte de sucesos mediante
+Esta cantidad está relacionada con el área $A$ del horizonte de sucesos mediante
 
 $$
 \boxed{A=\frac{16\pi G^2}{c^4}M_{\mathrm{irr}}^2.}
@@ -431,7 +431,7 @@ $$
 0\leq|\chi|\leq1.
 $$
 
-En el caso de un agujero negro sin rotación, \(\chi=0\), obtenemos
+En el caso de un agujero negro sin rotación, $\chi=0$, obtenemos
 
 $$
 M_{\mathrm{irr}}=M.
@@ -439,7 +439,7 @@ $$
 
 Por tanto, no existe energía de rotación disponible para ser extraída.
 
-En cambio, para un agujero negro en rotación extrema, \(|\chi|=1\), resulta que
+En cambio, para un agujero negro en rotación extrema, $|\chi|=1$, resulta que
 
 $$
 M_{\mathrm{irr}}=\frac M{\sqrt2}.
