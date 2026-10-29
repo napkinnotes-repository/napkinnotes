@@ -48,9 +48,9 @@ $$
 E=\frac12 mv^2-\frac{GMm}{r}=\text{constante},
 $$
 
-donde \(m\) es la masa de la nave, \(M\) la masa de Júpiter, \(r\) la distancia entre ambos cuerpos, \(v\) la velocidad de la nave y \(G\) la constante de gravitación universal.
+donde $m$ es la masa de la nave, $M$ la masa de Júpiter, $r$ la distancia entre ambos cuerpos, $v$ la velocidad de la nave y $G$ la constante de gravitación universal.
 
-Cuando la nave está suficientemente lejos del planeta, el término gravitatorio tiende a cero. Por tanto, si inicialmente se aproxima con rapidez \(v_i\) y finalmente se aleja con rapidez \(v_f\), necesariamente tendremos
+Cuando la nave está suficientemente lejos del planeta, el término gravitatorio tiende a cero. Por tanto, si inicialmente se aproxima con rapidez $v_i$ y finalmente se aleja con rapidez $v_f$, necesariamente tendremos
 
 $$
 \frac12 mv_i^2=\frac12 mv_f^2,
@@ -66,11 +66,11 @@ Parece que no hemos conseguido nada. La nave se aproxima al planeta, acelera, gi
 
 ¿Dónde está entonces el truco? La clave consiste en recordar algo que hemos pasado por alto: **Júpiter no está quieto**.
 
-Júpiter se mueve alrededor del Sol a una velocidad aproximada de \(13\ \mathrm{km/s}\). Y, como veremos, este movimiento es precisamente lo que permite que nuestra nave gane energía.
+Júpiter se mueve alrededor del Sol a una velocidad aproximada de $13\ \mathrm{km/s}$. Y, como veremos, este movimiento es precisamente lo que permite que nuestra nave gane energía.
 
 ### Todo depende del sistema de referencia
 
-Para simplificar los cálculos, consideremos un sistema de referencia heliocéntrico, es decir, uno en el que el Sol permanece aproximadamente en reposo. Llamemos \(\mathbf V\) a la velocidad orbital de Júpiter respecto al Sol y \(\mathbf v_i\) a la velocidad inicial de nuestra nave en ese mismo sistema de referencia.
+Para simplificar los cálculos, consideremos un sistema de referencia heliocéntrico, es decir, uno en el que el Sol permanece aproximadamente en reposo. Llamemos $\mathbf V$ a la velocidad orbital de Júpiter respecto al Sol y $\mathbf v_i$ a la velocidad inicial de nuestra nave en ese mismo sistema de referencia.
 
 La velocidad de la nave respecto a Júpiter será
 
@@ -78,7 +78,7 @@ $$
 \mathbf u_i=\mathbf v_i-\mathbf V.
 $$
 
-Después del encuentro gravitacional, la nave saldrá con una nueva velocidad relativa \(\mathbf u_f\). Como acabamos de comprobar mediante la conservación de la energía, y despreciando el minúsculo retroceso de Júpiter, se cumple que
+Después del encuentro gravitacional, la nave saldrá con una nueva velocidad relativa $\mathbf u_f$. Como acabamos de comprobar mediante la conservación de la energía, y despreciando el minúsculo retroceso de Júpiter, se cumple que
 
 $$
 |\mathbf u_i|=|\mathbf u_f|=u.
@@ -120,7 +120,7 @@ $$
 \Delta E=\frac12m\left(2\mathbf V\cdot\mathbf u_f+|\mathbf u_f|^2-2\mathbf V\cdot\mathbf u_i-|\mathbf u_i|^2\right).
 $$
 
-Pero sabemos que \(|\mathbf u_i|=|\mathbf u_f|\), por lo que los términos cuadráticos se cancelan y obtenemos
+Pero sabemos que $|\mathbf u_i|=|\mathbf u_f|$, por lo que los términos cuadráticos se cancelan y obtenemos
 
 $$
 \boxed{\Delta E=m\mathbf V\cdot(\mathbf u_f-\mathbf u_i).}
@@ -128,9 +128,9 @@ $$
 
 **Esta es la ecuación fundamental de la asistencia gravitacional.** Fijémonos en que el resultado depende del producto escalar entre la velocidad del planeta y el cambio de velocidad relativa de la nave. Por tanto, son posibles tres situaciones:
 
-- Si \(\Delta E>0\), la nave gana energía.
-- Si \(\Delta E<0\), la nave pierde energía.
-- Si \(\Delta E=0\), la nave no experimenta ningún cambio neto de energía cinética.
+- Si $\Delta E>0$, la nave gana energía.
+- Si $\Delta E<0$, la nave pierde energía.
+- Si $\Delta E=0$, la nave no experimenta ningún cambio neto de energía cinética.
 
 En otras palabras, dependiendo de la geometría del encuentro, podemos utilizar un planeta tanto para acelerar como para frenar una nave espacial. Y lo más importante: todo esto puede conseguirse sin gastar combustible durante el encuentro gravitacional.
 
@@ -148,7 +148,7 @@ $$
 u_i=-10\ \mathrm{km/s}.
 $$
 
-Si la nave experimentara una desviación ideal de \(180^\circ\), saldría con
+Si la nave experimentara una desviación ideal de $180^\circ$, saldría con
 
 $$
 u_f=+10\ \mathrm{km/s}.
@@ -166,9 +166,9 @@ $$
 v_f=13+10=23\ \mathrm{km/s}.
 $$
 
-¡Hemos pasado de \(3\) a \(23\ \mathrm{km/s}\) sin utilizar ningún motor!
+¡Hemos pasado de $3$ a $23\ \mathrm{km/s}$ sin utilizar ningún motor!
 
-Para una nave de \(1000\ \mathrm{kg}\), esto supone una ganancia de energía cinética de
+Para una nave de $1000\ \mathrm{kg}$, esto supone una ganancia de energía cinética de
 
 $$
 \Delta E=\frac12(1000)\left[(23000)^2-(3000)^2\right],
@@ -180,7 +180,7 @@ $$
 \boxed{\Delta E=2.6\times10^{11}\ \mathrm J.}
 $$
 
-Para hacernos una idea, esta cantidad equivale aproximadamente a la energía liberada por unas 62 toneladas de TNT. Naturalmente, hemos considerado una situación idealizada. Una desviación exacta de \(180^\circ\) no se consigue mediante un sobrevuelo hiperbólico ordinario, y la geometría real del encuentro está limitada por el tamaño del planeta y por la distancia mínima a la que puede pasar nuestra nave.
+Para hacernos una idea, esta cantidad equivale aproximadamente a la energía liberada por unas 62 toneladas de TNT. Naturalmente, hemos considerado una situación idealizada. Una desviación exacta de $180^\circ$ no se consigue mediante un sobrevuelo hiperbólico ordinario, y la geometría real del encuentro está limitada por el tamaño del planeta y por la distancia mínima a la que puede pasar nuestra nave.
 
 Aun así, el ejemplo ilustra perfectamente la enorme cantidad de energía que podemos obtener mediante este procedimiento.
 
@@ -194,7 +194,7 @@ $$
 m\Delta\mathbf v+M\Delta\mathbf V=0,
 $$
 
-donde \(M\) representa la masa del planeta. Por tanto,
+donde $M$ representa la masa del planeta. Por tanto,
 
 $$
 \boxed{\Delta\mathbf V=-\frac{m}{M}\Delta\mathbf v.}
@@ -206,9 +206,9 @@ $$
 M_J=1.9\times10^{27}\ \mathrm{kg},
 $$
 
-mientras que nuestra nave tiene una masa de apenas \(1000\ \mathrm{kg}\), la variación de velocidad del planeta es prácticamente imperceptible.
+mientras que nuestra nave tiene una masa de apenas $1000\ \mathrm{kg}$, la variación de velocidad del planeta es prácticamente imperceptible.
 
-En nuestro ejemplo idealizado, el cambio de velocidad de la nave sería de \(20\ \mathrm{km/s}\), por lo que la variación correspondiente de la velocidad de Júpiter tendría un módulo del orden de
+En nuestro ejemplo idealizado, el cambio de velocidad de la nave sería de $20\ \mathrm{km/s}$, por lo que la variación correspondiente de la velocidad de Júpiter tendría un módulo del orden de
 
 $$
 |\Delta V|\approx\frac{10^3}{1.9\times10^{27}}(2\times10^4)\approx10^{-20}\ \mathrm{m/s}.
