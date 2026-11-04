@@ -105,7 +105,7 @@
         <li {% if page_name == 'explorar' %}class="active"{% endif %}>
             <a href="{{ SITEURL }}/explorar">Explorar</a>
         </li>
-        <li {% if page_name == 'noticias' %}class="active"{% endif %}>
+        <li {% if page_name == 'noticias' or (page is defined and page.slug == 'noticias') %}class="active"{% endif %}>
             <a href="{{ SITEURL }}/noticias">Noticias</a>
         </li>
         <li {% if page_name == 'about' %}class="active"{% endif %}>
