@@ -84,11 +84,14 @@
             <a href="https://napkinnotes.es/explorar">Explorar</a>
         </li>
         <li >
+            <a href="https://napkinnotes.es/noticias">Noticias</a>
+        </li>
+        <li >
             <a href="https://napkinnotes.es/about">Nosotros</a>
         </li>
 
 
-        <li>
+        <li class="site-nav__social-item">
             <a class="site-nav__instagram"
                href="https://www.instagram.com/napk.innotes"
                target="_blank"
@@ -100,7 +103,7 @@
             </a>
         </li>
 
-        <li>
+        <li class="site-nav__social-item">
             <a class="site-nav__x"
                href="https://play.google.com/store/apps/details?id=es.napkinnotes.app"
                target="_blank"
@@ -140,6 +143,7 @@
 
             <main class="site-main">
                 <div class="site-main__inner">
+
 
 
 
@@ -388,6 +392,104 @@ Boton de descarga aqui por facilidad pero luego lo podemos cambiar al html-->
     </main>
 
     <aside class="nn-home-sidebar">
+
+
+        <section class="nn-sidebar-card nn-sidebar-card--calendar nn-reveal">
+            <a class="nn-kicker nn-mini-calendar__section-link" href="https://napkinnotes.es/noticias">Noticias</a>
+
+            <div id="nn-mini-calendar-article-data" hidden>
+                <span data-date="2026-10-29"></span>
+                <span data-date="2026-10-22"></span>
+                <span data-date="2026-10-15"></span>
+                <span data-date="2026-10-08"></span>
+                <span data-date="2026-10-06"></span>
+                <span data-date="2026-10-01"></span>
+                <span data-date="2026-09-24"></span>
+                <span data-date="2026-09-17"></span>
+                <span data-date="2026-09-12"></span>
+                <span data-date="2026-09-10"></span>
+                <span data-date="2026-09-03"></span>
+                <span data-date="2026-08-27"></span>
+                <span data-date="2026-08-20"></span>
+                <span data-date="2026-08-13"></span>
+                <span data-date="2026-08-11"></span>
+                <span data-date="2026-08-06"></span>
+                <span data-date="2026-07-30"></span>
+                <span data-date="2026-07-23"></span>
+                <span data-date="2026-07-16"></span>
+                <span data-date="2026-07-09"></span>
+                <span data-date="2026-07-02"></span>
+                <span data-date="2026-06-25"></span>
+                <span data-date="2026-06-11"></span>
+                <span data-date="2026-06-04"></span>
+                <span data-date="2026-06-04"></span>
+                <span data-date="2026-06-04"></span>
+                <span data-date="2026-05-28"></span>
+                <span data-date="2026-05-28"></span>
+                <span data-date="2026-05-21"></span>
+                <span data-date="2026-05-21"></span>
+            </div>
+
+            <div id="nn-mini-calendar-news-data" hidden>
+                <span data-date="2026-10-27"></span>
+                <span data-date="2026-10-18"></span>
+                <span data-date="2026-10-18"></span>
+                <span data-date="2026-10-12"></span>
+            </div>
+
+            <div id="nn-mini-calendar-event-data" hidden>
+                <span data-date="2026-09-24"></span>
+                <span data-date="2026-12-10"></span>
+                <span data-date="2026-10-21"></span>
+                <span data-date="2026-10-23"></span>
+                <span data-date="2026-10-26"></span>
+                <span data-date="2026-10-29"></span>
+                <span data-date="2026-10-31"></span>
+                <span data-date="2026-11-03"></span>
+                <span data-date="2026-11-05"></span>
+                <span data-date="2026-11-07"></span>
+                <span data-date="2026-11-07"></span>
+                <span data-date="2026-11-10"></span>
+                <span data-date="2026-11-14"></span>
+                <span data-date="2026-11-17"></span>
+                <span data-date="2026-11-18"></span>
+                <span data-date="2026-11-20"></span>
+                <span data-date="2026-11-20"></span>
+                <span data-date="2026-11-23"></span>
+                <span data-date="2026-11-24"></span>
+                <span data-date="2026-11-26"></span>
+                <span data-date="2026-11-27"></span>
+                <span data-date="2026-12-01"></span>
+                <span data-date="2026-12-02"></span>
+                <span data-date="2026-12-05"></span>
+                <span data-date="2026-12-10"></span>
+                <span data-date="2026-12-11"></span>
+                <span data-date="2026-12-14"></span>
+                <span data-date="2026-12-21"></span>
+                <span data-date="2026-12-22"></span>
+                <span data-date="2026-12-24"></span>
+            </div>
+
+            <div class="nn-mini-calendar" aria-label="Calendario de Noticias">
+                <div class="nn-mini-calendar__nav">
+                    <button class="nn-mini-calendar__button" id="nnMiniCalendarPrev" type="button" aria-label="Mes anterior">‹</button>
+                    <div class="nn-mini-calendar__month" id="nnMiniCalendarMonth"></div>
+                    <button class="nn-mini-calendar__button" id="nnMiniCalendarNext" type="button" aria-label="Mes siguiente">›</button>
+                </div>
+
+                <div class="nn-mini-calendar__weekdays" aria-hidden="true">
+                    <span>L</span>
+                    <span>M</span>
+                    <span>X</span>
+                    <span>J</span>
+                    <span>V</span>
+                    <span>S</span>
+                    <span>D</span>
+                </div>
+
+                <div class="nn-mini-calendar__grid" id="nnMiniCalendarGrid"></div>
+            </div>
+        </section>
 
         <section class="nn-sidebar-card nn-sidebar-card--featured">
             <span class="nn-kicker">Último</span>
@@ -753,6 +855,151 @@ function renderCarousel() {
     });
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const grid = document.getElementById("nnMiniCalendarGrid");
+    const monthLabel = document.getElementById("nnMiniCalendarMonth");
+    const prevButton = document.getElementById("nnMiniCalendarPrev");
+    const nextButton = document.getElementById("nnMiniCalendarNext");
+
+    if (!grid || !monthLabel || !prevButton || !nextButton) return;
+
+    function collectDates(selector) {
+        return new Set(
+            Array.from(document.querySelectorAll(selector))
+                .map(function (node) { return node.dataset.date; })
+                .filter(Boolean)
+        );
+    }
+
+    const articleDates = collectDates("#nn-mini-calendar-article-data [data-date]");
+    const newsDates = collectDates("#nn-mini-calendar-news-data [data-date]");
+    const eventDates = collectDates("#nn-mini-calendar-event-data [data-date]");
+
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const minimumYear = 2026;
+    const minimumMonth = 4;
+    let currentYear = today.getFullYear();
+    let currentMonth = today.getMonth();
+
+    if (
+        currentYear < minimumYear ||
+        (currentYear === minimumYear && currentMonth < minimumMonth)
+    ) {
+        currentYear = minimumYear;
+        currentMonth = minimumMonth;
+    }
+
+    const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long" });
+
+    function pad(value) {
+        return String(value).padStart(2, "0");
+    }
+
+    function dateKey(year, month, day) {
+        return year + "-" + pad(month + 1) + "-" + pad(day);
+    }
+
+    function addDot(container, kind) {
+        const dot = document.createElement("span");
+        dot.className = "nn-mini-calendar__dot nn-mini-calendar__dot--" + kind;
+        container.appendChild(dot);
+    }
+
+    function renderCalendar() {
+        grid.innerHTML = "";
+
+        const firstDay = new Date(currentYear, currentMonth, 1);
+        const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+        const leading = (firstDay.getDay() + 6) % 7;
+
+        monthLabel.textContent = monthFormatter.format(firstDay) + " " + currentYear;
+        prevButton.disabled =
+            currentYear === minimumYear &&
+            currentMonth === minimumMonth;
+
+        for (let i = 0; i < leading; i++) {
+            const empty = document.createElement("span");
+            empty.className = "nn-mini-calendar__day nn-mini-calendar__day--empty";
+            grid.appendChild(empty);
+        }
+
+        for (let day = 1; day <= daysInMonth; day++) {
+            const date = new Date(currentYear, currentMonth, day);
+            date.setHours(0, 0, 0, 0);
+
+            const key = dateKey(currentYear, currentMonth, day);
+            const hasArticle = articleDates.has(key);
+            const isPastOrToday = date <= today;
+            const isFutureOrToday = date >= today;
+            const isThursday = date.getDay() === 4;
+
+            const cell = document.createElement("span");
+            cell.className = "nn-mini-calendar__day";
+
+            if (date.getTime() === today.getTime()) {
+                cell.classList.add("nn-mini-calendar__day--today");
+            }
+
+            const number = document.createElement("span");
+            number.className = "nn-mini-calendar__day-number";
+            number.textContent = day;
+            cell.appendChild(number);
+
+            const dots = document.createElement("span");
+            dots.className = "nn-mini-calendar__dots";
+
+            if (isPastOrToday && hasArticle) {
+                addDot(dots, isThursday ? "article" : "extraordinary");
+            }
+
+            if (isFutureOrToday && isThursday && !hasArticle) {
+                addDot(dots, "future");
+            }
+
+            if (newsDates.has(key)) {
+                addDot(dots, "news");
+            }
+
+            if (eventDates.has(key)) {
+                addDot(dots, "event");
+            }
+
+            cell.appendChild(dots);
+            grid.appendChild(cell);
+        }
+    }
+
+    prevButton.addEventListener("click", function () {
+        if (currentYear === minimumYear && currentMonth === minimumMonth) return;
+
+        currentMonth--;
+
+        if (currentMonth < 0) {
+            currentMonth = 11;
+            currentYear--;
+        }
+
+        renderCalendar();
+    });
+
+    nextButton.addEventListener("click", function () {
+        currentMonth++;
+
+        if (currentMonth > 11) {
+            currentMonth = 0;
+            currentYear++;
+        }
+
+        renderCalendar();
+    });
+
+    renderCalendar();
+});
+</script>
+
                 </div>
             </main>
         </div>
