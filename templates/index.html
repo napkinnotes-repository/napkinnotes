@@ -254,10 +254,6 @@
                 <div class="nn-mini-calendar__grid" id="nnMiniCalendarGrid"></div>
             </div>
 
-            <div class="nn-news-calendar__popover" id="nnMiniCalendarPopover" role="dialog" aria-live="polite">
-                <div class="nn-news-calendar__popover-title">En este día</div>
-                <div id="nnMiniCalendarPopoverContent"></div>
-            </div>
         </section>
         {% endif %}
 
@@ -308,6 +304,13 @@
 
     </aside>
 </section>
+
+{% if news_page.page %}
+<div class="nn-news-calendar__popover" id="nnMiniCalendarPopover" role="dialog" aria-live="polite">
+    <div class="nn-news-calendar__popover-title">En este día</div>
+    <div id="nnMiniCalendarPopoverContent"></div>
+</div>
+{% endif %}
 
 <!-- MODAL PARTICIPAR -->
 <div id="participa-modal" class="modal hidden">
