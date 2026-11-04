@@ -27,7 +27,7 @@ noticias:
     texto: >-
       Os traemos un nuevo juego para ir descubriendo a las mujeres científicas
       de la historia. Cada semana tendréis que adivinar quién está detrás de
-      nuestra científica oculta.
+      nuestra científica oculta, de la mano de nuestra editora Paz Albares Vicente.
 
 # ============================================================
 # EVENTOS
