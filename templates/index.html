@@ -38,6 +38,11 @@
     {% set landing_page.page = p %}
 {% endfor %}
 
+{% set news_page = namespace(page=false) %}
+{% for p in pages if p.slug == "noticias" %}
+    {% set news_page.page = p %}
+{% endfor %}
+
 {% set hero_image = false %}
 {% if landing_page.page and landing_page.page.image %}
     {% set hero_image = SITEURL ~ '/' ~ landing_page.page.image %}
@@ -180,6 +185,51 @@
     </main>
 
     <aside class="nn-home-sidebar">
+
+
+        {% if news_page.page %}
+        <section class="nn-sidebar-card nn-sidebar-card--calendar nn-reveal">
+            <a class="nn-kicker nn-mini-calendar__section-link" href="{{ SITEURL }}/{{ news_page.page.url }}">Noticias</a>
+
+            <div id="nn-mini-calendar-article-data" hidden>
+                {% for article in articles %}
+                <span data-date="{{ article.date.strftime('%Y-%m-%d') }}"></span>
+                {% endfor %}
+            </div>
+
+            <div id="nn-mini-calendar-news-data" hidden>
+                {% for noticia in news_page.page.noticias %}
+                <span data-date="{{ noticia.fecha }}"></span>
+                {% endfor %}
+            </div>
+
+            <div id="nn-mini-calendar-event-data" hidden>
+                {% for evento in news_page.page.eventos %}
+                <span data-date="{{ evento.fecha }}"></span>
+                {% endfor %}
+            </div>
+
+            <div class="nn-mini-calendar" aria-label="Calendario de Noticias">
+                <div class="nn-mini-calendar__nav">
+                    <button class="nn-mini-calendar__button" id="nnMiniCalendarPrev" type="button" aria-label="Mes anterior">‹</button>
+                    <div class="nn-mini-calendar__month" id="nnMiniCalendarMonth"></div>
+                    <button class="nn-mini-calendar__button" id="nnMiniCalendarNext" type="button" aria-label="Mes siguiente">›</button>
+                </div>
+
+                <div class="nn-mini-calendar__weekdays" aria-hidden="true">
+                    <span>L</span>
+                    <span>M</span>
+                    <span>X</span>
+                    <span>J</span>
+                    <span>V</span>
+                    <span>S</span>
+                    <span>D</span>
+                </div>
+
+                <div class="nn-mini-calendar__grid" id="nnMiniCalendarGrid"></div>
+            </div>
+        </section>
+        {% endif %}
 
         {% if articles %}
         <section class="nn-sidebar-card nn-sidebar-card--featured">
@@ -558,4 +608,149 @@ function renderCarousel() {
     });
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const grid = document.getElementById("nnMiniCalendarGrid");
+    const monthLabel = document.getElementById("nnMiniCalendarMonth");
+    const prevButton = document.getElementById("nnMiniCalendarPrev");
+    const nextButton = document.getElementById("nnMiniCalendarNext");
+
+    if (!grid || !monthLabel || !prevButton || !nextButton) return;
+
+    function collectDates(selector) {
+        return new Set(
+            Array.from(document.querySelectorAll(selector))
+                .map(function (node) { return node.dataset.date; })
+                .filter(Boolean)
+        );
+    }
+
+    const articleDates = collectDates("#nn-mini-calendar-article-data [data-date]");
+    const newsDates = collectDates("#nn-mini-calendar-news-data [data-date]");
+    const eventDates = collectDates("#nn-mini-calendar-event-data [data-date]");
+
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const minimumYear = 2026;
+    const minimumMonth = 4;
+    let currentYear = today.getFullYear();
+    let currentMonth = today.getMonth();
+
+    if (
+        currentYear < minimumYear ||
+        (currentYear === minimumYear && currentMonth < minimumMonth)
+    ) {
+        currentYear = minimumYear;
+        currentMonth = minimumMonth;
+    }
+
+    const monthFormatter = new Intl.DateTimeFormat("es-ES", { month: "long" });
+
+    function pad(value) {
+        return String(value).padStart(2, "0");
+    }
+
+    function dateKey(year, month, day) {
+        return year + "-" + pad(month + 1) + "-" + pad(day);
+    }
+
+    function addDot(container, kind) {
+        const dot = document.createElement("span");
+        dot.className = "nn-mini-calendar__dot nn-mini-calendar__dot--" + kind;
+        container.appendChild(dot);
+    }
+
+    function renderCalendar() {
+        grid.innerHTML = "";
+
+        const firstDay = new Date(currentYear, currentMonth, 1);
+        const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+        const leading = (firstDay.getDay() + 6) % 7;
+
+        monthLabel.textContent = monthFormatter.format(firstDay) + " " + currentYear;
+        prevButton.disabled =
+            currentYear === minimumYear &&
+            currentMonth === minimumMonth;
+
+        for (let i = 0; i < leading; i++) {
+            const empty = document.createElement("span");
+            empty.className = "nn-mini-calendar__day nn-mini-calendar__day--empty";
+            grid.appendChild(empty);
+        }
+
+        for (let day = 1; day <= daysInMonth; day++) {
+            const date = new Date(currentYear, currentMonth, day);
+            date.setHours(0, 0, 0, 0);
+
+            const key = dateKey(currentYear, currentMonth, day);
+            const hasArticle = articleDates.has(key);
+            const isPastOrToday = date <= today;
+            const isFutureOrToday = date >= today;
+            const isThursday = date.getDay() === 4;
+
+            const cell = document.createElement("span");
+            cell.className = "nn-mini-calendar__day";
+
+            if (date.getTime() === today.getTime()) {
+                cell.classList.add("nn-mini-calendar__day--today");
+            }
+
+            const number = document.createElement("span");
+            number.className = "nn-mini-calendar__day-number";
+            number.textContent = day;
+            cell.appendChild(number);
+
+            const dots = document.createElement("span");
+            dots.className = "nn-mini-calendar__dots";
+
+            if (isPastOrToday && hasArticle) {
+                addDot(dots, isThursday ? "article" : "extraordinary");
+            }
+
+            if (isFutureOrToday && isThursday && !hasArticle) {
+                addDot(dots, "future");
+            }
+
+            if (newsDates.has(key)) {
+                addDot(dots, "news");
+            }
+
+            if (eventDates.has(key)) {
+                addDot(dots, "event");
+            }
+
+            cell.appendChild(dots);
+            grid.appendChild(cell);
+        }
+    }
+
+    prevButton.addEventListener("click", function () {
+        if (currentYear === minimumYear && currentMonth === minimumMonth) return;
+
+        currentMonth--;
+
+        if (currentMonth < 0) {
+            currentMonth = 11;
+            currentYear--;
+        }
+
+        renderCalendar();
+    });
+
+    nextButton.addEventListener("click", function () {
+        currentMonth++;
+
+        if (currentMonth > 11) {
+            currentMonth = 0;
+            currentYear++;
+        }
+
+        renderCalendar();
+    });
+
+    renderCalendar();
+});
+</script>
+
 {% endblock content %}

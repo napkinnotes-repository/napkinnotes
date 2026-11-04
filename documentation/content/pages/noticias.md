@@ -2,7 +2,7 @@
 title: Noticias
 slug: noticias
 template: noticias
-status: hidden
+status: published
 summary: "Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes."
 
 # ============================================================
