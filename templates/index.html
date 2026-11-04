@@ -189,23 +189,48 @@
 
         {% if news_page.page %}
         <section class="nn-sidebar-card nn-sidebar-card--calendar nn-reveal">
-            <a class="nn-kicker nn-mini-calendar__section-link" href="{{ SITEURL }}/{{ news_page.page.url }}">Noticias</a>
+            <a class="nn-kicker nn-mini-calendar__section-link" href="{{ SITEURL }}/{{ news_page.page.url }}">Noticias y eventos</a>
 
             <div id="nn-mini-calendar-article-data" hidden>
                 {% for article in articles %}
-                <span data-date="{{ article.date.strftime('%Y-%m-%d') }}"></span>
+                {% set article_image = '' %}
+                {% if article.featured_image is defined and article.featured_image %}
+                    {% set article_image = article.featured_image %}
+                {% elif article.image is defined and article.image %}
+                    {% if article.image.startswith('http') %}
+                        {% set article_image = article.image %}
+                    {% else %}
+                        {% set article_image = SITEURL ~ '/' ~ article.image %}
+                    {% endif %}
+                {% endif %}
+                <span
+                    data-date="{{ article.date.strftime('%Y-%m-%d') }}"
+                    data-title="{{ article.title|striptags|e }}"
+                    data-url="{{ SITEURL }}/{{ article.url }}"
+                    data-image="{{ article_image|e }}"
+                ></span>
                 {% endfor %}
             </div>
 
             <div id="nn-mini-calendar-news-data" hidden>
                 {% for noticia in news_page.page.noticias %}
-                <span data-date="{{ noticia.fecha }}"></span>
+                <span
+                    data-date="{{ noticia.fecha }}"
+                    data-title="{{ noticia.titulo|striptags|e }}"
+                    data-url="{% if noticia.link %}{{ noticia.link|e }}{% endif %}"
+                    data-image="{% if noticia.imagen %}{% if noticia.imagen.startswith('http') %}{{ noticia.imagen|e }}{% else %}{{ SITEURL }}/{{ noticia.imagen|e }}{% endif %}{% endif %}"
+                ></span>
                 {% endfor %}
             </div>
 
             <div id="nn-mini-calendar-event-data" hidden>
                 {% for evento in news_page.page.eventos %}
-                <span data-date="{{ evento.fecha }}"></span>
+                <span
+                    data-date="{{ evento.fecha }}"
+                    data-title="{{ evento.titulo|striptags|e }}"
+                    data-url="{% if evento.link %}{{ evento.link|e }}{% endif %}"
+                    data-image="{% if evento.imagen %}{% if evento.imagen.startswith('http') %}{{ evento.imagen|e }}{% else %}{{ SITEURL }}/{{ evento.imagen|e }}{% endif %}{% endif %}"
+                ></span>
                 {% endfor %}
             </div>
 
@@ -227,6 +252,11 @@
                 </div>
 
                 <div class="nn-mini-calendar__grid" id="nnMiniCalendarGrid"></div>
+            </div>
+
+            <div class="nn-news-calendar__popover" id="nnMiniCalendarPopover" role="dialog" aria-live="polite">
+                <div class="nn-news-calendar__popover-title">En este día</div>
+                <div id="nnMiniCalendarPopoverContent"></div>
             </div>
         </section>
         {% endif %}
@@ -614,20 +644,35 @@ document.addEventListener("DOMContentLoaded", function () {
     const monthLabel = document.getElementById("nnMiniCalendarMonth");
     const prevButton = document.getElementById("nnMiniCalendarPrev");
     const nextButton = document.getElementById("nnMiniCalendarNext");
+    const popover = document.getElementById("nnMiniCalendarPopover");
+    const popoverContent = document.getElementById("nnMiniCalendarPopoverContent");
 
-    if (!grid || !monthLabel || !prevButton || !nextButton) return;
+    if (!grid || !monthLabel || !prevButton || !nextButton || !popover || !popoverContent) return;
 
-    function collectDates(selector) {
-        return new Set(
-            Array.from(document.querySelectorAll(selector))
-                .map(function (node) { return node.dataset.date; })
-                .filter(Boolean)
-        );
+    function collectItems(selector) {
+        const itemsByDate = {};
+
+        Array.from(document.querySelectorAll(selector)).forEach(function (node) {
+            const date = node.dataset.date;
+            if (!date) return;
+
+            if (!itemsByDate[date]) {
+                itemsByDate[date] = [];
+            }
+
+            itemsByDate[date].push({
+                title: node.dataset.title || "",
+                url: node.dataset.url || "",
+                image: node.dataset.image || ""
+            });
+        });
+
+        return itemsByDate;
     }
 
-    const articleDates = collectDates("#nn-mini-calendar-article-data [data-date]");
-    const newsDates = collectDates("#nn-mini-calendar-news-data [data-date]");
-    const eventDates = collectDates("#nn-mini-calendar-event-data [data-date]");
+    const articlesByDate = collectItems("#nn-mini-calendar-article-data [data-date]");
+    const newsByDate = collectItems("#nn-mini-calendar-news-data [data-date]");
+    const eventsByDate = collectItems("#nn-mini-calendar-event-data [data-date]");
 
     const today = new Date();
     today.setHours(0, 0, 0, 0);
@@ -661,7 +706,63 @@ document.addEventListener("DOMContentLoaded", function () {
         container.appendChild(dot);
     }
 
+    function closePopover() {
+        popover.classList.remove("is-open");
+        popoverContent.innerHTML = "";
+    }
+
+    function openPopover(dayElement, items) {
+        popoverContent.innerHTML = "";
+
+        items.forEach(function (item) {
+            const wrapper = item.url ? document.createElement("a") : document.createElement("div");
+            wrapper.className = item.url
+                ? "nn-news-calendar__popover-link"
+                : "nn-news-calendar__popover-item";
+
+            if (item.url) {
+                wrapper.href = item.url;
+                if (/^https?:\/\//.test(item.url)) {
+                    wrapper.target = "_blank";
+                    wrapper.rel = "noopener noreferrer";
+                }
+            }
+
+            if (item.image) {
+                const image = document.createElement("img");
+                image.className = "nn-news-calendar__popover-thumb";
+                image.src = item.image;
+                image.alt = "";
+                wrapper.appendChild(image);
+            }
+
+            const label = document.createElement("span");
+            label.className = "nn-news-calendar__popover-label";
+            label.textContent = item.title;
+            wrapper.appendChild(label);
+
+            popoverContent.appendChild(wrapper);
+        });
+
+        const rect = dayElement.getBoundingClientRect();
+        const width = Math.min(320, window.innerWidth - 32);
+
+        let left = rect.left + (rect.width / 2) - (width / 2);
+        left = Math.max(16, Math.min(left, window.innerWidth - width - 16));
+
+        let top = rect.bottom + 8;
+        if (top + 180 > window.innerHeight) {
+            top = Math.max(16, rect.top - 188);
+        }
+
+        popover.style.width = width + "px";
+        popover.style.left = left + "px";
+        popover.style.top = top + "px";
+        popover.classList.add("is-open");
+    }
+
     function renderCalendar() {
+        closePopover();
         grid.innerHTML = "";
 
         const firstDay = new Date(currentYear, currentMonth, 1);
@@ -684,7 +785,10 @@ document.addEventListener("DOMContentLoaded", function () {
             date.setHours(0, 0, 0, 0);
 
             const key = dateKey(currentYear, currentMonth, day);
-            const hasArticle = articleDates.has(key);
+            const dayArticles = articlesByDate[key] || [];
+            const dayNews = newsByDate[key] || [];
+            const dayEvents = eventsByDate[key] || [];
+            const hasArticle = dayArticles.length > 0;
             const isPastOrToday = date <= today;
             const isFutureOrToday = date >= today;
             const isThursday = date.getDay() === 4;
@@ -712,18 +816,76 @@ document.addEventListener("DOMContentLoaded", function () {
                 addDot(dots, "future");
             }
 
-            if (newsDates.has(key)) {
+            if (dayNews.length) {
                 addDot(dots, "news");
             }
 
-            if (eventDates.has(key)) {
+            if (dayEvents.length) {
                 addDot(dots, "event");
+            }
+
+            const popoverItems = [];
+
+            if (isPastOrToday) {
+                dayArticles.forEach(function (article) {
+                    popoverItems.push(article);
+                });
+            }
+
+            dayNews.forEach(function (news) {
+                popoverItems.push(news);
+            });
+
+            dayEvents.forEach(function (eventItem) {
+                popoverItems.push(eventItem);
+            });
+
+            if (popoverItems.length) {
+                cell.classList.add("nn-mini-calendar__day--interactive");
+                cell.tabIndex = 0;
+                cell.setAttribute("role", "button");
+                cell.setAttribute("aria-haspopup", "dialog");
+
+                if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+                    cell.addEventListener("mouseenter", function () {
+                        openPopover(cell, popoverItems);
+                    });
+                }
+
+                cell.addEventListener("click", function (event) {
+                    event.stopPropagation();
+
+                    if (popover.classList.contains("is-open")) {
+                        closePopover();
+                    } else {
+                        openPopover(cell, popoverItems);
+                    }
+                });
+
+                cell.addEventListener("keydown", function (event) {
+                    if (event.key === "Enter" || event.key === " ") {
+                        event.preventDefault();
+                        openPopover(cell, popoverItems);
+                    }
+                });
             }
 
             cell.appendChild(dots);
             grid.appendChild(cell);
         }
     }
+
+    document.addEventListener("click", function (event) {
+        if (
+            !event.target.closest(".nn-mini-calendar__day--interactive") &&
+            !event.target.closest(".nn-news-calendar__popover")
+        ) {
+            closePopover();
+        }
+    });
+
+    window.addEventListener("resize", closePopover);
+    window.addEventListener("scroll", closePopover, { passive: true });
 
     prevButton.addEventListener("click", function () {
         if (currentYear === minimumYear && currentMonth === minimumMonth) return;
