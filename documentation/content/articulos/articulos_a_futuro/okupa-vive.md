@@ -17,7 +17,7 @@ image: ""
 
 [TOC]
 
-Imagina que una mañana descubres que alguien se ha instalado en tu casa sin pedirte permiso. No has escuchado la puerta, no has visto ninguna ventana abierta y, sin embargo, ahí está. Lo más inquietante no es que haya conseguido entrar, sino cómo lo ha hecho: tenía la llave.
+Imagina que una mañana descubres que alguien se ha instalado en tu casa sin pedirte permiso. No has escuchado la puerta, no has visto ninguna ventana abierta y, sin embargo, ahí está. Lo más inquietante no es que haya conseguido entrar, sino cómo lo ha hecho: tenía la llave. 
 
 Al principio, apenas notas su presencia. Pero, poco a poco, empiezan a desaparecer cosas de la despensa, aumenta el consumo de electricidad y algunos de los aparatos que utilizas a diario comienzan a funcionar de una manera extraña. Mientras tú intentas averiguar qué está pasando, tu inesperado huésped aprovecha tus recursos para fabricar clones de sí mismo. Y cuando finalmente descubres que no estás solo, puede que ya haya preparado su salida y que sus clones estén a punto de ocupar el resto de casas de tu edificio.
 
