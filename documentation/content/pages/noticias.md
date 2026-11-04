@@ -20,7 +20,7 @@ noticias:
   - fecha: "2026-04-10"
     titulo: "¡Napkin Notes llega a Google Play!"
     texto: >-
-    ¡Estrenamos aplicación para Android! Ahora puedes disfrutar de nuestros artículos de divulgación científica directamente desde tu móvil. Descarga Napkin Notes gratis en Google Play y lleva la ciencia contigo a todas partes.
+      ¡Estrenamos aplicación para Android! Ahora puedes disfrutar de nuestros artículos de divulgación científica directamente desde tu móvil. Descarga Napkin Notes gratis en Google Play y lleva la ciencia contigo a todas partes.
 
   - fecha: "2026-12-10"
     titulo: "Lanzamiento de Científica de la Semana"
