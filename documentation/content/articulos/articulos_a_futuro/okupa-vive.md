@@ -3,7 +3,7 @@ title: "El okupa que vive dentro de tus células"
 author: "Lauren García Chávez"
 date: 2026-11-03
 layout: articles
-slug: el-okupa-que-vive-dentro-de-tus-celulas
+slug: prueba-lauren
 status: hidden
 category: Biología
 tags:
