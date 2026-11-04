@@ -5368,6 +5368,7 @@ a.nn-squad-hero__metric {
   position: fixed;
   z-index: 2000;
   display: none;
+  box-sizing: border-box;
   width: min(320px, calc(100vw - 32px));
   padding: 13px 14px;
   border: 1px solid var(--line);
