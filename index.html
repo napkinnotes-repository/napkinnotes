@@ -1372,12 +1372,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 cell.addEventListener("click", function (event) {
                     event.stopPropagation();
-
-                    if (popover.classList.contains("is-open")) {
-                        closePopover();
-                    } else {
-                        openPopover(cell, popoverItems);
-                    }
+                    openPopover(cell, popoverItems);
                 });
 
                 cell.addEventListener("keydown", function (event) {
