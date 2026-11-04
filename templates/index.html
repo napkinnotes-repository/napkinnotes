@@ -652,6 +652,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!grid || !monthLabel || !prevButton || !nextButton || !popover || !popoverContent) return;
 
+    document.body.appendChild(popover);
+
     function collectItems(selector) {
         const itemsByDate = {};
 
