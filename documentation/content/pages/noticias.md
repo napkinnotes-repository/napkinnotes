@@ -17,7 +17,7 @@ summary: "Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes
 # imagen: "images/noticias/nombre-del-archivo.jpeg"
 # Si se omite, la noticia se muestra sin imagen.
 noticias:
-  - fecha: "2026-10-04"
+  - fecha: "2026-11-04"
     titulo: "¡Napkin Notes llega a Google Play!"
     texto: >-
       ¡Estrenamos aplicación para Android! Ahora puedes disfrutar de nuestros artículos de divulgación científica directamente desde tu móvil. Descarga Napkin Notes gratis en Google Play y lleva la ciencia contigo a todas partes.
