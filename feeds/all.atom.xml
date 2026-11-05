@@ -1,5 +1,236 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-10-29T00:00:00+01:00</updated><entry><title>El rayo verde de Julio Verne</title><link href="https://napkinnotes.es/el-rayo-verde-de-julio-verne" rel="alternate"/><published>2026-10-29T00:00:00+01:00</published><updated>2026-10-29T00:00:00+01:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-10-29:/el-rayo-verde-de-julio-verne</id><summary type="html">&lt;p&gt;«¿Habéis observado alguna vez el sol cuando se pone en el horizonte del mar? Sí, sin duda alguna. ¿Lo habéis seguido hasta el momento en que la parte superior del disco desaparece rozando la línea de agua del horizonte? Es muy posible. Pero ¿os habéis dado cuenta del fenómeno que se produce en el preciso instante en que el astro radiante lanza su último rayo, si el cielo, limpio de nubes, es entonces de una perfecta pureza? ¡No, seguramente no! Pues bien, la primera vez que tengáis ocasión -¡se presenta tan raramente!- de hacer esta observación, no será, como podría presumirse, un rayo rojo lo que herirá la retina de vuestros ojos, sino que será un rayo verde, pero un verde maravilloso, un verde que ningún pintor puede obtener en su paleta. Un verde cuya naturaleza no se encuentra ni en los variados verdes de los vegetales, ni en las tonalidades de las aguas más límpidas. Si existe el verde en el paraíso, no puede ser más que este verde, que es, sin duda, el verdadero verde de la Esperanza.» Hoy, en Napkin Notes, hablamos del fenómeno físico del rayo verde de Julio&amp;nbsp;Verne.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-11-05T00:00:00+01:00</updated><entry><title>¿Es posible robarle energía a un planeta?</title><link href="https://napkinnotes.es/es-posible-robarle-energia-a-un-planeta" rel="alternate"/><published>2026-11-05T00:00:00+01:00</published><updated>2026-11-05T00:00:00+01:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-11-05:/es-posible-robarle-energia-a-un-planeta</id><summary type="html">&lt;p&gt;¿Podemos utilizar la gravedad para obtener energía sin gastar combustible? Las sondas espaciales llevan décadas haciéndolo gracias a los&amp;nbsp;planetas.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#asistencia-gravitacional"&gt;Asistencia gravitacional&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#como-acelerar-una-nave-sin-encender-los-motores"&gt;¿Cómo acelerar una nave sin encender los&amp;nbsp;motores?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#todo-depende-del-sistema-de-referencia"&gt;Todo depende del sistema de&amp;nbsp;referencia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#cuanta-energia-podemos-conseguir"&gt;¿Cuánta energía podemos&amp;nbsp;conseguir?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#pero-de-donde-sale-esa-energia"&gt;Pero ¿de dónde sale esa&amp;nbsp;energía?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#conclusiones"&gt;Conclusiones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Imaginad que queremos enviar una nave espacial hasta los confines del Sistema Solar. La manera más evidente de hacerlo consiste en construir un cohete suficientemente potente, cargarlo de combustible y acelerar hasta alcanzar la velocidad deseada. Sin embargo, existe una alternativa mucho más ingeniosa: aprovechar el movimiento de los planetas para acelerar nuestra nave sin necesidad de encender sus&amp;nbsp;motores.&lt;/p&gt;
+&lt;p&gt;Este procedimiento, conocido como &lt;em&gt;asistencia gravitacional&lt;/em&gt;, se ha utilizado en numerosas misiones espaciales. Las sondas Voyager, por ejemplo, aprovecharon sus encuentros con los planetas gigantes para modificar sus trayectorias y adquirir velocidades que habrían sido mucho más difíciles de alcanzar utilizando únicamente&amp;nbsp;combustible.&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;
+  &lt;img src="/images/gabri-gravedad/asistencia1.jpeg" alt="Asistencia gravitacional de la Voyager 1 a su paso por Júpiter. Marzo de 1979." style="display: block; max-width: 100%; height: auto; margin: 0 auto;"&gt;
+&lt;/p&gt;
+&lt;p style="text-align: center; color: var(--muted); font-size: 0.92rem;"&gt;
+  Asistencia gravitacional de la Voyager 1 a su paso por Júpiter. Marzo de&amp;nbsp;1979.
+&lt;/p&gt;
+
+&lt;p&gt;Pero aquí surge una pregunta interesante. Si nuestra nave aumenta su energía cinética sin utilizar sus motores, ¿de dónde procede esa energía? La respuesta es que &lt;strong&gt;la nave le roba una pequeñísima cantidad de energía orbital al planeta&lt;/strong&gt;. Y no se trata de una metáfora: el planeta pierde energía y la nave la gana, respetando escrupulosamente las leyes de conservación de la&amp;nbsp;física.&lt;/p&gt;
+&lt;p&gt;Lo verdaderamente sorprendente es que podemos llevar esta idea mucho más lejos. En 1969, el físico y matemático Roger Penrose propuso un mecanismo mediante el cual sería posible extraer energía de un agujero negro en rotación. En determinadas circunstancias, una partícula podría acercarse a un agujero negro y escapar con más energía de la que tenía inicialmente. Entonces, ¿podríamos utilizar un agujero negro como si fuera una gigantesca batería cósmica? En la &lt;em&gt;napkin&lt;/em&gt; de hoy estudiaremos este mecanismo que se basa en una poderosa idea: &lt;strong&gt;la gravedad puede permitirnos transferir energía desde un cuerpo masivo hacia otro mucho más pequeño&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="asistencia-gravitacional"&gt;Asistencia gravitacional&lt;a class="headerlink" href="#asistencia-gravitacional" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="como-acelerar-una-nave-sin-encender-los-motores"&gt;¿Cómo acelerar una nave sin encender los motores?&lt;a class="headerlink" href="#como-acelerar-una-nave-sin-encender-los-motores" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Supongamos que una nave espacial se aproxima a Júpiter. Debido a la atracción gravitatoria del planeta, la velocidad de la nave aumenta a medida que se acerca. Sin embargo, cuando comienza a alejarse, la gravedad vuelve a&amp;nbsp;frenarla. &lt;/p&gt;
+&lt;p&gt;Si despreciamos otros cuerpos celestes y consideramos que Júpiter permanece prácticamente inmóvil, la conservación de la energía mecánica nos dice&amp;nbsp;que:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E=\frac12 mv^2-\frac{GMm}{r}=\text{constante},
+$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(m\)&lt;/span&gt; es la masa de la&amp;nbsp;nave, &lt;span class="math"&gt;\(M\)&lt;/span&gt; la masa de&amp;nbsp;Júpiter, &lt;span class="math"&gt;\(r\)&lt;/span&gt; la distancia entre ambos&amp;nbsp;cuerpos, &lt;span class="math"&gt;\(v\)&lt;/span&gt; la velocidad de la nave&amp;nbsp;y &lt;span class="math"&gt;\(G\)&lt;/span&gt; la constante de gravitación&amp;nbsp;universal.&lt;/p&gt;
+&lt;p&gt;Cuando la nave está suficientemente lejos del planeta, el término gravitatorio tiende a cero. Por tanto, si inicialmente se aproxima con&amp;nbsp;rapidez &lt;span class="math"&gt;\(v_i\)&lt;/span&gt; y finalmente se aleja con&amp;nbsp;rapidez &lt;span class="math"&gt;\(v_f\)&lt;/span&gt;, necesariamente&amp;nbsp;tendremos:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\frac12 mv_i^2=\frac12 mv_f^2,
+$$&lt;/div&gt;
+&lt;p&gt;es&amp;nbsp;decir:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{v_i=v_f.}
+$$&lt;/div&gt;
+&lt;p&gt;Parece que no hemos conseguido nada. La nave se aproxima al planeta, acelera, gira alrededor de él, vuelve a frenarse y termina alejándose con la misma rapidez con la que llegó. ¿Dónde está entonces el truco? La clave consiste en recordar algo que hemos pasado por alto: &lt;strong&gt;Júpiter no está quieto&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Júpiter se mueve alrededor del Sol a una velocidad aproximada&amp;nbsp;de &lt;span class="math"&gt;\(13\ \mathrm{km/s}\)&lt;/span&gt;, y este movimiento es precisamente lo que permite que nuestra nave gane&amp;nbsp;energía.&lt;/p&gt;
+&lt;h3 id="todo-depende-del-sistema-de-referencia"&gt;Todo depende del sistema de referencia&lt;a class="headerlink" href="#todo-depende-del-sistema-de-referencia" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Para simplificar los cálculos, consideremos un sistema de referencia heliocéntrico, es decir, uno en el que el Sol permanece aproximadamente en reposo.&amp;nbsp;Llamemos &lt;span class="math"&gt;\(\mathbf V\)&lt;/span&gt; a la velocidad orbital de Júpiter respecto al Sol&amp;nbsp;y &lt;span class="math"&gt;\(\mathbf v_i\)&lt;/span&gt; a la velocidad inicial de nuestra nave en ese mismo sistema de&amp;nbsp;referencia.&lt;/p&gt;
+&lt;p&gt;La velocidad de la nave respecto a Júpiter&amp;nbsp;será:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\mathbf u_i=\mathbf v_i-\mathbf V.
+$$&lt;/div&gt;
+&lt;p&gt;Después del encuentro gravitacional, la nave saldrá con una nueva velocidad&amp;nbsp;relativa &lt;span class="math"&gt;\(\mathbf u_f\)&lt;/span&gt;. Como acabamos de comprobar mediante la conservación de la energía, y despreciando el minúsculo retroceso de Júpiter, se cumple&amp;nbsp;que:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+|\mathbf u_i|=|\mathbf u_f|=u.
+$$&lt;/div&gt;
+&lt;p&gt;Sin embargo, esto no implica que ambos vectores sean iguales. La gravedad de Júpiter modifica la dirección de movimiento de la nave, de modo que,&amp;nbsp;generalmente:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\mathbf u_i\neq\mathbf u_f.
+$$&lt;/div&gt;
+&lt;p&gt;Para obtener las velocidades respecto al Sol, simplemente tenemos que sumar la velocidad orbital del&amp;nbsp;planeta:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\mathbf v_i=\mathbf V+\mathbf u_i,
+$$&lt;/div&gt;
+&lt;div class="math"&gt;$$
+\mathbf v_f=\mathbf V+\mathbf u_f.
+$$&lt;/div&gt;
+&lt;p&gt;Veamos qué ocurre con la energía cinética de la&amp;nbsp;nave.&lt;/p&gt;
+&lt;p&gt;La variación de energía viene dada&amp;nbsp;por:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta E=\frac12 m|\mathbf v_f|^2-\frac12 m|\mathbf v_i|^2.
+$$&lt;/div&gt;
+&lt;p&gt;Sustituyendo las expresiones&amp;nbsp;anteriores:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta E=\frac12m\left(|\mathbf V+\mathbf u_f|^2-|\mathbf V+\mathbf u_i|^2\right).
+$$&lt;/div&gt;
+&lt;p&gt;Desarrollando los productos&amp;nbsp;escalares:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta E=\frac12m\left(2\mathbf V\cdot\mathbf u_f+|\mathbf u_f|^2-2\mathbf V\cdot\mathbf u_i-|\mathbf u_i|^2\right).
+$$&lt;/div&gt;
+&lt;p&gt;Pero sabemos&amp;nbsp;que &lt;span class="math"&gt;\(|\mathbf u_i|=|\mathbf u_f|\)&lt;/span&gt;, por lo que los términos cuadráticos se cancelan y&amp;nbsp;obtenemos:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{\Delta E=m\mathbf V\cdot(\mathbf u_f-\mathbf u_i).}
+$$&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Esta es la ecuación fundamental de la asistencia gravitacional.&lt;/strong&gt; Fijémonos en que el resultado depende del producto escalar entre la velocidad del planeta y el cambio de velocidad relativa de la nave. Por tanto, son posibles tres&amp;nbsp;situaciones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Si &lt;span class="math"&gt;\(\Delta E&amp;gt;0\)&lt;/span&gt;, la nave gana&amp;nbsp;energía.&lt;/li&gt;
+&lt;li&gt;Si &lt;span class="math"&gt;\(\Delta E&amp;lt;0\)&lt;/span&gt;, la nave pierde&amp;nbsp;energía.&lt;/li&gt;
+&lt;li&gt;Si &lt;span class="math"&gt;\(\Delta E=0\)&lt;/span&gt;, la nave no experimenta ningún cambio neto de energía&amp;nbsp;cinética.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En otras palabras, dependiendo de la geometría del encuentro, podemos utilizar un planeta tanto para acelerar como para frenar una nave espacial. Y lo más importante: todo esto puede conseguirse sin gastar&amp;nbsp;combustible.&lt;/p&gt;
+&lt;h3 id="cuanta-energia-podemos-conseguir"&gt;¿Cuánta energía podemos conseguir?&lt;a class="headerlink" href="#cuanta-energia-podemos-conseguir" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Consideremos un ejemplo sencillo en el que el movimiento se produce aproximadamente en una misma dirección. Supongamos que Júpiter se desplaza con&amp;nbsp;velocidad:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+V=13\ \mathrm{km/s}
+$$&lt;/div&gt;
+&lt;p&gt;y que una nave se aproxima con una velocidad relativa al planeta&amp;nbsp;de:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+u_i=-10\ \mathrm{km/s}.
+$$&lt;/div&gt;
+&lt;p&gt;Si la nave experimentara una desviación ideal&amp;nbsp;de &lt;span class="math"&gt;\(180^\circ\)&lt;/span&gt;, saldría&amp;nbsp;con:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+u_f=+10\ \mathrm{km/s}.
+$$&lt;/div&gt;
+&lt;p&gt;Por tanto, sus velocidades heliocéntricas&amp;nbsp;serían:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+v_i=13-10=3\ \mathrm{km/s}
+$$&lt;/div&gt;
+&lt;p&gt;y&lt;/p&gt;
+&lt;div class="math"&gt;$$
+v_f=13+10=23\ \mathrm{km/s}.
+$$&lt;/div&gt;
+&lt;p&gt;¡Hemos pasado&amp;nbsp;de &lt;span class="math"&gt;\(3\)&lt;/span&gt; a &lt;span class="math"&gt;\(23\ \mathrm{km/s}\)&lt;/span&gt; sin utilizar ningún&amp;nbsp;motor!&lt;/p&gt;
+&lt;p&gt;Para una nave&amp;nbsp;de &lt;span class="math"&gt;\(1000\ \mathrm{kg}\)&lt;/span&gt;, esto supone una ganancia de energía cinética&amp;nbsp;de:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta E=\frac12(1000)\left[(23000)^2-(3000)^2\right],
+$$&lt;/div&gt;
+&lt;p&gt;es&amp;nbsp;decir,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{\Delta E=2.6\times10^{11}\ \mathrm J.}
+$$&lt;/div&gt;
+&lt;p&gt;Para hacernos una idea, esta cantidad equivale aproximadamente a la energía liberada por unas 62 toneladas de &lt;span class="caps"&gt;TNT&lt;/span&gt;. Naturalmente, hemos considerado una situación idealizada. Una desviación exacta&amp;nbsp;de &lt;span class="math"&gt;\(180^\circ\)&lt;/span&gt; no se consigue mediante un sobrevuelo hiperbólico ordinario, y la geometría real del encuentro está limitada por el tamaño del planeta y por la distancia mínima a la que puede pasar nuestra nave. Aun así, el ejemplo ilustra perfectamente la enorme cantidad de energía que podemos obtener mediante este&amp;nbsp;procedimiento.&lt;/p&gt;
+&lt;h3 id="pero-de-donde-sale-esa-energia"&gt;Pero ¿de dónde sale esa energía?&lt;a class="headerlink" href="#pero-de-donde-sale-esa-energia" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Volvamos a la cuestión fundamental. Si la nave ha ganado energía, debe haber algún otro cuerpo que la haya perdido. Ese cuerpo es Júpiter. Durante el encuentro gravitacional, la nave no solo experimenta la atracción del planeta. Por la tercera ley de Newton, también ejerce una fuerza gravitatoria sobre él. Como consecuencia, Júpiter experimenta una variación extraordinariamente pequeña de su velocidad&amp;nbsp;orbital.&lt;/p&gt;
+&lt;p&gt;Si consideramos el sistema formado por el planeta y la nave, la conservación del momento lineal&amp;nbsp;implica:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+m\Delta\mathbf v+M\Delta\mathbf V=0,
+$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(M\)&lt;/span&gt; representa la masa del planeta. Por&amp;nbsp;tanto:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{\Delta\mathbf V=-\frac{m}{M}\Delta\mathbf v.}
+$$&lt;/div&gt;
+&lt;p&gt;Puesto que la masa de Júpiter es&amp;nbsp;aproximadamente:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+M_J=1.9\times10^{27}\ \mathrm{kg},
+$$&lt;/div&gt;
+&lt;p&gt;mientras que nuestra nave tiene una masa de&amp;nbsp;apenas &lt;span class="math"&gt;\(1000\ \mathrm{kg}\)&lt;/span&gt;, la variación de velocidad del planeta es prácticamente&amp;nbsp;imperceptible.&lt;/p&gt;
+&lt;p&gt;En nuestro ejemplo idealizado, el cambio de velocidad de la nave sería&amp;nbsp;de &lt;span class="math"&gt;\(20\ \mathrm{km/s}\)&lt;/span&gt;, por lo que la variación correspondiente de la velocidad de Júpiter tendría un módulo del orden&amp;nbsp;de:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+|\Delta V|\approx\frac{10^3}{1.9\times10^{27}}(2\times10^4)\approx10^{-20}\ \mathrm{m/s}.
+$$&lt;/div&gt;
+&lt;p&gt;Es una cantidad ridículamente pequeña. Sin embargo, puesto que Júpiter posee una masa gigantesca, una variación minúscula de su velocidad puede corresponder a una cantidad considerable de energía. En efecto, para una pequeña variación de velocidad, el cambio de energía cinética del planeta es&amp;nbsp;aproximadamente:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta E_J\approx M\mathbf V\cdot\Delta\mathbf V.
+$$&lt;/div&gt;
+&lt;p&gt;Utilizando la conservación del momento lineal,&amp;nbsp;obtenemos:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta E_J\approx-m\mathbf V\cdot\Delta\mathbf v.
+$$&lt;/div&gt;
+&lt;p&gt;Y, puesto que en la aproximación&amp;nbsp;empleada:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta\mathbf v=\mathbf u_f-\mathbf u_i,
+$$&lt;/div&gt;
+&lt;p&gt;resulta&amp;nbsp;que:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{\Delta E_J\approx-\Delta E.}
+$$&lt;/div&gt;
+&lt;p&gt;La energía ganada por la nave procede de la energía orbital del planeta. Para tener en cuenta exactamente el retroceso de Júpiter habría que resolver el problema de dos cuerpos con masa finita, pero la conclusión física sería la&amp;nbsp;misma.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;¿Podríamos frenar a Júpiter utilizando millones de naves&amp;nbsp;espaciales?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;En principio, sí. Si enviáramos suficientes naves para realizar asistencias gravitacionales que extrajeran energía de Júpiter, podríamos modificar su órbita. En la práctica, necesitaríamos un número absolutamente descomunal de encuentros para producir un efecto&amp;nbsp;apreciable.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;No obstante, la conclusión resulta fascinante: &lt;strong&gt;una asistencia gravitacional no es simplemente una forma ingeniosa de cambiar la trayectoria de una nave, sino un auténtico mecanismo de transferencia de energía entre cuerpos celestes&lt;/strong&gt;. Y si podemos extraer energía del movimiento de un planeta, ¿podríamos hacer algo parecido con un objeto cuya gravedad es tan intensa que ni siquiera la luz puede escapar de su interior? Sorprendentemente, la respuesta vuelve a ser&amp;nbsp;afirmativa.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="conclusiones"&gt;Conclusiones&lt;a class="headerlink" href="#conclusiones" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Así que ya sabéis la respuesta a la pregunta con la que comenzábamos. ¿Podemos robarle energía a un planeta? Sí, y llevamos décadas haciéndolo mediante la asistencia gravitacional. Pero podemos ir todavía más lejos: podríamos robarle energía incluso a un agujero negro. En la segunda parte veremos que la relatividad general tiene algo sorprendente que decirnos al&amp;nbsp;respecto.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class="caps"&gt;NASA&lt;/span&gt;, &lt;em&gt;Basics of Space Flight&lt;/em&gt;, capítulo 4, «Trajectories»: &lt;a href="https://science.nasa.gov/learn/basics-of-space-flight/chapter4-1/"&gt;https://science.nasa.gov/learn/basics-of-space-flight/chapter4-1/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Agencia Espacial Europea, «What are gravity assists?»: &lt;a href="https://www.esa.int/Enabling_Support/Operations/What_are_gravity_assists"&gt;https://www.esa.int/Enabling_Support/Operations/What_are_gravity_assists&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Física"/><category term="gravitación"/><category term="relatividad general"/><category term="asistencia gravitacional"/><category term="mecánica orbital"/></entry><entry><title>El rayo verde de Julio Verne</title><link href="https://napkinnotes.es/el-rayo-verde-de-julio-verne" rel="alternate"/><published>2026-10-29T00:00:00+01:00</published><updated>2026-10-29T00:00:00+01:00</updated><author><name>María Pérez Garrote</name></author><id>tag:napkinnotes.es,2026-10-29:/el-rayo-verde-de-julio-verne</id><summary type="html">&lt;p&gt;«¿Habéis observado alguna vez el sol cuando se pone en el horizonte del mar? Sí, sin duda alguna. ¿Lo habéis seguido hasta el momento en que la parte superior del disco desaparece rozando la línea de agua del horizonte? Es muy posible. Pero ¿os habéis dado cuenta del fenómeno que se produce en el preciso instante en que el astro radiante lanza su último rayo, si el cielo, limpio de nubes, es entonces de una perfecta pureza? ¡No, seguramente no! Pues bien, la primera vez que tengáis ocasión -¡se presenta tan raramente!- de hacer esta observación, no será, como podría presumirse, un rayo rojo lo que herirá la retina de vuestros ojos, sino que será un rayo verde, pero un verde maravilloso, un verde que ningún pintor puede obtener en su paleta. Un verde cuya naturaleza no se encuentra ni en los variados verdes de los vegetales, ni en las tonalidades de las aguas más límpidas. Si existe el verde en el paraíso, no puede ser más que este verde, que es, sin duda, el verdadero verde de la Esperanza.» Hoy, en Napkin Notes, hablamos del fenómeno físico del rayo verde de Julio&amp;nbsp;Verne.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#el-rayo-verde"&gt;El rayo&amp;nbsp;verde&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#del-mito-a-la-fisica"&gt;Del mito a la&amp;nbsp;física&lt;/a&gt;&lt;/li&gt;
