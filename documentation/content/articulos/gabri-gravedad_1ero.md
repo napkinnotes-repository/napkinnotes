@@ -3,8 +3,7 @@ title: "¿Es posible robarle energía a un planeta?"
 author: Gabriel Sánchez Pérez
 date: 2026-11-05
 layout: articles
-status: hidden
-slug: prueba-gabri1
+status: published
 category: Física
 tags:
   - gravitación
