@@ -1,7 +1,7 @@
 ---
 title: "El okupa que vive dentro de tus células"
 author: "Lauren García Chávez"
-date: 2026-11-03
+date: 2026-11-19
 layout: articles
 slug: prueba-lauren
 status: hidden
