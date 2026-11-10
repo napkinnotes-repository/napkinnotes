@@ -76,6 +76,8 @@ Si esperabas una respuesta definitiva a la pregunta de si los virus están vivos
 
 ## Referencias
 
+**Imagen de portada:** «Phage.jpg», de Graham Beards. Fuente: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Phage.jpg). Licencia: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Imagen original sin modificaciones.
+
 <ol class="nn-references">
   <li id="ref-1">Moreira, D., &amp; López-García, P. (2009). Ten reasons to exclude viruses from the tree of life. Nature Reviews Microbiology, 7, 306–311. <a href="https://doi.org/10.1038/nrmicro2108" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/nrmicro2108</a> </li>
   <li id="ref-2">Zimmer, C. (2020). Un planeta de virus (A. Lozano, Trad.). Capitán Swing. </li>
