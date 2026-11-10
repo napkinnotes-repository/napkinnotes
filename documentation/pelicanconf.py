@@ -293,7 +293,7 @@ AUTHORS = {
     #    "articles_url": "autor/elena-calle-clemente",       
     #},
     #"Gabriel J. Gil Pérez": {
-    #    "url": "",
+    #    "url": "https://share.google/beDm2ZTxJeVw6ncxV",
     #    "role": "Colaborador",
     #    "blurb": "Gabriel J. Gil Pérez es doctor en física y nanociencias, y actualmente trabaja como investigador postdoctoral en la Universidad del Piemonte Orientale en Alessandria, Italia. Físico teórico de formación y trayectoria investigativa, en los últimos seis años ha expandido sus intereses intelectuales más allá de las fronteras disciplinares entre la física y la biología, e incluso entre la ciencia y la filosofía. Su colaboración con *Napkin Notes* es el pretexto perfecto para acelerar la digestión de ciertas ideas que de otro modo rumiaría durante años.",
     #    "avatar": "images/Gabriel-J-Gil.jpeg",
@@ -325,7 +325,8 @@ AUTHOR_BOTTOM_DYNAMIC = [
     "Gonzalo Matias Romano",
     "Alejandro Peñuela Díaz",
     "Elena Calle Clemente",
-    "Lauren García Chávez"
+    "Lauren García Chávez",
+    "Gabriel J. Gil Pérez"
 ]
 
 
