@@ -1,7 +1,7 @@
 ---
 title: "Acertijos sobre probabilidades en contextos de indexicalidad y auto-localización — Acto I"
 author: "Gabriel J. Gil Pérez"
-date: 2026- # pendiente de confirmar la fecha de publicación
+date: 2026-11-10 # pendiente de confirmar la fecha de publicación
 layout: articles
 slug: prueba-gabrielJ
 status: hidden
