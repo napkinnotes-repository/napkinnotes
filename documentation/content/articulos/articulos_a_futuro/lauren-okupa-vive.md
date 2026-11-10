@@ -12,7 +12,7 @@ tags:
   - evolución
   - origen de la vida
 summary: "¿Son los virus seres vivos? Un recorrido por sus características, las teorías sobre su origen y las pistas que ofrecen acerca de la evolución de la vida."
-image: ""
+image: "images/gabri-gravedad/Bacteriofago-infectando-real.jpeg"
 certificate: false
 ---
 
