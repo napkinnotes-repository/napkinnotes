@@ -19,7 +19,6 @@ certificate: false
 [TOC]
 
 
-## Prólogo
 
 Existen enunciados que son verdaderos o falsos dependiendo de quién los dice, dónde los dice y cuándo los dice. (Calma, calma, que nada de esto tiene que ver con el tan llevado y traído relativismo sobre la verdad. Se trata de algo mucho más mundano.) Por ejemplo, la afirmación «viví aquí el año pasado» es cierta solo si quien la pronuncia en efecto vivió en el lugar donde se pronuncia el año anterior. Nótese el contraste con expresiones como «Gabriel vivió en Alessandria en el año 2025», cuyo valor de verdad es independiente de quién, dónde y cuándo la enuncie. Por otro lado, conviene precisar que la distinción entre el valor de verdad que asumen «viví aquí el año pasado» y «Gabriel vivió en Alessandria en el año 2025» no deriva de subjetividad alguna. Que yo viviera aquí hace un año es un hecho objetivo, verificable, que usted también avalaría si se le proporcionara la evidencia relevante. De acuerdo con esos datos, afirmar que «viví aquí el año pasado» sería correcto en mi caso e incorrecto en el caso de quien visita hoy la ciudad por primera vez.
 
