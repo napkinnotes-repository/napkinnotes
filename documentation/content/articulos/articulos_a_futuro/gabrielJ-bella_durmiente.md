@@ -18,7 +18,6 @@ certificate: false
 
 [TOC]
 
-# Acertijos sobre probabilidades en contextos de indexicalidad y auto-localización
 
 ## Prólogo
 
