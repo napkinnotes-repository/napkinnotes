@@ -1,5 +1,394 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-11-05T00:00:00+01:00</updated><entry><title>¿Es posible robarle energía a un planeta?</title><link href="https://napkinnotes.es/es-posible-robarle-energia-a-un-planeta" rel="alternate"/><published>2026-11-05T00:00:00+01:00</published><updated>2026-11-05T00:00:00+01:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-11-05:/es-posible-robarle-energia-a-un-planeta</id><summary type="html">&lt;p&gt;¿Podemos utilizar la gravedad para obtener energía sin gastar combustible? Las sondas espaciales llevan décadas haciéndolo gracias a los&amp;nbsp;planetas.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-11-12T00:00:00+01:00</updated><entry><title>¿Es posible robarle energía a un agujero negro?</title><link href="https://napkinnotes.es/es-posible-robarle-energia-a-un-agujero-negro" rel="alternate"/><published>2026-11-12T00:00:00+01:00</published><updated>2026-11-12T00:00:00+01:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-11-12:/es-posible-robarle-energia-a-un-agujero-negro</id><summary type="html">&lt;p&gt;¿Podemos utilizar la gravedad para obtener energía sin gastar combustible? Ya sabemos que las sondas espaciales llevan décadas haciéndolo gracias a los planetas, pero hay algo más sorprendente todavía: la relatividad general permite extraer energía de un agujero negro en&amp;nbsp;rotación.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#el-proceso-de-penrose"&gt;El proceso de Penrose&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#puede-un-agujero-negro-perder-energia"&gt;¿Puede un agujero negro perder&amp;nbsp;energía?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#un-agujero-negro-que-arrastra-el-espacio-tiempo"&gt;Un agujero negro que arrastra el&amp;nbsp;espacio-tiempo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#la-ergosfera-una-region-de-la-que-todavia-podemos-escapar"&gt;La ergosfera: una región de la que todavía podemos&amp;nbsp;escapar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#energias-negativas-la-clave-del-proceso-de-penrose"&gt;Energías negativas: la clave del proceso de&amp;nbsp;Penrose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#el-ingenioso-experimento-de-roger-penrose"&gt;El ingenioso experimento de Roger&amp;nbsp;Penrose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#cuanta-energia-podemos-extraer"&gt;¿Cuánta energía podemos&amp;nbsp;extraer?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#de-verdad-pierde-energia-el-agujero-negro"&gt;¿De verdad pierde energía el agujero&amp;nbsp;negro?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#podemos-extraer-toda-la-energia-de-rotacion-de-un-agujero-negro"&gt;¿Podemos extraer toda la energía de rotación de un agujero&amp;nbsp;negro?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#conclusiones"&gt;Conclusiones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;En la &lt;a href="https://napkinnotes.es/prueba-gabri1"&gt;primera parte de este artículo&lt;/a&gt; vimos cómo una nave espacial puede ganar energía aprovechando el movimiento de un planeta mediante una asistencia gravitacional. En esta segunda parte veremos cómo extraer energía de un agujero negro en&amp;nbsp;rotación.&lt;/p&gt;
+&lt;h2 id="el-proceso-de-penrose"&gt;El proceso de Penrose&lt;a class="headerlink" href="#el-proceso-de-penrose" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="puede-un-agujero-negro-perder-energia"&gt;¿Puede un agujero negro perder energía?&lt;a class="headerlink" href="#puede-un-agujero-negro-perder-energia" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Los agujeros negros son probablemente los objetos más fascinantes de nuestro universo. Su campo gravitatorio es tan intenso que, una vez atravesado su horizonte de sucesos, nada puede regresar al exterior, ni siquiera la luz. Podríamos pensar, por tanto, que un agujero negro constituye una especie de prisión cósmica: todo puede entrar, pero nada puede&amp;nbsp;salir.&lt;/p&gt;
+&lt;p&gt;Sin embargo, esta afirmación no implica que sea imposible extraer energía de un agujero negro. De hecho, &lt;strong&gt;un agujero negro en rotación almacena una enorme cantidad de energía que, al menos en principio, podemos aprovechar&lt;/strong&gt;. Para comprender cómo funciona este mecanismo, primero necesitamos recordar algunas ideas de la teoría de la relatividad&amp;nbsp;general.&lt;/p&gt;
+&lt;p&gt;En 1915, Albert Einstein revolucionó nuestra comprensión de la gravedad al proponer que esta no es una fuerza convencional, sino una manifestación de la curvatura del espacio-tiempo. Los cuerpos masivos deforman la geometría que los rodea, y las partículas se mueven siguiendo las trayectorias determinadas por esa&amp;nbsp;geometría.&lt;/p&gt;
+&lt;p&gt;Las famosas ecuaciones de campo de&amp;nbsp;Einstein,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{R_{\mu\nu}-\frac12 Rg_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu},}
+$$&lt;/div&gt;
+&lt;p&gt;relacionan precisamente la geometría del espacio-tiempo, descrita por el tensor de&amp;nbsp;Ricci &lt;span class="math"&gt;\(R_{\mu\nu}\)&lt;/span&gt;, el escalar de&amp;nbsp;curvatura &lt;span class="math"&gt;\(R\)&lt;/span&gt; y el tensor&amp;nbsp;métrico &lt;span class="math"&gt;\(g_{\mu\nu}\)&lt;/span&gt;, con el contenido de materia y energía, representado&amp;nbsp;por &lt;span class="math"&gt;\(T_{\mu\nu}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Estas ecuaciones admiten distintas soluciones que describen diferentes configuraciones gravitatorias. Una de las más conocidas es la solución de Schwarzschild, que describe el espacio-tiempo exterior de un cuerpo esféricamente simétrico y sin rotación. Si dicho cuerpo es un agujero negro, su horizonte de sucesos se encuentra en el llamado radio de&amp;nbsp;Schwarzschild,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{r_s=\frac{2GM}{c^2},}
+$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(M\)&lt;/span&gt; es la masa del agujero&amp;nbsp;negro.&lt;/p&gt;
+&lt;p&gt;Pero ¿qué ocurre si el agujero negro está girando? En ese caso, necesitamos una solución más general: la &lt;strong&gt;métrica de Kerr&lt;/strong&gt;, descubierta por el matemático Roy Kerr en 1963. Y aquí es donde comienza nuestra&amp;nbsp;historia.&lt;/p&gt;
+&lt;h3 id="un-agujero-negro-que-arrastra-el-espacio-tiempo"&gt;Un agujero negro que arrastra el espacio-tiempo&lt;a class="headerlink" href="#un-agujero-negro-que-arrastra-el-espacio-tiempo" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Una de las consecuencias de la relatividad general es que un cuerpo en rotación puede arrastrar consigo el espacio-tiempo que lo rodea. Este fenómeno se conoce como &lt;em&gt;arrastre de referencia&lt;/em&gt; o &lt;em&gt;frame dragging&lt;/em&gt;. Para describir matemáticamente este fenómeno, consideremos la métrica de Kerr en coordenadas de Boyer-Lindquist. A partir de ahora utilizaremos unidades geométricas, en las&amp;nbsp;que &lt;span class="math"&gt;\(G=c=1\)&lt;/span&gt;, algo habitual en relatividad&amp;nbsp;general.&lt;/p&gt;
+&lt;p&gt;El elemento de línea viene dado&amp;nbsp;por&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\begin{aligned}
+ds^2={}&amp;amp;-\left(1-\frac{2Mr}{\Sigma}\right)dt^2
+-\frac{4Mar\sin^2\theta}{\Sigma}\,dt\,d\phi\\
+&amp;amp;+\frac{\Sigma}{\Delta}\,dr^2+\Sigma\,d\theta^2\\
+&amp;amp;+\left(r^2+a^2+\frac{2Ma^2r\sin^2\theta}{\Sigma}\right)\sin^2\theta\,d\phi^2,
+\end{aligned}
+$$&lt;/div&gt;
+&lt;p&gt;donde hemos&amp;nbsp;definido&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Sigma=r^2+a^2\cos^2\theta,
+$$&lt;/div&gt;
+&lt;div class="math"&gt;$$
+\Delta=r^2-2Mr+a^2,
+$$&lt;/div&gt;
+&lt;p&gt;y el&amp;nbsp;parámetro&lt;/p&gt;
+&lt;div class="math"&gt;$$
+a=\frac JM
+$$&lt;/div&gt;
+&lt;p&gt;representa el momento angular por unidad de masa del agujero&amp;nbsp;negro.&lt;/p&gt;
+&lt;p&gt;No os preocupéis si la expresión parece intimidante. No necesitamos estudiar todos sus términos para comprender lo que ocurre. Fijémonos únicamente en uno de&amp;nbsp;ellos:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+-\frac{4Mar\sin^2\theta}{\Sigma}\,dt\,d\phi.
+$$&lt;/div&gt;
+&lt;p&gt;Este término mezcla la coordenada&amp;nbsp;temporal &lt;span class="math"&gt;\(t\)&lt;/span&gt; con la coordenada&amp;nbsp;angular &lt;span class="math"&gt;\(\phi\)&lt;/span&gt;. Su presencia es fundamental: &lt;strong&gt;la rotación del agujero negro introduce un acoplamiento entre el tiempo y el movimiento angular&lt;/strong&gt;. En particular,&amp;nbsp;si &lt;span class="math"&gt;\(a=0\)&lt;/span&gt;, este término desaparece y recuperamos la solución de&amp;nbsp;Schwarzschild.&lt;/p&gt;
+&lt;p&gt;Pero&amp;nbsp;cuando &lt;span class="math"&gt;\(a\neq0\)&lt;/span&gt;, el espacio-tiempo posee una propiedad extraordinaria: suficientemente cerca del agujero negro, resulta imposible permanecer inmóvil respecto a un observador situado muy lejos de él. Incluso aunque encendiéramos unos motores extremadamente potentes para intentar mantenernos en una posición angular fija. Esa región recibe el nombre de &lt;strong&gt;ergosfera&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id="la-ergosfera-una-region-de-la-que-todavia-podemos-escapar"&gt;La ergosfera: una región de la que todavía podemos escapar&lt;a class="headerlink" href="#la-ergosfera-una-region-de-la-que-todavia-podemos-escapar" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Para localizar la ergosfera debemos distinguir dos&amp;nbsp;superficies.&lt;/p&gt;
+&lt;p&gt;La primera es el horizonte de sucesos, determinado por la&amp;nbsp;condición&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta=0.
+$$&lt;/div&gt;
+&lt;p&gt;Resolviendo la&amp;nbsp;ecuación&lt;/p&gt;
+&lt;div class="math"&gt;$$
+r^2-2Mr+a^2=0,
+$$&lt;/div&gt;
+&lt;p&gt;obtenemos que el horizonte exterior se encuentra&amp;nbsp;en&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{r_+=M+\sqrt{M^2-a^2}.}
+$$&lt;/div&gt;
+&lt;p&gt;La segunda superficie es el llamado &lt;em&gt;límite estático&lt;/em&gt;, que se obtiene&amp;nbsp;imponiendo&lt;/p&gt;
+&lt;div class="math"&gt;$$
+g_{tt}=0.
+$$&lt;/div&gt;
+&lt;p&gt;Como&lt;/p&gt;
+&lt;div class="math"&gt;$$
+g_{tt}=-\left(1-\frac{2Mr}{\Sigma}\right),
+$$&lt;/div&gt;
+&lt;p&gt;la condición anterior conduce&amp;nbsp;a&lt;/p&gt;
+&lt;div class="math"&gt;$$
+r^2-2Mr+a^2\cos^2\theta=0.
+$$&lt;/div&gt;
+&lt;p&gt;Por tanto, el límite estático exterior viene dado&amp;nbsp;por&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{r_{\mathrm{erg}}(\theta)=M+\sqrt{M^2-a^2\cos^2\theta}.}
+$$&lt;/div&gt;
+&lt;p&gt;La región comprendida entre ambas&amp;nbsp;superficies,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{r_+&amp;lt;r&amp;lt;r_{\mathrm{erg}}(\theta),}
+$$&lt;/div&gt;
+&lt;p&gt;es la&amp;nbsp;ergosfera.&lt;/p&gt;
+&lt;p&gt;Observemos que su tamaño depende de la&amp;nbsp;latitud &lt;span class="math"&gt;\(\theta\)&lt;/span&gt;. En los polos,&amp;nbsp;donde &lt;span class="math"&gt;\(\cos^2\theta=1\)&lt;/span&gt;, el límite estático coincide con el horizonte. En cambio, en el plano ecuatorial,&amp;nbsp;donde &lt;span class="math"&gt;\(\theta=\pi/2\)&lt;/span&gt;, encontramos&amp;nbsp;que&lt;/p&gt;
+&lt;div class="math"&gt;$$
+r_{\mathrm{erg}}\left(\frac\pi2\right)=2M.
+$$&lt;/div&gt;
+&lt;p&gt;Por consiguiente, la ergosfera se extiende más lejos del agujero negro en su región ecuatorial. &lt;strong&gt;La ergosfera se encuentra fuera del horizonte de sucesos&lt;/strong&gt;, salvo en los polos, donde ambas superficies se&amp;nbsp;tocan.&lt;/p&gt;
+&lt;p&gt;&lt;p style="text-align: center;"&gt;
+  &lt;img src="/images/gabri-gravedad/Kerr1.jpeg" alt="Imagen esquemática del horizonte de eventos del agujero negro de Kerr y su ergoesfera." style="display: block; max-width: 100%; height: auto; margin: 0 auto;"&gt;
+&lt;/p&gt;&lt;/p&gt;
+&lt;p style="text-align: center; color: var(--muted); font-size: 0.92rem;"&gt;
+  Imagen esquemática del horizonte de eventos del agujero negro de Kerr y su&amp;nbsp;ergoesfera.
+&lt;/p&gt;
+
+&lt;p&gt;Esto significa que una partícula situada en el interior de la ergosfera todavía puede escapar hacia el infinito, siempre que siga una trayectoria adecuada. No obstante, todos los observadores físicos dentro de la ergosfera están obligados a girar en el mismo sentido que el agujero negro, como consecuencia del arrastre del espacio-tiempo. Esta peculiar geometría hace posible el llamado proceso de&amp;nbsp;Penrose.&lt;/p&gt;
+&lt;h3 id="energias-negativas-la-clave-del-proceso-de-penrose"&gt;Energías negativas: la clave del proceso de Penrose&lt;a class="headerlink" href="#energias-negativas-la-clave-del-proceso-de-penrose" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;En nuestra experiencia cotidiana, la energía de una partícula libre siempre es positiva. Una partícula con&amp;nbsp;masa &lt;span class="math"&gt;\(m\)&lt;/span&gt; y&amp;nbsp;velocidad &lt;span class="math"&gt;\(v\)&lt;/span&gt;, por ejemplo, posee una energía&amp;nbsp;relativista&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E=\gamma mc^2,
+$$&lt;/div&gt;
+&lt;p&gt;donde&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\gamma=\frac{1}{\sqrt{1-v^2/c^2}}.
+$$&lt;/div&gt;
+&lt;p&gt;Esta cantidad es necesariamente positiva. ¿Cómo es posible, entonces, que existan partículas con energía negativa cerca de un agujero&amp;nbsp;negro?&lt;/p&gt;
+&lt;p&gt;La respuesta es que debemos distinguir entre la energía medida localmente por un observador y la energía conservada asociada a la simetría temporal del&amp;nbsp;espacio-tiempo.&lt;/p&gt;
+&lt;p&gt;En relatividad general, si la geometría es estacionaria, existe un campo vectorial de Killing&amp;nbsp;temporal &lt;span class="math"&gt;\(\xi^\mu\)&lt;/span&gt;, que permite definir una energía conservada para una partícula de&amp;nbsp;cuadrimomento &lt;span class="math"&gt;\(p^\mu\)&lt;/span&gt;:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{E=-p_\mu\xi^\mu.}
+$$&lt;/div&gt;
+&lt;p&gt;Esta cantidad coincide con la energía que atribuimos a la partícula desde el infinito, donde el espacio-tiempo se aproxima al de&amp;nbsp;Minkowski.&lt;/p&gt;
+&lt;p&gt;Para una trayectoria geodésica, su conservación puede demostrarse utilizando la ecuación de&amp;nbsp;Killing,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\nabla_\mu\xi_\nu+\nabla_\nu\xi_\mu=0.
+$$&lt;/div&gt;
+&lt;p&gt;En efecto,&amp;nbsp;si &lt;span class="math"&gt;\(p^\mu\)&lt;/span&gt; es el cuadrimomento de una partícula libre,&amp;nbsp;entonces&lt;/p&gt;
+&lt;div class="math"&gt;$$
+p^\nu\nabla_\nu p^\mu=0.
+$$&lt;/div&gt;
+&lt;p&gt;Por&amp;nbsp;tanto,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\begin{aligned}
+p^\nu\nabla_\nu E
+&amp;amp;=-p^\nu\nabla_\nu(p_\mu\xi^\mu)\\
+&amp;amp;=-p^\nu p^\mu\nabla_\nu\xi_\mu\\
+&amp;amp;=0,
+\end{aligned}
+$$&lt;/div&gt;
+&lt;p&gt;donde en la última igualdad hemos utilizado la simetría&amp;nbsp;de &lt;span class="math"&gt;\(p^\nu p^\mu\)&lt;/span&gt; y la antisimetría que impone la ecuación de&amp;nbsp;Killing.&lt;/p&gt;
+&lt;p&gt;Así&amp;nbsp;pues,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{E=\text{constante}}
+$$&lt;/div&gt;
+&lt;p&gt;a lo largo de la trayectoria de una partícula&amp;nbsp;libre.&lt;/p&gt;
+&lt;p&gt;Ahora bien, existe un detalle crucial. Fuera de la ergosfera, el vector de&amp;nbsp;Killing &lt;span class="math"&gt;\(\xi^\mu\)&lt;/span&gt; es de tipo temporal. Esto garantiza que la energía conservada de una partícula física dirigida hacia el futuro sea positiva. Sin embargo, dentro de la ergosfera ocurre algo extraordinario: el&amp;nbsp;vector &lt;span class="math"&gt;\(\xi^\mu\)&lt;/span&gt; se vuelve de tipo&amp;nbsp;espacial.&lt;/p&gt;
+&lt;p&gt;Por consiguiente, el&amp;nbsp;producto&lt;/p&gt;
+&lt;div class="math"&gt;$$
+-p_\mu\xi^\mu
+$$&lt;/div&gt;
+&lt;p&gt;ya no tiene por qué ser&amp;nbsp;positivo.&lt;/p&gt;
+&lt;p&gt;Es decir, &lt;strong&gt;dentro de la ergosfera pueden existir partículas con energía conservada negativa respecto al infinito&lt;/strong&gt;. Esto no significa que un observador local pueda medir una energía física negativa. La energía local de una partícula sigue siendo positiva. Lo que puede cambiar de signo es la cantidad conservada asociada a las traslaciones temporales del espacio-tiempo. Esta distinción es exactamente lo que necesitamos para extraer energía del agujero&amp;nbsp;negro.&lt;/p&gt;
+&lt;h3 id="el-ingenioso-experimento-de-roger-penrose"&gt;El ingenioso experimento de Roger Penrose&lt;a class="headerlink" href="#el-ingenioso-experimento-de-roger-penrose" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Imaginemos que enviamos una partícula hacia un agujero negro de Kerr. La partícula posee una energía&amp;nbsp;inicial &lt;span class="math"&gt;\(E_0&amp;gt;0\)&lt;/span&gt;, medida respecto al&amp;nbsp;infinito.&lt;/p&gt;
+&lt;p&gt;Supongamos que, al penetrar en la ergosfera, la partícula se desintegra en dos fragmentos, que&amp;nbsp;llamaremos &lt;span class="math"&gt;\(A\)&lt;/span&gt; y &lt;span class="math"&gt;\(B\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;La conservación del cuadrimomento exige&amp;nbsp;que&lt;/p&gt;
+&lt;div class="math"&gt;$$
+p_0^\mu=p_A^\mu+p_B^\mu.
+$$&lt;/div&gt;
+&lt;p&gt;Contrayendo con el vector de Killing temporal, obtenemos inmediatamente la conservación de la&amp;nbsp;energía:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{E_0=E_A+E_B.}
+$$&lt;/div&gt;
+&lt;p&gt;Hasta aquí no parece haber nada especial, pero ecordemos que estamos dentro de la ergosfera, donde pueden existir trayectorias de energía&amp;nbsp;negativa.&lt;/p&gt;
+&lt;p&gt;Penrose propuso que uno de los fragmentos, por&amp;nbsp;ejemplo &lt;span class="math"&gt;\(B\)&lt;/span&gt;, podría adquirir una&amp;nbsp;energía&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E_B&amp;lt;0
+$$&lt;/div&gt;
+&lt;p&gt;y caer hacia el interior del agujero&amp;nbsp;negro.&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;
+  &lt;img src="/images/gabri-gravedad/Kerr2.jpeg" alt="Esquema del proceso de Penrose." style="display: block; max-width: 100%; height: auto; margin: 0 auto;"&gt;
+&lt;/p&gt;
+&lt;p style="text-align: center; color: var(--muted); font-size: 0.92rem;"&gt;
+  Esquema del proceso de&amp;nbsp;Penrose.
+&lt;/p&gt;
+
+&lt;p&gt;En ese caso, la conservación de la energía implica&amp;nbsp;que&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E_A=E_0-E_B.
+$$&lt;/div&gt;
+&lt;p&gt;Y, puesto&amp;nbsp;que &lt;span class="math"&gt;\(E_B&amp;lt;0\)&lt;/span&gt;, necesariamente se&amp;nbsp;cumple&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{E_A&amp;gt;E_0.}
+$$&lt;/div&gt;
+&lt;p&gt;¡Acabamos de conseguir que una partícula escape con más energía de la que tenía inicialmente! El&amp;nbsp;fragmento &lt;span class="math"&gt;\(A\)&lt;/span&gt; puede regresar al infinito transportando una cantidad de energía superior a la que introdujimos&amp;nbsp;originalmente.&lt;/p&gt;
+&lt;p&gt;Por supuesto, el proceso no crea energía de la nada. La energía adicional procede de la rotación del agujero negro, que pierde masa y momento angular al absorber el fragmento de energía negativa. Este es el &lt;strong&gt;proceso de Penrose&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id="cuanta-energia-podemos-extraer"&gt;¿Cuánta energía podemos extraer?&lt;a class="headerlink" href="#cuanta-energia-podemos-extraer" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Para cuantificar la ganancia podemos definir la eficiencia del proceso&amp;nbsp;como&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\eta=\frac{E_A-E_0}{E_0}.
+$$&lt;/div&gt;
+&lt;p&gt;Utilizando la conservación de la&amp;nbsp;energía,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E_A-E_0=-E_B,
+$$&lt;/div&gt;
+&lt;p&gt;obtenemos&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{\eta=-\frac{E_B}{E_0}.}
+$$&lt;/div&gt;
+&lt;p&gt;Como &lt;span class="math"&gt;\(E_B&amp;lt;0\)&lt;/span&gt;, la eficiencia es&amp;nbsp;positiva.&lt;/p&gt;
+&lt;p&gt;En el proceso original de Penrose, considerando la desintegración de una partícula en dos fragmentos y un agujero negro de Kerr en rotación extrema, la eficiencia máxima&amp;nbsp;es&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{\eta_{\max}=\frac{\sqrt2-1}{2}\approx0.207.}
+$$&lt;/div&gt;
+&lt;p&gt;Es decir, &lt;strong&gt;podemos obtener una ganancia de energía de hasta aproximadamente un 20,7 % respecto a la energía inicial de la partícula&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Si, por ejemplo, introdujéramos una partícula con&amp;nbsp;energía&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E_0=100\ \mathrm J,
+$$&lt;/div&gt;
+&lt;p&gt;podríamos recuperar idealmente&amp;nbsp;hasta&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E_A\approx120.7\ \mathrm J.
+$$&lt;/div&gt;
+&lt;p&gt;Los &lt;span class="math"&gt;\(20.7\ \mathrm J\)&lt;/span&gt; adicionales procederían de la energía de rotación del agujero&amp;nbsp;negro.&lt;/p&gt;
+&lt;p&gt;Este límite corresponde al proceso original bajo condiciones ideales. Existen otras variantes, como el proceso de Penrose colisional o el magnético, que pueden presentar eficiencias diferentes. Además, conseguir una desintegración con las velocidades relativas necesarias resulta extremadamente difícil desde el punto de vista&amp;nbsp;físico.&lt;/p&gt;
+&lt;h3 id="de-verdad-pierde-energia-el-agujero-negro"&gt;¿De verdad pierde energía el agujero negro?&lt;a class="headerlink" href="#de-verdad-pierde-energia-el-agujero-negro" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Podemos demostrarlo utilizando las leyes de conservación. Además de la energía, un agujero negro de Kerr posee momento&amp;nbsp;angular &lt;span class="math"&gt;\(J\)&lt;/span&gt;. Como consecuencia de la simetría axial del espacio-tiempo, existe otro vector de&amp;nbsp;Killing,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\psi^\mu=\left(\frac{\partial}{\partial\phi}\right)^\mu,
+$$&lt;/div&gt;
+&lt;p&gt;que permite definir el momento angular conservado de una&amp;nbsp;partícula:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+L=p_\mu\psi^\mu.
+$$&lt;/div&gt;
+&lt;p&gt;En coordenadas de Boyer-Lindquist, las dos cantidades conservadas toman la&amp;nbsp;forma&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E=-p_t,\qquad L=p_\phi.
+$$&lt;/div&gt;
+&lt;p&gt;Cuando una partícula de energía negativa atraviesa el horizonte, el cambio de energía del agujero negro viene dado&amp;nbsp;por&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta(Mc^2)=E_B&amp;lt;0.
+$$&lt;/div&gt;
+&lt;p&gt;Por&amp;nbsp;tanto,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{\Delta M=\frac{E_B}{c^2}&amp;lt;0.}
+$$&lt;/div&gt;
+&lt;p&gt;Es decir, la masa del agujero negro disminuye. Además, el fragmento absorbido posee momento angular negativo respecto al sentido de rotación del agujero negro, por lo&amp;nbsp;que&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Delta J=L_B&amp;lt;0.
+$$&lt;/div&gt;
+&lt;p&gt;De este modo, el agujero negro pierde tanto energía como momento angular. Existe, sin embargo, una restricción fundamental. La energía y el momento angular de la partícula absorbida deben&amp;nbsp;satisfacer&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E_B-\Omega_H L_B\geq0,
+$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(\Omega_H\)&lt;/span&gt; es la velocidad angular del&amp;nbsp;horizonte.&lt;/p&gt;
+&lt;p&gt;En unidades&amp;nbsp;geométricas,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Omega_H=\frac{a}{r_+^2+a^2}.
+$$&lt;/div&gt;
+&lt;p&gt;Esta desigualdad garantiza que el proceso es compatible con las propiedades físicas del horizonte de sucesos y, en particular, con el teorema de aumento de su área. Puesto&amp;nbsp;que &lt;span class="math"&gt;\(E_B&amp;lt;0\)&lt;/span&gt;, también debe&amp;nbsp;cumplirse &lt;span class="math"&gt;\(L_B&amp;lt;0\)&lt;/span&gt; (tomando positivo el sentido de rotación del agujero&amp;nbsp;negro).&lt;/p&gt;
+&lt;p&gt;Por tanto, &lt;strong&gt;la extracción de energía está necesariamente acompañada de una disminución del momento angular del agujero negro&lt;/strong&gt;. En cierto sentido, estamos frenando su rotación y esto nos lleva a una última&amp;nbsp;pregunta.&lt;/p&gt;
+&lt;h3 id="podemos-extraer-toda-la-energia-de-rotacion-de-un-agujero-negro"&gt;¿Podemos extraer toda la energía de rotación de un agujero negro?&lt;a class="headerlink" href="#podemos-extraer-toda-la-energia-de-rotacion-de-un-agujero-negro" title="Permanent link"&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Un agujero negro de Kerr posee una cantidad de energía asociada a su momento angular. Para estudiar cuánta energía podemos extraer, es útil introducir el concepto de &lt;em&gt;masa irreducible&lt;/em&gt;, &lt;span class="math"&gt;\(M_{\mathrm{irr}}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Esta cantidad está relacionada con el&amp;nbsp;área &lt;span class="math"&gt;\(A\)&lt;/span&gt; del horizonte de sucesos&amp;nbsp;mediante&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{A=\frac{16\pi G^2}{c^4}M_{\mathrm{irr}}^2.}
+$$&lt;/div&gt;
+&lt;p&gt;El teorema del área de Hawking establece que, bajo las hipótesis clásicas habituales, el área total de los horizontes de sucesos no puede disminuir. En consecuencia, la masa irreducible de un agujero negro no puede reducirse mediante un proceso clásico de extracción de&amp;nbsp;energía.&lt;/p&gt;
+&lt;p&gt;Para un agujero negro de Kerr, la masa irreducible viene dada&amp;nbsp;por&lt;/p&gt;
+&lt;div class="math"&gt;$$
+M_{\mathrm{irr}}=M\sqrt{\frac{1+\sqrt{1-\chi^2}}{2}},
+$$&lt;/div&gt;
+&lt;p&gt;donde&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\chi=\frac{cJ}{GM^2}
+$$&lt;/div&gt;
+&lt;p&gt;es el parámetro adimensional de rotación, que&amp;nbsp;satisface&lt;/p&gt;
+&lt;div class="math"&gt;$$
+0\leq|\chi|\leq1.
+$$&lt;/div&gt;
+&lt;p&gt;En el caso de un agujero negro sin&amp;nbsp;rotación, &lt;span class="math"&gt;\(\chi=0\)&lt;/span&gt;,&amp;nbsp;obtenemos&lt;/p&gt;
+&lt;div class="math"&gt;$$
+M_{\mathrm{irr}}=M.
+$$&lt;/div&gt;
+&lt;p&gt;Por tanto, no existe energía de rotación disponible para ser&amp;nbsp;extraída.&lt;/p&gt;
+&lt;p&gt;En cambio, para un agujero negro en rotación&amp;nbsp;extrema, &lt;span class="math"&gt;\(|\chi|=1\)&lt;/span&gt;, resulta&amp;nbsp;que&lt;/p&gt;
+&lt;div class="math"&gt;$$
+M_{\mathrm{irr}}=\frac M{\sqrt2}.
+$$&lt;/div&gt;
+&lt;p&gt;La cantidad máxima de energía que podríamos extraer, suponiendo un proceso ideal reversible que mantuviera constante la masa irreducible,&amp;nbsp;sería&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E_{\mathrm{ext}}=(M-M_{\mathrm{irr}})c^2.
+$$&lt;/div&gt;
+&lt;p&gt;En el caso&amp;nbsp;extremo,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+E_{\mathrm{ext}}=\left(1-\frac1{\sqrt2}\right)Mc^2.
+$$&lt;/div&gt;
+&lt;p&gt;Es&amp;nbsp;decir,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{E_{\mathrm{ext}}\approx0.293Mc^2.}
+$$&lt;/div&gt;
+&lt;p&gt;¡Hasta un &lt;strong&gt;29,3 % de la energía total asociada a la masa de un agujero negro en rotación extrema&lt;/strong&gt; podría extraerse, en principio, aprovechando su&amp;nbsp;rotación!&lt;/p&gt;
+&lt;p&gt;Conviene distinguir este porcentaje del 20,7 % que hemos obtenido anteriormente. El primero es el límite ideal de energía rotacional total disponible en un agujero negro extremo; el segundo corresponde a la ganancia máxima en un único evento del proceso original de Penrose, bajo las condiciones especificadas. No son dos eficiencias del mismo&amp;nbsp;tipo.&lt;/p&gt;
+&lt;p&gt;Para apreciar la magnitud del resultado, consideremos un agujero negro con una masa igual a diez veces la masa del&amp;nbsp;Sol,&lt;/p&gt;
+&lt;div class="math"&gt;$$
+M=10M_\odot.
+$$&lt;/div&gt;
+&lt;p&gt;Como&lt;/p&gt;
+&lt;div class="math"&gt;$$
+M_\odot\approx1.99\times10^{30}\ \mathrm{kg},
+$$&lt;/div&gt;
+&lt;p&gt;tenemos&lt;/p&gt;
+&lt;div class="math"&gt;$$
+Mc^2\approx1.79\times10^{48}\ \mathrm J.
+$$&lt;/div&gt;
+&lt;p&gt;Por tanto, la energía rotacional máxima extraíble sería&amp;nbsp;aproximadamente&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\boxed{E_{\mathrm{ext}}\approx5.2\times10^{47}\ \mathrm J.}
+$$&lt;/div&gt;
+&lt;p&gt;Una cantidad extraordinaria. Naturalmente, esto no significa que podamos construir una central energética alrededor de un agujero negro y recuperar fácilmente toda esa energía. Estamos hablando de un límite teórico; los procesos físicos reales presentan restricciones adicionales. Pero el resultado es inequívoco: &lt;strong&gt;la relatividad general permite extraer energía de rotación de un agujero negro sin violar ninguna ley de conservación&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="conclusiones"&gt;Conclusiones&lt;a class="headerlink" href="#conclusiones" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Hemos comenzado nuestro viaje con una nave espacial que se acerca a Júpiter y hemos terminado explorando una de las regiones más extremas del universo: la ergosfera de un agujero negro en rotación. A primera vista, la asistencia gravitacional y el proceso de Penrose parecen fenómenos completamente distintos. El primero puede explicarse mediante la mecánica newtoniana, mientras que el segundo requiere recurrir a la geometría del espacio-tiempo descrita por la relatividad&amp;nbsp;general.&lt;/p&gt;
+&lt;p&gt;Sin embargo, existe una conexión conceptual entre ambos. En una asistencia gravitacional, una nave puede ganar energía a costa de modificar ligeramente el movimiento orbital de un planeta. En el proceso de Penrose, una partícula puede escapar de la ergosfera con más energía de la que tenía inicialmente, siempre que otra partícula con energía conservada negativa sea absorbida por el agujero negro. La energía adicional procede de la rotación del propio agujero negro. En los dos casos, la conservación de la energía permanece&amp;nbsp;intacta.&lt;/p&gt;
+&lt;p&gt;Y es que &lt;strong&gt;extraer energía de un sistema gravitatorio no significa crear energía, sino encontrar una manera de transferirla&lt;/strong&gt;. Esta es precisamente una de las ideas más hermosas de la física: mecanismos que, a primera vista, parecen imposibles terminan siendo consecuencias perfectamente legítimas de sus leyes&amp;nbsp;fundamentales.&lt;/p&gt;
+&lt;p&gt;Así que ya sabéis la respuesta a las preguntas con las que comenzábamos. ¿Podemos robarle energía a un planeta? Sí, y llevamos décadas haciéndolo. ¿Podemos robársela a un agujero negro? También, al menos en principio, y la relatividad general nos explica exactamente cómo. La gravedad no nos regala energía, pero, si sabemos aprovecharla, puede ayudarnos a conseguirla de los lugares más insospechados del&amp;nbsp;universo.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Schnittman, &lt;span class="caps"&gt;J. D.&lt;/span&gt;(2018), &lt;em&gt;The Collisional Penrose Process&lt;/em&gt;, &lt;em&gt;General Relativity and Gravitation&lt;/em&gt;, 50: &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6894168/"&gt;https://pmc.ncbi.nlm.nih.gov/articles/&lt;span class="caps"&gt;PMC6894168&lt;/span&gt;/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Stuchlík, Z., Kološ, M. y Tursunov, A. (2021), «Penrose Process: Its Variants and Astrophysical Applications», &lt;em&gt;Universe&lt;/em&gt; 7(11), 416: &lt;a href="https://www.mdpi.com/2218-1997/7/11/416"&gt;https://www.mdpi.com/2218-1997/7/11/416&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Christodoulou, D. (1970), «Reversible and Irreversible Transformations in Black-Hole Physics», &lt;em&gt;Physical Review Letters&lt;/em&gt;&amp;nbsp;25.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Física"/><category term="gravitación"/><category term="relatividad general"/><category term="agujeros negros"/><category term="asistencia gravitacional"/></entry><entry><title>¿Es posible robarle energía a un planeta?</title><link href="https://napkinnotes.es/es-posible-robarle-energia-a-un-planeta" rel="alternate"/><published>2026-11-05T00:00:00+01:00</published><updated>2026-11-05T00:00:00+01:00</updated><author><name>Gabriel Sánchez Pérez</name></author><id>tag:napkinnotes.es,2026-11-05:/es-posible-robarle-energia-a-un-planeta</id><summary type="html">&lt;p&gt;¿Podemos utilizar la gravedad para obtener energía sin gastar combustible? Las sondas espaciales llevan décadas haciéndolo gracias a los&amp;nbsp;planetas.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#asistencia-gravitacional"&gt;Asistencia gravitacional&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#como-acelerar-una-nave-sin-encender-los-motores"&gt;¿Cómo acelerar una nave sin encender los&amp;nbsp;motores?&lt;/a&gt;&lt;/li&gt;
