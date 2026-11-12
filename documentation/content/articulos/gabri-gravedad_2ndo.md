@@ -16,7 +16,7 @@ certificate: false
 ---
 [TOC]
 
-En la [primera parte de este artículo](https://napkinnotes.es/prueba-gabri1) vimos cómo una nave espacial puede ganar energía aprovechando el movimiento de un planeta mediante una asistencia gravitacional. En esta segunda parte veremos cómo extraer energía de un agujero negro en rotación.
+En la [primera parte de este artículo](https://napkinnotes.es/es-posible-robarle-energia-a-un-planeta) vimos cómo una nave espacial puede ganar energía aprovechando el movimiento de un planeta mediante una asistencia gravitacional. En esta segunda parte veremos cómo extraer energía de un agujero negro en rotación.
 
 ## El proceso de Penrose
 
