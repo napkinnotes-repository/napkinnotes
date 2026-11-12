@@ -3,8 +3,7 @@ title: "¿Es posible robarle energía a un agujero negro?"
 author: Gabriel Sánchez Pérez
 date: 2026-11-12
 layout: articles
-status: hidden
-slug: prueba-gabri2
+status: published
 category: Física
 tags:
   - gravitación
