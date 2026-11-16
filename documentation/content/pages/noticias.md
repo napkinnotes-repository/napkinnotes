@@ -31,7 +31,7 @@ noticias:
 
   - fecha: "2026-11-12"
     titulo: "Ruchika y Diego participan en la misión Euclid"
-    imagen: "images/noticias/4-euclid-ews-dr1-northpr-m81ngc3077-r3-equ-16k9k-4k.jpeg"
+    imagen: "images/noticias/4-euclid-ews-dr1-northpr-m81ngc3077-r3-equ-16k9k.451bd469.jpeg"
     link: "https://comunicacion.usal.es/mision-euclid-con-participacion-universidad-salamanca-sienta-las-bases-para-mayor-mapa-3d-del"
     texto: >-
       La misión Euclid de la Agencia Espacial Europea publica su primer gran conjunto de datos, sentando las bases
