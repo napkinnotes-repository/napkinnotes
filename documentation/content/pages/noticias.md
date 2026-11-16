@@ -31,13 +31,16 @@ noticias:
 
   - fecha: "2026-11-12"
     titulo: "Dos miembros de Napkin Notes participan en la misión Euclid"
+    imagen: "images/noticias/euclid-m81.jpg"
     link: "https://comunicacion.usal.es/mision-euclid-con-participacion-universidad-salamanca-sienta-las-bases-para-mayor-mapa-3d-del"
     texto: >-
       La misión Euclid de la Agencia Espacial Europea publica su primer gran
       conjunto de datos, sentando las bases para construir el mayor mapa 3D
       del universo. En su explotación científica participan Ruchika y
       Diego Martín González, miembros de Napkin Notes e investigadores
-      de la Universidad de Salamanca.
+      de la Universidad de Salamanca, junto con Fernando Atrio-Barandela.
+      ¡Enhorabuena a nuestros compañeros!
+      Imagen: ESA/Euclid/Euclid Consortium/NASA, J.-C. Cuillandre y E. Bertin (CC BY-SA 3.0 IGO).
 # ============================================================
 # EVENTOS
 # ============================================================
