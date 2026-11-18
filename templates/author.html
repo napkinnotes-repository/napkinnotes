@@ -112,7 +112,7 @@ Artículos escritos por {{ author }} en {{ SITENAME|striptags|e }}.
       </article>
     {% endfor %}
   </div>
-  {% else %}
+  {% elif not (hide_empty_articles|default(false)) %}
     <p>No hay artículos para mostrar.</p>
   {% endif %}
 </div>
