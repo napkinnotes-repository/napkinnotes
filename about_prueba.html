@@ -353,27 +353,9 @@
 }
 
 .nn-team-section__header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 24px;
     margin-bottom: 22px;
     padding: 0 2px 14px;
     border-bottom: 1px solid var(--line);
-}
-
-.nn-team-section__heading {
-    min-width: 0;
-}
-
-.nn-team-section__eyebrow {
-    display: block;
-    margin-bottom: 5px;
-    color: var(--satinsheengold);
-    font-size: .76rem;
-    font-weight: 800;
-    letter-spacing: .14em;
-    text-transform: uppercase;
 }
 
 .nn-team-section__title {
@@ -381,25 +363,6 @@
     color: var(--richcarmine);
     font-size: clamp(2rem, 4vw, 2.8rem);
     line-height: 1;
-}
-
-.nn-team-section__description {
-    margin: 8px 0 0;
-    color: var(--muted);
-    line-height: 1.55;
-}
-
-.nn-team-section__count {
-    flex: 0 0 auto;
-    padding: 8px 13px;
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    background: var(--paper);
-    color: var(--richcarmine);
-    font-size: .78rem;
-    font-weight: 800;
-    letter-spacing: .08em;
-    text-transform: uppercase;
 }
 
 .nn-squad-grid.nn-team-grid {
@@ -421,8 +384,6 @@
     }
 
     .nn-team-section__header {
-        align-items: flex-start;
-        gap: 12px;
         margin-bottom: 18px;
     }
 
@@ -444,21 +405,6 @@
 }
 
 @media (max-width: 420px) {
-    .nn-team-section__header {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
-        gap: 10px;
-    }
-
-    .nn-team-section__description {
-        font-size: .92rem;
-    }
-
-    .nn-team-section__count {
-        padding: 7px 10px;
-        font-size: .68rem;
-    }
-
     .nn-squad-grid.nn-team-grid {
         gap: 10px !important;
     }
@@ -515,14 +461,7 @@
 
     <section class="nn-team-section" aria-labelledby="nnEditorialTitle">
         <div class="nn-team-section__header">
-            <div class="nn-team-section__heading">
-                <span class="nn-team-section__eyebrow">Napkin Notes</span>
-                <h2 class="nn-team-section__title" id="nnEditorialTitle">Equipo editorial</h2>
-                <p class="nn-team-section__description">
-                    El equipo que impulsa, edita y da forma a cada publicación.
-                </p>
-            </div>
-            <span class="nn-team-section__count">7 personas</span>
+            <h2 class="nn-team-section__title" id="nnEditorialTitle">Equipo editorial</h2>
         </div>
 
         <div class="nn-squad-grid nn-team-grid" id="nnEditorialGrid">
@@ -951,14 +890,7 @@
 
     <section class="nn-team-section" aria-labelledby="nnCollaboratorsTitle">
         <div class="nn-team-section__header">
-            <div class="nn-team-section__heading">
-                <span class="nn-team-section__eyebrow">Comunidad</span>
-                <h2 class="nn-team-section__title" id="nnCollaboratorsTitle">Colaboradores</h2>
-                <p class="nn-team-section__description">
-                    Especialistas que enriquecen Napkin Notes con nuevas preguntas y perspectivas.
-                </p>
-            </div>
-            <span class="nn-team-section__count">5 personas</span>
+            <h2 class="nn-team-section__title" id="nnCollaboratorsTitle">Colaboradores</h2>
         </div>
 
         <div class="nn-squad-grid nn-team-grid" id="nnCollaboratorsGrid">
