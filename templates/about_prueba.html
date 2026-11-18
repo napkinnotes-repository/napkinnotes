@@ -1,0 +1,524 @@
+{% extends "base.html" %}
+
+{% block meta_tags_in_head %}
+{{ super() }}
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+{% endblock meta_tags_in_head %}
+
+{% block content %}
+<style>
+/* =========================================================
+   PRUEBA AVATAR ANIMADO
+   Solo afecta a autores con animated_avatar.
+   ========================================================= */
+
+.nn-player-card__media,
+.nn-player-card__expanded-media {
+    position: relative;
+}
+
+.nn-player-card__image--static,
+.nn-player-card__image--animated {
+    transition: opacity .18s ease;
+}
+
+.nn-player-card__image--animated {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Escritorio: cambia de foto a animación al hacer hover */
+@media (min-width: 981px) {
+    .nn-player-card--has-animated-avatar:hover .nn-player-card__image--static {
+        opacity: 0;
+    }
+
+    .nn-player-card--has-animated-avatar:hover .nn-player-card__image--animated {
+        opacity: 1;
+    }
+}
+
+/* Móvil: cambia al tocar y desplegar la tarjeta */
+@media (max-width: 980px) {
+    .nn-player-card--has-animated-avatar.is-mobile-open .nn-player-card__image--static {
+        opacity: 0;
+    }
+
+    .nn-player-card--has-animated-avatar.is-mobile-open .nn-player-card__image--animated {
+        opacity: 1;
+    }
+}
+   
+/* =========================================================
+   ABOUT — SOLO VERSIÓN MÓVIL
+   Escritorio queda exactamente con el comportamiento actual.
+   ========================================================= */
+
+@media (max-width: 980px) {
+
+    .nn-squad-grid {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 12px !important;
+        align-items: start;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 2px;
+        box-sizing: border-box;
+    }
+
+    .nn-player-card {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        overflow: hidden;
+        border-radius: 18px;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+
+    .nn-player-card__preview,
+    .nn-player-card__media,
+    .nn-player-card__base {
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .nn-player-card__preview,
+    .nn-player-card:hover .nn-player-card__preview {
+        display: block !important;
+        width: 100% !important;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+
+    .nn-player-card__media {
+        height: auto !important;
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
+    }
+
+    .nn-player-card__image,
+    .nn-player-card:hover .nn-player-card__image {
+        display: block;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+        transform: none !important;
+    }
+
+    .nn-player-card__base {
+        padding: 11px 8px 13px !important;
+        text-align: center;
+    }
+
+    /* En móvil, en la tarjeta compacta mostramos solo el nombre. */
+    .nn-player-card__preview .nn-player-card__role {
+        display: none !important;
+    }
+
+    .nn-player-card__preview .nn-player-card__name {
+        margin: 0 !important;
+        font-size: clamp(1.05rem, 4.5vw, 1.35rem) !important;
+        line-height: 1.08 !important;
+        text-align: center;
+    }
+
+    /* El bloque expandido original queda oculto en móvil.
+       Se usa únicamente como fuente para crear el panel desplegable. */
+    .nn-player-card > .nn-player-card__expanded,
+    .nn-player-card:hover > .nn-player-card__expanded {
+        display: none !important;
+        position: static !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-height: 0 !important;
+        max-height: none !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        transform: none !important;
+    }
+
+    /* Bio desplegada debajo de la fila pulsada. */
+    .nn-mobile-author-panel {
+        grid-column: 1 / -1;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0 0 8px;
+        padding: 20px 18px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: var(--paper);
+        box-shadow: var(--shadow);
+        animation: nn-mobile-author-open 0.22s ease;
+    }
+
+    .nn-mobile-author-panel .nn-player-card__expanded-content {
+        display: block !important;
+        padding: 0 !important;
+    }
+
+    .nn-mobile-author-panel .nn-player-card__role--hover {
+        display: block !important;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .nn-mobile-author-panel .nn-player-card__name--hover {
+        display: block !important;
+        margin: 0 0 12px !important;
+        text-align: center;
+    }
+
+    .nn-mobile-author-panel .nn-player-card__description {
+        margin-top: 0;
+    }
+
+    .nn-mobile-author-panel .nn-player-card__links {
+        margin-top: 16px;
+        justify-content: center;
+    }
+
+    .nn-player-card.is-mobile-open {
+        outline: 2px solid var(--satinsheengold);
+        outline-offset: 2px;
+    }
+
+    @keyframes nn-mobile-author-open {
+        from {
+            opacity: 0;
+            transform: translateY(-6px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+@media (max-width: 420px) {
+
+    .nn-squad-grid {
+        gap: 10px !important;
+    }
+
+    .nn-player-card__base {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .nn-mobile-author-panel {
+        padding: 18px 15px;
+    }
+}
+</style>
+
+<main class="nn-squad-page">
+
+<header class="nn-squad-hero">
+    <div class="nn-squad-hero__inner nn-squad-hero__inner--with-metrics">
+        <div class="nn-squad-hero__content">
+            <span class="nn-kicker">Equipo</span>
+            <h1 class="nn-squad-hero__title">{{ page.title }}</h1>
+            <p class="nn-squad-hero__subtitle">
+                Las personas detrás de Napkin Notes. Ciencia, edición y diseño en la misma alineación.
+            </p>
+        </div>
+
+<div class="nn-squad-hero__metrics" aria-label="Métricas de Napkin Notes">
+    <div class="nn-squad-hero__metric">
+        <strong>{{ AUTHORS|length }}</strong>
+        <span>autores</span>
+    </div>
+
+    <a class="nn-squad-hero__metric nn-squad-hero__metric--link"
+       href="{{ SITEURL }}/{{ ARCHIVES_URL }}"
+       aria-label="Ver todos los artículos">
+        <strong>{{ articles|length }}</strong>
+        <span>artículos</span>
+    </a>
+
+    <a class="nn-squad-hero__metric nn-squad-hero__metric--link"
+       href="{{ SITEURL }}/{{ EXPLORAR_URL }}"
+       aria-label="Explorar categorías y tags">
+        <strong>{{ categories|length }}</strong>
+        <span>categorías</span>
+    </a>
+</div>
+    </div>
+</header>
+
+
+
+    <section class="nn-squad-grid" id="nnSquadGrid">
+        {% for author_name, author_data in AUTHORS.items() %}
+        <article class="nn-player-card nn-player-card--expand{% if author_data.animated_avatar %} nn-player-card--has-animated-avatar{% endif %}">
+            <div
+                class="nn-player-card__preview"
+                role="button"
+                tabindex="0"
+                aria-expanded="false"
+                aria-label="Ver información de {{ author_name }}"
+            >
+                <div class="nn-player-card__media">
+                   {% if author_data.avatar %}
+<img
+    class="nn-player-card__image nn-player-card__image--static"
+    src="{{ SITEURL }}/{{ author_data.avatar }}"
+    alt="{{ author_name }}"
+>
+
+{% if author_data.animated_avatar %}
+<img
+    class="nn-player-card__image nn-player-card__image--animated"
+    src="{{ SITEURL }}/{{ author_data.animated_avatar }}"
+    alt=""
+    aria-hidden="true"
+>
+{% endif %}
+{% endif %}
+                    <div class="nn-player-card__overlay"></div>
+                </div>
+
+                <div class="nn-player-card__base">
+                    <div class="nn-player-card__role">
+                        {{ author_data.role if author_data.role else "Equipo" }}
+                    </div>
+                    <h2 class="nn-player-card__name">{{ author_name }}</h2>
+                </div>
+            </div>
+
+            <div class="nn-player-card__expanded">
+                <div class="nn-player-card__expanded-media">
+                    {% if author_data.avatar %}
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--static"
+    src="{{ SITEURL }}/{{ author_data.avatar }}"
+    alt="{{ author_name }}"
+>
+
+{% if author_data.animated_avatar %}
+<img
+    class="nn-player-card__expanded-image nn-player-card__image--animated"
+    src="{{ SITEURL }}/{{ author_data.animated_avatar }}"
+    alt=""
+    aria-hidden="true"
+>
+{% endif %}
+{% endif %}
+                </div>
+
+                <div class="nn-player-card__expanded-content">
+                    <div class="nn-player-card__role nn-player-card__role--hover">
+                        {{ author_data.role if author_data.role else "Equipo" }}
+                    </div>
+
+                    <h2 class="nn-player-card__name nn-player-card__name--hover">{{ author_name }}</h2>
+
+                    {% if author_data.blurb %}
+                    <div class="nn-player-card__description">
+                        {{ author_data.blurb }}
+                    </div>
+                    {% endif %}
+<div class="nn-player-card__links">
+    {% if author_data.url %}
+    <a class="nn-player-card__link" href="{{ author_data.url }}" target="_blank" rel="noopener noreferrer">
+        Ver perfil
+    </a>
+    {% endif %}
+
+    {% if author_data.articles_url %}
+    <a class="nn-player-card__link" href="{{ SITEURL }}/{{ author_data.articles_url }}">
+        Ver artículos
+    </a>
+    {% endif %}
+</div>
+                </div>
+            </div>
+        </article>
+        {% endfor %}
+    </section>
+
+    {% if page.content %}
+    <section class="nn-squad-extra">
+        <div class="nn-section-card">
+            {{ page.content }}
+        </div>
+    </section>
+    {% endif %}
+
+</main>
+
+<script>
+(function () {
+    "use strict";
+
+    const MOBILE_BREAKPOINT = 980;
+    const grid = document.getElementById("nnSquadGrid");
+
+    if (!grid) {
+        return;
+    }
+
+    const cards = Array.from(
+        grid.querySelectorAll(".nn-player-card")
+    );
+
+    let openCard = null;
+    let mobilePanel = null;
+
+
+    function isMobile() {
+        return window.innerWidth <= MOBILE_BREAKPOINT;
+    }
+
+
+    function getPreview(card) {
+        return card.querySelector(".nn-player-card__preview");
+    }
+
+
+    function closeMobilePanel() {
+
+        if (openCard) {
+            openCard.classList.remove("is-mobile-open");
+
+            const preview = getPreview(openCard);
+
+            if (preview) {
+                preview.setAttribute("aria-expanded", "false");
+            }
+        }
+
+        if (mobilePanel && mobilePanel.parentNode) {
+            mobilePanel.parentNode.removeChild(mobilePanel);
+        }
+
+        openCard = null;
+        mobilePanel = null;
+    }
+
+
+    function getRowEndCard(card) {
+
+        const cardIndex = cards.indexOf(card);
+
+        if (cardIndex === -1) {
+            return card;
+        }
+
+        const rowStart = Math.floor(cardIndex / 2) * 2;
+        const rowEndIndex = Math.min(
+            rowStart + 1,
+            cards.length - 1
+        );
+
+        return cards[rowEndIndex];
+    }
+
+
+    function toggleMobileCard(card) {
+
+        if (!isMobile()) {
+            return;
+        }
+
+        const expandedContent = card.querySelector(
+            ".nn-player-card__expanded-content"
+        );
+
+        if (!expandedContent) {
+            return;
+        }
+
+        const wasOpen = openCard === card;
+
+        closeMobilePanel();
+
+        if (wasOpen) {
+            return;
+        }
+
+        mobilePanel = document.createElement("div");
+        mobilePanel.className = "nn-mobile-author-panel";
+        mobilePanel.setAttribute("aria-live", "polite");
+
+        const contentClone = expandedContent.cloneNode(true);
+        mobilePanel.appendChild(contentClone);
+
+        const rowEndCard = getRowEndCard(card);
+
+        rowEndCard.insertAdjacentElement(
+            "afterend",
+            mobilePanel
+        );
+
+        card.classList.add("is-mobile-open");
+
+        const preview = getPreview(card);
+
+        if (preview) {
+            preview.setAttribute("aria-expanded", "true");
+        }
+
+        openCard = card;
+    }
+
+
+    cards.forEach(function (card) {
+
+        const preview = getPreview(card);
+
+        if (!preview) {
+            return;
+        }
+
+        preview.addEventListener("click", function (event) {
+
+            if (!isMobile()) {
+                return;
+            }
+
+            if (event.target.closest("a")) {
+                return;
+            }
+
+            toggleMobileCard(card);
+        });
+
+
+        preview.addEventListener("keydown", function (event) {
+
+            if (!isMobile()) {
+                return;
+            }
+
+            if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                toggleMobileCard(card);
+            }
+        });
+    });
+
+
+    window.addEventListener("resize", function () {
+
+        if (!isMobile()) {
+            closeMobilePanel();
+        }
+    });
+
+})();
+</script>
+
+{% endblock %}
