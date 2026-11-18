@@ -365,19 +365,6 @@
     line-height: 1;
 }
 
-.nn-squad-grid.nn-team-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-}
-
-.nn-team-grid > .nn-player-card {
-    flex: 1 1 255px;
-    width: 100%;
-    max-width: 350px;
-}
-
 @media (max-width: 980px) {
     .nn-team-section + .nn-team-section {
         margin-top: 40px;
@@ -387,34 +374,9 @@
         margin-bottom: 18px;
     }
 
-    .nn-squad-grid.nn-team-grid {
-        display: flex !important;
-        gap: 12px !important;
-        padding: 0 2px;
-    }
-
-    .nn-team-grid > .nn-player-card {
-        flex: 0 1 calc(50% - 6px);
-        width: calc(50% - 6px) !important;
-        max-width: calc(50% - 6px) !important;
-    }
-
-    .nn-team-grid > .nn-mobile-author-panel {
-        flex: 0 0 100%;
-    }
 }
 
 @media (max-width: 420px) {
-    .nn-squad-grid.nn-team-grid {
-        gap: 10px !important;
-    }
-
-    .nn-team-grid > .nn-player-card {
-        flex-basis: calc(50% - 5px);
-        width: calc(50% - 5px) !important;
-        max-width: calc(50% - 5px) !important;
-    }
-
     .nn-squad-extra .nn-section-card::before {
         inset: 0;
     }
