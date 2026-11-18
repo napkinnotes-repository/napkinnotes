@@ -383,20 +383,33 @@
         border-radius: 18px;
     }
 
+    #nnEditorialGrid .nn-player-card__preview,
+    #nnCollaboratorsGrid .nn-player-card__preview {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
     #nnEditorialGrid .nn-player-card__media,
     #nnCollaboratorsGrid .nn-player-card__media {
+        flex: 0 0 215px;
         height: 215px;
+        border-radius: 18px 18px 0 0;
     }
 
     #nnEditorialGrid .nn-player-card__base,
     #nnCollaboratorsGrid .nn-player-card__base {
-        min-height: 124px;
+        flex: 1 1 auto;
+        min-height: 152px;
         padding: 13px 12px 16px;
         box-sizing: border-box;
+        border-radius: 0 0 18px 18px;
     }
 
     #nnEditorialGrid .nn-player-card__preview .nn-player-card__role,
     #nnCollaboratorsGrid .nn-player-card__preview .nn-player-card__role {
+        display: block;
+        min-height: 45px;
         margin-bottom: 6px;
         font-size: .69rem;
         letter-spacing: .08em;
