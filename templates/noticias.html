@@ -534,6 +534,12 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
     font-weight: 700;
 }
 
+.nn-news-card__article-link:hover,
+.nn-news-card__article-link:focus {
+    color: var(--richcarmine);
+    text-decoration: underline;
+}
+
 .nn-news-empty {
     padding: 24px;
     border: 1px solid var(--line);
@@ -1024,7 +1030,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             const articleLink = document.createElement("a");
             articleLink.className = "nn-news-card__article-link";
             articleLink.href = item.articleLink;
-            articleLink.textContent = "Leer artículo relacionado";
+            articleLink.textContent = "Leer artículo relacionado en Napkin Notes";
             content.appendChild(articleLink);
         }
 
