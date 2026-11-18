@@ -98,18 +98,6 @@ eventos:
     texto: >-
       Jornada dedicada a las reservas de biosfera y a la relación entre conservación, ciencia y desarrollo sostenible.
 
-  - fecha: "2026-11-05"
-    titulo: "Día Mundial de Concienciación sobre los Tsunamis"
-    link: "https://www.un.org/en/observances/tsunami-awareness-day"
-    texto: >-
-      Día internacional para divulgar el riesgo de tsunamis, su prevención y la ciencia que permite comprenderlos.
-
-  - fecha: "2026-11-07"
-    titulo: "Día Internacional de la Física Médica"
-    link: "https://www.iomp.org/idmp/"
-    texto: >-
-      Jornada dedicada al papel de la física en el diagnóstico, la imagen médica y los tratamientos.
-
   - fecha: "2026-11-07"
     titulo: "Taller y observación astronómica en Requejo"
     link: "https://www.instagram.com/p/DegqvBqsdaY/"
@@ -118,29 +106,11 @@ eventos:
       celestes, seguido de una observación guiada del cielo en Requejo (Sanabria).
       Patrocinado por Napkin Notes.
 
-  - fecha: "2026-11-10"
-    titulo: "Día Mundial de la Ciencia para la Paz y el Desarrollo"
-    link: "https://www.unesco.org/en/days/science-peace-development"
-    texto: >-
-      Día de UNESCO dedicado al papel de la ciencia en la sociedad, la paz y el desarrollo sostenible.
-
-  - fecha: "2026-11-14"
-    titulo: "Día Mundial de la Diabetes"
-    link: "https://www.who.int/campaigns/world-diabetes-day"
-    texto: >-
-      Jornada internacional centrada en la diabetes, su prevención, investigación y tratamiento.
-
   - fecha: "2026-11-17"
     titulo: "Máximo de las Leónidas"
     link: "https://www.timeanddate.com/astronomy/meteor-shower/leonids.html"
     texto: >-
       Máximo de la lluvia de meteoros de las Leónidas, asociada al cometa Tempel-Tuttle.
-
-  - fecha: "2026-11-18"
-    titulo: "Semana Mundial de Concienciación sobre la Resistencia a los Antimicrobianos"
-    link: "https://www.who.int/campaigns/world-amr-awareness-week"
-    texto: >-
-      Comienza la semana internacional dedicada a la resistencia a los antimicrobianos y a su impacto en salud humana, animal y ambiental.
 
   - fecha: "2026-11-18"
     titulo: "La Voyager 1 alcanza un día luz de distancia de la Tierra"
@@ -162,12 +132,6 @@ eventos:
     texto: >-
       Jornada dedicada al pensamiento crítico y a la reflexión filosófica, incluida su relación con la ciencia.
 
-  - fecha: "2026-11-23"
-    titulo: "Día de Fibonacci"
-    link: "https://www.britannica.com/science/Fibonacci-number"
-    texto: >-
-      Fecha divulgativa asociada a la sucesión de Fibonacci por la escritura 11/23.
-
   - fecha: "2026-11-24"
     titulo: "Luna llena de noviembre"
     link: "https://www.timeanddate.com/moon/phases/"
@@ -180,23 +144,12 @@ eventos:
     texto: >-
       Jornada dedicada al olivo, su importancia cultural, agrícola, ambiental y biológica.
 
-  - fecha: "2026-11-27"
-    titulo: "Día Internacional de la Participación en la Ciencia para el Desarrollo Sostenible"
-    link: "https://www.unesco.org/en/days/list"
-    texto: >-
-      Jornada dedicada a promover la participación social en la ciencia y su contribución al desarrollo sostenible.
-
   - fecha: "2026-12-01"
     titulo: "Día Mundial del Sida"
     link: "https://www.who.int/campaigns/world-aids-day"
     texto: >-
       Día internacional dedicado al VIH y al sida, su prevención, investigación y tratamiento.
 
-  - fecha: "2026-12-02"
-    titulo: "Día Mundial de los Futuros"
-    link: "https://www.unesco.org/en/futures-literacy"
-    texto: >-
-      Jornada para reflexionar sobre el futuro, la anticipación y los efectos sociales de la ciencia y la tecnología.
 
   - fecha: "2026-12-05"
     titulo: "Día Mundial del Suelo"
@@ -211,11 +164,6 @@ eventos:
       Ceremonia anual de entrega de los Premios Nobel en Estocolmo (Suecia) para los premios de Física, Química, Medicina, Literatura
       y Economía de manos del Rey de Suecia, y en Oslo (Noruega) para el premio Nobel de la Paz.
 
-  - fecha: "2026-12-11"
-    titulo: "Día Internacional de las Montañas"
-    link: "https://www.un.org/en/observances/mountain-day"
-    texto: >-
-      Jornada dedicada a los ecosistemas de montaña, su biodiversidad y su papel en el clima y los recursos hídricos.
 
   - fecha: "2026-12-14"
     titulo: "Máximo de las Gemínidas"
