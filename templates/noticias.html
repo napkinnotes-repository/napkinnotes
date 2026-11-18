@@ -527,6 +527,13 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
     line-height: 1.62;
 }
 
+.nn-news-card__article-link {
+    display: inline-block;
+    margin-top: 8px;
+    color: var(--richcarmine);
+    font-weight: 700;
+}
+
 .nn-news-empty {
     padding: 24px;
     border: 1px solid var(--line);
@@ -705,6 +712,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             data-text="{{ noticia.texto|striptags|e }}"
             data-kind="news"
             data-link="{% if noticia.link %}{{ noticia.link|e }}{% endif %}"
+            data-article-link="{% if noticia.link_articulo %}{{ noticia.link_articulo|e }}{% endif %}"
             data-image="{% if noticia.imagen %}{% if noticia.imagen.startswith('http') %}{{ noticia.imagen|e }}{% else %}{{ SITEURL }}/{{ noticia.imagen|e }}{% endif %}{% endif %}"
         ></span>
         {% endfor %}
@@ -718,6 +726,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             data-text="{{ evento.texto|striptags|e }}"
             data-kind="event"
             data-link="{% if evento.link %}{{ evento.link|e }}{% endif %}"
+            data-article-link="{% if evento.link_articulo %}{{ evento.link_articulo|e }}{% endif %}"
             data-image="{% if evento.imagen %}{% if evento.imagen.startswith('http') %}{{ evento.imagen|e }}{% else %}{{ SITEURL }}/{{ evento.imagen|e }}{% endif %}{% endif %}"
         ></span>
         {% endfor %}
@@ -837,6 +846,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             text: node.dataset.text || "",
             kind: "news",
             link: node.dataset.link || "",
+            articleLink: node.dataset.articleLink || "",
             image: node.dataset.image || ""
         };
 
@@ -857,6 +867,7 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             text: node.dataset.text || "",
             kind: "event",
             link: node.dataset.link || "",
+            articleLink: node.dataset.articleLink || "",
             image: node.dataset.image || ""
         };
 
@@ -1007,6 +1018,14 @@ Noticias breves de ciencia y actualidad seleccionadas por Napkin Notes.
             text.className = "nn-news-card__text";
             text.textContent = item.text;
             content.appendChild(text);
+        }
+
+        if (item.articleLink) {
+            const articleLink = document.createElement("a");
+            articleLink.className = "nn-news-card__article-link";
+            articleLink.href = item.articleLink;
+            articleLink.textContent = "Leer artículo relacionado";
+            content.appendChild(articleLink);
         }
 
         card.appendChild(content);

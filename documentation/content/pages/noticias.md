@@ -50,6 +50,7 @@ noticias:
 #   titulo: "Nombre del evento"
 #   imagen: "images/noticias/imagen.jpeg"   # opcional
 #   link: "https://..."                      # opcional
+#   link_articulo: "https://..."             # opcional
 #   texto: >-
 #     Descripción breve del evento.
 eventos:
@@ -140,6 +141,14 @@ eventos:
     link: "https://www.who.int/campaigns/world-amr-awareness-week"
     texto: >-
       Comienza la semana internacional dedicada a la resistencia a los antimicrobianos y a su impacto en salud humana, animal y ambiental.
+
+  - fecha: "2026-11-18"
+    titulo: "La Voyager 1 alcanza un día luz de distancia de la Tierra"
+    link: "https://theconversation.com/la-sonda-voyager-i-alcanza-la-distancia-de-un-dia-luz-que-hay-alli-295779"
+    link_articulo: "https://napkinnotes.es/es-posible-robarle-energia-a-un-planeta"
+    texto: >-
+      Tras casi 50 años de viaje, la Voyager 1 alcanza una distancia aproximada de un día luz de la Tierra.
+      La sonda aprovechó las asistencias gravitatorias de Júpiter y Saturno para ganar velocidad durante su recorrido.
 
   - fecha: "2026-11-20"
     titulo: "Mercurio en máxima elongación oeste"
