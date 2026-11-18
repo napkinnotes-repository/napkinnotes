@@ -6,6 +6,94 @@
 <meta name="googlebot" content="noindex, nofollow, noarchive">
 {% endblock meta_tags_in_head %}
 
+{% macro author_card(author_name, author_data) %}
+<article class="nn-player-card nn-player-card--expand{% if author_data.animated_avatar %} nn-player-card--has-animated-avatar{% endif %}">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de {{ author_name }}"
+    >
+        <div class="nn-player-card__media">
+            {% if author_data.avatar %}
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="{{ SITEURL }}/{{ author_data.avatar }}"
+                alt="{{ author_name }}"
+            >
+
+            {% if author_data.animated_avatar %}
+            <img
+                class="nn-player-card__image nn-player-card__image--animated"
+                src="{{ SITEURL }}/{{ author_data.animated_avatar }}"
+                alt=""
+                aria-hidden="true"
+            >
+            {% endif %}
+            {% endif %}
+            <div class="nn-player-card__overlay"></div>
+        </div>
+
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                {{ author_data.role if author_data.role else "Equipo" }}
+            </div>
+            <h3 class="nn-player-card__name">{{ author_name }}</h3>
+        </div>
+    </div>
+
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            {% if author_data.avatar %}
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="{{ SITEURL }}/{{ author_data.avatar }}"
+                alt="{{ author_name }}"
+            >
+
+            {% if author_data.animated_avatar %}
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--animated"
+                src="{{ SITEURL }}/{{ author_data.animated_avatar }}"
+                alt=""
+                aria-hidden="true"
+            >
+            {% endif %}
+            {% endif %}
+        </div>
+
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                {{ author_data.role if author_data.role else "Equipo" }}
+            </div>
+
+            <h3 class="nn-player-card__name nn-player-card__name--hover">{{ author_name }}</h3>
+
+            {% if author_data.blurb %}
+            <div class="nn-player-card__description">
+                {{ author_data.blurb }}
+            </div>
+            {% endif %}
+
+            <div class="nn-player-card__links">
+                {% if author_data.url %}
+                <a class="nn-player-card__link" href="{{ author_data.url }}" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+                {% endif %}
+
+                {% if author_data.articles_url %}
+                <a class="nn-player-card__link" href="{{ SITEURL }}/{{ author_data.articles_url }}">
+                    Ver artículos
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</article>
+{% endmacro %}
+
 {% block content %}
 <style>
 /* =========================================================
@@ -221,6 +309,132 @@
         padding: 18px 15px;
     }
 }
+
+.nn-team-section + .nn-team-section {
+    margin-top: 52px;
+}
+
+.nn-team-section__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 22px;
+    padding: 0 2px 14px;
+    border-bottom: 1px solid var(--line);
+}
+
+.nn-team-section__heading {
+    min-width: 0;
+}
+
+.nn-team-section__eyebrow {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--satinsheengold);
+    font-size: .76rem;
+    font-weight: 800;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+.nn-team-section__title {
+    margin: 0;
+    color: var(--richcarmine);
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    line-height: 1;
+}
+
+.nn-team-section__description {
+    margin: 8px 0 0;
+    color: var(--muted);
+    line-height: 1.55;
+}
+
+.nn-team-section__count {
+    flex: 0 0 auto;
+    padding: 8px 13px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--paper);
+    color: var(--richcarmine);
+    font-size: .78rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.nn-squad-grid.nn-team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.nn-team-grid > .nn-player-card {
+    flex: 1 1 255px;
+    width: 100%;
+    max-width: 350px;
+}
+
+@media (max-width: 980px) {
+    .nn-team-section + .nn-team-section {
+        margin-top: 40px;
+    }
+
+    .nn-team-section__header {
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 18px;
+    }
+
+    .nn-squad-grid.nn-team-grid {
+        display: flex !important;
+        gap: 12px !important;
+        padding: 0 2px;
+    }
+
+    .nn-team-grid > .nn-player-card {
+        flex: 0 1 calc(50% - 6px);
+        width: calc(50% - 6px) !important;
+        max-width: calc(50% - 6px) !important;
+    }
+
+    .nn-team-grid > .nn-mobile-author-panel {
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .nn-team-section__header {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 10px;
+    }
+
+    .nn-team-section__description {
+        font-size: .92rem;
+    }
+
+    .nn-team-section__count {
+        padding: 7px 10px;
+        font-size: .68rem;
+    }
+
+    .nn-squad-grid.nn-team-grid {
+        gap: 10px !important;
+    }
+
+    .nn-team-grid > .nn-player-card {
+        flex-basis: calc(50% - 5px);
+        width: calc(50% - 5px) !important;
+        max-width: calc(50% - 5px) !important;
+    }
+
+    .nn-squad-extra .nn-section-card::before {
+        inset: 0;
+    }
+}
 </style>
 
 <main class="nn-squad-page">
@@ -260,93 +474,56 @@
 
 
 
-    <section class="nn-squad-grid" id="nnSquadGrid">
-        {% for author_name, author_data in AUTHORS.items() %}
-        <article class="nn-player-card nn-player-card--expand{% if author_data.animated_avatar %} nn-player-card--has-animated-avatar{% endif %}">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de {{ author_name }}"
-            >
-                <div class="nn-player-card__media">
-                   {% if author_data.avatar %}
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="{{ SITEURL }}/{{ author_data.avatar }}"
-    alt="{{ author_name }}"
->
+    {% set editor_names = [
+        "Duvier Suárez Fontanella",
+        "Gretel Quintero Angulo",
+        "David Figueruelo Hernán",
+        "Gabriel Sánchez Pérez",
+        "Paz Albares Vicente",
+        "María Pérez Garrote",
+        "David Barba González"
+    ] %}
 
-{% if author_data.animated_avatar %}
-<img
-    class="nn-player-card__image nn-player-card__image--animated"
-    src="{{ SITEURL }}/{{ author_data.animated_avatar }}"
-    alt=""
-    aria-hidden="true"
->
-{% endif %}
-{% endif %}
-                    <div class="nn-player-card__overlay"></div>
-                </div>
-
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        {{ author_data.role if author_data.role else "Equipo" }}
-                    </div>
-                    <h2 class="nn-player-card__name">{{ author_name }}</h2>
-                </div>
+    <section class="nn-team-section" aria-labelledby="nnEditorialTitle">
+        <div class="nn-team-section__header">
+            <div class="nn-team-section__heading">
+                <span class="nn-team-section__eyebrow">Napkin Notes</span>
+                <h2 class="nn-team-section__title" id="nnEditorialTitle">Equipo editorial</h2>
+                <p class="nn-team-section__description">
+                    El equipo que impulsa, edita y da forma a cada publicación.
+                </p>
             </div>
+            <span class="nn-team-section__count">{{ editor_names|length }} personas</span>
+        </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-                    {% if author_data.avatar %}
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="{{ SITEURL }}/{{ author_data.avatar }}"
-    alt="{{ author_name }}"
->
+        <div class="nn-squad-grid nn-team-grid" id="nnEditorialGrid">
+            {% for author_name in editor_names %}
+                {% if author_name in AUTHORS %}
+                    {{ author_card(author_name, AUTHORS[author_name]) }}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
 
-{% if author_data.animated_avatar %}
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--animated"
-    src="{{ SITEURL }}/{{ author_data.animated_avatar }}"
-    alt=""
-    aria-hidden="true"
->
-{% endif %}
-{% endif %}
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        {{ author_data.role if author_data.role else "Equipo" }}
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">{{ author_name }}</h2>
-
-                    {% if author_data.blurb %}
-                    <div class="nn-player-card__description">
-                        {{ author_data.blurb }}
-                    </div>
-                    {% endif %}
-<div class="nn-player-card__links">
-    {% if author_data.url %}
-    <a class="nn-player-card__link" href="{{ author_data.url }}" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-    {% endif %}
-
-    {% if author_data.articles_url %}
-    <a class="nn-player-card__link" href="{{ SITEURL }}/{{ author_data.articles_url }}">
-        Ver artículos
-    </a>
-    {% endif %}
-</div>
-                </div>
+    <section class="nn-team-section" aria-labelledby="nnCollaboratorsTitle">
+        <div class="nn-team-section__header">
+            <div class="nn-team-section__heading">
+                <span class="nn-team-section__eyebrow">Comunidad</span>
+                <h2 class="nn-team-section__title" id="nnCollaboratorsTitle">Colaboradores</h2>
+                <p class="nn-team-section__description">
+                    Especialistas que enriquecen Napkin Notes con nuevas preguntas y perspectivas.
+                </p>
             </div>
-        </article>
-        {% endfor %}
+            <span class="nn-team-section__count">{{ (AUTHORS|length) - (editor_names|length) }} personas</span>
+        </div>
+
+        <div class="nn-squad-grid nn-team-grid" id="nnCollaboratorsGrid">
+            {% for author_name, author_data in AUTHORS.items() %}
+                {% if author_name not in editor_names %}
+                    {{ author_card(author_name, author_data) }}
+                {% endif %}
+            {% endfor %}
+        </div>
     </section>
 
     {% if page.content %}
@@ -364,14 +541,16 @@
     "use strict";
 
     const MOBILE_BREAKPOINT = 980;
-    const grid = document.getElementById("nnSquadGrid");
+    const grids = Array.from(
+        document.querySelectorAll(".nn-team-grid")
+    );
 
-    if (!grid) {
+    if (!grids.length) {
         return;
     }
 
     const cards = Array.from(
-        grid.querySelectorAll(".nn-player-card")
+        document.querySelectorAll(".nn-team-grid .nn-player-card")
     );
 
     let openCard = null;
@@ -411,7 +590,16 @@
 
     function getRowEndCard(card) {
 
-        const cardIndex = cards.indexOf(card);
+        const cardGrid = card.closest(".nn-team-grid");
+
+        if (!cardGrid) {
+            return card;
+        }
+
+        const rowCards = Array.from(
+            cardGrid.querySelectorAll(".nn-player-card")
+        );
+        const cardIndex = rowCards.indexOf(card);
 
         if (cardIndex === -1) {
             return card;
@@ -420,10 +608,10 @@
         const rowStart = Math.floor(cardIndex / 2) * 2;
         const rowEndIndex = Math.min(
             rowStart + 1,
-            cards.length - 1
+            rowCards.length - 1
         );
 
-        return cards[rowEndIndex];
+        return rowCards[rowEndIndex];
     }
 
 
