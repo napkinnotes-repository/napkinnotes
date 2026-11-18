@@ -144,7 +144,7 @@ eventos:
 
   - fecha: "2026-11-18"
     titulo: "La Voyager 1 alcanza un día luz de distancia de la Tierra"
-    link: "https://theconversation.com/la-sonda-voyager-i-alcanza-la-distancia-de-un-dia-luz-que-hay-alli-295779"
+    link: "https://elpais.com/ciencia/2026-11-18/la-voyager-1-ya-esta-a-un-dia-luz-asi-se-mantiene-vivo-el-contacto-interestelar-de-la-humanidad.html"
     link_articulo: "https://napkinnotes.es/es-posible-robarle-energia-a-un-planeta"
     texto: >-
       Tras casi 50 años de viaje, la Voyager 1 alcanza una distancia aproximada de un día luz de la Tierra.
