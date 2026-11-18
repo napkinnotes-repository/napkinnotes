@@ -329,34 +329,44 @@
 
 /* Escritorio ancho: los siete miembros del equipo editorial en una fila. */
 @media (min-width: 1280px) {
-    #nnEditorialGrid {
+    #nnEditorialGrid,
+    #nnCollaboratorsGrid {
         grid-template-columns: repeat(7, minmax(0, 1fr));
         gap: 12px;
     }
 
-    #nnEditorialGrid .nn-player-card {
+    #nnCollaboratorsGrid .nn-player-card:first-child {
+        grid-column: 2;
+    }
+
+    #nnEditorialGrid .nn-player-card,
+    #nnCollaboratorsGrid .nn-player-card {
         min-height: 340px;
         border-radius: 18px;
     }
 
-    #nnEditorialGrid .nn-player-card__media {
+    #nnEditorialGrid .nn-player-card__media,
+    #nnCollaboratorsGrid .nn-player-card__media {
         height: 215px;
     }
 
-    #nnEditorialGrid .nn-player-card__base {
+    #nnEditorialGrid .nn-player-card__base,
+    #nnCollaboratorsGrid .nn-player-card__base {
         min-height: 124px;
         padding: 13px 12px 16px;
         box-sizing: border-box;
     }
 
-    #nnEditorialGrid .nn-player-card__preview .nn-player-card__role {
+    #nnEditorialGrid .nn-player-card__preview .nn-player-card__role,
+    #nnCollaboratorsGrid .nn-player-card__preview .nn-player-card__role {
         margin-bottom: 6px;
         font-size: .64rem;
         letter-spacing: .08em;
         line-height: 1.35;
     }
 
-    #nnEditorialGrid .nn-player-card__preview .nn-player-card__name {
+    #nnEditorialGrid .nn-player-card__preview .nn-player-card__name,
+    #nnCollaboratorsGrid .nn-player-card__preview .nn-player-card__name {
         font-size: 1.35rem;
         line-height: 1.02;
     }
