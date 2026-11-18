@@ -154,7 +154,7 @@
         display: grid !important;
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
         gap: 12px !important;
-        align-items: start;
+        align-items: stretch;
         width: 100%;
         max-width: 100%;
         padding: 0 2px;
@@ -182,8 +182,10 @@
 
     .nn-player-card__preview,
     .nn-player-card:hover .nn-player-card__preview {
-        display: block !important;
+        display: flex !important;
+        flex-direction: column;
         width: 100% !important;
+        height: 100%;
         opacity: 1 !important;
         transform: none !important;
     }
@@ -204,6 +206,11 @@
     }
 
     .nn-player-card__base {
+        display: flex;
+        flex: 1 1 auto;
+        align-items: center;
+        justify-content: center;
+        min-height: 62px;
         padding: 11px 8px 13px !important;
         text-align: center;
     }
