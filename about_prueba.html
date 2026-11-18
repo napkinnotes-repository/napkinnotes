@@ -347,6 +347,132 @@
         padding: 18px 15px;
     }
 }
+
+.nn-team-section + .nn-team-section {
+    margin-top: 52px;
+}
+
+.nn-team-section__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 22px;
+    padding: 0 2px 14px;
+    border-bottom: 1px solid var(--line);
+}
+
+.nn-team-section__heading {
+    min-width: 0;
+}
+
+.nn-team-section__eyebrow {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--satinsheengold);
+    font-size: .76rem;
+    font-weight: 800;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+.nn-team-section__title {
+    margin: 0;
+    color: var(--richcarmine);
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    line-height: 1;
+}
+
+.nn-team-section__description {
+    margin: 8px 0 0;
+    color: var(--muted);
+    line-height: 1.55;
+}
+
+.nn-team-section__count {
+    flex: 0 0 auto;
+    padding: 8px 13px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--paper);
+    color: var(--richcarmine);
+    font-size: .78rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.nn-squad-grid.nn-team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.nn-team-grid > .nn-player-card {
+    flex: 1 1 255px;
+    width: 100%;
+    max-width: 350px;
+}
+
+@media (max-width: 980px) {
+    .nn-team-section + .nn-team-section {
+        margin-top: 40px;
+    }
+
+    .nn-team-section__header {
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 18px;
+    }
+
+    .nn-squad-grid.nn-team-grid {
+        display: flex !important;
+        gap: 12px !important;
+        padding: 0 2px;
+    }
+
+    .nn-team-grid > .nn-player-card {
+        flex: 0 1 calc(50% - 6px);
+        width: calc(50% - 6px) !important;
+        max-width: calc(50% - 6px) !important;
+    }
+
+    .nn-team-grid > .nn-mobile-author-panel {
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .nn-team-section__header {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 10px;
+    }
+
+    .nn-team-section__description {
+        font-size: .92rem;
+    }
+
+    .nn-team-section__count {
+        padding: 7px 10px;
+        font-size: .68rem;
+    }
+
+    .nn-squad-grid.nn-team-grid {
+        gap: 10px !important;
+    }
+
+    .nn-team-grid > .nn-player-card {
+        flex-basis: calc(50% - 5px);
+        width: calc(50% - 5px) !important;
+        max-width: calc(50% - 5px) !important;
+    }
+
+    .nn-squad-extra .nn-section-card::before {
+        inset: 0;
+    }
+}
 </style>
 
 <main class="nn-squad-page">
@@ -386,703 +512,757 @@
 
 
 
-    <section class="nn-squad-grid" id="nnSquadGrid">
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de Duvier Suárez Fontanella"
+
+    <section class="nn-team-section" aria-labelledby="nnEditorialTitle">
+        <div class="nn-team-section__header">
+            <div class="nn-team-section__heading">
+                <span class="nn-team-section__eyebrow">Napkin Notes</span>
+                <h2 class="nn-team-section__title" id="nnEditorialTitle">Equipo editorial</h2>
+                <p class="nn-team-section__description">
+                    El equipo que impulsa, edita y da forma a cada publicación.
+                </p>
+            </div>
+            <span class="nn-team-section__count">7 personas</span>
+        </div>
+
+        <div class="nn-squad-grid nn-team-grid" id="nnEditorialGrid">
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de Duvier Suárez Fontanella"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/duvier.png"
+                alt="Duvier Suárez Fontanella"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/duvier.png"
-    alt="Duvier Suárez Fontanella"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+            <div class="nn-player-card__overlay"></div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Creador, Desarrollador Web
-                    </div>
-                    <h2 class="nn-player-card__name">Duvier Suárez Fontanella</h2>
-                </div>
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Creador, Desarrollador Web
             </div>
+            <h3 class="nn-player-card__name">Duvier Suárez Fontanella</h3>
+        </div>
+    </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/duvier.png"
-    alt="Duvier Suárez Fontanella"
->
-
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Creador, Desarrollador Web
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">Duvier Suárez Fontanella</h2>
-
-                    <div class="nn-player-card__description">
-                        Físico teórico y curioso incorregible, dedicado a rastrear las leyes secretas que gobiernan tanto al cosmos como a los detalles más triviales de la vida diaria. Sus textos buscan lo mismo que la antigua Fundación: preservar el conocimiento, iluminar lo oculto y demostrar que incluso en una servilleta puede comenzar una nueva era científica.
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://produccioncientifica.usal.es/investigadores/819473/detalle" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/duvier-suarez-fontanella">
-        Ver artículos
-    </a>
-</div>
-                </div>
-            </div>
-        </article>
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de Gabriel Sánchez Pérez"
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/duvier.png"
+                alt="Duvier Suárez Fontanella"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/gabriel.jpeg"
-    alt="Gabriel Sánchez Pérez"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Editor, Responsable de Redes Sociales
-                    </div>
-                    <h2 class="nn-player-card__name">Gabriel Sánchez Pérez</h2>
-                </div>
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Creador, Desarrollador Web
             </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/gabriel.jpeg"
-    alt="Gabriel Sánchez Pérez"
->
+            <h3 class="nn-player-card__name nn-player-card__name--hover">Duvier Suárez Fontanella</h3>
 
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Editor, Responsable de Redes Sociales
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">Gabriel Sánchez Pérez</h2>
-
-                    <div class="nn-player-card__description">
-                        Gabriel es profesor e investigador del Departamento de Matemática Aplicada de la Universidad Pontificia de Comillas, doctor en física teórica, y un explorador obsesionado con la arquitectura matemática que sostiene el tejido del universo. En sus textos, se propone un desafío constante: traducir la complejidad de la física y la geometría a un lenguaje accesible, sin sacrificar ni un ápice de elegancia ni de rigor. Su enfoque busca desentrañar cómo las leyes fundamentales dan forma a nuestra realidad, convirtiendo abstracciones matemáticas en puentes hacia una comprensión profunda de la naturaleza.
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://www.linkedin.com/in/gasape21/" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/gabriel-sanchez-perez">
-        Ver artículos
-    </a>
-</div>
-                </div>
+            <div class="nn-player-card__description">
+                Físico teórico y curioso incorregible, dedicado a rastrear las leyes secretas que gobiernan tanto al cosmos como a los detalles más triviales de la vida diaria. Sus textos buscan lo mismo que la antigua Fundación: preservar el conocimiento, iluminar lo oculto y demostrar que incluso en una servilleta puede comenzar una nueva era científica.
             </div>
-        </article>
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de David Figueruelo Hernán"
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://produccioncientifica.usal.es/investigadores/819473/detalle" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/duvier-suarez-fontanella">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de Gretel Quintero Angulo"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/gretel.png"
+                alt="Gretel Quintero Angulo"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/david.jpg"
-    alt="David Figueruelo Hernán"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+            <div class="nn-player-card__overlay"></div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Editor, Desarrollador Web Jefe
-                    </div>
-                    <h2 class="nn-player-card__name">David Figueruelo Hernán</h2>
-                </div>
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Editora Jefa
             </div>
+            <h3 class="nn-player-card__name">Gretel Quintero Angulo</h3>
+        </div>
+    </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/david.jpg"
-    alt="David Figueruelo Hernán"
->
-
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Editor, Desarrollador Web Jefe
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">David Figueruelo Hernán</h2>
-
-                    <div class="nn-player-card__description">
-                        Doctor en cosmología que busca comprender el universo y el rol de la materia y energía oscuras en él. Interesado las ecuaciones y las preguntas fundamentales: qué significa entender en física y qué es  <strong>verdad</strong> al observar solo una fracción mínima del cosmos. Trabaja interpretando las pistas que el universo nos deja en forma de datos, intentando averiguar qué historias encajan con ellas y cuáles no. Financiación: Personal investigador doctor de la UPV/EHU (2024).
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://inspirehep.net/authors/1869776?ui-citation-summary=true" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/david-figueruelo-hernan">
-        Ver artículos
-    </a>
-</div>
-                </div>
-            </div>
-        </article>
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de Gretel Quintero Angulo"
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/gretel.png"
+                alt="Gretel Quintero Angulo"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/gretel.png"
-    alt="Gretel Quintero Angulo"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Editora Jefa
-                    </div>
-                    <h2 class="nn-player-card__name">Gretel Quintero Angulo</h2>
-                </div>
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Editora Jefa
             </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/gretel.png"
-    alt="Gretel Quintero Angulo"
->
+            <h3 class="nn-player-card__name nn-player-card__name--hover">Gretel Quintero Angulo</h3>
 
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Editora Jefa
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">Gretel Quintero Angulo</h2>
-
-                    <div class="nn-player-card__description">
-                        Gretel observa el mundo con la precisión de quien ha sido educada en el método científico y la sensibilidad de quien encuentra en la escritura una forma de interpretar lo cotidiano. Es doctora en física, pero su curiosidad no se restringe a la ciencia: aspira a un conocimiento más amplio, construido desde la complementariedad y las relaciones entre distintas ramas del saber, donde las disciplinas no se excluyen, sino que se iluminan entre sí. Su trabajo combina pensamiento crítico y voz propia, explorando las estructuras —visibles e invisibles— que moldean nuestras vidas.
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://www.linkedin.com/in/gretel-quintero-angulo/?originalSubdomain=de" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/gretel-quintero-angulo">
-        Ver artículos
-    </a>
-</div>
-                </div>
+            <div class="nn-player-card__description">
+                Gretel observa el mundo con la precisión de quien ha sido educada en el método científico y la sensibilidad de quien encuentra en la escritura una forma de interpretar lo cotidiano. Es doctora en física, pero su curiosidad no se restringe a la ciencia: aspira a un conocimiento más amplio, construido desde la complementariedad y las relaciones entre distintas ramas del saber, donde las disciplinas no se excluyen, sino que se iluminan entre sí. Su trabajo combina pensamiento crítico y voz propia, explorando las estructuras —visibles e invisibles— que moldean nuestras vidas.
             </div>
-        </article>
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de María Pérez Garrote"
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://www.linkedin.com/in/gretel-quintero-angulo/?originalSubdomain=de" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/gretel-quintero-angulo">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de David Figueruelo Hernán"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/david.jpg"
+                alt="David Figueruelo Hernán"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/maria.jpeg"
-    alt="María Pérez Garrote"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+            <div class="nn-player-card__overlay"></div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Editora
-                    </div>
-                    <h2 class="nn-player-card__name">María Pérez Garrote</h2>
-                </div>
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Editor, Desarrollador Web Jefe
             </div>
+            <h3 class="nn-player-card__name">David Figueruelo Hernán</h3>
+        </div>
+    </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/maria.jpeg"
-    alt="María Pérez Garrote"
->
-
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Editora
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">María Pérez Garrote</h2>
-
-                    <div class="nn-player-card__description">
-                        María es estudiante de doctorado en cosmología, y le apasiona intentar desentrañar los misterios del cosmos y de la vida en general. Su trabajo consiste en estudiar los ingredientes fundamentales que conforman el universo, y de qué manera interactúan para dar lugar a las formaciones de galaxias que observamos hoy en día. Sus textos aspiran a arrojar un poco de luz sobre ese sector todavía oscuro del universo, despertando la curiosidad y el pensamiento crítico en quienes se acercan a explorarlo.
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://produccioncientifica.usal.es/investigadores/1222882/detalle" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/maria-perez-garrote">
-        Ver artículos
-    </a>
-</div>
-                </div>
-            </div>
-        </article>
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de David Barba González"
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/david.jpg"
+                alt="David Figueruelo Hernán"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/barba.jpeg"
-    alt="David Barba González"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Editor
-                    </div>
-                    <h2 class="nn-player-card__name">David Barba González</h2>
-                </div>
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Editor, Desarrollador Web Jefe
             </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/barba.jpeg"
-    alt="David Barba González"
->
+            <h3 class="nn-player-card__name nn-player-card__name--hover">David Figueruelo Hernán</h3>
 
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Editor
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">David Barba González</h2>
-
-                    <div class="nn-player-card__description">
-                        David es doctor en astrofísica, y actualmente trabaja como investigador postdoctoral en la Universidad Hebrea de Jerusalén. Es experto en metalurgia galáctica, es decir, en las propiedades de los sólidos y líquidos más densos y poderosos del universo, que se encuentran en los corazones de estrellas muertas. Su trabajo de investigación intenta entender cómo podemos aprender más de estos materiales a través de observaciones astronómicas, tanto a través de la luz como de otros mensajeros, como neutrinos u ondas gravitacionales.
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://www.linkedin.com/in/david-barba-gonz%C3%A1lez-854101215/" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/david-barba-gonzalez">
-        Ver artículos
-    </a>
-</div>
-                </div>
+            <div class="nn-player-card__description">
+                Doctor en cosmología que busca comprender el universo y el rol de la materia y energía oscuras en él. Interesado las ecuaciones y las preguntas fundamentales: qué significa entender en física y qué es  <strong>verdad</strong> al observar solo una fracción mínima del cosmos. Trabaja interpretando las pistas que el universo nos deja en forma de datos, intentando averiguar qué historias encajan con ellas y cuáles no. Financiación: Personal investigador doctor de la UPV/EHU (2024).
             </div>
-        </article>
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de Paz Albares Vicente"
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://inspirehep.net/authors/1869776?ui-citation-summary=true" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/david-figueruelo-hernan">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de Gabriel Sánchez Pérez"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/gabriel.jpeg"
+                alt="Gabriel Sánchez Pérez"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/paz.jpg"
-    alt="Paz Albares Vicente"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+            <div class="nn-player-card__overlay"></div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Editora
-                    </div>
-                    <h2 class="nn-player-card__name">Paz Albares Vicente</h2>
-                </div>
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Editor, Responsable de Redes Sociales
             </div>
+            <h3 class="nn-player-card__name">Gabriel Sánchez Pérez</h3>
+        </div>
+    </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/paz.jpg"
-    alt="Paz Albares Vicente"
->
-
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Editora
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">Paz Albares Vicente</h2>
-
-                    <div class="nn-player-card__description">
-                        Paz es doctora en Física, especializada en Física Matemática, exploradora de ecuaciones no lineales y de los patrones que de ellas emergen donde menos se esperan. Modeliza fenómenos complejos e intenta descubrir y entender qué estructuras se esconden detrás, combinando la física con herramientas y el lenguaje de las matemáticas. De mente curiosa, está convencida de que tan importante es hacerse preguntas como buscar sus respuestas. Y a veces, todo comienza con una idea escrita en la cara de una servilleta.
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://portalcientifico.upm.es/es/ipublic/researcher/338845" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/paz-albares-vicente">
-        Ver artículos
-    </a>
-</div>
-                </div>
-            </div>
-        </article>
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de Ruchika"
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/gabriel.jpeg"
+                alt="Gabriel Sánchez Pérez"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/Ruchika.jpeg"
-    alt="Ruchika"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Colaboradora
-                    </div>
-                    <h2 class="nn-player-card__name">Ruchika</h2>
-                </div>
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Editor, Responsable de Redes Sociales
             </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/Ruchika.jpeg"
-    alt="Ruchika"
->
+            <h3 class="nn-player-card__name nn-player-card__name--hover">Gabriel Sánchez Pérez</h3>
 
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Colaboradora
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">Ruchika</h2>
-
-                    <div class="nn-player-card__description">
-                        La Dra. Ruchika es investigadora postdoctoral en la Universidad de Salamanca, tras haber trabajado en la Universidad La Sapienza de Roma y en el IIT Bombay. Le fascinan las grandes preguntas sobre el universo y estudia cómo las galaxias se alejan, se agrupan y forman la estructura cósmica a gran escala. Su investigación conecta la observación del cielo con la física fundamental, explorando dos de los grandes misterios actuales: la materia oscura y la energía oscura. Lo que más la entusiasma es descubrir qué son realmente estos ingredientes invisibles del cosmos y distinguir las señales verdaderamente nuevas de los efectos producidos por errores de medición.
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://produccioncientifica.usal.es/investigadores/1999168/detalle" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/ruchika">
-        Ver artículos
-    </a>
-</div>
-                </div>
+            <div class="nn-player-card__description">
+                Gabriel es profesor e investigador del Departamento de Matemática Aplicada de la Universidad Pontificia de Comillas, doctor en física teórica, y un explorador obsesionado con la arquitectura matemática que sostiene el tejido del universo. En sus textos, se propone un desafío constante: traducir la complejidad de la física y la geometría a un lenguaje accesible, sin sacrificar ni un ápice de elegancia ni de rigor. Su enfoque busca desentrañar cómo las leyes fundamentales dan forma a nuestra realidad, convirtiendo abstracciones matemáticas en puentes hacia una comprensión profunda de la naturaleza.
             </div>
-        </article>
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de Gonzalo Matias Romano"
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://www.linkedin.com/in/gasape21/" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/gabriel-sanchez-perez">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de Paz Albares Vicente"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/paz.jpg"
+                alt="Paz Albares Vicente"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/gonzalo.jpeg"
-    alt="Gonzalo Matias Romano"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+            <div class="nn-player-card__overlay"></div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Colaborador
-                    </div>
-                    <h2 class="nn-player-card__name">Gonzalo Matias Romano</h2>
-                </div>
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Editora
             </div>
+            <h3 class="nn-player-card__name">Paz Albares Vicente</h3>
+        </div>
+    </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/gonzalo.jpeg"
-    alt="Gonzalo Matias Romano"
->
-
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Colaborador
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">Gonzalo Matias Romano</h2>
-
-                    <div class="nn-player-card__description">
-                        Nacido contrero, criado curioso, educado científico. La micología apareció como su área de especialidad y no sorprendió a nadie más que a él mismo. La experiencia con formas de vida diferentes a la nuestra lo conmueve tanto que quiere compartir ese mundo para resignificar el nuestro.
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://produccioncientifica.usal.es/investigadores/2396788/detalle" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/gonzalo-matias-romano">
-        Ver artículos
-    </a>
-</div>
-                </div>
-            </div>
-        </article>
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de Alejandro Peñuela Díaz"
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/paz.jpg"
+                alt="Paz Albares Vicente"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/alejandro.jpeg"
-    alt="Alejandro Peñuela Díaz"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Colaborador
-                    </div>
-                    <h2 class="nn-player-card__name">Alejandro Peñuela Díaz</h2>
-                </div>
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Editora
             </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/alejandro.jpeg"
-    alt="Alejandro Peñuela Díaz"
->
+            <h3 class="nn-player-card__name nn-player-card__name--hover">Paz Albares Vicente</h3>
 
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Colaborador
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">Alejandro Peñuela Díaz</h2>
-
-                    <div class="nn-player-card__description">
-                        Alejandro Peñuela Díaz es físico y matemático, y trabaja en la Universidad de Rostock, en Alemania. Aunque su día a día gira en torno a la ciencia, siempre ha tenido un gran interés por la historia.
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://orcid.org/0000-0002-5686-5973" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/alejandro-penuela-diaz">
-        Ver artículos
-    </a>
-</div>
-                </div>
+            <div class="nn-player-card__description">
+                Paz es doctora en Física, especializada en Física Matemática, exploradora de ecuaciones no lineales y de los patrones que de ellas emergen donde menos se esperan. Modeliza fenómenos complejos e intenta descubrir y entender qué estructuras se esconden detrás, combinando la física con herramientas y el lenguaje de las matemáticas. De mente curiosa, está convencida de que tan importante es hacerse preguntas como buscar sus respuestas. Y a veces, todo comienza con una idea escrita en la cara de una servilleta.
             </div>
-        </article>
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de Diego Martín González"
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://portalcientifico.upm.es/es/ipublic/researcher/338845" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/paz-albares-vicente">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de María Pérez Garrote"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/maria.jpeg"
+                alt="María Pérez Garrote"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/Diego.png"
-    alt="Diego Martín González"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+            <div class="nn-player-card__overlay"></div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Colaborador
-                    </div>
-                    <h2 class="nn-player-card__name">Diego Martín González</h2>
-                </div>
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Editora
             </div>
+            <h3 class="nn-player-card__name">María Pérez Garrote</h3>
+        </div>
+    </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/Diego.png"
-    alt="Diego Martín González"
->
-
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Colaborador
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">Diego Martín González</h2>
-
-                    <div class="nn-player-card__description">
-                        Diego Martín González es un estudiante de doctorado en la Universidad de Salamanca, está interesado en la formación de las primeras estrellas, galaxias y agujeros negros supermasivos en el universo temprano. Particularmente en la influencia de poblaciones de agujeros negros primordiales sobre estos procesos. El doctorando está financiado por con una beca del Fondo Social Europeo Plus, Programa Operativo de Castilla y León, Consejería de Educación, Junta de Castilla y León
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://gracus.usal.es/member.php?id=24" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/diego-martin-gonzalez">
-        Ver artículos
-    </a>
-</div>
-                </div>
-            </div>
-        </article>
-        <article class="nn-player-card nn-player-card--expand">
-            <div
-                class="nn-player-card__preview"
-                role="button"
-                tabindex="0"
-                aria-expanded="false"
-                aria-label="Ver información de Lauren García Chávez"
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/maria.jpeg"
+                alt="María Pérez Garrote"
             >
-                <div class="nn-player-card__media">
-<img
-    class="nn-player-card__image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/laruen.jpeg"
-    alt="Lauren García Chávez"
->
 
-                    <div class="nn-player-card__overlay"></div>
-                </div>
+        </div>
 
-                <div class="nn-player-card__base">
-                    <div class="nn-player-card__role">
-                        Colaborador
-                    </div>
-                    <h2 class="nn-player-card__name">Lauren García Chávez</h2>
-                </div>
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Editora
             </div>
 
-            <div class="nn-player-card__expanded">
-                <div class="nn-player-card__expanded-media">
-<img
-    class="nn-player-card__expanded-image nn-player-card__image--static"
-    src="https://napkinnotes.es/images/laruen.jpeg"
-    alt="Lauren García Chávez"
->
+            <h3 class="nn-player-card__name nn-player-card__name--hover">María Pérez Garrote</h3>
 
-                </div>
-
-                <div class="nn-player-card__expanded-content">
-                    <div class="nn-player-card__role nn-player-card__role--hover">
-                        Colaborador
-                    </div>
-
-                    <h2 class="nn-player-card__name nn-player-card__name--hover">Lauren García Chávez</h2>
-
-                    <div class="nn-player-card__description">
-                        Microbióloga de formación realizando un doctorado en microbiología de plantas en el IRNASA-CSIC. Su investigación se centra en la microbiología del suelo y en comprender cómo las comunidades de microorganismos que lo habitan contribuyen al funcionamiento de los ecosistemas, la fertilidad del suelo y el reciclaje de nutrientes. Trabaja en las dehesas mediterráneas, donde estudia cómo las condiciones ambientales y el manejo del suelo influyen en estas comunidades invisibles, pero esenciales para la vida. Además, le apasiona la virología y el papel de los microorganismos en la comprensión de nuestro mundo. Le interesa especialmente cómo su capacidad de adaptación y evolución permite reconstruir cambios del pasado y explorar cómo la vida puede responder a los desafíos del futuro, desde las transformaciones de los ecosistemas hasta el cambio climático.
-                    </div>
-<div class="nn-player-card__links">
-    <a class="nn-player-card__link" href="https://www.irnasa.csic.es/garcia-chavez-lauren/" target="_blank" rel="noopener noreferrer">
-        Ver perfil
-    </a>
-
-    <a class="nn-player-card__link" href="https://napkinnotes.es/autor/lauren-garcia-chavez">
-        Ver artículos
-    </a>
-</div>
-                </div>
+            <div class="nn-player-card__description">
+                María es estudiante de doctorado en cosmología, y le apasiona intentar desentrañar los misterios del cosmos y de la vida en general. Su trabajo consiste en estudiar los ingredientes fundamentales que conforman el universo, y de qué manera interactúan para dar lugar a las formaciones de galaxias que observamos hoy en día. Sus textos aspiran a arrojar un poco de luz sobre ese sector todavía oscuro del universo, despertando la curiosidad y el pensamiento crítico en quienes se acercan a explorarlo.
             </div>
-        </article>
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://produccioncientifica.usal.es/investigadores/1222882/detalle" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/maria-perez-garrote">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de David Barba González"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/barba.jpeg"
+                alt="David Barba González"
+            >
+
+            <div class="nn-player-card__overlay"></div>
+        </div>
+
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Editor
+            </div>
+            <h3 class="nn-player-card__name">David Barba González</h3>
+        </div>
+    </div>
+
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/barba.jpeg"
+                alt="David Barba González"
+            >
+
+        </div>
+
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Editor
+            </div>
+
+            <h3 class="nn-player-card__name nn-player-card__name--hover">David Barba González</h3>
+
+            <div class="nn-player-card__description">
+                David es doctor en astrofísica, y actualmente trabaja como investigador postdoctoral en la Universidad Hebrea de Jerusalén. Es experto en metalurgia galáctica, es decir, en las propiedades de los sólidos y líquidos más densos y poderosos del universo, que se encuentran en los corazones de estrellas muertas. Su trabajo de investigación intenta entender cómo podemos aprender más de estos materiales a través de observaciones astronómicas, tanto a través de la luz como de otros mensajeros, como neutrinos u ondas gravitacionales.
+            </div>
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://www.linkedin.com/in/david-barba-gonz%C3%A1lez-854101215/" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/david-barba-gonzalez">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+        </div>
+    </section>
+
+    <section class="nn-team-section" aria-labelledby="nnCollaboratorsTitle">
+        <div class="nn-team-section__header">
+            <div class="nn-team-section__heading">
+                <span class="nn-team-section__eyebrow">Comunidad</span>
+                <h2 class="nn-team-section__title" id="nnCollaboratorsTitle">Colaboradores</h2>
+                <p class="nn-team-section__description">
+                    Especialistas que enriquecen Napkin Notes con nuevas preguntas y perspectivas.
+                </p>
+            </div>
+            <span class="nn-team-section__count">5 personas</span>
+        </div>
+
+        <div class="nn-squad-grid nn-team-grid" id="nnCollaboratorsGrid">
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de Ruchika"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/Ruchika.jpeg"
+                alt="Ruchika"
+            >
+
+            <div class="nn-player-card__overlay"></div>
+        </div>
+
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Colaboradora
+            </div>
+            <h3 class="nn-player-card__name">Ruchika</h3>
+        </div>
+    </div>
+
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/Ruchika.jpeg"
+                alt="Ruchika"
+            >
+
+        </div>
+
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Colaboradora
+            </div>
+
+            <h3 class="nn-player-card__name nn-player-card__name--hover">Ruchika</h3>
+
+            <div class="nn-player-card__description">
+                La Dra. Ruchika es investigadora postdoctoral en la Universidad de Salamanca, tras haber trabajado en la Universidad La Sapienza de Roma y en el IIT Bombay. Le fascinan las grandes preguntas sobre el universo y estudia cómo las galaxias se alejan, se agrupan y forman la estructura cósmica a gran escala. Su investigación conecta la observación del cielo con la física fundamental, explorando dos de los grandes misterios actuales: la materia oscura y la energía oscura. Lo que más la entusiasma es descubrir qué son realmente estos ingredientes invisibles del cosmos y distinguir las señales verdaderamente nuevas de los efectos producidos por errores de medición.
+            </div>
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://produccioncientifica.usal.es/investigadores/1999168/detalle" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/ruchika">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de Gonzalo Matias Romano"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/gonzalo.jpeg"
+                alt="Gonzalo Matias Romano"
+            >
+
+            <div class="nn-player-card__overlay"></div>
+        </div>
+
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Colaborador
+            </div>
+            <h3 class="nn-player-card__name">Gonzalo Matias Romano</h3>
+        </div>
+    </div>
+
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/gonzalo.jpeg"
+                alt="Gonzalo Matias Romano"
+            >
+
+        </div>
+
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Colaborador
+            </div>
+
+            <h3 class="nn-player-card__name nn-player-card__name--hover">Gonzalo Matias Romano</h3>
+
+            <div class="nn-player-card__description">
+                Nacido contrero, criado curioso, educado científico. La micología apareció como su área de especialidad y no sorprendió a nadie más que a él mismo. La experiencia con formas de vida diferentes a la nuestra lo conmueve tanto que quiere compartir ese mundo para resignificar el nuestro.
+            </div>
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://produccioncientifica.usal.es/investigadores/2396788/detalle" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/gonzalo-matias-romano">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de Alejandro Peñuela Díaz"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/alejandro.jpeg"
+                alt="Alejandro Peñuela Díaz"
+            >
+
+            <div class="nn-player-card__overlay"></div>
+        </div>
+
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Colaborador
+            </div>
+            <h3 class="nn-player-card__name">Alejandro Peñuela Díaz</h3>
+        </div>
+    </div>
+
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/alejandro.jpeg"
+                alt="Alejandro Peñuela Díaz"
+            >
+
+        </div>
+
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Colaborador
+            </div>
+
+            <h3 class="nn-player-card__name nn-player-card__name--hover">Alejandro Peñuela Díaz</h3>
+
+            <div class="nn-player-card__description">
+                Alejandro Peñuela Díaz es físico y matemático, y trabaja en la Universidad de Rostock, en Alemania. Aunque su día a día gira en torno a la ciencia, siempre ha tenido un gran interés por la historia.
+            </div>
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://orcid.org/0000-0002-5686-5973" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/alejandro-penuela-diaz">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de Diego Martín González"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/Diego.png"
+                alt="Diego Martín González"
+            >
+
+            <div class="nn-player-card__overlay"></div>
+        </div>
+
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Colaborador
+            </div>
+            <h3 class="nn-player-card__name">Diego Martín González</h3>
+        </div>
+    </div>
+
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/Diego.png"
+                alt="Diego Martín González"
+            >
+
+        </div>
+
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Colaborador
+            </div>
+
+            <h3 class="nn-player-card__name nn-player-card__name--hover">Diego Martín González</h3>
+
+            <div class="nn-player-card__description">
+                Diego Martín González es un estudiante de doctorado en la Universidad de Salamanca, está interesado en la formación de las primeras estrellas, galaxias y agujeros negros supermasivos en el universo temprano. Particularmente en la influencia de poblaciones de agujeros negros primordiales sobre estos procesos. El doctorando está financiado por con una beca del Fondo Social Europeo Plus, Programa Operativo de Castilla y León, Consejería de Educación, Junta de Castilla y León
+            </div>
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://gracus.usal.es/member.php?id=24" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/diego-martin-gonzalez">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    <article class="nn-player-card nn-player-card--expand">
+    <div
+        class="nn-player-card__preview"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+        aria-label="Ver información de Lauren García Chávez"
+    >
+        <div class="nn-player-card__media">
+            <img
+                class="nn-player-card__image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/laruen.jpeg"
+                alt="Lauren García Chávez"
+            >
+
+            <div class="nn-player-card__overlay"></div>
+        </div>
+
+        <div class="nn-player-card__base">
+            <div class="nn-player-card__role">
+                Colaborador
+            </div>
+            <h3 class="nn-player-card__name">Lauren García Chávez</h3>
+        </div>
+    </div>
+
+    <div class="nn-player-card__expanded">
+        <div class="nn-player-card__expanded-media">
+            <img
+                class="nn-player-card__expanded-image nn-player-card__image--static"
+                src="https://napkinnotes.es/images/laruen.jpeg"
+                alt="Lauren García Chávez"
+            >
+
+        </div>
+
+        <div class="nn-player-card__expanded-content">
+            <div class="nn-player-card__role nn-player-card__role--hover">
+                Colaborador
+            </div>
+
+            <h3 class="nn-player-card__name nn-player-card__name--hover">Lauren García Chávez</h3>
+
+            <div class="nn-player-card__description">
+                Microbióloga de formación realizando un doctorado en microbiología de plantas en el IRNASA-CSIC. Su investigación se centra en la microbiología del suelo y en comprender cómo las comunidades de microorganismos que lo habitan contribuyen al funcionamiento de los ecosistemas, la fertilidad del suelo y el reciclaje de nutrientes. Trabaja en las dehesas mediterráneas, donde estudia cómo las condiciones ambientales y el manejo del suelo influyen en estas comunidades invisibles, pero esenciales para la vida. Además, le apasiona la virología y el papel de los microorganismos en la comprensión de nuestro mundo. Le interesa especialmente cómo su capacidad de adaptación y evolución permite reconstruir cambios del pasado y explorar cómo la vida puede responder a los desafíos del futuro, desde las transformaciones de los ecosistemas hasta el cambio climático.
+            </div>
+
+            <div class="nn-player-card__links">
+                <a class="nn-player-card__link" href="https://www.irnasa.csic.es/garcia-chavez-lauren/" target="_blank" rel="noopener noreferrer">
+                    Ver perfil
+                </a>
+
+                <a class="nn-player-card__link" href="https://napkinnotes.es/autor/lauren-garcia-chavez">
+                    Ver artículos
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+        </div>
     </section>
 
     <section class="nn-squad-extra">
@@ -1113,14 +1293,16 @@
     "use strict";
 
     const MOBILE_BREAKPOINT = 980;
-    const grid = document.getElementById("nnSquadGrid");
+    const grids = Array.from(
+        document.querySelectorAll(".nn-team-grid")
+    );
 
-    if (!grid) {
+    if (!grids.length) {
         return;
     }
 
     const cards = Array.from(
-        grid.querySelectorAll(".nn-player-card")
+        document.querySelectorAll(".nn-team-grid .nn-player-card")
     );
 
     let openCard = null;
@@ -1160,7 +1342,16 @@
 
     function getRowEndCard(card) {
 
-        const cardIndex = cards.indexOf(card);
+        const cardGrid = card.closest(".nn-team-grid");
+
+        if (!cardGrid) {
+            return card;
+        }
+
+        const rowCards = Array.from(
+            cardGrid.querySelectorAll(".nn-player-card")
+        );
+        const cardIndex = rowCards.indexOf(card);
 
         if (cardIndex === -1) {
             return card;
@@ -1169,10 +1360,10 @@
         const rowStart = Math.floor(cardIndex / 2) * 2;
         const rowEndIndex = Math.min(
             rowStart + 1,
-            cards.length - 1
+            rowCards.length - 1
         );
 
-        return cards[rowEndIndex];
+        return rowCards[rowEndIndex];
     }
 
 
