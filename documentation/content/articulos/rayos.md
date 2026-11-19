@@ -5,6 +5,7 @@ date: 2026-09-17
 layout: articles
 status: published
 category: Meteorología
+certificate: true
 tags:
   - tormentas
   - rayos
