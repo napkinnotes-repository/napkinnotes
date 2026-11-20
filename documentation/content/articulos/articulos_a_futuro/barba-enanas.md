@@ -41,7 +41,7 @@ $$
 
 Hemos demostrado de forma muy sencilla que la única opción para la fuente de energía del interior del Sol, y por extensión de la mayoría de luceros del cielo nocturno, es la energía nuclear <a class="nn-cite" href="#kww">[1]</a>.
 
-
+---
 
 ## Residuos nucleares de la evolución estelar
 Toda reacción nuclear, tanto las de nuestros reactores de fisión como la fusión en el interior de las estrellas, transforma una especie de núcleo en otra. En el caso del Sol, está transformando hidrógeno en helio y emitiendo energía en el proceso. Cuando en el centro de la estrella solo haya helio, entonces se activará otra cadena de reacciones nucleares cuyo resultado es una mezcla, de proporciones inciertas, de carbono y oxígeno.
@@ -57,6 +57,8 @@ Toda reacción nuclear, tanto las de nuestros reactores de fisión como la fusi�
 El resultado de esta segunda cadena de reacciones es una estructura química en capas en el interior de la estrella, como la de la Figura 1. Lo que ocurra a partir de aquí viene dado por la masa de la estrella: si esta es muy grande $M\gg M_\odot$ entonces la temperatura en el centro es suficiente para activar la siguiente cadena de fusión. En el caso del Sol, esto no es así. El carbono y oxígeno del centro son inertes, residuos nucleares del proceso que permite la vida actual en la Tierra.
 
 En esta etapa, los días del Sol estarán contados. Habrá crecido hasta engullir parte de los planetas rocosos del Sistema Solar, y será tan grande que sus capas exteriores acabarán abandonando la estrella, excepto por el núcleo de carbono y oxígeno, que queda en el centro. Esta zona central de la estrella no genera energía y, por tanto, no es capaz de evitar que la gravedad empuje toda la materia hacia el centro, aumentando enormemente su densidad.
+
+---
 
 ## Diamantes estelares
 El objeto que queda en el centro de la estrella tras haber perdido sus capas exteriores es lo que conocemos como una enana blanca. Es una estrella compacta: aproximadamente el 60 % de la masa del Sol está empaquetada en un objeto esférico con un radio igual al de la Tierra. Es difícil concebir con nuestra mente la enormidad de las densidades que se encuentran en el interior de estos objetos. Lo podemos intentar imaginándonos terrones de azúcar de $1 \ \rm cm$ de lado:
@@ -100,6 +102,8 @@ Lo que hace extremadamente interesante a este plasma es que, dada la ausencia de
 Durante el proceso de enfriamiento de una enana blanca, muchísimos procesos microfísicos afectan, a la vez, a la velocidad a la cual el objeto se enfría. Sin embargo, durante gran parte del tiempo tras morir, el Sol tendrá una estructura similar a la de la Figura 3. Es decir, un núcleo cristalizado, una envoltura todavía líquida, y una atmósfera muy fina en la que todavía hay restos de helio o hidrógeno provenientes de la estrella original. 
 
 Al final de su vida, el Sol no será más, ni menos, que un diamante en el cielo. No será un diamante como el de un anillo, sino un cristal de carbono y oxígeno; pero la imagen no anda desencaminada.
+
+---
 
 ## Referencias
 
