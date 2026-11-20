@@ -25,7 +25,7 @@ Esta mañana, tras despertarme, antes de abrir las cortinas había algo diferent
 Había nevado. La primera nevada del año. Pero no había sido una de esas nevadas tímidas que apenas consiguen cubrir los tejados antes de desaparecer. No no. Había caído una nevada de las de verdad. De esas que entierran los caminos bajo centímetros y centímetros de nieve, que borran los límites entre el parterre y la calle, que cubren los árboles y los tejados hasta convertirlo todo en un inmenso paisaje blanco, que dejan acequias, antes secas, ahora llenas de agua congelada y estática.
 Durante unos instantes me quedé mirando. Resultaba curioso cómo algo tan sencillo como una nevada podía transformar por completo el paisaje desde mi ventana. Los árboles seguían siendo los mismos, las casas no se habían movido y, sin embargo, todo parecía diferente. Como si alguien hubiera decidido borrar los colores del mundo durante la noche y enterrarlos bajo un blanco puro.
 
-Siendo la primera nevada desde hace meses, me decidí a salir al jardín. La nieve crujía bajo mis pies y cada paso dejaba una huella profunda en aquella superficie que, hasta hace unos segundos antes, estaba intacta. Me agaché, cogí un puñado de nieve entre las manos y, sin pensármelo demasiado, acabé dejándome caer de espaldas sobre ella. Allí me quedé un momento, mirando al cielo, rodeado de aquel frío que se colaba por la ropa y de esa tranquilidad que hay después de una gran nevada. Pero hubo algo que me sacó de esa tranquilidad.
+Siendo la primera nevada desde hace meses, me decidí a salir al jardín. La nieve crujía bajo mis pies y cada paso dejaba una huella profunda en aquella superficie que, hasta hace unos segundos antes, estaba intacta. Me agaché, cogí un puñado de nieve entre las manos y, sin pensármelo demasiado, acabé dejándome caer de espaldas sobre ella. Allí me quedé un momento, mirando al cielo, rodeado de aquel frío que se colaba por la ropa y de ese silencio acolchado que hay después de una gran nevada. Pero hubo algo que me sacó de esa tranquilidad.
 
 Era blanca.
 
@@ -41,10 +41,9 @@ Es una observación bastante estúpida, ¿de qué color iba a ser la nieve? Apre
   </figcaption>
 </figure>
 
-Porque, piensalo un segundo, la nieve no es más que agua congelada. Y el agua pues es transparente. Puedes ver a través de un vaso lleno sin ningún problema. Si la calientas hasta convertirla en vapor, también es más o menos transparente. Y si la enfrias hasta formar un bloque de hielo podremos seguir mirando a través de él con mayor o menor dificultad o opacidad. Es verdad que esto último depende del congelador que tengas. El mío, que suena peor que un Fórmula 1 desde que les metieron los motores eléctricos, pues hace hielos de dudosa transparencia...pero eso es otra historia.
+Porque, piensalo un segundo, la nieve no es más que agua congelada. Y el agua pues es transparente. Puedes ver a través de un vaso lleno sin ningún problema. Si la calientas hasta convertirla en vapor, también es más o menos transparente. Y si la enfrias hasta formar un bloque de hielo podemos seguir mirando a través de él con mayor o menor dificultad u opacidad. Es verdad que esto último depende del congelador que tengas. El mío, que suena peor que un Fórmula 1 desde que les metieron los motores eléctricos, pues hace hielos de dudosa transparencia...pero bueno eso es otra historia.
 
 Tres estados de una misma sustancia. Tres formas de presentarse ante nuestros ojos sin apenas impedirnos ver lo que haya detrás.
-
 Y, sin embargo, basta con que esa misma agua se convierta en nieve para que aparezca un blanco tan intenso que, bajo la luz del sol, puede llegar incluso a deslumbrarte. Incluso te puedes quemar con la nieve.
 
 
