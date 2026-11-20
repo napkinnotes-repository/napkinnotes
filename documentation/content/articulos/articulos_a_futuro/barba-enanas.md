@@ -17,6 +17,8 @@ certificate: false
 ---
 
 [TOC]
+
+
 Una experiencia común entre los humanos es mirar al cielo. Al hacerlo, nos damos cuenta de que existen en el cielo objetos que emiten luz y calor. Durante la noche, vemos puntos de luz en el cielo, que titilan y poseen sutiles colores. Durante el día, un poderoso círculo blanco emite luz que no solo ilumina todo el mundo a nuestro alrededor, sino que también calienta el aire, el suelo, todos los seres vivos y cualquier entidad en la superficie del planeta.
 
 Cotidianas obviedades como estas, a pesar de su simpleza, pueden darnos muchísima información sobre los objetos responsables de la luz y calor que observamos y sentimos. Con los años, físicos y astrónomos han convergido en cuál es la historia que un objeto como el Sol ha vivido desde su creación, y en cuál es su futuro y su destino final. En este último nos centramos en esta servilleta. En cómo, para la mente humana, un punto en el cielo se convirtió en un colosal diamante flotante.
