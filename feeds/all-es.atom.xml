@@ -1,5 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-11-19T00:00:00+01:00</updated><entry><title>El okupa que vive dentro de tus células</title><link href="https://napkinnotes.es/el-okupa-que-vive-dentro-de-tus-celulas" rel="alternate"/><published>2026-11-19T00:00:00+01:00</published><updated>2026-11-19T00:00:00+01:00</updated><author><name>Lauren García Chávez</name></author><id>tag:napkinnotes.es,2026-11-19:/el-okupa-que-vive-dentro-de-tus-celulas</id><summary type="html">&lt;p&gt;¿Son los virus seres vivos? Un recorrido por sus características, las teorías sobre su origen y las pistas que ofrecen acerca de la evolución de la&amp;nbsp;vida.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Napkin Notes</title><link href="https://napkinnotes.es/" rel="alternate"/><link href="https://napkinnotes.es/feeds/all-es.atom.xml" rel="self"/><id>https://napkinnotes.es/</id><updated>2026-11-26T00:00:00+01:00</updated><entry><title>Enanas blancas: los diamantes del cielo</title><link href="https://napkinnotes.es/enanas-blancas-los-diamantes-del-cielo" rel="alternate"/><published>2026-11-26T00:00:00+01:00</published><updated>2026-11-26T00:00:00+01:00</updated><author><name>David Barba González</name></author><id>tag:napkinnotes.es,2026-11-26:/enanas-blancas-los-diamantes-del-cielo</id><summary type="html">&lt;p&gt;Dentro de 10.000 millones de años, mucho después de que el Sol haya engullido a Mercurio, Venus y probablemente a la Tierra, lo único que quedará de la estrella que hoy nos da la vida es un enorme diamante flotando en la&amp;nbsp;galaxia.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#una-estrella-es-un-reactor-nuclear-de-fusion"&gt;Una estrella es un reactor nuclear de&amp;nbsp;fusión&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#residuos-nucleares-de-la-evolucion-estelar"&gt;Residuos nucleares de la evolución&amp;nbsp;estelar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#diamantes-estelares"&gt;Diamantes&amp;nbsp;estelares&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referencias"&gt;Referencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Una experiencia común entre los humanos es mirar al cielo. Al hacerlo, nos damos cuenta de que existen en él objetos que emiten luz y calor. Durante la noche, vemos puntos brillantes que titilan y poseen sutiles colores. Durante el día, un poderoso círculo blanco emite luz que no solo ilumina todo a nuestro alrededor, sino que también calienta el aire, el suelo, los seres vivos y cualquier entidad en la superficie del&amp;nbsp;planeta.&lt;/p&gt;
+&lt;p&gt;Obviedades cotidianas como estas, a pesar de su simpleza, pueden darnos muchísima información sobre los objetos responsables de la luz y el calor que observamos y sentimos. Con los años, físicos y astrónomos han convergido en cuál es la historia que un objeto como el Sol ha vivido desde su creación, y en cuál será su futuro y su destino final. En estos últimos nos centraremos en esta&amp;nbsp;servilleta.&lt;/p&gt;
+&lt;h2 id="una-estrella-es-un-reactor-nuclear-de-fusion"&gt;Una estrella es un reactor nuclear de fusión&lt;a class="headerlink" href="#una-estrella-es-un-reactor-nuclear-de-fusion" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Una estrella emite luz y calor, y lo hace de forma continua. Esto lo sabemos por nuestra vida cotidiana, pero lo podemos extender hacia el pasado a través de la geología. Sabemos que la Tierra se formó hace unos 4.500 millones de años y el Sol ya existía por entonces. Sea cual sea la fuente de energía que se esconde en el interior de la estrella, esta debe durar&amp;nbsp;mínimo &lt;span class="math"&gt;\(4{,}5\times 10^9\)&lt;/span&gt; años. Las dos principales sospechosas son la energía nuclear y la energía&amp;nbsp;gravitatoria.&lt;/p&gt;
+&lt;p&gt;Empecemos por la última: si consideramos que el Sol se está lentamente contrayendo, y su energía potencial&amp;nbsp;gravitatoria &lt;span class="math"&gt;\(E_{\rm grav}\)&lt;/span&gt; se emite como&amp;nbsp;luminosidad &lt;span class="math"&gt;\(L_{\odot}\)&lt;/span&gt; (luminosidad del Sol), entonces el tiempo máximo que el Sol puede estar brillando&amp;nbsp;es:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+t_{\rm grav} \sim \frac{E_{\rm grav}}{L_\odot}= \frac{G M_\odot^2 }{R_\odot L_\odot} \approx 3\times10^7\,{\rm años}.
+$$&lt;/div&gt;
+&lt;p&gt;En esta expresión hemos usado la energía gravitatoria newtoniana de una esfera con radio y masa iguales a los del&amp;nbsp;Sol &lt;span class="math"&gt;\(R_\odot\)&lt;/span&gt;, &lt;span class="math"&gt;\(M_\odot\)&lt;/span&gt;. Al dividir energía entre luminosidad —energía por unidad de tiempo— obtenemos durante cuánto tiempo podría brillar el Sol con esa energía: más de cien veces menos que la edad de la Tierra. Por ello, la gravedad como fuente de energía queda&amp;nbsp;descartada.&lt;/p&gt;
+&lt;p&gt;Repitamos ahora esta sencilla cuenta para el caso en el que la energía tiene un origen nuclear: la masa del Sol se transforma en energía&amp;nbsp;(&lt;span class="math"&gt;\(E_{\rm nuc}=\epsilon M_\odot c^2\)&lt;/span&gt;) con una&amp;nbsp;eficiencia &lt;span class="math"&gt;\(\epsilon\)&lt;/span&gt; del 0,7% asociada a las reacciones de fusión del hidrógeno.&amp;nbsp;Así:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+t_{\rm nuc} =\frac{0{,}007M_\odot c^2}{L_\odot}\approx 10^{11}\,{\rm años}.
+$$&lt;/div&gt;
+&lt;p&gt;De esta forma, hemos demostrado de forma muy sencilla que la única opción para la fuente de energía del interior del Sol, y, por extensión, de la mayoría de luceros del cielo nocturno, es la energía nuclear &lt;a class="nn-cite" href="#kww"&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="residuos-nucleares-de-la-evolucion-estelar"&gt;Residuos nucleares de la evolución estelar&lt;a class="headerlink" href="#residuos-nucleares-de-la-evolucion-estelar" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Toda reacción nuclear, tanto las de nuestros reactores de fisión como la fusión en el interior de las estrellas, transforma una especie de núcleo atómico en otra. En el caso del Sol, se transforma hidrógeno en helio y se emite energía en el proceso. Cuando en el centro de la estrella solo haya helio, entonces se activará otra cadena de reacciones nucleares cuyo resultado será una mezcla, de proporciones inciertas, de carbono y&amp;nbsp;oxígeno.&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+    &lt;img src="https://napkinnotes.es/images/barba-enanas/capas-estrella-pedro.jpeg" alt="Corte de una estrella como el Sol al final de su vida: hidrógeno por fuera, helio en medio y un núcleo de carbono y oxígeno. Un pulpo señala el núcleo con un tentáculo. Al lado, la secuencia hidrógeno, helio, carbono y oxígeno."&gt;
+  &lt;figcaption&gt;
+    Figura 1. Corte de una estrella como el Sol al final de su vida: hidrógeno por fuera, helio en medio y un núcleo de carbono y oxígeno. El pulpo señala el núcleo de la estrella con un tentáculo. 
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;El resultado de esta segunda cadena de reacciones es una estructura química en capas como la de la Figura 1 en el interior de la estrella. Lo que ocurre a partir de ella viene dado por la masa de la estrella: si esta es muy&amp;nbsp;grande &lt;span class="math"&gt;\(M\gg M_\odot\)&lt;/span&gt; entonces la temperatura en el centro es suficiente para activar la siguiente cadena de fusión. En el caso del Sol, esto no es así. El carbono y oxígeno de su centro serán inertes, residuos nucleares del proceso que permite la vida actual en la&amp;nbsp;Tierra.&lt;/p&gt;
+&lt;p&gt;En esta etapa, los días del Sol estarán contados. Habrá crecido hasta engullir parte de los planetas rocosos del Sistema Solar, y será tan grande que sus capas exteriores acabarán abandonando la estrella, quedando solo el núcleo de carbono y oxígeno. Esta zona central de la estrella no genera energía y, por tanto, no es capaz de evitar que la gravedad empuje toda la materia que la forma hacia el centro, aumentando enormemente su&amp;nbsp;densidad.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="diamantes-estelares"&gt;Diamantes estelares&lt;a class="headerlink" href="#diamantes-estelares" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El objeto que queda en el centro de la estrella tras haber perdido sus capas exteriores es lo que conocemos como una enana blanca. Es una estrella compacta: aproximadamente el 60 % de la masa del Sol está empaquetada en un objeto esférico con un radio igual al de la Tierra. Es difícil concebir con nuestra mente la enormidad de las densidades que se encuentran en el interior de estos objetos. Lo podemos intentar imaginándonos terrones de azúcar&amp;nbsp;de &lt;span class="math"&gt;\(1 \ \rm cm\)&lt;/span&gt; de&amp;nbsp;lado:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Un terrón de azúcar contiene aproximadamente 1 gramo: su densidad es de&amp;nbsp;1 &lt;span class="math"&gt;\(\rm g \ cm^{-3}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Un terrón de material con la densidad media del planeta Tierra contiene aproximadamente 5&amp;nbsp;gramos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Un terrón de material de una enana blanca, con masa típica del 60 % de la masa del Sol, contiene entre 1 y 10 millones de gramos (entre 1 y 10&amp;nbsp;toneladas).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Creo que no necesito convenceros del nulo éxito que tendríais si intentaseis concentrar 10.000 kilogramos de —digamos— pulpo en un cubito de un centímetro de lado. Estaríamos hablando de meter a 2.000 pulpos juntos en un dado de parchís. No tengo claro por qué me he puesto a escribir sobre pulpos.&amp;nbsp;Perdonadme. &lt;/p&gt;
+&lt;p&gt;El lector curioso debería estar todavía preguntándose qué fuerza es capaz de parar la contracción descrita en el último párrafo de la sección anterior. Si una enana blanca es un cuerpo celeste duradero, el colapso debe frenarse o se convertiría en un agujero negro. Este papel de freno del colapso y estabilización lo juega la presión de degeneración de electrones: las altas densidades hacen que los únicos estados cuánticos accesibles para la mayor parte de los electrones tengan un momento lineal asociado muy grande.  Este alto momento lineal de los electrones es la fuente de la presión que frena el colapso. Decimos que en estas condiciones los electrones están&amp;nbsp;degenerados.&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+    &lt;img src="https://napkinnotes.es/images/barba-enanas/simulacion-cristalizacion-pedro.gif" alt="Animación de iones en un plasma que, al enfriarse, pasan de moverse desordenadamente a ordenarse en una red cristalina, mientras un pulpo pasea entre ellos.""&gt;
+  &lt;figcaption&gt;
+    Figura 2. Simulación dinámica de la cristalización de un plasma de iones. Al enfriarse, los iones pasan de moverse desordenadamente a ordenarse en una red cristalina. También hay un pulpo. Simulación de producción propia, usando datos similares a los publicados en &lt;a class="nn-cite" href="#bap22"&gt;[2]&lt;/a&gt;.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;¿Qué material tenemos entonces en el interior de la enana blanca? Se denomina plasma. En el plasma, las enormes presiones arrancan los electrones de los átomos, por lo que los núcleos están completamente ionizados y los electrones forman un mar cuántico que los envuelve. La dinámica de los electrones del sistema está dominada por la presión de degeneración, mientras que los iones siguen las leyes de la electrostática: los núcleos se repelen entre ellos de acuerdo a la ley de Coulomb. Dicha repulsión tiene el efecto de estabilizar a los iones, que buscan colocarse lo más lejos posible unos de otros. En sentido contrario, la energía térmica interna de los iones los aleja de estas posiciones de equilibrio. Esta lucha se codifica en un&amp;nbsp;cociente:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Gamma \sim \frac{E_{\textrm{electrostática}}}{E_{\textrm{térmica}}} \sim \frac{\dfrac{Z^2 e^2}{d}}{k_{\rm B} T},
+$$&lt;/div&gt;
+&lt;p&gt;donde &lt;span class="math"&gt;\(Z\)&lt;/span&gt; es el número de protones en el&amp;nbsp;ion, &lt;span class="math"&gt;\(e\)&lt;/span&gt; es la carga elemental (la del&amp;nbsp;protón), &lt;span class="math"&gt;\(d\)&lt;/span&gt; es la distancia media entre iones&amp;nbsp;vecinos, &lt;span class="math"&gt;\(T\)&lt;/span&gt; la temperatura&amp;nbsp;y &lt;span class="math"&gt;\(k_{\rm B}\)&lt;/span&gt; la constante de&amp;nbsp;Boltzmann.&lt;/p&gt;
+&lt;p&gt;Lo que hace extremadamente interesante a este plasma es que, dada la ausencia de cualquier forma de producción de energía, no hace más que enfriarse, mientras irradia calor al espacio. Y al enfriarse, llega un punto en que el&amp;nbsp;cociente &lt;span class="math"&gt;\(\Gamma\)&lt;/span&gt; supera un valor de aproximadamente 175 y el plasma automáticamente se solidifica, formando un cristal ordenado. Podéis ver el proceso de cristalización en la Figura 2, a través de una simulación realista de un plasma análogo: su comportamiento depende solo&amp;nbsp;de &lt;span class="math"&gt;\(\Gamma\)&lt;/span&gt;, así que la cristalización es la misma.  Este sólido «cósmico» es extremadamente duro y resistente a las deformaciones, y tiene propiedades dinámicas y térmicas muy interesantes. Además, hemos sido capaces de detectar los efectos de la cristalización en las poblaciones de enanas blancas observadas a través de telescopios &lt;a class="nn-cite" href="#tremblay19"&gt;[3]&lt;/a&gt;.&lt;/p&gt;
+&lt;figure class="nn-article-figure"&gt;
+    &lt;img src="https://napkinnotes.es/images/barba-enanas/infografia-enana-blanca.jpeg" alt="Infografía del interior de una enana blanca, con un corte que muestra una fina atmósfera de hidrógeno o helio, una capa de carbono y oxígeno líquidos y un núcleo cristalizado. Datos: masa de unas 0,6 veces la del Sol, tamaño como el de la Tierra y un terrón de su materia pesa unas 10 toneladas."&gt;
+  &lt;figcaption&gt;
+    Figura 3. Infografía del interior de una enana blanca, con un corte que muestra una fina atmósfera de hidrógeno o helio, una capa de carbono y oxígeno líquidos y un núcleo cristalizado. Datos: masa de unas 0,6 veces la del Sol, tamaño como el de la Tierra y un terrón de su materia pesa unas 10 toneladas.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Durante el proceso de enfriamiento de una enana blanca, muchísimos procesos microfísicos afectan, a la vez, a la velocidad a la cual el objeto se enfría. Sin embargo, durante gran parte del tiempo tras morir, el Sol tendrá una estructura similar a la de la Figura 3. Es decir, un núcleo cristalizado, una envoltura todavía líquida, y una atmósfera muy fina en la que habrá restos de helio o hidrógeno provenientes de la estrella original. Al final de su vida, el Sol no será más ni menos que un diamante en el cielo. No será como el diamante de un anillo, sino un cristal de carbono y oxígeno; pero la imagen no anda&amp;nbsp;desencaminada.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="referencias"&gt;Referencias&lt;a class="headerlink" href="#referencias" title="Permanent link"&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="nn-references"&gt;
+
+  &lt;li id="kww"&gt;
+    R. Kippenhahn, A. Weigert y A. Weiss (2012). &lt;em&gt;Stellar Structure and Evolution&lt;/em&gt;, 2.ª ed., Springer.
+    &lt;a href="https://link.springer.com/book/10.1007/978-3-642-30304-3" target="_blank" rel="noopener noreferrer"&gt;https://link.springer.com/book/10.1007/978-3-642-30304-3&lt;/a&gt;
+  &lt;/li&gt;
+    &lt;li id="bap22"&gt;
+    D. Barba-González, C. Albertus y M. Á. Pérez-García (2022). Crystallization in single- and multicomponent neutron star crusts, &lt;em&gt;Physical Review C&lt;/em&gt;, 106, 6, 065806.
+    &lt;a href="https://ui.adsabs.harvard.edu/abs/2022PhRvC.106f5806B/abstract" target="_blank" rel="noopener noreferrer"&gt;https://ui.adsabs.harvard.edu/abs/2022PhRvC.106f5806B/abstract&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li id="tremblay19"&gt;
+    P.-E. Tremblay, G. Fontaine, &lt;span class="caps"&gt;N. P.&lt;/span&gt; Gentile Fusillo, &lt;span class="caps"&gt;B. H.&lt;/span&gt; Dunlap, &lt;span class="caps"&gt;B. T.&lt;/span&gt; Gänsicke, &lt;span class="caps"&gt;M. A.&lt;/span&gt; Hollands, &lt;span class="caps"&gt;J. J.&lt;/span&gt; Hermes, &lt;span class="caps"&gt;T. R.&lt;/span&gt; Marsh, E. Cukanovaite y T. Cunningham (2019). Core crystallization and pile-up in the cooling sequence of evolving white dwarfs, &lt;em&gt;Nature&lt;/em&gt;, 565, 7738, 202-205.
+    &lt;a href="https://doi.org/10.1038/s41586-018-0791-x" target="_blank" rel="noopener noreferrer"&gt;https://doi.org/10.1038/s41586-018-0791-x&lt;/a&gt;
+  &lt;/li&gt;
+
+
+
+&lt;/ol&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Astrofísica"/><category term="evolución estelar"/><category term="sol"/><category term="enanas blancas"/><category term="astronomía"/></entry><entry><title>El okupa que vive dentro de tus células</title><link href="https://napkinnotes.es/el-okupa-que-vive-dentro-de-tus-celulas" rel="alternate"/><published>2026-11-19T00:00:00+01:00</published><updated>2026-11-19T00:00:00+01:00</updated><author><name>Lauren García Chávez</name></author><id>tag:napkinnotes.es,2026-11-19:/el-okupa-que-vive-dentro-de-tus-celulas</id><summary type="html">&lt;p&gt;¿Son los virus seres vivos? Un recorrido por sus características, las teorías sobre su origen y las pistas que ofrecen acerca de la evolución de la&amp;nbsp;vida.&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#estar-vivo-o-no-estarlo-esa-es-la-cuestion"&gt;Estar vivo o no estarlo, esa es la&amp;nbsp;cuestión&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#pudieron-los-virus-surgir-antes-que-la-vida"&gt;¿Pudieron los virus surgir antes que la&amp;nbsp;vida?&lt;/a&gt;&lt;/li&gt;
