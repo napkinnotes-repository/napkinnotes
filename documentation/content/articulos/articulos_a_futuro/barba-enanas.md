@@ -1,7 +1,7 @@
 ---
 title: "Enanas blancas: los diamantes del cielo"          # vuestro título
 author: David Barba González               # mismo nombre que en la tarjeta de autor
-date: 2026-11-26          # formato YYYY-MM-DD
+date: 2026-11-24          # formato YYYY-MM-DD
 layout: articles
 status: published # published si ya está listo
 category: Astrofísica             # categoría con mayúscula inicial
