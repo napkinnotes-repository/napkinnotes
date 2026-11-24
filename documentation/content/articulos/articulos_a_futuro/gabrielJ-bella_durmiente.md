@@ -60,7 +60,7 @@ $$
 
 En palabras, diríamos que la probabilidad de que hoy sea lunes y la moneda haya caído cara es igual a la probabilidad de que sea lunes y la moneda haya caído cruz.
 
-De [1] y [2], se obtiene que
+De [1] y [2], se obtiene que:
 
 $$
 P\left( \text{lunes} \cap \text{cara} \right) = P\left( \text{lunes} \cap \text{cruz} \right) = P\left( \text{martes} \cap \text{cruz} \right) \tag{3}
@@ -86,11 +86,11 @@ A continuación, damos otra mirada al problema para sembrar la duda en ese lecto
 
 ### La defensa del terciero
 
- Llegado a este punto, el terciero despliega dos estrategias. Por un lado, refuerza su argumento apelando solo a la intuición, nada de álgebra. Por el otro —y por aquello de que la mejor defensa es el ataque— encuentra consecuencias contraintuitivas de la respuesta del mediero.
+ Llegados a este punto, el terciero despliega dos estrategias. Por un lado, refuerza su argumento apelando solo a la intuición, nada de álgebra. Por el otro —y por aquello de que la mejor defensa es el ataque— encuentra consecuencias contraintuitivas de la respuesta del mediero.
 
 Vamos con la primera línea de fuego.<a class="nn-cite" href="#ref-3">[3]</a>
 
-Supongamos que los investigadores permiten a la bella durmiente repetir el experimento cuanto quiera antes de formarse una idea de cómo debería contestar a la pregunta sobre su grado de confianza en que la moneda cayera cara. De común acuerdo, se decide efectuar una batería de 1000 réplicas del experimento original para colectar suficientes datos. (1000 experimentos, mil semanas, 19,17 años: eso es compromiso con la ciencia). Los nuevos experimentos procederán de la misma manera que el original, excepto por un detalle. En lugar de formular la difícil pregunta a la bella durmiente, en cada despertar los investigadores le informarán si la moneda cayó cara o cruz para que la introduzca en una base de datos a la que tendrá acceso al concluir el último de los 1000 experimentos.
+Supongamos que los investigadores permiten a la bella durmiente repetir el experimento cuanto quiera antes de formarse una idea de cómo debería contestar a la pregunta sobre su grado de confianza en que la moneda cayera cara. De común acuerdo, se decide efectuar una batería de 1000 réplicas del experimento original para colectar suficientes datos (1000 experimentos; mil semanas; 19,17 años: eso es compromiso con la ciencia). Los nuevos experimentos procederán de la misma manera que el original, excepto por un detalle. En lugar de formular la difícil pregunta a la bella durmiente, en cada despertar los investigadores le informarán si la moneda cayó cara o cruz para que la introduzca en una base de datos a la que tendrá acceso al concluir el último de los 1000 experimentos.
 
 Sin perder generalidad en lo esencial, supondremos además lo que sucedió en esos mil experimentos: cayeron exactamente 500 caras y 500 cruces. Al final de la serie, la base de datos de la bella durmiente registra 1500 despertares, 500 de los cuales son despertares-cara y el resto son despertares-cruz; o sea, el doble de despertares-cruz que de despertares-cara. De modo que la bella durmiente deduce que, ante un despertar cualquiera, su confianza en que salió cruz debería duplicar su confianza en que salió cara. Siendo los dos resultados exhaustivos, su grado de confianza en que salió cara debería ser ⅓ —gústele a quien le guste y pésele a quien le pese.
 
@@ -98,37 +98,37 @@ Supongamos que los investigadores le ofrecieran a la bella durmiente participar 
 
 #### Segunda línea de fuego.
 
-Hay una consecuencia indeseable de la respuesta del contrario. El mediero considera que
+Hay una consecuencia indeseable de la respuesta del contrario. El mediero considera que:
 
 $$
 P\left( \text{cara} \right) = P\left( \text{cruz} \right) = \frac{1}{2} \tag{5}
 $$
 
-Como la bella durmiente solo se despierta una vez cuando la moneda cae cara
+Como la bella durmiente solo se despierta una vez cuando la moneda cae cara:
 
 $$
 P\left( \text{cara} \cap \text{lunes} \right) = \frac{1}{2} \tag{6}
 $$
 
-y como se despierta dos veces cuando cae cruz
+y como se despierta dos veces cuando cae cruz:
 
 $$
 P\left( \text{cruz} \cap \text{lunes} \right) + P\left( \text{cruz} \cap \text{martes} \right) = \frac{1}{2} \tag{7}
 $$
 
-Usando la expresión [7], y la [1], que el mediero también acepta, se obtiene que
+Usando la expresión [7], y la [1], que el mediero también acepta, se obtiene que:
 
 $$
 P\left( \text{cruz} \cap \text{lunes} \right) = \frac{1}{4} \tag{8}
 $$
 
-*Cara & lunes* y *cruz & lunes* son eventos excluyentes que agotan el espacio de posibilidades del lunes, por lo que
+*Cara & lunes* y *cruz & lunes* son eventos excluyentes que agotan el espacio de posibilidades del lunes, por lo que:
 
 $$
 P\left( \text{lunes} \right) =  P\left( \text{cara} \cap \text{lunes} \right) + P\left( \text{cruz} \cap \text{lunes} \right)
 $$
 
-Expandiendo la probabilidad condicional de cara dado lunes,
+Expandiendo la probabilidad condicional de cara dado lunes:
 
 $$
 P\left( \text{cara} \mid \text{lunes} \right) = \frac{P\left( \text{cara} \cap \text{lunes} \right)}{P\left( \text{cara} \cap \text{lunes} \right) + P\left( \text{cruz} \cap \text{lunes} \right)} = \frac{2}{3} \tag{9}
