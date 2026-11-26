@@ -285,13 +285,6 @@ AUTHORS = {
         "blurb": "Microbióloga de formación realizando un doctorado en microbiología de plantas en el IRNASA-CSIC. Su investigación se centra en la microbiología del suelo y en comprender cómo las comunidades de microorganismos que lo habitan contribuyen al funcionamiento de los ecosistemas, la fertilidad del suelo y el reciclaje de nutrientes. Trabaja en las dehesas mediterráneas, donde estudia cómo las condiciones ambientales y el manejo del suelo influyen en estas comunidades invisibles, pero esenciales para la vida. Además, le apasiona la virología y el papel de los microorganismos en la comprensión de nuestro mundo. Le interesa especialmente cómo su capacidad de adaptación y evolución permite reconstruir cambios del pasado y explorar cómo la vida puede responder a los desafíos del futuro, desde las transformaciones de los ecosistemas hasta el cambio climático.",
         "articles_url": "autor/lauren-garcia-chavez",       
     },
-    #"Elena Calle Clemente": {
-    #    "url": "https://www.linkedin.com/in/elena-calle-clemente-26774b329?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-    #    "role": "Colaborador",
-    #    "blurb": "<strong>Elena Calle Clemente</strong> (Elenasa) es astrónoma y estudiante de Física en la Universidad de Salamanca. Vinculada a la ciencia desde pequeña, lleva más de cinco años volcada en proyectos de divulgación científica, ejerce profesionalmente como astrónoma con Astroiberia, ademas es secretaria de la asociación universitaria <strong>Supernova</strong> y lidera como pionera el proyecto de accesibilidad <strong>Clarity Blind</strong> junto a la ONCE. Apasionada de las coincidencias matemáticas y de explicar el cosmos de forma cercana y apasionante.",
-    #    "avatar": "images/elena.jpeg",
-    #    "articles_url": "autor/elena-calle-clemente",       
-    #},
     "Gabriel J. Gil Pérez": {
         "url": "https://share.google/beDm2ZTxJeVw6ncxV",
         "role": "Colaborador",
@@ -299,6 +292,13 @@ AUTHORS = {
         "avatar": "images/Gabriel-J-Gil.jpeg",
         "articles_url": "autor/gabriel-J-Gil-Pérez",       
     },
+     #"Elena Calle Clemente": {
+    #    "url": "https://www.linkedin.com/in/elena-calle-clemente-26774b329?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    #    "role": "Colaborador",
+    #    "blurb": "<strong>Elena Calle Clemente</strong> (Elenasa) es astrónoma y estudiante de Física en la Universidad de Salamanca. Vinculada a la ciencia desde pequeña, lleva más de cinco años volcada en proyectos de divulgación científica, ejerce profesionalmente como astrónoma con Astroiberia, ademas es secretaria de la asociación universitaria <strong>Supernova</strong> y lidera como pionera el proyecto de accesibilidad <strong>Clarity Blind</strong> junto a la ONCE. Apasionada de las coincidencias matemáticas y de explicar el cosmos de forma cercana y apasionante.",
+    #    "avatar": "images/elena.jpeg",
+    #    "articles_url": "autor/elena-calle-clemente",       
+    #},
 }
 
 # Orden automático de autores por número de artículos publicados.
