@@ -39,9 +39,15 @@ Observamos un espectro de absorción cuando la luz proveniente de un objeto, com
 Finalmente, el espectro de emisión es el resultado de átomos y moléculas excitadas que emiten luz. Cuando la luz estelar atraviesa una nebulosa, puede calentar la nube, lo que excita las moléculas de gas y los elementos presentes, provocando que emitan luz. El espectro de emisión resultante contiene una serie de líneas brillantes de colores que corresponden a las longitudes de onda de la luz emitida por dichos átomos y moléculas excitadas.
 
 <!-- AQUÍ INSERTAR VIDEO -->
-<video controls width="100%">
-  <source src="https://napkinnotes.es/images/maria-espectro/hubble-spectrum-to-spectrogram240p.mp4" type="video/mp4">
-</video>
+<figure>
+  <video controls width="100%">
+    <source src="https://napkinnotes.es/images/maria-espectro/hubble-spectrum-to-spectrogram240p.mp4" type="video/mp4">
+  </video>
+  <figcaption>
+    Vídeo: NASA Goddard/Shireen Dooling.
+    Fuente: <a href="https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-spectroscopy/">NASA – Hubble Spectroscopy</a>.
+  </figcaption>
+</figure>
 
 ## ¡Construyamos nuestro espectrógrafo!
 
@@ -55,6 +61,7 @@ Para montar nuestro espectrógrafo casero necesitaremos:
 
 <!-- AQUÍ INSERTAR FIGURA DIY-->
 ![Procedimiento para construir nuestro espectrógrafo casero.](/images/maria-espectro/DIY%20Spectroscope%20Craft%20and%20Spectra.png)
+
 ¡Manos a la obra!
 
 Primero, retiraremos la capa reflectante del CD o DVD con ayuda de cinta americana, hasta dejar una parte transparente por la que pueda pasar la luz. Después, recortaremos un pequeño fragmento del disco. A continuación, en uno de los extremos del tubo de cartón, cortaremos un pequeño rectángulo que servirá como ventana de observación. Colocaremos el fragmento de CD o DVD sobre esta abertura y lo fijaremos con cinta americana. El CD o DVD actúa como red de difracción gracias a las pequeñísimas muescas que hay en su superficie.
