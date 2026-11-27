@@ -4,6 +4,7 @@ author: María Pérez Garrote
 date: 2026-11-03 
 layout: articles
 status: hidden 
+slug: prueba-maria
 category: Física 
 tags:  
   - física
