@@ -1,7 +1,7 @@
 ---
 title: Construyamos un espectrógrafo casero  
 author: María Pérez Garrote 
-date: 2026-11-03 
+date: 2026-12-03 
 layout: articles
 status: hidden 
 slug: prueba-maria
