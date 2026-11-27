@@ -12,6 +12,7 @@ tags:
   - óptica
 summary: ¿Y si te digo que con un tubo de cartón, cinta americana y un CD puedes construir uno de los instrumentos más importante en astronomía? Con motivo de la semana de la ciencia celebrada este mes de noviembre, hoy en napkin notes vemos cómo con materiales muy sencillos podemos construir un espectrógrafo casero. ¡Manos a la obra!
 image: images/maria-espectro/portada.jpeg
+certificate: false
 ---
 
 [TOC]
