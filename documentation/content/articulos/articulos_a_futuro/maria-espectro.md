@@ -39,11 +39,9 @@ Observamos un espectro de absorción cuando la luz proveniente de un objeto, com
 Finalmente, el espectro de emisión es el resultado de átomos y moléculas excitadas que emiten luz. Cuando la luz estelar atraviesa una nebulosa, puede calentar la nube, lo que excita las moléculas de gas y los elementos presentes, provocando que emitan luz. El espectro de emisión resultante contiene una serie de líneas brillantes de colores que corresponden a las longitudes de onda de la luz emitida por dichos átomos y moléculas excitadas.
 
 <!-- AQUÍ INSERTAR VIDEO -->
-<escape>
 <video controls width="100%">
   <source src="https://napkinnotes.es/images/maria-espectro/hubble-spectrum-to-spectrogram240p.mp4" type="video/mp4">
 </video>
-</escape>
 
 ## ¡Construyamos nuestro espectrógrafo!
 
